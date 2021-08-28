@@ -14,10 +14,6 @@ HTML/CSS/JavaScript. Checkout the [Demo](https://firmware-selector.openwrt.org).
 
 Configure with [config.js](www/config.js).
 
-## Attended Sysupgrade Support
-
-This firmware selector can speak to a [ASU server](https://github.com/aparcar/asu) to build custom images. To enable the feature, the `asu_url` option in the config.js needs to be set.
-
 ## Installation
 
 Place the `www/` folder somewhere web accessible. Then use the `collect.py` script to update `www/config.json` and write all device data into `www/data/`:
