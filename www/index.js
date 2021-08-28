@@ -19,12 +19,6 @@ function split(str) {
   return str.match(/[^\s,]+/g) || [];
 }
 
-/* exported toggleCustomize */
-function toggleCustomize() {
-  $("#custom div").classList.toggle("hide");
-  $("#custom h3").classList.toggle("active");
-}
-
 function getModelTitles(titles) {
   return titles.map((e) => {
     if (e.title) {
@@ -73,7 +67,39 @@ function translate() {
   }
 }
 
-function setupAutocompleteList(input, items, as_list, onbegin, onend) {
+function normalize(s) {
+  // not allowed to change length of string
+  return s.toUpperCase().replace(/[-_.]/g, " ");
+}
+
+// return array of matching ranges
+function match(value, patterns) {
+  // find matching ranges
+  const item = normalize(value);
+  let matches = [];
+  for (const p of patterns) {
+    const i = item.indexOf(p);
+    if (i == -1) return [];
+    matches.push({ begin: i, length: p.length });
+  }
+
+  matches.sort((a, b) => a.begin > b.begin);
+
+  // merge overlapping ranges
+  let prev = null;
+  let ranges = [];
+  for (const m of matches) {
+    if (prev && m.begin <= prev.begin + prev.length) {
+      prev.length = Math.max(prev.length, m.begin + m.length - prev.begin);
+    } else {
+      ranges.push(m);
+      prev = m;
+    }
+  }
+  return ranges;
+}
+
+function setupAutocompleteList(input, items, onbegin, onend) {
   let currentFocus = -1;
 
   // sort numbers and other characters separately
@@ -87,25 +113,16 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
   input.oninput = function () {
     onbegin();
 
-    let offset = 0;
-    let value = this.value;
-    let value_list = [];
-
-    if (as_list) {
-      // automcomplete last text item
-      offset = this.value.lastIndexOf(" ") + 1;
-      value = this.value.substr(offset);
-      value_list = split(this.value.substr(0, offset));
-    }
+    let pattern = this.value;
 
     // close any already open lists of autocompleted values
     closeAllLists();
 
-    if (value.length === 0) {
+    if (pattern.length === 0) {
       return false;
     }
 
-    if (items.includes(value)) {
+    if (items.includes(pattern)) {
       return false;
     }
 
@@ -116,51 +133,37 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
     // append the DIV element as a child of the autocomplete container:
     this.parentNode.appendChild(list);
 
-    function normalize(s) {
-      return s.toUpperCase().replace(/[-_.]/g, " ");
-    }
-
-    const match = normalize(value);
-    let c = 0;
+    const patterns = split(normalize(pattern));
+    let count = 0;
     for (const item of items) {
-      // match
-      let j = normalize(item).indexOf(match);
-      if (j < 0) {
+      const matches = match(item, patterns);
+      if (matches.length == 0) {
         continue;
       }
 
-      // do not offer a duplicate item
-      if (as_list && value_list.indexOf(item) != -1) {
-        continue;
-      }
-
-      c += 1;
-      if (c >= 15) {
+      count += 1;
+      if (count >= 15) {
         let div = document.createElement("DIV");
-        div.innerHTML = "...";
+        div.innerText = "...";
         list.appendChild(div);
         break;
       } else {
         let div = document.createElement("DIV");
-        // make the matching letters bold:
-        div.innerHTML =
-          item.substr(0, j) +
-          "<strong>" +
-          item.substr(j, value.length) +
-          "</strong>" +
-          item.substr(j + value.length) +
-          '<input type="hidden" value="' +
-          item +
-          '">';
+        // make matching letters bold:
+        let prev = 0;
+        let html = "";
+        for (const m of matches) {
+          html += item.substr(prev, m.begin - prev);
+          html += "<strong>" + item.substr(m.begin, m.length) + "</strong>";
+          prev = m.begin + m.length;
+        }
+        html += item.substr(prev);
+        html += '<input type="hidden" value="' + item + '">';
+        div.innerHTML = html;
 
         div.addEventListener("click", function () {
           // include selected value
-          const selected = this.getElementsByTagName("input")[0].value;
-          if (as_list) {
-            input.value = value_list.join(" ") + " " + selected;
-          } else {
-            input.value = selected;
-          }
+          input.value = this.getElementsByTagName("input")[0].value;
           // close the list of autocompleted values,
           closeAllLists();
           onend(input);
@@ -525,7 +528,6 @@ function init() {
         setupAutocompleteList(
           $("#models"),
           Object.keys(obj.profiles),
-          false,
           updateImages,
           (selectList) => {
             changeModel(version, obj, selectList.value, base_url);
