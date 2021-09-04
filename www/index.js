@@ -332,12 +332,7 @@ function createLink(mobj, image, image_url) {
   return a;
 }
 
-function updateImages(mobj, overview, is_custom) {
-  function switchClass(query, from_class, to_class) {
-    $(query).classList.remove(from_class);
-    $(query).classList.add(to_class);
-  }
-
+function updateImages(mobj, overview) {
   // remove all download links
   $$(".download-link").forEach((e) => e.remove());
 
@@ -345,23 +340,6 @@ function updateImages(mobj, overview, is_custom) {
 
   if (mobj) {
     const images = mobj.images;
-
-    // change between "version" and "custom" title
-    if (is_custom) {
-      switchClass("#build-title", "tr-version-build", "tr-custom-build");
-      switchClass(
-        "#downloads-title",
-        "tr-version-downloads",
-        "tr-custom-downloads"
-      );
-    } else {
-      switchClass("#build-title", "tr-custom-build", "tr-version-build");
-      switchClass(
-        "#downloads-title",
-        "tr-custom-downloads",
-        "tr-version-downloads"
-      );
-    }
 
     // update title translation
     translate();
@@ -458,7 +436,7 @@ function changeModel(version, overview, title, base_url) {
       })
       .then((mobj) => {
         mobj["id"] = entry.id;
-        updateImages(mobj, overview, false);
+        updateImages(mobj, overview);
         current_device = {
           version: version,
           id: entry.id,
