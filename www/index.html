@@ -93,48 +93,9 @@
             <!-- download buttons created dynamically and inserted here -->
           </div>
 
-          <div id="help">
-            <!-- Explanatory text for each download button: make visible when hovering -->
-            <span id="factory-help" class="download-help hide tr-factory-help">
-              Use a Factory image to flash a router with OpenWrt for the col1
-              time. You normally do this via the web interface of the original
-              firmware.
-            </span>
-            <span
-              id="sysupgrade-help"
-              class="download-help hide tr-sysupgrade-help"
-            >
-              Use a Sysupgrade image to update a router that already runs
-              OpenWrt. The image can be used with the LuCI web interface or the
-              terminal.
-            </span>
-            <span id="kernel-help" class="download-help hide tr-kernel-help"
-              >Linux kernel as a separate image.</span
-            >
-            <span
-              id="initramfs-help"
-              class="download-help hide tr-initramfs-help"
-              >Linux kernel with basic file system. Used for first installation
-              or recovery.</span
-            >
-            <span id="rootfs-help" class="download-help hide tr-rootfs-help"
-              >Root file system as a separate image.</span
-            >
-            <span id="sdcard-help" class="download-help hide tr-sdcard-help"
-              >Image that is meant to be flashed on an SD-Card.</span
-            >
-            <span id="tftp-help" class="download-help hide tr-tftp-help"
-              >Image that can be applied using the TFTP meachnism of the
-              bootloader</span
-            >
-            <span id="other-help" class="download-help hide tr-other-help"
-              >Image of unknown purpose.</span
-            >
-          </div>
-
+          <!-- only shown if no help text (with sha256sum) is shown -->
           <div class="row">
-            <div class="col1">sha256sum:</div>
-            <div class="col2" id="image-sha256"></div>
+            <div class="col2 hash-content" id="image-sha256"></div>
           </div>
         </div>
 

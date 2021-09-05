@@ -249,33 +249,30 @@ function setValue(query, value) {
   }
 }
 
-function updateHelp(image) {
-  // hide all help texts
-  $$(".download-help").forEach((e) => hide("#" + e.id));
-
+function getHelpTextClass(image) {
   const type = image.type;
   const name = image.name;
 
   if (type.includes("sysupgrade")) {
-    show("#sysupgrade-help");
+    return "tr-sysupgrade-help";
   } else if (type.includes("factory") || type == "trx" || type == "chk") {
-    show("#factory-help");
+    return "tr-factory-help";
   } else if (name.includes("initramfs")) {
-    show("#initramfs-help");
+    return "tr-initramfs-help";
   } else if (
     type.includes("kernel") ||
     type.includes("zimage") ||
     type.includes("uimage")
   ) {
-    show("#kernel-help");
+    return "tr-kernel-help";
   } else if (type.includes("root")) {
-    show("#rootfs-help");
+    return "tr-rootfs-help";
   } else if (type.includes("sdcard")) {
-    show("#sdcard-help");
+    return "tr-sdcard-help";
   } else if (type.includes("tftp")) {
-    show("#tftp-help");
+    return "tr-tftp-help";
   } else {
-    show("#other-help");
+    return "tr-other-help";
   }
 }
 
@@ -332,11 +329,15 @@ function createLink(mobj, image, image_url) {
   return a;
 }
 
-function updateImages(mobj, overview) {
-  // remove all download links
-  $$(".download-link").forEach((e) => e.remove());
+function append(parent, tag) {
+  const element = document.createElement(tag);
+  parent.appendChild(element);
+  return element;
+}
 
-  hide("#help");
+function updateImages(mobj, overview) {
+  // remove download table
+  $$("#download-links span").forEach((e) => e.remove());
 
   if (mobj) {
     const images = mobj.images;
@@ -350,7 +351,7 @@ function updateImages(mobj, overview) {
     setValue("#image-version", mobj.version_number);
     setValue("#image-code", mobj.version_code);
     setValue("#image-date", mobj.build_at);
-    setValue("#image-sha256", undefined); // not set by default
+    setValue("#image-sha256", undefined);
 
     setValue(
       "#image-info",
@@ -365,26 +366,51 @@ function updateImages(mobj, overview) {
 
     const image_url = config.image_url || overview.image_url || "";
 
-    for (const image of images) {
-      const a = createLink(mobj, image, image_url);
+    const table = append($("#download-links"), "SPAN");
 
-      a.onmouseover = function () {
+    if (config.show_help) {
+      table.classList.add("download-table");
+    }
+
+    for (const image of images) {
+      const link = createLink(mobj, image, image_url);
+      const help = getHelpTextClass(image);
+      const row = append(table, "SPAN");
+      row.classList.add("download-row");
+
+      const link_cell = append(row, "SPAN");
+      link_cell.classList.add("link-cell");
+      link_cell.appendChild(link);
+
+      const extra_cell = append(row, "SPAN");
+      extra_cell.classList.add("extra-cell");
+
+      const help_div = append(extra_cell, "DIV");
+      const hash_div = append(extra_cell, "DIV");
+
+      help_div.classList.add("help-content");
+      help_div.classList.add(help);
+
+      hash_div.classList.add("hash-content");
+      if (image.sha256) {
+        hash_div.innerText = "sha256sum: " + image.sha256;
+      }
+
+      link.onmouseover = function () {
         // persistent highlight on a single download button
         $$(".download-link").forEach((e) =>
           e.classList.remove("download-link-hover")
         );
-        a.classList.add("download-link-hover");
+        link.classList.add("download-link-hover");
 
-        setValue("#image-sha256", image.sha256);
-
-        if (config.show_help) {
-          show("#help");
-          updateHelp(image);
+        // show hash in table instead of in help text
+        if (!config.show_help) {
+          setValue("#image-sha256", "sha256sum: " + image.sha256);
         }
       };
-
-      $("#download-links").appendChild(a);
     }
+
+    translate();
 
     // set current selection in URL
     history.pushState(
