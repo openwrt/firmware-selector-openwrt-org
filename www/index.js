@@ -271,6 +271,14 @@ function getHelpTextClass(image) {
     return "tr-sdcard-help";
   } else if (type.includes("tftp")) {
     return "tr-tftp-help";
+  } else if (type.includes(".dtb")) {
+    return "tr-dtb-help";
+  } else if (type.includes("cpximg")) {
+    return "tr-cpximg-help";
+  } else if (type.startswith("eva")) {
+    return "tr-eva-help";
+  } else if (type.includes("uboot") || type.includes("u-boot")) {
+    return "tr-uboot-help";
   } else {
     return "tr-other-help";
   }

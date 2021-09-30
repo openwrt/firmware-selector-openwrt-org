@@ -50,6 +50,13 @@ var translations = {
     "tr-date": "Date:",
     "tr-downloads": "Download an image",
     "tr-custom-downloads": "Custom Downloads",
+    "tr-dtb-help":
+      "Device tree blob. This file configures the Linux Kernel for the hardware.",
+    "tr-uboot-help":
+      "Bootloader image. Low-level software which loads the operating system early on boot.",
+    "tr-cpximg-help":
+      "Use with sysupgrade in the stock firmware or with the built-in cpximg loader.",
+    "tr-eva-help": "Image with OpenWrt and a boot loader.",
     "tr-factory-help":
       "Use a Factory image to flash a router with OpenWrt for the first time. You normally do this via the web interface of the original firmware.",
     "tr-sysupgrade-help":
