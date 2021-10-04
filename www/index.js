@@ -19,6 +19,12 @@ function split(str) {
   return str.match(/[^\s,]+/g) || [];
 }
 
+function htmlToElement(html) {
+  var e = document.createElement("template");
+  e.innerHTML = html.trim();
+  return e.content.firstChild;
+}
+
 function getModelTitles(titles) {
   return titles.map((e) => {
     if (e.title) {
@@ -311,9 +317,7 @@ function getNameDifference(images, image) {
 
 // add download button for image
 function createLink(mobj, image, image_url) {
-  const a = document.createElement("A");
-  a.classList.add("download-link");
-  a.href =
+  const href =
     image_url
       .replace("{title}", encodeURI($("#models").value))
       .replace("{target}", mobj.target)
@@ -330,11 +334,13 @@ function createLink(mobj, image, image_url) {
     label += " (" + extra + ")";
   }
 
-  const span = document.createElement("SPAN");
-  span.appendChild(document.createTextNode(""));
-  a.appendChild(span);
-  a.appendChild(document.createTextNode(label.toUpperCase()));
-  return a;
+  return htmlToElement(
+    '<td><a href="' +
+      href +
+      '" class="download-link"><span></span>' +
+      label.toUpperCase() +
+      "</a></td>"
+  );
 }
 
 function append(parent, tag) {
@@ -343,9 +349,24 @@ function append(parent, tag) {
   return element;
 }
 
+function createExtra(image) {
+  return htmlToElement(
+    "<td>" +
+      (config.show_help
+        ? '<div class="help-content ' + getHelpTextClass(image) + '"></div>'
+        : "") +
+      (image.sha256
+        ? '<div class="hash-content">sha256sum: ' + image.sha256 + "</div>"
+        : "") +
+      "</td>"
+  );
+}
+
 function updateImages(mobj, overview) {
   // remove download table
-  $$("#download-links span").forEach((e) => e.remove());
+  $$("#download-table1 *").forEach((e) => e.remove());
+  $$("#download-links2 *").forEach((e) => e.remove());
+  $$("#download-extras2 *").forEach((e) => e.remove());
 
   if (mobj) {
     const images = mobj.images;
@@ -359,7 +380,6 @@ function updateImages(mobj, overview) {
     setValue("#image-version", mobj.version_number);
     setValue("#image-code", mobj.version_code);
     setValue("#image-date", mobj.build_at);
-    setValue("#image-sha256", undefined);
 
     setValue(
       "#image-info",
@@ -373,48 +393,36 @@ function updateImages(mobj, overview) {
     images.sort((a, b) => a.name.localeCompare(b.name));
 
     const image_url = config.image_url || overview.image_url || "";
+    const table1 = $("#download-table1");
+    const links2 = $("#download-links2");
+    const extras2 = $("#download-extras2");
 
-    const table = append($("#download-links"), "SPAN");
+    for (const image of images) {
+      const link = createLink(mobj, image, image_url);
+      const extra = createExtra(image);
 
-    if (config.show_help) {
-      table.classList.add("download-table");
+      const row = append(table1, "TR");
+      row.appendChild(link);
+      row.appendChild(extra);
     }
 
     for (const image of images) {
       const link = createLink(mobj, image, image_url);
-      const help = getHelpTextClass(image);
-      const row = append(table, "SPAN");
-      row.classList.add("download-row");
+      const extra = createExtra(image);
 
-      const link_cell = append(row, "SPAN");
-      link_cell.classList.add("link-cell");
-      link_cell.appendChild(link);
+      links2.appendChild(link);
+      extras2.appendChild(extra);
 
-      const extra_cell = append(row, "SPAN");
-      extra_cell.classList.add("extra-cell");
-
-      const help_div = append(extra_cell, "DIV");
-      const hash_div = append(extra_cell, "DIV");
-
-      help_div.classList.add("help-content");
-      help_div.classList.add(help);
-
-      hash_div.classList.add("hash-content");
-      if (image.sha256) {
-        hash_div.innerText = "sha256sum: " + image.sha256;
-      }
+      extra.classList.add("hide");
 
       link.onmouseover = function () {
-        // persistent highlight on a single download button
-        $$(".download-link").forEach((e) =>
-          e.classList.remove("download-link-hover")
+        links2.childNodes.forEach((e) =>
+          e.firstChild.classList.remove("download-link-hover")
         );
-        link.classList.add("download-link-hover");
+        link.firstChild.classList.add("download-link-hover");
 
-        // show hash in table instead of in help text
-        if (!config.show_help) {
-          setValue("#image-sha256", "sha256sum: " + image.sha256);
-        }
+        extras2.childNodes.forEach((e) => e.classList.add("hide"));
+        extra.classList.remove("hide");
       };
     }
 

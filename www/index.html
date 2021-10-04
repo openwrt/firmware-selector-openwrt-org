@@ -88,14 +88,17 @@
             </div>
           </div>
 
-          <div id="download-links">
-            <h3 id="downloads-title" class="tr-downloads">Download an image</h3>
-            <!-- download buttons created dynamically and inserted here -->
+          <div id="downloads1">
+            <h3 class="tr-downloads">Download an image</h3>
+            <!-- table of rows of download button and help text -->
+            <table id="download-table1"></table>
           </div>
 
-          <!-- only shown if no help text (with sha256sum) is shown -->
-          <div class="row">
-            <div class="col2 hash-content" id="image-sha256"></div>
+          <div id="downloads2" style="display: none">
+            <h3 class="tr-downloads">Download an image</h3>
+            <!-- list of downloads buttons, only one help text is displayed -->
+            <div id="download-links2"></div>
+            <div id="download-extras2"></div>
           </div>
         </div>
 
