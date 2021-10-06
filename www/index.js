@@ -281,7 +281,7 @@ function getHelpTextClass(image) {
     return "tr-dtb-help";
   } else if (type.includes("cpximg")) {
     return "tr-cpximg-help";
-  } else if (type.startswith("eva")) {
+  } else if (type.startsWith("eva")) {
     return "tr-eva-help";
   } else if (type.includes("uboot") || type.includes("u-boot")) {
     return "tr-uboot-help";
