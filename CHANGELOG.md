@@ -2,6 +2,11 @@
 
 Short summaries of recent changes for people who don't use `git log --online`
 
+## v3.7.0 - 2021-10-08
+
+* On desktop screen the menu is now shown as a table which shows the help text
+  and checksum by default.
+
 ## v3.6.0 - 2021-08-29
 
 * Rework of search function so matching of multiple strings now works! This
