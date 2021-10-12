@@ -231,7 +231,8 @@ var translations = {
     "tr-check-again": "Prova di nuovo in 5 secondi...",
   },
   pl: {
-    "tr-server-link": "Pliki",
+    "tr-feedback-link": "Feedback",
+    "tr-server-link": "Wszystkie pliki do pobrania",
     "tr-notfound": "Nie znaleziono modelu!",
     "tr-load": "Pobieranie oprogramowania OpenWrt",
     "tr-title": "OpenWrt Firmware Selector",
@@ -247,6 +248,12 @@ var translations = {
     "tr-date": "Data:",
     "tr-downloads": "Obrazy do pobrania",
     "tr-custom-downloads": "Zmodyfikowane obrazy do pobrania",
+    "tr-dtb-help": "Device tree. Ten plik konfiguruje jądro Linux dla sprzętu.",
+    "tr-uboot-help":
+      "Obraz bootloadera. Oprogramowanie niskiego poziomu, które ładuje system operacyjny wcześnie przy starcie.",
+    "tr-cpximg-help":
+      "Używaj z sysupgrade w firmowym oprogramowaniu lub z wbudowanym programem ładującym cpximg.",
+    "tr-eva-help": "Obraz z OpenWrt i bootloaderem.",
     "tr-factory-help":
       "Obraz factory używany jest do pierwszej instalacji OpenWrt. Zwykle można go użyć wykorzystując interfejs graficzny oryginalnego oprogramowania.",
     "tr-sysupgrade-help":
