@@ -1,4 +1,4 @@
-/* global translations, config */
+/* global config */
 /* exported init */
 let current_device = {};
 let current_language = "en";
@@ -65,12 +65,15 @@ function setupSelectList(select, items, onselection) {
 
 // Change the translation of the entire document
 function translate() {
-  const mapping = translations[current_language];
-  for (const tr in mapping) {
-    $$("." + tr).forEach((e) => {
-      e.innerText = mapping[tr];
+  fetch("langs/" + current_language + ".json")
+    .then((obj) => obj.json())
+    .then((mapping) => {
+      for (const tr in mapping) {
+        $$("." + tr).forEach((e) => {
+          e.innerText = mapping[tr];
+        });
+      }
     });
-  }
 }
 
 function normalize(s) {
@@ -569,20 +572,20 @@ function init() {
   // hide fields
   updateImages();
 
-  // default to browser language
-  const lang = (navigator.language || navigator.userLanguage).toLowerCase();
-  const lang_short = lang.split("-")[0];
-  if (lang in translations) {
-    current_language = lang;
-  } else if (lang_short in translations) {
-    current_language = lang_short;
+  // set language
+  const select = $("#languages select");
+  const long = (navigator.language || navigator.userLanguage).toLowerCase();
+  const short = long.split("-")[0];
+  if (select.querySelector('[value="' + long + '"]')) {
+    current_language = long;
+  } else if (select.querySelector('[value="' + short + '"]')) {
+    current_language = short;
   }
-
-  $("#languages select").value = current_language;
+  select.value = current_language;
 
   translate();
 
-  $("#languages select").onclick = function () {
+  select.onclick = function () {
     current_language = this.children[this.selectedIndex].value;
     translate();
   };
