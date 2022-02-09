@@ -33,7 +33,7 @@ def test_spa():
 
     lang = Select(driver.find_element(By.CSS_SELECTOR, "#languages select"))
 
-    lang.select_by_visible_text("Deutsch")
+    lang.select_by_visible_text("Deutsch (German)")
     message = driver.find_element(By.XPATH, "/html/body/div/div/p")
     assert "benutze die Eingabe um die passende" in message.text
 
@@ -41,6 +41,6 @@ def test_spa():
     message = driver.find_element(By.XPATH, "/html/body/div/div/p")
     assert "el nom o el model del vostre dispositiu" in message.text
 
-    lang.select_by_visible_text("Polski")
+    lang.select_by_visible_text("Polski (Polish)")
     message = driver.find_element(By.XPATH, "/html/body/div/div/p")
     assert "nazwę lub model swojego urządzenia" in message.text
