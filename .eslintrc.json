@@ -6,5 +6,6 @@
     "extends": [
 	    "eslint:recommended",
 	    "prettier"
-    ]
+    ],
+    "ignorePatterns": [ "**/langs/*.json" ]
 }
