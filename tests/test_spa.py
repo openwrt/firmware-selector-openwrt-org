@@ -39,7 +39,7 @@ def test_spa():
 
     lang.select_by_value("ca")
     message = driver.find_element(By.XPATH, "/html/body/div/div/p")
-    assert "servir el formulari de sota per seleccionar" in message.text
+    assert "el nom o el model del vostre dispositiu" in message.text
 
     lang.select_by_visible_text("Polski")
     message = driver.find_element(By.XPATH, "/html/body/div/div/p")
