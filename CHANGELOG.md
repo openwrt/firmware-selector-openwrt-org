@@ -2,6 +2,10 @@
 
 Short summaries of recent changes for people who don't use `git log --online`
 
+## v3.7.1 - 2022-02-10
+
+* Translate the firmware into more languages using Weblate.
+
 ## v3.7.0 - 2021-10-08
 
 * On desktop screen the menu is now shown as a table which shows the help text
