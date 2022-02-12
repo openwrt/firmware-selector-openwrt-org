@@ -1,1 +1,14 @@
-{}
+{
+    "tr-title": "Nástroj na výber firmvéru OpenWrt",
+    "tr-version-build": "O tejto zostave",
+    "tr-custom-build": "Vlastná zostava",
+    "tr-customize": "Prispôsobiť",
+    "tr-request-build": "Vyžiadať zostavenie",
+    "tr-feedback-link": "Spätná väzba",
+    "tr-notfound": "Nenašiel sa žiadny model!",
+    "tr-version": "Verzia:",
+    "tr-server-link": "Všetky preberania",
+    "tr-date": "Dátum:",
+    "tr-model": "Model:",
+    "tr-target": "Platforma:"
+}
