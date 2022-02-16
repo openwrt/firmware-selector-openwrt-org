@@ -585,7 +585,7 @@ function init() {
 
   translate();
 
-  select.onclick = function () {
+  select.onchange = function () {
     current_language = this.children[this.selectedIndex].value;
     translate();
   };
