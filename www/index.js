@@ -64,7 +64,8 @@ function setupSelectList(select, items, onselection) {
 }
 
 // Change the translation of the entire document
-function translate() {
+function translate(lang) {
+  current_language = lang || current_language;
   fetch("langs/" + current_language + ".json")
     .then((obj) => obj.json())
     .then((mapping) => {
@@ -494,6 +495,29 @@ function changeModel(version, overview, title, base_url) {
   }
 }
 
+function initTranslation() {
+  const select = $("#languages");
+
+  // set initial language
+  const long = (navigator.language || navigator.userLanguage).toLowerCase();
+  const short = long.split("-")[0];
+  if (select.querySelector('[value="' + long + '"]')) {
+    select.value = long;
+  } else if (select.querySelector('[value="' + short + '"]')) {
+    select.value = short;
+  }
+
+  select.onchange = function () {
+    const selected = select.options[select.selectedIndex];
+    // transfer OPTION width to SELECT element
+    select.style.width = selected.getAttribute("data-width");
+    translate(selected.value);
+  };
+
+  // trigger translation
+  select.onchange();
+}
+
 function init() {
   url_params = new URLSearchParams(window.location.search);
 
@@ -572,21 +596,5 @@ function init() {
   // hide fields
   updateImages();
 
-  // set language
-  const select = $("#languages select");
-  const long = (navigator.language || navigator.userLanguage).toLowerCase();
-  const short = long.split("-")[0];
-  if (select.querySelector('[value="' + long + '"]')) {
-    current_language = long;
-  } else if (select.querySelector('[value="' + short + '"]')) {
-    current_language = short;
-  }
-  select.value = current_language;
-
-  translate();
-
-  select.onchange = function () {
-    current_language = this.children[this.selectedIndex].value;
-    translate();
-  };
+  initTranslation();
 }
