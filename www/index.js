@@ -133,6 +133,8 @@ function setupAutocompleteList(input, items, onbegin, onend) {
     }
 
     if (items.includes(pattern)) {
+      closeAllLists();
+      onend(input);
       return false;
     }
 
