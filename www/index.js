@@ -166,17 +166,17 @@ function setupAutocompleteList(input, items, onbegin, onend) {
         let html = "";
         for (const m of matches) {
           html += item.substr(prev, m.begin - prev);
-          html += "<strong>" + item.substr(m.begin, m.length) + "</strong>";
+          html += `<strong>${item.substr(m.begin, m.length)}</strong>`;
           prev = m.begin + m.length;
         }
         html += item.substr(prev);
-        html += '<input type="hidden" value="' + item + '">';
+        html += `<input type="hidden" value="${item}">`;
         div.innerHTML = html;
 
         div.addEventListener("click", function () {
           // include selected value
           input.value = this.getElementsByTagName("input")[0].value;
-          // close the list of autocompleted values,
+          // close the list of autocompleted values
           closeAllLists();
           onend(input);
         });
@@ -337,15 +337,11 @@ function createLink(mobj, image, image_url) {
   // distinguish labels if neccessary
   const extra = getNameDifference(mobj.images, image);
   if (extra.length > 0) {
-    label += " (" + extra + ")";
+    label += ` (${extra})`;
   }
 
   return htmlToElement(
-    '<td><a href="' +
-      href +
-      '" class="download-link"><span></span>' +
-      label.toUpperCase() +
-      "</a></td>"
+    `<td><a href="${href}" class="download-link"><span></span>${label.toUpperCase()}</a></td>`
   );
 }
 
@@ -359,10 +355,10 @@ function createExtra(image) {
   return htmlToElement(
     "<td>" +
       (config.show_help
-        ? '<div class="help-content ' + getHelpTextClass(image) + '"></div>'
+        ? `<div class="help-content ${getHelpTextClass(image)}"></div>`
         : "") +
       (image.sha256
-        ? '<div class="hash-content">sha256sum: ' + image.sha256 + "</div>"
+        ? `<div class="hash-content">sha256sum: ${image.sha256}</div>`
         : "") +
       "</td>"
   );
@@ -503,9 +499,9 @@ function initTranslation() {
   // set initial language
   const long = (navigator.language || navigator.userLanguage).toLowerCase();
   const short = long.split("-")[0];
-  if (select.querySelector('[value="' + long + '"]')) {
+  if (select.querySelector(`[value="${long}"]`)) {
     select.value = long;
-  } else if (select.querySelector('[value="' + short + '"]')) {
+  } else if (select.querySelector(`[value="${short}"]`)) {
     select.value = short;
   }
 
