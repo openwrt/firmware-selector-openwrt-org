@@ -503,6 +503,8 @@ function initTranslation() {
     select.value = long;
   } else if (select.querySelector(`[value="${short}"]`)) {
     select.value = short;
+  } else {
+    select.value = current_language;
   }
 
   select.onchange = function () {
