@@ -372,6 +372,7 @@ function updateImages(mobj, overview) {
 
   if (mobj) {
     const images = mobj.images;
+    const image_url = config.image_url || overview.image_url || "";
 
     // update title translation
     translate();
@@ -384,6 +385,15 @@ function updateImages(mobj, overview) {
     setValue("#image-date", mobj.build_at);
 
     setValue(
+      "#image-folder",
+      image_url
+        .replace("{title}", encodeURI($("#models").value))
+        .replace("{target}", mobj.target)
+        .replace("{id}", mobj.id)
+        .replace("{version}", mobj.version_number) + "/"
+    );
+
+    setValue(
       "#image-info",
       (config.info_url || overview.info_url || "")
         .replace("{title}", encodeURI($("#models").value))
@@ -392,9 +402,19 @@ function updateImages(mobj, overview) {
         .replace("{version}", mobj.version_number)
     );
 
+    setValue(
+      "#image-link",
+      document.location.href.split("?")[0] +
+        "?version=" +
+        encodeURIComponent(mobj.version_number) +
+        "&target=" +
+        encodeURIComponent(mobj.target) +
+        "&id=" +
+        encodeURIComponent(mobj.id)
+    );
+
     images.sort((a, b) => a.name.localeCompare(b.name));
 
-    const image_url = config.image_url || overview.image_url || "";
     const table1 = $("#download-table1");
     const links2 = $("#download-links2");
     const extras2 = $("#download-extras2");

@@ -244,8 +244,18 @@ header > div {
 }
 
 #image-info {
-  width: 1em;
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -256 1850 1850' width='100%25' height='100%25'%3E%3Cg transform='matrix(1,0,0,-1,30.372881,1426.9492)'%3E%3Cpath d='M 1408,608 V 288 Q 1408,169 1323.5,84.5 1239,0 1120,0 H 288 Q 169,0 84.5,84.5 0,169 0,288 v 832 Q 0,1239 84.5,1323.5 169,1408 288,1408 h 704 q 14,0 23,-9 9,-9 9,-23 v -64 q 0,-14 -9,-23 -9,-9 -23,-9 H 288 q -66,0 -113,-47 -47,-47 -47,-113 V 288 q 0,-66 47,-113 47,-47 113,-47 h 832 q 66,0 113,47 47,47 47,113 v 320 q 0,14 9,23 9,9 23,9 h 64 q 14,0 23,-9 9,-9 9,-23 z m 384,864 V 960 q 0,-26 -19,-45 -19,-19 -45,-19 -26,0 -45,19 L 1507,1091 855,439 q -10,-10 -23,-10 -13,0 -23,10 L 695,553 q -10,10 -10,23 0,13 10,23 l 652,652 -176,176 q -19,19 -19,45 0,26 19,45 19,19 45,19 h 512 q 26,0 45,-19 19,-19 19,-45 z' /%3E%3C/g%3E%3C/svg%3E%0A");
+  width: 1.25em;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -2 24 24' width='48px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z'/%3E%3C/svg%3E");
+}
+
+#image-folder {
+  width: 1.25em;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -2 24 24' width='48px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z'/%3E%3C/svg%3E");
+}
+
+#image-link {
+  width: 1.25em;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 -2 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none' /%3E%3Cpath d='m 6.3 17.7 c -1.2 -1.2 -1.2 -3.2 0 -4.4 L 9.10 10.5 7.8 9 4.9 12 c -2 2 -2 5 0 7 2 2 5 2 7 0 l 2.8 -2.8 -1.3 -1.3 -2.8 2.8 c -1.2 1.2 -3.2 1.2 -4.4 0 z M 10 15.5 15.5 10 14 8.5 8.5 14 Z M 12 4.9 9.18 7.8 10.5 9.1 13.4 6.3 c 1.21 -1.2 3.2 -1.2 4.4 0 1.2 1.2 1.2 3.2 0 4.4 l -2.8 2.8 1.3 1.3 2.8 -2.8 c 2 -2 2 -5 0 -7 -2 -2 -5 -2 -7 0 z' /%3E%3C/svg%3E");
 }
 
 .row {
@@ -264,6 +274,10 @@ header > div {
   display: inline-block;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.col2 a {
+  margin-right: 1em;
 }
 
 #image-model {
