@@ -1,1 +1,18 @@
-{}
+{
+    "tr-server-link": "Kaikki lataukset",
+    "tr-notfound": "Mallia ei löytynyt!",
+    "tr-load": "Lataa OpenWrt-laiteohjelmisto laitteellesi",
+    "tr-title": "OpenWrt-laiteohjelmiston valitsin",
+    "tr-message": "Kirjoita laitteesi mallin nimi, valitse sen jälkeen vakaa versio tai nightly-versio.",
+    "tr-custom-build": "Mukautettu koonti",
+    "tr-request-build": "Pyydä koontia",
+    "tr-version": "Versio:",
+    "tr-date": "Päivä:",
+    "tr-downloads": "Lataa levykuva",
+    "tr-custom-downloads": "Mukautetut lataukset",
+    "tr-feedback-link": "Palaute",
+    "tr-version-build": "Tietoja tästä koonnista",
+    "tr-customize": "Mukauta",
+    "tr-model": "Malli:",
+    "tr-target": "Alusta:"
+}
