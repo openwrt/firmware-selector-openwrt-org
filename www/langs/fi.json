@@ -14,5 +14,14 @@
     "tr-version-build": "Tietoja tästä koonnista",
     "tr-customize": "Mukauta",
     "tr-model": "Malli:",
-    "tr-target": "Alusta:"
+    "tr-target": "Alusta:",
+    "tr-eva-help": "Levykuva OpenWrt:llä ja käynnistyslataajalla.",
+    "tr-kernel-help": "Linux-ydin erillisenä levykuvana.",
+    "tr-rootfs-help": "Juuritiedostojärjestelmä erillisenä levykuvana.",
+    "tr-sdcard-help": "Levykuva joka on tarkoitettu asennettavaksi SD-kortille.",
+    "tr-other-help": "Muu levykuvatyyppi.",
+    "tr-build-successful": "Koonti onnistui",
+    "tr-build-failed": "Koonti epäonnistui",
+    "tr-request-image": "Pyydä levykuva",
+    "tr-check-again": "Tarkista uudelleen 5 sekunnin kuluttua..."
 }
