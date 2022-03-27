@@ -23,5 +23,6 @@
     "tr-build-successful": "Koonti onnistui",
     "tr-build-failed": "Koonti epäonnistui",
     "tr-request-image": "Pyydä levykuva",
-    "tr-check-again": "Tarkista uudelleen 5 sekunnin kuluttua..."
+    "tr-check-again": "Tarkista uudelleen 5 sekunnin kuluttua...",
+    "tr-initramfs-help": "Linux-ydin minimalistisen tiedostojärjestelmän kera. Hyödyllinen ensimmäistä asennusta tai palautusta varten."
 }
