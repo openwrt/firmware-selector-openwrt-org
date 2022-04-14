@@ -30,5 +30,6 @@
     "tr-dtb-help": "设备树 blob。此文件配置硬件的 Linux 内核。",
     "tr-uboot-help": "Bootloader 镜像。在启动初期加载操作系统的低级软件。",
     "tr-cpximg-help": "与原版固件中的 sysupgrade 一起使用，或与内置的 cpximg 加载程序一起使用。",
-    "tr-eva-help": "有 OpenWrt 和引导加载程序的镜像。"
+    "tr-eva-help": "有 OpenWrt 和引导加载程序的镜像。",
+    "tr-links": "链接："
 }
