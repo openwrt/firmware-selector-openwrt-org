@@ -30,5 +30,6 @@
     "tr-uboot-help": "Imagem do bootloader. Software de baixo nível que carrega o sistema operacional durante a inicialização.",
     "tr-cpximg-help": "Use com o sysupgrade no firmware original ou com o carregador cpximg embutido.",
     "tr-eva-help": "Imagem com o OpenWrt e um carregador de inicialização.",
-    "tr-factory-help": "Use uma imagem de fábrica para gravar uma imagem com OpenWrt no roteador pela primeira vez. Geralmente se faz isso através da interface web do firmware original."
+    "tr-factory-help": "Use uma imagem de fábrica para gravar uma imagem com OpenWrt no roteador pela primeira vez. Geralmente se faz isso através da interface web do firmware original.",
+    "tr-links": "Links:"
 }
