@@ -30,5 +30,6 @@
     "tr-uboot-help": "Önyükleyici kalıbı. Önyüklemenin başlarında işletim sistemini yükleyen yazılım.",
     "tr-cpximg-help": "Orijinal ürün yazılımında sysupgrade veya yerleşik cpximg yükleyici ile kullanın.",
     "tr-eva-help": "OpenWrt ve bir önyükleyici içeren kalıp.",
-    "tr-initramfs-help": "Asgari dosya sistemine sahip Linux çekirdeği. İlk kurulum veya kurtarma için kullanışlıdır."
+    "tr-initramfs-help": "Asgari dosya sistemine sahip Linux çekirdeği. İlk kurulum veya kurtarma için kullanışlıdır.",
+    "tr-links": "Bağlantılar:"
 }
