@@ -30,5 +30,6 @@
     "tr-build-failed": "建置失敗",
     "tr-request-image": "索取映像",
     "tr-cpximg-help": "與原版韌體中的 sysupgrade 一起使用，或與內建的 cpximg 載入程式一起使用。",
-    "tr-factory-help": "第一次使用 Factory 映像透過 OpenWrt 更新路由器。通常您可以透過原始韌體的 Web 介面執行此操作。"
+    "tr-factory-help": "第一次使用 Factory 映像透過 OpenWrt 更新路由器。通常您可以透過原始韌體的 Web 介面執行此操作。",
+    "tr-links": "鏈接："
 }
