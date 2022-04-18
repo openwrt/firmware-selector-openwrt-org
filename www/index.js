@@ -244,15 +244,18 @@ function setupAutocompleteList(input, items, onbegin, onend) {
 
 function setValue(query, value) {
   const e = $(query);
+  const p = e.closest(".row");
   if (value !== undefined && value.length > 0) {
     if (e.tagName == "A") {
       e.href = value;
     } else {
       e.innerText = value;
     }
-    show(e.parentNode);
+    show(e);
+    show(p);
   } else {
-    hide(e.parentNode);
+    hide(e);
+    hide(p);
   }
 }
 
