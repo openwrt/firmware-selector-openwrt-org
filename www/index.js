@@ -77,15 +77,10 @@ function translate(lang) {
     });
 }
 
-function normalize(s) {
-  // not allowed to change length of string
-  return s.toUpperCase().replace(/[-_.]/g, " ");
-}
-
 // return array of matching ranges
 function match(value, patterns) {
   // find matching ranges
-  const item = normalize(value);
+  const item = value.toUpperCase();
   let matches = [];
   for (const p of patterns) {
     const i = item.indexOf(p);
@@ -145,7 +140,7 @@ function setupAutocompleteList(input, items, onbegin, onend) {
     // append the DIV element as a child of the autocomplete container:
     this.parentNode.appendChild(list);
 
-    const patterns = split(normalize(pattern));
+    const patterns = split(pattern.toUpperCase());
     let count = 0;
     for (const item of items) {
       const matches = match(item, patterns);
