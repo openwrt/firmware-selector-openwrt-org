@@ -3,7 +3,7 @@
     "tr-server-link": "Alle Downloads",
     "tr-notfound": "Kein Model gefunden!",
     "tr-load": "Lade die OpenWrt Firmware für dein Gerät",
-    "tr-title": "OpenWrt Firmware Selector",
+    "tr-title": "OpenWrt Firmware-Auswahl",
     "tr-message": "Bitte benutze die Eingabe um die passende Firmware zu finden.",
     "tr-version-build": "Release Build",
     "tr-custom-build": "Benutzerdefinierte Erstellung",
@@ -30,5 +30,6 @@
     "tr-dtb-help": "Device tree blob. Diese Datei konfiguriert den Linux-Kernel für die Hardware.",
     "tr-uboot-help": "Bootloader-Abbild. Low-Level-Software, die das Betriebssystem beim Booten frühzeitig lädt.",
     "tr-cpximg-help": "Verwendung mit sysupgrade in der Standard-Firmware oder mit dem eingebauten cpximg-Loader.",
-    "tr-eva-help": "Image mit OpenWrt und einem Bootloader."
+    "tr-eva-help": "Image mit OpenWrt und einem Bootloader.",
+    "tr-links": "Links:"
 }
