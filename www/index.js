@@ -42,7 +42,11 @@ function getModelTitles(titles) {
 }
 
 function setupSelectList(select, items, onselection) {
-  for (const item of items.sort().reverse()) {
+  const items_sorted = items
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+    .reverse();
+
+  for (const item of items_sorted) {
     const option = document.createElement("OPTION");
     option.innerHTML = item;
     select.appendChild(option);
