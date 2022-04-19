@@ -2,6 +2,13 @@
 
 Short summaries of recent changes for people who don't use `git log --online`
 
+## v3.8.0 - 2022-04-19
+
+* Many new translations
+* More links added to firmware overview (wiki, files, self)
+* Improved search function
+* Fixed version dropdown list
+
 ## v3.7.1 - 2022-02-10
 
 * Translate the firmware into more languages using Weblate.
