@@ -30,5 +30,6 @@
     "tr-version": "Versão:",
     "tr-factory-help": "Utilize uma Imagem de Fábrica para flashar o router com OpenWrt pela primeira vez. Normalmente faria isto via web interface do firmware original.",
     "tr-initramfs-help": "Kernel Linux com um sistema de ficheiros minimalista. Util para a primeira instalação ou recuperação.",
-    "tr-other-help": "Outro tipo de imagem."
+    "tr-other-help": "Outro tipo de imagem.",
+    "tr-links": "Ligações:"
 }
