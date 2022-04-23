@@ -29,5 +29,7 @@
     "tr-title": "Väljare av OpenWrt-mjukvara",
     "tr-sysupgrade-help": "Använd en avbild för uppgradering av systemet för att uppdatera en router som redan kör OpenWrt. Avbilden kan användas med LuCi's webbgränssnitt eller terminalen.",
     "tr-request-image": "Fråga efter avbild",
-    "tr-check-again": "Kolla igen om 5 sekunder.."
+    "tr-check-again": "Kolla igen om 5 sekunder..",
+    "tr-links": "Länkar:",
+    "tr-dtb-help": "Träd-blob för enhet. Den här filen ställer in hårdvarans Linux-kärna."
 }
