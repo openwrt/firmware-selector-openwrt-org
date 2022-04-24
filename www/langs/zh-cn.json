@@ -16,7 +16,7 @@
     "tr-custom-downloads": "自定义下载",
     "tr-factory-help": "第一次使用Factory映像通过OpenWrt刷新路由器. 通常您可以通过原始固件的Web界面执行此操作.",
     "tr-sysupgrade-help": "使用Sysupgrade映像更新已经运行OpenWrt的路由器. 该映像可以与LuCI Web界面或终端一起使用.",
-    "tr-kernel-help": "Linux内核作为单独的映像.",
+    "tr-kernel-help": "独立的 Linux 内核映像。",
     "tr-initramfs-help": "具有最少文件系统的Linux内核. 对于首次安装或恢复很有用.",
     "tr-rootfs-help": "根文件系统作为单独的映像.",
     "tr-sdcard-help": "适用于安装至 SD 卡的映像文件。",
