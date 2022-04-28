@@ -30,5 +30,6 @@
     "tr-uboot-help": "Imagen de cargador de arranque. Software de bajo nivel que carga el sistema operativo en la primera fase del arranque.",
     "tr-cpximg-help": "Para usar con sysupgrade en el firmware de fábrica o con el cargador cpximg incluido.",
     "tr-eva-help": "Imagen con OpenWrt y un cargador de arranque.",
-    "tr-initramfs-help": "Kernel de Linux con un sistema de ficheros mínimo. Útil para una primera instalación o para el proceso de recuperación."
+    "tr-initramfs-help": "Kernel de Linux con un sistema de ficheros mínimo. Útil para una primera instalación o para el proceso de recuperación.",
+    "tr-links": "Enlaces:"
 }
