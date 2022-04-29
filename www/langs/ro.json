@@ -30,5 +30,6 @@
     "tr-kernel-help": "Kernel-ul Linux ca imagine separată.",
     "tr-initramfs-help": "Kernel Linux cu un sistem de fișiere minim. Util pentru prima instalare sau pentru recuperare.",
     "tr-build-successful": "Compilat cu succes",
-    "tr-build-failed": "Compilarea nu a reușit"
+    "tr-build-failed": "Compilarea nu a reușit",
+    "tr-links": "Linkuri:"
 }
