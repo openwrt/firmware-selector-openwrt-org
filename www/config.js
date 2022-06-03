@@ -19,4 +19,5 @@ var config = {
 
   // Info link URL (optional)
   info_url: "https://openwrt.org/start?do=search&id=toh&q={title} @toh",
+  asu_url: "https://sysupgrade.openwrt.org",
 };

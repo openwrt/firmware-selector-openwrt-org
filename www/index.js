@@ -4,6 +4,14 @@ let current_device = {};
 let current_language = "en";
 let url_params = undefined;
 
+let progress = {
+  "tr-init": 10,
+  "tr-download_imagebuilder": 20,
+  "tr-unpack_imagebuilder": 40,
+  "tr-calculate_packages_hash": 60,
+  "tr-building_image": 80,
+};
+
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
@@ -39,6 +47,128 @@ function getModelTitles(titles) {
       ).trim();
     }
   });
+}
+
+/* exported buildAsuRequest */
+function buildAsuRequest() {
+  $$("#download-table1 *").forEach((e) => e.remove());
+  $$("#download-links2 *").forEach((e) => e.remove());
+  $$("#download-extras2 *").forEach((e) => e.remove());
+  hide("#log");
+
+  function showStatus(message, loading, type) {
+    switch (type) {
+      case "error":
+        $("#buildstatus").style.backgroundColor = "#f8d7da";
+        show("#buildstatus");
+        break;
+      case "info":
+        $("#buildstatus").style.backgroundColor = "#d1ecf1";
+        show("#buildstatus");
+        break;
+      default:
+        hide("#buildstatus");
+        break;
+    }
+
+    const tr = message.startsWith("tr-") ? message : "";
+
+    let status = "";
+    if (loading) {
+      status += `<progress style='margin-right: 10px;' max='100' value=${
+        progress[message] || ""
+      }></progress>`;
+    }
+
+    status += `<span class="${tr}">${message}</span>`;
+
+    $("#buildstatus").getElementsByTagName("span")[0].innerHTML = status;
+    translate();
+  }
+
+  if (!current_device || !current_device.id) {
+    showStatus("bad profile");
+    return;
+  }
+
+  const request_data = {
+    profile: current_device.id,
+    target: current_device.target,
+    packages: split($("#packages").value),
+    version: $("#versions").value,
+    diff_packages: true,
+  };
+
+  fetch(config.asu_url + "/api/v1/build", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(request_data),
+  })
+    .then((response) => {
+      switch (response.status) {
+        case 200:
+          showStatus("tr-build-successful", false, "info");
+
+          response.json().then((mobj) => {
+            const image_url = config.asu_url + "/store/" + mobj.bin_dir;
+            if ("stderr" in mobj) {
+              $("#stderr").innerText = mobj.stderr;
+              $("#stdout").innerText = mobj.stdout;
+              show("#log");
+            } else {
+              hide("#log");
+            }
+            showStatus("tr-build-successful", false, "info");
+            mobj["id"] = current_device.id;
+            updateImages(
+              mobj,
+              {
+                image_url: image_url,
+              },
+              true
+            );
+          });
+          break;
+        case 202:
+          response.json().then((mobj) => {
+            showStatus(
+              `tr-${mobj.imagebuilder_status || "init"}`,
+              true,
+              "info"
+            );
+            setTimeout(() => {
+              buildAsuRequest();
+            }, 5000);
+          });
+          break;
+        case 400: // bad request
+        case 422: // bad package
+        case 500: // build failed
+          response.json().then((mobj) => {
+            if ("stderr" in mobj) {
+              $("#stderr").innerText = mobj.stderr;
+              $("#stdout").innerText = mobj.stdout;
+              show("#log");
+
+              if (mobj["stderr"].includes("images are too big")) {
+                showStatus("tr-build-size", false, "error");
+                return;
+              }
+            } else {
+              hide("#log");
+            }
+
+            let status = mobj["detail"] || "tr-build-failed";
+            showStatus(status, false, "error");
+          });
+          break;
+      }
+    })
+    .catch((err) => {
+      showStatus(err, false, "error");
+    });
 }
 
 function setupSelectList(select, items, onselection) {
@@ -376,6 +506,23 @@ function updateImages(mobj, overview) {
     const images = mobj.images;
     const image_url = config.image_url || overview.image_url || "";
 
+    if ("build_cmd" in mobj) {
+      $("#downloads1")
+        .getElementsByTagName("h3")[0]
+        .classList.remove("tr-downloads");
+      $("#downloads1")
+        .getElementsByTagName("h3")[0]
+        .classList.add("tr-custom-downloads");
+      console.log("custom");
+    } else {
+      $("#downloads1")
+        .getElementsByTagName("h3")[0]
+        .classList.remove("tr-custom-downloads");
+      $("#downloads1")
+        .getElementsByTagName("h3")[0]
+        .classList.add("tr-downloads");
+    }
+
     // update title translation
     translate();
 
@@ -448,6 +595,11 @@ function updateImages(mobj, overview) {
         extras2.childNodes.forEach((e) => e.classList.add("hide"));
         extra.classList.remove("hide");
       };
+
+      $("#packages").value = mobj.default_packages
+        .concat(mobj.device_packages)
+        .sort()
+        .join(" ");
     }
 
     translate();

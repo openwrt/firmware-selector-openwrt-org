@@ -109,6 +109,43 @@
                 <a id="image-link"></a>
               </div>
             </div>
+            <div class="row">
+              <details id="details_custom" style="width: 100%">
+                <summary>
+                  <span class="tr-customize">Customize installed packages</span>
+                </summary>
+                <div id="buildstatus" class="alert hide">
+                  <span></span>
+                  <div id="log" class="hide">
+                    <details>
+                      <summary>
+                        <code>STDERR</code>
+                      </summary>
+                      <pre id="stderr"></pre>
+                    </details>
+                    <details>
+                      <summary>
+                        <code>STDOUT</code>
+                      </summary>
+                      <pre id="stdout"></pre>
+                    </details>
+                  </div>
+                </div>
+                <div>
+                  <textarea
+                    rows="10"
+                    id="packages"
+                    spellcheck="false"
+                    autocapitalize="off"
+                    style="width: 99%"
+                  ></textarea>
+                </div>
+                <a href="javascript:buildAsuRequest()" class="custom-link">
+                  <span></span
+                  ><span class="tr-request-build">REQUEST BUILD</span>
+                </a>
+              </details>
+            </div>
           </div>
 
           <div id="downloads1">

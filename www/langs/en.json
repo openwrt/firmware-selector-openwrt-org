@@ -8,8 +8,8 @@
   "tr-message": "Type the name or model of your device, then select a stable build or the nightly \"snapshot\" build.",
   "tr-version-build": "About this build",
   "tr-custom-build": "Custom Build",
-  "tr-customize": "Customize",
-  "tr-request-build": "Request Build",
+  "tr-customize": "Customize installed packages",
+  "tr-request-build": "REQUEST BUILD",
   "tr-model": "Model:",
   "tr-target": "Platform:",
   "tr-version": "Version:",
@@ -31,5 +31,11 @@
   "tr-build-successful": "Build successful",
   "tr-build-failed": "Build failed",
   "tr-request-image": "Request image",
-  "tr-check-again": "Check again in 5 seconds..."
+  "tr-check-again": "Check again in 5 seconds...",
+  "tr-build-size": "Selected packages exceed device storage",
+  "tr-init": "Received build request",
+  "tr-download_imagebuilder": "Downloading ImageBuilder archive",
+  "tr-unpack_imagebuilder": "Setup ImageBuilder",
+  "tr-calculate_packages_hash": "Validate package selection",
+  "tr-building_image": "Generating firmware image"
 }
