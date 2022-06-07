@@ -695,6 +695,10 @@ function initTranslation() {
 function init() {
   url_params = new URLSearchParams(window.location.search);
 
+  if (typeof config.asu_url !== "undefined") {
+    show("#details_custom");
+  }
+
   setupSelectList($("#versions"), Object.keys(config.versions), (version) => {
     // A new version was selected
     let base_url = config.versions[version];
