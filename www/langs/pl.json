@@ -31,5 +31,11 @@
     "tr-build-failed": "Błąd budowania",
     "tr-request-image": "Żądanie obrazu",
     "tr-check-again": "Sprawdź ponownie za 5 sekund...",
-    "tr-links": "Linki:"
+    "tr-links": "Linki:",
+    "tr-unpack_imagebuilder": "Konfiguracja ImageBuilder",
+    "tr-building_image": "Generowanie obrazu oprogramowania układowego",
+    "tr-build-size": "Wybrane pakiety przekraczają pojemność pamięci urządzenia",
+    "tr-init": "Otrzymano żądanie kompilacji",
+    "tr-download_imagebuilder": "Pobieranie archiwum ImageBuilder",
+    "tr-calculate_packages_hash": "Zatwierdzanie wyboru pakietów"
 }
