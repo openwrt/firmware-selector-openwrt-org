@@ -6,8 +6,8 @@
     "tr-message": "输入设备的名称或型号，然后选择一个稳定或快照版本。",
     "tr-version-build": "关于构建",
     "tr-custom-build": "自定义构建",
-    "tr-customize": "自定义",
-    "tr-request-build": "获取构建",
+    "tr-customize": "自定义已安装包",
+    "tr-request-build": "请求构建",
     "tr-model": "型号:",
     "tr-target": "平台:",
     "tr-version": "版本:",
@@ -31,5 +31,11 @@
     "tr-uboot-help": "引导程序映像。 用于启动时加载操作系统的底层软件。",
     "tr-cpximg-help": "与原版固件中的 sysupgrade 一起使用，或与内置的 cpximg 加载程序一起使用。",
     "tr-eva-help": "封入固件及引导程序的映像文件。",
-    "tr-links": "链接："
+    "tr-links": "链接：",
+    "tr-build-size": "所选包超出设备存储",
+    "tr-init": "收到了构建请求",
+    "tr-download_imagebuilder": "下载 ImageBuilder 存档中",
+    "tr-unpack_imagebuilder": "安装 ImageBuilder",
+    "tr-calculate_packages_hash": "验证包选择",
+    "tr-building_image": "生成固件映像"
 }
