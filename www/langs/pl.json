@@ -7,7 +7,7 @@
     "tr-message": "Wprowadź nazwę lub model swojego urządzenia, a następnie wybierz wersję zalecaną lub inną.",
     "tr-version-build": "Informacje o obrazie",
     "tr-custom-build": "Informacje o zmodyfikowanym obrazie",
-    "tr-customize": "Modyfikacja",
+    "tr-customize": "Dostosowywanie zainstalowanych pakietów",
     "tr-request-build": "Żądanie budowy obrazu",
     "tr-model": "Model:",
     "tr-target": "Platforma:",
@@ -35,7 +35,7 @@
     "tr-unpack_imagebuilder": "Konfiguracja ImageBuilder",
     "tr-building_image": "Generowanie obrazu oprogramowania układowego",
     "tr-build-size": "Wybrane pakiety przekraczają pojemność pamięci urządzenia",
-    "tr-init": "Otrzymano żądanie kompilacji",
+    "tr-init": "Otrzymano żądanie budowy",
     "tr-download_imagebuilder": "Pobieranie archiwum ImageBuilder",
     "tr-calculate_packages_hash": "Zatwierdzanie wyboru pakietów"
 }
