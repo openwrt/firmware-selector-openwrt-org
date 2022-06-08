@@ -21,8 +21,8 @@
     "tr-check-again": "Verifique novamente daqui 5 segundos...",
     "tr-version": "Versão:",
     "tr-message": "Digite o nome ou o modelo do seu dispositivo e selecione uma compilação estável ou uma compilação \"snapshot\" diária.",
-    "tr-customize": "Personalize",
-    "tr-request-build": "Solicite uma compilação",
+    "tr-customize": "Personaliza os pacotes instalados",
+    "tr-request-build": "SOLICITE UMA COMPILAÇÃO",
     "tr-model": "Modelo:",
     "tr-downloads": "Baixe uma imagem",
     "tr-tftp-help": "As imagens TFTP são usadas para programar um dispositivo através do método TFTP do bootloader.",
@@ -31,5 +31,11 @@
     "tr-cpximg-help": "Use com o sysupgrade no firmware original ou com o carregador cpximg embutido.",
     "tr-eva-help": "Imagem com o OpenWrt e um carregador de inicialização.",
     "tr-factory-help": "Use uma imagem de fábrica para gravar uma imagem com OpenWrt no roteador pela primeira vez. Geralmente se faz isso através da interface web do firmware original.",
-    "tr-links": "Links:"
+    "tr-links": "Links:",
+    "tr-build-size": "Os pacotes selecionados excedem o armazenamento do dispositivo",
+    "tr-init": "A solicitação de compilação foi recebida",
+    "tr-unpack_imagebuilder": "Configura o ImageBuilder",
+    "tr-building_image": "Gerando a imagem do firmware",
+    "tr-download_imagebuilder": "Baixando o arquivo do ImageBuilder",
+    "tr-calculate_packages_hash": "Valida a seleção do pacote"
 }
