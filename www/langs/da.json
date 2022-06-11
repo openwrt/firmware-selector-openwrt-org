@@ -6,7 +6,7 @@
     "tr-message": "Indtast navnet eller modellen på din enhed, og vælg derefter et stabilt build eller et natligt \"snapshot\" build.",
     "tr-version-build": "Om dette build",
     "tr-custom-build": "Brugerdefineret build",
-    "tr-customize": "Tilpas",
+    "tr-customize": "Tilpas installerede pakker",
     "tr-request-build": "Anmod om build",
     "tr-target": "Platform:",
     "tr-downloads": "Download et image",
@@ -31,5 +31,11 @@
     "tr-factory-help": "Brug et fabriks image til at flashe en router med OpenWrt for første gang. Du gør det normalt via web interface i den oprindelige firmware.",
     "tr-check-again": "Tjek igen om 5 sekunder...",
     "tr-rootfs-help": "Rodfilsystem som et separat image.",
-    "tr-links": "Links:"
+    "tr-links": "Links:",
+    "tr-build-size": "Udvalgte pakker overstiger enhedens lagerplads",
+    "tr-init": "Modtaget build anmodning",
+    "tr-download_imagebuilder": "Download af ImageBuilder-arkiv",
+    "tr-unpack_imagebuilder": "Opsætning af ImageBuilder",
+    "tr-calculate_packages_hash": "Validering af pakkevalg",
+    "tr-building_image": "Generering af firmware-image"
 }
