@@ -31,5 +31,11 @@
     "tr-uboot-help": "Bootloader-Abbild. Low-Level-Software, die das Betriebssystem beim Booten frühzeitig lädt.",
     "tr-cpximg-help": "Verwendung mit sysupgrade in der Standard-Firmware oder mit dem eingebauten cpximg-Loader.",
     "tr-eva-help": "Image mit OpenWrt und einem Bootloader.",
-    "tr-links": "Links:"
+    "tr-links": "Links:",
+    "tr-build-size": "Ausgewählte Pakete überfüllen den Gerätespeicher",
+    "tr-init": "Build-Anfrage erhalten",
+    "tr-download_imagebuilder": "ImageBuilder-Archiv wird heruntergeladen",
+    "tr-unpack_imagebuilder": "ImageBuilder einrichten",
+    "tr-calculate_packages_hash": "Paketauswahl bestätigen",
+    "tr-building_image": "Firmware-Image wird erzeugt"
 }
