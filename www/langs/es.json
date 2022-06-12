@@ -5,8 +5,8 @@
     "tr-message": "Escriba el nombre o modelo de su dispositivo, luego seleccione la versión estable o la compilación nocturna \"snapshot\".",
     "tr-version-build": "Acerca de esta compilación",
     "tr-custom-build": "Compilación personalizada",
-    "tr-customize": "Personalizar",
-    "tr-request-build": "Solicitar compilación",
+    "tr-customize": "Personalizar paquetes instalados",
+    "tr-request-build": "SOLICITAR COMPILACIÓN",
     "tr-model": "Modelo:",
     "tr-target": "Plataforma:",
     "tr-version": "Versión:",
@@ -31,5 +31,11 @@
     "tr-cpximg-help": "Para usar con sysupgrade en el firmware de fábrica o con el cargador cpximg incluido.",
     "tr-eva-help": "Imagen con OpenWrt y un cargador de arranque.",
     "tr-initramfs-help": "Kernel de Linux con un sistema de ficheros mínimo. Útil para una primera instalación o para el proceso de recuperación.",
-    "tr-links": "Enlaces:"
+    "tr-links": "Enlaces:",
+    "tr-build-size": "Los paquetes seleccionados exceden la capacidad de almacenamiento del dispositivo",
+    "tr-init": "Solicitud de compilación recibida",
+    "tr-download_imagebuilder": "Descargando archivo de ImageBuilder",
+    "tr-unpack_imagebuilder": "Configurar ImageBuilder",
+    "tr-calculate_packages_hash": "Validar selección de paquete",
+    "tr-building_image": "Generando imagen de firmware"
 }
