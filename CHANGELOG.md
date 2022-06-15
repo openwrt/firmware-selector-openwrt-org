@@ -2,6 +2,12 @@
 
 Short summaries of recent changes for people who don't use `git log --online`
 
+## v3.8.1 - 2022-06-15
+
+* Translation updates
+* Add ASU support again
+  * Custom images can be requested from https://sysupgrade.openwrt.org
+
 ## v3.8.0 - 2022-04-19
 
 * Many new translations
