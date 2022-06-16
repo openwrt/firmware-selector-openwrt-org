@@ -5,7 +5,7 @@
     "tr-message": "Introduceți numele sau modelul dispozitivului dvs., apoi selectați o versiune stabilă sau o versiune nightly \"snapshot\".",
     "tr-version-build": "Despre această compilare",
     "tr-custom-build": "Compilare personalizată",
-    "tr-customize": "Personalizați",
+    "tr-customize": "Personalizați pachetele instalate",
     "tr-model": "Model:",
     "tr-target": "Platformă:",
     "tr-downloads": "Descărcați o imagine",
@@ -21,7 +21,7 @@
     "tr-other-help": "Alt tip de imagine.",
     "tr-request-image": "Solicitați imaginea",
     "tr-load": "Descărcați firmware-ul OpenWrt pentru dispozitivul dumneavoastră",
-    "tr-request-build": "Solicitați compilare",
+    "tr-request-build": "SOLICITAȚI COMPILARE",
     "tr-version": "Versiune:",
     "tr-date": "Data:",
     "tr-sysupgrade-help": "Utilizați o imagine Sysupgrade pentru a actualiza un router care rulează deja OpenWrt. Imaginea poate fi utilizată cu interfața web LuCI sau cu terminalul.",
@@ -31,5 +31,11 @@
     "tr-initramfs-help": "Kernel Linux cu un sistem de fișiere minim. Util pentru prima instalare sau pentru recuperare.",
     "tr-build-successful": "Compilat cu succes",
     "tr-build-failed": "Compilarea nu a reușit",
-    "tr-links": "Linkuri:"
+    "tr-links": "Linkuri:",
+    "tr-build-size": "Pachetele selectate depășesc capacitatea de stocare a dispozitivului",
+    "tr-download_imagebuilder": "Descărcarea arhivei ImageBuilder",
+    "tr-unpack_imagebuilder": "Configurare ImageBuilder",
+    "tr-init": "Cerere de compilare primită",
+    "tr-calculate_packages_hash": "Validați selecția pachetului",
+    "tr-building_image": "Generarea imaginii firmware"
 }
