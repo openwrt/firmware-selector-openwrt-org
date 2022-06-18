@@ -31,5 +31,7 @@
     "tr-cpximg-help": "Orijinal ürün yazılımında sysupgrade veya yerleşik cpximg yükleyici ile kullanın.",
     "tr-eva-help": "OpenWrt ve bir önyükleyici içeren kalıp.",
     "tr-initramfs-help": "Asgari dosya sistemine sahip Linux çekirdeği. İlk kurulum veya kurtarma için kullanışlıdır.",
-    "tr-links": "Bağlantılar:"
+    "tr-links": "Bağlantılar:",
+    "tr-build-size": "Seçilen paketler cihaz depolama alanını aşıyor",
+    "tr-building_image": "Ürün yazılımı görüntüsü oluşturuluyor"
 }
