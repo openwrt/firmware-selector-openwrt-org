@@ -5,8 +5,8 @@
     "tr-message": "Skriv namnet eller din enhetsmodell, välj sedan en stabil byggnation eller \"ögonblicksbild\" som byggs varje natt.",
     "tr-version-build": "Om den här byggnationen",
     "tr-custom-build": "Anpassad byggnation",
-    "tr-customize": "Anpassa",
-    "tr-request-build": "Begär byggnation",
+    "tr-customize": "Anpassa installerade paket",
+    "tr-request-build": "BEGÄR BYGGNATION",
     "tr-model": "Modell:",
     "tr-version": "Version:",
     "tr-date": "Datum:",
@@ -31,5 +31,11 @@
     "tr-request-image": "Fråga efter avbild",
     "tr-check-again": "Kolla igen om 5 sekunder..",
     "tr-links": "Länkar:",
-    "tr-dtb-help": "Träd-blob för enhet. Den här filen ställer in hårdvarans Linux-kärna."
+    "tr-dtb-help": "Träd-blob för enhet. Den här filen ställer in hårdvarans Linux-kärna.",
+    "tr-build-size": "De valda paketen överskrider enhetens lagringsutrymme",
+    "tr-init": "Tog emot förfrågan om byggnation",
+    "tr-download_imagebuilder": "Laddar ner ImageBuilder-arkivet",
+    "tr-unpack_imagebuilder": "Ställ in ImageBuilder",
+    "tr-calculate_packages_hash": "Bekräfta paketval",
+    "tr-building_image": "Genererar avbilden för den inre mjukvaran"
 }
