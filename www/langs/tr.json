@@ -4,8 +4,8 @@
     "tr-message": "Aygıtınızın adını veya modelini yazın, ardından kararlı bir sürüm veya gecelik \"anlık görüntü\" sürümünü seçin.",
     "tr-version-build": "Sürüm",
     "tr-custom-build": "Özel Sürüm",
-    "tr-customize": "Özelleştir",
-    "tr-request-build": "Sürüm Oluştur",
+    "tr-customize": "Kurulu paketleri özelleştir",
+    "tr-request-build": "SÜRÜM OLUŞTUR",
     "tr-model": "Model:",
     "tr-target": "Platform:",
     "tr-version": "Versiyon:",
@@ -33,5 +33,9 @@
     "tr-initramfs-help": "Asgari dosya sistemine sahip Linux çekirdeği. İlk kurulum veya kurtarma için kullanışlıdır.",
     "tr-links": "Bağlantılar:",
     "tr-build-size": "Seçilen paketler cihaz depolama alanını aşıyor",
-    "tr-building_image": "Ürün yazılımı görüntüsü oluşturuluyor"
+    "tr-building_image": "Ürün yazılımı görüntüsü oluşturuluyor",
+    "tr-init": "Sürüm oluşturma isteği alındı",
+    "tr-download_imagebuilder": "ImageBuilder arşivi indiriliyor",
+    "tr-unpack_imagebuilder": "ImageBuilder'ı kur",
+    "tr-calculate_packages_hash": "Paket seçimini doğrula"
 }
