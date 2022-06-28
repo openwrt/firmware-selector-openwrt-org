@@ -5,8 +5,8 @@
     "tr-title": "Επιλογέας Λογισμικού OpenWrt",
     "tr-version-build": "Σχετικά με αυτήν την έκδοση",
     "tr-custom-build": "Προσαρμοσμένη έκδοση",
-    "tr-customize": "Προσαρμόστε",
-    "tr-request-build": "Δημιουργία Έκδοσης",
+    "tr-customize": "Προσαρμόστε τα εγκατεστημένα πακέτα",
+    "tr-request-build": "ΑΙΤΗΣΗ ΚΑΤΑΣΚΕΥΗΣ ΛΟΓΙΣΜΙΚΟΥ",
     "tr-model": "Μοντέλο:",
     "tr-version": "Έκδοση:",
     "tr-custom-downloads": "Προσαρμοσμένες λήψεις",
@@ -31,5 +31,11 @@
     "tr-sdcard-help": "Εικόνα που προορίζεται για εγγραφή σε μια κάρτα SD.",
     "tr-build-failed": "Η δημιουργία απέτυχε",
     "tr-check-again": "Ελέγξτε ξανά σε 5 δευτερόλεπτα...",
-    "tr-links": "Σύνδεσμοι:"
+    "tr-links": "Σύνδεσμοι:",
+    "tr-build-size": "Τα επιλεγμένα πακέτα υπερβαίνουν τον χώρο αποθήκευσης της συσκευής",
+    "tr-init": "Λήφθηκε αίτημα κατασκευής",
+    "tr-download_imagebuilder": "Λήψη αρχείου ImageBuilder",
+    "tr-unpack_imagebuilder": "Ρύθμιση ImageBuilder",
+    "tr-calculate_packages_hash": "Επικύρωση επιλεγμένων πακέτων",
+    "tr-building_image": "Δημιουργία εικόνας λογισμικού"
 }
