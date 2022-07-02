@@ -5,7 +5,7 @@
     "tr-title": "Selecionador de Firmware OpenWrt",
     "tr-version-build": "Acerca desta compilação",
     "tr-custom-build": "Compilação Personalizada",
-    "tr-customize": "Personalizar",
+    "tr-customize": "Personalizar pacotes instalados",
     "tr-request-build": "Pedir Compilação",
     "tr-model": "Modelo:",
     "tr-target": "Plataforma:",
@@ -31,5 +31,11 @@
     "tr-factory-help": "Utilize uma Imagem de Fábrica para flashar o router com OpenWrt pela primeira vez. Normalmente faria isto via web interface do firmware original.",
     "tr-initramfs-help": "Kernel Linux com um sistema de ficheiros minimalista. Util para a primeira instalação ou recuperação.",
     "tr-other-help": "Outro tipo de imagem.",
-    "tr-links": "Ligações:"
+    "tr-links": "Ligações:",
+    "tr-build-size": "Os pacotes selecionados excedem o armazenamento do aparelho",
+    "tr-init": "Pedido de construção recebido",
+    "tr-download_imagebuilder": "A descarregar o ficheiro do ImageBuilder",
+    "tr-unpack_imagebuilder": "Configurar o ImageBuilder",
+    "tr-calculate_packages_hash": "Validar a seleção do pacote",
+    "tr-building_image": "A gerar a imagem de firmware"
 }
