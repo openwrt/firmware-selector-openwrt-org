@@ -36,6 +36,6 @@
     "tr-init": "Solicitud de compilación recibida",
     "tr-download_imagebuilder": "Descargando archivo de ImageBuilder",
     "tr-unpack_imagebuilder": "Configurar ImageBuilder",
-    "tr-calculate_packages_hash": "Validar selección de paquete",
+    "tr-calculate_packages_hash": "Validar selección de paquetes",
     "tr-building_image": "Generando imagen de firmware"
 }
