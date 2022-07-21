@@ -18,17 +18,17 @@ Configure with [config.js](www/config.js).
 Place the `www/` folder somewhere web accessible. Then use the `collect.py` script to update `www/config.json` and write all device data into `www/data/`:
 
 ```
-./misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' https://downloads.openwrt.org  www/
+./misc/collect.py https://downloads.openwrt.org  www/
 ```
 or for local accessible OpenWrt builds:
 
 ```
-./misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' ~/openwrt/bin  www/
+./misc/collect.py ~/openwrt/bin  www/
 ```
 
 This should do it!
 
-Settings `image_url` and `info_url` can also be passed to `misc/collect.py` to be included in the version specific `overview.json` files:
+Settings `image_url` and `info_url` can also be passed to `misc/collect.py` to be included in the version specific `overview.json` files instead of `config.json`:
 
 * `--image-url`: Download link template for the image files.
 * `--info-url`: Link template that points to additional information.
