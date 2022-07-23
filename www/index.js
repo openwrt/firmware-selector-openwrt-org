@@ -1,7 +1,7 @@
 /* global config */
 /* exported init */
 let current_device = {};
-let current_language = "en";
+let current_language = undefined;
 let url_params = undefined;
 
 let progress = {
@@ -199,7 +199,12 @@ function setupSelectList(select, items, onselection) {
 
 // Change the translation of the entire document
 function translate(lang) {
-  current_language = lang || current_language;
+  const new_lang = lang || current_language;
+  if (current_language === new_lang) {
+    return;
+  }
+
+  current_language = new_lang;
   fetch("langs/" + current_language + ".json")
     .then((obj) => obj.json())
     .then((mapping) => {
