@@ -52,7 +52,7 @@ function getModelTitles(titles) {
 }
 
 /* exported buildAsuRequest */
-function buildAsuRequest() {
+function buildAsuRequest(request_hash) {
   $$("#download-table1 *").forEach((e) => e.remove());
   $$("#download-links2 *").forEach((e) => e.remove());
   $$("#download-extras2 *").forEach((e) => e.remove());
@@ -93,21 +93,30 @@ function buildAsuRequest() {
     return;
   }
 
-  const request_data = {
+  var request_url = `${config.asu_url}/api/v1/build`;
+
+  var body = JSON.stringify({
     profile: current_device.id,
     target: current_device.target,
     packages: split($("#packages").value),
     version: $("#versions").value,
     diff_packages: true,
     client: "ofs/" + ofs_version,
-  };
+  });
+  var method = "POST";
 
-  fetch(config.asu_url + "/api/v1/build", {
-    method: "POST",
+  if (request_hash) {
+    request_url += `/${request_hash}`;
+    body = null;
+    method = "GET";
+  }
+
+  fetch(request_url, {
+    method: method,
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(request_data),
+    body: body,
   })
     .then((response) => {
       switch (response.status) {
@@ -141,9 +150,7 @@ function buildAsuRequest() {
               true,
               "info"
             );
-            setTimeout(() => {
-              buildAsuRequest();
-            }, 5000);
+            setTimeout(buildAsuRequest.bind(null, mobj.request_hash), 5000);
           });
           break;
         case 400: // bad request
