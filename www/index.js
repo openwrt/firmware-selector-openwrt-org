@@ -4,7 +4,7 @@ let current_device = {};
 let current_language = undefined;
 let current_language_json = undefined;
 let url_params = undefined;
-let ofs_version = "%GIT_VERSION%";
+const ofs_version = "%GIT_VERSION%";
 
 let progress = {
   "tr-init": 10,
@@ -705,6 +705,8 @@ function initTranslation() {
 
 function init() {
   url_params = new URLSearchParams(window.location.search);
+
+  $("#ofs_version").innerText = ofs_version;
 
   if (typeof config.asu_url !== "undefined") {
     show("#details_custom");
