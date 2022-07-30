@@ -2,6 +2,7 @@
 /* exported init */
 let current_device = {};
 let current_language = undefined;
+let current_language_json = undefined;
 let url_params = undefined;
 let ofs_version = "%GIT_VERSION%";
 
@@ -201,21 +202,24 @@ function setupSelectList(select, items, onselection) {
 
 // Change the translation of the entire document
 function translate(lang) {
-  const new_lang = lang || current_language;
-  if (current_language === new_lang) {
-    return;
+  function apply(language, language_json) {
+    current_language = language;
+    current_language_json = language_json;
+    for (const tr in language_json) {
+      $$("." + tr).forEach((e) => {
+        e.innerText = language_json[tr];
+      });
+    }
   }
 
-  current_language = new_lang;
-  fetch("langs/" + current_language + ".json")
-    .then((obj) => obj.json())
-    .then((mapping) => {
-      for (const tr in mapping) {
-        $$("." + tr).forEach((e) => {
-          e.innerText = mapping[tr];
-        });
-      }
-    });
+  const new_lang = lang || current_language;
+  if (current_language === new_lang) {
+    apply(current_language, current_language_json);
+  } else {
+    fetch("langs/" + new_lang + ".json")
+      .then((obj) => obj.json())
+      .then((mapping) => apply(new_lang, mapping));
+  }
 }
 
 // return array of matching ranges
