@@ -2,6 +2,11 @@
 
 Short summaries of recent changes for people who don't use `git log --online`
 
+## v3.8.2 - 2022-08-03
+
+* Translation updates
+* Improve ASU integration via GET requests
+
 ## v3.8.1 - 2022-06-15
 
 * Translation updates
