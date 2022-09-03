@@ -27,5 +27,15 @@
     "tr-build-successful": "ビルド成功",
     "tr-request-image": "イメージをリクエスト",
     "tr-build-size": "選択されたパッケージはデバイスのストレージを超過しています",
-    "tr-build-failed": "ビルド失敗"
+    "tr-build-failed": "ビルド失敗",
+    "tr-title": "OpenWrt ファームウェアセレクタ",
+    "tr-custom-downloads": "カスタムダウンロード",
+    "tr-cpximg-help": "純正ファームウェアのsysupgrade、または内蔵のcpximg loaderで使用します。",
+    "tr-eva-help": "OpenWrtとブートローダーのイメージ。",
+    "tr-check-again": "5 秒後にもう一度確認してください...",
+    "tr-download_imagebuilder": "イメージビルダーアーカイブのダウンロード",
+    "tr-unpack_imagebuilder": "イメージビルダーのセットアップ",
+    "tr-calculate_packages_hash": "検証されたパッケージ",
+    "tr-building_image": "ファームウェアイメージの生成",
+    "tr-init": "ビルド要求の受信"
 }
