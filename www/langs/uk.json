@@ -8,8 +8,8 @@
     "tr-message": "Введіть назву або модель вашого пристрою, потім виберіть стабільну або \"нічну\" збірку.",
     "tr-custom-build": "Користувацька збірка",
     "tr-version-build": "Про поточну збірку",
-    "tr-customize": "Налаштувати",
-    "tr-request-build": "Запит збірки",
+    "tr-customize": "Налаштування встановлених пакетів",
+    "tr-request-build": "ЗАПИТ ЗБІРКИ",
     "tr-downloads": "Завантажити образ",
     "tr-target": "Платформа:",
     "tr-date": "Дата:",
@@ -31,5 +31,11 @@
     "tr-server-link": "Всі завантаження",
     "tr-notfound": "Модель не знайдена!",
     "tr-title": "Вибір програмного забезпечення OpenWrt",
-    "tr-links": "Посилання:"
+    "tr-links": "Посилання:",
+    "tr-build-size": "Вибрані пакети перевищують пам’ять пристрою",
+    "tr-init": "Отримано запит на збірку",
+    "tr-download_imagebuilder": "Завантаження ImageBuilder архіву",
+    "tr-unpack_imagebuilder": "Налаштувати ImageBuilder",
+    "tr-calculate_packages_hash": "Перевірте вибір пакета",
+    "tr-building_image": "Створення образу прошивки"
 }
