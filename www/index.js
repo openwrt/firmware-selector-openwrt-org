@@ -182,11 +182,16 @@ function buildAsuRequest(request_hash) {
 }
 
 function setupSelectList(select, items, onselection) {
-  const items_sorted = items
-    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
-    .reverse();
+  // normalize prerelease version part for semver-like sorting
+  items.sort((b, a) =>
+    (a + (a.indexOf("-") < 0 ? "-Z" : "")).localeCompare(
+      b + (b.indexOf("-") < 0 ? "-Z" : ""),
+      undefined,
+      { numeric: true }
+    )
+  );
 
-  for (const item of items_sorted) {
+  for (const item of items) {
     const option = document.createElement("OPTION");
     option.innerHTML = item;
     select.appendChild(option);
