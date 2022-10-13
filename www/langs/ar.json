@@ -1,1 +1,17 @@
-{}
+{
+    "tr-version-build": "معلومات عن النسخة",
+    "tr-custom-build": "نسخة مخصصة",
+    "tr-date": "تاريخ:",
+    "tr-model": "نموذج:",
+    "tr-version": "إصدار:",
+    "tr-target": "منصة:",
+    "tr-request-build": "طلب نسخة",
+    "tr-links": "الروابط:",
+    "tr-server-link": "جميع التنزيلات",
+    "tr-notfound": "لم يتم العثور على النموذج!",
+    "tr-title": "خيارات OpenWrt Firmware",
+    "tr-load": "تنزيل OpenWrt Firmware لجهازك",
+    "tr-message": "حدد الاسم والنموذج الصحيحين لجهازك, ثم اختار النسخة المستقرة او الإصدارات الليلية \"snapshot\".",
+    "tr-sdcard-help": "الصورة التي من المفترض أن يتم تثبيتها على بطاقة SD.",
+    "tr-feedback-link": "التعليقات"
+}
