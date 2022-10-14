@@ -13,5 +13,12 @@
     "tr-load": "تنزيل OpenWrt Firmware لجهازك",
     "tr-message": "حدد الاسم والنموذج الصحيحين لجهازك, ثم اختار النسخة المستقرة او الإصدارات الليلية \"snapshot\".",
     "tr-sdcard-help": "الصورة التي من المفترض أن يتم تثبيتها على بطاقة SD.",
-    "tr-feedback-link": "التعليقات"
+    "tr-feedback-link": "التعليقات",
+    "tr-other-help": "نوع صورة آخر.",
+    "tr-build-successful": "بناء ناجح",
+    "tr-downloads": "تحميل نسخة",
+    "tr-custom-downloads": "التنزيلات المخصصة",
+    "tr-check-again": "تحقق مرة أخرى في 5 ثوان ...",
+    "tr-build-failed": "فشل البناء",
+    "tr-request-image": "طلب صورة"
 }
