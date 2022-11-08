@@ -35,7 +35,7 @@
     "tr-build-size": "所选软件包超出设备存储容量",
     "tr-init": "已收到构建请求",
     "tr-download_imagebuilder": "下载 ImageBuilder 存档中",
-    "tr-unpack_imagebuilder": "设定 ImageBuilder",
+    "tr-unpack_imagebuilder": "配置 ImageBuilder",
     "tr-calculate_packages_hash": "验证包选择",
     "tr-building_image": "生成固件映像"
 }
