@@ -31,5 +31,11 @@
     "tr-cpximg-help": "Use with sysupgrade in the stock firmware or with the built-in cpximg loader.",
     "tr-eva-help": "Image with OpenWrt and a boot loader.",
     "tr-initramfs-help": "Linux kernel with minimal file system. Useful for first installation or recovery.",
-    "tr-links": "Lenker:"
+    "tr-links": "Lenker:",
+    "tr-unpack_imagebuilder": "Sett opp ImageBuilder",
+    "tr-build-size": "Valgte pakker overskrider enhetslagringsplassen",
+    "tr-init": "Mottok byggingsforespørsel",
+    "tr-download_imagebuilder": "Laster ned ImageBuilder-arkiv",
+    "tr-calculate_packages_hash": "Bekreft pakkeutvalg",
+    "tr-building_image": "Genererer fastvareavtrykk"
 }
