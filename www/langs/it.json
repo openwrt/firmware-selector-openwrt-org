@@ -22,7 +22,7 @@
     "tr-build-successful": "Build compilata con successo",
     "tr-build-failed": "Build fallita",
     "tr-request-image": "Richiedi immagine",
-    "tr-check-again": "Prova di nuovo in 5 secondi...",
+    "tr-check-again": "Prova di nuovo in 5 secondi…",
     "tr-feedback-link": "Feedback",
     "tr-server-link": "Tutti i Download",
     "tr-notfound": "Nessun modello trovato!",
@@ -34,7 +34,7 @@
     "tr-init": "Richiesta di build ricevuta",
     "tr-building_image": "Generazione dell'immagine del firmware",
     "tr-calculate_packages_hash": "Convalida la selezione del pacchetto",
-    "tr-unpack_imagebuilder": "Imposta ImageBuilder",
+    "tr-unpack_imagebuilder": "Configura ImageBuilder",
     "tr-links": "Links:",
     "tr-build-size": "I pacchetti selezionati superano lo spazio di archiviazione del dispositivo",
     "tr-download_imagebuilder": "Download dell'archivio di ImageBuilder"
