@@ -31,7 +31,7 @@
     "tr-build-successful": "Build successful",
     "tr-build-failed": "Build failed",
     "tr-request-image": "Request image",
-    "tr-check-again": "Check again in 5 seconds...",
+    "tr-check-again": "Check again in 5 seconds…",
     "tr-build-size": "Selected packages exceed device storage",
     "tr-init": "Received build request",
     "tr-download_imagebuilder": "Downloading ImageBuilder archive",
