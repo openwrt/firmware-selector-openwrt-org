@@ -26,7 +26,7 @@
     "tr-build-successful": "Build erfolgreich",
     "tr-build-failed": "Build fehlgeschlagen",
     "tr-request-image": "Frage nach image",
-    "tr-check-again": "Nochmal nachfragen in 5 Sekunden...",
+    "tr-check-again": "Nochmal nachfragen in 5 Sekunden…",
     "tr-dtb-help": "Device tree blob. Diese Datei konfiguriert den Linux-Kernel für die Hardware.",
     "tr-uboot-help": "Bootloader-Abbild. Low-Level-Software, die das Betriebssystem beim Booten frühzeitig lädt.",
     "tr-cpximg-help": "Verwendung mit sysupgrade in der Standard-Firmware oder mit dem eingebauten cpximg-Loader.",
