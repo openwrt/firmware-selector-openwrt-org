@@ -344,3 +344,14 @@ header > div {
   padding: 20px;
   margin-bottom: 15px;
 }
+
+#stdout,
+#stderr {
+  overflow: scroll;
+}
+
+#packages {
+  resize: none;
+  width: -moz-available;
+  width: -webkit-fill-available;
+}
