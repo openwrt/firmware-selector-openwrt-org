@@ -1,6 +1,12 @@
 # Changelog
 
-Short summaries of recent changes for people who don't use `git log --online`
+Short summaries of recent changes for people who don't use `git shortlog`
+
+## v3.8.3 - 2022-11-14
+
+* Improved sorting in version select list
+* Translation updates
+* Enabled Arabic, Latvian and Slovak translation
 
 ## v3.8.2 - 2022-08-03
 
