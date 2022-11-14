@@ -529,21 +529,13 @@ function updateImages(mobj, overview) {
     const images = mobj.images;
     const image_url = config.image_url || overview.image_url || "";
 
+    const h3 = $("#downloads1 h3");
     if ("build_cmd" in mobj) {
-      $("#downloads1")
-        .getElementsByTagName("h3")[0]
-        .classList.remove("tr-downloads");
-      $("#downloads1")
-        .getElementsByTagName("h3")[0]
-        .classList.add("tr-custom-downloads");
-      console.log("custom");
+      h3.classList.remove("tr-downloads");
+      h3.classList.add("tr-custom-downloads");
     } else {
-      $("#downloads1")
-        .getElementsByTagName("h3")[0]
-        .classList.remove("tr-custom-downloads");
-      $("#downloads1")
-        .getElementsByTagName("h3")[0]
-        .classList.add("tr-downloads");
+      h3.classList.remove("tr-custom-downloads");
+      h3.classList.add("tr-downloads");
     }
 
     // update title translation
@@ -669,7 +661,7 @@ function setModel(overview, target, id) {
 function changeModel(version, overview, title, base_url) {
   const entry = overview.profiles[title];
   if (entry) {
-    fetch(base_url + "/" + entry.target + "/" + entry.id + ".json", {
+    fetch(`${base_url}/${entry.target}/${entry.id}.json`, {
       cache: "no-cache",
     })
       .then((obj) => {
@@ -741,10 +733,10 @@ function init() {
         function resolve_duplicate(e) {
           const tu = e.title.toUpperCase();
           if (tu in dups) {
-            e.title += " (" + e.target + ")";
+            e.title += ` (${e.target})`;
             let o = dups[tu];
             if (o.title.toUpperCase() == tu) {
-              o.title += " (" + o.target + ")";
+              o.title += ` (${o.target})`;
             }
           } else {
             dups[tu] = e;
@@ -755,10 +747,7 @@ function init() {
           for (let title of getModelTitles(profile.titles)) {
             if (title.length == 0) {
               console.warn(
-                "Empty device title for device id: " +
-                  profile.target +
-                  ", " +
-                  profile.id
+                `Empty device title for device id: ${profile.target}, ${profile.id}`
               );
               continue;
             }
