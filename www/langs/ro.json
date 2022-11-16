@@ -17,7 +17,7 @@
     "tr-rootfs-help": "Sistemul de fișiere rădăcină ca o imagine separată.",
     "tr-sdcard-help": "Imagine care este destinată să fie programată pe o cartelă SD.",
     "tr-tftp-help": "Imaginile TFTP sunt utilizate pentru a programa un dispozitiv prin metoda TFTP a bootloader-ului.",
-    "tr-check-again": "Verificați din nou în 5 secunde...",
+    "tr-check-again": "Verificați din nou în 5 secunde…",
     "tr-other-help": "Alt tip de imagine.",
     "tr-request-image": "Solicitați imaginea",
     "tr-load": "Descărcați firmware-ul OpenWrt pentru dispozitivul dumneavoastră",
@@ -34,7 +34,7 @@
     "tr-links": "Linkuri:",
     "tr-build-size": "Pachetele selectate depășesc capacitatea de stocare a dispozitivului",
     "tr-download_imagebuilder": "Descărcarea arhivei ImageBuilder",
-    "tr-unpack_imagebuilder": "Configurare ImageBuilder",
+    "tr-unpack_imagebuilder": "Configurați ImageBuilder",
     "tr-init": "Cerere de compilare primită",
     "tr-calculate_packages_hash": "Validați selecția pachetului",
     "tr-building_image": "Generarea imaginii firmware"
