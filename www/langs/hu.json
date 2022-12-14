@@ -10,7 +10,7 @@
     "tr-model": "Modell:",
     "tr-downloads": "Tölts le egy lemezképet",
     "tr-uboot-help": "Rendszerindító lemezkép. Alacsony szintű szoftver amely betölti az operációs rendszert korai indításkor.",
-    "tr-check-again": "Ellenőrízd újra 5 másodpercen belül...",
+    "tr-check-again": "Ellenőrízd újra 5 másodpercen belül…",
     "tr-initramfs-help": "Linux kernel minimális fájlrendszerrel. Hasznos első telepítés vagy visszaállítás során.",
     "tr-request-image": "Lemezkép kérése",
     "tr-other-help": "Más lemezkép típus.",
