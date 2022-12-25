@@ -24,7 +24,7 @@
     "tr-tftp-help": "TFTP 映像用於透過引導載入程式的 TFTP 方法來更新裝置。",
     "tr-feedback-link": "意見反饋",
     "tr-server-link": "所有下載",
-    "tr-check-again": "請在 5 秒鍾後再次檢查...",
+    "tr-check-again": "請在 5 秒後再次檢查…",
     "tr-other-help": "其他映像類型。",
     "tr-build-successful": "建置成功",
     "tr-build-failed": "建置失敗",
@@ -34,7 +34,7 @@
     "tr-links": "鏈接:",
     "tr-build-size": "所選組件超出設備存儲空間",
     "tr-download_imagebuilder": "下載 ImageBuilder 檔案中",
-    "tr-unpack_imagebuilder": "設置 ImageBuilder",
+    "tr-unpack_imagebuilder": "設定 ImageBuilder",
     "tr-calculate_packages_hash": "驗證套件選擇",
     "tr-building_image": "生承韌體映像",
     "tr-init": "已收到建置請求"
