@@ -30,7 +30,7 @@
     "tr-build-successful": "빌드 성공",
     "tr-build-failed": "빌드 실패",
     "tr-request-image": "이미지 요청",
-    "tr-check-again": "5초 후 다시 확인합니다...",
+    "tr-check-again": "5초 후 다시 확인합니다…",
     "tr-links": "링크:",
     "tr-build-size": "선택한 패키지는 기기의 저장 공간을 초과합니다",
     "tr-init": "빌드 요청 받음",
