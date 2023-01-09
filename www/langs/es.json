@@ -5,7 +5,7 @@
     "tr-message": "Escriba el nombre o modelo de su dispositivo, luego seleccione la versión estable o la compilación nocturna \"snapshot\".",
     "tr-version-build": "Acerca de esta compilación",
     "tr-custom-build": "Compilación personalizada",
-    "tr-customize": "Personalizar paquetes instalados",
+    "tr-customize": "Personalice los paquetes instalados y/o el primer script de arranque",
     "tr-request-build": "SOLICITAR COMPILACIÓN",
     "tr-model": "Modelo:",
     "tr-target": "Plataforma:",
@@ -23,7 +23,7 @@
     "tr-build-successful": "Compilación exitosa",
     "tr-build-failed": "Compilación fallida",
     "tr-request-image": "Solicitar imagen",
-    "tr-check-again": "Vuelva a comprobar en 5 segundos...",
+    "tr-check-again": "Vuelva a comprobar en 5 segundos…",
     "tr-feedback-link": "Comentarios",
     "tr-server-link": "Todas las descargas",
     "tr-dtb-help": "Árbol binario del dispositivo. Este fichero configura el kernel de Linux para el dispositivo.",
@@ -37,5 +37,7 @@
     "tr-download_imagebuilder": "Descargando archivo de ImageBuilder",
     "tr-unpack_imagebuilder": "Configurar ImageBuilder",
     "tr-calculate_packages_hash": "Validar selección de paquetes",
-    "tr-building_image": "Generando imagen de firmware"
+    "tr-building_image": "Generando imagen de firmware",
+    "tr-packages": "Paquetes instalados",
+    "tr-defaults": "Script para ejecutar en el primer arranque (uci-defaults)"
 }
