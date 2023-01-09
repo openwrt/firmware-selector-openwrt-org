@@ -119,7 +119,9 @@
             <div class="row">
               <details id="details_custom" class="hide" style="width: 100%">
                 <summary>
-                  <span class="tr-customize">Customize installed packages</span>
+                  <span class="tr-customize"
+                    >Customize installed packages and/or first boot script</span
+                  >
                 </summary>
                 <div id="buildstatus" class="alert hide">
                   <span></span>
@@ -139,9 +141,21 @@
                   </div>
                 </div>
                 <div>
+                  <h5 class="tr-packages">Installed Packages</h5>
                   <textarea
                     rows="10"
                     id="packages"
+                    spellcheck="false"
+                    autocapitalize="off"
+                  ></textarea>
+                </div>
+                <h5 class="tr-defaults">
+                  Script to run on first boot (uci-defaults)
+                </h5>
+                <div>
+                  <textarea
+                    rows="10"
+                    id="defaults"
                     spellcheck="false"
                     autocapitalize="off"
                   ></textarea>

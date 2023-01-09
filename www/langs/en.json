@@ -8,7 +8,7 @@
     "tr-message": "Type the name or model of your device, then select a stable build or the nightly \"snapshot\" build.",
     "tr-version-build": "About this build",
     "tr-custom-build": "Custom Build",
-    "tr-customize": "Customize installed packages",
+    "tr-customize": "Customize installed packages and/or first boot script",
     "tr-request-build": "REQUEST BUILD",
     "tr-model": "Model:",
     "tr-target": "Platform:",
@@ -37,5 +37,7 @@
     "tr-download_imagebuilder": "Downloading ImageBuilder archive",
     "tr-unpack_imagebuilder": "Set up ImageBuilder",
     "tr-calculate_packages_hash": "Validate package selection",
-    "tr-building_image": "Generating firmware image"
+    "tr-building_image": "Generating firmware image",
+    "tr-packages": "Installed Packages",
+    "tr-defaults": "Script to run on first boot (uci-defaults)"
 }

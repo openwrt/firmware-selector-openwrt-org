@@ -99,6 +99,7 @@ function buildAsuRequest(request_hash) {
     profile: current_device.id,
     target: current_device.target,
     packages: split($("#packages").value),
+    defaults: $("#defaults").value,
     version: $("#versions").value,
     diff_packages: true,
     client: "ofs/" + ofs_version,

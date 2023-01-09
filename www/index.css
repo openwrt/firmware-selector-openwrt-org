@@ -350,7 +350,8 @@ header > div {
   overflow: scroll;
 }
 
-#packages {
+#packages,
+#defaults {
   resize: none;
   width: -moz-available;
   width: -webkit-fill-available;
