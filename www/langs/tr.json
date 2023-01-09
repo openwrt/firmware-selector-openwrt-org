@@ -4,7 +4,7 @@
     "tr-message": "Aygıtınızın adını veya modelini yazın, ardından kararlı bir sürüm veya gecelik \"anlık görüntü\" sürümünü seçin.",
     "tr-version-build": "Sürüm",
     "tr-custom-build": "Özel Sürüm",
-    "tr-customize": "Kurulu paketleri özelleştir",
+    "tr-customize": "Kurulu paketleri ve/veya ilk önyükleme betiğini özelleştir",
     "tr-request-build": "SÜRÜM OLUŞTUR",
     "tr-model": "Model:",
     "tr-target": "Platform:",
@@ -37,5 +37,7 @@
     "tr-init": "Sürüm oluşturma isteği alındı",
     "tr-download_imagebuilder": "ImageBuilder arşivi indiriliyor",
     "tr-unpack_imagebuilder": "ImageBuilder'ı kur",
-    "tr-calculate_packages_hash": "Paket seçimini doğrula"
+    "tr-calculate_packages_hash": "Paket seçimini doğrula",
+    "tr-packages": "Kurulu Paketler",
+    "tr-defaults": "İlk önyüklemede çalıştırılacak betik (uci-defaults)"
 }
