@@ -6,7 +6,7 @@
     "tr-message": "输入设备的名称或型号，然后选择一个稳定或快照版本。",
     "tr-version-build": "关于构建",
     "tr-custom-build": "自定义构建",
-    "tr-customize": "自定义预安装软件包",
+    "tr-customize": "自定义已安装的软件包和/或首次启动脚本",
     "tr-request-build": "请求构建",
     "tr-model": "型号:",
     "tr-target": "平台:",
@@ -37,5 +37,7 @@
     "tr-download_imagebuilder": "下载 ImageBuilder 存档中",
     "tr-unpack_imagebuilder": "配置 ImageBuilder",
     "tr-calculate_packages_hash": "验证包选择",
-    "tr-building_image": "生成固件映像"
+    "tr-building_image": "生成固件映像",
+    "tr-packages": "已安装的软件包",
+    "tr-defaults": "首次启动时运行的脚本（uci-defaults）"
 }
