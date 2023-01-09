@@ -21,7 +21,7 @@
     "tr-check-again": "Verifique novamente daqui 5 segundos…",
     "tr-version": "Versão:",
     "tr-message": "Digite o nome ou o modelo do seu dispositivo e selecione uma compilação estável ou uma compilação \"snapshot\" diária.",
-    "tr-customize": "Personaliza os pacotes instalados",
+    "tr-customize": "Personaliza os pacotes instalados e/ou o primeiro script de boot",
     "tr-request-build": "SOLICITE UMA COMPILAÇÃO",
     "tr-model": "Modelo:",
     "tr-downloads": "Baixe uma imagem",
@@ -37,5 +37,7 @@
     "tr-unpack_imagebuilder": "Configura o ImageBuilder",
     "tr-building_image": "Gerando a imagem do firmware",
     "tr-download_imagebuilder": "Baixando o arquivo do ImageBuilder",
-    "tr-calculate_packages_hash": "Valida a seleção do pacote"
+    "tr-calculate_packages_hash": "Valida a seleção do pacote",
+    "tr-packages": "Pacotes instalados",
+    "tr-defaults": "Script para rodar na primeira inicialização (uci-defaults)"
 }
