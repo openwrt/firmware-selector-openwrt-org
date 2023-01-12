@@ -7,7 +7,7 @@
     "tr-message": "Bitte benutze die Eingabe um die passende Firmware zu finden.",
     "tr-version-build": "Release Build",
     "tr-custom-build": "Benutzerdefinierte Erstellung",
-    "tr-customize": "Installierte Pakete anpassen",
+    "tr-customize": "Installierte Pakete anpassen und/oder des ersten Boot-Skripts",
     "tr-request-build": "Firmware anfordern",
     "tr-model": "Model:",
     "tr-target": "Platform:",
@@ -37,5 +37,7 @@
     "tr-download_imagebuilder": "ImageBuilder-Archiv wird heruntergeladen",
     "tr-unpack_imagebuilder": "ImageBuilder einrichten",
     "tr-calculate_packages_hash": "Paketauswahl bestätigen",
-    "tr-building_image": "Firmware-Image wird erzeugt"
+    "tr-building_image": "Firmware-Image wird erzeugt",
+    "tr-packages": "Installierte Pakete",
+    "tr-defaults": "Skript, das beim ersten Start ausgeführt werden soll (uci-defaults)"
 }
