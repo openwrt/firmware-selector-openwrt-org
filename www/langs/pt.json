@@ -5,7 +5,7 @@
     "tr-title": "Selecionador de Firmware OpenWrt",
     "tr-version-build": "Acerca desta compilação",
     "tr-custom-build": "Compilação Personalizada",
-    "tr-customize": "Personalizar pacotes instalados",
+    "tr-customize": "Personalizar pacotes instalados e/ou o primeiro script de inicialização",
     "tr-request-build": "SOLICITAR A CONSTRUÇÃO",
     "tr-model": "Modelo:",
     "tr-target": "Plataforma:",
@@ -37,5 +37,7 @@
     "tr-download_imagebuilder": "A descarregar o ficheiro do ImageBuilder",
     "tr-unpack_imagebuilder": "Configurar o ImageBuilder",
     "tr-calculate_packages_hash": "Validar a seleção do pacote",
-    "tr-building_image": "A gerar a imagem de firmware"
+    "tr-building_image": "A gerar a imagem de firmware",
+    "tr-packages": "Pacotes instalados",
+    "tr-defaults": "Script a ser executado na primeira inicialização (uci-defaults)"
 }
