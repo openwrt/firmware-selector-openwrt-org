@@ -7,7 +7,7 @@
     "tr-message": "Wprowadź nazwę lub model swojego urządzenia, a następnie wybierz wersję zalecaną lub inną.",
     "tr-version-build": "Informacje o obrazie",
     "tr-custom-build": "Informacje o zmodyfikowanym obrazie",
-    "tr-customize": "Dostosuj zainstalowane pakiety i/lub skrypt pierwszego uruchomienia",
+    "tr-customize": "Dostosuj zainstalowane pakiety i/lub skrypt pierwszego rozruchu",
     "tr-request-build": "ŻĄDANIE BUDOWY",
     "tr-model": "Model:",
     "tr-target": "Platforma:",
@@ -38,6 +38,6 @@
     "tr-init": "Otrzymano żądanie budowy",
     "tr-download_imagebuilder": "Pobieranie archiwum ImageBuilder",
     "tr-calculate_packages_hash": "Zatwierdzanie wyboru pakietów",
-    "tr-defaults": "Skrypt do uruchomienia przy pierwszym uruchomieniu (uci-defaults)",
+    "tr-defaults": "Skrypt do uruchomienia przy pierwszym rozruchu (uci-defaults)",
     "tr-packages": "Zainstalowane pakiety"
 }
