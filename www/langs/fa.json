@@ -4,7 +4,7 @@
     "tr-title": "انتخاب کننده فرم ور OpenWrt",
     "tr-message": "نام یا مدل تجهیز خود را تایپ کنید ، سپس یک ورژن پایدار و یا Snap shot مناسب را انتخاب کنید .",
     "tr-version-build": "درباره این پکیج ساخته شده",
-    "tr-customize": "شخصی سازی",
+    "tr-customize": "بسته های نصب شده و/یا اولین اسکریپت بوت را سفارشی کنید",
     "tr-request-build": "درخواست ساخت",
     "tr-model": "مدل:",
     "tr-version": "ورژن :",
@@ -37,5 +37,7 @@
     "tr-init": "درخواست ساخت دریافت شد",
     "tr-unpack_imagebuilder": "راه اندازی ImageBuilder",
     "tr-calculate_packages_hash": "تایید بسته انتخابی",
-    "tr-building_image": "ایجاد تصویر (ایمیج) فریمویر"
+    "tr-building_image": "ایجاد تصویر (ایمیج) فریمویر",
+    "tr-packages": "بسته های نصب شده",
+    "tr-defaults": "اسکریپت برای اجرا در اولین بوت (uci-defaults)"
 }
