@@ -6,7 +6,7 @@
     "tr-message": "Indtast navnet eller modellen på din enhed, og vælg derefter et stabilt build eller et natligt \"snapshot\" build.",
     "tr-version-build": "Om dette build",
     "tr-custom-build": "Brugerdefineret build",
-    "tr-customize": "Tilpas installerede pakker",
+    "tr-customize": "Tilpas installerede pakker og/eller script til første opstart",
     "tr-request-build": "Anmod om build",
     "tr-target": "Platform:",
     "tr-downloads": "Download et image",
@@ -37,5 +37,7 @@
     "tr-download_imagebuilder": "Download af ImageBuilder-arkiv",
     "tr-unpack_imagebuilder": "Opsæt ImageBuilder",
     "tr-calculate_packages_hash": "Validering af pakkevalg",
-    "tr-building_image": "Generering af firmware-image"
+    "tr-building_image": "Generering af firmware-image",
+    "tr-packages": "Installerede pakker",
+    "tr-defaults": "Script, der skal køres ved første opstart (uci-defaults)"
 }
