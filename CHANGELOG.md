@@ -2,6 +2,11 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v3.8.4 - 2023-01-29
+
+* Translation updates
+* Allow to specify a custom script to run on first boot
+
 ## v3.8.3 - 2022-11-14
 
 * Improved sorting in version select list
