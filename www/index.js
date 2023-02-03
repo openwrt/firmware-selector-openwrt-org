@@ -219,8 +219,12 @@ function translate(lang) {
     current_language = language;
     current_language_json = language_json;
     for (const tr in language_json) {
-      $$("." + tr).forEach((e) => {
-        e.innerText = language_json[tr];
+      $$(`.${tr}`).forEach((e) => {
+        if (e.placeholder !== undefined) {
+          e.placeholder = language_json[tr];
+        } else {
+          e.innerText = language_json[tr];
+        }
       });
     }
   }
