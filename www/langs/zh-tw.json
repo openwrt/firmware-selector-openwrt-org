@@ -31,7 +31,7 @@
     "tr-request-image": "索取映像",
     "tr-cpximg-help": "與原版韌體中的 sysupgrade 一起使用，或與內建的 cpximg 載入程式一起使用。",
     "tr-factory-help": "第一次使用 Factory 映像透過 OpenWrt 更新路由器。通常您可以透過原始韌體的 Web 介面執行此操作。",
-    "tr-links": "鏈接:",
+    "tr-links": "鏈接",
     "tr-build-size": "所選組件超出設備存儲空間",
     "tr-download_imagebuilder": "下載 ImageBuilder 檔案中",
     "tr-unpack_imagebuilder": "設定 ImageBuilder",

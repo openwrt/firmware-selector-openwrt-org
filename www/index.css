@@ -270,6 +270,10 @@ header > div {
   width: 6em;
 }
 
+.col1:after {
+  content: ":";
+}
+
 .col2 {
   display: inline-block;
   overflow: hidden;

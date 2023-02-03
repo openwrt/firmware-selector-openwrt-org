@@ -6,15 +6,15 @@
     "tr-message": "Kirjoita laitteesi mallin nimi, valitse sen jälkeen vakaa versio tai nightly-versio.",
     "tr-custom-build": "Mukautettu koonti",
     "tr-request-build": "Pyydä koontia",
-    "tr-version": "Versio:",
-    "tr-date": "Päivä:",
+    "tr-version": "Versio",
+    "tr-date": "Päivä",
     "tr-downloads": "Lataa levykuva",
     "tr-custom-downloads": "Mukautetut lataukset",
     "tr-feedback-link": "Palaute",
     "tr-version-build": "Tietoja tästä koonnista",
     "tr-customize": "Mukauta",
-    "tr-model": "Malli:",
-    "tr-target": "Alusta:",
+    "tr-model": "Malli",
+    "tr-target": "Alusta",
     "tr-eva-help": "Levykuva OpenWrt:llä ja käynnistyslataajalla.",
     "tr-kernel-help": "Linux-ydin erillisenä levykuvana.",
     "tr-rootfs-help": "Juuritiedostojärjestelmä erillisenä levykuvana.",
@@ -25,5 +25,5 @@
     "tr-request-image": "Pyydä levykuva",
     "tr-check-again": "Tarkista uudelleen 5 sekunnin kuluttua...",
     "tr-initramfs-help": "Linux-ydin minimalistisen tiedostojärjestelmän kera. Hyödyllinen ensimmäistä asennusta tai palautusta varten.",
-    "tr-links": "Linkit:"
+    "tr-links": "Linkit"
 }

@@ -3,11 +3,11 @@
     "tr-server-link": "Összes letöltés",
     "tr-load": "Töltsd le az OpenWrt firmware-t az eszközödre",
     "tr-title": "OpenWrt firmware kiválasztó",
-    "tr-version": "Verzió:",
-    "tr-date": "Dátum:",
+    "tr-version": "Verzió",
+    "tr-date": "Dátum",
     "tr-customize": "Testreszabás",
     "tr-custom-downloads": "Egyedi letöltések",
-    "tr-model": "Modell:",
+    "tr-model": "Modell",
     "tr-downloads": "Tölts le egy lemezképet",
     "tr-uboot-help": "Rendszerindító lemezkép. Alacsony szintű szoftver amely betölti az operációs rendszert korai indításkor.",
     "tr-check-again": "Ellenőrízd újra 5 másodpercen belül…",
@@ -18,7 +18,7 @@
     "tr-notfound": "Modell nem található!",
     "tr-tftp-help": "A TFTP lemezképeket egy eszköz flashelésére a rendszerindító TFTP-módszerén keresztül használják.",
     "tr-factory-help": "Használj egy gyári lemezképet, hogy egy routerre flashelj OpenWrt-et első alkalommal. Ezt általában az eredeti firmware webes felülete használatával teheted meg.",
-    "tr-target": "Platform:",
+    "tr-target": "Platform",
     "tr-eva-help": "Lemezkép OpenWrt-el és egy rendszerindítóval.",
     "tr-version-build": "Erről a kiadásról",
     "tr-custom-build": "Testreszabott kiadások",
@@ -31,5 +31,5 @@
     "tr-sdcard-help": "Lemezkép ami egy SD kártyára való flashelésére van szánva.",
     "tr-build-failed": "Kiadás sikertelen",
     "tr-sysupgrade-help": "Használj egy sysupgrade lemezképet hogy frissíts egy routert melyen már OpenWrt fut. A lemezképet lehet a LuCI web felülettel használni vagy a terminállal.",
-    "tr-links": "Linkek:"
+    "tr-links": "Linkek"
 }
