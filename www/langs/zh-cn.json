@@ -31,7 +31,7 @@
     "tr-uboot-help": "引导程序映像。 用于启动时加载操作系统的底层软件。",
     "tr-cpximg-help": "与原版固件中的 sysupgrade 一起使用，或与内置的 cpximg 加载程序一起使用。",
     "tr-eva-help": "封入固件及引导程序的映像文件。",
-    "tr-links": "链接：",
+    "tr-links": "链接",
     "tr-build-size": "所选软件包超出设备存储容量",
     "tr-init": "已收到构建请求",
     "tr-download_imagebuilder": "下载 ImageBuilder 存档中",
