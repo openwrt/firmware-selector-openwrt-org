@@ -5,7 +5,7 @@
     "tr-message": "Introduceți numele sau modelul dispozitivului dvs., apoi selectați o versiune stabilă sau o versiune nightly \"snapshot\".",
     "tr-version-build": "Despre această compilare",
     "tr-custom-build": "Compilare personalizată",
-    "tr-customize": "Personalizați pachetele instalate",
+    "tr-customize": "Personalizați pachetele instalate și/sau primul script de pornire",
     "tr-model": "Model",
     "tr-target": "Platformă",
     "tr-downloads": "Descărcați o imagine",
