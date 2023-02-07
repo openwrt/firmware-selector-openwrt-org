@@ -37,5 +37,7 @@
     "tr-unpack_imagebuilder": "Configurați ImageBuilder",
     "tr-init": "Cerere de compilare primită",
     "tr-calculate_packages_hash": "Validați selecția pachetului",
-    "tr-building_image": "Generarea imaginii firmware"
+    "tr-building_image": "Generarea imaginii firmware",
+    "tr-packages": "Pachete instalate",
+    "tr-defaults": "Script de executat la prima pornire (uci-defaults)"
 }
