@@ -53,6 +53,10 @@ If the option is not available (OpenWrt 18.06 or 19.07.3), apply commit [openwrt
 
 [ASU](https://github.com/openwrt/asu) is a build server that builds OpenWrt images with a given list of packages on request. The firmware-selector can be used as an interface to send these requests and to download the images when finished.
 
+### UCI-Defaults
+
+The Firmware Selector allows to define a script to be placed in the `/etc/uci-defaults/` folder of the OpenWrt image. These scripts are executed once on the first reboot and then deleted. See the [OpenWrt documentation](https://openwrt.org/docs/guide-developer/uci-defaults) on this topic.
+
 ## Translations
 
 Visit [weblate.org](https://hosted.weblate.org/projects/openwrt/firmware-wizard/) to contribute new translations or to improve them.
