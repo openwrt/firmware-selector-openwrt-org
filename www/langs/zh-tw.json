@@ -7,10 +7,10 @@
     "tr-custom-build": "自訂版本",
     "tr-customize": "自定義已安裝套件及/或初次啟動腳本",
     "tr-request-build": "要求建置",
-    "tr-model": "型號：",
-    "tr-target": "平台：",
-    "tr-version": "版本：",
-    "tr-date": "日期：",
+    "tr-model": "型號",
+    "tr-target": "平台",
+    "tr-version": "版本",
+    "tr-date": "日期",
     "tr-custom-downloads": "自訂下載",
     "tr-dtb-help": "裝置樹 blob。此檔案設定硬體的 Linux 核心。",
     "tr-uboot-help": "Bootloader 鏡像。在啟動初期載入作業系統的低階軟體。",
@@ -37,5 +37,7 @@
     "tr-unpack_imagebuilder": "設定 ImageBuilder",
     "tr-calculate_packages_hash": "驗證套件選擇",
     "tr-building_image": "生承韌體映像",
-    "tr-init": "已收到建置請求"
+    "tr-init": "已收到建置請求",
+    "tr-packages": "已安裝的套件",
+    "tr-defaults": "首次啟動時運行的文稿（uci 預設值）"
 }
