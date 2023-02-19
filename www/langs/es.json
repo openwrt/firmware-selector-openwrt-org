@@ -23,7 +23,7 @@
     "tr-build-successful": "Compilación exitosa",
     "tr-build-failed": "Compilación fallida",
     "tr-request-image": "Solicitar imagen",
-    "tr-check-again": "Vuelva a comprobar en 5 segundos…",
+    "tr-check-again": "Compruébalo de nuevo en 5 segundos…",
     "tr-feedback-link": "Comentarios",
     "tr-server-link": "Todas las descargas",
     "tr-dtb-help": "Árbol binario del dispositivo. Este fichero configura el kernel de Linux para el dispositivo.",
