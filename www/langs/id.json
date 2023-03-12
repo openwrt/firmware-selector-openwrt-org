@@ -7,7 +7,7 @@
     "tr-date": "Tanggal",
     "tr-load": "Unduh Firmware OpenWrt untuk Perangkat Anda",
     "tr-message": "Ketik nama atau model perangkat Anda, lalu pilih build stabil atau build \"snapshot\" nightly.",
-    "tr-customize": "Sesuaikan paket yang terpasang",
+    "tr-customize": "Sesuaikan paket yang terpasang and/or boot skript pertama",
     "tr-server-link": "Semua Unduhan",
     "tr-dtb-help": "Device tree blob. File ini mengonfigurasi Kernel Linux untuk perangkat keras.",
     "tr-uboot-help": "Image Bootloader. Perangkat lunak low-level yang akan dimuat sistem operasi pada awal boot.",
@@ -25,7 +25,7 @@
     "tr-build-successful": "Build sukses",
     "tr-build-failed": "Build gagal",
     "tr-request-image": "Minta image",
-    "tr-check-again": "Periksa lagi dalam 5 detik...",
+    "tr-check-again": "Periksa kembali dalam 5 detik…",
     "tr-version-build": "Tentang build ini",
     "tr-custom-build": "Build kustom",
     "tr-downloads": "Unduh sebuah image",
@@ -37,5 +37,7 @@
     "tr-download_imagebuilder": "Mengunduh arsip ImageBuilder",
     "tr-calculate_packages_hash": "Memvalidasi package terpilih",
     "tr-building_image": "Membuat image frimware",
-    "tr-unpack_imagebuilder": "Mengatur ImageBuilder"
+    "tr-unpack_imagebuilder": "Menyiapkan ImageBuilder",
+    "tr-packages": "Paket Terinstall",
+    "tr-defaults": "Skript berjalan waktu boot pertama (uci-defaults)"
 }
