@@ -146,6 +146,7 @@
                   <textarea
                     rows="10"
                     id="packages"
+                    autocomplete="off"
                     spellcheck="false"
                     autocapitalize="off"
                   ></textarea>
@@ -153,13 +154,18 @@
                 <h5 class="tr-defaults">
                   Script to run on first boot (uci-defaults)
                 </h5>
-                <div>
+                <div id="uci-defaults-group">
                   <textarea
                     rows="10"
-                    id="defaults"
+                    id="uci-defaults-content"
+                    autocomplete="off"
                     spellcheck="false"
                     autocapitalize="off"
                   ></textarea>
+                  <span
+                    id="uci-defaults-template"
+                    data-link="uci-defaults/setup.sh"
+                  ></span>
                 </div>
                 <a href="javascript:buildAsuRequest()" class="custom-link">
                   <span></span

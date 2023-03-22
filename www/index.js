@@ -99,7 +99,7 @@ function buildAsuRequest(request_hash) {
     profile: current_device.id,
     target: current_device.target,
     packages: split($("#packages").value),
-    defaults: $("#defaults").value,
+    defaults: $("#uci-defaults-content").value,
     version: $("#versions").value,
     diff_packages: true,
     client: "ofs/" + ofs_version,
@@ -712,6 +712,25 @@ function initTranslation() {
   select.onchange();
 }
 
+// connect template icon for uci-defaults
+function setup_uci_defaults() {
+  let icon = $("#uci-defaults-template");
+  let link = icon.getAttribute("data-link");
+  let textarea = $("#uci-defaults-content");
+  icon.onclick = function () {
+    fetch(link).then((response) => {
+      response.text().then((text) => {
+        // toggle text
+        if (textarea.value.indexOf(text) != -1) {
+          textarea.value = textarea.value.replace(text, "");
+        } else {
+          textarea.value = textarea.value + text;
+        }
+      });
+    });
+  };
+}
+
 function init() {
   url_params = new URLSearchParams(window.location.search);
 
@@ -789,6 +808,8 @@ function init() {
         $("#models").onfocus();
       });
   });
+
+  setup_uci_defaults();
 
   // hide fields
   updateImages();
