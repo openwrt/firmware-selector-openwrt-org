@@ -1,7 +1,7 @@
 {
     "tr-load": "Last ned OpenWrt fastvare for din enhet!",
     "tr-title": "OpenWrt fastvare utvelger",
-    "tr-message": "Bruk feltene nedenfor for å laste ned fastvare til enheten din!",
+    "tr-message": "Bruk feltene nedenfor for å laste ned fastvare til enheten din.",
     "tr-version-build": "Sammensetning",
     "tr-custom-build": "Tilpasset sammensetning",
     "tr-customize": "Tilpasse",
