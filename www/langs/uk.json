@@ -8,7 +8,7 @@
     "tr-message": "Введіть назву або модель вашого пристрою, потім виберіть стабільну або \"нічну\" збірку.",
     "tr-custom-build": "Користувацька збірка",
     "tr-version-build": "Про поточну збірку",
-    "tr-customize": "Налаштування встановлених пакетів",
+    "tr-customize": "Налаштування встановлених пакетів та/або сценарію першого завантаження",
     "tr-request-build": "ЗАПИТ ЗБІРКИ",
     "tr-downloads": "Завантажити образ",
     "tr-target": "Платформа",
@@ -37,5 +37,7 @@
     "tr-download_imagebuilder": "Завантаження ImageBuilder архіву",
     "tr-unpack_imagebuilder": "Налаштувати ImageBuilder",
     "tr-calculate_packages_hash": "Перевірте вибір пакета",
-    "tr-building_image": "Створення образу прошивки"
+    "tr-building_image": "Створення образу прошивки",
+    "tr-packages": "Встановлені пакети",
+    "tr-defaults": "Скрипт для запуску при першому старті (uci-defaults)"
 }
