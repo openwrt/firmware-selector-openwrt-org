@@ -2,6 +2,11 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v3.8.5 - 2023-04-10
+
+* Translation updates and fixes
+* Add uci-default setup template for custom images
+
 ## v3.8.4 - 2023-01-29
 
 * Translation updates
