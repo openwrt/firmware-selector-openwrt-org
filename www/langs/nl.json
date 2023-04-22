@@ -31,11 +31,13 @@
     "tr-calculate_packages_hash": "Bevestig pakketselectie",
     "tr-building_image": "Genereren firmware image",
     "tr-request-build": "VERSIE (BUILD) AANVRAGEN",
-    "tr-customize": "Aangepaste installatie-pakketten",
+    "tr-customize": "Aanpassen van geïnstalleerde pakketten en/of eerst opstartscript",
     "tr-target": "Platform",
     "tr-rootfs-help": "Root bestandsysteem als separate image.",
     "tr-other-help": "Overige Image types.",
     "tr-build-failed": "Samenstelling (build): Afgebroken (fail)",
     "tr-initramfs-help": "Linux Kernel met minimaal bestandsysteem. Bruikbaar voor een eerste installatie of hersteloperatie (recovery).",
-    "tr-build-successful": "Samenstelling (build): succes"
+    "tr-build-successful": "Samenstelling (build): succes",
+    "tr-packages": "Geïnstalleerde pakketten",
+    "tr-defaults": "Script om uit te voeren bij de eerste keer opstarten (uci-defaults)"
 }
