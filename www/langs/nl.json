@@ -31,7 +31,7 @@
     "tr-calculate_packages_hash": "Bevestig pakketselectie",
     "tr-building_image": "Genereren firmware image",
     "tr-request-build": "VERSIE (BUILD) AANVRAGEN",
-    "tr-customize": "Aanpassen van geïnstalleerde pakketten en/of eerst opstartscript",
+    "tr-customize": "Aangepaste installatie-pakketten en/of eerste boot script",
     "tr-target": "Platform",
     "tr-rootfs-help": "Root bestandsysteem als separate image.",
     "tr-other-help": "Overige Image types.",
