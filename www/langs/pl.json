@@ -35,7 +35,7 @@
     "tr-unpack_imagebuilder": "Konfigurowanie ImageBuilder",
     "tr-building_image": "Generowanie obrazu oprogramowania układowego",
     "tr-build-size": "Wybrane pakiety przekraczają pojemność pamięci urządzenia",
-    "tr-init": "Otrzymano żądanie budowy",
+    "tr-init": "Otrzymano żądanie kompilacji",
     "tr-download_imagebuilder": "Pobieranie archiwum ImageBuilder",
     "tr-calculate_packages_hash": "Zatwierdzanie wyboru pakietów",
     "tr-defaults": "Skrypt do uruchomienia przy pierwszym rozruchu (uci-defaults)",
