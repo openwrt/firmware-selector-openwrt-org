@@ -7,7 +7,7 @@
     "tr-customize": "Personnaliser les paquets installés",
     "tr-request-build": "Demande de construction",
     "tr-model": "Modèle ",
-    "tr-target": "Plate-forme ",
+    "tr-target": "Plate-forme",
     "tr-version": "Version ",
     "tr-date": "Date ",
     "tr-downloads": "Téléchargements",
@@ -22,7 +22,7 @@
     "tr-build-successful": "Succès du Build",
     "tr-build-failed": "Échec du Build",
     "tr-request-image": "Demade d'image",
-    "tr-check-again": "Essayer à nouveau dans 5 secondes...",
+    "tr-check-again": "Essayer à nouveau dans 5 secondes…",
     "tr-feedback-link": "Feedback",
     "tr-server-link": "Tous les téléchargements",
     "tr-notfound": "Aucun modèle trouvé !",
@@ -31,11 +31,13 @@
     "tr-cpximg-help": "À utiliser avec sysupgrade dans le firmware d’origine ou avec le chargeur cpximg intégré.",
     "tr-eva-help": "Image avec OpenWrt et un amorceur de démarrage.",
     "tr-initramfs-help": "Noyau Linux avec système de fichiers minimal. Utile pour une première installation ou une récupération.",
-    "tr-links": "Liens ",
+    "tr-links": "Liens",
     "tr-build-size": "Les paquets sélectionnés dépassent l'espace de stockage du périphérique",
     "tr-download_imagebuilder": "Téléchargement de l’archive ImageBuilder",
     "tr-calculate_packages_hash": "Valider la sélection du paquet",
     "tr-building_image": "Génération de l'image du micrologiciel",
     "tr-init": "Réception de la demande de construction",
-    "tr-unpack_imagebuilder": "Configurer ImageBuilder"
+    "tr-unpack_imagebuilder": "Configurer ImageBuilder",
+    "tr-packages": "Paquets installés",
+    "tr-defaults": "Script à exécuter au premier démarrage (uci-defaults)"
 }
