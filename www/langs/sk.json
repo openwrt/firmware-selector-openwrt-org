@@ -2,7 +2,7 @@
     "tr-title": "Nástroj na výber firmvéru OpenWrt",
     "tr-version-build": "O tejto zostave",
     "tr-custom-build": "Vlastná zostava",
-    "tr-customize": "Prispôsobenie nainštalovaných balíkov",
+    "tr-customize": "Prispôsobenie nainštalovaných balíkov a/alebo skriptu pre prvé spustenie",
     "tr-request-build": "Vyžiadať zostavenie",
     "tr-feedback-link": "Spätná väzba",
     "tr-notfound": "Nenašiel sa žiadny model!",
@@ -26,10 +26,10 @@
     "tr-cpximg-help": "Použite so sysupgrade v továrenskom firmvéri alebo so vstavaným zavádzačom cpximg.",
     "tr-initramfs-help": "Jadro Linuxu s minimálnym súborovým systémom. Užitočné pri prvej inštalácii alebo obnove.",
     "tr-kernel-help": "Jadro Linuxu ako samostatný obraz.",
-    "tr-sysupgrade-help": "Použite obraz Sysupgrade na aktualizáciu smerovača, na ktorom už beží OpenWrt, . Obraz možno použiť pomocou webového rozhrania LuCI alebo terminálu.",
+    "tr-sysupgrade-help": "Použite obraz Sysupgrade na aktualizáciu smerovača, na ktorom už beží OpenWrt. Obraz možno použiť pomocou webového rozhrania LuCI alebo terminálu.",
     "tr-other-help": "Iný typ obrazu.",
     "tr-build-successful": "Zostavenie úspešné",
-    "tr-check-again": "Skontrolujte znova o 5 sekúnd...",
+    "tr-check-again": "Skontrolujte znova o 5 sekúnd…",
     "tr-tftp-help": "Obrazy TFTP sa používajú na flashovanie zariadenia prostredníctvom metódy TFTP zavádzača.",
     "tr-sdcard-help": "Obraz, ktorý je určený na nahratie na SD kartu.",
     "tr-build-size": "Vybrané balíky presahujú úložisko zariadenia",
@@ -37,5 +37,7 @@
     "tr-unpack_imagebuilder": "Nastavenie nástroja ImageBuilder",
     "tr-calculate_packages_hash": "Overenie výberu balíkov",
     "tr-building_image": "Generovanie obrazu firmvéru",
-    "tr-download_imagebuilder": "Sťahovanie archívu ImageBuilder"
+    "tr-download_imagebuilder": "Sťahovanie archívu ImageBuilder",
+    "tr-packages": "Nainštalované balíky",
+    "tr-defaults": "Skript na spustenie pri prvom spustení (uci-defaults)"
 }
