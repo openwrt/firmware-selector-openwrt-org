@@ -37,5 +37,7 @@
     "tr-init": "Mottok byggingsforespørsel",
     "tr-download_imagebuilder": "Laster ned ImageBuilder-arkiv",
     "tr-calculate_packages_hash": "Bekreft pakkeutvalg",
-    "tr-building_image": "Genererer fastvareavtrykk"
+    "tr-building_image": "Genererer fastvareavtrykk",
+    "tr-packages": "Installerte pakker",
+    "tr-defaults": "Skript å kjøre ved første oppstart (uci-defaults)"
 }
