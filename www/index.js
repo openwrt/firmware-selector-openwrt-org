@@ -135,13 +135,9 @@ function buildAsuRequest(request_hash) {
             }
             showStatus("tr-build-successful", false, "info");
             mobj["id"] = current_device.id;
-            updateImages(
-              mobj,
-              {
-                image_url: image_url,
-              },
-              true
-            );
+            updateImages(mobj, {
+              image_url: image_url,
+            });
           });
           break;
         case 202:
@@ -615,7 +611,10 @@ function updateImages(mobj, overview) {
         extras2.childNodes.forEach((e) => e.classList.add("hide"));
         extra.classList.remove("hide");
       };
+    }
 
+    if ("manifest" in mobj === false) {
+      // only refresh package list if not data from ASU
       $("#packages").value = mobj.default_packages
         .concat(mobj.device_packages)
         .sort()
