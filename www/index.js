@@ -624,7 +624,7 @@ function updateImages(mobj, overview) {
     translate();
 
     // set current selection in URL
-    history.pushState(
+    history.replaceState(
       null,
       null,
       document.location.href.split("?")[0] +
@@ -639,6 +639,9 @@ function updateImages(mobj, overview) {
     hide("#notfound");
     show("#images");
   } else {
+    // clear URL
+    history.replaceState(null, null, document.location.href.split("?")[0]);
+
     if ($("#models").value.length > 0) {
       show("#notfound");
     } else {
