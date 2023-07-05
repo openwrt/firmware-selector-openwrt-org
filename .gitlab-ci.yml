@@ -50,7 +50,7 @@ build site on Python 3.8:
 
 .build site:
   stage: pre-build
-  image: debian:9
+  image: debian:10
   before_script:
     - apt-get update; apt-get install -y make python3 ca-certificates git wget
   artifacts:
