@@ -2,6 +2,13 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v3.8.6 - 2023-07-05
+
+* Translation updates and fixes (add Vietnamese)
+* Fix model selection on version change
+* Clear url parameters when no model was found
+* Do not reset package list on ASU response
+
 ## v3.8.5 - 2023-04-10
 
 * Translation updates and fixes
