@@ -2,6 +2,11 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v3.8.7 - 2023-08-05
+
+* Translation updates and fixes (add Czech and Lithuanian)
+* Improve position of template gear icon
+
 ## v3.8.6 - 2023-07-05
 
 * Translation updates and fixes (add Vietnamese)
