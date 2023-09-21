@@ -31,7 +31,7 @@ check HTML, CSS and SVG with html5validator:
     - apt-get update; apt-get install -y make wget
   script:
     - cp -R ./www ./build
-    - misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' https://downloads.openwrt.org build
+    - misc/collect.py --insert-latest-release https://downloads.openwrt.org build
   artifacts:
     expire_in: 1 week
     when: always
@@ -65,7 +65,7 @@ build site for target environment using remote directory:
     - cp -R ./www ./build
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html build/index.js
     - sed -i "s;  //asu_url;  asu_url;" build/config.js
-    - misc/collect.py --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' --image-url 'https://downloads.openwrt.org/{base}/{target}' https://downloads.openwrt.org build
+    - misc/collect.py --insert-latest-release --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' https://downloads.openwrt.org build
 
 build site for target environment using local directory:
   extends: .build site
@@ -73,7 +73,7 @@ build site for target environment using local directory:
     - cp -R ./www ./build
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html build/index.js
     - sed -i "s;  //asu_url;  asu_url;" build/config.js
-    - misc/collect.py --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' --image-url 'https://downloads.openwrt.org/{base}/{target}' tests/profiles build
+    - misc/collect.py --insert-latest-release --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' tests/profiles build
 
 .test site:
   stage: test

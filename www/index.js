@@ -88,7 +88,7 @@ function buildAsuRequest(request_hash) {
     translate();
   }
 
-  if (!current_device || !current_device.id) {
+  if (!current_device || !current_device.model_id) {
     showStatus("bad profile");
     return;
   }
@@ -134,7 +134,7 @@ function buildAsuRequest(request_hash) {
               hide("#log");
             }
             showStatus("tr-build-successful", false, "info");
-            mobj["id"] = current_device.id;
+            mobj["model_id"] = current_device.model_id;
             updateImages(mobj, {
               image_url: image_url,
             });
@@ -190,7 +190,13 @@ function setupSelectList(select, items, onselection) {
 
   for (const item of items) {
     const option = document.createElement("OPTION");
-    option.innerHTML = item;
+    option.innerText = item;
+    option.value = item;
+    if (item == "latest") {
+      // translate the artificial release "latest"
+      option.innerText = "Latest";
+      option.classList.add("tr-latest-releases");
+    }
     select.appendChild(option);
   }
 
@@ -479,15 +485,7 @@ function getNameDifference(images, image) {
 
 // add download button for image
 function createLink(mobj, image, image_url) {
-  const href =
-    image_url
-      .replace("{title}", encodeURI($("#models").value))
-      .replace("{target}", mobj.target)
-      .replace("{id}", mobj.id)
-      .replace("{version}", mobj.version_number) +
-    "/" +
-    image.name;
-
+  const href = image_url + "/" + image.name;
   let label = image.type;
 
   // distinguish labels if neccessary
@@ -520,7 +518,7 @@ function createExtra(image) {
   );
 }
 
-function updateImages(mobj, overview) {
+function updateImages(mobj) {
   // remove download table
   $$("#download-table1 *").forEach((e) => e.remove());
   $$("#download-links2 *").forEach((e) => e.remove());
@@ -528,7 +526,13 @@ function updateImages(mobj, overview) {
 
   if (mobj) {
     const images = mobj.images;
-    const image_url = config.image_url || overview.image_url || "";
+    const image_folder =
+      config.image_url
+        .replace("{title}", encodeURI($("#models").value))
+        .replace("{target}", mobj.target)
+        .replace("{path}", mobj.image_path)
+        .replace("{id}", mobj.model_id)
+        .replace("{version}", mobj.version_number) + "/";
 
     const h3 = $("#downloads1 h3");
     if ("build_cmd" in mobj) {
@@ -548,22 +552,14 @@ function updateImages(mobj, overview) {
     setValue("#image-version", mobj.version_number);
     setValue("#image-code", mobj.version_code);
     setValue("#image-date", mobj.build_at);
-
-    setValue(
-      "#image-folder",
-      image_url
-        .replace("{title}", encodeURI($("#models").value))
-        .replace("{target}", mobj.target)
-        .replace("{id}", mobj.id)
-        .replace("{version}", mobj.version_number) + "/"
-    );
+    setValue("#image-folder", image_folder);
 
     setValue(
       "#image-info",
-      (config.info_url || overview.info_url || "")
+      (config.info_url || "")
         .replace("{title}", encodeURI($("#models").value))
         .replace("{target}", mobj.target)
-        .replace("{id}", mobj.id)
+        .replace("{id}", mobj.model_id)
         .replace("{version}", mobj.version_number)
     );
 
@@ -575,7 +571,7 @@ function updateImages(mobj, overview) {
         "&target=" +
         encodeURIComponent(mobj.target) +
         "&id=" +
-        encodeURIComponent(mobj.id)
+        encodeURIComponent(mobj.model_id)
     );
 
     images.sort((a, b) => a.name.localeCompare(b.name));
@@ -585,7 +581,7 @@ function updateImages(mobj, overview) {
     const extras2 = $("#download-extras2");
 
     for (const image of images) {
-      const link = createLink(mobj, image, image_url);
+      const link = createLink(mobj, image, image_folder);
       const extra = createExtra(image);
 
       const row = append(table1, "TR");
@@ -594,7 +590,7 @@ function updateImages(mobj, overview) {
     }
 
     for (const image of images) {
-      const link = createLink(mobj, image, image_url);
+      const link = createLink(mobj, image, image_folder);
       const extra = createExtra(image);
 
       links2.appendChild(link);
@@ -633,7 +629,7 @@ function updateImages(mobj, overview) {
         "&target=" +
         encodeURIComponent(mobj.target) +
         "&id=" +
-        encodeURIComponent(mobj.id)
+        encodeURIComponent(mobj.model_id)
     );
 
     hide("#notfound");
@@ -652,11 +648,14 @@ function updateImages(mobj, overview) {
 }
 
 // Update model title in search box.
-function setModel(overview, target, id) {
-  if (target && id) {
+function setModel(overview, target, model_id) {
+  if (target && model_id) {
     const title = $("#models").value;
     for (const mobj of Object.values(overview.profiles)) {
-      if ((mobj.target === target && mobj.id === id) || mobj.title === title) {
+      if (
+        (mobj.target === target && mobj.model_id === model_id) ||
+        mobj.title === title
+      ) {
         $("#models").value = mobj.title;
         $("#models").oninput();
         return;
@@ -668,18 +667,18 @@ function setModel(overview, target, id) {
 function changeModel(version, overview, title, base_url) {
   const entry = overview.profiles[title];
   if (entry) {
-    fetch(`${base_url}/${entry.target}/${entry.id}.json`, {
+    fetch(`${base_url}/${entry.target}/${entry.model_id}.json`, {
       cache: "no-cache",
     })
       .then((obj) => {
         return obj.json();
       })
       .then((mobj) => {
-        mobj["id"] = entry.id;
-        updateImages(mobj, overview);
+        mobj["model_id"] = entry.model_id;
+        updateImages(mobj);
         current_device = {
           version: version,
-          id: entry.id,
+          model_id: entry.model_id,
           target: entry.target,
         };
       });
@@ -773,12 +772,15 @@ function init() {
           for (let title of getModelTitles(profile.titles)) {
             if (title.length == 0) {
               console.warn(
-                `Empty device title for device id: ${profile.target}, ${profile.id}`
+                `Empty device title for model id: ${profile.target}, ${profile.model_id}`
               );
               continue;
             }
 
-            const e = Object.assign({ id: profile.id, title: title }, profile);
+            const e = Object.assign(
+              { model_id: profile.model_id, title: title },
+              profile
+            );
             resolve_duplicate(e);
             profiles.push(e);
           }
@@ -803,7 +805,7 @@ function init() {
         setModel(
           obj,
           current_device["target"] || url_params.get("target"),
-          current_device["id"] || url_params.get("id")
+          current_device["model_id"] || url_params.get("id")
         );
 
         // trigger update of current selected model

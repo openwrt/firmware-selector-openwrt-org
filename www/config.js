@@ -6,20 +6,19 @@ var config = {
 
   // Path to were overview.json can be found
   versions: {
-    "18.06.9": "../misc/18.06.9/",
-    "19.07.5": "../misc/19.07.5",
-    SNAPSHOT: "../misc/SNAPSHOT",
+    "22.03.5": "../misc/22.03.5",
+    "19.07.10": "../misc/19.07.10",
   },
 
   // Pre-selected version (optional)
-  default_version: "19.07.5",
+  default_version: "22.03.5",
 
-  // Image download URL (optional)
-  //image_url: "https://downloads.openwrt.org/releases/{version}/{target}",
+  // Image download URL
+  image_url: "https://downloads.openwrt.org/releases/{path}",
 
   // Info link URL (optional)
   info_url: "https://openwrt.org/start?do=search&id=toh&q={title} @toh",
 
   // Attended Sysupgrade Server support (optional)
-  asu_url: "https://sysupgrade.openwrt.org",
+  //asu_url: "https://sysupgrade.openwrt.org",
 };

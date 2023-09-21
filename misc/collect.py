@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Tool to create overview.json files and update the config.js.
+Create JSON files and update www/config.js, www/data for the OpenWrt Firmware Selector.
 """
 
 from pathlib import Path
+import itertools
 import tempfile
 import datetime
 import argparse
@@ -13,7 +14,12 @@ import glob
 import sys
 import os
 import re
-from distutils.version import StrictVersion
+
+try:
+    from packaging.version import Version
+except ImportError:
+    # Python 3.10 deprecated distutils
+    from distutils.version import StrictVersion as Version
 
 SUPPORTED_METADATA_VERSION = 1
 BUILD_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
@@ -32,19 +38,21 @@ def write_json(path, content, formatted):
 
 
 # generate an overview of all models of a build
-def assemble_overview_json(release, profiles):
-    overview = {"profiles": [], "release": release}
+def create_overview_json(release_name, profiles):
+    profiles_list = []
     for profile in profiles:
-        obj = profile["file_content"]
-        for model_id, model_obj in obj["profiles"].items():
-            overview["profiles"].append(
-                {"target": obj["target"], "titles": model_obj["titles"], "id": model_id}
-            )
+        profiles_list.append(
+            {
+                "target": profile["target"],
+                "titles": profile["titles"],
+                "model_id": profile["model_id"],
+            }
+        )
 
-    return overview
+    return {"release": release_name, "profiles": profiles_list}
 
 
-def update_config(www_path, versions):
+def update_config(www_path, versions, args):
     config_path = os.path.join(www_path, "config.js")
 
     if os.path.isfile(config_path):
@@ -53,13 +61,17 @@ def update_config(www_path, versions):
             content = file.read()
 
         latest_version = "0.0.0"
-        for version in versions.keys():
-            try:
-                if StrictVersion(version) > StrictVersion(latest_version):
-                    latest_version = version
-            except ValueError:
-                print("Warning: Non numeric version: {}".format(version))
-                continue
+        if args.insert_latest_release:
+            latest_version = "latest"
+        else:
+            # find latest release
+            for version in versions.keys():
+                try:
+                    if Version(version) > Version(latest_version):
+                        latest_version = version
+                except ValueError:
+                    print("Warning: Non numeric version: {}".format(version))
+                    continue
 
         content = re.sub(
             "versions:[\\s]*{[^}]*}", "versions: {}".format(versions), content
@@ -76,83 +88,101 @@ def update_config(www_path, versions):
         sys.stderr.write("Warning: File not found: {}\n".format(config_path))
 
 
-"""
-    Replace {base} variable in download URL with the intersection
-    of all profile.json paths. E.g.:
-    ../tmp/releases/18.06.8/targets => base is releases/18.06.8/targets
-    ../tmp/snapshots/targets => base in snapshots/targets
-"""
-
-
-def replace_base(releases, profiles, url):
-    def get_common_path(profiles):
-        paths = [profile["file_path"] for profile in profiles]
-        return os.path.commonpath(paths)
-
-    def get_common_base(releases):
-        paths = []
-        for release, profiles in releases.items():
-            paths.append(get_common_path(profiles))
-        return os.path.commonpath(paths)
-
-    if "{base}" in url:
-        common = get_common_path(profiles)
-        base = get_common_base(releases)
-        return url.replace("{base}", common[len(base) + 1 :])
-    else:
-        return url
-
-
-def add_profile(releases, args, profile):
-    release = profile["file_content"]["version_number"]
+def add_profile(releases, args, file_path, file_content, file_last_modified):
+    version = file_content["version_number"]
 
     if args.version_pattern:
-        if not re.fullmatch(args.version_pattern, release):
+        if not re.fullmatch(args.version_pattern, version):
             return
 
-    releases.setdefault(release, []).append(profile)
+    for model_id, model_obj in file_content["profiles"].items():
+        profile = {**file_content, **model_obj}
+        profile["build_at"] = file_last_modified
+        profile["image_path"] = file_path  # will be shortened later
+        profile["model_id"] = model_id
+        del profile["profiles"]
+        releases.setdefault(version, []).append(profile)
+
+
+# strip image_path
+def strip_image_path(releases):
+    if len(releases) > 0:
+        # create two iterators over all profiles
+        p1, p2 = itertools.tee(itertools.chain.from_iterable(releases.values()))
+        prefix_path = os.path.commonpath([p["image_path"] for p in p1])
+        from_start = len("/") + len(prefix_path)
+        from_end = len("profiles.json")
+        for profile in p2:
+            profile["image_path"] = profile["image_path"][from_start:-from_end]
+
+
+"""
+Insert an artificial release that contains the latest
+profile for each model.
+"""
+
+
+def create_latest_release(releases, args):
+    def get_supported(profile):
+        for sd in profile["supported_devices"]:
+            yield sd.replace("-", " ").replace("_", " ")
+        yield profile["model_id"].replace("-", " ").replace("_", " ")
+
+    uniques = {}
+    for release, profiles in releases.items():
+        if args.latest_release_pattern:
+            if not re.fullmatch(args.latest_release_pattern, release):
+                continue
+
+        version = None
+        try:
+            version = Version(release)
+        except ValueError:
+            # ignore versions that we cannot compare
+            continue
+
+        for profile in profiles:
+            for supported in get_supported(profile):
+                found = uniques.get(supported, None)
+                if found is None:
+                    uniques[supported] = (profile,)  # tuple!
+                elif version > Version(uniques[supported][0]["version_number"]):
+                    uniques[supported][0] = profile
+
+    # get unique profile objects
+    return {id(p[0]): p[0] for p in uniques.values()}.values()
 
 
 def write_data(releases, args):
     versions = {}
 
-    for release, profiles in releases.items():
-        overview_json = assemble_overview_json(release, profiles)
+    if args.insert_latest_release:
+        releases["latest"] = create_latest_release(releases, args)
 
-        if args.image_url:
-            image_url = replace_base(releases, profiles, args.image_url)
-            overview_json["image_url"] = image_url
+    for release_name, profiles in releases.items():
+        overview_json = create_overview_json(release_name, profiles)
 
-        if args.info_url:
-            info_url = replace_base(releases, profiles, args.info_url)
-            overview_json["info_url"] = info_url
-
+        # write overview.json
         write_json(
-            os.path.join(args.www_path, "data", release, "overview.json"),
+            os.path.join(args.www_path, "data", release_name, "overview.json"),
             overview_json,
             args.formatted,
         )
 
-        # write <device-id>.json files
+        # write <model-id>.json files
         for profile in profiles:
-            obj = profile["file_content"]
-            for model_id, model_obj in obj["profiles"].items():
-                combined = {**obj, **model_obj}
-                combined["build_at"] = profile["last_modified"]
-                combined["id"] = model_id
-                del combined["profiles"]
-                profiles_path = os.path.join(
-                    args.www_path,
-                    "data",
-                    release,
-                    obj["target"],
-                    "{}.json".format(model_id),
-                )
-                write_json(profiles_path, combined, args.formatted)
+            profile_path = os.path.join(
+                args.www_path,
+                "data",
+                release_name,
+                profile["target"],
+                "{}.json".format(profile["model_id"]),
+            )
+            write_json(profile_path, profile, args.formatted)
 
-        versions[release] = "data/{}".format(release)
+        versions[release_name] = "data/{}".format(release_name)
 
-    update_config(args.www_path, versions)
+    update_config(args.www_path, versions, args)
 
 
 """
@@ -168,7 +198,7 @@ def scrape(args):
     with tempfile.TemporaryDirectory() as tmp_dir:
         # download all profiles.json files
         os.system(
-            "wget -c -r -P {} -A 'profiles.json' --reject-regex 'kmods|packages' --no-parent {}".format(
+            'wget -c -r -P {} -A "profiles.json" --reject-regex "kmods|packages" --no-parent {}'.format(
                 tmp_dir, args.release_src
             )
         )
@@ -187,13 +217,12 @@ def scrape(args):
                     add_profile(
                         releases,
                         args,
-                        {
-                            "file_path": str(ppath),
-                            "file_content": json.loads(file.read()),
-                            "last_modified": last_modified,
-                        },
+                        str(ppath),
+                        json.loads(file.read()),
+                        last_modified,
                     )
 
+    strip_image_path(releases)
     write_data(releases, args)
 
 
@@ -207,22 +236,16 @@ Update config.json.
 def scan(args):
     releases = {}
 
+    # profiles.json is generated for each subtarget
     for path in Path(args.release_src).rglob("profiles.json"):
         with open(str(path), "r", encoding="utf-8") as file:
             content = file.read()
             last_modified = time.strftime(
                 BUILD_DATE_FORMAT, time.gmtime(os.path.getmtime(str(path)))
             )
-            add_profile(
-                releases,
-                args,
-                {
-                    "file_path": str(path),
-                    "file_content": json.loads(content),
-                    "last_modified": last_modified,
-                },
-            )
+            add_profile(releases, args, str(path), json.loads(content), last_modified)
 
+    strip_image_path(releases)
     write_data(releases, args)
 
 
@@ -232,22 +255,29 @@ def main():
 Scan for JSON files generated by OpenWrt. Create JSON files in www/data/ and update www/config.js.
 
 Usage Examples:
-    ./misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' ~/openwrt/bin  www/
+    ./misc/collect.py ~/openwrt/bin  www/
     or
-    ./misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' https://downloads.openwrt.org  www/
+    ./misc/collect.py https://downloads.openwrt.org  www/
     """,
         formatter_class=argparse.RawTextHelpFormatter,
     )
     parser.add_argument(
         "--formatted", action="store_true", help="Output formatted JSON data."
     )
-    parser.add_argument("--info-url", help="Info URL template.")
-    parser.add_argument("--image-url", help="URL template to download images.")
     parser.add_argument(
         "--version-pattern",
-        help="Only handle release versions that match a regular expression.",
+        help="Only handle versions that match a regular expression.",
     )
-
+    parser.add_argument(
+        "--insert-latest-release",
+        action="store_true",
+        help='Insert a special release called "latest" that contains the latest image for every device.',
+    )
+    parser.add_argument(
+        "--latest-release-pattern",
+        action="store_true",
+        help='Only include matching versions in the "latest" release.',
+    )
     parser.add_argument(
         "release_src",
         help="Local folder to scan or website URL to scrape for profiles.json files.",

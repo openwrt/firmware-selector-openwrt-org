@@ -9,7 +9,7 @@ HTML/CSS/JavaScript. Checkout the [Demo](https://firmware-selector.openwrt.org).
 
 * Download the sources and change the working directory
 * Start webserver (e.g. `python3 -m http.server`)
-* Go to `http://localhost:8000/www/` in your web browser
+* Go to [http://localhost:8000/www/](http://localhost:8000/www/) in your web browser
 
 Configure with [config.js](www/config.js).
 
@@ -28,19 +28,19 @@ or for local accessible OpenWrt builds:
 
 This should do it!
 
-Settings `image_url` and `info_url` can also be passed to `misc/collect.py` to be included in the version specific `overview.json` files instead of `config.json`:
+Further arguments for `collect.py`:
 
-* `--image-url`: Download link template for the image files.
-* `--info-url`: Link template that points to additional information.
-* `--version-pattern`: Only handle release versions that match a regular expression.
+* `--formatted`: Output formatted JSON data.
+* `--version-pattern <VERSION_PATTERN>`: Only handle versions that match a regular expression.
+* `--insert-latest-release`: Insert an artificial release called "latest" that contains the latest image for every device.
+* `--latest-release-pattern <VERSION_PATTERN>`: Only handle versions that match a regular expression.
 
-Variables:
+Notes about `config.js`
 
-* `{version}`: Version in the profiles.json files. E.g. `19.07.4` or `SNAPSHOT`.
-* `{id}`: Device identifier. E.g. `tplink_archer-c7-v2`
-* `{target}`: Main- and sub target, E.g. `ath79/generic`.
-* `{base}`: Distinct path to the targets directory. E.g. `releases/18.06.8/targets/`  
-  Handled by `misc/collect.py` only!
+* `image_url`: Link template to the actual image to downloads.
+* `info_url`: Link template to some information page.
+
+Allowed variables `{path}`, `{id}`, `{target}`, `{version}`, `{title}`.
 
 ### Generate OpenWrt JSON
 
