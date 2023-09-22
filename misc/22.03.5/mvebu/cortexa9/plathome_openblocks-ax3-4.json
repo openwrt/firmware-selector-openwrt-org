@@ -1,0 +1,78 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/mvebu/cortexa9/",
+  "image_prefix": "openwrt-22.03.5-mvebu-cortexa9-plathome_openblocks-ax3-4",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mvebu-cortexa9-plathome_openblocks-ax3-4-squashfs-factory.img",
+      "sha256": "bfd7cda3485e11b27be902477425aece450464d1918cedc5d191975fe2909c84",
+      "sha256_unsigned": "bfd7cda3485e11b27be902477425aece450464d1918cedc5d191975fe2909c84",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mvebu-cortexa9-plathome_openblocks-ax3-4-squashfs-sysupgrade.bin",
+      "sha256": "fafaaf494a80dc47a9e5082344341f1c719716094749711a8266936bfc54088c",
+      "sha256_unsigned": "b8f57a2f695b23b0a7a3383b2645cc473105d09e01f0a1c5ba0565d589b2b45e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mvebu-cortexa9-plathome_openblocks-ax3-4-initramfs-kernel.bin",
+      "sha256": "69f57639fbcf2634bc6fc35cb2f158378ea59eecc35da8bad0699173976ce609",
+      "sha256_unsigned": "69f57639fbcf2634bc6fc35cb2f158378ea59eecc35da8bad0699173976ce609",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "plathome_openblocks-ax3-4",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "plathome,openblocks-ax3-4",
+    "openblocks-ax3-4"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "OpenBlocks AX3",
+      "variant": "4 ports",
+      "vendor": "Plat'Home"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

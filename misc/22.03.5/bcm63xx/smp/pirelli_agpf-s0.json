@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-smp-pirelli_agpf-s0",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-pirelli_agpf-s0-squashfs-cfe.bin",
+      "sha256": "c39fa746d6404b84f0a5a2b2eeb9bc923884ce0e8815e4d91d6bf0318dbd4f6f",
+      "sha256_unsigned": "c39fa746d6404b84f0a5a2b2eeb9bc923884ce0e8815e4d91d6bf0318dbd4f6f",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "pirelli_agpf-s0",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "pirelli,agpf-s0"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "Alice Gate VoIP 2 Plus Wi-Fi AGPF-S0",
+      "vendor": "Pirelli"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,83 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-at91-udc",
+    "kmod-nft-offload",
+    "kmod-usb-gadget-eth",
+    "kmod-usb-ohci",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-rtc-pcf2123",
+    "kmod-usb-acm",
+    "kmod-usb-serial-option",
+    "kmod-usb-serial-sierrawireless",
+    "kmod-gpio-mcp23s08"
+  ],
+  "image_path": "22.03.5/targets/at91/sam9x/",
+  "image_prefix": "openwrt-22.03.5-at91-sam9x-calamp_lmu5000",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-at91-sam9x-calamp_lmu5000-squashfs-factory.bin",
+      "sha256": "0a5ae2f1f6009e114483c598564c6a9c0e29a9b1ad8e0b67b9aeba5c68a519a6",
+      "sha256_unsigned": "0a5ae2f1f6009e114483c598564c6a9c0e29a9b1ad8e0b67b9aeba5c68a519a6",
+      "type": "factory"
+    },
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-at91-sam9x-calamp_lmu5000-ubifs-factory.bin",
+      "sha256": "f995457582353684a7fdfdddfe051603b2ac4c39e4daea8b83f40f20b5bfc5f0",
+      "sha256_unsigned": "f995457582353684a7fdfdddfe051603b2ac4c39e4daea8b83f40f20b5bfc5f0",
+      "type": "factory"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-at91-sam9x-calamp_lmu5000-ext4-factory.bin",
+      "sha256": "d91545657d49f34912ffffae3ce0f09dd7e8f689c239b3cfddba745190de9706",
+      "sha256_unsigned": "d91545657d49f34912ffffae3ce0f09dd7e8f689c239b3cfddba745190de9706",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "calamp_lmu5000",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "calamp,lmu5000"
+  ],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "LMU5000",
+      "vendor": "CalAmp"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

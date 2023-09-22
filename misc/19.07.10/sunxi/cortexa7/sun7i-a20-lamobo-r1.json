@@ -1,0 +1,74 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-ata-sunxi",
+    "kmod-rtl8192cu",
+    "swconfig",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/sunxi/cortexa7/",
+  "image_prefix": "openwrt-19.07.10-sunxi-cortexa7-sun7i-a20-lamobo-r1",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-sunxi-cortexa7-sun7i-a20-lamobo-r1-ext4-sdcard.img.gz",
+      "sha256": "9653601e1c5d45f22c91fac2138ffbb2f9ff339b08c1fa03e474e7f322d46048",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-sunxi-cortexa7-sun7i-a20-lamobo-r1-squashfs-sdcard.img.gz",
+      "sha256": "c2b8465c4a58c83e733d7dc12aa36dc09313d78fd0c1a48b7e8250fb193ed0ca",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "sun7i-a20-lamobo-r1",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "lamobo,lamobo-r1"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "title": "Lamobo R1"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

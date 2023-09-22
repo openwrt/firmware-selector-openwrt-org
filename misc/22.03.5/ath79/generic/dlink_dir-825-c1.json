@@ -1,0 +1,86 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-dlink_dir-825-c1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dir-825-c1-squashfs-sysupgrade.bin",
+      "sha256": "f130f797e6836a068bfa9e648e1cf2e98aea1d4dac5a274c30b42e361a2e701b",
+      "sha256_unsigned": "fb50597667ecbafc677898a95640c1175ffc0b85d9d04758e51e71f0dec64e1f",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dir-825-c1-initramfs-kernel.bin",
+      "sha256": "9db5e5339a39a5b38641cc392879cb3677b1bbc328432ad844a31a0ff312e8c8",
+      "sha256_unsigned": "9db5e5339a39a5b38641cc392879cb3677b1bbc328432ad844a31a0ff312e8c8",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dir-825-c1-squashfs-factory.bin",
+      "sha256": "747fe9c8235fd32f0ba2989088d024ccdeaf0629ff5605e92592c271016b9709",
+      "sha256_unsigned": "747fe9c8235fd32f0ba2989088d024ccdeaf0629ff5605e92592c271016b9709",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dlink_dir-825-c1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "dlink,dir-825-c1",
+    "dir-825-c1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "DIR-825",
+      "variant": "C1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

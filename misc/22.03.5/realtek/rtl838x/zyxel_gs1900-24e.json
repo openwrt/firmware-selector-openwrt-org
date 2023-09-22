@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_4kec",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "ethtool",
+    "firewall4",
+    "fstools",
+    "ip-bridge",
+    "ip-full",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "opkg",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "tc-bpf",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/realtek/rtl838x/",
+  "image_prefix": "openwrt-22.03.5-realtek-rtl838x-zyxel_gs1900-24e",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-zyxel_gs1900-24e-squashfs-sysupgrade.bin",
+      "sha256": "dd22ff3a8ce25c6126d4211b13d1a7a5f56c1e6e0f519b3d08a5eab4498f959b",
+      "sha256_unsigned": "e8ce5fd03b1fb94f9af98b3a05dc2309b99cfbb637f70def2bc2d26680464f3a",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-zyxel_gs1900-24e-initramfs-kernel.bin",
+      "sha256": "b9009906c02350db2a9c25828f629288b8e2e0b7b24576afaac0881b2e7e873c",
+      "sha256_unsigned": "b9009906c02350db2a9c25828f629288b8e2e0b7b24576afaac0881b2e7e873c",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_gs1900-24e",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,gs1900-24e"
+  ],
+  "target": "realtek/rtl838x",
+  "titles": [
+    {
+      "model": "GS1900-24E",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

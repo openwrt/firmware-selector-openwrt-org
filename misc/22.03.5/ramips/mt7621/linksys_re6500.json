@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-linksys_re6500",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-linksys_re6500-squashfs-sysupgrade.bin",
+      "sha256": "77007b6d2208fc7fd47c6816c734d0c1045353c3930cdbb9755cd1838622d722",
+      "sha256_unsigned": "50377d309cfacb4bfed98a47a150dc3b77b5f56dd4c3f8894cf6d9cc52198c62",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-linksys_re6500-initramfs-kernel.bin",
+      "sha256": "f16696094d97e2d6171aaa9e820348bfaa015980dbd6516608edfd59778a6deb",
+      "sha256_unsigned": "f16696094d97e2d6171aaa9e820348bfaa015980dbd6516608edfd59778a6deb",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksys_re6500",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "linksys,re6500",
+    "re6500"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RE6500",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

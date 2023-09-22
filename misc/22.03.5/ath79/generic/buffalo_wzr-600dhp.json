@@ -1,0 +1,93 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-buffalo_wzr-600dhp",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-buffalo_wzr-600dhp-squashfs-sysupgrade.bin",
+      "sha256": "12efef0c7e751c1918e91d41e5d4daa4e3cd3ec5d539063a11912eb306740418",
+      "sha256_unsigned": "1d7a9226125c4a2b592d39720fb87c98ea6cf2576918c4d910c2b7c1906046bd",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-buffalo_wzr-600dhp-squashfs-tftp.bin",
+      "sha256": "5f112e6ffbcda9e1f27daf838f4bda37601f250872e2d446f283b06fa93e9808",
+      "sha256_unsigned": "5f112e6ffbcda9e1f27daf838f4bda37601f250872e2d446f283b06fa93e9808",
+      "type": "tftp"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-buffalo_wzr-600dhp-squashfs-factory.bin",
+      "sha256": "dd3398854191fb6c61058f3f9fbaf72719c5c9e0de2f2adf82e98d56bdcd79b4",
+      "sha256_unsigned": "dd3398854191fb6c61058f3f9fbaf72719c5c9e0de2f2adf82e98d56bdcd79b4",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-buffalo_wzr-600dhp-initramfs-kernel.bin",
+      "sha256": "6287ac0e2716204d18103b1180bf8ae0847c57a0dd47ef54a7139b6be84cc749",
+      "sha256_unsigned": "6287ac0e2716204d18103b1180bf8ae0847c57a0dd47ef54a7139b6be84cc749",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_wzr-600dhp",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "buffalo,wzr-600dhp",
+    "wzr-hp-ag300h"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WZR-600DHP",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

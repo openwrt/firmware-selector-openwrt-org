@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-i2c-ralink",
+    "kmod-spi-dev"
+  ],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-nixcore_x1-16m",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-nixcore_x1-16m-initramfs-kernel.bin",
+      "sha256": "b8483030b3d2b7e54fa805979c05d93bc6fda035134d3cf44117d1f568bb3ffe",
+      "sha256_unsigned": "b8483030b3d2b7e54fa805979c05d93bc6fda035134d3cf44117d1f568bb3ffe",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-nixcore_x1-16m-squashfs-sysupgrade.bin",
+      "sha256": "5b92bb2a504fd70bfe9ebfae9f19e7720d1e7de00cd59b18aa909265b539f96c",
+      "sha256_unsigned": "df2379c827a4dcd13e9f52d502075d8b1d9b9772e8cb8d76283bc3f3ba7aaacd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "nixcore_x1-16m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "nixcore,x1-16m",
+    "nixcore-x1",
+    "nixcore-x1-16M"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "X1",
+      "variant": "16M",
+      "vendor": "Nixcore"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

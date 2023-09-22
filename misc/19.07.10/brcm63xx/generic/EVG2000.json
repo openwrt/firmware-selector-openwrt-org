@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/brcm63xx/generic/",
+  "image_prefix": "openwrt-19.07.10-brcm63xx-generic-EVG2000",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-brcm63xx-generic-EVG2000-squashfs-sysupgrade.bin",
+      "sha256": "fec2f686faba985ed33cb0d7e44f3423b38e922b6628bfc0b55cac81542aacca",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-brcm63xx-generic-EVG2000-squashfs-factory.chk",
+      "sha256": "812a3cb156a84ce593efa28e82bc334acdf24045b3c9eed9c6ad53c68b52b4bf",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "EVG2000",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "title": "Netgear EVG2000"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

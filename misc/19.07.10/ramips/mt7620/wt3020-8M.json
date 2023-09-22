@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt7620-wt3020-8M",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7620-wt3020-8M-squashfs-factory.bin",
+      "sha256": "60bfa4d7d9a6857d341cdd9862d05c68f3ff6186c8847a6dfeeaedc60ed2c789",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7620-wt3020-8M-squashfs-sysupgrade.bin",
+      "sha256": "d7d3b8604c7164d1c7797d54bb38eca9ad4cb3aa8e4908b757e4e0eda72feec6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "wt3020-8M",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "wt3020-8M",
+    "wt3020"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "title": "Nexx WT3020 (8MB)"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-kingston_mlw221",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-kingston_mlw221-initramfs-kernel.bin",
+      "sha256": "0409af4290693b8261ac3225db699e147e17f56b9391857286533edc12dfac4c",
+      "sha256_unsigned": "0409af4290693b8261ac3225db699e147e17f56b9391857286533edc12dfac4c",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-kingston_mlw221-squashfs-sysupgrade.bin",
+      "sha256": "48fc15c1bdf6ff76e82394003c31daef6819a4bf67f47a8e1b7096df422a5976",
+      "sha256_unsigned": "e3c2e2b25a89b14791111b44fd3bed680ce6eee2370b64912e8b0beca1fb9e44",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "kingston_mlw221",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "kingston,mlw221",
+    "mlw221"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MLW221",
+      "vendor": "Kingston"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

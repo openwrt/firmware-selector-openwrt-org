@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-rt2800-pci"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-buffalo_whr-600d",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-buffalo_whr-600d-initramfs-kernel.bin",
+      "sha256": "2c2b5a54b79803a186d63c10b094c2573876eed9aeb0937763f583e761e04373",
+      "sha256_unsigned": "2c2b5a54b79803a186d63c10b094c2573876eed9aeb0937763f583e761e04373",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-buffalo_whr-600d-squashfs-sysupgrade.bin",
+      "sha256": "e489fa9f3e1ae802299c2bdb2e420efb0b06a15d7fb8d99c2a91115d2b12ebf7",
+      "sha256_unsigned": "18f216bdbaade224f59ea7ebd1d4c8f2c751be9b40e763e069fee7256b392d35",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_whr-600d",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "buffalo,whr-600d",
+    "whr-600d"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "WHR-600D",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_4kec",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "ethtool",
+    "firewall4",
+    "fstools",
+    "ip-bridge",
+    "ip-full",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "opkg",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "tc-bpf",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/realtek/rtl838x/",
+  "image_prefix": "openwrt-22.03.5-realtek-rtl838x-d-link_dgs-1210-28",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-d-link_dgs-1210-28-squashfs-factory_image1.bin",
+      "sha256": "7d1ea7220995bb59cfcde407f99046f4fa0adf21ff3d4f6f6a3d8a8b04fa35b4",
+      "sha256_unsigned": "7d1ea7220995bb59cfcde407f99046f4fa0adf21ff3d4f6f6a3d8a8b04fa35b4",
+      "type": "factory_image1"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-d-link_dgs-1210-28-squashfs-sysupgrade.bin",
+      "sha256": "a1f6ba8f686e6d2e77bc9067d19e964928c8b9759a081c1d7ca44644b4a27d01",
+      "sha256_unsigned": "937e9417d035bcee0e0d2dc643a64127f3e869b1ffddf0ee9589a4284bc359ab",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-d-link_dgs-1210-28-initramfs-kernel.bin",
+      "sha256": "5fd9885a855fa63228295b1ab0997d75b721151aae265a941b49ff0dc19cd247",
+      "sha256_unsigned": "5fd9885a855fa63228295b1ab0997d75b721151aae265a941b49ff0dc19cd247",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "d-link_dgs-1210-28",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "d-link,dgs-1210-28"
+  ],
+  "target": "realtek/rtl838x",
+  "titles": [
+    {
+      "model": "DGS-1210-28",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

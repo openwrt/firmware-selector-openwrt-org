@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca988x-ct",
+    "kmod-ath10k-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-engenius_ecb1750",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_ecb1750-squashfs-sysupgrade.bin",
+      "sha256": "5d8804148d0131e39c0d25a60ba7a1ff6b67ad6d9360552b6bf6f21a96bfd4ab",
+      "sha256_unsigned": "482aa19dc324156f5e6445f46efabf65a1caf01a4560d52f86c1ea4df4113366",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_ecb1750-initramfs-kernel.bin",
+      "sha256": "7ecd88753b73f5bf07c63318fcfed868f74ad6e9926c1ef3d91ea01c222f49e3",
+      "sha256_unsigned": "7ecd88753b73f5bf07c63318fcfed868f74ad6e9926c1ef3d91ea01c222f49e3",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_ecb1750-squashfs-factory.bin",
+      "sha256": "65c3a7ced4e0aff71ae78b9bf5cc4da29c228c9046a55367fb8a67ba0c668794",
+      "sha256_unsigned": "65c3a7ced4e0aff71ae78b9bf5cc4da29c228c9046a55367fb8a67ba0c668794",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "engenius_ecb1750",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "engenius,ecb1750"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "ECB1750",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

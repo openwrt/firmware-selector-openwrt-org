@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ltq-adsl-ase",
+    "kmod-ltq-adsl-ase-mei",
+    "kmod-ltq-adsl-ase-fw-b",
+    "kmod-ltq-atm-ase",
+    "ltq-adsl-app",
+    "ppp-mod-pppoe",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [
+    "kmod-ltq-adsl-ase",
+    "kmod-ltq-adsl-ase-mei",
+    "kmod-ltq-adsl-ase-fw-b",
+    "kmod-ltq-atm-ase",
+    "ltq-adsl-app",
+    "ppp-mod-pppoe"
+  ],
+  "image_path": "19.07.10/targets/lantiq/ase/",
+  "image_prefix": "openwrt-19.07.10-lantiq-ase-allnet_all0333cj",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-ase-allnet_all0333cj-squashfs-sysupgrade.bin",
+      "sha256": "3fb572f7769a6aee121c5ad22f8b5a4e929d90e352bd4eb38ab4e6c9526c8480",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "allnet_all0333cj",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "allnet,all0333cj"
+  ],
+  "target": "lantiq/ase",
+  "titles": [
+    {
+      "title": "Allnet ALL0333CJ"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

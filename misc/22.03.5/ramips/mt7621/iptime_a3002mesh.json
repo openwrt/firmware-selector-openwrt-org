@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-iptime_a3002mesh",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iptime_a3002mesh-initramfs-kernel.bin",
+      "sha256": "b868a9b8276695024e2c1e159006ef80867055ea2be12b229072adff5d28eea1",
+      "sha256_unsigned": "b868a9b8276695024e2c1e159006ef80867055ea2be12b229072adff5d28eea1",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iptime_a3002mesh-squashfs-sysupgrade.bin",
+      "sha256": "9b1ce09b616cf1e57b7d947d62c3d9027e762cba0242f8c9ea107319849424bf",
+      "sha256_unsigned": "ae3ebe0f6ed9fa15d60a1bc76b55879df9f5d7e646be94f8a6c5e55b0b9f6497",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iptime_a3002mesh",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iptime,a3002mesh"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "A3002MESH",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

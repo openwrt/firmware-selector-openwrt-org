@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "nvram",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "otrx",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-b43"
+  ],
+  "image_path": "22.03.5/targets/bcm47xx/legacy/",
+  "image_prefix": "openwrt-22.03.5-bcm47xx-legacy-netgear_wnr834b-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm47xx-legacy-netgear_wnr834b-v2-squashfs.chk",
+      "sha256": "dde6da2203c1e9fc957789c0ba8371e50d3e8f50652f7dcabfbb6d4bcb20f5e9",
+      "sha256_unsigned": "dde6da2203c1e9fc957789c0ba8371e50d3e8f50652f7dcabfbb6d4bcb20f5e9",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wnr834b-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wnr834b-v2"
+  ],
+  "target": "bcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WNR834B",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

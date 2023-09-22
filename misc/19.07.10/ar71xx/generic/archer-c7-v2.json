@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "19.07.10/targets/ar71xx/generic/",
+  "image_prefix": "openwrt-19.07.10-ar71xx-generic-archer-c7-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-generic-archer-c7-v2-squashfs-factory-eu.bin",
+      "sha256": "3864df69eca3f793fbbe9d4e49c4ec69e483324bdb16a7eaf1a3664cdfac37a1",
+      "type": "factory-eu"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-generic-archer-c7-v2-squashfs-factory-us.bin",
+      "sha256": "29d555a9cdf2675151c354116dbac88394cbd8d74b20955a3bd65fd87b101177",
+      "type": "factory-us"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-generic-archer-c7-v2-squashfs-factory.bin",
+      "sha256": "344358ba6af021b774f56a9ca13b7b3c071cbc6fdebc0ca23e75d2d97d61b62a",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-generic-archer-c7-v2-squashfs-sysupgrade.bin",
+      "sha256": "b0e24873c44666aed39a4900558b27d3ed0b0a531e06444bc9c032bd756dcb63",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "archer-c7-v2",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "TP-LINK Archer C7 v2"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

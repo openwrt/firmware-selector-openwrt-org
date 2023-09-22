@@ -1,0 +1,60 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/brcm63xx/generic/",
+  "image_prefix": "openwrt-19.07.10-brcm63xx-generic-DSL2640B-B",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-brcm63xx-generic-DSL2640B-B-squashfs-cfe.bin",
+      "sha256": "4c132f3bbd07295dbcdef355c8e575b46671c654dd18e270526e5c8927e3d0fb",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "DSL2640B-B",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "title": "D-Link DSL-2640B rev B2"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

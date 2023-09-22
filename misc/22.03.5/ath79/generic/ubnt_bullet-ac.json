@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca988x-ct",
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ubnt_bullet-ac",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_bullet-ac-squashfs-sysupgrade.bin",
+      "sha256": "512743828fcd89368447e14947beda79a16994367f157651771d7a377375f613",
+      "sha256_unsigned": "64acbf9a4831918e5d5022575ad7a1f8ea6d23d650e9917d94fe549d5e026211",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_bullet-ac-initramfs-kernel.bin",
+      "sha256": "b6060ef3c1f5f93bf4d8e0ba29a90d5b932d8bf81b5975f95bb6c34344fb141a",
+      "sha256_unsigned": "b6060ef3c1f5f93bf4d8e0ba29a90d5b932d8bf81b5975f95bb6c34344fb141a",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_bullet-ac-squashfs-factory.bin",
+      "sha256": "421b73e2da1c49cebc5087d005d706b0fbca7a4093449273206808f38d0f41d3",
+      "sha256_unsigned": "421b73e2da1c49cebc5087d005d706b0fbca7a4093449273206808f38d0f41d3",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_bullet-ac",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,bullet-ac"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Bullet AC",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

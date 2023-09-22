@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-elecom_wrc-1900gst",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-elecom_wrc-1900gst-squashfs-sysupgrade.bin",
+      "sha256": "fffba7322d3aff2a102fb745d17ee112473a29433a12d52781165354f92176fa",
+      "sha256_unsigned": "5e257a40aea3f5020343f24f3e3667bb7b3438cccce4b163f469ac1e340921df",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-elecom_wrc-1900gst-initramfs-kernel.bin",
+      "sha256": "674571c367834694ab9ea94f8434db5baa9a28a67df118a825802cc8a9a90341",
+      "sha256_unsigned": "674571c367834694ab9ea94f8434db5baa9a28a67df118a825802cc8a9a90341",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-elecom_wrc-1900gst-squashfs-factory.bin",
+      "sha256": "742a3fe71ed29353d9fbecaaf2f9cae6976ee053d9e558ebaed4a4b5bc823fe4",
+      "sha256_unsigned": "742a3fe71ed29353d9fbecaaf2f9cae6976ee053d9e558ebaed4a4b5bc823fe4",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "elecom_wrc-1900gst",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "elecom,wrc-1900gst"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WRC-1900GST",
+      "vendor": "ELECOM"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e",
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-tplink_archer-c20i",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_archer-c20i-squashfs-factory.bin",
+      "sha256": "543b9baa9c56ea13d80bc24b63f69ff89ddb99bf2af89e00b601935fc4aa60d6",
+      "sha256_unsigned": "543b9baa9c56ea13d80bc24b63f69ff89ddb99bf2af89e00b601935fc4aa60d6",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_archer-c20i-squashfs-sysupgrade.bin",
+      "sha256": "3a9c57c718f42ce1bca2ec88078a83347d4b2fd35bc8783a17f37b70e718686e",
+      "sha256_unsigned": "744b75fae6e1dc8c13d14bb715eea86935dd743f952309efde0e54fa6f34ea00",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_archer-c20i-initramfs-kernel.bin",
+      "sha256": "851f68f5ee91f40c09af8e2675723f94f66385dcf4c995d302ba7bcaccb5884d",
+      "sha256_unsigned": "851f68f5ee91f40c09af8e2675723f94f66385dcf4c995d302ba7bcaccb5884d",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-c20i",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-c20i",
+    "c20i"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Archer C20i",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

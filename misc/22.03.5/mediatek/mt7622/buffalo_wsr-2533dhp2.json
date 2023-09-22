@@ -1,0 +1,89 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7615-firmware",
+    "kmod-mt7615e",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "swconfig"
+  ],
+  "image_path": "22.03.5/targets/mediatek/mt7622/",
+  "image_prefix": "openwrt-22.03.5-mediatek-mt7622-buffalo_wsr-2533dhp2",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-buffalo_wsr-2533dhp2-initramfs-kernel.bin",
+      "sha256": "e1f4c5c316cbc45bff6c0c964b10a26458dd9847811cc53a937739e08a7898c3",
+      "sha256_unsigned": "e1f4c5c316cbc45bff6c0c964b10a26458dd9847811cc53a937739e08a7898c3",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-buffalo_wsr-2533dhp2-squashfs-factory-uboot.bin",
+      "sha256": "39cf91c11b30761b85db9e0d6c8c939a741c9ef77f9b16b8d3f57cf6a282cb90",
+      "sha256_unsigned": "39cf91c11b30761b85db9e0d6c8c939a741c9ef77f9b16b8d3f57cf6a282cb90",
+      "type": "factory-uboot"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-buffalo_wsr-2533dhp2-squashfs-sysupgrade.bin",
+      "sha256": "4f64579bc20a6e889a1c1bb11fa8af381a1cd13f545c50713613880365055dd1",
+      "sha256_unsigned": "0385ccc58dde7f98a7d395c6091a9a89146112c99521a531b0934e3848e4039d",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-buffalo_wsr-2533dhp2-squashfs-factory.bin",
+      "sha256": "e4bdd8cd184d1ce073cbe00a97e727ae9cc8ef884a1d13441fd117554ef82d1f",
+      "sha256_unsigned": "e4bdd8cd184d1ce073cbe00a97e727ae9cc8ef884a1d13441fd117554ef82d1f",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_wsr-2533dhp2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "buffalo,wsr-2533dhp2"
+  ],
+  "target": "mediatek/mt7622",
+  "titles": [
+    {
+      "model": "WSR-2533DHP2",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

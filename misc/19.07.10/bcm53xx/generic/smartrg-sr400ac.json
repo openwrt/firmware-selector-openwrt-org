@@ -1,0 +1,81 @@
+{
+  "arch_packages": "arm_cortex-a9",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "nvram",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer"
+  ],
+  "device_packages": [
+    "wpad-basic",
+    "kmod-brcmfmac",
+    "brcmfmac-firmware-43602a1-pcie",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-phy-bcm-ns-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-phy-bcm-ns-usb3",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/bcm53xx/generic/",
+  "image_prefix": "openwrt-19.07.10-bcm53xx-smartrg-sr400ac",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-bcm53xx-smartrg-sr400ac-squashfs.trx",
+      "sha256": "226850bc6a7e3d2e1ad952784074d7f42de768ce3c4aefae2071d14654325a3c",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "smartrg-sr400ac",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "title": "SmartRG SR400ac"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

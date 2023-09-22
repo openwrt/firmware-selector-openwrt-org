@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-iodata_wn-gx300gr",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iodata_wn-gx300gr-squashfs-sysupgrade.bin",
+      "sha256": "894711794b22c7423d65ff4f49318e0ee429563314e98b033d545a161a924222",
+      "sha256_unsigned": "90163a55b2aeb213c6c0f0500aa6ca0f06db998b6587591392785193887b8fe6",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iodata_wn-gx300gr-initramfs-kernel.bin",
+      "sha256": "b913967d2a341ad020210933e923dc00935312923091b4d8c6ea710badd1a132",
+      "sha256_unsigned": "b913967d2a341ad020210933e923dc00935312923091b4d8c6ea710badd1a132",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iodata_wn-gx300gr",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iodata,wn-gx300gr"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WN-GX300GR",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

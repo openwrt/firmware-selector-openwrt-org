@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-smp-comtrend_ar-5381u",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-comtrend_ar-5381u-squashfs-cfe.bin",
+      "sha256": "078e4fc340294f66c1fa98c72486dd80f0de77b177fa8598db5eae3514e56a52",
+      "sha256_unsigned": "078e4fc340294f66c1fa98c72486dd80f0de77b177fa8598db5eae3514e56a52",
+      "type": "cfe"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-comtrend_ar-5381u-squashfs-sysupgrade.bin",
+      "sha256": "63a0dad5956c520c58ef7fe6cb7311630757e71a7f81f06b96683d7e6c4d68f4",
+      "sha256_unsigned": "63a0dad5956c520c58ef7fe6cb7311630757e71a7f81f06b96683d7e6c4d68f4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "comtrend_ar-5381u",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "comtrend,ar-5381u"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "AR-5381u",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

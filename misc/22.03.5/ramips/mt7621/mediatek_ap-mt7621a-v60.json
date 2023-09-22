@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "kmod-sdhci-mt7620",
+    "kmod-sound-mt7620",
+    "-wpad-basic-wolfssl"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-mediatek_ap-mt7621a-v60",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-mediatek_ap-mt7621a-v60-squashfs-sysupgrade.bin",
+      "sha256": "d45f0f340a6fe0dc247e24f53ec8080e0a124075f0a5369c0da47477402bea70",
+      "sha256_unsigned": "9c11de72260beae8c572fdd8e59bc39498c327340298515e7c83f2aa427dc460",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-mediatek_ap-mt7621a-v60-initramfs-kernel.bin",
+      "sha256": "d6165fedb3d0497c8bc4a6c80e8736c5c14af673aca82deed44295d797092904",
+      "sha256_unsigned": "d6165fedb3d0497c8bc4a6c80e8736c5c14af673aca82deed44295d797092904",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mediatek_ap-mt7621a-v60",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mediatek,ap-mt7621a-v60"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "AP-MT7621A-V60 EVB",
+      "vendor": "Mediatek"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

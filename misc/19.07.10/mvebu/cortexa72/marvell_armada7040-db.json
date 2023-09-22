@@ -1,0 +1,68 @@
+{
+  "arch_packages": "aarch64_cortex-a72",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "e2fsprogs",
+    "ethtool",
+    "mkf2fs",
+    "partx-utils",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/mvebu/cortexa72/",
+  "image_prefix": "openwrt-19.07.10-mvebu-cortexa72-marvell_armada7040-db",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-mvebu-cortexa72-marvell_armada7040-db-ext4-sdcard.img.gz",
+      "sha256": "363f2d182dda74187d6f0e5184fa709a03fe5ec67f941eaf08489cc63f8a107f",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-mvebu-cortexa72-marvell_armada7040-db-squashfs-sdcard.img.gz",
+      "sha256": "ee94b4e214a7343f5c9e33c3654f7a7600dd4aaf5e6e36cf62c641010383c06b",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "marvell_armada7040-db",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "marvell,armada7040-db"
+  ],
+  "target": "mvebu/cortexa72",
+  "titles": [
+    {
+      "title": "Marvell Armada 7040 DB board"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-sdhci-mt7620"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-zbtlink_zbt-we1326",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin",
+      "sha256": "533d0eac45aa9b981f8e92b2de5023b1ee8a07adb70dc287225edbff8b9ae094",
+      "sha256_unsigned": "28bf60f12698b6ad7d4f1f0879c9f584409da4ce3b934b622924ec18f229b80f",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zbtlink_zbt-we1326-initramfs-kernel.bin",
+      "sha256": "bf960799a694ba92eb9bfc7dece4e5e102b4c1197078fc2a83a49dedd17605ae",
+      "sha256_unsigned": "bf960799a694ba92eb9bfc7dece4e5e102b4c1197078fc2a83a49dedd17605ae",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zbtlink_zbt-we1326",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zbtlink,zbt-we1326",
+    "zbt-we1326"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "ZBT-WE1326",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

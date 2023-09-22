@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "-wpad-basic-wolfssl",
+    "kmod-i2c-algo-pca",
+    "kmod-gpio-pca953x",
+    "kmod-sfp"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-ubnt_edgerouter-x-sfp",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-ubnt_edgerouter-x-sfp-squashfs-sysupgrade.bin",
+      "sha256": "3b90d02d079adefe22e01b931e5fae65f818a3c20f029093609b9fb5f44f7af1",
+      "sha256_unsigned": "f8641f7bae56f8116323728df067cdb3f7e76ef63335e0f89696e48581a03e85",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-ubnt_edgerouter-x-sfp-initramfs-kernel.bin",
+      "sha256": "0abb10c5aa35407840bc657bd117f095bc742ce4facddf6b47a5a8c4cc14e5a7",
+      "sha256_unsigned": "0abb10c5aa35407840bc657bd117f095bc742ce4facddf6b47a5a8c4cc14e5a7",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_edgerouter-x-sfp",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,edgerouter-x-sfp",
+    "ubnt-erx-sfp",
+    "ubiquiti,edgerouterx-sfp"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "EdgeRouter X SFP",
+      "vendor": "Ubiquiti"
+    },
+    {
+      "model": "EdgePoint R6",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

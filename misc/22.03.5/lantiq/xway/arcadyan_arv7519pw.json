@@ -1,0 +1,86 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-a",
+    "kmod-ltq-atm-danube",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-rt2800-pci",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/lantiq/xway/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xway-arcadyan_arv7519pw",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xway-arcadyan_arv7519pw-squashfs-sysupgrade.bin",
+      "sha256": "14e8ff1a89cb83fc7010bd960e5eabc998fb0de99d8f936403b9bfe3dea4a228",
+      "sha256_unsigned": "db5549399fe4f36f8073019c23f8bce65a2072054849b7377609a329db399c4b",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xway-arcadyan_arv7519pw-initramfs-kernel.bin",
+      "sha256": "9e6577218b57d0dc2fc077bc0971ae2fa520ebc1b22d8f63e1c57fd75c3a84c8",
+      "sha256_unsigned": "9e6577218b57d0dc2fc077bc0971ae2fa520ebc1b22d8f63e1c57fd75c3a84c8",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "arcadyan_arv7519pw",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "arcadyan,arv7519pw",
+    "ARV7519PW"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "ARV7519PW",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "ARV7519PW",
+      "vendor": "Astoria Networks"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

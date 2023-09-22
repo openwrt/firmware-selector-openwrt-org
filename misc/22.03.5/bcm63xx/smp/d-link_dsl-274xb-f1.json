@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-smp-d-link_dsl-274xb-f1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-d-link_dsl-274xb-f1-squashfs-cfe-EU.bin",
+      "sha256": "49858f1799557c73b5cab833b8ec1a55aaaad1d4598a1d4f5bb5664a89596f3a",
+      "sha256_unsigned": "49858f1799557c73b5cab833b8ec1a55aaaad1d4598a1d4f5bb5664a89596f3a",
+      "type": "cfe-EU"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-d-link_dsl-274xb-f1-squashfs-cfe-AU.bin",
+      "sha256": "67d48dc4f9b5c25e907786a4335ff0693eab9e740a437ec8e810fffa0df87ac9",
+      "sha256_unsigned": "67d48dc4f9b5c25e907786a4335ff0693eab9e740a437ec8e810fffa0df87ac9",
+      "type": "cfe-AU"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "d-link_dsl-274xb-f1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "d-link,dsl-274xb-f1"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "DSL-2740B",
+      "variant": "F1",
+      "vendor": "D-Link"
+    },
+    {
+      "model": "DSL-2741B",
+      "variant": "F1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

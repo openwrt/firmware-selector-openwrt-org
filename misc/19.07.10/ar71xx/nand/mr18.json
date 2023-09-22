@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-spi-gpio",
+    "kmod-ath9k"
+  ],
+  "image_path": "19.07.10/targets/ar71xx/nand/",
+  "image_prefix": "openwrt-19.07.10-ar71xx-nand-mr18",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-nand-mr18-squashfs-sysupgrade.tar",
+      "sha256": "e7973a456aa167402bf79ac25b0d20935e1277120fd392687ff20e9a17623533",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mr18",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "ar71xx/nand",
+  "titles": [
+    {
+      "title": "Meraki MR18"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

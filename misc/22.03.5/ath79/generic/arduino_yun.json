@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-storage",
+    "block-mount",
+    "-swconfig"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-arduino_yun",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-arduino_yun-squashfs-sysupgrade.bin",
+      "sha256": "3f3d7cbaa2b70f4857e5971fbba5939b816fb4ac724073954d9ff8673e910c8d",
+      "sha256_unsigned": "6830da69f3119c574d2d20e3f2f1ba48ed35e1548798c2f58cbb2af06db00eda",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-arduino_yun-initramfs-kernel.bin",
+      "sha256": "908c44958019fb92e1e01dd16ad12af12b7428a8cf100ee47f854d228fa911c7",
+      "sha256_unsigned": "908c44958019fb92e1e01dd16ad12af12b7428a8cf100ee47f854d228fa911c7",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "arduino_yun",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "arduino,yun",
+    "arduino-yun"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Yun",
+      "vendor": "Arduino"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

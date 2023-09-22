@@ -1,0 +1,91 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9984-ct",
+    "ipq-wifi-edgecore_ecw5410"
+  ],
+  "image_path": "22.03.5/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq806x-generic-edgecore_ecw5410",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-edgecore_ecw5410-initramfs-fit-uImage.itb",
+      "sha256": "500a9f296df391375e752f8ad7ad0cccdbbebc25437a0a44b9dd0c3fddac010c",
+      "sha256_unsigned": "500a9f296df391375e752f8ad7ad0cccdbbebc25437a0a44b9dd0c3fddac010c",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-edgecore_ecw5410-squashfs-nand-sysupgrade.bin",
+      "sha256": "cd55f20a9a8acf19771643f89e6f06e4fbaddd4f730026ea2432105f9f07093d",
+      "sha256_unsigned": "3673b28336789d986e2afab75ce7101347b0ac8fd51d2f76fefb288bf95ab662",
+      "type": "nand-sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-edgecore_ecw5410-squashfs-nand-factory.bin",
+      "sha256": "1d9a20ecc41bf39b2ec8b69794406ffa4c6d209daca4a4223e9af16faa10c775",
+      "sha256_unsigned": "1d9a20ecc41bf39b2ec8b69794406ffa4c6d209daca4a4223e9af16faa10c775",
+      "type": "nand-factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "edgecore_ecw5410",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "edgecore,ecw5410"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "ECW5410",
+      "vendor": "Edgecore"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

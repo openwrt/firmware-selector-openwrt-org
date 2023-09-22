@@ -1,0 +1,74 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-rtc-sunxi",
+    "kmod-ata-sunxi"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa7/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa7-linksprite_pcduino3-nano",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-linksprite_pcduino3-nano-squashfs-sdcard.img.gz",
+      "sha256": "f7c76ee84a42e0ff43cc2a1f13f4e9b4405d1ba54521b082e05bf123a5f4defb",
+      "sha256_unsigned": "f994b94e5a7b4552997add80713381a813e88d2391af99ca904b4757c29c16fa",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-linksprite_pcduino3-nano-ext4-sdcard.img.gz",
+      "sha256": "c7c55884d2575b66e3b4aca09759df2398ee900e24dc390fc4779d27b625db31",
+      "sha256_unsigned": "81a0c7db561c1805a7a3874e28e115f1e16424fbf5a40738f57ad72bf6109c7d",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksprite_pcduino3-nano",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "linksprite,pcduino3-nano"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "pcDuino3 Nano",
+      "vendor": "LinkSprite"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

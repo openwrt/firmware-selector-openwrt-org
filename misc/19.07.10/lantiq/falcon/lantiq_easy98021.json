@@ -1,0 +1,57 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-heartbeat",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/lantiq/falcon/",
+  "image_prefix": "openwrt-19.07.10-lantiq-falcon-lantiq_easy98021",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-falcon-lantiq_easy98021-squashfs-sysupgrade.bin",
+      "sha256": "46406b215d7696a4ea59f867030458d78c748faf5e77eb5172ab1e5045448a35",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "lantiq_easy98021",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "lantiq,easy98021"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "title": "EASY98021 - Lantiq Falcon HGU Reference Board"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

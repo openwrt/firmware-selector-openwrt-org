@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "19.07.10/targets/ar71xx/generic/",
+  "image_prefix": "openwrt-19.07.10-ar71xx-generic-dir-869-a1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-generic-dir-869-a1-squashfs-sysupgrade.bin",
+      "sha256": "b4ae7d56d77874ef710e469ce8e5737e57af924c8f488328fb2ca5f487f0e0f3",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-generic-dir-869-a1-squashfs-factory.bin",
+      "sha256": "ad102776cfab11944b1463c032bdc43b95b899ade7161ea81f60ec3a2b62e685",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dir-869-a1",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "D-Link DIR-869 rev. A1"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

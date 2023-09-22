@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_tl-wpa8630-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wpa8630-v1-squashfs-factory.bin",
+      "sha256": "a1ec43d3747fc9b30e161fa38f17e1bb8e402c1e76894ea9b9e1b9fd865dd62b",
+      "sha256_unsigned": "a1ec43d3747fc9b30e161fa38f17e1bb8e402c1e76894ea9b9e1b9fd865dd62b",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wpa8630-v1-squashfs-sysupgrade.bin",
+      "sha256": "5e2b77735a5f478c253d528fd3d61c3ea1f0a780da7d27b94fc738d4e9515a5f",
+      "sha256_unsigned": "44ca9b9608751c927514372eec2ad1f793bb9339a16814d6b20e3d1f7811a335",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wpa8630-v1-initramfs-kernel.bin",
+      "sha256": "5c11d3fedfb70cd307bbdee35324c0f119e2020bae946ea11235e7d1effb3c6a",
+      "sha256_unsigned": "5c11d3fedfb70cd307bbdee35324c0f119e2020bae946ea11235e7d1effb3c6a",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_tl-wpa8630-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,tl-wpa8630-v1",
+    "tl-wpa8630"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WPA8630",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

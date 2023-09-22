@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-xiaomi_miwifi-mini",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-xiaomi_miwifi-mini-squashfs-sysupgrade.bin",
+      "sha256": "f51f3180526a563de0639422f2d4815c5aef5943c6db6aa321faa192bb0584d0",
+      "sha256_unsigned": "12061f36ff497ffff027344f3b3f485c51dbc683b7c8015a68f9320663721f20",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-xiaomi_miwifi-mini-initramfs-kernel.bin",
+      "sha256": "2130eba85485b8f67acf2bfb7a2e52dd01d8b98f9c51833bb83ab12a82ccd062",
+      "sha256_unsigned": "2130eba85485b8f67acf2bfb7a2e52dd01d8b98f9c51833bb83ab12a82ccd062",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "xiaomi_miwifi-mini",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "xiaomi,miwifi-mini",
+    "miwifi-mini"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MiWiFi Mini",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

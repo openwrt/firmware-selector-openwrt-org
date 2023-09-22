@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-pci",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ramips/rt3883/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt3883-asus_rt-n56u",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt3883-asus_rt-n56u-squashfs-sysupgrade.bin",
+      "sha256": "b8becc9f73cb96816c88bcfbe5a5b52129a183021273831538eec0909989fd54",
+      "sha256_unsigned": "24ca699b224899d44739dee2d9f27eb042c0439d4ca176c74c67916c83118b85",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "asus_rt-n56u",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "asus,rt-n56u",
+    "rt-n56u"
+  ],
+  "target": "ramips/rt3883",
+  "titles": [
+    {
+      "model": "RT-N56U",
+      "vendor": "Asus"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

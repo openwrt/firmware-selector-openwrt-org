@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-mt7603",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "uboot-envtools"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt76x8-alfa-network_awusfree1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt76x8-alfa-network_awusfree1-squashfs-sysupgrade.bin",
+      "sha256": "2cde0e55fab04a8e63072172ac84f7fecb75748601bbcd1dfde7dd4fc59ef342",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "alfa-network_awusfree1",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "alfa-network,awusfree1"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "title": "ALFA Network AWUSFREE1"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

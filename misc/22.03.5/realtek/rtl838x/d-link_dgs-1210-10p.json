@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mips_4kec",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "ethtool",
+    "firewall4",
+    "fstools",
+    "ip-bridge",
+    "ip-full",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "opkg",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "tc-bpf",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "lua-rs232"
+  ],
+  "image_path": "22.03.5/targets/realtek/rtl838x/",
+  "image_prefix": "openwrt-22.03.5-realtek-rtl838x-d-link_dgs-1210-10p",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-d-link_dgs-1210-10p-squashfs-factory_image1.bin",
+      "sha256": "4ecd904a6ba2e0c7a93d5f8d80f1928fefee7343c49d1452302227d3d7a0a9e7",
+      "sha256_unsigned": "4ecd904a6ba2e0c7a93d5f8d80f1928fefee7343c49d1452302227d3d7a0a9e7",
+      "type": "factory_image1"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-d-link_dgs-1210-10p-squashfs-sysupgrade.bin",
+      "sha256": "aaa01f44ae50d5482d75bb8315e031a5458a55dc0c857a611c83ec1fe166dfe4",
+      "sha256_unsigned": "36e570a614bab06272b78871db7999ef868346cf6a25494852c66827855cb581",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-d-link_dgs-1210-10p-initramfs-kernel.bin",
+      "sha256": "5452936d517b27d78de10671dc26704b40c53df0672a9c8a30045b38182d67dc",
+      "sha256_unsigned": "5452936d517b27d78de10671dc26704b40c53df0672a9c8a30045b38182d67dc",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "d-link_dgs-1210-10p",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "d-link,dgs-1210-10p"
+  ],
+  "target": "realtek/rtl838x",
+  "titles": [
+    {
+      "model": "DGS-1210-10P",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

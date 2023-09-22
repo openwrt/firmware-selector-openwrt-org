@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-storage",
+    "kmod-i2c-core",
+    "kmod-i2c-gpio-custom",
+    "kmod-spi-bitbang",
+    "kmod-spi-dev",
+    "kmod-spi-gpio",
+    "kmod-spi-gpio-custom",
+    "kmod-usb-serial"
+  ],
+  "image_path": "19.07.10/targets/ar71xx/generic/",
+  "image_prefix": "openwrt-19.07.10-ar71xx-generic-som9331",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-generic-som9331-squashfs-factory.bin",
+      "sha256": "7c3724ea8d6c435bd84d63db3779d4bbfb6fcbd8f014ba9f117651d4c57200cd",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-generic-som9331-squashfs-sysupgrade.bin",
+      "sha256": "b7553ea31d21fc3e39977e66b68be9e7448e9e3ab44829c08c223c21fc3ff53e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "som9331",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "OpenEmbed SOM9331"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

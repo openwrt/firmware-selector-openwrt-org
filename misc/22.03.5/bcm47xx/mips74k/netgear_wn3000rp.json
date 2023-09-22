@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "nvram",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "otrx",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/bcm47xx/mips74k/",
+  "image_prefix": "openwrt-22.03.5-bcm47xx-mips74k-netgear_wn3000rp",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm47xx-mips74k-netgear_wn3000rp-squashfs.chk",
+      "sha256": "7a7fbb92440f713397dbf7920a76dd3d5f37507231d61c0ba72e7bc35cc8ef6c",
+      "sha256_unsigned": "7a7fbb92440f713397dbf7920a76dd3d5f37507231d61c0ba72e7bc35cc8ef6c",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wn3000rp",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wn3000rp"
+  ],
+  "target": "bcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "WN3000RP",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

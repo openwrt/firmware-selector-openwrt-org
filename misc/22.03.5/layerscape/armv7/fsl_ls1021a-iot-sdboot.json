@@ -1,0 +1,72 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/layerscape/armv7/",
+  "image_prefix": "openwrt-22.03.5-layerscape-armv7-fsl_ls1021a-iot-sdboot",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-layerscape-armv7-fsl_ls1021a-iot-sdboot-squashfs-sysupgrade.bin",
+      "sha256": "c0a97c65734467a849456f267e0969a3924d6203ed0bfbc532ffa7ef4a755c1f",
+      "sha256_unsigned": "4418bd105675abe9deb61257d8a2bf60255d6375c49a2d0b60ffd9dc5824a5a0",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-layerscape-armv7-fsl_ls1021a-iot-sdboot-squashfs-sdcard.img.gz",
+      "sha256": "6cfbd270dc40de16ba8fa173ac5486c44c6fa2f7f192322cf33766407088b3a6",
+      "sha256_unsigned": "6cfbd270dc40de16ba8fa173ac5486c44c6fa2f7f192322cf33766407088b3a6",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "fsl_ls1021a-iot-sdboot",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [],
+  "target": "layerscape/armv7",
+  "titles": [
+    {
+      "model": "LS1021A-IoT",
+      "variant": "SD Card Boot",
+      "vendor": "NXP"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

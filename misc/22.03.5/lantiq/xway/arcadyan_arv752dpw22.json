@@ -1,0 +1,91 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-usb2-pci",
+    "kmod-usb-uhci",
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-b",
+    "kmod-ltq-atm-danube",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ltq-tapi",
+    "kmod-ltq-vmmc",
+    "kmod-rt2800-pci",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/lantiq/xway/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xway-arcadyan_arv752dpw22",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xway-arcadyan_arv752dpw22-squashfs-sysupgrade.bin",
+      "sha256": "db93c918249684538901d536f174bb82b757811a98eded3b144e4f3ac55060cb",
+      "sha256_unsigned": "b39f4c7b40dc4949be011b0f4f5d9999783dcb150786a70d7a390e2423afa2b2",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xway-arcadyan_arv752dpw22-initramfs-kernel.bin",
+      "sha256": "2c1e958200a7d73594f536c56648070af9b2ed0025bd3a2571954feedebd4ce7",
+      "sha256_unsigned": "2c1e958200a7d73594f536c56648070af9b2ed0025bd3a2571954feedebd4ce7",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "arcadyan_arv752dpw22",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "arcadyan,arv752dpw22",
+    "ARV752DPW22"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "ARV752DPW22",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "Easybox 803",
+      "vendor": "Vodafone"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

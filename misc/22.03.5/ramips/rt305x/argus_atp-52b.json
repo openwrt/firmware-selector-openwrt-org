@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-argus_atp-52b",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-argus_atp-52b-initramfs-kernel.bin",
+      "sha256": "b6d30968844cdb050c6abf6c02e8f30fa6830f8f2660629c29c4d9f352679827",
+      "sha256_unsigned": "b6d30968844cdb050c6abf6c02e8f30fa6830f8f2660629c29c4d9f352679827",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-argus_atp-52b-squashfs-sysupgrade.bin",
+      "sha256": "a6aaa21006fc6fbe95870823e9ec0a1062b01712bd2b0518800a2b5a5bcb9a7f",
+      "sha256_unsigned": "65b6eb6577f537390891eb8bf358c857eef6bc47fbc04379e9932f20799fa676",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "argus_atp-52b",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "argus,atp-52b",
+    "atp-52b"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "ATP-52B",
+      "vendor": "Argus"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

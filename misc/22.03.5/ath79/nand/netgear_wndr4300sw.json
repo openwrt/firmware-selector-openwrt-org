@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/nand/",
+  "image_prefix": "openwrt-22.03.5-ath79-nand-netgear_wndr4300sw",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-netgear_wndr4300sw-squashfs-sysupgrade.bin",
+      "sha256": "7dd085cf25510e700e5a6d8e7dfaf3b91b8ff69f2582760c3402a383224f6315",
+      "sha256_unsigned": "0eaf28b6e37d532bf1df1dabddd9c0b4633cd38f1cc4f3d86941b7077850b256",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-nand-netgear_wndr4300sw-initramfs-kernel.bin",
+      "sha256": "bff6c231df474410ec3038267dcf0ddad7e7e8b9735c9e95c5487cb5f7a53612",
+      "sha256_unsigned": "bff6c231df474410ec3038267dcf0ddad7e7e8b9735c9e95c5487cb5f7a53612",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-netgear_wndr4300sw-squashfs-factory.img",
+      "sha256": "9bba9599281d9a612c5541dd23fa31dd8d507a565cbca36811b42423b6884b8d",
+      "sha256_unsigned": "9bba9599281d9a612c5541dd23fa31dd8d507a565cbca36811b42423b6884b8d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wndr4300sw",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wndr4300sw"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "WNDR4300SW",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

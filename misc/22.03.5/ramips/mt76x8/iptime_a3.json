@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7603",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt76x8-iptime_a3",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-iptime_a3-squashfs-sysupgrade.bin",
+      "sha256": "59623c553841e24fd7d53deff7b004969fa39da59f15d4eaa824a3688e111ca3",
+      "sha256_unsigned": "440363b6344f92c1b87b551d08fe1d4eb18b4352bed869a9454e9d779330d624",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-iptime_a3-initramfs-kernel.bin",
+      "sha256": "1eee252199c33161263df3d955cb42bf192c7cbbc22ccdc9f6cd6be9139a13dc",
+      "sha256_unsigned": "1eee252199c33161263df3d955cb42bf192c7cbbc22ccdc9f6cd6be9139a13dc",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iptime_a3",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iptime,a3"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "A3",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

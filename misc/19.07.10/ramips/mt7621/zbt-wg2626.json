@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-ata-core",
+    "kmod-ata-ahci",
+    "kmod-sdhci-mt7620",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt7621-zbt-wg2626",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-zbt-wg2626-squashfs-sysupgrade.bin",
+      "sha256": "e650422139660fa50ba364527e5847deec71667c9b64b2094dfed547f92901c8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zbt-wg2626",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "zbt-wg2626"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "ZBT WG2626"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

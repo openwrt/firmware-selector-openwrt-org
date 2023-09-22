@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-19.07.10-ramips-rt305x-mzk-w300nh2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-rt305x-mzk-w300nh2-squashfs-factory.bin",
+      "sha256": "9e71783b73f87370f86085c9193816ee22a8a09348dafe39a4c25ef2098193a7",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-rt305x-mzk-w300nh2-squashfs-sysupgrade.bin",
+      "sha256": "eb77038db81175f8a8a301a302b587c23504e228512a966b4b7e1d992b7665bc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mzk-w300nh2",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "mzk-w300nh2"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "title": "Planex MZK-W300NH2"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

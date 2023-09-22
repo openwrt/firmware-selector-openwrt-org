@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-omnima_miniembplug",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-omnima_miniembplug-squashfs-sysupgrade.bin",
+      "sha256": "14fd0091eaa233c94d44a1df47774f95f3db96253b36e1a95a3619ba02ba35d9",
+      "sha256_unsigned": "5c510f0778be1e078b3b3b850d2a97865400f2f76653b4ba6cba70e7a08e557e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-omnima_miniembplug-initramfs-kernel.bin",
+      "sha256": "ce4399608bda0322a20eead431250b052f54f9248eaf4afc2e194de06fc248f9",
+      "sha256_unsigned": "ce4399608bda0322a20eead431250b052f54f9248eaf4afc2e194de06fc248f9",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "omnima_miniembplug",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "omnima,miniembplug",
+    "miniembplug"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "MiniEMBPlug",
+      "vendor": "Omnima"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

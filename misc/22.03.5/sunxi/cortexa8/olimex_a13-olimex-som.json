@@ -1,0 +1,73 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-rtl8192cu"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa8/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa8-olimex_a13-olimex-som",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa8-olimex_a13-olimex-som-squashfs-sdcard.img.gz",
+      "sha256": "181c71c6d4d41c7eb22f8246a05cce79e10594975b07540150f6baa4477f14a4",
+      "sha256_unsigned": "ac0ddf67f2ccced58f65a501ceef50a5f517839172ca85b6e3142c323dc02df4",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa8-olimex_a13-olimex-som-ext4-sdcard.img.gz",
+      "sha256": "d7b33ee8d058902cd95f29c1a5248cdd59c3e346225ceeddfd65787388e118ae",
+      "sha256_unsigned": "7416da791a7fcc2f7f1a4cdcf1b7a174a2b74bf207d6c3bda3d1e9fe2fd8470d",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "olimex_a13-olimex-som",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "olimex,a13-olinuxino"
+  ],
+  "target": "sunxi/cortexa8",
+  "titles": [
+    {
+      "model": "A13-SOM",
+      "vendor": "Olimex"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

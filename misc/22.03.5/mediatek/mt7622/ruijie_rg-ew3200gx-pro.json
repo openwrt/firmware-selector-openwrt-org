@@ -1,0 +1,75 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7615-firmware",
+    "kmod-mt7615e",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7915e"
+  ],
+  "image_path": "22.03.5/targets/mediatek/mt7622/",
+  "image_prefix": "openwrt-22.03.5-mediatek-mt7622-ruijie_rg-ew3200gx-pro",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-ruijie_rg-ew3200gx-pro-squashfs-sysupgrade.bin",
+      "sha256": "f0417e5a0b5635b52946c740a16eba72e9fb6af1b7f85168a948992bf8d602a3",
+      "sha256_unsigned": "e8f2298e484f68f9928f7027f1998bfae7b9059193d6162fb6dbf030a1d7fe7e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-ruijie_rg-ew3200gx-pro-initramfs-kernel.bin",
+      "sha256": "e53485b376669ae258c61db57368e24a4368e279f7f53a7717d96527bbe99f12",
+      "sha256_unsigned": "e53485b376669ae258c61db57368e24a4368e279f7f53a7717d96527bbe99f12",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ruijie_rg-ew3200gx-pro",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ruijie,rg-ew3200gx-pro"
+  ],
+  "target": "mediatek/mt7622",
+  "titles": [
+    {
+      "model": "RG-EW3200GX PRO",
+      "vendor": "Ruijie"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

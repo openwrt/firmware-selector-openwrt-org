@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-rt2800-pci",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-generic-huawei_echolife-hg655b",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-huawei_echolife-hg655b-squashfs-cfe.bin",
+      "sha256": "583dfcf96a175e4ad4fb828eae05d549f088a3abcbcc8bde7a48290372f2d99f",
+      "sha256_unsigned": "583dfcf96a175e4ad4fb828eae05d549f088a3abcbcc8bde7a48290372f2d99f",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "huawei_echolife-hg655b",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "huawei,echolife-hg655b"
+  ],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "EchoLife HG655b",
+      "vendor": "Huawei"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-devolo_magic-2-wifi",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-devolo_magic-2-wifi-initramfs-kernel.bin",
+      "sha256": "798cf5fd92df12810f47ac2b4b569984344a51eb8dc508705165e7af1b0edab6",
+      "sha256_unsigned": "798cf5fd92df12810f47ac2b4b569984344a51eb8dc508705165e7af1b0edab6",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-devolo_magic-2-wifi-squashfs-sysupgrade.bin",
+      "sha256": "fc60702f402a8480bea18837957b4e1d15c5f35ccb49ea4e01f3006be6915d0f",
+      "sha256_unsigned": "47f20ce65ba57c7b25ad04c2d783040bdacd2d11efe7a90e0f9ec3974c7ef640",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "devolo_magic-2-wifi",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "devolo,magic-2-wifi"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Magic 2 WiFi",
+      "vendor": "Devolo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

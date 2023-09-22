@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-3-pro",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-3-pro-squashfs-sysupgrade.bin",
+      "sha256": "e76353f701dd788ebfaa7ca3cb310eace4ec3b37991dc41b4f096bad749378e6",
+      "sha256_unsigned": "c69654e434f8e761e8daf175dcfd8f4760739fd04276706772fbeff6dc8377e5",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-3-pro-squashfs-factory.bin",
+      "sha256": "3be98570449476e4c6380a86a455acd56fbef78355d8058db9da3cbd7cab640a",
+      "sha256_unsigned": "3be98570449476e4c6380a86a455acd56fbef78355d8058db9da3cbd7cab640a",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-3-pro-initramfs-kernel.bin",
+      "sha256": "2a8dfcb078d9c026a7a63c01fb929ed722f7b7c18f015dd2019289bf8e0f3618",
+      "sha256_unsigned": "2a8dfcb078d9c026a7a63c01fb929ed722f7b7c18f015dd2019289bf8e0f3618",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "xiaomi_mi-router-3-pro",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "xiaomi,mi-router-3-pro",
+    "xiaomi,mir3p"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Mi Router 3 Pro",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e",
+    "kmod-usb2",
+    "kmod-usb-net-rndis",
+    "kmod-usb-serial-option",
+    "adb-enablemodem"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-tplink_archer-mr200",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_archer-mr200-squashfs-sysupgrade.bin",
+      "sha256": "655450daa30e59914ec1b1acc9edabceefa58ead1acf9be36d391df46b547f91",
+      "sha256_unsigned": "ea2b8616d1e82685a5518d9b313275887ac2635cfeedf15bea4f674a6ce9a0f3",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_archer-mr200-initramfs-kernel.bin",
+      "sha256": "4801c34c2b2aaf136877a55accd0921771b024a1189569a09043da0891708b1c",
+      "sha256_unsigned": "4801c34c2b2aaf136877a55accd0921771b024a1189569a09043da0891708b1c",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-mr200",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-mr200",
+    "mr200"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Archer MR200",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

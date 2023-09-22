@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt7621-firewrt",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-firewrt-squashfs-sysupgrade.bin",
+      "sha256": "2f2ed7d7f08602a3e5890112a11e74b1b201107360303f394783abbc418e1da5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "firewrt",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "firewrt"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Firefly FireWRT"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

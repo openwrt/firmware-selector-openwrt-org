@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "rssileds",
+    "-swconfig"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-alfa-network_tube-2hq",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-alfa-network_tube-2hq-squashfs-sysupgrade.bin",
+      "sha256": "3b95715cbba63dc2dc5dd0d52456444c3b7c1ae7d920b09c79500ff7e61df7f6",
+      "sha256_unsigned": "6e0fb9034644f21934057e94d784068725d12f7036a6078077be83ef995e1fa7",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-alfa-network_tube-2hq-initramfs-kernel.bin",
+      "sha256": "5e158724053abc4343f45ad3c9c173f6224a47d1e81cb884835faa8dda569218",
+      "sha256_unsigned": "5e158724053abc4343f45ad3c9c173f6224a47d1e81cb884835faa8dda569218",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "alfa-network_tube-2hq",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "alfa-network,tube-2hq",
+    "tube-2hq"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Tube-2HQ",
+      "vendor": "ALFA Network"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

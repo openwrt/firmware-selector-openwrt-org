@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-ubnt_unifi-flexhd",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-ubnt_unifi-flexhd-initramfs-kernel.bin",
+      "sha256": "ac5d8f10d1c8c67ba79ea813dcfd7d2659ca01aa6b806056497645ebc9c7eacc",
+      "sha256_unsigned": "ac5d8f10d1c8c67ba79ea813dcfd7d2659ca01aa6b806056497645ebc9c7eacc",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-ubnt_unifi-flexhd-squashfs-sysupgrade.bin",
+      "sha256": "76910e37df0c9673875c7034158d7b532add3760fe25e382953d9e3d87a8385e",
+      "sha256_unsigned": "4e7a39a243900d86c4ae7573047cd4eb07cda51b74a10d280a2db8c4706da58e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_unifi-flexhd",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,unifi-flexhd"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "UniFi FlexHD",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

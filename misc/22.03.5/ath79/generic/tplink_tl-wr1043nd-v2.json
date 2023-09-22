@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_tl-wr1043nd-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wr1043nd-v2-squashfs-sysupgrade.bin",
+      "sha256": "9a32fbf80cc2b0255036415d2daa61f17ede18a93dc2d16e056ce2fa0f9090c2",
+      "sha256_unsigned": "e20cf54e5bf4748d9c1de5f05e3ef81eafc1a1e9a029c53a7c50de55b4ef7b2e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wr1043nd-v2-initramfs-kernel.bin",
+      "sha256": "2d3f90e51572e8c907da800a4685589c75611e2cf86b6d761cd00697a5da6954",
+      "sha256_unsigned": "2d3f90e51572e8c907da800a4685589c75611e2cf86b6d761cd00697a5da6954",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wr1043nd-v2-squashfs-factory.bin",
+      "sha256": "d78e225cd281a44bf6a1cba57498cfed286f96fcec0fad60ce1db23a3482bd54",
+      "sha256_unsigned": "d78e225cd281a44bf6a1cba57498cfed286f96fcec0fad60ce1db23a3482bd54",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_tl-wr1043nd-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,tl-wr1043nd-v2",
+    "tl-wr1043nd-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WR1043N/ND",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

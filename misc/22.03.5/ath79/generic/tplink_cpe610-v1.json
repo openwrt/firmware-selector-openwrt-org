@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_cpe610-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_cpe610-v1-squashfs-factory.bin",
+      "sha256": "ff183c07da3c6e7ef9301dffcfcf7a26e80d9077359c6a4c4e64260c3c7ba94e",
+      "sha256_unsigned": "ff183c07da3c6e7ef9301dffcfcf7a26e80d9077359c6a4c4e64260c3c7ba94e",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_cpe610-v1-initramfs-kernel.bin",
+      "sha256": "03ab0aa840df654bc0d36de7ae09169444303b1faf6f1ad0633d5257db6d46f0",
+      "sha256_unsigned": "03ab0aa840df654bc0d36de7ae09169444303b1faf6f1ad0633d5257db6d46f0",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_cpe610-v1-squashfs-sysupgrade.bin",
+      "sha256": "6343db6e4a129f9140c702a6416afda3b8a32e9c821e1e6ebb299fbdf1ddda4d",
+      "sha256_unsigned": "e71c977d46319c8f05ae19ce4c6db4d3297c33903680f6d371182c597c698729",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_cpe610-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,cpe610-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CPE610",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

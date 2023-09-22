@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-zyxel_keenetic-omni-ii",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-zyxel_keenetic-omni-ii-squashfs-sysupgrade.bin",
+      "sha256": "38481e2599c2cc228d2575d6865b5ce6019b6f66d9eef5417089aea04bbf3faf",
+      "sha256_unsigned": "12c6f65ec0e164cc85c2261826dad7de9f5fdbc3f85a64b0e3cce7e73b4f5e4b",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-zyxel_keenetic-omni-ii-squashfs-factory.bin",
+      "sha256": "50f6f916f57708fa502509a2f67b3d5f4a1293ae3560573e8fc34d2fe146922c",
+      "sha256_unsigned": "50f6f916f57708fa502509a2f67b3d5f4a1293ae3560573e8fc34d2fe146922c",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-zyxel_keenetic-omni-ii-initramfs-kernel.bin",
+      "sha256": "f94f5f657b7f6fe72af641eebc764b23215dca578a2b10f51e97832d7febc9c9",
+      "sha256_unsigned": "f94f5f657b7f6fe72af641eebc764b23215dca578a2b10f51e97832d7febc9c9",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_keenetic-omni-ii",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,keenetic-omni-ii",
+    "kn_rf"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Keenetic Omni II",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

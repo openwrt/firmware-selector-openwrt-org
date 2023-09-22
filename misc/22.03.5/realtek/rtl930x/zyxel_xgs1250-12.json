@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "ethtool",
+    "firewall4",
+    "fstools",
+    "ip-bridge",
+    "ip-full",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "opkg",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "tc-bpf",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/realtek/rtl930x/",
+  "image_prefix": "openwrt-22.03.5-realtek-rtl930x-zyxel_xgs1250-12",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-realtek-rtl930x-zyxel_xgs1250-12-squashfs-sysupgrade.bin",
+      "sha256": "c25e109fefaa7f377ce10fd752edebf9a4cb7872374271685bf1653233189f8a",
+      "sha256_unsigned": "56d91e3decba21b6aec039e09ea763b9ee97a4d74e24b5255078c3d0f2d7a200",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-realtek-rtl930x-zyxel_xgs1250-12-initramfs-kernel.bin",
+      "sha256": "cd69cd3af96ce865eb12d574d5a1cbdd9d395fc48520f049a884470eeb255a2a",
+      "sha256_unsigned": "cd69cd3af96ce865eb12d574d5a1cbdd9d395fc48520f049a884470eeb255a2a",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_xgs1250-12",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,xgs1250-12"
+  ],
+  "target": "realtek/rtl930x",
+  "titles": [
+    {
+      "model": "XGS1250-12",
+      "vendor": "Zyxel"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

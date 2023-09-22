@@ -1,0 +1,76 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic",
+    "kmod-usb2",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic",
+    "kmod-usb2"
+  ],
+  "device_packages": [
+    "kmod-hwmon-core",
+    "kmod-hwmon-lm90",
+    "kmod-rtc-ds1307",
+    "kmod-gpio-pca953x",
+    "kmod-eeprom-at24"
+  ],
+  "image_path": "19.07.10/targets/mpc85xx/p2020/",
+  "image_prefix": "openwrt-19.07.10-mpc85xx-p2020-p2020rdb",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-mpc85xx-p2020-p2020rdb-squashfs-sysupgrade.bin",
+      "sha256": "8294368d66cff25cc352001650db29feb07f1a1d3d790c990c27d7824bbd2c56",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "p2020rdb",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "fsl,P2020RDB"
+  ],
+  "target": "mpc85xx/p2020",
+  "titles": [
+    {
+      "title": "Freescale P2020RDB"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

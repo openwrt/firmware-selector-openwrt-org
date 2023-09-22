@@ -1,0 +1,95 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-core",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-usb-phy-qcom-dwc3",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-core",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-usb-phy-qcom-dwc3",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca99x0-ct"
+  ],
+  "image_path": "19.07.10/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-19.07.10-ipq806x-generic-qcom_ipq8064-ap148-legacy",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq806x-generic-qcom_ipq8064-ap148-legacy-squashfs-nand-sysupgrade.bin",
+      "sha256": "b3f7d75bff9b253b391af387e852c79e2cf7d16d169f70262ff4ad558545d530",
+      "type": "nand-sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq806x-generic-qcom_ipq8064-ap148-legacy-squashfs-nand-factory.bin",
+      "sha256": "43fc0a7a52e811d1df41e5009b3f01ca6c6b94037a2a7c9e235daa2a712de3e9",
+      "type": "nand-factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "qcom_ipq8064-ap148-legacy",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "qcom,ipq8064-ap148",
+    "ap148"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "title": "Qualcomm AP148 (legacy)"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

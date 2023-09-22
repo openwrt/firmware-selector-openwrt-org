@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2",
+    "-iwinfo",
+    "-kmod-ath9k",
+    "-swconfig",
+    "-uboot-envtools",
+    "-wpad-basic-wolfssl"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-hak5_packet-squirrel",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-hak5_packet-squirrel-squashfs-sysupgrade.bin",
+      "sha256": "0e28a0d03e07f551a80940335bfad964293469a9de25ee88320d9f670e813cb2",
+      "sha256_unsigned": "563df8e5c96d7d863ce7f2b35dfc7a376426f216187bf854df7a48946a426cc1",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-hak5_packet-squirrel-initramfs-kernel.bin",
+      "sha256": "da5f4130dc0e8163e7abff874f7cc94b6bad8e580f2c7ca753665ee347e93af9",
+      "sha256_unsigned": "da5f4130dc0e8163e7abff874f7cc94b6bad8e580f2c7ca753665ee347e93af9",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "hak5_packet-squirrel",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "hak5,packet-squirrel",
+    "packet-squirrel"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Packet Squirrel",
+      "vendor": "Hak5"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

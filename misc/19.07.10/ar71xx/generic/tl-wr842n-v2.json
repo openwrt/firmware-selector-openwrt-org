@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "19.07.10/targets/ar71xx/generic/",
+  "image_prefix": "openwrt-19.07.10-ar71xx-generic-tl-wr842n-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-generic-tl-wr842n-v2-squashfs-factory.bin",
+      "sha256": "81efd83d59a9a5fc8a4ae96dc53a3e1c41ff964cd7bc9ee1f13a0183ddae28c2",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-generic-tl-wr842n-v2-squashfs-sysupgrade.bin",
+      "sha256": "d9a60de2a7e2c3492261cd17fa3eb6e1f28056b6896a43418be8bb82b3607629",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tl-wr842n-v2",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WR842N/ND v2"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

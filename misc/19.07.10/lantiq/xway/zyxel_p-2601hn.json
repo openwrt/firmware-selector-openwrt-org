@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [
+    "kmod-rt2800-usb",
+    "wpad-basic",
+    "kmod-ltq-adsl-ar9-mei",
+    "kmod-ltq-adsl-ar9",
+    "kmod-ltq-adsl-ar9-fw-b",
+    "kmod-ltq-atm-ar9",
+    "ltq-adsl-app",
+    "ppp-mod-pppoe",
+    "kmod-ltq-deu-ar9",
+    "kmod-usb-dwc2",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/lantiq/xway/",
+  "image_prefix": "openwrt-19.07.10-lantiq-xway-zyxel_p-2601hn",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-xway-zyxel_p-2601hn-squashfs-sysupgrade.bin",
+      "sha256": "82747d8929edb0ca68d104612f6559c140871b63a8042d8aa61c799d33c2ba25",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_p-2601hn",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "zyxel,p-2601hn",
+    "P2601HNFX"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "title": "ZyXEL P-2601HN-Fx"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

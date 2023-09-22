@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-hiwifi_hc5962",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-hiwifi_hc5962-squashfs-sysupgrade.bin",
+      "sha256": "dcfa563e56355745f434444d8b65cc88a8d1a7c1eaa617716e796be737b6b6a2",
+      "sha256_unsigned": "1b48454d302635061b79a8b0598e125e43da7896520583cac595f9fa5785dbe7",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-hiwifi_hc5962-initramfs-kernel.bin",
+      "sha256": "d637c4f5208d776474f6f7aba035e4eb04f33991f77b3feaea168e12bb56bc43",
+      "sha256_unsigned": "d637c4f5208d776474f6f7aba035e4eb04f33991f77b3feaea168e12bb56bc43",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-hiwifi_hc5962-squashfs-factory.bin",
+      "sha256": "c12b7363a4a0e08f681109ff06e1eed37ec3a8c8a85a765fc9b698f363481e58",
+      "sha256_unsigned": "c12b7363a4a0e08f681109ff06e1eed37ec3a8c8a85a765fc9b698f363481e58",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "hiwifi_hc5962",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "hiwifi,hc5962"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "HC5962",
+      "vendor": "HiWiFi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

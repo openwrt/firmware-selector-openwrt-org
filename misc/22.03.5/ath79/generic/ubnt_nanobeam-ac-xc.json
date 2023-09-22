@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct",
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ubnt_nanobeam-ac-xc",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_nanobeam-ac-xc-squashfs-sysupgrade.bin",
+      "sha256": "60912df802ccce3fab48dd3c453179117a5bdfa6510fe6fa1a8bb65099a71542",
+      "sha256_unsigned": "4fbbef7e00fdd27f523917de3b0d454675fa74e6949da36a5e55dc8cdd114997",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_nanobeam-ac-xc-squashfs-factory.bin",
+      "sha256": "3a3aa2669bf0997e4a5f5c168195601d04e6ba6c5b42dc0d7e7d60a0ed55a6bf",
+      "sha256_unsigned": "3a3aa2669bf0997e4a5f5c168195601d04e6ba6c5b42dc0d7e7d60a0ed55a6bf",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_nanobeam-ac-xc-initramfs-kernel.bin",
+      "sha256": "c23d1fc48072fe669e8a21831d21cac8f94979b0487b27ce41dffc9829e056f1",
+      "sha256_unsigned": "c23d1fc48072fe669e8a21831d21cac8f94979b0487b27ce41dffc9829e056f1",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_nanobeam-ac-xc",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,nanobeam-ac-xc"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "NanoBeam AC",
+      "variant": "Gen1 (XC)",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

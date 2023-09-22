@@ -1,0 +1,91 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca99x0-ct"
+  ],
+  "image_path": "22.03.5/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq806x-generic-netgear_d7800",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-netgear_d7800-squashfs-sysupgrade.bin",
+      "sha256": "e7d8809ec850d1af30e2a570af83e37b3c3d10409cc8cc3cb0e948141f5addf8",
+      "sha256_unsigned": "0c22958e3db0c35e1289b610c5e916fcd6249defb6acd1dddd66763736c4f43d",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-netgear_d7800-initramfs-uImage",
+      "sha256": "d329336a07ab93b4c8e6fba2e4c060a0d28f5cbb4b9916a1fcab064109656d26",
+      "sha256_unsigned": "d329336a07ab93b4c8e6fba2e4c060a0d28f5cbb4b9916a1fcab064109656d26",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-netgear_d7800-squashfs-factory.img",
+      "sha256": "119201e1870f464f11253174e169b52bbd525f8fc7aa2449e51ab3b219b68525",
+      "sha256_unsigned": "119201e1870f464f11253174e169b52bbd525f8fc7aa2449e51ab3b219b68525",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_d7800",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,d7800",
+    "d7800"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "Nighthawk X4 D7800",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

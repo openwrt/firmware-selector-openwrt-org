@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-deu-vr9",
+    "ltq-vdsl-app",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "ppp-mod-pppoa",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [
+    "kmod-ath9k",
+    "wpad-basic",
+    "kmod-usb-dwc2",
+    "fritz-tffs",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/lantiq/xrx200/",
+  "image_prefix": "openwrt-19.07.10-lantiq-xrx200-avm_fritz3370-rev2-micron",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-eva-filesystem.bin",
+      "sha256": "31750e0de618b83c8e387c3cd55d18b949e46b7602f1a8bd4a0f736436ca8b97",
+      "type": "eva-filesystem"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-sysupgrade.bin",
+      "sha256": "b38aaa488a579fa7ea60df5e82538655c3138dee30ea004acc07983701bb8d3c",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-eva-kernel.bin",
+      "sha256": "cdf77bd7bd844552fe309b2309b31c7e86df6781ce8879f9ab967f21a7b53491",
+      "type": "eva-kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "avm_fritz3370-rev2-micron",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "avm,fritz3370-rev2-micron"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "title": "AVM FRITZ!Box 3370 Rev. 2 (Micron NAND)"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

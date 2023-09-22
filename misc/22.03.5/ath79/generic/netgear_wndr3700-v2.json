@@ -1,0 +1,88 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-netgear_wndr3700-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wndr3700-v2-squashfs-factory.img",
+      "sha256": "80c6d4d935723eb140542aec3e880453071ec058e84caa69842b59138a5114ff",
+      "sha256_unsigned": "80c6d4d935723eb140542aec3e880453071ec058e84caa69842b59138a5114ff",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wndr3700-v2-squashfs-sysupgrade.bin",
+      "sha256": "b46de805d23a6d7fc88aafd67f120d52807f44134c5d7a31f50d825fab403cd5",
+      "sha256_unsigned": "ff0b6ac3ea956241971699dc54de416e6692ea66b512cb2ef7122da878ff9404",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wndr3700-v2-initramfs-kernel.bin",
+      "sha256": "3c82ab792b64a8ae7ec0f881366260f1d8dcdd16476da77bf7a754e26afdcae7",
+      "sha256_unsigned": "3c82ab792b64a8ae7ec0f881366260f1d8dcdd16476da77bf7a754e26afdcae7",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wndr3700-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wndr3700-v2",
+    "wndr3700",
+    "netgear,wndr3700v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WNDR3700",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

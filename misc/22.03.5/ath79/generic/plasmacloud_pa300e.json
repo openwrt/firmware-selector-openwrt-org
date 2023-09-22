@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-plasmacloud_pa300e",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-plasmacloud_pa300e-squashfs-sysupgrade.bin",
+      "sha256": "e097ed1bf837d6f2dda7bda610624398a0628f8a64ea3f19ad6c8682d2ef9e3b",
+      "sha256_unsigned": "2cae6bf30cddc104db1e4561657d3b9998dedc44300d518d56e918a09ae65ff4",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-plasmacloud_pa300e-initramfs-kernel.bin",
+      "sha256": "aa67ac9f4480c5533cddf7dfab7cae2e9053e49ca75aa920ddfbeab52b5a9379",
+      "sha256_unsigned": "aa67ac9f4480c5533cddf7dfab7cae2e9053e49ca75aa920ddfbeab52b5a9379",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-plasmacloud_pa300e-squashfs-factory.bin",
+      "sha256": "d18fe1c7840f1d0520d9f3ab5d36374722b6675dabae37a759279a0b76ec4575",
+      "sha256_unsigned": "d18fe1c7840f1d0520d9f3ab5d36374722b6675dabae37a759279a0b76ec4575",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "plasmacloud_pa300e",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "plasmacloud,pa300e"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "PA300E",
+      "vendor": "Plasma Cloud"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

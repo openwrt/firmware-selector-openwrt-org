@@ -1,0 +1,87 @@
+{
+  "arch_packages": "powerpc_464fp",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug",
+    "kmod-ath9k",
+    "swconfig",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "badblocks",
+    "block-mount",
+    "e2fsprogs",
+    "kmod-dm",
+    "kmod-fs-ext4",
+    "kmod-fs-vfat",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-md-mod",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "kmod-nls-iso8859-15",
+    "kmod-nls-utf8",
+    "kmod-usb3",
+    "kmod-usb-dwc2",
+    "kmod-usb-storage",
+    "partx-utils"
+  ],
+  "image_path": "19.07.10/targets/apm821xx/nand/",
+  "image_prefix": "openwrt-19.07.10-apm821xx-nand-netgear_wndr4700",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-apm821xx-nand-netgear_wndr4700-squashfs-factory.img",
+      "sha256": "cb3c2b571726a774b97eb4c1445c38de0b36189693affa008484e0eb4ffc7914",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-apm821xx-nand-netgear_wndr4700-squashfs-sysupgrade.bin",
+      "sha256": "fab8a0c04ec7fcab097780259ea6076a1b1f323d86841f3a9b15d1768f49622d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wndr4700",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "netgear,wndr4700",
+    "wndr4700"
+  ],
+  "target": "apm821xx/nand",
+  "titles": [
+    {
+      "title": "Netgear Centria N900 WNDR4700/WNDR4720"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

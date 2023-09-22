@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-prolink_pwh2004",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-prolink_pwh2004-initramfs-kernel.bin",
+      "sha256": "9909aa931518d8e2ea6be055893d593014542ba87ecd5cba60a6c2ee4679e442",
+      "sha256_unsigned": "9909aa931518d8e2ea6be055893d593014542ba87ecd5cba60a6c2ee4679e442",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-prolink_pwh2004-squashfs-sysupgrade.bin",
+      "sha256": "03f3070c8ca2dc9d7c385b12abe9d1787370d15db4f80ac0cba6c1d0c8556e79",
+      "sha256_unsigned": "b1d68c6b0df157876594d1fd92641c77037ea9577b3417c6ea9f878b600e1dca",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "prolink_pwh2004",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "prolink,pwh2004",
+    "pwh2004"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "PWH2004",
+      "vendor": "Prolink"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-youku_yk-l2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-youku_yk-l2-squashfs-sysupgrade.bin",
+      "sha256": "80222e898d1e521d66638bc1711b1f5ed2b5d99fbf94d3376a121582f717b017",
+      "sha256_unsigned": "3c80e7d22bfc0d2d2e65d9e6922cfb1e4dd3ef805bd6d32302e1533c53f36c25",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-youku_yk-l2-initramfs-kernel.bin",
+      "sha256": "8aca89cbfcd60e994c2b3d9a9f0f412c6ba0aecebff351e40add73e941968c24",
+      "sha256_unsigned": "8aca89cbfcd60e994c2b3d9a9f0f412c6ba0aecebff351e40add73e941968c24",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "youku_yk-l2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "youku,yk-l2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "YK-L2",
+      "vendor": "Youku"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

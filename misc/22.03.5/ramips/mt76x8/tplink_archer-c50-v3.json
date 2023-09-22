@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7603",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt76x8-tplink_archer-c50-v3",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-tplink_archer-c50-v3-squashfs-tftp-recovery.bin",
+      "sha256": "28aa7367dd70be2f2517fbb95cf59e0eb5c418635f24774102056d9f1ce3d3ed",
+      "sha256_unsigned": "28aa7367dd70be2f2517fbb95cf59e0eb5c418635f24774102056d9f1ce3d3ed",
+      "type": "tftp-recovery"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-tplink_archer-c50-v3-initramfs-kernel.bin",
+      "sha256": "4c735b32672a02202eaa6c5e55300188eade113851e3f779cc3b100ccaed059b",
+      "sha256_unsigned": "4c735b32672a02202eaa6c5e55300188eade113851e3f779cc3b100ccaed059b",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-tplink_archer-c50-v3-squashfs-sysupgrade.bin",
+      "sha256": "800aaa6de4e2bb4363779892f34434757081602de36bb8bcb8d4128330ef75d1",
+      "sha256_unsigned": "a302577474091465ecd02c4bb4b74c1561c5b702ee5e8282c61f11d32348eb2b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-c50-v3",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-c50-v3",
+    "tplink,c50-v3"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "Archer C50",
+      "variant": "v3",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

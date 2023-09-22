@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-devolo_dlan-pro-1200plus-ac",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-devolo_dlan-pro-1200plus-ac-squashfs-sysupgrade.bin",
+      "sha256": "0a525a2fe72a26c9ff892a286fcb4e4a990d787feab3ee570ab6afe972aae5ce",
+      "sha256_unsigned": "8ba9d732a4a421006d6c41759b07220cf7be0233aef6aad5978ea095f9dbc392",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-devolo_dlan-pro-1200plus-ac-initramfs-kernel.bin",
+      "sha256": "1c4fd74f4793138efbcbe421cb5890288a72ae7830d364e221e667113f713cb8",
+      "sha256_unsigned": "1c4fd74f4793138efbcbe421cb5890288a72ae7830d364e221e667113f713cb8",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "devolo_dlan-pro-1200plus-ac",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "devolo,dlan-pro-1200plus-ac"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "dLAN pro 1200+ WiFi ac",
+      "vendor": "Devolo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

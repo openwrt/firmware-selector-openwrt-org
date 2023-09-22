@@ -1,0 +1,112 @@
+{
+  "arch_packages": "arm_fa526",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-fotg210",
+    "kmod-usb-ledtrig-usbport",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "block-mount",
+    "fdisk",
+    "lsblk",
+    "mdadm",
+    "kmod-md-mod",
+    "kmod-md-linear",
+    "kmod-md-multipath",
+    "kmod-md-raid0",
+    "kmod-md-raid1",
+    "kmod-md-raid10",
+    "kmod-md-raid456",
+    "kmod-fs-btrfs",
+    "kmod-fs-cifs",
+    "kmod-fs-nfs",
+    "kmod-fs-nfsd",
+    "kmod-fs-ntfs",
+    "kmod-fs-reiserfs",
+    "kmod-fs-vfat",
+    "kmod-nls-utf8",
+    "kmod-usb-storage-extras",
+    "kmod-hwmon-drivetemp",
+    "cfdisk",
+    "e2fsprogs",
+    "badblocks",
+    "partx-utils",
+    "kmod-rt2800-pci"
+  ],
+  "image_path": "22.03.5/targets/gemini/generic/",
+  "image_prefix": "openwrt-22.03.5-gemini-dlink_dir-685",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-gemini-dlink_dir-685-ext4-sysupgrade.bin",
+      "sha256": "7a98da0aa4d7adc9716a0181b28cc708a7a8bcba4d6d45259787124c35a33aad",
+      "sha256_unsigned": "83f6e5773aa882c5583b75659a4dbf242215b8119c01f73bb0658d8f6cf7d917",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-gemini-dlink_dir-685-ext4-factory.bin",
+      "sha256": "8a9d8bd883905374cd0579fbb838a5c3028621563c43adc552ed18ae4ff2a80e",
+      "sha256_unsigned": "8a9d8bd883905374cd0579fbb838a5c3028621563c43adc552ed18ae4ff2a80e",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-gemini-dlink_dir-685-squashfs-factory.bin",
+      "sha256": "fb851d08628c1791c17169ed3d23f343cecf5f383acd7515c04a47d19c348604",
+      "sha256_unsigned": "fb851d08628c1791c17169ed3d23f343cecf5f383acd7515c04a47d19c348604",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-gemini-dlink_dir-685-squashfs-sysupgrade.bin",
+      "sha256": "37fa00ba188bbb1ea0575ef5c9b8da2d23fb10827b1aa71df020e151bb125ada",
+      "sha256_unsigned": "88fed2ceb4e63e53204276d9cb05688344d566df4c640fb1d51559915c6e83e6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dlink_dir-685",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "dlink,dir-685"
+  ],
+  "target": "gemini/generic",
+  "titles": [
+    {
+      "model": "DIR-685 Xtreme N Storage Router",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

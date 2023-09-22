@@ -1,0 +1,86 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr7500-v3",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr7500-v3-squashfs-sysupgrade.bin",
+      "sha256": "e7cc79fa0bf2f174399f9df3f451a5b24216aef38b9671f6bb12355cde426f5d",
+      "sha256_unsigned": "c3502bf09a65ba16e632e53e91f4e389194217f70e846bd3f9ce3fcb6d606dae",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr7500-v3-squashfs-factory.bin",
+      "sha256": "75fc3075ff7e201ccaf647126b7a8a267d76f12ba5b333fcb35696719494126e",
+      "sha256_unsigned": "75fc3075ff7e201ccaf647126b7a8a267d76f12ba5b333fcb35696719494126e",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr7500-v3-initramfs-kernel.bin",
+      "sha256": "5b1cf2b970609b4881e110dbc64c090824f6326fe3ce721aa64de2654ee1a660",
+      "sha256_unsigned": "5b1cf2b970609b4881e110dbc64c090824f6326fe3ce721aa64de2654ee1a660",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_tl-wdr7500-v3",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,tl-wdr7500-v3",
+    "archer-c7"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WDR7500",
+      "variant": "v3",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

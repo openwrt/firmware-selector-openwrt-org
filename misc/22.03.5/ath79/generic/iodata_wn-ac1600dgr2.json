@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-iodata_wn-ac1600dgr2",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-iodata_wn-ac1600dgr2-initramfs-kernel.bin",
+      "sha256": "99bd32fe19180f46b2ab625fd3e6304f3afe9b631b78584872291794539ea3d9",
+      "sha256_unsigned": "99bd32fe19180f46b2ab625fd3e6304f3afe9b631b78584872291794539ea3d9",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-iodata_wn-ac1600dgr2-squashfs-sysupgrade.bin",
+      "sha256": "c779a711b81f629ba458719bdf13b690251b9e94a79426debcc5980faa69b77d",
+      "sha256_unsigned": "f648b8a48a39f4ae742fc0790e5d953dab1a32f600ccd5025ab6f4f854bc90de",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-iodata_wn-ac1600dgr2-squashfs-dgr2-dgr3-factory.bin",
+      "sha256": "3a6a95900c3d37e4a8861b682c356ae5d42353ce38b3b391524c84f07c6ef000",
+      "sha256_unsigned": "3a6a95900c3d37e4a8861b682c356ae5d42353ce38b3b391524c84f07c6ef000",
+      "type": "dgr2-dgr3-factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iodata_wn-ac1600dgr2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iodata,wn-ac1600dgr2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WN-AC1600DGR2/DGR3",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

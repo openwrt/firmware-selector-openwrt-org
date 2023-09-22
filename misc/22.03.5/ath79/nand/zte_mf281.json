@@ -1,0 +1,86 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9888-ct",
+    "kmod-usb-net-rndis",
+    "kmod-usb-acm",
+    "comgt-ncm"
+  ],
+  "image_path": "22.03.5/targets/ath79/nand/",
+  "image_prefix": "openwrt-22.03.5-ath79-nand-zte_mf281",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-zte_mf281-squashfs-sysupgrade.bin",
+      "sha256": "1ea4e0d090cabed20d384e62574d2669ad56d55a61c86448df6e2059ea7632aa",
+      "sha256_unsigned": "7e94ec2ada1bd4ab26655e8edc552abbb413f0f1b7e460e70c1ea3baa09a8623",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-zte_mf281-squashfs-factory.bin",
+      "sha256": "f4c51918a4605644d4e5ea4903e21cedb9774f9d1ac3ed1f31f3587b863189a1",
+      "sha256_unsigned": "f4c51918a4605644d4e5ea4903e21cedb9774f9d1ac3ed1f31f3587b863189a1",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-nand-zte_mf281-initramfs-kernel.bin",
+      "sha256": "c6d3938cc5b5b9227baff643e6f14e191794eeabb31d81ac5dfd1b17355a8cb6",
+      "sha256_unsigned": "c6d3938cc5b5b9227baff643e6f14e191794eeabb31d81ac5dfd1b17355a8cb6",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zte_mf281",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zte,mf281"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "MF281",
+      "vendor": "ZTE"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

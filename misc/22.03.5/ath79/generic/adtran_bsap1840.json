@@ -1,0 +1,90 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "-swconfig",
+    "-uboot-envtools",
+    "fconfig"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-adtran_bsap1840",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-adtran_bsap1840-squashfs-sysupgrade.bin",
+      "sha256": "f6b16247996f9e61dd8b877d43da13379e78089893452b9e5412fa1330e1421e",
+      "sha256_unsigned": "096a89abbb1c124c966bb8e7bdf8fd079684e445dc36a7a596ea4e61f4f582ef",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-adtran_bsap1840-squashfs-rootfs.bin",
+      "sha256": "cea2324a182399686bec3eb8eaec8dbbefb798872e7e9e094bc18dee117491de",
+      "sha256_unsigned": "cea2324a182399686bec3eb8eaec8dbbefb798872e7e9e094bc18dee117491de",
+      "type": "rootfs"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-adtran_bsap1840-squashfs-kernel.bin",
+      "sha256": "25fd745fc7e4928af5cf521c3b0087555377a6f9278c94c005b1f2487918430f",
+      "sha256_unsigned": "25fd745fc7e4928af5cf521c3b0087555377a6f9278c94c005b1f2487918430f",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-adtran_bsap1840-initramfs-kernel.bin",
+      "sha256": "18ca104acc0170bbb920822e7724137a6cee4f71aa8d1fd8915c5df71f1a09ad",
+      "sha256_unsigned": "18ca104acc0170bbb920822e7724137a6cee4f71aa8d1fd8915c5df71f1a09ad",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "adtran_bsap1840",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "adtran,bsap1840"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "BSAP-1840",
+      "vendor": "Adtran/Bluesocket"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e",
+    "kmod-sdhci-mt7620",
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-domywifi_dm202",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-domywifi_dm202-initramfs-kernel.bin",
+      "sha256": "248b2fc087d2bab00e5ab2500c4442bf47399d6e7c45eb391cd6c587fa753d33",
+      "sha256_unsigned": "248b2fc087d2bab00e5ab2500c4442bf47399d6e7c45eb391cd6c587fa753d33",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-domywifi_dm202-squashfs-sysupgrade.bin",
+      "sha256": "e1e2c8991791247443ae5b0011521a689c7c3aea12cd680b891c049058006924",
+      "sha256_unsigned": "7c6d8681060b8c1eb5a2517fcadd97c388d4dbf1ae09e3c092990d274de149df",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "domywifi_dm202",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "domywifi,dm202"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DM202",
+      "vendor": "DomyWifi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

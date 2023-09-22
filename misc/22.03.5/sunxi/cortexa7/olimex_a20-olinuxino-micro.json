@@ -1,0 +1,75 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-sunxi",
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa7/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa7-olimex_a20-olinuxino-micro",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-olimex_a20-olinuxino-micro-squashfs-sdcard.img.gz",
+      "sha256": "fe3243a31ef789e020012c7df82b4bc19dde66828e07a96dc5974d373874d397",
+      "sha256_unsigned": "8f076296010ed06c74f668837c04dbcd4f7b39639204223a4b7932cb3b4ddb87",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-olimex_a20-olinuxino-micro-ext4-sdcard.img.gz",
+      "sha256": "301ff3d03a571fce7c08e49a451c0373737ac6519f598989b38c8a2a6838f097",
+      "sha256_unsigned": "9727fe4911eef26f60ff301b7fcb836ff02ee8c32618562fec76bc52a335f052",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "olimex_a20-olinuxino-micro",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "olimex,a20-olinuxino-micro"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "A20-OLinuXino-MICRO",
+      "vendor": "Olimex"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

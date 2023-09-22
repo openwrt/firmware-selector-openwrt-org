@@ -1,0 +1,86 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-rtc-pcf8563",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-zyxel_nbg6616",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-zyxel_nbg6616-squashfs-sysupgrade.bin",
+      "sha256": "1d8534b610ef11358aca2023f8bb42fc1344e89aae5f6cceb470da6055409aca",
+      "sha256_unsigned": "7904e279abae3013872c63318184462799ed43e71ec5fdcf5a90d92c4d63d2cb",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-zyxel_nbg6616-initramfs-kernel.bin",
+      "sha256": "1d62066d14faacf7121d07d76dc7d10f363c4f98065117f573f0d629d5bce4d8",
+      "sha256_unsigned": "1d62066d14faacf7121d07d76dc7d10f363c4f98065117f573f0d629d5bce4d8",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-zyxel_nbg6616-squashfs-factory.bin",
+      "sha256": "01ae481f1219ca14c236478dd2310ea73596e7287e8b7f3b6e594afeb2049d52",
+      "sha256_unsigned": "01ae481f1219ca14c236478dd2310ea73596e7287e8b7f3b6e594afeb2049d52",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_nbg6616",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,nbg6616",
+    "nbg6616"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "NBG6616",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr3500-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr3500-v1-squashfs-factory.bin",
+      "sha256": "7721b0a86c9571c8b943610ac56ae168dc62621c14c06b2dafec222d7c294461",
+      "sha256_unsigned": "7721b0a86c9571c8b943610ac56ae168dc62621c14c06b2dafec222d7c294461",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr3500-v1-squashfs-sysupgrade.bin",
+      "sha256": "1509126ea00fbf61583ab2416baa336dfc6e8e1348f2e4c551e7b1d99782a4a4",
+      "sha256_unsigned": "012c64f115d58d4e7877a0891e8c92b7c50b3ca6bcf9d545c522453ca9a7e058",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr3500-v1-initramfs-kernel.bin",
+      "sha256": "7099ba99a5a9214c34efc6b89b0ff25f5810e29ad4afeaee5d356c6e62dd41c9",
+      "sha256_unsigned": "7099ba99a5a9214c34efc6b89b0ff25f5810e29ad4afeaee5d356c6e62dd41c9",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_tl-wdr3500-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,tl-wdr3500-v1",
+    "tl-wdr3500"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WDR3500",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

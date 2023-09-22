@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "kmod-usb3"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-humax_e10",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-humax_e10-initramfs-kernel.bin",
+      "sha256": "a48cecbafeb61557c5008eb84dd32f76448b379476008045a2213b057b023e6d",
+      "sha256_unsigned": "a48cecbafeb61557c5008eb84dd32f76448b379476008045a2213b057b023e6d",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-humax_e10-squashfs-factory.bin",
+      "sha256": "6900863d4cc3bf654f66959103bd9ea398971a8b187777134c67a91e4aef3604",
+      "sha256_unsigned": "6900863d4cc3bf654f66959103bd9ea398971a8b187777134c67a91e4aef3604",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-humax_e10-squashfs-sysupgrade.bin",
+      "sha256": "7616b6ed06ce18066c656e4c92fac19061107936a9c700aac7564fc4c2454703",
+      "sha256_unsigned": "3a92ebc3e8c04841e7b10f5103316ab13758a0cf7b6f96650670cfbc7e8c7b5a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "humax_e10",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "humax,e10"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "E10",
+      "vendor": "HUMAX"
+    },
+    {
+      "model": "QUANTUM E10",
+      "vendor": "HUMAX"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

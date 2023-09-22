@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-alfa-network_r36a",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-alfa-network_r36a-initramfs-kernel.bin",
+      "sha256": "421a8b1963fc79fb0ec7c75e970775326335fe4f9a56e3e978e93b70018b3ce0",
+      "sha256_unsigned": "421a8b1963fc79fb0ec7c75e970775326335fe4f9a56e3e978e93b70018b3ce0",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-alfa-network_r36a-squashfs-sysupgrade.bin",
+      "sha256": "9d9ded9877a4bceb7e19222a7a4db770fe761c021f337ef01ef87b3b6f682abd",
+      "sha256_unsigned": "a3ed56273bcb1a1db9a118fa007608db8eee9fb4e52de45391fc3311a0f05f30",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "alfa-network_r36a",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "alfa-network,r36a",
+    "r36a"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "R36A",
+      "vendor": "ALFA Network"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

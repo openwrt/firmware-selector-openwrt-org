@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-generic-brcm_bcm96328avng",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-brcm_bcm96328avng-squashfs-cfe-4M.bin",
+      "sha256": "acdc3578259e6f3e0a5f86e350fda5695ffe233a9a94ea6f9e0337b7f019e6d5",
+      "sha256_unsigned": "acdc3578259e6f3e0a5f86e350fda5695ffe233a9a94ea6f9e0337b7f019e6d5",
+      "type": "cfe-4M"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-brcm_bcm96328avng-squashfs-cfe-16M.bin",
+      "sha256": "67a74c062dd7377cef9156ff3cf54f4f3f80bf6e7fe37ec5036cba19e3b1a0a3",
+      "sha256_unsigned": "67a74c062dd7377cef9156ff3cf54f4f3f80bf6e7fe37ec5036cba19e3b1a0a3",
+      "type": "cfe-16M"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-brcm_bcm96328avng-squashfs-cfe-8M.bin",
+      "sha256": "acdc3578259e6f3e0a5f86e350fda5695ffe233a9a94ea6f9e0337b7f019e6d5",
+      "sha256_unsigned": "acdc3578259e6f3e0a5f86e350fda5695ffe233a9a94ea6f9e0337b7f019e6d5",
+      "type": "cfe-8M"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "brcm_bcm96328avng",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "brcm,bcm96328avng"
+  ],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "96328avng",
+      "vendor": "Generic"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

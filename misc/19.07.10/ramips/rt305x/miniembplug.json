@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-19.07.10-ramips-rt305x-miniembplug",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-rt305x-miniembplug-squashfs-sysupgrade.bin",
+      "sha256": "a35902a8c3e630a09aafaca9dc7f593a631484ec8af7f0d18fa0bf1f7cd390b3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "miniembplug",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "miniembplug"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "title": "Omnima MiniEMBPlug"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

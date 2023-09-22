@@ -1,0 +1,73 @@
+{
+  "arch_packages": "arm_cortex-a9",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "nvram",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-phy-bcm-ns-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-phy-bcm-ns-usb3"
+  ],
+  "image_path": "22.03.5/targets/bcm53xx/generic/",
+  "image_prefix": "openwrt-22.03.5-bcm53xx-generic-asus_rt-ac68u",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm53xx-generic-asus_rt-ac68u-squashfs.trx",
+      "sha256": "73c558af87a5bcb4eb526e915ac532116c3f795016e7ba60645f31629649fde3",
+      "sha256_unsigned": "73c558af87a5bcb4eb526e915ac532116c3f795016e7ba60645f31629649fde3",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "asus_rt-ac68u",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "asus,rt-ac68u"
+  ],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "RT-AC68U",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

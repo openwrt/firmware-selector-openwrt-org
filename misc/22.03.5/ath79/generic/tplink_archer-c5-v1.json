@@ -1,0 +1,86 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_archer-c5-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c5-v1-squashfs-sysupgrade.bin",
+      "sha256": "ea95e9fc71d2861af1ddb8af6efea8f884cbd625b70fd3a0e6861d4f2af77944",
+      "sha256_unsigned": "dd9caed3e4acc09c948e91ebbf298d0f9b789a2633e1efb86c4c7be4c1a11a04",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c5-v1-initramfs-kernel.bin",
+      "sha256": "f5413fab43590189b52bb4d8a825775653ceeba8795264be05eb539895625538",
+      "sha256_unsigned": "f5413fab43590189b52bb4d8a825775653ceeba8795264be05eb539895625538",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c5-v1-squashfs-factory.bin",
+      "sha256": "cab727be50e5cc2e256d957124749f212870b151d4f0da431ffc97cddf9e3949",
+      "sha256_unsigned": "cab727be50e5cc2e256d957124749f212870b151d4f0da431ffc97cddf9e3949",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-c5-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-c5-v1",
+    "archer-c5"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Archer C5",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

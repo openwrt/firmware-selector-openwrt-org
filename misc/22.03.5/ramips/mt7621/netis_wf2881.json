@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-netis_wf2881",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netis_wf2881-squashfs-sysupgrade.bin",
+      "sha256": "c83a52b4d09608a5661aeaaf91976a4fc61a3ceb700060fe79ba22ecf0c6c2e3",
+      "sha256_unsigned": "48c1ee06de46371db82c637f111e8ad0dc6793a0d71c79d015838ecaf54f04d1",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netis_wf2881-squashfs-factory.bin",
+      "sha256": "085a7d87388948b44753494c4c2efea5e6ed4bbdcc1b37b40b88d9e11f720ffa",
+      "sha256_unsigned": "085a7d87388948b44753494c4c2efea5e6ed4bbdcc1b37b40b88d9e11f720ffa",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netis_wf2881-initramfs-kernel.bin",
+      "sha256": "a588fa6559d3aaf36b057a889fd1261a300bd102e8e766c542de2cdea5f79926",
+      "sha256_unsigned": "a588fa6559d3aaf36b057a889fd1261a300bd102e8e766c542de2cdea5f79926",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netis_wf2881",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netis,wf2881"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WF2881",
+      "vendor": "NETIS"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

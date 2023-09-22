@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-sdhci-mt7620"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-zbtlink_zbt-we826-16m",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-zbtlink_zbt-we826-16m-initramfs-kernel.bin",
+      "sha256": "bff55a8e5325ce5fd21661f79f4e1af0078b6aa8a4ee3f51c9f9402d1222b75f",
+      "sha256_unsigned": "bff55a8e5325ce5fd21661f79f4e1af0078b6aa8a4ee3f51c9f9402d1222b75f",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-zbtlink_zbt-we826-16m-squashfs-sysupgrade.bin",
+      "sha256": "7a07b7b72c8acefad233faafb6511648f3e8703ebe5fc02e9c5f258dd1204202",
+      "sha256_unsigned": "36094f1f7536b3b89942ba1716a8aad37edcc5fdc204876a326fe244da6b125e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zbtlink_zbt-we826-16m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zbtlink,zbt-we826-16m",
+    "zbt-we826",
+    "zbt-we826-16M"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "ZBT-WE826",
+      "variant": "16M",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

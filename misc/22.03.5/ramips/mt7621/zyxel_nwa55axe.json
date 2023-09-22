@@ -1,0 +1,88 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7915e",
+    "uboot-envtools",
+    "zyxel-bootconfig"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-zyxel_nwa55axe",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zyxel_nwa55axe-squashfs-ramboot-factory.bin",
+      "sha256": "588e54c3c7bc50d34208ecbeb7189155af8a098a5dee8ac12cfb724e3e3ba1aa",
+      "sha256_unsigned": "588e54c3c7bc50d34208ecbeb7189155af8a098a5dee8ac12cfb724e3e3ba1aa",
+      "type": "ramboot-factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zyxel_nwa55axe-squashfs-sysupgrade.bin",
+      "sha256": "ddf6d2b3a651c0978e764b35ee4c51b0d56b6ab78a7461854fd0657aaf811109",
+      "sha256_unsigned": "6c7951c5274a953af0c7caa1f9f32b1f1bd4ebc79d571bdbd2d3307622b1f5e9",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zyxel_nwa55axe-initramfs-kernel.bin",
+      "sha256": "333f7fdeea663ae47599c61e2a8f577fcb7e64694eff6d6132d421ca45c59815",
+      "sha256_unsigned": "333f7fdeea663ae47599c61e2a8f577fcb7e64694eff6d6132d421ca45c59815",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zyxel_nwa55axe-squashfs-factory.bin",
+      "sha256": "e10fe0b93b537122cc8439053563b2dd7148257fea2ea2376eaf3444eee4b25b",
+      "sha256_unsigned": "e10fe0b93b537122cc8439053563b2dd7148257fea2ea2376eaf3444eee4b25b",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_nwa55axe",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,nwa55axe"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "NWA55AXE",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

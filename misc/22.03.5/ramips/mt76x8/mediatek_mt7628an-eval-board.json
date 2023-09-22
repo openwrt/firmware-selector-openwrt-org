@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7603",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt76x8-mediatek_mt7628an-eval-board",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-mediatek_mt7628an-eval-board-initramfs-kernel.bin",
+      "sha256": "1733483820d5fad8bb493f18888fb4deb41c0f60fa69c4ed488fb8178d276e13",
+      "sha256_unsigned": "1733483820d5fad8bb493f18888fb4deb41c0f60fa69c4ed488fb8178d276e13",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-mediatek_mt7628an-eval-board-squashfs-sysupgrade.bin",
+      "sha256": "f3dbc9af75d205b184bf82328023b6f512197ffacaccb8a1d3c3719852fcc8bf",
+      "sha256_unsigned": "96b7027065490536817829f0c9208069f279d7f19d30b8bc0e90c64df090e214",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mediatek_mt7628an-eval-board",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mediatek,mt7628an-eval-board",
+    "mt7628"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "MT7628 EVB",
+      "vendor": "MediaTek"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

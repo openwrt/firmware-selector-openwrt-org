@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-deu-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "ltq-vdsl-app",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoa",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "kmod-usb-dwc2",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/lantiq/xrx200/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xrx200-buffalo_wbmr-300hpd",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-buffalo_wbmr-300hpd-squashfs-sysupgrade.bin",
+      "sha256": "2be16f24caa92f4538fe95ab5783652d7796f4030120b82e722953486acce526",
+      "sha256_unsigned": "9deabfc59cd1ad815f8727a4ef42592ed4fa278dac1a206e64c1666ef831806f",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-buffalo_wbmr-300hpd-initramfs-kernel.bin",
+      "sha256": "d6d3ad5e66d9f2a8fa9735fa2670f55997eb9150292ca7195329a45e2df845e4",
+      "sha256_unsigned": "d6d3ad5e66d9f2a8fa9735fa2670f55997eb9150292ca7195329a45e2df845e4",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_wbmr-300hpd",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "buffalo,wbmr-300hpd",
+    "WBMR300"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "WBMR-300HPD",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

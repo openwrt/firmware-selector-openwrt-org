@@ -1,0 +1,89 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-deu-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "ltq-vdsl-app",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoa",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e",
+    "wpad-basic-wolfssl",
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ltq-tapi",
+    "kmod-ltq-vmmc",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/lantiq/xrx200/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xrx200-tplink_vr200v",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-tplink_vr200v-initramfs-kernel.bin",
+      "sha256": "3583a60a7e7bb150c79999ccd2847cbc4e6dce1da627d4b0df347497eadf875e",
+      "sha256_unsigned": "3583a60a7e7bb150c79999ccd2847cbc4e6dce1da627d4b0df347497eadf875e",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-tplink_vr200v-squashfs-sysupgrade.bin",
+      "sha256": "6aacba61aebe1bcf1574a5f2a43c99530ff0f75b44b2bb145051959325c0c6f3",
+      "sha256_unsigned": "885704230e1d72df0d6f4a8ba3eb627774a2ebff284e0689db177745c48bc792",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_vr200v",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,vr200v",
+    "VR200v"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "Archer VR200v",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

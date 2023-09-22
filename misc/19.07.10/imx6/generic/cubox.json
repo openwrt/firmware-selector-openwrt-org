@@ -1,0 +1,64 @@
+{
+  "arch_packages": "arm_cortex-a9_neon",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "mkf2fs",
+    "e2fsprogs",
+    "blkid",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "mkf2fs",
+    "e2fsprogs",
+    "blkid"
+  ],
+  "device_packages": [
+    "kmod-drm-imx",
+    "kmod-drm-imx-hdmi",
+    "kmod-usb-hid"
+  ],
+  "image_path": "19.07.10/targets/imx6/generic/",
+  "image_prefix": "openwrt-19.07.10-imx6-cubox-i",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-imx6-cubox-i-squashfs-combined.bin",
+      "sha256": "af5e1c4240484088769268317f3304a973b9bf7470e767c87a76501bd87eabb4",
+      "type": "combined"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "cubox",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "imx6/generic",
+  "titles": [
+    {
+      "title": "SolidRun CuBox-i"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

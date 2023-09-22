@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "nvram",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "otrx",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/bcm47xx/mips74k/",
+  "image_prefix": "openwrt-22.03.5-bcm47xx-mips74k-standard",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm47xx-mips74k-standard-squashfs.trx",
+      "sha256": "11d77e478283434c35c0621fab77bd4dc49e85f3b22287f31fc4b3db8e960673",
+      "sha256_unsigned": "11d77e478283434c35c0621fab77bd4dc49e85f3b22287f31fc4b3db8e960673",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "standard",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "standard"
+  ],
+  "target": "bcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "Image with LZMA loader and LZMA compressed kernel",
+      "vendor": "Generic"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

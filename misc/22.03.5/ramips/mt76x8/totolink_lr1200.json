@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7603",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb2",
+    "uqmi"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt76x8-totolink_lr1200",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-totolink_lr1200-initramfs-kernel.bin",
+      "sha256": "9416f2edaef85f77804e55bee5d69d030d36abf9bcad7d262e82440e3dff78b8",
+      "sha256_unsigned": "9416f2edaef85f77804e55bee5d69d030d36abf9bcad7d262e82440e3dff78b8",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-totolink_lr1200-squashfs-sysupgrade.bin",
+      "sha256": "aabe24e17aaabcdd17486b95c5cf32236f4cadf213863ea946eaf3c5a71c5637",
+      "sha256_unsigned": "d76199170541b48613abedccc178c79fef4b07439f8e4550dabcba0642a091be",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "totolink_lr1200",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "totolink,lr1200"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "LR1200",
+      "vendor": "TOTOLINK"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

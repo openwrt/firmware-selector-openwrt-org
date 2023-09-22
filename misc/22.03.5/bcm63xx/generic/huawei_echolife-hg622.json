@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-rt2800-pci",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-generic-huawei_echolife-hg622",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-huawei_echolife-hg622-squashfs-sysupgrade.bin",
+      "sha256": "1e204b321260cb46df50b42507ac9a17bfe7c2a9ab8aa303078dda972a3bb1c7",
+      "sha256_unsigned": "1e204b321260cb46df50b42507ac9a17bfe7c2a9ab8aa303078dda972a3bb1c7",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-huawei_echolife-hg622-squashfs-cfe.bin",
+      "sha256": "187b8a95706e0ed235cf58fc31100760b65965794fe7151406165c01913731ca",
+      "sha256_unsigned": "187b8a95706e0ed235cf58fc31100760b65965794fe7151406165c01913731ca",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "huawei_echolife-hg622",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "huawei,echolife-hg622"
+  ],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "EchoLife HG622",
+      "vendor": "Huawei"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

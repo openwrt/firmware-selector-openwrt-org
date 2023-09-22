@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_archer-d7-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-d7-v1-squashfs-sysupgrade.bin",
+      "sha256": "5cfe0c3775057e46b1079c9045b4d18f140d0697e7625c09a520cbfda1104b0a",
+      "sha256_unsigned": "ce5243ff1cd4fc9b8e0152e003dacc0365b5bdaa168b544e991555f3c38769ba",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-d7-v1-initramfs-kernel.bin",
+      "sha256": "674a8c328aefa5fdcc65be5807a2c3c97a94c6cd9fdf7fbe79c748456c8ec016",
+      "sha256_unsigned": "674a8c328aefa5fdcc65be5807a2c3c97a94c6cd9fdf7fbe79c748456c8ec016",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-d7-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-d7-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Archer D7",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

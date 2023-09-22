@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-elecom_wrc-2533gst",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-elecom_wrc-2533gst-squashfs-factory.bin",
+      "sha256": "91bad8379bf4cc74ddd5a8cca731fbceb26cdf30d6e5baccbcfcea6ef4aea3c2",
+      "sha256_unsigned": "91bad8379bf4cc74ddd5a8cca731fbceb26cdf30d6e5baccbcfcea6ef4aea3c2",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-elecom_wrc-2533gst-squashfs-sysupgrade.bin",
+      "sha256": "812cde72d430adab11abbfb509248990edec0e29b3a84ce79150ccb4412c67b2",
+      "sha256_unsigned": "5c3f9f604561cc1f3c69a3549fd3126734af442985e817735277e98594f2bdc9",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-elecom_wrc-2533gst-initramfs-kernel.bin",
+      "sha256": "d808b20dca637a63c33bc710f86617674eadf51365027364f1c8d89442083787",
+      "sha256_unsigned": "d808b20dca637a63c33bc710f86617674eadf51365027364f1c8d89442083787",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "elecom_wrc-2533gst",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "elecom,wrc-2533gst"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WRC-2533GST",
+      "vendor": "ELECOM"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

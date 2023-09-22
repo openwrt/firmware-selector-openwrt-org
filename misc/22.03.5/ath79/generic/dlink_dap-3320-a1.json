@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-dlink_dap-3320-a1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dap-3320-a1-squashfs-sysupgrade.bin",
+      "sha256": "2eb7545c2e50964ad5fa577fbc8081128bb712c9b570c6734778fcffe4d3f890",
+      "sha256_unsigned": "b6e8bb8c33858fa89127aa921ccf9b7d76f879d4a249b2dc26abaa2a49beceb8",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dap-3320-a1-initramfs-kernel.bin",
+      "sha256": "ea33162c67d49ee19b2c5f0d90e46d3dd7742b141acccfdbde52f4a81fb21f8a",
+      "sha256_unsigned": "ea33162c67d49ee19b2c5f0d90e46d3dd7742b141acccfdbde52f4a81fb21f8a",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dap-3320-a1-squashfs-factory.img",
+      "sha256": "1f2d7402beb8d1d56ea49e6341e66a982b2f95f8e1f929af1fbedbd249870537",
+      "sha256_unsigned": "1f2d7402beb8d1d56ea49e6341e66a982b2f95f8e1f929af1fbedbd249870537",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dlink_dap-3320-a1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "dlink,dap-3320-a1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "DAP-3320",
+      "variant": "A1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

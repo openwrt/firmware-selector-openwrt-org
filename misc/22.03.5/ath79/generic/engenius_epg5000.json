@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca988x-ct",
+    "kmod-ath10k-ct",
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-engenius_epg5000",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_epg5000-squashfs-factory.dlf",
+      "sha256": "e069e554c5b66d57b47053a308f96324c8a3f54ac7d3de28c92b14c9d9c3e3be",
+      "sha256_unsigned": "e069e554c5b66d57b47053a308f96324c8a3f54ac7d3de28c92b14c9d9c3e3be",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_epg5000-initramfs-kernel.bin",
+      "sha256": "9bdced53beeb2952ecee8bc3a566ca259d06f8eb892e00c00dc5ce07c77d088e",
+      "sha256_unsigned": "9bdced53beeb2952ecee8bc3a566ca259d06f8eb892e00c00dc5ce07c77d088e",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_epg5000-squashfs-sysupgrade.bin",
+      "sha256": "4daa5a386081e97f32427baf38adf8619cf604d062642ab2b6f276966442c1d2",
+      "sha256_unsigned": "b3fed2f1b613d3c2b3d2f6eff171f61587676581b7f9159fd3769b8cec198a3c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "engenius_epg5000",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "engenius,epg5000",
+    "epg5000"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EPG5000",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

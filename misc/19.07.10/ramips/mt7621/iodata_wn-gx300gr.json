@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt7621-iodata_wn-gx300gr",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-iodata_wn-gx300gr-squashfs-sysupgrade.bin",
+      "sha256": "78338bcb9c38b4c8a288d1a7472e359092128d19c2ba744d8988521e028bbe58",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iodata_wn-gx300gr",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "iodata,wn-gx300gr"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "I-O DATA WN-GX300GR"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

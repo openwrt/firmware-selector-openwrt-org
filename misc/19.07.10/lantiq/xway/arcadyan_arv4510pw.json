@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb2-pci",
+    "kmod-usb-uhci",
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-a",
+    "kmod-ltq-atm-danube",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ltq-tapi",
+    "kmod-ltq-vmmc",
+    "kmod-rt2800-pci",
+    "kmod-ath5k",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/lantiq/xway/",
+  "image_prefix": "openwrt-19.07.10-lantiq-xway-arcadyan_arv4510pw",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-xway-arcadyan_arv4510pw-squashfs-sysupgrade.bin",
+      "sha256": "06ba71bdc7db33e60750634aef53082ceefe98ac358069888a2afe79b42bcbc9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "arcadyan_arv4510pw",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "arcadyan,arv4510pw",
+    "ARV4510PW"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "title": "Wippies, Elisa - ARV4510PW"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

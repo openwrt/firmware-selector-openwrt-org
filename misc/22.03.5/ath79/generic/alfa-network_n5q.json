@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-alfa-network_n5q",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-alfa-network_n5q-squashfs-sysupgrade.bin",
+      "sha256": "75834d30f60fc624a45cd2a34305f237445af996b846c4d81bb844508ff76206",
+      "sha256_unsigned": "1ccdb4ec2c5296a83f88dc520accbbe82f3a02f8ae711921dc911df138b4f6c2",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-alfa-network_n5q-initramfs-kernel.bin",
+      "sha256": "5935ab622f54e3632d9280b13c8f139f3fae130432ce0d0b55c715de579b5949",
+      "sha256_unsigned": "5935ab622f54e3632d9280b13c8f139f3fae130432ce0d0b55c715de579b5949",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "alfa-network_n5q",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "alfa-network,n5q",
+    "n5q"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "N5Q",
+      "vendor": "ALFA Network"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

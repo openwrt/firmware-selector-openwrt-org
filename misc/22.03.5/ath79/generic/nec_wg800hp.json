@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca9887-ct-full-htt"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-nec_wg800hp",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-nec_wg800hp-squashfs-sysupgrade.bin",
+      "sha256": "3166fbdb9cf91b7a060395013ada525efa92e29f10d82ca1734fed7241196632",
+      "sha256_unsigned": "920dcdfb066e170a7a1e3614817038430f6ae4c20d5bc586d1d9d6817dc3df42",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-nec_wg800hp-initramfs-kernel.bin",
+      "sha256": "ed30920ba8b0d69e0424521b6d261479d34529aa8c16798fdc680c7ddf48c40b",
+      "sha256_unsigned": "ed30920ba8b0d69e0424521b6d261479d34529aa8c16798fdc680c7ddf48c40b",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-nec_wg800hp-squashfs-factory.bin",
+      "sha256": "dee1b52521e2fe5375ea4ac07df6eeadc4fb0e8b258836310e91be3417d9f7bc",
+      "sha256_unsigned": "dee1b52521e2fe5375ea4ac07df6eeadc4fb0e8b258836310e91be3417d9f7bc",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "nec_wg800hp",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "nec,wg800hp"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Aterm WG800HP",
+      "vendor": "NEC"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-librerouter_librerouter-v1",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-librerouter_librerouter-v1-initramfs-kernel.bin",
+      "sha256": "155f6dc91efca3094c7f7fdbd955b9672813ef0c2a34770e05de914170a54bd5",
+      "sha256_unsigned": "155f6dc91efca3094c7f7fdbd955b9672813ef0c2a34770e05de914170a54bd5",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-librerouter_librerouter-v1-squashfs-sysupgrade.bin",
+      "sha256": "e88bd3b7e50f90a91673eb6211485d1ca2b72c11ba5f431b0e97918a025a2f7e",
+      "sha256_unsigned": "69e06a6402b3f1c6928954ac92388b97cefd833891d0cf94f02160c01e24a2f4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "librerouter_librerouter-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "librerouter,librerouter-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "LibreRouter",
+      "variant": "v1",
+      "vendor": "Librerouter"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

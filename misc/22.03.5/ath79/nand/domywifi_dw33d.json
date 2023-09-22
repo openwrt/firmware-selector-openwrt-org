@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-storage",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/nand/",
+  "image_prefix": "openwrt-22.03.5-ath79-nand-domywifi_dw33d",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-nand-domywifi_dw33d-initramfs-kernel.bin",
+      "sha256": "2f92191632de90640170a034d938e78ebd8c69c80a5843ad88986083125a7c40",
+      "sha256_unsigned": "2f92191632de90640170a034d938e78ebd8c69c80a5843ad88986083125a7c40",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-domywifi_dw33d-squashfs-sysupgrade.bin",
+      "sha256": "e926044fcf29d999c68caa1d2aea718c475d1b54f61bdc46a3beec8a718591e4",
+      "sha256_unsigned": "b7a107afd89e4f83ffdbe6e31f3ba203930cd4c744bc5dc8e77ea45d3b89a585",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-domywifi_dw33d-squashfs-factory.bin",
+      "sha256": "02a841b1dba8f248ef4e49342615b6ae47752dd7f3a23d079f5f78b54ee04598",
+      "sha256_unsigned": "02a841b1dba8f248ef4e49342615b6ae47752dd7f3a23d079f5f78b54ee04598",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "domywifi_dw33d",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "domywifi,dw33d"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "DW33D",
+      "vendor": "DomyWifi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

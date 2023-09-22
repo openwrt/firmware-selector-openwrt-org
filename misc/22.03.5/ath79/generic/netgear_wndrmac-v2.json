@@ -1,0 +1,87 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-netgear_wndrmac-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wndrmac-v2-squashfs-sysupgrade.bin",
+      "sha256": "64aa285e4bbf70570b8c834375ca975ae3f9367c1cd87eda386a5ccbe27184ee",
+      "sha256_unsigned": "1c9745ca1fda297c54dbb62993fc9c5a9093d515d383e380df16c115d716d94f",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wndrmac-v2-squashfs-factory.img",
+      "sha256": "26525bc969772c3a3c84132e1d7ba7299b22878c4b70da274823eb2fb6216487",
+      "sha256_unsigned": "26525bc969772c3a3c84132e1d7ba7299b22878c4b70da274823eb2fb6216487",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wndrmac-v2-initramfs-kernel.bin",
+      "sha256": "d72717c7513338346e35b65d45f7d152c34b8b7c14c065414d174fae31005e97",
+      "sha256_unsigned": "d72717c7513338346e35b65d45f7d152c34b8b7c14c065414d174fae31005e97",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wndrmac-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wndrmac-v2",
+    "wndr3700"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WNDRMAC",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

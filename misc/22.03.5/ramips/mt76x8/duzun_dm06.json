@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7603",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt76x8-duzun_dm06",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-duzun_dm06-squashfs-sysupgrade.bin",
+      "sha256": "f0cb9947504d985eba7f3c01dbc47c1530760374a33ad71049a81b268467ba79",
+      "sha256_unsigned": "f745c4526fe8d1cd55d46482f54fe752df9e82400e68bd8eaadb01e3e1675a2e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-duzun_dm06-initramfs-kernel.bin",
+      "sha256": "b992349a77bc2a9e8f38e5c7d23857941fb333e34807b75a32de0df003b11bf1",
+      "sha256_unsigned": "b992349a77bc2a9e8f38e5c7d23857941fb333e34807b75a32de0df003b11bf1",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "duzun_dm06",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "duzun,dm06",
+    "duzun-dm06"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "DM06",
+      "vendor": "DuZun"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

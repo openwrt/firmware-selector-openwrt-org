@@ -1,0 +1,94 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-deu-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "ltq-vdsl-app",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoa",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "wpad-basic-wolfssl",
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/lantiq/xrx200/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xrx200-lantiq_easy80920-nand",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-lantiq_easy80920-nand-squashfs-sysupgrade.bin",
+      "sha256": "cc8e4db8ba05bc3f3cc891a7a4dfcd61e60b093bd481a5169ddf30f6b374919b",
+      "sha256_unsigned": "05bd7c273d507dcaf5d168bee3480bc8fab6fed5ede7da318eb68f2e1fa3af82",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-lantiq_easy80920-nand-initramfs-kernel.bin",
+      "sha256": "9102cfa68ae1d59c3ec0abb01709f281744fb99c211dd5b0fef2095f5ce5c6f3",
+      "sha256_unsigned": "9102cfa68ae1d59c3ec0abb01709f281744fb99c211dd5b0fef2095f5ce5c6f3",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-lantiq_easy80920-nand-squashfs-fullimage.bin",
+      "sha256": "4e55e9e6a9407dbc5a8ec7897a6495fb7c040944ba527ca19d4e726f4589522f",
+      "sha256_unsigned": "4e55e9e6a9407dbc5a8ec7897a6495fb7c040944ba527ca19d4e726f4589522f",
+      "type": "fullimage"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "lantiq_easy80920-nand",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "lantiq,easy80920-nand"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "VR9 EASY80920",
+      "variant": "NAND",
+      "vendor": "Lantiq"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

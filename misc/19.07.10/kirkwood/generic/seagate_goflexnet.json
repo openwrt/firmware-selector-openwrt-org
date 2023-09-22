@@ -1,0 +1,63 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-19.07.10-kirkwood-seagate_goflexnet",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-kirkwood-seagate_goflexnet-squashfs-factory.bin",
+      "sha256": "c7b41db392ee4ded5fc2b712c16021496e72af903028a973ce98fa36c32e4120",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-kirkwood-seagate_goflexnet-squashfs-sysupgrade.bin",
+      "sha256": "7665e1ab671ae1e996f2b66493792ff28448824c8e1ef2fa41f61059845470cb",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "seagate_goflexnet",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "seagate,goflexnet",
+    "goflexnet"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "title": "Seagate GoFlexNet"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

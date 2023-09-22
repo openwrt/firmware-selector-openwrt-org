@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-tplink_re210-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_re210-v1-squashfs-factory.bin",
+      "sha256": "22b49c7c2fe62a29c14b804b7359cf70061e68328006b71ca2c57348a29673e5",
+      "sha256_unsigned": "22b49c7c2fe62a29c14b804b7359cf70061e68328006b71ca2c57348a29673e5",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_re210-v1-initramfs-kernel.bin",
+      "sha256": "fea6738e985608423b4093585213c8121e4d66a1532826aa7117a4fbe6e62638",
+      "sha256_unsigned": "fea6738e985608423b4093585213c8121e4d66a1532826aa7117a4fbe6e62638",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_re210-v1-squashfs-sysupgrade.bin",
+      "sha256": "1121797e0fcb560989342917b6d43458295f68610e7660e4d9a480b214b8f4c1",
+      "sha256_unsigned": "7bb405180708a0bc7b12526679707769cce11901ab57641099481f517ab9eefa",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_re210-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,re210-v1"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "RE210",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

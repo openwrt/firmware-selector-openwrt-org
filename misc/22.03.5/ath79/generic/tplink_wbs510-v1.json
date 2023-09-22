@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_wbs510-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_wbs510-v1-squashfs-factory.bin",
+      "sha256": "24a85a3da5ffc05220aedd562d3a802dfb512d3328519e92597b4937ee657718",
+      "sha256_unsigned": "24a85a3da5ffc05220aedd562d3a802dfb512d3328519e92597b4937ee657718",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_wbs510-v1-initramfs-kernel.bin",
+      "sha256": "e16d3135484b28f95503b84e7183c5f512d2114e8f42c9e79c5cb51417e0ad6f",
+      "sha256_unsigned": "e16d3135484b28f95503b84e7183c5f512d2114e8f42c9e79c5cb51417e0ad6f",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_wbs510-v1-squashfs-sysupgrade.bin",
+      "sha256": "9a0e025a74a9fe213735c6cc351ac6125004dfd460f049bfa755e665b6627da9",
+      "sha256_unsigned": "46b6302ba4a1faa98ac6b6cca0a22db5d8a68ecceec2b2a19111cebdb0b7f55f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_wbs510-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,wbs510-v1",
+    "wbs510"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WBS510",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

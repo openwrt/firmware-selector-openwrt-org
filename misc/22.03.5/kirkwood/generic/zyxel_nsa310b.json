@@ -1,0 +1,83 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-marvell-sata",
+    "kmod-r8169",
+    "kmod-fs-ext4",
+    "kmod-gpio-button-hotplug",
+    "kmod-hwmon-lm85"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-zyxel_nsa310b",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-zyxel_nsa310b-squashfs-sysupgrade.bin",
+      "sha256": "86592909dbb03b4027f29f30ce4d78e09a520d09dc0d4299e417b6857eea0fb8",
+      "sha256_unsigned": "b9d900b5acde99db16055aa43babfdf1fefd237be6b3d9276d38b91c52951ebb",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-zyxel_nsa310b-squashfs-factory.bin",
+      "sha256": "b2555df6bb789e02ecb579a102433e37b38aae83fcb0dbe1a1ec3d0f0a5b5604",
+      "sha256_unsigned": "b2555df6bb789e02ecb579a102433e37b38aae83fcb0dbe1a1ec3d0f0a5b5604",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-zyxel_nsa310b-initramfs-uImage",
+      "sha256": "da9c05e6f0917343dd529819fed70c90312eaa5aa173b026d24d79c31a5c4bc5",
+      "sha256_unsigned": "da9c05e6f0917343dd529819fed70c90312eaa5aa173b026d24d79c31a5c4bc5",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_nsa310b",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,nsa310b",
+    "nsa310b"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "NSA310b",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

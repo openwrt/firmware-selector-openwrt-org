@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt7620-ArcherC50v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7620-ArcherC50v1-squashfs-factory-us.bin",
+      "sha256": "23dbf715f2d24f46a4e874e9e84a84778f507dfa777259dedba915eb2842a93f",
+      "type": "factory-us"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7620-ArcherC50v1-squashfs-factory-eu.bin",
+      "sha256": "6c533c033bf7b34911b547045e7c3847e55e04a7bda41ab657896af958532626",
+      "type": "factory-eu"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7620-ArcherC50v1-squashfs-sysupgrade.bin",
+      "sha256": "3d25b16a51837675f06c4bcbf93ab1753c593590ca55f773d323aa0ccbc19dbb",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ArcherC50v1",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "c50"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "title": "TP-Link ArcherC50v1"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

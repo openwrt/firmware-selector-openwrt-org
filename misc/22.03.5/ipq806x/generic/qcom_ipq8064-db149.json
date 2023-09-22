@@ -1,0 +1,83 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca99x0-ct"
+  ],
+  "image_path": "22.03.5/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq806x-generic-qcom_ipq8064-db149",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-qcom_ipq8064-db149-squashfs-sysupgrade.bin",
+      "sha256": "d7ac082cbeef0e2093b6d2e66cab9f7a07fa0a5071f234b79da8f9c679aed98d",
+      "sha256_unsigned": "86abf12bbde4c51066121182bd14e9d8121dd286e3458e954a2bcd22dfffa00f",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-qcom_ipq8064-db149-initramfs-fit-uImage.itb",
+      "sha256": "ab8448f68d28e04449b99090fc47c0a57080451658957f5e1f13449dbe3b4bbf",
+      "sha256_unsigned": "ab8448f68d28e04449b99090fc47c0a57080451658957f5e1f13449dbe3b4bbf",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "qcom_ipq8064-db149",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "qcom,ipq8064-db149"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "DB149",
+      "vendor": "Qualcomm"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,90 @@
+{
+  "arch_packages": "arm_fa526",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-core",
+    "kmod-usb-fotg210",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-heartbeat",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-usb-core",
+    "kmod-usb-fotg210",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-heartbeat",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-md-mod",
+    "kmod-md-linear",
+    "kmod-md-multipath",
+    "kmod-md-raid0",
+    "kmod-md-raid1",
+    "kmod-md-raid10",
+    "kmod-md-raid456",
+    "kmod-fs-btrfs",
+    "kmod-fs-cifs",
+    "kmod-fs-nfs",
+    "kmod-fs-nfsd",
+    "kmod-fs-ntfs",
+    "kmod-fs-reiserfs",
+    "kmod-fs-vfat",
+    "kmod-nls-utf8",
+    "kmod-usb-storage-extras",
+    "samba36-server",
+    "mdadm",
+    "cfdisk",
+    "fdisk",
+    "e2fsprogs",
+    "badblocks",
+    "partx-utils"
+  ],
+  "image_path": "19.07.10/targets/gemini/generic/",
+  "image_prefix": "openwrt-19.07.10-gemini-raidsonic_ib-4220-b",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-gemini-raidsonic_ib-4220-b-squashfs-factory.bin",
+      "sha256": "11bb43c0acb634233088d286df44c0e5641d348b69e873a31ee922bbc6984dd5",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "raidsonic_ib-4220-b",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "raidsonic,ib-4220-b"
+  ],
+  "target": "gemini/generic",
+  "titles": [
+    {
+      "title": "Raidsonic NAS IB-4220-B"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

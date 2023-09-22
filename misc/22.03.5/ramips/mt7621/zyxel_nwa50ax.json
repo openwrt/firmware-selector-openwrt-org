@@ -1,0 +1,88 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7915e",
+    "uboot-envtools",
+    "zyxel-bootconfig"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-zyxel_nwa50ax",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zyxel_nwa50ax-initramfs-kernel.bin",
+      "sha256": "3bd27818ec727d8b9dd528035b711b4ae822413868e8287adfdcfa1287a307ab",
+      "sha256_unsigned": "3bd27818ec727d8b9dd528035b711b4ae822413868e8287adfdcfa1287a307ab",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zyxel_nwa50ax-squashfs-sysupgrade.bin",
+      "sha256": "03789c8c6349ce198ae66c56b616e6be1807216cf4dd6cbc8d1a02e9b8ac938b",
+      "sha256_unsigned": "d6defa18edd3a44588ed49a025cf7780830a8cb5c043e23bca0b13db8ec38833",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zyxel_nwa50ax-squashfs-factory.bin",
+      "sha256": "273b5a4cacf94a609a0046e3e19ec9f7c7f5d2299e739343a98fbcf31fd5425a",
+      "sha256_unsigned": "273b5a4cacf94a609a0046e3e19ec9f7c7f5d2299e739343a98fbcf31fd5425a",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zyxel_nwa50ax-squashfs-ramboot-factory.bin",
+      "sha256": "c7e551236cafce08f104b944b10970c29b715a9bd0887833994ddedc9aedb0d4",
+      "sha256_unsigned": "c7e551236cafce08f104b944b10970c29b715a9bd0887833994ddedc9aedb0d4",
+      "type": "ramboot-factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_nwa50ax",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,nwa50ax"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "NWA50AX",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

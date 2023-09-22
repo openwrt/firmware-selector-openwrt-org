@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca988x-ct",
+    "kmod-ath10k-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-engenius_ecb1200",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_ecb1200-squashfs-sysupgrade.bin",
+      "sha256": "97bb8ceaf2d84999259ace7666fb1b24b93339b4b06170947e10880de1fef47a",
+      "sha256_unsigned": "2e4c9aadc0ac0577e35819fb7bdb192c318fb45bbbb511bc8ca4334dbab183e7",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_ecb1200-initramfs-kernel.bin",
+      "sha256": "7b53bb8e6765620a2ec6d6d0b84fe13d1e3da581bdf0a02d4ccd0e27c7e872b8",
+      "sha256_unsigned": "7b53bb8e6765620a2ec6d6d0b84fe13d1e3da581bdf0a02d4ccd0e27c7e872b8",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_ecb1200-squashfs-factory.bin",
+      "sha256": "a0236a58f39a3bbcae61d7bd1d00e7899fae981fe4024f81ffa9d70cc877cda3",
+      "sha256_unsigned": "a0236a58f39a3bbcae61d7bd1d00e7899fae981fe4024f81ffa9d70cc877cda3",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "engenius_ecb1200",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "engenius,ecb1200"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "ECB1200",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

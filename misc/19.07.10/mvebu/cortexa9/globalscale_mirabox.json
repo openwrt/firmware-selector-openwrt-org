@@ -1,0 +1,59 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/mvebu/cortexa9/",
+  "image_prefix": "openwrt-19.07.10-mvebu-cortexa9-globalscale_mirabox",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-mvebu-cortexa9-globalscale_mirabox-squashfs-sysupgrade.bin",
+      "sha256": "15f0ed117308b11e51de0561d5c1c840a068b147be053e1ffa9e4288853f24c1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "globalscale_mirabox",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "globalscale,mirabox",
+    "mirabox"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "title": "Globalscale Mirabox"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

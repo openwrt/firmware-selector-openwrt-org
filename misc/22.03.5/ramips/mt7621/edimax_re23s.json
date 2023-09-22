@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-edimax_re23s",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-edimax_re23s-initramfs-kernel.bin",
+      "sha256": "ea3a037483382727748829c7794e9ac86d9c85f84f9b545365fdaebad54f171e",
+      "sha256_unsigned": "ea3a037483382727748829c7794e9ac86d9c85f84f9b545365fdaebad54f171e",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-edimax_re23s-squashfs-sysupgrade.bin",
+      "sha256": "349b0e082fa41c16bc9d7a6cb6027f1ae397d1c2468dcd5c6cbf28067e4c218e",
+      "sha256_unsigned": "090f2ead014832531baa9c0f9c2503173524e10f47482f8403db3e86be14562f",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-edimax_re23s-squashfs-factory.bin",
+      "sha256": "1eaa4539969fedc86cbe79901d499a805ed5ebec1fe57718f819a028874fbbf4",
+      "sha256_unsigned": "1eaa4539969fedc86cbe79901d499a805ed5ebec1fe57718f819a028874fbbf4",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "edimax_re23s",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "edimax,re23s"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RE23S",
+      "vendor": "Edimax"
+    },
+    {
+      "model": "Gemini RE23S",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

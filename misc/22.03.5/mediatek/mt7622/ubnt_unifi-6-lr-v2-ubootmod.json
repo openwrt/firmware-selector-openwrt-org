@@ -1,0 +1,88 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7615-firmware",
+    "kmod-mt7615e",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7915e"
+  ],
+  "image_path": "22.03.5/targets/mediatek/mt7622/",
+  "image_prefix": "openwrt-22.03.5-mediatek-mt7622-ubnt_unifi-6-lr-v2-ubootmod",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-ubnt_unifi-6-lr-v2-ubootmod-initramfs-recovery.itb",
+      "sha256": "ca4498a2a88d912e3ca2a55a76996c08025e16077e73642f5a564b73f1027d50",
+      "sha256_unsigned": "ca4498a2a88d912e3ca2a55a76996c08025e16077e73642f5a564b73f1027d50",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-22.03.5-mediatek-mt7622-ubnt_unifi-6-lr-v2-ubootmod-bl31-uboot.fip",
+      "sha256": "ebae3cbd7bcd9d7ceef03b143c28c9f792dcd9e72400fea41eaa02a6d2529691",
+      "sha256_unsigned": "ebae3cbd7bcd9d7ceef03b143c28c9f792dcd9e72400fea41eaa02a6d2529691",
+      "type": "bl31-uboot.fip"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-ubnt_unifi-6-lr-v2-ubootmod-squashfs-sysupgrade.itb",
+      "sha256": "e3a7bfd776237cbeafda36f89fa0eb440283197612cf14350f7e75faed9c3251",
+      "sha256_unsigned": "96302c4e3edf8b6198f2db123b5f6a0e22432217f39e54d492e970434dcf821a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-22.03.5-mediatek-mt7622-ubnt_unifi-6-lr-v2-ubootmod-preloader.bin",
+      "sha256": "f2414a3d46d1194abc048030dfb908761d83a6c1d179430b82daab649f2d325b",
+      "sha256_unsigned": "f2414a3d46d1194abc048030dfb908761d83a6c1d179430b82daab649f2d325b",
+      "type": "preloader.bin"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_unifi-6-lr-v2-ubootmod",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,unifi-6-lr-v2-ubootmod"
+  ],
+  "target": "mediatek/mt7622",
+  "titles": [
+    {
+      "model": "UniFi 6 LR",
+      "variant": "v2 U-Boot mod",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-iptime_a6004ns-m",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iptime_a6004ns-m-initramfs-kernel.bin",
+      "sha256": "925165aea3a4a39cb093cb0daa3032f899d3ae75382175a1f1735881c60daa67",
+      "sha256_unsigned": "925165aea3a4a39cb093cb0daa3032f899d3ae75382175a1f1735881c60daa67",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iptime_a6004ns-m-squashfs-sysupgrade.bin",
+      "sha256": "6deea6933b9e88ef5f3b508570193e8e491e913b017ada688c5e82313db1ed27",
+      "sha256_unsigned": "531da6a73903469dc16f5bb1e4e2e329c435561a92163427abcc19dc573b0b0e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iptime_a6004ns-m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iptime,a6004ns-m"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "A6004NS-M",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

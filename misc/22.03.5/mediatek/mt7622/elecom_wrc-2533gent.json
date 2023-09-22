@@ -1,0 +1,77 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7615-firmware",
+    "kmod-mt7615e",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-btmtkuart",
+    "kmod-usb3",
+    "swconfig"
+  ],
+  "image_path": "22.03.5/targets/mediatek/mt7622/",
+  "image_prefix": "openwrt-22.03.5-mediatek-mt7622-elecom_wrc-2533gent",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-elecom_wrc-2533gent-squashfs-sysupgrade.bin",
+      "sha256": "106dcc4b521160dc502031e62c45e164b96208c64d2fa6abf800d51fbfca35d8",
+      "sha256_unsigned": "e5111dcbcf2e41245ad8f7d33b66416a4671cd5762a8ed5f3de38c43ec3bf19e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-elecom_wrc-2533gent-initramfs-kernel.bin",
+      "sha256": "5fd66193c0104de8b938dabdae09753ee7a773a76efd6dd9ac057fa670e3ad2b",
+      "sha256_unsigned": "5fd66193c0104de8b938dabdae09753ee7a773a76efd6dd9ac057fa670e3ad2b",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "elecom_wrc-2533gent",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "elecom,wrc-2533gent"
+  ],
+  "target": "mediatek/mt7622",
+  "titles": [
+    {
+      "model": "WRC-2533GENT",
+      "vendor": "Elecom"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

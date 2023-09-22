@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-easyacc_wizard-8800",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-easyacc_wizard-8800-initramfs-kernel.bin",
+      "sha256": "1a6b350ba99d4fc48dffaaaef21b17f436ac07390beae03996beed294f76f4f1",
+      "sha256_unsigned": "1a6b350ba99d4fc48dffaaaef21b17f436ac07390beae03996beed294f76f4f1",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-easyacc_wizard-8800-squashfs-sysupgrade.bin",
+      "sha256": "eaa31cdf265c2a8f8d9779f21e052e8e94ba083b9cc028f2876a99e4ed3bf742",
+      "sha256_unsigned": "e3b11d69365fdfa5323e83e60fa96d2551276bd08e040865f7da9a417c53bbff",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "easyacc_wizard-8800",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "easyacc,wizard-8800",
+    "wizard8800"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "WIZARD 8800",
+      "vendor": "EasyAcc"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_tl-wr810n-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wr810n-v1-squashfs-factory.bin",
+      "sha256": "d37c1cca768d8c489a86415ce978746e84b36827c1e36300cb8e90821da13fc8",
+      "sha256_unsigned": "d37c1cca768d8c489a86415ce978746e84b36827c1e36300cb8e90821da13fc8",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wr810n-v1-initramfs-kernel.bin",
+      "sha256": "4fc5eaeab81946083ea0ece44f5fe5cd9df0a16edfc9904a1f4ef0f8f1374e6d",
+      "sha256_unsigned": "4fc5eaeab81946083ea0ece44f5fe5cd9df0a16edfc9904a1f4ef0f8f1374e6d",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wr810n-v1-squashfs-sysupgrade.bin",
+      "sha256": "f914f5a91d8a038ff6d388285d976bb7a748203c964babf3fa3b10d9749db6d2",
+      "sha256_unsigned": "b90c5471451fc8463b4728a57ec6ded81aaad39cb3160adf007a32c797221473",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_tl-wr810n-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,tl-wr810n-v1",
+    "tl-wr810n"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WR810N",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

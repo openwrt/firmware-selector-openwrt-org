@@ -1,0 +1,92 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9984-ct",
+    "kmod-ramoops"
+  ],
+  "image_path": "22.03.5/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq806x-generic-netgear_r7800",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-netgear_r7800-squashfs-factory.img",
+      "sha256": "4ee6dc1860d3eadbefd222546aeb54379caedc93aaef1c25d41f59830ee85cf1",
+      "sha256_unsigned": "4ee6dc1860d3eadbefd222546aeb54379caedc93aaef1c25d41f59830ee85cf1",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-netgear_r7800-initramfs-uImage",
+      "sha256": "623d7b81fe95ff79b158a86c2c91e941ba99187f2d8979c9c411d8c5cadbc89e",
+      "sha256_unsigned": "623d7b81fe95ff79b158a86c2c91e941ba99187f2d8979c9c411d8c5cadbc89e",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin",
+      "sha256": "abc52ff1248f6ec415776f6f23e9229cdadc1eccfa459d018d79ae5645ce972c",
+      "sha256_unsigned": "3c19ae5c5e9438b3de78e582c24a83636e9dd9b1e65b7bbd204cc00ad489438c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_r7800",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,r7800",
+    "r7800"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "Nighthawk X4S R7800",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

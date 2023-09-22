@@ -1,0 +1,86 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-deu-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "ltq-vdsl-app",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoa",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "wpad-basic-wolfssl",
+    "kmod-usb-dwc2",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/lantiq/xrx200/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xrx200-avm_fritz7360sl",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-avm_fritz7360sl-initramfs-kernel.bin",
+      "sha256": "033c6c1adf4513f1f75c8561c192a85c46b56a4316a8055e3a5a2bf6bfe0725f",
+      "sha256_unsigned": "033c6c1adf4513f1f75c8561c192a85c46b56a4316a8055e3a5a2bf6bfe0725f",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-avm_fritz7360sl-squashfs-sysupgrade.bin",
+      "sha256": "90e207c6c04430e38c6c7760d44f259601c6464f3fc8c61fb5075cf1d80ce792",
+      "sha256_unsigned": "9d4df34b11e4d8e514a7745f995eb9a68d2cbdaef41a46ab4a5b7ce2824428fc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "avm_fritz7360sl",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "avm,fritz7360sl",
+    "FRITZ7360SL"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "FRITZ!Box 7360 SL",
+      "vendor": "AVM"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

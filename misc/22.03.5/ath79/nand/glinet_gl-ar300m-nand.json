@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/nand/",
+  "image_prefix": "openwrt-22.03.5-ath79-nand-glinet_gl-ar300m-nand",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-ar300m-nand-squashfs-factory.img",
+      "sha256": "c2bf61ee9fb5868b17762308c738238510ffff8fcd75d4e2a9434b5faa025829",
+      "sha256_unsigned": "c2bf61ee9fb5868b17762308c738238510ffff8fcd75d4e2a9434b5faa025829",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-ar300m-nand-squashfs-sysupgrade.bin",
+      "sha256": "2ad6ec492cd9139268812af8e864199476d87fff16e9d5b9465755d2d1b7fa8a",
+      "sha256_unsigned": "7467a7b460f1357123d318f5922eef89293671ad88af5b0fa2b1c65b92809eca",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-ar300m-nand-initramfs-kernel.bin",
+      "sha256": "46192de0dd514c32def403f8b3d1250e86f22c0faeac306c95f0090aa5e71cc6",
+      "sha256_unsigned": "46192de0dd514c32def403f8b3d1250e86f22c0faeac306c95f0090aa5e71cc6",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "glinet_gl-ar300m-nand",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "glinet,gl-ar300m-nand",
+    "glinet,gl-ar300m-nor"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "GL-AR300M",
+      "variant": "NAND",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

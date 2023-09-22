@@ -1,0 +1,74 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-rtc-sunxi",
+    "kmod-ata-sunxi"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa7/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa7-lemaker_bananapi",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-lemaker_bananapi-ext4-sdcard.img.gz",
+      "sha256": "cdaf1026bf652fb55177bc362ee95d6e1c92a2f4a14a823415686632414323d5",
+      "sha256_unsigned": "fd254cdc4400b32f273f542695cb6129eae2d59ad1aa736984b850aeafeef907",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-lemaker_bananapi-squashfs-sdcard.img.gz",
+      "sha256": "f68d1db396391cfb781e559d4f96d0948ed122bf8062188b725704d57d729b5a",
+      "sha256_unsigned": "8bcb81de637aedf5eeedb2d74c6b8807e90b3e8e324c2c11930cc756f4102e04",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "lemaker_bananapi",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "lemaker,bananapi"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "Banana Pi",
+      "vendor": "LeMaker"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

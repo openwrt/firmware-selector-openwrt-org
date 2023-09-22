@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_archer-d7b-v1",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-d7b-v1-initramfs-kernel.bin",
+      "sha256": "d08c9571e1e129a75abf6206c4483df07453cba2dfce1656cffd3ab07bf82a01",
+      "sha256_unsigned": "d08c9571e1e129a75abf6206c4483df07453cba2dfce1656cffd3ab07bf82a01",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-d7b-v1-squashfs-sysupgrade.bin",
+      "sha256": "fd5ae023d4b58535e1800a6606b5c2750e83d349a0414e0666c1ddb48f2043ae",
+      "sha256_unsigned": "476ab98a4d16b554d20b829dc7c4edeeb206a2182a74b6665e9591cbcea471f8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-d7b-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-d7b-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Archer D7b",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

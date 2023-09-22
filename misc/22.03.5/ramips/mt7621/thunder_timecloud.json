@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "-wpad-basic-wolfssl"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-thunder_timecloud",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-thunder_timecloud-initramfs-kernel.bin",
+      "sha256": "0c438b4a75b04b1ae7b25d215557e1bd1ce6b475a3fa2138691c17430647ca2e",
+      "sha256_unsigned": "0c438b4a75b04b1ae7b25d215557e1bd1ce6b475a3fa2138691c17430647ca2e",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-thunder_timecloud-squashfs-sysupgrade.bin",
+      "sha256": "4fe649a30ebe9ac93fed283054ab06e26aa48e4c6b53ec579f90b30ed379d531",
+      "sha256_unsigned": "9c1104faa7a6682c94e0ebc948744ea04aba5d3f311be9192177022d6caa1f76",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "thunder_timecloud",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "thunder,timecloud",
+    "timecloud"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Timecloud",
+      "vendor": "Thunder"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

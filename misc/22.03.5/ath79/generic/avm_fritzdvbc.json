@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "fritz-tffs",
+    "rssileds",
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca988x-ct",
+    "-swconfig"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-avm_fritzdvbc",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-avm_fritzdvbc-initramfs-kernel.bin",
+      "sha256": "d29392cfa7d4e18dc461ea183666ef42b5ea3ee977805bf28b1738f5203d8377",
+      "sha256_unsigned": "d29392cfa7d4e18dc461ea183666ef42b5ea3ee977805bf28b1738f5203d8377",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-avm_fritzdvbc-squashfs-sysupgrade.bin",
+      "sha256": "826ce7a0916cb939f9dd7663eacfa4b20d91147cef30857bf982240b1ad72ad4",
+      "sha256_unsigned": "052b4af9d40cb249d74b184cc9bde150a214ee2cc010fac18a1dbcf46aaa6cea",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "avm_fritzdvbc",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "avm,fritzdvbc"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "FRITZ!WLAN Repeater DVB-C",
+      "vendor": "AVM"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-smp-technicolor_tg582n-telecom-italia",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-technicolor_tg582n-telecom-italia-squashfs-sysupgrade.bin",
+      "sha256": "2428752bce82904c53b72218f2c881ac48670fd16efc7409c725a739a8c3f450",
+      "sha256_unsigned": "2428752bce82904c53b72218f2c881ac48670fd16efc7409c725a739a8c3f450",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-technicolor_tg582n-telecom-italia-squashfs-cfe.bin",
+      "sha256": "118855e9dbeeb7b6bd66d564fabcac9ce8e39137100fa81c66ff35d1e2239486",
+      "sha256_unsigned": "118855e9dbeeb7b6bd66d564fabcac9ce8e39137100fa81c66ff35d1e2239486",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "technicolor_tg582n-telecom-italia",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "technicolor,tg582n-telecom-italia"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "TG582n",
+      "variant": "Telecom Italia",
+      "vendor": "Technicolor"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

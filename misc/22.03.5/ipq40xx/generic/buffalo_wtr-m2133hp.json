@@ -1,0 +1,88 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-board-qca4019",
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9984-ct",
+    "ipq-wifi-buffalo_wtr-m2133hp"
+  ],
+  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-generic-buffalo_wtr-m2133hp",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-buffalo_wtr-m2133hp-initramfs-fit-uImage.itb",
+      "sha256": "8a07e5844379c28ae61726205c7aadd21a2a5a977ca5f73ab669aa9f14eb4d45",
+      "sha256_unsigned": "8a07e5844379c28ae61726205c7aadd21a2a5a977ca5f73ab669aa9f14eb4d45",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-buffalo_wtr-m2133hp-squashfs-nand-factory.ubi",
+      "sha256": "4478039ad38f8170573483f6b651fb44f8be9ae45dd2e198f2f01698e57e933b",
+      "sha256_unsigned": "4478039ad38f8170573483f6b651fb44f8be9ae45dd2e198f2f01698e57e933b",
+      "type": "nand-factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-buffalo_wtr-m2133hp-squashfs-nand-sysupgrade.bin",
+      "sha256": "66d3031affa647c2c40a116013a152c6b5c9ea72d1d115f0717bfc69230e4fd9",
+      "sha256_unsigned": "ad408a4bebda97fd4920ac553be0b38f50957521527e18ec68ad0e0284fa8d2c",
+      "type": "nand-sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_wtr-m2133hp",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "buffalo,wtr-m2133hp"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "WTR-M2133HP",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

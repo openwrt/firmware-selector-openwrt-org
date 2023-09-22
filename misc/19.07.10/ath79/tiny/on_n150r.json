@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/ath79/tiny/",
+  "image_prefix": "openwrt-19.07.10-ath79-tiny-on_n150r",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-tiny-on_n150r-squashfs-sysupgrade.bin",
+      "sha256": "5758cc5c7f2a455e53a478e128ef16f6043aa265f2847e0d21143750496b44cd",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-tiny-on_n150r-squashfs-factory.img",
+      "sha256": "e97459860fe4c12888b8d3b4831d16c4f5cd24c326a902829d36d7112338a692",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "on_n150r",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "on,n150r",
+    "n150r"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "title": "ON Network N150R"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

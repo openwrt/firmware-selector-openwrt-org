@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9887-ct",
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/nand/",
+  "image_prefix": "openwrt-22.03.5-ath79-nand-glinet_gl-e750",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-e750-squashfs-factory.img",
+      "sha256": "f46f8a4dbe63e6587b4325e84c92434b37bf7e583e108e09a6267e459036a848",
+      "sha256_unsigned": "f46f8a4dbe63e6587b4325e84c92434b37bf7e583e108e09a6267e459036a848",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-e750-squashfs-sysupgrade.bin",
+      "sha256": "06f8770555394f6cf3c50be130b985071af245571f5666318e826ff2f14368b6",
+      "sha256_unsigned": "8acccbdfb47b05c517424354d01b035096bc9d11d9e615b07706c4d58be2edfb",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-e750-initramfs-kernel.bin",
+      "sha256": "818ce1a55b94d14799319deea35674a3b3e289033a8c07640adfa02b32c19b78",
+      "sha256_unsigned": "818ce1a55b94d14799319deea35674a3b3e289033a8c07640adfa02b32c19b78",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "glinet_gl-e750",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "glinet,gl-e750",
+    "gl-e750"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "GL-E750",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

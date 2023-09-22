@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_4kec",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "ethtool",
+    "firewall4",
+    "fstools",
+    "ip-bridge",
+    "ip-full",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "opkg",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "tc-bpf",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/realtek/rtl838x/",
+  "image_prefix": "openwrt-22.03.5-realtek-rtl838x-iodata_bsh-g24mb",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-iodata_bsh-g24mb-squashfs-sysupgrade.bin",
+      "sha256": "b23941c3a830572c129162c44422c32a16a243bbaed4866e914d4ec1b5660c25",
+      "sha256_unsigned": "157b76e4949dee538a9b11cac42cea20b1145638b773b47a41e9acc5e524d17a",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-iodata_bsh-g24mb-initramfs-kernel.bin",
+      "sha256": "116e94f7540428e88d9bf2d6fca99cf8de2126ccb9d913bcf1a0d01f5c59bb0b",
+      "sha256_unsigned": "116e94f7540428e88d9bf2d6fca99cf8de2126ccb9d913bcf1a0d01f5c59bb0b",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iodata_bsh-g24mb",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iodata,bsh-g24mb"
+  ],
+  "target": "realtek/rtl838x",
+  "titles": [
+    {
+      "model": "BSH-G24MB",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

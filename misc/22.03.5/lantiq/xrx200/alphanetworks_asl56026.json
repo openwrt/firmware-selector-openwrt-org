@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-deu-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "ltq-vdsl-app",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoa",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/lantiq/xrx200/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xrx200-alphanetworks_asl56026",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-alphanetworks_asl56026-squashfs-sysupgrade.bin",
+      "sha256": "da4c28911b03e014515f54ca21b73f8fc4df74f57242380e790847cb8d5c06bd",
+      "sha256_unsigned": "49abb2b86aeb526b48530c629f9c9505f39801dedc8137625f9d78534252633d",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-alphanetworks_asl56026-initramfs-kernel.bin",
+      "sha256": "a00ea152cf41257228690245c6bb90e643ea09c8702d4814810db9031d8c00b2",
+      "sha256_unsigned": "a00ea152cf41257228690245c6bb90e643ea09c8702d4814810db9031d8c00b2",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "alphanetworks_asl56026",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "alphanetworks,asl56026"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "ASL56026",
+      "vendor": "Alpha"
+    },
+    {
+      "model": "ECI VDSL Modem V-2FUb/I",
+      "vendor": "BT Openreach"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

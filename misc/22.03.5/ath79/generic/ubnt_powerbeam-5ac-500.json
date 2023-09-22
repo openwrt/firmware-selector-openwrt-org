@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ubnt_powerbeam-5ac-500",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_powerbeam-5ac-500-squashfs-sysupgrade.bin",
+      "sha256": "3eab6f45c928fc839ce666da74e588c9eebadcb5d6b6e1a2b741361b8c144520",
+      "sha256_unsigned": "a7e3f1c2e6971585f65eb71fa76f5aa2126e567b402a2a43baa7527cd66b2136",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_powerbeam-5ac-500-initramfs-kernel.bin",
+      "sha256": "fde6673d3be1042bade1169b365d0d293962ed6ad95fbaec49687c6d607f615b",
+      "sha256_unsigned": "fde6673d3be1042bade1169b365d0d293962ed6ad95fbaec49687c6d607f615b",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_powerbeam-5ac-500-squashfs-factory.bin",
+      "sha256": "f093283cd5aac8ea0b31d3880dec31bed2ec9a9daaa5d8554eaafeee50af2381",
+      "sha256_unsigned": "f093283cd5aac8ea0b31d3880dec31bed2ec9a9daaa5d8554eaafeee50af2381",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_powerbeam-5ac-500",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,powerbeam-5ac-500"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "PowerBeam 5AC",
+      "variant": "500",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

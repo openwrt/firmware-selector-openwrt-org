@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2"
+  ],
+  "image_path": "22.03.5/targets/ath79/tiny/",
+  "image_prefix": "openwrt-22.03.5-ath79-tiny-pqi_air-pen",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-tiny-pqi_air-pen-initramfs-kernel.bin",
+      "sha256": "57f34f4333805b408b5a59bda9acc328ea2206b10411312d69255c352686752d",
+      "sha256_unsigned": "57f34f4333805b408b5a59bda9acc328ea2206b10411312d69255c352686752d",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-tiny-pqi_air-pen-squashfs-sysupgrade.bin",
+      "sha256": "9370498924eed578b9ddfb59fa9d66d4e32e7594033353719d9212030b1583de",
+      "sha256_unsigned": "6d9714a8fc3b559d834a086a480d792bbad1572b54d6ffbb22734736f25a1640",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "pqi_air-pen",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "pqi,air-pen",
+    "pqi-air-pen"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "Air-Pen",
+      "vendor": "PQI"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

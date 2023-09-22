@@ -1,0 +1,75 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-sunxi",
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa8/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa8-cubietech_a10-cubieboard",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa8-cubietech_a10-cubieboard-squashfs-sdcard.img.gz",
+      "sha256": "706906a07ce3806abd32697cb5372dd1d34df14ca2768100c295d60477c2486e",
+      "sha256_unsigned": "d4ad7b6c7e39e9213919fbbadd7350df98aca8d226bc97e8fe8286c1458d6722",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa8-cubietech_a10-cubieboard-ext4-sdcard.img.gz",
+      "sha256": "44f6c5c73528f3ad44a33bfb5124ca4d19ab49d51f855ad5a774b798454f9f8a",
+      "sha256_unsigned": "73bc4d040e708fea3fb3cbea3066e60188707de6db672e4d7725cc74b92a6fbd",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "cubietech_a10-cubieboard",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "cubietech,a10-cubieboard"
+  ],
+  "target": "sunxi/cortexa8",
+  "titles": [
+    {
+      "model": "Cubieboard",
+      "vendor": "Cubietech"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

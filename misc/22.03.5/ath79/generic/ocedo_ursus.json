@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ocedo_ursus",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ocedo_ursus-initramfs-kernel.bin",
+      "sha256": "80ef2f5748c1e28de2e35477f027cc1f4da766ed11fa1374c32e087804c26198",
+      "sha256_unsigned": "80ef2f5748c1e28de2e35477f027cc1f4da766ed11fa1374c32e087804c26198",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ocedo_ursus-squashfs-sysupgrade.bin",
+      "sha256": "5559c2d807e35801a61c179b8d5eb426dc8144c38ddb4c1f670a3ad3067c9817",
+      "sha256_unsigned": "286b980ac95e5f5b92b79509bc21c1b2983736c5e0858dd97fc688a562155b6f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ocedo_ursus",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ocedo,ursus"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Ursus",
+      "vendor": "Ocedo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

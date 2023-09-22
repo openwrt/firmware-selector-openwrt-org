@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-generic-pirelli_a226g",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-pirelli_a226g-squashfs-cfe.bin",
+      "sha256": "d0ddb098f8fb3035430fb7510aef267718570c95a0582e06a4f50d5b7cc27d6c",
+      "sha256_unsigned": "d0ddb098f8fb3035430fb7510aef267718570c95a0582e06a4f50d5b7cc27d6c",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "pirelli_a226g",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "pirelli,a226g"
+  ],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "A226G",
+      "vendor": "Pirelli"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

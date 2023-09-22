@@ -1,0 +1,91 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/nand/",
+  "image_prefix": "openwrt-22.03.5-ath79-nand-zyxel_nbg6716",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-zyxel_nbg6716-squashfs-factory.bin",
+      "sha256": "f0299513ce97dcf0c192201d3f5a246af7400edb8a255a63f7c26efbfa863218",
+      "sha256_unsigned": "f0299513ce97dcf0c192201d3f5a246af7400edb8a255a63f7c26efbfa863218",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-zyxel_nbg6716-squashfs-sysupgrade.tar",
+      "sha256": "e898ac628010e0b32838564e98b785419ce3be867a93eabac1fbb9c3fcf65664",
+      "sha256_unsigned": "093eaa6b72c9b3604dd12d78aa1a9af22761446d36002a2f4ee25091515dba3f",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-zyxel_nbg6716-squashfs-sysupgrade-4M-Kernel.bin",
+      "sha256": "223f0dfff02023844d406fe7f5a01ea72fd28c63eace8d3641ed2cdaa3572a5c",
+      "sha256_unsigned": "223f0dfff02023844d406fe7f5a01ea72fd28c63eace8d3641ed2cdaa3572a5c",
+      "type": "sysupgrade-4M-Kernel"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-nand-zyxel_nbg6716-initramfs-kernel.bin",
+      "sha256": "1103984556ef35095c7b7acaf118a1673c8c5a7c904169af24c3df069e372f27",
+      "sha256_unsigned": "1103984556ef35095c7b7acaf118a1673c8c5a7c904169af24c3df069e372f27",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_nbg6716",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,nbg6716"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "NBG6716",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

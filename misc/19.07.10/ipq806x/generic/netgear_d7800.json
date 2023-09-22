@@ -1,0 +1,95 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-core",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-usb-phy-qcom-dwc3",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-core",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-usb-phy-qcom-dwc3",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca99x0-ct"
+  ],
+  "image_path": "19.07.10/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-19.07.10-ipq806x-generic-netgear_d7800",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq806x-generic-netgear_d7800-squashfs-sysupgrade.bin",
+      "sha256": "66028116313d5a3a8ec20d189e5dddab61f12506b3de5bb433a55a7629a0f025",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq806x-generic-netgear_d7800-squashfs-factory.img",
+      "sha256": "5542ecef5a5f19a68fd8ee854bcc9f6264ea5e619784b06ba21679df1bb642d5",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_d7800",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "netgear,d7800",
+    "d7800"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "title": "Netgear Nighthawk X4 D7800"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-rosinson_wr818",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-rosinson_wr818-squashfs-sysupgrade.bin",
+      "sha256": "fb09c40a9c023446cb70071a0819b6f7eab036cb6827b05798970f2f59c81785",
+      "sha256_unsigned": "ecc0a6bd16d2d0c260022433c9b0449b63c5a95e8338c471cc986b5f16f743a6",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-rosinson_wr818-initramfs-kernel.bin",
+      "sha256": "eaed47f707cfffe941cff0d599720b53855efa792f25e4ab5fbfcd99c2e33155",
+      "sha256_unsigned": "eaed47f707cfffe941cff0d599720b53855efa792f25e4ab5fbfcd99c2e33155",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "rosinson_wr818",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "rosinson,wr818"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WR818",
+      "vendor": "Rosinson"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

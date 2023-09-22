@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9888-ct",
+    "-uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-comfast_cf-wr752ac-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-comfast_cf-wr752ac-v1-squashfs-sysupgrade.bin",
+      "sha256": "e0ff53b346135aa9649d01f05d4393b2d4096949e6acab642e9d742bec14e025",
+      "sha256_unsigned": "24a94ad6017ebff8b6712dedf924f87631b02b0aebc21613b1fd06d5f120e12b",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-comfast_cf-wr752ac-v1-initramfs-kernel.bin",
+      "sha256": "8c3626543b8a530f75f197a6133db3970bd9bbaaa49a38ff8e55a44273a52dd9",
+      "sha256_unsigned": "8c3626543b8a530f75f197a6133db3970bd9bbaaa49a38ff8e55a44273a52dd9",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "comfast_cf-wr752ac-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "comfast,cf-wr752ac-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CF-WR752AC",
+      "variant": "v1",
+      "vendor": "COMFAST"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

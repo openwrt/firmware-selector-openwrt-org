@@ -1,0 +1,70 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-rtc-sunxi"
+  ],
+  "image_path": "19.07.10/targets/sunxi/cortexa7/",
+  "image_prefix": "openwrt-19.07.10-sunxi-cortexa7-sun8i-h3-orangepi-one",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-sunxi-cortexa7-sun8i-h3-orangepi-one-ext4-sdcard.img.gz",
+      "sha256": "cf81baa323cf32ce53983e09222639aeb86e3d31d30b733abaa6a1c25b95c9f1",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-sunxi-cortexa7-sun8i-h3-orangepi-one-squashfs-sdcard.img.gz",
+      "sha256": "02e24ab5137760d97e758a1c32a3c5d43b93f75217b978f35f80261e0b99944f",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "sun8i-h3-orangepi-one",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "xunlong,orangepi-one"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "title": "Xunlong Orange Pi One"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

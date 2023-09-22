@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-dlink_dir-505",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dir-505-squashfs-sysupgrade.bin",
+      "sha256": "b317a4c0f0cf02f16c1bfe0d129c71972c386236b23ec6d28e58d4c4010d4c99",
+      "sha256_unsigned": "a8f7e2a9299ee1ec96cc906d9c35e90fc767a49ec1e86ab913ff99d2a81d6927",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dir-505-initramfs-kernel.bin",
+      "sha256": "ad465b16179387d2d5df8065a1fafc2e4ece5fefc997e278a013049b0f499d16",
+      "sha256_unsigned": "ad465b16179387d2d5df8065a1fafc2e4ece5fefc997e278a013049b0f499d16",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dlink_dir-505",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "dlink,dir-505",
+    "dir-505-a1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "DIR-505",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

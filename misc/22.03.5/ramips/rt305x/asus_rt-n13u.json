@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-leds-gpio",
+    "kmod-rt2800-pci",
+    "kmod-usb-dwc2"
+  ],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-asus_rt-n13u",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-asus_rt-n13u-initramfs-kernel.bin",
+      "sha256": "297c3221620e3957a1fdfb87e655948730913ddfc672794192229cd1660ddfeb",
+      "sha256_unsigned": "297c3221620e3957a1fdfb87e655948730913ddfc672794192229cd1660ddfeb",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-asus_rt-n13u-squashfs-sysupgrade.bin",
+      "sha256": "21312fa046cc42bc7e2fc28f4be3a576377bb601ba7463ef3d603af488787526",
+      "sha256_unsigned": "c9fde74aa0f3b15d4408847ef7e3c5fa86e8f45cf21d27f319517660b65efaed",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "asus_rt-n13u",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "asus,rt-n13u",
+    "rt-n13u"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "RT-N13U",
+      "vendor": "Asus"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

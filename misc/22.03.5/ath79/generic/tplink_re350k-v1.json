@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_re350k-v1",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_re350k-v1-initramfs-kernel.bin",
+      "sha256": "03935ab1fa24ce2fd4c3845f102d688c14515ecf2b37008de549d567cc709534",
+      "sha256_unsigned": "03935ab1fa24ce2fd4c3845f102d688c14515ecf2b37008de549d567cc709534",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_re350k-v1-squashfs-factory.bin",
+      "sha256": "c51289165491ce57875fc67ad910d81f6c7091685e8c898057a8b4e2f0c2811f",
+      "sha256_unsigned": "c51289165491ce57875fc67ad910d81f6c7091685e8c898057a8b4e2f0c2811f",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_re350k-v1-squashfs-sysupgrade.bin",
+      "sha256": "d499a685e2fd934b6f9b8a9b1678628dc4140ad0a260b75162bc544db5526ca2",
+      "sha256_unsigned": "d22b2862486f34875ae98fd26717d06be38e86c505dfe50fee95e5c36c9b43d9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_re350k-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,re350k-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "RE350K",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

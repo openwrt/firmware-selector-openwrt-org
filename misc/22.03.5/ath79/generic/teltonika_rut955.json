@@ -1,0 +1,87 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-acm",
+    "kmod-usb-net-qmi-wwan",
+    "kmod-usb-serial-option",
+    "kmod-hwmon-mcp3021",
+    "uqmi",
+    "-uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-teltonika_rut955",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-teltonika_rut955-initramfs-kernel.bin",
+      "sha256": "9c020141127b82ec0369abab8d7ef30b67028c8c63d9b9bf2316511b18ff8268",
+      "sha256_unsigned": "9c020141127b82ec0369abab8d7ef30b67028c8c63d9b9bf2316511b18ff8268",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-teltonika_rut955-squashfs-sysupgrade.bin",
+      "sha256": "1ba547b5e16cbd28fb94c4d4279a07f96b865b6a0e7e0787f58afee10e2eb754",
+      "sha256_unsigned": "ea8234008b4e93af3dc4e02c259e18b85f0a716363f8f815885d7e3fc5ce75ef",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-teltonika_rut955-squashfs-factory.bin",
+      "sha256": "3971786bdb01ad0db88fba2966181307fcaf2a2101ec5c24ab8a715b1d3c6507",
+      "sha256_unsigned": "3971786bdb01ad0db88fba2966181307fcaf2a2101ec5c24ab8a715b1d3c6507",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "teltonika_rut955",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "teltonika,rut955"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "RUT955",
+      "vendor": "Teltonika"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "uboot-envtools",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct",
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-openmesh_a60",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-openmesh_a60-initramfs-kernel.bin",
+      "sha256": "d784b28c1b03fe5faf14a67102eb76501fb1068613a222ffa422c032ab576f74",
+      "sha256_unsigned": "d784b28c1b03fe5faf14a67102eb76501fb1068613a222ffa422c032ab576f74",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-openmesh_a60-squashfs-sysupgrade.bin",
+      "sha256": "678130d42685f982a47be10d341bfb47a777c9d3ef1450409081167ca3179537",
+      "sha256_unsigned": "8144c228d6562a184ec2c915aee4859b26f2ea90ee2a1c1d7f52b1e158b301fc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "openmesh_a60",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "openmesh,a60",
+    "a60"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "A60",
+      "vendor": "OpenMesh"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

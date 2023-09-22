@@ -1,0 +1,65 @@
+{
+  "arch_packages": "arm_cortex-a9_neon",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-fs-msdos",
+    "kmod-nft-offload",
+    "kmod-usb-storage",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/zynq/generic/",
+  "image_prefix": "openwrt-22.03.5-zynq-avnet_zynq-zed",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-zynq-avnet_zynq-zed-squashfs-sdcard.img.gz",
+      "sha256": "fc710e25f5b21fd6cac02c9ce9e1eff668b8549e89843022db1472629d780cc4",
+      "sha256_unsigned": "fc710e25f5b21fd6cac02c9ce9e1eff668b8549e89843022db1472629d780cc4",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "avnet_zynq-zed",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "avnet,zynq-zed"
+  ],
+  "target": "zynq/generic",
+  "titles": [
+    {
+      "model": "ZedBoard",
+      "vendor": "Avnet"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

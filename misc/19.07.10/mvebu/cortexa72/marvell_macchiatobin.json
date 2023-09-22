@@ -1,0 +1,72 @@
+{
+  "arch_packages": "aarch64_cortex-a72",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "e2fsprogs",
+    "ethtool",
+    "mkf2fs",
+    "partx-utils",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-i2c-core",
+    "kmod-i2c-mux",
+    "kmod-i2c-mux-pca954x"
+  ],
+  "image_path": "19.07.10/targets/mvebu/cortexa72/",
+  "image_prefix": "openwrt-19.07.10-mvebu-cortexa72-marvell_macchiatobin",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-mvebu-cortexa72-marvell_macchiatobin-ext4-sdcard.img.gz",
+      "sha256": "b5017e0ae57892809e4d47edb97e5756ab98d63c596f725e3db7ba7264a08e36",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-mvebu-cortexa72-marvell_macchiatobin-squashfs-sdcard.img.gz",
+      "sha256": "c0da1962fc56568c97d30e59eeb4d129dca4e6fc124f9cf5cdab0d7777b71b3a",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "marvell_macchiatobin",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "marvell,armada8040-mcbin"
+  ],
+  "target": "mvebu/cortexa72",
+  "titles": [
+    {
+      "title": "MACCHIATObin (SolidRun Armada 8040 Community Board)"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

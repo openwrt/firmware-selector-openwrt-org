@@ -1,0 +1,81 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9888-ct",
+    "uboot-envtools"
+  ],
+  "image_path": "19.07.10/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-19.07.10-ipq40xx-generic-openmesh_a62",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq40xx-generic-openmesh_a62-squashfs-sysupgrade.bin",
+      "sha256": "0bd330b31d071bbb11fad3ab40976e38aed69597022e745b9e70c67de2b6a5dc",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq40xx-generic-openmesh_a62-squashfs-factory.bin",
+      "sha256": "8316d543dcc1bf4bc835834c0f10d93294984d4226b03e5e3bcbe354077fb4ef",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "openmesh_a62",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "openmesh,a62"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "title": "OpenMesh A62"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

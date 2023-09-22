@@ -1,0 +1,122 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "bcm27xx-gpu-fw",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-fs-vfat",
+    "kmod-nft-offload",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "kmod-sound-arm-bcm2835",
+    "kmod-sound-core",
+    "kmod-usb-hid",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed"
+  ],
+  "device_packages": [
+    "cypress-firmware-43430-sdio",
+    "cypress-nvram-43430-sdio-rpi-3b",
+    "cypress-firmware-43455-sdio",
+    "cypress-nvram-43455-sdio-rpi-3b-plus",
+    "cypress-nvram-43455-sdio-rpi-4b",
+    "kmod-brcmfmac",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm27xx/bcm2709/",
+  "image_prefix": "openwrt-22.03.5-bcm27xx-bcm2709-rpi-2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm27xx-bcm2709-rpi-2-squashfs-factory.img.gz",
+      "sha256": "040d49246b07e7bdb2e313f44752ebc46eefc537723d01d10951984140064053",
+      "sha256_unsigned": "040d49246b07e7bdb2e313f44752ebc46eefc537723d01d10951984140064053",
+      "type": "factory"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-bcm27xx-bcm2709-rpi-2-ext4-factory.img.gz",
+      "sha256": "e3475eab88cc288ee099844293154900c063ea7b3f5b1ce49e4a7d27db97438a",
+      "sha256_unsigned": "e3475eab88cc288ee099844293154900c063ea7b3f5b1ce49e4a7d27db97438a",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm27xx-bcm2709-rpi-2-squashfs-sysupgrade.img.gz",
+      "sha256": "87eafd849cfe9e6d92d5e88ab4f16c5e9148d55bd69526ac013671317291e808",
+      "sha256_unsigned": "89ea99e60c27ead5b5ed6fc8f5d319319ee8a22a35ac9a19aafed875026b827b",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-bcm27xx-bcm2709-rpi-2-ext4-sysupgrade.img.gz",
+      "sha256": "b3010c840169eb366e9cb1f0bc979b635090cdfb0ceefafc2516efeb28be23b0",
+      "sha256_unsigned": "2d90e08a24c3e06b7a39c3dd1420e65a693c970556d827f36b5f065d792c62d1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "rpi-2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "rpi-2-b",
+    "rpi-3-b",
+    "rpi-3-b-plus",
+    "rpi-cm",
+    "raspberrypi,2-model-b",
+    "raspberrypi,2-model-b-rev2",
+    "raspberrypi,3-model-b",
+    "raspberrypi,3-model-b-plus",
+    "raspberrypi,3-compute-module",
+    "raspberrypi,compute-module-3",
+    "raspberrypi,400",
+    "raspberrypi,4-compute-module",
+    "raspberrypi,4-model-b"
+  ],
+  "target": "bcm27xx/bcm2709",
+  "titles": [
+    {
+      "model": "2B/2B 1.2",
+      "variant": "(32bit)",
+      "vendor": "Raspberry Pi"
+    },
+    {
+      "model": "3B/3B+/3CM",
+      "variant": "(32bit)",
+      "vendor": "Raspberry Pi"
+    },
+    {
+      "model": "4B/400/4CM",
+      "variant": "(32bit)",
+      "vendor": "Raspberry Pi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

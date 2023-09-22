@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "-wpad-basic-wolfssl"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-mikrotik_routerboard-m11g",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-mikrotik_routerboard-m11g-squashfs-sysupgrade.bin",
+      "sha256": "d89e5fcd7eb47c8b5c38e493c9d9ff6f75c3731b034e2f8e6b3852a9f218397d",
+      "sha256_unsigned": "71529e1c1c36205a6f38f7c1b811002c5b61ef5b4c915808f8e8f381c2934fd3",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-mikrotik_routerboard-m11g-initramfs-kernel.bin",
+      "sha256": "94fc06f0c479024056e5a493d2bae1eba68de8eb8e05bdefe2105730c8520c00",
+      "sha256_unsigned": "94fc06f0c479024056e5a493d2bae1eba68de8eb8e05bdefe2105730c8520c00",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mikrotik_routerboard-m11g",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mikrotik,routerboard-m11g",
+    "mikrotik,rbm11g"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RouterBOARD M11G",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,86 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ath9k-htc",
+    "wpad-basic-wolfssl",
+    "kmod-ltq-adsl-ar9-mei",
+    "kmod-ltq-adsl-ar9",
+    "kmod-ltq-adsl-ar9-fw-b",
+    "kmod-ltq-atm-ar9",
+    "kmod-ltq-deu-ar9",
+    "ltq-adsl-app",
+    "ppp-mod-pppoe",
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ltq-tapi",
+    "kmod-ltq-vmmc",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/lantiq/xway/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xway-zte_h201l",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xway-zte_h201l-squashfs-sysupgrade.bin",
+      "sha256": "96d9ef19a122d17bf945db633a207f85c2f9da5138dc5d219ae5b8be3360d1fc",
+      "sha256_unsigned": "ce3b897cbd48165dd60e73870eb5232888fe2dd3881443e0dbd4c823c7e3e8eb",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xway-zte_h201l-initramfs-kernel.bin",
+      "sha256": "b8afcc73b6c460b8dd83c9e080a1881139d66d5278614da5feebe45ef0941cca",
+      "sha256_unsigned": "b8afcc73b6c460b8dd83c9e080a1881139d66d5278614da5feebe45ef0941cca",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zte_h201l",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zte,h201l",
+    "H201L"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "H201L",
+      "vendor": "ZTE"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

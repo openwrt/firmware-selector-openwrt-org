@@ -1,0 +1,84 @@
+{
+  "arch_packages": "aarch64_generic",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "layerscape-ppfe",
+    "tfa-ls1012a-frwy-sdboot",
+    "kmod-ppfe"
+  ],
+  "image_path": "22.03.5/targets/layerscape/armv8_64b/",
+  "image_prefix": "openwrt-22.03.5-layerscape-armv8_64b-fsl_ls1012a-frwy-sdboot",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-layerscape-armv8_64b-fsl_ls1012a-frwy-sdboot-squashfs-sdcard.img.gz",
+      "sha256": "962ce3d907504471b7ad1e932c168a99a39e7a7af460161772f5d1279f32ea43",
+      "sha256_unsigned": "962ce3d907504471b7ad1e932c168a99a39e7a7af460161772f5d1279f32ea43",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-layerscape-armv8_64b-fsl_ls1012a-frwy-sdboot-squashfs-sysupgrade.bin",
+      "sha256": "72684db290cfe30f86172de0e37fe546a8970fe00c6a193bbc79b9f83b6dd607",
+      "sha256_unsigned": "a3c447e3260a5a097de3660430aab99b0bc1002cb4b08d87a7033bfe2f1dcbc6",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-layerscape-armv8_64b-fsl_ls1012a-frwy-sdboot-squashfs-firmware.bin",
+      "sha256": "9cf4d16ba6911bf6b194116cd36199ac92ccfce2931572bdd009ea39d0273ed4",
+      "sha256_unsigned": "9cf4d16ba6911bf6b194116cd36199ac92ccfce2931572bdd009ea39d0273ed4",
+      "type": "firmware"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "fsl_ls1012a-frwy-sdboot",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "fsl,ls1012a-frwy-sdboot"
+  ],
+  "target": "layerscape/armv8_64b",
+  "titles": [
+    {
+      "model": "FRWY-LS1012A",
+      "vendor": "NXP"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

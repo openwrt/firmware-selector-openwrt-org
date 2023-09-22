@@ -1,0 +1,78 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-19.07.10-ipq40xx-generic-netgear_ex6100v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq40xx-generic-netgear_ex6100v2-squashfs-sysupgrade.bin",
+      "sha256": "82c1931141e5fe128784bab765544d34e6bed4c7fa847e239afb143ad7d97b80",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq40xx-generic-netgear_ex6100v2-squashfs-factory.img",
+      "sha256": "ebc25d1bdf52fad8d4e8c47348be65d0566ebc911794d94e1c4520aa89062d1a",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_ex6100v2",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "netgear,ex6100v2"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "title": "Netgear EX6100v2"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "19.07.10/targets/ath79/generic/",
+  "image_prefix": "openwrt-19.07.10-ath79-generic-iodata_wn-ac1167dgr",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-generic-iodata_wn-ac1167dgr-squashfs-factory.bin",
+      "sha256": "509648ab919ebe53b9a852b76247abbd4e5e426f0f64e3735c1181c9dd03663f",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-generic-iodata_wn-ac1167dgr-squashfs-sysupgrade.bin",
+      "sha256": "6f70f76f328e887baa854061d46c7449fa71bf117b506decdf72b973a222a301",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iodata_wn-ac1167dgr",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "iodata,wn-ac1167dgr"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "I-O DATA WN-AC1167DGR"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

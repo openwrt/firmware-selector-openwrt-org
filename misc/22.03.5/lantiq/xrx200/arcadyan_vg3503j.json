@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-deu-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "ltq-vdsl-app",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoa",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/lantiq/xrx200/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xrx200-arcadyan_vg3503j",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-arcadyan_vg3503j-squashfs-sysupgrade.bin",
+      "sha256": "d34091da51e11eb514eb6155b7073497631d8b172faac734ad1d8c9c56059fdf",
+      "sha256_unsigned": "91161f1983389546c06b224c030a3ce0f274fed78d8f64641e43f5208016c0e8",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xrx200-arcadyan_vg3503j-initramfs-kernel.bin",
+      "sha256": "045c256278061c000b27689a1c55b19cd236f02f6a4ec16536ecfab409bce77e",
+      "sha256_unsigned": "045c256278061c000b27689a1c55b19cd236f02f6a4ec16536ecfab409bce77e",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "arcadyan_vg3503j",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "arcadyan,vg3503j",
+    "VG3503J"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "ECI VDSL Modem V-2FUb/R",
+      "vendor": "BT Openreach"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

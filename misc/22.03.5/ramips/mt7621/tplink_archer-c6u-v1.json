@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt7615e",
+    "kmod-mt7663-firmware-ap",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-tplink_archer-c6u-v1",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-tplink_archer-c6u-v1-initramfs-kernel.bin",
+      "sha256": "c44191db0c0bf843d5303ba62fce43ff4d35d353821c3df453e89933b6e39958",
+      "sha256_unsigned": "c44191db0c0bf843d5303ba62fce43ff4d35d353821c3df453e89933b6e39958",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-tplink_archer-c6u-v1-squashfs-factory.bin",
+      "sha256": "ea2ce35033ca4d2f3b19a6d52099d25518004e436236a10ab9ff11a6dd137dc7",
+      "sha256_unsigned": "ea2ce35033ca4d2f3b19a6d52099d25518004e436236a10ab9ff11a6dd137dc7",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-tplink_archer-c6u-v1-squashfs-sysupgrade.bin",
+      "sha256": "cd66b49023561d602d0e808f22fc2e41bebbea74a223f913a2fae74bfb749398",
+      "sha256_unsigned": "1134f217bc0995100c06859c52836d67b64146c4fecfa4d2755c8250ba5c095f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-c6u-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-c6u-v1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Archer C6U",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

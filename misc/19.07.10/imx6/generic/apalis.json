@@ -1,0 +1,77 @@
+{
+  "arch_packages": "arm_cortex-a9_neon",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "mkf2fs",
+    "e2fsprogs",
+    "blkid",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "mkf2fs",
+    "e2fsprogs",
+    "blkid"
+  ],
+  "device_packages": [
+    "kmod-can",
+    "kmod-can-flexcan",
+    "kmod-can-raw",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-pps-gpio",
+    "kmod-rtc-ds1307"
+  ],
+  "image_path": "19.07.10/targets/imx6/generic/",
+  "image_prefix": "openwrt-19.07.10-imx6-apalis",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-imx6-apalis-squashfs.combined.bin",
+      "sha256": "1b99bdb6aa0d21185e876d5b35eb2ddfb37dfadfd3112e9ce95314ec9a19d638",
+      "type": "combined"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-imx6-apalis-squashfs.sysupgrade.bin",
+      "sha256": "88d427de5f44bd7c3797c327adbcb0b392fa918e00d752aaf460bd7f31a8c31b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "apalis",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "apalis,ixora",
+    "apalis,eval"
+  ],
+  "target": "imx6/generic",
+  "titles": [
+    {
+      "title": "Toradex Apalis family"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

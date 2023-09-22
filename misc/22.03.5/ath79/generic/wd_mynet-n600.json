@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-wd_mynet-n600",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-wd_mynet-n600-squashfs-factory.bin",
+      "sha256": "c1dc3314ed8d038a0e281a638daf16a8c31d324255dc1619c807108788fc8258",
+      "sha256_unsigned": "c1dc3314ed8d038a0e281a638daf16a8c31d324255dc1619c807108788fc8258",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-wd_mynet-n600-squashfs-sysupgrade.bin",
+      "sha256": "09e359d4b5d721febf110268300a1c9db8fde0d0f23342c0076fd0fb524c25f3",
+      "sha256_unsigned": "1814a07fb09e2cb39fd5f2df63387f788c8b5093925076d76f69f2d8ba6d9e60",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-wd_mynet-n600-initramfs-kernel.bin",
+      "sha256": "19b15fe059b0f69831495e130b2359dfa5b4b98b8df5f211de45452c37857954",
+      "sha256_unsigned": "19b15fe059b0f69831495e130b2359dfa5b4b98b8df5f211de45452c37857954",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "wd_mynet-n600",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "wd,mynet-n600",
+    "mynet-n600"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "My Net N600",
+      "vendor": "Western Digital"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-enterasys_ws-ap3705i",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-enterasys_ws-ap3705i-initramfs-kernel.bin",
+      "sha256": "2994963baf7727eae509b52d70602694680f7578d8070828469ca50de2f4142a",
+      "sha256_unsigned": "2994963baf7727eae509b52d70602694680f7578d8070828469ca50de2f4142a",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-enterasys_ws-ap3705i-squashfs-sysupgrade.bin",
+      "sha256": "16a4ef80f51a0377e2b9222e284ffe305a1b6d7d5787ce3174c3bf9a41c26a26",
+      "sha256_unsigned": "61336cb80ae121beb51f091920130d3a8da06b891a9ed72dca1c99daba4bf55a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "enterasys_ws-ap3705i",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "enterasys,ws-ap3705i"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WS-AP3705i",
+      "vendor": "Enterasys"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

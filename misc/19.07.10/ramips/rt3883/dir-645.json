@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-pci",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "swconfig"
+  ],
+  "image_path": "19.07.10/targets/ramips/rt3883/",
+  "image_prefix": "openwrt-19.07.10-ramips-rt3883-dir-645",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-rt3883-dir-645-squashfs-sysupgrade.bin",
+      "sha256": "8a93bbd2f17b05f16363fda11f7cc287fd099e30d0ecf062eeadc7b3f6fa1262",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-rt3883-dir-645-squashfs-factory.bin",
+      "sha256": "2c48cd07c4e93930417da30311c03e8d045d56702ff05b5f35da68e7c9924d7b",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dir-645",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "dir-645"
+  ],
+  "target": "ramips/rt3883",
+  "titles": [
+    {
+      "title": "D-Link DIR-645"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

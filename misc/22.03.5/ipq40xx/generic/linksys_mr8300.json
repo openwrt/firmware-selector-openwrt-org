@@ -1,0 +1,89 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-board-qca4019",
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9888-ct",
+    "ipq-wifi-linksys_mr8300-v0",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-generic-linksys_mr8300",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-linksys_mr8300-squashfs-sysupgrade.bin",
+      "sha256": "6994266537a003ce22334c574417c4562a6175bdd0fb718ca0c31b605fde1ed4",
+      "sha256_unsigned": "c7de2bdcd37459e6c9e7e1cad92015c50ee59b1e23e528c888a3652c826b55ee",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-linksys_mr8300-initramfs-fit-zImage.itb",
+      "sha256": "af072f21035066fbf26f78fd5bc494dc76fcb4c98bd603bb8e35bae390c441a9",
+      "sha256_unsigned": "af072f21035066fbf26f78fd5bc494dc76fcb4c98bd603bb8e35bae390c441a9",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-linksys_mr8300-squashfs-factory.bin",
+      "sha256": "7d9e46602162c98268c440d03b40c8c4f50cc27f2929d0566d6d9ac42edaf60e",
+      "sha256_unsigned": "7d9e46602162c98268c440d03b40c8c4f50cc27f2929d0566d6d9ac42edaf60e",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksys_mr8300",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "linksys,mr8300"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "MR8300",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

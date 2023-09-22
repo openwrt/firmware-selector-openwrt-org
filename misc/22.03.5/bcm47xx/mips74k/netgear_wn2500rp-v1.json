@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "nvram",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "otrx",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-b43"
+  ],
+  "image_path": "22.03.5/targets/bcm47xx/mips74k/",
+  "image_prefix": "openwrt-22.03.5-bcm47xx-mips74k-netgear_wn2500rp-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm47xx-mips74k-netgear_wn2500rp-v1-squashfs.chk",
+      "sha256": "4d9eb5fde176c8ec0288851de58fc166c275a058029ad144fb3189b8e4ababd9",
+      "sha256_unsigned": "4d9eb5fde176c8ec0288851de58fc166c275a058029ad144fb3189b8e4ababd9",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wn2500rp-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wn2500rp-v1"
+  ],
+  "target": "bcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "WN2500RP",
+      "variant": "v1",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

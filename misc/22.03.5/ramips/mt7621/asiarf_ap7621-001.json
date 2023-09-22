@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-sdhci-mt7620",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "-wpad-basic-wolfssl"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-asiarf_ap7621-001",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-asiarf_ap7621-001-initramfs-kernel.bin",
+      "sha256": "a889ec9927e569bbc2306c409a442b66aae37e16b8c52d0298e6fdbfaf8c3109",
+      "sha256_unsigned": "a889ec9927e569bbc2306c409a442b66aae37e16b8c52d0298e6fdbfaf8c3109",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-asiarf_ap7621-001-squashfs-sysupgrade.bin",
+      "sha256": "c81f97263e60ad7858724c4b9f161116e6978d71b626aa3a734918883104551b",
+      "sha256_unsigned": "c824aad20eb49bd11bca6505a8e395a59f71003609ed67e016db94d0ab6ef67a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "asiarf_ap7621-001",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "asiarf,ap7621-001"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "AP7621-001",
+      "vendor": "AsiaRF"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

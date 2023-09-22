@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt7620-whr-1166d",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7620-whr-1166d-squashfs-sysupgrade.bin",
+      "sha256": "77b26c3e6ab78af52641129af32a0a3df750c69dec84790047185e066e7e3638",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "whr-1166d",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "whr-1166d"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "title": "Buffalo WHR-1166D"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ubnt_litebeam-ac-gen2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_litebeam-ac-gen2-squashfs-sysupgrade.bin",
+      "sha256": "e71dece0906976371841b05f481718a627f2d14a2000411d6e1c497976245792",
+      "sha256_unsigned": "0499c5bea229196bf644464a2884fb2bb86438d965c093bc11789c54aca10abe",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_litebeam-ac-gen2-squashfs-factory.bin",
+      "sha256": "9e112cf785852327d2258b62e340883e58d7bf8a75196a9d2d07eafdcb68c914",
+      "sha256_unsigned": "9e112cf785852327d2258b62e340883e58d7bf8a75196a9d2d07eafdcb68c914",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_litebeam-ac-gen2-initramfs-kernel.bin",
+      "sha256": "17c0f18e028e0b64fd37f4a1c52d422107465bbe2c429e28399589ecdaff1372",
+      "sha256_unsigned": "17c0f18e028e0b64fd37f4a1c52d422107465bbe2c429e28399589ecdaff1372",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_litebeam-ac-gen2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,litebeam-ac-gen2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "LiteBeam AC",
+      "variant": "Gen2",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

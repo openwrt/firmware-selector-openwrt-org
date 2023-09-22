@@ -1,0 +1,66 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/omap/generic/",
+  "image_prefix": "openwrt-19.07.10-omap-ti_am335x-bone-black",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-omap-ti_am335x-bone-black-ext4-sdcard.img.gz",
+      "sha256": "3894810eff42a8e0dac00e633e81d9b4200442ce698d16c57ab360e4783b3424",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-omap-ti_am335x-bone-black-squashfs-sdcard.img.gz",
+      "sha256": "bf36f920f664b0d00618a0fb24f17b13cc4852ab4b5e3017a2fa3a6f801c38dc",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ti_am335x-bone-black",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "ti,am335x-bone-black"
+  ],
+  "target": "omap/generic",
+  "titles": [
+    {
+      "title": "TI AM335x BeagleBone Black"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

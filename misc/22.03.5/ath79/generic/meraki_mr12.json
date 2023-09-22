@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-owl-loader",
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-meraki_mr12",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-meraki_mr12-squashfs-sysupgrade.bin",
+      "sha256": "9aa2e9c427d40bfe865bb4a573d7264aefc02a7d41cc3dbb41aeb4cce71e7919",
+      "sha256_unsigned": "526f4ef5d4b390ded1acf322ccadca257a36d18670937b21ae8e26b323c234d1",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-meraki_mr12-initramfs-kernel.bin",
+      "sha256": "ea78b9a5d0d612412097f901a6359e765eab05ef547428ceb418d4448f10e89e",
+      "sha256_unsigned": "ea78b9a5d0d612412097f901a6359e765eab05ef547428ceb418d4448f10e89e",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "meraki_mr12",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "meraki,mr12",
+    "mr12"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "MR12",
+      "vendor": "Meraki"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

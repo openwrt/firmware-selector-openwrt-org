@@ -1,0 +1,87 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "-kmod-ath9k",
+    "-wpad-basic-wolfssl",
+    "-uboot-envtools",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "fconfig",
+    "-swconfig"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ubnt_routerstation",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_routerstation-squashfs-factory.bin",
+      "sha256": "d8ebc98fc9403f3fa5f6dbe4553f38139e229acd99aea37700d78a72b9581fe7",
+      "sha256_unsigned": "d8ebc98fc9403f3fa5f6dbe4553f38139e229acd99aea37700d78a72b9581fe7",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_routerstation-initramfs-kernel.bin",
+      "sha256": "b72f095fdf258788d2a9610722a725479cd830f0385a8393c142b5393985c872",
+      "sha256_unsigned": "b72f095fdf258788d2a9610722a725479cd830f0385a8393c142b5393985c872",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_routerstation-squashfs-sysupgrade.bin",
+      "sha256": "1a2c4c62069e4314c1f21da9a2a5f7670f2d337c49ac2f4a3840823d5ea68a0b",
+      "sha256_unsigned": "562b71d6035a47804e14b81cd12fc51e980a4dd505f20f6d61ea0075c421edc4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_routerstation",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,routerstation"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "RouterStation",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

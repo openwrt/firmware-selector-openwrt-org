@@ -1,0 +1,77 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-iom_iconnect-1.1",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-iom_iconnect-1.1-initramfs-uImage",
+      "sha256": "55a89ef5c2032fb1f5c890dc5e36126dec27042b1eee1b4dc1d7b0d6e7351a00",
+      "sha256_unsigned": "55a89ef5c2032fb1f5c890dc5e36126dec27042b1eee1b4dc1d7b0d6e7351a00",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-iom_iconnect-1.1-squashfs-factory.bin",
+      "sha256": "3391bf75b8a07d4df6f8a8e5d209a51d6b710bfa85fd65b43c182b5037ccbfe5",
+      "sha256_unsigned": "3391bf75b8a07d4df6f8a8e5d209a51d6b710bfa85fd65b43c182b5037ccbfe5",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-iom_iconnect-1.1-squashfs-sysupgrade.bin",
+      "sha256": "0c638840a575009f597993472c1760cdaba0befe74865d90611ec858b17e09ca",
+      "sha256_unsigned": "12fa6e3b1c82224e7b4dc01d1b593565ad194c150cdb5d966797a26d3a062459",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iom_iconnect-1.1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iom,iconnect-1.1",
+    "iconnect"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "Iconnect",
+      "vendor": "Iomega"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

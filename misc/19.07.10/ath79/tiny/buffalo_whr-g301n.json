@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/ath79/tiny/",
+  "image_prefix": "openwrt-19.07.10-ath79-tiny-buffalo_whr-g301n",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-tiny-buffalo_whr-g301n-squashfs-factory.bin",
+      "sha256": "1a762ee5cf8a1b8a73dffaa1be3131680747c97ae3c24d939b6d9f2f1310f32e",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-tiny-buffalo_whr-g301n-squashfs-sysupgrade.bin",
+      "sha256": "ce4abd8f63e6a0a4900c99733441fac6880c9b48f445250126e8dfce9c19eb8e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-tiny-buffalo_whr-g301n-squashfs-tftp.bin",
+      "sha256": "aa4200e5057bf17528f22de2fe0ead95da09ca5a8f5391480d3050b9c1962ec8",
+      "type": "tftp"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_whr-g301n",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "buffalo,whr-g301n",
+    "whr-g301n"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "title": "Buffalo WHR-G301N"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

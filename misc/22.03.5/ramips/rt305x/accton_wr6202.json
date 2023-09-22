@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-accton_wr6202",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-accton_wr6202-initramfs-kernel.bin",
+      "sha256": "7c55db9f253e952ab8606957a79a5b96ef94944a486be7716ffc0a25aabfc8aa",
+      "sha256_unsigned": "7c55db9f253e952ab8606957a79a5b96ef94944a486be7716ffc0a25aabfc8aa",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-accton_wr6202-squashfs-sysupgrade.bin",
+      "sha256": "6ea62542dbb216d382c15155d88473ce3ff949c682fbe8b0a6c8fa662977427e",
+      "sha256_unsigned": "40b6299872f0ac24587bed389ebb96e19532f3c3fcbf3de7f058cfb042d1630f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "accton_wr6202",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "accton,wr6202",
+    "wr6202"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "WR6202",
+      "vendor": "Accton"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

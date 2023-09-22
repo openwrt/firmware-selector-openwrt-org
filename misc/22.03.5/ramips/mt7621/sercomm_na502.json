@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-mt7603",
+    "kmod-usb3"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-sercomm_na502",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-sercomm_na502-squashfs-sysupgrade.bin",
+      "sha256": "ea307a14947a52c96dc506672e6f187e3a3204059a192dbd0458f224d72bb7a5",
+      "sha256_unsigned": "92df90e8e2f6712b3e431ec8f6bcf657bc7f9fc037d7300d8759c4f03b23ca26",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-sercomm_na502-initramfs-kernel.bin",
+      "sha256": "372cf47ae890b28164fc42c1854b95d7fe281e1c7fa972ade492b67d44e45fdb",
+      "sha256_unsigned": "372cf47ae890b28164fc42c1854b95d7fe281e1c7fa972ade492b67d44e45fdb",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "sercomm_na502",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "sercomm,na502"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "NA502",
+      "vendor": "SERCOMM"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

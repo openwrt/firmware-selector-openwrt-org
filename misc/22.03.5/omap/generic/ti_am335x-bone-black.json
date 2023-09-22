@@ -1,0 +1,70 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/omap/generic/",
+  "image_prefix": "openwrt-22.03.5-omap-ti_am335x-bone-black",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-omap-ti_am335x-bone-black-ext4-sdcard.img.gz",
+      "sha256": "5ee37a7e5672739c7119f974fc94c94ee9e0d00f53e19c72228992296688c4d5",
+      "sha256_unsigned": "4c745847b82133ebc70c63ac45cccbf09617c60f83db430ce7d91bd4a7f0c7ec",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-omap-ti_am335x-bone-black-squashfs-sdcard.img.gz",
+      "sha256": "4543f155cd1d4467d26239744799c34a0d933ad0a44c9c101cf6a8a1864a8f79",
+      "sha256_unsigned": "482472930f9d7db43bfd19e1d74a2dc9d10a20c288d2aa373f9d102c1bf4e8ae",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ti_am335x-bone-black",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ti,am335x-bone-black"
+  ],
+  "target": "omap/generic",
+  "titles": [
+    {
+      "model": "AM335x BeagleBone Black",
+      "vendor": "Texas Instruments"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

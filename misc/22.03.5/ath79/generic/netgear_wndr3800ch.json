@@ -1,0 +1,86 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-netgear_wndr3800ch",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wndr3800ch-squashfs-sysupgrade.bin",
+      "sha256": "368e22297d7ca89d796c7b5a8e48ae4639995e4f0501c263f3fb044aa5ca2671",
+      "sha256_unsigned": "222000297902a4640ef0f15148c48d8d409ac6cf8ba320d73f74d1f3989a0cbd",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wndr3800ch-initramfs-kernel.bin",
+      "sha256": "2d211acec0c0353515dfc351edbbc5015f5d56ed2c625e5f570bff42bcb502a9",
+      "sha256_unsigned": "2d211acec0c0353515dfc351edbbc5015f5d56ed2c625e5f570bff42bcb502a9",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wndr3800ch-squashfs-factory.img",
+      "sha256": "95086df7abe8c3f99ba370b5674ed8b3985eb647d5b4430d75efbde2cc72db4a",
+      "sha256_unsigned": "95086df7abe8c3f99ba370b5674ed8b3985eb647d5b4430d75efbde2cc72db4a",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wndr3800ch",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wndr3800ch",
+    "wndr3700"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WNDR3800CH",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

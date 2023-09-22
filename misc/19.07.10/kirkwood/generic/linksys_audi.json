@@ -1,0 +1,69 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-mwl8k",
+    "swconfig",
+    "wpad-basic",
+    "kmod-gpio-button-hotplug",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-19.07.10-kirkwood-linksys_audi",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-kirkwood-linksys_audi-squashfs-sysupgrade.bin",
+      "sha256": "ed59adc219f5cb23954e23a3de034f16348f3acda3ff0080fbf563377c18d733",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-kirkwood-linksys_audi-squashfs-factory.bin",
+      "sha256": "fa6179fc65d34ecf9890f879c886a718a736c0ddf6060788ce2c7a3d8b4c559e",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksys_audi",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "linksys,audi",
+    "linksys-audi"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "title": "Linksys EA3500 (Audi)"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

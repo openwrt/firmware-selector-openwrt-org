@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-smp-technicolor_tg582n",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-technicolor_tg582n-squashfs-sysupgrade.bin",
+      "sha256": "2a4c37723f76969c7fd441c04129df4aa5a987a28761e9542b1a9a5e15bf3123",
+      "sha256_unsigned": "2a4c37723f76969c7fd441c04129df4aa5a987a28761e9542b1a9a5e15bf3123",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-technicolor_tg582n-squashfs-cfe.bin",
+      "sha256": "84f33008a1cd82f6eede9609817ad02e033a68e3faeeddc61f313a0d7f939bab",
+      "sha256_unsigned": "84f33008a1cd82f6eede9609817ad02e033a68e3faeeddc61f313a0d7f939bab",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "technicolor_tg582n",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "technicolor,tg582n"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "TG582n",
+      "vendor": "Technicolor"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,84 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-at91-udc",
+    "kmod-nft-offload",
+    "kmod-usb-gadget-eth",
+    "kmod-usb-ohci",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/at91/sam9x/",
+  "image_prefix": "openwrt-22.03.5-at91-sam9x-atmel_at91sam9x25ek",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-at91-sam9x-atmel_at91sam9x25ek-ext4-sdcard.img.gz",
+      "sha256": "52e9a4bf1b1dd6cc98484413d4704d1bbd208e605066a84249250b942d902e09",
+      "sha256_unsigned": "52e9a4bf1b1dd6cc98484413d4704d1bbd208e605066a84249250b942d902e09",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-at91-sam9x-atmel_at91sam9x25ek-squashfs-root.ubi",
+      "sha256": "6c16c109596b9428d2ee981f21be2becc06455f5de922f984bcbbb7137dd8839",
+      "sha256_unsigned": "6c16c109596b9428d2ee981f21be2becc06455f5de922f984bcbbb7137dd8839",
+      "type": "root"
+    },
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-at91-sam9x-atmel_at91sam9x25ek-ubifs-root.ubi",
+      "sha256": "c3ec0b8812c71691c3cba0487b9c7b62c7fde6439d6a502d5fa6f0e2c8bb3222",
+      "sha256_unsigned": "c3ec0b8812c71691c3cba0487b9c7b62c7fde6439d6a502d5fa6f0e2c8bb3222",
+      "type": "root"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-at91-sam9x-atmel_at91sam9x25ek-ext4-root.ubi",
+      "sha256": "683ff79f33ed476e8a63d1f66a6686824c8ff5caa42e7ac834af1759011710a8",
+      "sha256_unsigned": "683ff79f33ed476e8a63d1f66a6686824c8ff5caa42e7ac834af1759011710a8",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "atmel_at91sam9x25ek",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "atmel,at91sam9x25ek"
+  ],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "AT91SAM9X25-EK",
+      "vendor": "Atmel"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

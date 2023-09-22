@@ -1,0 +1,83 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-mwl8k",
+    "wpad-basic-wolfssl",
+    "kmod-gpio-button-hotplug",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-linksys_ea3500",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-linksys_ea3500-squashfs-factory.bin",
+      "sha256": "918115300890c176f8c76159f9ddc915ebd6f4e6d9c8f1a2743b66601b8f3a4a",
+      "sha256_unsigned": "918115300890c176f8c76159f9ddc915ebd6f4e6d9c8f1a2743b66601b8f3a4a",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-linksys_ea3500-initramfs-uImage",
+      "sha256": "116778886caefdc10cfe0c2eeb2bd6a87e9d3a5da39cc14200119b3a5fe48133",
+      "sha256_unsigned": "116778886caefdc10cfe0c2eeb2bd6a87e9d3a5da39cc14200119b3a5fe48133",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-linksys_ea3500-squashfs-sysupgrade.bin",
+      "sha256": "153bdafa3fd54af22ee206fca267ecac3f36e97bc6b765b307074c8dc0e9d076",
+      "sha256_unsigned": "2163c8ebb1f2a5f39548108449e4b73c8b76095a4cfdbe058e81d29f2e85c1eb",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksys_ea3500",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "linksys,ea3500",
+    "linksys,audi",
+    "linksys-audi"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "EA3500",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

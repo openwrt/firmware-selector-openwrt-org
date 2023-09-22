@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_wbs210-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_wbs210-v2-squashfs-factory.bin",
+      "sha256": "6e357702e85384e843475d0226831bd3a2e141eb1ab1f77be5fe75664944b69b",
+      "sha256_unsigned": "6e357702e85384e843475d0226831bd3a2e141eb1ab1f77be5fe75664944b69b",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_wbs210-v2-squashfs-sysupgrade.bin",
+      "sha256": "788d5927b4096a2305483cbd608d14a7ab57fa554a80f6188892167a0f0ae89f",
+      "sha256_unsigned": "defc84d652acd3bc05cfa0cfdf698c3d0c3d49c803cd7d61c18a67ef1e186f8a",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_wbs210-v2-initramfs-kernel.bin",
+      "sha256": "627c5652b9ea4dc91dd3045a5b8bc69f14d1e0201eb494cd987de59218cbd6e4",
+      "sha256_unsigned": "627c5652b9ea4dc91dd3045a5b8bc69f14d1e0201eb494cd987de59218cbd6e4",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_wbs210-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,wbs210-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WBS210",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

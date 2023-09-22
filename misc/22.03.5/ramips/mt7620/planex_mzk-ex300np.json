@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-planex_mzk-ex300np",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-planex_mzk-ex300np-initramfs-kernel.bin",
+      "sha256": "da259f2abb54705e81f45039db470b7f6f45c4717b3f2c6d53e35c884b6aa9e5",
+      "sha256_unsigned": "da259f2abb54705e81f45039db470b7f6f45c4717b3f2c6d53e35c884b6aa9e5",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-planex_mzk-ex300np-squashfs-sysupgrade.bin",
+      "sha256": "27f9465736f016e2d223a4f8b86ec1977120381232156aa0ac885b1e94d21cd1",
+      "sha256_unsigned": "0845310056257c1054ade3f8715a80a8ee1cefe09a81f1dfa39a343572131e50",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "planex_mzk-ex300np",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "planex,mzk-ex300np",
+    "mzk-ex300np"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MZK-EX300NP",
+      "vendor": "Planex"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

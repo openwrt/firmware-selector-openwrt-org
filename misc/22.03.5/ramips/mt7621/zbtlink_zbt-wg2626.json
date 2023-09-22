@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ata-ahci",
+    "kmod-sdhci-mt7620",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-zbtlink_zbt-wg2626",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zbtlink_zbt-wg2626-initramfs-kernel.bin",
+      "sha256": "ac869bce8dea271be747004d2c7d44c384df0f6cb2b19cc4e95ae0a307c79bf7",
+      "sha256_unsigned": "ac869bce8dea271be747004d2c7d44c384df0f6cb2b19cc4e95ae0a307c79bf7",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zbtlink_zbt-wg2626-squashfs-sysupgrade.bin",
+      "sha256": "ee52ef516c95b02f10f45f59809fa5f27380d9a16fa1a5faf94c1dbbd5258d97",
+      "sha256_unsigned": "a46b485130ec6b2006f00bf09b2122a09b239fa74a81170a731a8d99d7544bf3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zbtlink_zbt-wg2626",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zbtlink,zbt-wg2626",
+    "zbt-wg2626"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "ZBT-WG2626",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

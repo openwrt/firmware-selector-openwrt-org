@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "image_path": "19.07.10/targets/ath79/generic/",
+  "image_prefix": "openwrt-19.07.10-ath79-generic-buffalo_wzr-hp-ag300h",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-tftp.bin",
+      "sha256": "6b9e4e6f44ecda1c6e1d06c9640f18fe933ce1a027e11d270000de5aecee77ff",
+      "type": "tftp"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-factory.bin",
+      "sha256": "272e5d246785762ebac797515f8cca6537b17da8d20b2232819b106298adbdcc",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-sysupgrade.bin",
+      "sha256": "e7d7280147af1a72ce8979708bdcde8864b995fdf43a891582171b08f70c83ba",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_wzr-hp-ag300h",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "buffalo,wzr-hp-ag300h",
+    "wzr-hp-ag300h"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "Buffalo WZR-HP-AG300H"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

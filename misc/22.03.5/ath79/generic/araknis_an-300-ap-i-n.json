@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-araknis_an-300-ap-i-n",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-araknis_an-300-ap-i-n-squashfs-factory.bin",
+      "sha256": "bbdcc529e537f6a042478f3e0ca5a8c6c8dde46fcf3eba9fbdb528679e7bbdc7",
+      "sha256_unsigned": "bbdcc529e537f6a042478f3e0ca5a8c6c8dde46fcf3eba9fbdb528679e7bbdc7",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-araknis_an-300-ap-i-n-initramfs-kernel.bin",
+      "sha256": "e45ae31d42feb5eedf50ac021b82764f18189f43936383ba0d34002c1a874dab",
+      "sha256_unsigned": "e45ae31d42feb5eedf50ac021b82764f18189f43936383ba0d34002c1a874dab",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-araknis_an-300-ap-i-n-squashfs-sysupgrade.bin",
+      "sha256": "85406a2ebde9e98efc862b436d0fcdc99e69e20cee2971286ea91e1653a2e372",
+      "sha256_unsigned": "cbe5094e15c8f80fa8fcfb68aa5c4a6f87f5a652936df123bc9ec6fcac73caa2",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "araknis_an-300-ap-i-n",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "araknis,an-300-ap-i-n"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "AN-300-AP-I-N",
+      "vendor": "Araknis"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

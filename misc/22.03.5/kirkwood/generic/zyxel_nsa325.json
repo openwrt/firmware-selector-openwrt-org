@@ -1,0 +1,84 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-marvell-sata",
+    "kmod-fs-ext4",
+    "kmod-gpio-button-hotplug",
+    "kmod-rtc-pcf8563",
+    "kmod-usb3"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-zyxel_nsa325",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-zyxel_nsa325-initramfs-uImage",
+      "sha256": "e6a29d7e7296b16b76aca1ea15c7f109de5fde5962a8614a80f02cb9690f825a",
+      "sha256_unsigned": "e6a29d7e7296b16b76aca1ea15c7f109de5fde5962a8614a80f02cb9690f825a",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-zyxel_nsa325-squashfs-factory.bin",
+      "sha256": "1ff07b6cabce676b39b9ab9422a983055e0ef531431f20b75c0754667a156cc2",
+      "sha256_unsigned": "1ff07b6cabce676b39b9ab9422a983055e0ef531431f20b75c0754667a156cc2",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-zyxel_nsa325-squashfs-sysupgrade.bin",
+      "sha256": "e3afbbcd6885191ce8d3a7217fc5aba1450a7cd1fd69d6bbca37b4004d2c2fd4",
+      "sha256_unsigned": "fddd58da19cdcb5bf9e3bbff42256285855a900f96bc9fda08c9b35edeeda789",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_nsa325",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,nsa325",
+    "nsa325"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "NSA325",
+      "variant": "v1/v2",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

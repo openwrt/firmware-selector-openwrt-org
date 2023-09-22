@@ -1,0 +1,77 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-gpio-button-hotplug",
+    "kmod-hwmon-drivetemp",
+    "kmod-hwmon-nct7802",
+    "kmod-rtc-s35390a",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/mvebu/cortexa9/",
+  "image_prefix": "openwrt-22.03.5-mvebu-cortexa9-ctera_c200-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mvebu-cortexa9-ctera_c200-v2-squashfs-sysupgrade.bin",
+      "sha256": "313213b3d13e189e47c8ea15f0fc21d0d442638cf431e75e786dcb04efd61153",
+      "sha256_unsigned": "cf8f774432a656637e0347b5b57fc0a72101ee99712ba236a48d50bd9055d9b8",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mvebu-cortexa9-ctera_c200-v2-initramfs-factory.firm",
+      "sha256": "52642c343718e00ad2fd86abe6525cf575b76b730508b5167d176627ee07b872",
+      "sha256_unsigned": "52642c343718e00ad2fd86abe6525cf575b76b730508b5167d176627ee07b872",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ctera_c200-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ctera,c200-v2"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "C200",
+      "variant": "V2",
+      "vendor": "Ctera"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

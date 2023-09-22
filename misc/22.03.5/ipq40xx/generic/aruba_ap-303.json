@@ -1,0 +1,80 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-board-qca4019",
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ipq-wifi-aruba_ap-303"
+  ],
+  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-generic-aruba_ap-303",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-aruba_ap-303-initramfs-fit-uImage.itb",
+      "sha256": "719bd8a5199aef699066e460317001c53147e3b5140000c3099159dfa0a8cd7b",
+      "sha256_unsigned": "719bd8a5199aef699066e460317001c53147e3b5140000c3099159dfa0a8cd7b",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-aruba_ap-303-squashfs-sysupgrade.bin",
+      "sha256": "64e94f945d0184c3e8430e6461ffc89abaff1ef1ecc5138136e1046d67aed44d",
+      "sha256_unsigned": "3d02bb08d8d19bbd32dd85d210f7bf2febdc7ce5062a1b387b46a5e90781ded1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "aruba_ap-303",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "aruba,ap-303"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "AP-303",
+      "vendor": "Aruba"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

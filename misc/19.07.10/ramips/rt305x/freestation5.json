@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-rt2500-usb",
+    "kmod-rt2800-usb",
+    "kmod-rt2x00-usb"
+  ],
+  "image_path": "19.07.10/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-19.07.10-ramips-rt305x-freestation5",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-rt305x-freestation5-squashfs-sysupgrade.bin",
+      "sha256": "4191313c2d79a72883dacc8b3b428caa53f44c22171f1e1669d143c2549df440",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "freestation5",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "freestation5"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "title": "ARC Wireless FreeStation"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

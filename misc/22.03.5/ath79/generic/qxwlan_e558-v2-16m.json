@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-qxwlan_e558-v2-16m",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-qxwlan_e558-v2-16m-squashfs-sysupgrade.bin",
+      "sha256": "49f7c56cfd5acfcdfec06f97c7c9533a9f5d223cb41d2f5ed72c6847ea92a055",
+      "sha256_unsigned": "12c8e31356d9dae6b3ea6dda30903ce59d40de9f12a6aaec7ab0d4d25ba84622",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-qxwlan_e558-v2-16m-initramfs-kernel.bin",
+      "sha256": "9032291db4036e8d1231227eae7766a50491d8d50648ec3898a0fd241ab222ad",
+      "sha256_unsigned": "9032291db4036e8d1231227eae7766a50491d8d50648ec3898a0fd241ab222ad",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "qxwlan_e558-v2-16m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "qxwlan,e558-v2-16m",
+    "e558-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "E558",
+      "variant": "v2 (16M)",
+      "vendor": "Qxwlan"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

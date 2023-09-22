@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "kmod-mt76",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt7621-telco-electronics_x1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-telco-electronics_x1-squashfs-sysupgrade.bin",
+      "sha256": "c16348ef23dcce2521910347976ea0d8a8729ae1c1dea4a86c68e0760aecd228",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "telco-electronics_x1",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "telco-electronics,x1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Telco Electronics X1"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

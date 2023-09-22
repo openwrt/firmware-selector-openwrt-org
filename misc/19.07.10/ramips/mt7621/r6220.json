@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt7621-r6220",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-r6220-squashfs-rootfs.bin",
+      "sha256": "2abaa2b3833e72b36c6b60b495b4e91ff3d0e773e8a15295006c8a688fcaeb18",
+      "type": "rootfs"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-r6220-squashfs-factory.img",
+      "sha256": "d8e371a50ab1d46ee5c1f51db5885fcb868ab897835ab770bc58a2500c254765",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-r6220-squashfs-kernel.bin",
+      "sha256": "2df01feee49899bea91a27162c16057e8601eb33629af767960aeb753462d010",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-r6220-squashfs-sysupgrade.bin",
+      "sha256": "43b51964fa41d256d619c599859abdc1106d40112b884e82037002fa8db830cd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "r6220",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "r6220"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Netgear R6220"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

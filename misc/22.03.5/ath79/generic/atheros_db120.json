@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-atheros_db120",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-atheros_db120-initramfs-kernel.bin",
+      "sha256": "1108c6ed12a50e1e6f4dd7e9ad5d2dc198a30356252e31cfa770e3fb4b3c8686",
+      "sha256_unsigned": "1108c6ed12a50e1e6f4dd7e9ad5d2dc198a30356252e31cfa770e3fb4b3c8686",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-atheros_db120-squashfs-factory.bin",
+      "sha256": "0d5b8576baf9e3d07cb3787e33d420ddb7d3aff9bc4151ece1df48cf487a6503",
+      "sha256_unsigned": "0d5b8576baf9e3d07cb3787e33d420ddb7d3aff9bc4151ece1df48cf487a6503",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-atheros_db120-squashfs-sysupgrade.bin",
+      "sha256": "a296571173272a008fe6e4a64b9fe220d2c3219bd71591f14387346fa4972ec8",
+      "sha256_unsigned": "bb3b50b9d0acc8b8812eb4c36952739d6359c8cbe9db3e306356ca573bce6c5a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "atheros_db120",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "atheros,db120",
+    "db120"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "DB120",
+      "vendor": "Atheros"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

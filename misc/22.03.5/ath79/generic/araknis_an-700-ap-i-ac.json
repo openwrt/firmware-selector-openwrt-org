@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca988x-ct",
+    "kmod-ath10k-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-araknis_an-700-ap-i-ac",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-araknis_an-700-ap-i-ac-squashfs-factory.bin",
+      "sha256": "283c487b83837fb5d44720a7f3b07c64d70d2bd7b5f4c364154dbf14a1d382f6",
+      "sha256_unsigned": "283c487b83837fb5d44720a7f3b07c64d70d2bd7b5f4c364154dbf14a1d382f6",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-araknis_an-700-ap-i-ac-initramfs-kernel.bin",
+      "sha256": "4612e53f8dfaaeb2edafd54ba3371c87a546a5f9fdd11e321ffff934e4a35096",
+      "sha256_unsigned": "4612e53f8dfaaeb2edafd54ba3371c87a546a5f9fdd11e321ffff934e4a35096",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-araknis_an-700-ap-i-ac-squashfs-sysupgrade.bin",
+      "sha256": "3783aee2ac389bcf6c968fa00f3859b44e6becc8cece9fcf9bb519cb64ee3e7b",
+      "sha256_unsigned": "71746773368be2db5f62e24b00506b782ff64e6358c0e1312e3377a7e0bfaa97",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "araknis_an-700-ap-i-ac",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "araknis,an-700-ap-i-ac"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "AN-700-AP-I-AC",
+      "vendor": "Araknis"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

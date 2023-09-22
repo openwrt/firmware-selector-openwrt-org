@@ -1,0 +1,75 @@
+{
+  "arch_packages": "arm_cortex-a9",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "nvram",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer"
+  ],
+  "device_packages": [
+    "wpad-basic",
+    "kmod-brcmfmac",
+    "brcmfmac-firmware-4366c0-pcie",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/bcm53xx/generic/",
+  "image_prefix": "openwrt-19.07.10-bcm53xx-luxul-xap-1610",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-bcm53xx-luxul-xap-1610-squashfs.lxl",
+      "sha256": "036e67457e883e51577e8ba29bca7267342f20a95e0352548ec2a88a1d4e724b",
+      "type": "lxl"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "luxul-xap-1610",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "title": "Luxul XAP-1610"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

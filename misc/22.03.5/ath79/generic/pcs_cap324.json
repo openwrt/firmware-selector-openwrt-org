@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-pcs_cap324",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-pcs_cap324-squashfs-sysupgrade.bin",
+      "sha256": "247348e7cda19ebe5b5e59227a99e2c84dcc9d2677515684a4aa5800e1b1ad39",
+      "sha256_unsigned": "59198d37600c835b78ab48c4ebeda7a9b01c240e0c3d52c31b1e8d2498c4ac41",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-pcs_cap324-initramfs-kernel.bin",
+      "sha256": "a5cf524f7ddf0ca1bb5cacd2848790ee8d5a847d76abb5f8519ac0a69c9ff052",
+      "sha256_unsigned": "a5cf524f7ddf0ca1bb5cacd2848790ee8d5a847d76abb5f8519ac0a69c9ff052",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "pcs_cap324",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "pcs,cap324",
+    "cap324"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CAP324",
+      "vendor": "PowerCloud Systems"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

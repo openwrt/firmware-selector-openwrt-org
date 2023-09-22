@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9888-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_deco-m4r-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_deco-m4r-v1-squashfs-sysupgrade.bin",
+      "sha256": "0eb2e770def49cc2cf0b0535922c609483c4cfa1203bc3313d308c588dd0b38f",
+      "sha256_unsigned": "6dc5a9c96588abc1bd42d3e879b8199192eef9384fc123708229b1c18b858fac",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_deco-m4r-v1-squashfs-factory.bin",
+      "sha256": "895d4837dc24f2fcc80c666e66fcdd6f59ba5198c615745249a6794bd2eb8eaf",
+      "sha256_unsigned": "895d4837dc24f2fcc80c666e66fcdd6f59ba5198c615745249a6794bd2eb8eaf",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_deco-m4r-v1-initramfs-kernel.bin",
+      "sha256": "3e4e2cb4238cef9d0a3f495589fc288fc587414084bf2f37c8f9ced516ab1ca9",
+      "sha256_unsigned": "3e4e2cb4238cef9d0a3f495589fc288fc587414084bf2f37c8f9ced516ab1ca9",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_deco-m4r-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,deco-m4r-v1",
+    "deco-m4r-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Deco M4R",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

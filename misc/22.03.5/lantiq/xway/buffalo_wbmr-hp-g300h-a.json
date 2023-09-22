@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ltq-adsl-ar9-mei",
+    "kmod-ltq-adsl-ar9",
+    "kmod-ltq-adsl-ar9-fw-a",
+    "kmod-ltq-atm-ar9",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/lantiq/xway/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xway-buffalo_wbmr-hp-g300h-a",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xway-buffalo_wbmr-hp-g300h-a-squashfs-sysupgrade.bin",
+      "sha256": "b4971b25318d9cfe273d49d56b70e0276c319784bf1e566d712cb9fbcda88969",
+      "sha256_unsigned": "0400597876c41a985972d5cceae343909985e6533e704145dd5f355719b07a55",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xway-buffalo_wbmr-hp-g300h-a-initramfs-kernel.bin",
+      "sha256": "bc277ddc4e8d61bed8ea005cd9f873a20b3f0af1813154c39e9430dc11fe11ae",
+      "sha256_unsigned": "bc277ddc4e8d61bed8ea005cd9f873a20b3f0af1813154c39e9430dc11fe11ae",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_wbmr-hp-g300h-a",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "WBMR",
+    "buffalo,wbmr-hp-g300h"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "WBMR-HP-G300H",
+      "variant": "A",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

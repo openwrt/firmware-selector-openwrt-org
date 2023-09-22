@@ -1,0 +1,83 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9984-ct"
+  ],
+  "image_path": "22.03.5/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq806x-generic-ubnt_unifi-ac-hd",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-ubnt_unifi-ac-hd-initramfs-fit-uImage.itb",
+      "sha256": "16e526f25a2fb7ae2b22a023c4d07127b05f94b7ee21017edaabaddbb52e6c60",
+      "sha256_unsigned": "16e526f25a2fb7ae2b22a023c4d07127b05f94b7ee21017edaabaddbb52e6c60",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-ubnt_unifi-ac-hd-squashfs-sysupgrade.bin",
+      "sha256": "f123c8537b28cfa012d415344187afabc85ac9c4bf675b448647ddfe927ee9fe",
+      "sha256_unsigned": "77d97966d48aea83b1e37b5e610bb41af71d28c667956c6185e251a02eccafdf",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_unifi-ac-hd",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,unifi-ac-hd"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "UniFi AC HD",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

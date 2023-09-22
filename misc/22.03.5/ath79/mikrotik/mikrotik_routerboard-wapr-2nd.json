@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/mikrotik/",
+  "image_prefix": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-wapr-2nd",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-wapr-2nd-initramfs-kernel.bin",
+      "sha256": "15b76ec426f030dc413bd318b29b6c0503a0536121aa0c2f3d3c3c9be4f09f12",
+      "sha256_unsigned": "15b76ec426f030dc413bd318b29b6c0503a0536121aa0c2f3d3c3c9be4f09f12",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-wapr-2nd-squashfs-sysupgrade.bin",
+      "sha256": "c32ed9002522aa8d17c27d0d7b34029159446172f706fe35ad307a3b231289d4",
+      "sha256_unsigned": "bb7dbe4a7f3b06a42a6debc9c7a708ba637caac7652dcc1c9292506b4b9a3a19",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mikrotik_routerboard-wapr-2nd",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mikrotik,routerboard-wapr-2nd"
+  ],
+  "target": "ath79/mikrotik",
+  "titles": [
+    {
+      "model": "RouterBOARD wAPR-2nD (wAP R)",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

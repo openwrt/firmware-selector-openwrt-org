@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7603",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt76x8-wavlink_wl-wn531a3",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-wavlink_wl-wn531a3-initramfs-kernel.bin",
+      "sha256": "3db19daac881077e9f9e55dd4b4a5d6086f748d76183e64c8ce54186266c46fb",
+      "sha256_unsigned": "3db19daac881077e9f9e55dd4b4a5d6086f748d76183e64c8ce54186266c46fb",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-wavlink_wl-wn531a3-squashfs-sysupgrade.bin",
+      "sha256": "43b8f93ab20d0fa648d69704df57ccebcba5e753b5adc4271f2cbb004b154b1a",
+      "sha256_unsigned": "55a170608267be4e3bb1acedd47e16392b98ce274e60b66bfe12a91055acd52d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "wavlink_wl-wn531a3",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "wavlink,wl-wn531a3",
+    "wl-wn531a3"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "WL-WN531A3",
+      "vendor": "Wavlink"
+    },
+    {
+      "model": "QUANTUM D4",
+      "vendor": "Wavlink"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

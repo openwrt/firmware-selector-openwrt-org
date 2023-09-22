@@ -1,0 +1,83 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "kmod-mmc",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "kmod-ata-ahci",
+    "partx-utils"
+  ],
+  "image_path": "22.03.5/targets/mediatek/mt7623/",
+  "image_prefix": "openwrt-22.03.5-mediatek-mt7623-unielec_u7623-02-emmc-512m-legacy",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mediatek-mt7623-unielec_u7623-02-emmc-512m-legacy-squashfs-sysupgrade.bin.gz",
+      "sha256": "61f30f1e262e979b6a9dde0e8794d97369f51a6caa37d349a041e196bd12fea9",
+      "sha256_unsigned": "36616a9c4997bbba78b88875863349050cdeef2a6482d187219203f24b5a7de3",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mediatek-mt7623-unielec_u7623-02-emmc-512m-legacy-initramfs-kernel.bin",
+      "sha256": "5199261507ee5a9b92e50f4cc50ff42ef3c6fd7d8431ff7063afa5c8ae901d6e",
+      "sha256_unsigned": "5199261507ee5a9b92e50f4cc50ff42ef3c6fd7d8431ff7063afa5c8ae901d6e",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "unielec_u7623-02-emmc-512m-legacy",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "unielec,u7623-02-emmc-512m"
+  ],
+  "target": "mediatek/mt7623",
+  "titles": [
+    {
+      "model": "U7623-02",
+      "variant": "eMMC/512MiB RAM (legacy image)",
+      "vendor": "UniElec"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

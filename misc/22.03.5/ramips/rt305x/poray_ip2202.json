@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-poray_ip2202",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-poray_ip2202-initramfs-kernel.bin",
+      "sha256": "241694f2bbceb0b46d471a805f74a574bd006a5ec244827e522d405e35459de8",
+      "sha256_unsigned": "241694f2bbceb0b46d471a805f74a574bd006a5ec244827e522d405e35459de8",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-poray_ip2202-squashfs-sysupgrade.bin",
+      "sha256": "f3567c211d76e401497dbb871a20c4f1443ef9cfd361d4c1320bbec9260d4304",
+      "sha256_unsigned": "ae57aa5606bcfeea22b531be64db01b5bd7ca728b92226f6812adb4728bd3669",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "poray_ip2202",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "poray,ip2202",
+    "ip2202"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "IP2202",
+      "vendor": "Poray"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

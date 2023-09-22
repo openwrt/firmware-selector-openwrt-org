@@ -1,0 +1,92 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-gpio-cascade",
+    "kmod-mux-gpio",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-buffalo_wzr-hp-g300nh-s",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-buffalo_wzr-hp-g300nh-s-initramfs-kernel.bin",
+      "sha256": "c005bad99c892e8f792910bc07f7d85bd90fe9a0bb82b460552122094b98c02b",
+      "sha256_unsigned": "c005bad99c892e8f792910bc07f7d85bd90fe9a0bb82b460552122094b98c02b",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-buffalo_wzr-hp-g300nh-s-squashfs-tftp.bin",
+      "sha256": "692dca3ce49b6a13d9ef421c6a3e93b599f7a2da613325e317ede78188a656b6",
+      "sha256_unsigned": "692dca3ce49b6a13d9ef421c6a3e93b599f7a2da613325e317ede78188a656b6",
+      "type": "tftp"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-buffalo_wzr-hp-g300nh-s-squashfs-sysupgrade.bin",
+      "sha256": "86ccda2cdf603deef466bc8440607b489c9889b4ed6ed0e9fb01d5cbb63a6770",
+      "sha256_unsigned": "0a05723782571ea636a314bdbc9f7538eff9ef7a66c5d8aca3574447bdf162bc",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-buffalo_wzr-hp-g300nh-s-squashfs-factory.bin",
+      "sha256": "263e24c9c5c059b39f6bc77ae68b481712c9b246095205f60be653cbed5f59be",
+      "sha256_unsigned": "263e24c9c5c059b39f6bc77ae68b481712c9b246095205f60be653cbed5f59be",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_wzr-hp-g300nh-s",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "buffalo,wzr-hp-g300nh-s",
+    "wzr-hp-g300nh"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WZR-HP-G300NH (RTL8366S switch)",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

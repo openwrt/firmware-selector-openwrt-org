@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9984-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-netgear_ex7300-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_ex7300-v2-squashfs-factory.img",
+      "sha256": "28277189a0f309e9ed9002b11feeb6ea9d63fc825842668d3d0d862940c6c6e7",
+      "sha256_unsigned": "28277189a0f309e9ed9002b11feeb6ea9d63fc825842668d3d0d862940c6c6e7",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_ex7300-v2-initramfs-kernel.bin",
+      "sha256": "e49378c7a4a88f45381cc73e894d6c16bed53ff8c0ad37e72f3006cedb5761ee",
+      "sha256_unsigned": "e49378c7a4a88f45381cc73e894d6c16bed53ff8c0ad37e72f3006cedb5761ee",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_ex7300-v2-squashfs-sysupgrade.bin",
+      "sha256": "db0607fca3cae71f810b6d90ec3e6476d45c319160e1ced50fb209f56eb71994",
+      "sha256_unsigned": "24dde6aa68fcb2ec16ecd8743ea9499b0ba39183e405baf7d1f818fa429c5ef7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_ex7300-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,ex7300-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EX7300",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

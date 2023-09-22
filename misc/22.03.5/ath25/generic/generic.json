@@ -1,0 +1,91 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath5k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath25/generic/",
+  "image_prefix": "openwrt-22.03.5-ath25-generic",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath25-generic-kernel.lzma",
+      "sha256": "05f8eb5b4d118db8cab50815dccb386a14f6098c0d424ad2de5a9b1ba29607bf",
+      "sha256_unsigned": "05f8eb5b4d118db8cab50815dccb386a14f6098c0d424ad2de5a9b1ba29607bf",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath25-generic-squashfs-rootfs.bin",
+      "sha256": "ea2fe4f982a6bc7f5f8825ec7cc6659188b92d37f6855d6cf7288ca7bb7949e2",
+      "sha256_unsigned": "ea2fe4f982a6bc7f5f8825ec7cc6659188b92d37f6855d6cf7288ca7bb7949e2",
+      "type": "rootfs"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath25-generic-squashfs-sysupgrade.bin",
+      "sha256": "c44f1d3805099950a84cf39e2779d2377dca212e9f6b75597054aac4a2c5d6ef",
+      "sha256_unsigned": "c44f1d3805099950a84cf39e2779d2377dca212e9f6b75597054aac4a2c5d6ef",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath25-generic-kernel.gz",
+      "sha256": "392011d8cf39b099cfa4e845d766d629e5b76d0887cdab36c1c6e9653492e7b0",
+      "sha256_unsigned": "392011d8cf39b099cfa4e845d766d629e5b76d0887cdab36c1c6e9653492e7b0",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath25-generic-kernel.elf",
+      "sha256": "30098f5e24f4299b08de62b554f13a609526d6ffe923f929bce9a438af971406",
+      "sha256_unsigned": "30098f5e24f4299b08de62b554f13a609526d6ffe923f929bce9a438af971406",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "generic",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "generic"
+  ],
+  "target": "ath25/generic",
+  "titles": [
+    {
+      "model": "Generic AR2xxx board",
+      "vendor": "Atheros"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

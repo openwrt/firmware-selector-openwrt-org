@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-smp-brcm_bcm963281tan",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-brcm_bcm963281tan-squashfs-cfe-4M.bin",
+      "sha256": "2961c26262e4a58887b9cdd07d45931795a6eca144df2dd34c4681505717925b",
+      "sha256_unsigned": "2961c26262e4a58887b9cdd07d45931795a6eca144df2dd34c4681505717925b",
+      "type": "cfe-4M"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-brcm_bcm963281tan-squashfs-cfe-16M.bin",
+      "sha256": "43a36c14e0d80368afd13e6fd81d35f20b91ad0a96aed1074f07b510711283bd",
+      "sha256_unsigned": "43a36c14e0d80368afd13e6fd81d35f20b91ad0a96aed1074f07b510711283bd",
+      "type": "cfe-16M"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-brcm_bcm963281tan-squashfs-cfe-8M.bin",
+      "sha256": "2961c26262e4a58887b9cdd07d45931795a6eca144df2dd34c4681505717925b",
+      "sha256_unsigned": "2961c26262e4a58887b9cdd07d45931795a6eca144df2dd34c4681505717925b",
+      "type": "cfe-8M"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "brcm_bcm963281tan",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "brcm,bcm963281tan"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "963281TAN",
+      "vendor": "Generic"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

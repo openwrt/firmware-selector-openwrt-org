@@ -1,0 +1,73 @@
+{
+  "arch_packages": "aarch64_generic",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/rockchip/armv8/",
+  "image_prefix": "openwrt-22.03.5-rockchip-armv8-radxa_rock-pi-4a",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-rockchip-armv8-radxa_rock-pi-4a-squashfs-sysupgrade.img.gz",
+      "sha256": "0ebfb5c884353590ff52588430e5fefadf25beebb56a498371703703fd38a335",
+      "sha256_unsigned": "1f8c9720c20fa88e5fb5a8c95d91774e5212b191550b1efe47c69844656f85fa",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-rockchip-armv8-radxa_rock-pi-4a-ext4-sysupgrade.img.gz",
+      "sha256": "f4176311c0539482d0aa639f27faaaaae0211714a749f370dd878c9c49f4eda7",
+      "sha256_unsigned": "c77d52e21317537358ba15d1d77ca1dec4fa0cad37f51d794a84fb71766d06e1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "radxa_rock-pi-4a",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "radxa,rockpi4a",
+    "radxa,rockpi4"
+  ],
+  "target": "rockchip/armv8",
+  "titles": [
+    {
+      "model": "ROCK Pi 4A",
+      "vendor": "Radxa"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

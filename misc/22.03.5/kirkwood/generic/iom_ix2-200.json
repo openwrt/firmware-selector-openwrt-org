@@ -1,0 +1,81 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-marvell-sata",
+    "kmod-fs-ext4",
+    "kmod-gpio-button-hotplug",
+    "kmod-hwmon-lm63"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-iom_ix2-200",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-iom_ix2-200-squashfs-sysupgrade.bin",
+      "sha256": "487f0b31b258f94732c05f6f8b90a026d71019bb7f34b58b9cfd8a1eb36465d8",
+      "sha256_unsigned": "7387a6befd9af224c217c64fb3a80212ae8d6e246186dc611b2c49082ec86a18",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-iom_ix2-200-initramfs-uImage",
+      "sha256": "7b8acc7010b3bf601db312b75b3d0e6a4ec1c27e15b4e9bf3059507f945b7518",
+      "sha256_unsigned": "7b8acc7010b3bf601db312b75b3d0e6a4ec1c27e15b4e9bf3059507f945b7518",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-iom_ix2-200-squashfs-factory.bin",
+      "sha256": "cd2f199dc49b97b266b4e3205d11ff93e5219d36ba62e695780e7776a882eba1",
+      "sha256_unsigned": "cd2f199dc49b97b266b4e3205d11ff93e5219d36ba62e695780e7776a882eba1",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iom_ix2-200",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iom,ix2-200"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "StorCenter ix2-200",
+      "vendor": "Iomega"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-engenius_eap300-v2",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_eap300-v2-initramfs-kernel.bin",
+      "sha256": "c5bba6f264c874e8bd020e7127d79c0359c5847adbdc0db8cb1936dfe150caf0",
+      "sha256_unsigned": "c5bba6f264c874e8bd020e7127d79c0359c5847adbdc0db8cb1936dfe150caf0",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_eap300-v2-squashfs-factory.bin",
+      "sha256": "48bb4d34b84125a8eec041b60304db930be7f5647078934287956488ef16de54",
+      "sha256_unsigned": "48bb4d34b84125a8eec041b60304db930be7f5647078934287956488ef16de54",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_eap300-v2-squashfs-sysupgrade.bin",
+      "sha256": "5c4dcc16e7e693893e6db8c237b8a746f4f5d8c40ad165710d45bb4ba15c2cab",
+      "sha256_unsigned": "412a5e3b260a63538e22233e7b903759a90ca390a0d7de1976faf879e3af632a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "engenius_eap300-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "engenius,eap300-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EAP300",
+      "variant": "v2",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

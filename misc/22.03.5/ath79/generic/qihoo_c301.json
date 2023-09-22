@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct",
+    "uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-qihoo_c301",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-qihoo_c301-squashfs-factory.bin",
+      "sha256": "af3c7af2143bdf727db1e55be0c7e247873d1ee33098e7b5245b1d36b1847e7e",
+      "sha256_unsigned": "af3c7af2143bdf727db1e55be0c7e247873d1ee33098e7b5245b1d36b1847e7e",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-qihoo_c301-squashfs-sysupgrade.bin",
+      "sha256": "68d86d41a71358aa6d8bfe2d962b475b39025d4726a787b398dbbd067d0f1d18",
+      "sha256_unsigned": "be4cc9724fb0f6d747515e94eafbc7ec651b4b3a9c39a0ce96e8bb6afe9bbfb6",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-qihoo_c301-initramfs-kernel.bin",
+      "sha256": "03d04f8e64185379784f9ff3245b3ea41b5c09a1d4b490748554ad2561a46b89",
+      "sha256_unsigned": "03d04f8e64185379784f9ff3245b3ea41b5c09a1d4b490748554ad2561a46b89",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "qihoo_c301",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "qihoo,c301",
+    "qihoo-c301"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "C301",
+      "vendor": "Qihoo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

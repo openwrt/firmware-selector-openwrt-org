@@ -1,0 +1,91 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "-swconfig",
+    "-uboot-envtools",
+    "fconfig"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-adtran_bsap1800-v2",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-adtran_bsap1800-v2-initramfs-kernel.bin",
+      "sha256": "482fa04d96d1756063f0b3a470b7461dd9e3598365816afa46cae58c1b478b55",
+      "sha256_unsigned": "482fa04d96d1756063f0b3a470b7461dd9e3598365816afa46cae58c1b478b55",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-adtran_bsap1800-v2-squashfs-sysupgrade.bin",
+      "sha256": "d996e58c1f17b521ee1233c8cbeb79e67a7a99643a97d265179fb36a829af37c",
+      "sha256_unsigned": "6f803b5debd4f4b471899f8fddfd6e0416f1f37e198d702cf844183aa46d386e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-adtran_bsap1800-v2-squashfs-kernel.bin",
+      "sha256": "a247b7c70c30f51a5633e2afac1e8afd9c17db1e9ad2504deedf4328023a5a2c",
+      "sha256_unsigned": "a247b7c70c30f51a5633e2afac1e8afd9c17db1e9ad2504deedf4328023a5a2c",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-adtran_bsap1800-v2-squashfs-rootfs.bin",
+      "sha256": "cea2324a182399686bec3eb8eaec8dbbefb798872e7e9e094bc18dee117491de",
+      "sha256_unsigned": "cea2324a182399686bec3eb8eaec8dbbefb798872e7e9e094bc18dee117491de",
+      "type": "rootfs"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "adtran_bsap1800-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "adtran,bsap1800-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "BSAP-1800",
+      "variant": "v2",
+      "vendor": "Adtran/Bluesocket"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7915e",
+    "kmod-usb3"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-iptime_ax2004m",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iptime_ax2004m-squashfs-sysupgrade.bin",
+      "sha256": "4cf53cb5c36e178f55c6f4bfcc6069358251cf82725214cfd679555b0ce4aba1",
+      "sha256_unsigned": "b984283d0cc269b9202b3628b7e59c145bc710381f9533a79a92dbe75003eb24",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iptime_ax2004m-squashfs-recovery.bin",
+      "sha256": "9167ab5e41404640953f4d6a88c31c71426c8953156f829ecd89667c3f64a237",
+      "sha256_unsigned": "9167ab5e41404640953f4d6a88c31c71426c8953156f829ecd89667c3f64a237",
+      "type": "recovery"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iptime_ax2004m-initramfs-kernel.bin",
+      "sha256": "755cab432234bb8502f244cc984d6ca8a8398f80feb5f7f1f5a184785ac76237",
+      "sha256_unsigned": "755cab432234bb8502f244cc984d6ca8a8398f80feb5f7f1f5a184785ac76237",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iptime_ax2004m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iptime,ax2004m"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "AX2004M",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

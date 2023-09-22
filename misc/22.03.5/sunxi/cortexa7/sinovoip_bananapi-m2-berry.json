@@ -1,0 +1,77 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-sunxi",
+    "kmod-brcmfmac",
+    "cypress-firmware-43430-sdio",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa7/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa7-sinovoip_bananapi-m2-berry",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-sinovoip_bananapi-m2-berry-squashfs-sdcard.img.gz",
+      "sha256": "fcb75da0f6445d8a53935474eb24f24095d16098e1111f80c74aa3411da7992f",
+      "sha256_unsigned": "d1b284c3d91436e7bdad7261a0d543baa6929f36ba5579d2d4b1ba77244c363b",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-sinovoip_bananapi-m2-berry-ext4-sdcard.img.gz",
+      "sha256": "5ddc4c5706f1f1c7b0800633c97c2ee648fbca04577cf1713f7cbfd03815c2c2",
+      "sha256_unsigned": "eb93ec2b2a13413426fb2f02e1b43b487b63bd9500fa50b38077ee03416d782b",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "sinovoip_bananapi-m2-berry",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "lemaker,bananapi-m2-berry"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "Banana Pi M2 Berry",
+      "vendor": "Sinovoip"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

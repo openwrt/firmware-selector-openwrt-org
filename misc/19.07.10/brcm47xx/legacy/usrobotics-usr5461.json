@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "19.07.10/targets/brcm47xx/legacy/",
+  "image_prefix": "openwrt-19.07.10-brcm47xx-legacy-usrobotics-usr5461",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-brcm47xx-legacy-usrobotics-usr5461-squashfs.bin",
+      "sha256": "8c9a961135714c5408ce947a3bee602864e89c16cfd2539fd0c9bb40a0aee4ce",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "usrobotics-usr5461",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "title": "USRobotics USR5461"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7603",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt76x8-tplink_re305-v3",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-tplink_re305-v3-squashfs-factory.bin",
+      "sha256": "b4cc4329957d908022de016378008d5d1053af366c195aeb58138ce63386b90f",
+      "sha256_unsigned": "b4cc4329957d908022de016378008d5d1053af366c195aeb58138ce63386b90f",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-tplink_re305-v3-squashfs-sysupgrade.bin",
+      "sha256": "870fa430cbedfe090f848a312004cffbe63d740870b970d51fbced8a0d71a7b1",
+      "sha256_unsigned": "897bce522935465e3aeb6f2f1d3b0b2c35e4912e5374e5f285262878efe189be",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-tplink_re305-v3-initramfs-kernel.bin",
+      "sha256": "996d2ac906442fbe3cba142fb53b40f930af8c0bfb4edea6a881b101e815dd07",
+      "sha256_unsigned": "996d2ac906442fbe3cba142fb53b40f930af8c0bfb4edea6a881b101e815dd07",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_re305-v3",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,re305-v3"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "RE305",
+      "variant": "v3",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath9k-htc",
+    "kmod-usb-chipidea2",
+    "kmod-usb-storage",
+    "-swconfig",
+    "-uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-hak5_wifi-pineapple-nano",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-hak5_wifi-pineapple-nano-initramfs-kernel.bin",
+      "sha256": "3bbe09c1600721764dd97941715a36e412974abfc505398a7841b07e39abe472",
+      "sha256_unsigned": "3bbe09c1600721764dd97941715a36e412974abfc505398a7841b07e39abe472",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-hak5_wifi-pineapple-nano-squashfs-sysupgrade.bin",
+      "sha256": "0b75a5d7ad90f7a9be392f4ff914e5f052b4d97d1b9c6551c2e448a8f1e47ef1",
+      "sha256_unsigned": "2a332789a281b5dae7352974e585c20f1f4bd07d47cb1be27fcdca5e60a3e2c8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "hak5_wifi-pineapple-nano",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "hak5,wifi-pineapple-nano",
+    "wifi-pineapple-nano"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WiFi Pineapple NANO",
+      "vendor": "Hak5"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

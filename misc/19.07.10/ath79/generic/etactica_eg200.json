@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2",
+    "kmod-ledtrig-oneshot",
+    "kmod-usb-serial",
+    "kmod-usb-serial-ftdi",
+    "kmod-usb-storage",
+    "kmod-fs-ext4"
+  ],
+  "image_path": "19.07.10/targets/ath79/generic/",
+  "image_prefix": "openwrt-19.07.10-ath79-generic-etactica_eg200",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ath79-generic-etactica_eg200-squashfs-sysupgrade.bin",
+      "sha256": "502cc6523943341031a4ff24bca04b08c4ff573ae55c01d5548582f511a9e6a1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "etactica_eg200",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "etactica,eg200",
+    "rme-eg200"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "eTactica EG200"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,63 @@
+{
+  "arch_packages": "aarch64_generic",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage"
+  ],
+  "device_packages": [
+    "layerscape-fman-ls1043ardb",
+    "tfa-ls1043ardb",
+    "fmc",
+    "fmc-eth-config"
+  ],
+  "image_path": "19.07.10/targets/layerscape/armv8_64b/",
+  "image_prefix": "openwrt-19.07.10-layerscape-armv8_64b-ls1043ardb",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-layerscape-armv8_64b-ls1043ardb-squashfs-firmware.bin",
+      "sha256": "6aff28d8786c93d542c93434334be42be4737c7e17e8ca479c9ebf0c520ba986",
+      "type": "firmware"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ls1043ardb",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "layerscape/armv8_64b",
+  "titles": [
+    {
+      "title": "LS1043ARDB"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

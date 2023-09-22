@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ubnt_bullet-m-xw",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_bullet-m-xw-initramfs-kernel.bin",
+      "sha256": "388c52b54939748633b787818942488465d0471e1397be68a057b4a196ad1bc5",
+      "sha256_unsigned": "388c52b54939748633b787818942488465d0471e1397be68a057b4a196ad1bc5",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_bullet-m-xw-squashfs-factory.bin",
+      "sha256": "ca87526e61b750c5379557af1a7e85d7d3e2dc247d83d51a6eb0cca90f8c01b8",
+      "sha256_unsigned": "ca87526e61b750c5379557af1a7e85d7d3e2dc247d83d51a6eb0cca90f8c01b8",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_bullet-m-xw-squashfs-sysupgrade.bin",
+      "sha256": "d1d5ec2ba0bbf70538692e095de562539e028a924443a8ab7c5805ea8a83a911",
+      "sha256_unsigned": "6794d8a524d5edab23b75c6e1a6575d3daadaaf97365833edac17dcf6045338d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_bullet-m-xw",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,bullet-m-xw",
+    "bullet-m-xw"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Bullet M",
+      "variant": "XW",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

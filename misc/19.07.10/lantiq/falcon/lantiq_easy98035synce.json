@@ -1,0 +1,57 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-heartbeat",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/lantiq/falcon/",
+  "image_prefix": "openwrt-19.07.10-lantiq-falcon-lantiq_easy98035synce",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-falcon-lantiq_easy98035synce-squashfs-sysupgrade.bin",
+      "sha256": "32c1b1251bec6d61238f65559eb06fd20c6d92369cbe49d1c3b8df11e907dc0b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "lantiq_easy98035synce",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "lantiq,easy98035synce"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "title": "EASY98035SYNCE - Lantiq Falcon SFP Stick with Synchronous Ethernet"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

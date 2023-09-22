@@ -1,0 +1,90 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca99x0-ct"
+  ],
+  "image_path": "22.03.5/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq806x-generic-qcom_ipq8064-ap161",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-qcom_ipq8064-ap161-squashfs-nand-sysupgrade.bin",
+      "sha256": "1067fcdcb86478d5ac6b9522d79436accbb3642f20dfc8fe50a52db817813634",
+      "sha256_unsigned": "d1360cb5e782981816389571fb3315dafe5fa5f36580ff923724d03c7eb22c3b",
+      "type": "nand-sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-qcom_ipq8064-ap161-squashfs-nand-factory.bin",
+      "sha256": "21728739ae77e2db89bb0b7e28ffe402660501dbaa4919b96c352aef70ef597e",
+      "sha256_unsigned": "21728739ae77e2db89bb0b7e28ffe402660501dbaa4919b96c352aef70ef597e",
+      "type": "nand-factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-qcom_ipq8064-ap161-initramfs-fit-uImage.itb",
+      "sha256": "d4a0bf088d2fd10fc19e94f16b4b918d6b91cd6bde31bb026505a2f78a96086d",
+      "sha256_unsigned": "d4a0bf088d2fd10fc19e94f16b4b918d6b91cd6bde31bb026505a2f78a96086d",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "qcom_ipq8064-ap161",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "qcom,ipq8064-ap161"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "AP161",
+      "vendor": "Qualcomm"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

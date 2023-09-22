@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca988x-ct",
+    "kmod-ath10k-ct",
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-airtight_c-75",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-airtight_c-75-initramfs-kernel.bin",
+      "sha256": "dd5ea8a67013e8ac8efbacf7cba62b5b97bf9c4ea531f8bc2a1d6427b8890e4a",
+      "sha256_unsigned": "dd5ea8a67013e8ac8efbacf7cba62b5b97bf9c4ea531f8bc2a1d6427b8890e4a",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-airtight_c-75-squashfs-sysupgrade.bin",
+      "sha256": "f3afae99f26d96e73fac337ecd3271f2ce21cc15f415c6b829ed0f78f8dd7439",
+      "sha256_unsigned": "8b350cfa416ef0d2c0f96688eab07e34df22e806cdd82652add456a2e06f58af",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "airtight_c-75",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "airtight,c-75"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "C-75",
+      "vendor": "AirTight Networks"
+    },
+    {
+      "model": "C-75",
+      "vendor": "Mojo Networks"
+    },
+    {
+      "model": "AP320",
+      "vendor": "WatchGuard"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-usb3",
+    "uboot-envtools",
+    "kmod-usb-net-qmi-wwan",
+    "kmod-usb-serial-option",
+    "uqmi"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-zyxel_nr7101",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zyxel_nr7101-initramfs-recovery.bin",
+      "sha256": "f2d51c75f0d9fba02d42b46e2fb0c30a7bb13bd8e73afcdd4b61d7c81b5d7994",
+      "sha256_unsigned": "f2d51c75f0d9fba02d42b46e2fb0c30a7bb13bd8e73afcdd4b61d7c81b5d7994",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-zyxel_nr7101-squashfs-sysupgrade.bin",
+      "sha256": "c8848f909be3de3b6ef7790f11d1828241a999d0acbe30e1d30894a4563c92af",
+      "sha256_unsigned": "6653f46206432734f2ed6655caee6082adf40155fff90b1a54b44fa8e120268f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_nr7101",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,nr7101"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "NR7101",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-glinet_gl-usb150",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-glinet_gl-usb150-initramfs-kernel.bin",
+      "sha256": "ed5ad635a2ca3c501de7bbf86b0b9dcd2fa310201c7da1e9ae811d77fb848b94",
+      "sha256_unsigned": "ed5ad635a2ca3c501de7bbf86b0b9dcd2fa310201c7da1e9ae811d77fb848b94",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-glinet_gl-usb150-squashfs-sysupgrade.bin",
+      "sha256": "03baee79946a2dc9717d119f2aa31fa3ed91ca6b24384e7976ca55b655047a10",
+      "sha256_unsigned": "e5e0556a09f44418840ba324c9d79bddcf5256f2365c2da3c13c409288dccf20",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "glinet_gl-usb150",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "glinet,gl-usb150",
+    "gl-usb150"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "GL-USB150",
+      "vendor": "GL.iNET"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

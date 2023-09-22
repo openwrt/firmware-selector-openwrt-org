@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt7615e",
+    "kmod-mt7663-firmware-ap"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-renkforce_ws-wn530hp3-a",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-renkforce_ws-wn530hp3-a-squashfs-sysupgrade.bin",
+      "sha256": "ebac4a3ca7d51e447900fd7635f51fe0012f26dcf83dd9e7e48ae50948200a32",
+      "sha256_unsigned": "715ea0aecc337be4101146ea4aa5a99a1084036ed5696a948a840a17c6fb52a8",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-renkforce_ws-wn530hp3-a-initramfs-kernel.bin",
+      "sha256": "a44d1ffb05447cc5a73a0a94369ef91e6660a3da81b2c88325da0eec86afb0a5",
+      "sha256_unsigned": "a44d1ffb05447cc5a73a0a94369ef91e6660a3da81b2c88325da0eec86afb0a5",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "renkforce_ws-wn530hp3-a",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "renkforce,ws-wn530hp3-a"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WS-WN530HP3-A",
+      "vendor": "Renkforce"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

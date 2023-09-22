@@ -1,0 +1,104 @@
+{
+  "arch_packages": "arm_mpcore",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "block-mount",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fdisk",
+    "fstools",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-leds-gpio",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "lsblk",
+    "mdadm",
+    "mtd",
+    "netifd",
+    "opkg",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-usb2-oxnas",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-i2c-gpio",
+    "kmod-rtc-pcf8563",
+    "kmod-gpio-beeper",
+    "kmod-hwmon-drivetemp",
+    "kmod-hwmon-gpiofan",
+    "kmod-ata-oxnas-sata",
+    "kmod-md-mod",
+    "kmod-md-raid0",
+    "kmod-md-raid1",
+    "kmod-fs-ext4",
+    "kmod-fs-xfs"
+  ],
+  "image_path": "22.03.5/targets/oxnas/ox820/",
+  "image_prefix": "openwrt-22.03.5-oxnas-ox820-shuttle_kd20",
+  "images": [
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-oxnas-ox820-shuttle_kd20-ubifs-sysupgrade.tar",
+      "sha256": "b4ab6cbdbbc9310db635810d4283c6fee7eed0b885334ed32406d2e5015b7a35",
+      "sha256_unsigned": "3e01749159384b28d051684bbf50b6ce993e6befe21584fe027d61fc7556b001",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-oxnas-ox820-shuttle_kd20-initramfs-uImage",
+      "sha256": "3efa4af908fdc31c882b72c9a912b165c87b0f16afa4ee66b6ea3eea1f571978",
+      "sha256_unsigned": "3efa4af908fdc31c882b72c9a912b165c87b0f16afa4ee66b6ea3eea1f571978",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-oxnas-ox820-shuttle_kd20-ubifs-ubinized.bin",
+      "sha256": "a8b44f369f53236ba4bd4b6efaeb7c06db846f4a183eb75cf14f2a538779962c",
+      "sha256_unsigned": "a8b44f369f53236ba4bd4b6efaeb7c06db846f4a183eb75cf14f2a538779962c",
+      "type": "ubinized"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-oxnas-ox820-shuttle_kd20-squashfs-ubinized.bin",
+      "sha256": "5d014bee233e0b22248cf1c8af0a4d59ca6049c42ae41d6c4338b6f9207c43f0",
+      "sha256_unsigned": "5d014bee233e0b22248cf1c8af0a4d59ca6049c42ae41d6c4338b6f9207c43f0",
+      "type": "ubinized"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-oxnas-ox820-shuttle_kd20-squashfs-sysupgrade.tar",
+      "sha256": "f84fa159a54e33681207dec2e1576f00353e0e7c208a44f564602ec60bfb6086",
+      "sha256_unsigned": "6c294f3ceb0937802a68dedda7978714a0b40b8d46b51afa1fb3be452e421470",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "shuttle_kd20",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "shuttle,kd20",
+    "kd20"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "model": "KD20",
+      "vendor": "Shuttle"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

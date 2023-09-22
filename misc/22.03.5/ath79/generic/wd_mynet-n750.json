@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-wd_mynet-n750",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-wd_mynet-n750-squashfs-factory.bin",
+      "sha256": "56834fe269206ea47e0a55b48e7c1bf59b732c3c740d0f012f9e60a06c6bfeb9",
+      "sha256_unsigned": "56834fe269206ea47e0a55b48e7c1bf59b732c3c740d0f012f9e60a06c6bfeb9",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-wd_mynet-n750-initramfs-kernel.bin",
+      "sha256": "c5b9ea96e9d466a59512224af3f878f673bf9f6f4c0c601d8fbc488d281ed00f",
+      "sha256_unsigned": "c5b9ea96e9d466a59512224af3f878f673bf9f6f4c0c601d8fbc488d281ed00f",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-wd_mynet-n750-squashfs-sysupgrade.bin",
+      "sha256": "ea96910d66142884281bf6390e3f4d4307078acf6b8523fb5c3e8a78cf94fa52",
+      "sha256_unsigned": "33ad0357d6264ceabec02af8ef5ac6e35624bec47db7e769dd3c6a910410c9f2",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "wd_mynet-n750",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "wd,mynet-n750",
+    "mynet-n750"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "My Net N750",
+      "vendor": "Western Digital"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

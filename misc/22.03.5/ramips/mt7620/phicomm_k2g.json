@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-phicomm_k2g",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-phicomm_k2g-initramfs-kernel.bin",
+      "sha256": "3e658ef677705fbbc7e6862d81fda4d8ba0d1ddb231e2af62820bc25a864d09d",
+      "sha256_unsigned": "3e658ef677705fbbc7e6862d81fda4d8ba0d1ddb231e2af62820bc25a864d09d",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-phicomm_k2g-squashfs-sysupgrade.bin",
+      "sha256": "865483d5c05afdfd2a29a392cb7232cfb078e43d969c88999020a028c3cfc3af",
+      "sha256_unsigned": "646a8564dc0f4dea3713a046630b06c89aaf7c12e87d8bfbbc5987e8c0d2bc3a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "phicomm_k2g",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "phicomm,k2g"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "K2G",
+      "vendor": "Phicomm"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,100 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "kmod-mmc",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "kmod-ata-ahci"
+  ],
+  "image_path": "22.03.5/targets/mediatek/mt7623/",
+  "image_prefix": "openwrt-22.03.5-mediatek-mt7623-unielec_u7623-02",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mediatek-mt7623-unielec_u7623-02-squashfs-sysupgrade.itb",
+      "sha256": "b8da799c81c7d81845b64e1f288571e6ff6d081cd0a329e8d7922e6a5f8d7318",
+      "sha256_unsigned": "5352c2d932727fbb053c4d6c3ee36be28a8d1f4b387bfb94b47b7df3979ae3a1",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-22.03.5-mediatek-mt7623-unielec_u7623-02-scatter.txt",
+      "sha256": "8277bdf6388ddc510fec616a0aba5c9bbb62c967ff069c1dddee4356caae725f",
+      "sha256_unsigned": "8277bdf6388ddc510fec616a0aba5c9bbb62c967ff069c1dddee4356caae725f",
+      "type": "scatter.txt"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mediatek-mt7623-unielec_u7623-02-initramfs-recovery.itb",
+      "sha256": "4fe0a1a441ae84ca332ca82261bdf48abea739e4d16ed474b04a6ed4cdb9a041",
+      "sha256_unsigned": "4fe0a1a441ae84ca332ca82261bdf48abea739e4d16ed474b04a6ed4cdb9a041",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-22.03.5-mediatek-mt7623-unielec_u7623-02-emmc.img.gz",
+      "sha256": "42e000c48b71feafa69fac222994116c7898da0bce9da4d0194c9f1d3abb809c",
+      "sha256_unsigned": "7fedc0d05597b9dc351782a0469b41cf1f95c1595f6809b1c248e81122c65012",
+      "type": "emmc.img.gz"
+    },
+    {
+      "name": "openwrt-22.03.5-mediatek-mt7623-unielec_u7623-02-u-boot.bin",
+      "sha256": "885cf8075b84db0c0e6e774a03fdf7dd3eb404b90e5dec843262f4ecde3146fc",
+      "sha256_unsigned": "885cf8075b84db0c0e6e774a03fdf7dd3eb404b90e5dec843262f4ecde3146fc",
+      "type": "u-boot.bin"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "unielec_u7623-02",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "unielec,u7623-02",
+    "unielec,u7623-02-emmc-512m"
+  ],
+  "target": "mediatek/mt7623",
+  "titles": [
+    {
+      "model": "U7623-02",
+      "vendor": "UniElec"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9887-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-qxwlan_e600gac-v2-16m",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-qxwlan_e600gac-v2-16m-squashfs-sysupgrade.bin",
+      "sha256": "e0e590dec3c3a1fbb5d52759b6f659f70685e2f51e46821a8c8f2a540ee73577",
+      "sha256_unsigned": "7f555eface55e3d040aafb0ee631b06c3364a5c7abb2ca1f35cd39ce2c0c96e9",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-qxwlan_e600gac-v2-16m-initramfs-kernel.bin",
+      "sha256": "f82cf489fd374a8e3bd4f1811b95ed684a5ae86dfa173f295f50b698329141f1",
+      "sha256_unsigned": "f82cf489fd374a8e3bd4f1811b95ed684a5ae86dfa173f295f50b698329141f1",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "qxwlan_e600gac-v2-16m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "qxwlan,e600gac-v2-16m",
+    "e600gac-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "E600GAC",
+      "variant": "v2 (16M)",
+      "vendor": "Qxwlan"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

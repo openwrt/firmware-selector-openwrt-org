@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca988x-ct",
+    "kmod-ath10k-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-allnet_all-wap02860ac",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-allnet_all-wap02860ac-squashfs-sysupgrade.bin",
+      "sha256": "05ef174eae13a1bf908a26253860a5af843d18c636521e5183af78ee4b1861b9",
+      "sha256_unsigned": "a27057a2da781b9c4514e0ea9fd9972d219d7372bdf29e25521525a8d276cb39",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-allnet_all-wap02860ac-squashfs-factory.bin",
+      "sha256": "5bd05998866ccf2d8cc6e7d262fcf49203fe2c87e876f2821a884010404fc84d",
+      "sha256_unsigned": "5bd05998866ccf2d8cc6e7d262fcf49203fe2c87e876f2821a884010404fc84d",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-allnet_all-wap02860ac-initramfs-kernel.bin",
+      "sha256": "41455cc559aa070f332deba867b744f5ccf6f2eaf3622260c18afd53bb39f877",
+      "sha256_unsigned": "41455cc559aa070f332deba867b744f5ccf6f2eaf3622260c18afd53bb39f877",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "allnet_all-wap02860ac",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "allnet,all-wap02860ac"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "ALL-WAP02860AC",
+      "vendor": "ALLNET"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

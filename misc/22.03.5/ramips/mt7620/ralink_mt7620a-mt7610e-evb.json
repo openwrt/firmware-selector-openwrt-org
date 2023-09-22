@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-ralink_mt7620a-mt7610e-evb",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-ralink_mt7620a-mt7610e-evb-squashfs-sysupgrade.bin",
+      "sha256": "54293d0f78e2fec305556661b176fa62deadd3ffc0c1fe1d4136109b61c855d8",
+      "sha256_unsigned": "1e1a5a7c59b4c3566c6ba1b9794b4ba3bda990332518140bae817ccd8694d880",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-ralink_mt7620a-mt7610e-evb-initramfs-kernel.bin",
+      "sha256": "4c930a11d1b96af86389cd226bbc5517f29ed2654aa3c7bd38df9409729e9f03",
+      "sha256_unsigned": "4c930a11d1b96af86389cd226bbc5517f29ed2654aa3c7bd38df9409729e9f03",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ralink_mt7620a-mt7610e-evb",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ralink,mt7620a-mt7610e-evb",
+    "mt7620a_mt7610e"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MT7620a + MT7610e EVB",
+      "vendor": "MediaTek"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

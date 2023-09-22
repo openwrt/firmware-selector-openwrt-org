@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ata-ahci",
+    "kmod-mt76x2",
+    "kmod-mt7603",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-afoundry_ew1200",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-afoundry_ew1200-initramfs-kernel.bin",
+      "sha256": "8811dace7c67390eac51c71c1d4a7b634a3adbe1a041980e8467a50cc9dd85f4",
+      "sha256_unsigned": "8811dace7c67390eac51c71c1d4a7b634a3adbe1a041980e8467a50cc9dd85f4",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-afoundry_ew1200-squashfs-sysupgrade.bin",
+      "sha256": "905f932958763ab916ddc8cea2c98913e9d85ea18ea9fd09689127fd53b51cb9",
+      "sha256_unsigned": "5390c7cde31b60202f332990cbade1462309aecc5f18f6c4073ac76a5d9fa936",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "afoundry_ew1200",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "afoundry,ew1200",
+    "ew1200"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "EW1200",
+      "vendor": "AFOUNDRY"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

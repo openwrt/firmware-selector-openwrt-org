@@ -1,0 +1,80 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-marvell-sata",
+    "kmod-fs-ext4"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-seagate_goflexnet",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-seagate_goflexnet-initramfs-uImage",
+      "sha256": "45aa5328bdbe76f9a0d2dddb5d2fdd0a22a88c68f7783e923db704eefe599a18",
+      "sha256_unsigned": "45aa5328bdbe76f9a0d2dddb5d2fdd0a22a88c68f7783e923db704eefe599a18",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-seagate_goflexnet-squashfs-factory.bin",
+      "sha256": "f22db50dfbee134fac1efc84e76321588fc005ca3e2b53a16747f0f720277aa4",
+      "sha256_unsigned": "f22db50dfbee134fac1efc84e76321588fc005ca3e2b53a16747f0f720277aa4",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-seagate_goflexnet-squashfs-sysupgrade.bin",
+      "sha256": "6d61169666a93c111c3a26e7cbca1d9ca775039d467a9e14d88389f0b81d1fc1",
+      "sha256_unsigned": "104b69762ea51dfa1b95d026a3fa085fbbd060be8f80e99fd2151d2ccaa8284f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "seagate_goflexnet",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "seagate,goflexnet",
+    "goflexnet"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "GoFlexNet",
+      "vendor": "Seagate"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

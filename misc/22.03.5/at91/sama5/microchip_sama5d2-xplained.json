@@ -1,0 +1,85 @@
+{
+  "arch_packages": "arm_cortex-a5_vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-at91-udc",
+    "kmod-nft-offload",
+    "kmod-usb-gadget-eth",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/at91/sama5/",
+  "image_prefix": "openwrt-22.03.5-at91-sama5-microchip_sama5d2-xplained",
+  "images": [
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-at91-sama5-microchip_sama5d2-xplained-ubifs-root.ubi",
+      "sha256": "0ddbd6b127d4b3575b38f5b378bf86277e82c2ce56d407ccce72dc0c72571b81",
+      "sha256_unsigned": "0ddbd6b127d4b3575b38f5b378bf86277e82c2ce56d407ccce72dc0c72571b81",
+      "type": "root"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-at91-sama5-microchip_sama5d2-xplained-ext4-root.ubi",
+      "sha256": "942defe6cd284ad0e83cc2dc2de2955d8aa9f06c6b670f6d89e169e1e3072c68",
+      "sha256_unsigned": "942defe6cd284ad0e83cc2dc2de2955d8aa9f06c6b670f6d89e169e1e3072c68",
+      "type": "root"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-at91-sama5-microchip_sama5d2-xplained-ext4-sdcard.img.gz",
+      "sha256": "2f654fb60b72f6f063fe23b4bda62e425e6b9d76bae0d340a556e1765eeede64",
+      "sha256_unsigned": "2f654fb60b72f6f063fe23b4bda62e425e6b9d76bae0d340a556e1765eeede64",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-at91-sama5-microchip_sama5d2-xplained-squashfs-root.ubi",
+      "sha256": "58c7593dce435fe6bd901f99f8ccd5973865f953cfc075ef2d80812773865201",
+      "sha256_unsigned": "58c7593dce435fe6bd901f99f8ccd5973865f953cfc075ef2d80812773865201",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "microchip_sama5d2-xplained",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "atmel,sama5d2-xplained"
+  ],
+  "target": "at91/sama5",
+  "titles": [
+    {
+      "model": "SAMA5D2 Xplained",
+      "vendor": "Microchip"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

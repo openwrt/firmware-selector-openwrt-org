@@ -1,0 +1,88 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9888-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_archer-c6-v2-us",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c6-v2-us-squashfs-factory.bin",
+      "sha256": "578a1a3e1a41cab545d8f06f60ddc64a3dd5495053c6f2d99004daeed4df9e43",
+      "sha256_unsigned": "578a1a3e1a41cab545d8f06f60ddc64a3dd5495053c6f2d99004daeed4df9e43",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c6-v2-us-initramfs-kernel.bin",
+      "sha256": "800fb85d2426e2c3824d0a9f472eef22b0abd2dd87ad9c33f2308ff11e88e942",
+      "sha256_unsigned": "800fb85d2426e2c3824d0a9f472eef22b0abd2dd87ad9c33f2308ff11e88e942",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c6-v2-us-squashfs-sysupgrade.bin",
+      "sha256": "b8576b1ea163374d52318209690297ffd3cbf2df0c718f1f65357e4e4cdcfbfd",
+      "sha256_unsigned": "3c26411ca6d81abb7b1e616be11adda73b8c86d782a3fd8d94726a66342f2d3b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-c6-v2-us",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-c6-v2-us"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Archer C6",
+      "variant": "v2 (US)",
+      "vendor": "TP-Link"
+    },
+    {
+      "model": "Archer A6",
+      "variant": "v2 (US/TW)",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

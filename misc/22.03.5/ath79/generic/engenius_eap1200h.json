@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca988x-ct",
+    "kmod-ath10k-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-engenius_eap1200h",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_eap1200h-squashfs-sysupgrade.bin",
+      "sha256": "4a29a846390e0a8bc1c1ee8ae3b4cc1ba58b5a94959e41b9e202d794b12d33d4",
+      "sha256_unsigned": "d919b585d744f7b03035927c2f22be28a9491f2c65684a73c1ffaf195d3293eb",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_eap1200h-squashfs-factory.bin",
+      "sha256": "0b714d8043d063ce35d2b6c827fef7892b64b01eb73a871ea678df65b7ae0304",
+      "sha256_unsigned": "0b714d8043d063ce35d2b6c827fef7892b64b01eb73a871ea678df65b7ae0304",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_eap1200h-initramfs-kernel.bin",
+      "sha256": "8c5c8c69475edf6b33ad40d74dd28033a895dae37c0c43e16331ec3f03029e46",
+      "sha256_unsigned": "8c5c8c69475edf6b33ad40d74dd28033a895dae37c0c43e16331ec3f03029e46",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "engenius_eap1200h",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "engenius,eap1200h"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EAP1200H",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

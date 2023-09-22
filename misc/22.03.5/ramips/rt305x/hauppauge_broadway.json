@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-hauppauge_broadway",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-hauppauge_broadway-squashfs-sysupgrade.bin",
+      "sha256": "917af98f4a0c5e15233efcaf6d17db5e2246071a6d5ce97c16027a6554c20605",
+      "sha256_unsigned": "956c6402e12eeaa5b0b60efb2e6792d58f7eff55b1c89eff9f8159b1956556d4",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-hauppauge_broadway-initramfs-kernel.bin",
+      "sha256": "2f297f6a83f0e68e49cc589503a0944b9daf5485d7bba423a93311f450d9a545",
+      "sha256_unsigned": "2f297f6a83f0e68e49cc589503a0944b9daf5485d7bba423a93311f450d9a545",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "hauppauge_broadway",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "hauppauge,broadway",
+    "broadway"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "Broadway",
+      "vendor": "Hauppauge"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,85 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-at91-udc",
+    "kmod-nft-offload",
+    "kmod-usb-gadget-eth",
+    "kmod-usb-ohci",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-mmc-at91",
+    "kmod-ath6kl-sdio",
+    "ath6k-firmware",
+    "kmod-usb-storage",
+    "kmod-fs-vfat",
+    "kmod-fs-msdos",
+    "kmod-leds-gpio"
+  ],
+  "image_path": "22.03.5/targets/at91/sam9x/",
+  "image_prefix": "openwrt-22.03.5-at91-sam9x-laird_wb45n",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-at91-sam9x-laird_wb45n-squashfs-root.ubi",
+      "sha256": "f25bd3fb2ccdfdec8bb5d834f598af1d5493668a5942bf7620a56f6c934a2733",
+      "sha256_unsigned": "f25bd3fb2ccdfdec8bb5d834f598af1d5493668a5942bf7620a56f6c934a2733",
+      "type": "root"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-at91-sam9x-laird_wb45n-ext4-root.ubi",
+      "sha256": "d2a043d4684481f37d4cedee2f301a155b8c0b73cfff2cbf3d622196e21fd8b0",
+      "sha256_unsigned": "d2a043d4684481f37d4cedee2f301a155b8c0b73cfff2cbf3d622196e21fd8b0",
+      "type": "root"
+    },
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-at91-sam9x-laird_wb45n-ubifs-root.ubi",
+      "sha256": "d24974d6729139d6f8dec49daa46b5badb64305d7bda3a59c1d290bc0f14c4ec",
+      "sha256_unsigned": "d24974d6729139d6f8dec49daa46b5badb64305d7bda3a59c1d290bc0f14c4ec",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "laird_wb45n",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "laird,wb45n"
+  ],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "WB45N",
+      "vendor": "Laird"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

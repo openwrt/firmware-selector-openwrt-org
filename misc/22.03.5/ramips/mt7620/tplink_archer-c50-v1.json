@@ -1,0 +1,92 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-tplink_archer-c50-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_archer-c50-v1-squashfs-factory-eu.bin",
+      "sha256": "34a1a5bba7a1c2cebd80605c395259e5de2360a0f3bf863bf053aa8c1ae8f533",
+      "sha256_unsigned": "34a1a5bba7a1c2cebd80605c395259e5de2360a0f3bf863bf053aa8c1ae8f533",
+      "type": "factory-eu"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_archer-c50-v1-squashfs-sysupgrade.bin",
+      "sha256": "bbd4b3022efff203372ab0699048666b5c5f535dd90672caec84f469b34c74da",
+      "sha256_unsigned": "5d59ba88ea435e17a20128a0ee92225684bfc0c089dbb625586628db82b0c7df",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_archer-c50-v1-squashfs-factory-us.bin",
+      "sha256": "bad58a70021f3e7e0ad1ae6f59dee00806147c9fefafb418da7220975c1bd93c",
+      "sha256_unsigned": "bad58a70021f3e7e0ad1ae6f59dee00806147c9fefafb418da7220975c1bd93c",
+      "type": "factory-us"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-tplink_archer-c50-v1-initramfs-kernel.bin",
+      "sha256": "56e5dbf2b4e1b1ff8261921fef11907577160bb35e0b7e8e41ba650d0f8a9e31",
+      "sha256_unsigned": "56e5dbf2b4e1b1ff8261921fef11907577160bb35e0b7e8e41ba650d0f8a9e31",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-c50-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-c50-v1",
+    "c50"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Archer C50",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-storylink_sap-g3200u3",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-storylink_sap-g3200u3-squashfs-sysupgrade.bin",
+      "sha256": "a69a33af8f33259c345dcb2dee69d287b50aa1eff987cda040df4f00eb267dd4",
+      "sha256_unsigned": "53a743fbd65684c33876c282c3a1dcbdbb23c8a1eff2e64230b0382fd7a44c10",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-storylink_sap-g3200u3-initramfs-kernel.bin",
+      "sha256": "ce26013d47f26e82b3575e1900dfeb1dba179a2494e0cd0601fe3982a6bcd44c",
+      "sha256_unsigned": "ce26013d47f26e82b3575e1900dfeb1dba179a2494e0cd0601fe3982a6bcd44c",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "storylink_sap-g3200u3",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "storylink,sap-g3200u3",
+    "sap-g3200u3"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "SAP-G3200U3",
+      "vendor": "STORYLiNK"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

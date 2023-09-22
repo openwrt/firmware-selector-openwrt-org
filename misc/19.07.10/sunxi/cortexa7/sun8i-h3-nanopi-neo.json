@@ -1,0 +1,68 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/sunxi/cortexa7/",
+  "image_prefix": "openwrt-19.07.10-sunxi-cortexa7-sun8i-h3-nanopi-neo",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-sunxi-cortexa7-sun8i-h3-nanopi-neo-ext4-sdcard.img.gz",
+      "sha256": "70834d098c1f890cb82b129cdfcc65b33bcd706e8a1c34ff0b1f09573dbec043",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-sunxi-cortexa7-sun8i-h3-nanopi-neo-squashfs-sdcard.img.gz",
+      "sha256": "ed268a4027de080a8585db0a315c5963be108782dfbb4f9c32df7ace3d067d7b",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "sun8i-h3-nanopi-neo",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "friendlyarm,nanopi-neo"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "title": "FriendlyARM NanoPi NEO"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

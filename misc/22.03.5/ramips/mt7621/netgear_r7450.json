@@ -1,0 +1,97 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-netgear_r7450",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r7450-squashfs-sysupgrade.bin",
+      "sha256": "e3c59b46da40d8cee4ecafd5fb571bba6396ca63ef921223e7f7ec46fbc6b2a8",
+      "sha256_unsigned": "3bf3f353d1ff658b5741c9086b7b4d51098bb74e4f29467d34579d204d1de7d4",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r7450-initramfs-kernel.bin",
+      "sha256": "7af8e590602db7108d532843eadd46322df4f0f4a86f9f088617aa6a0e2228d2",
+      "sha256_unsigned": "7af8e590602db7108d532843eadd46322df4f0f4a86f9f088617aa6a0e2228d2",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r7450-squashfs-factory.img",
+      "sha256": "772e4725e1092f0753ef0338c2bd38891acbc36cacf8c10b9aac8983e201417c",
+      "sha256_unsigned": "772e4725e1092f0753ef0338c2bd38891acbc36cacf8c10b9aac8983e201417c",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r7450-squashfs-kernel.bin",
+      "sha256": "d76eef1f1c9aed83c63143c4d4d0897a3611d4252783b42f16df9fd01a53834f",
+      "sha256_unsigned": "d76eef1f1c9aed83c63143c4d4d0897a3611d4252783b42f16df9fd01a53834f",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r7450-squashfs-rootfs.bin",
+      "sha256": "0d5f183e4ee38c68c5c6878d9988e85af5a06f0c751c34b59b727348e34ff6d5",
+      "sha256_unsigned": "0d5f183e4ee38c68c5c6878d9988e85af5a06f0c751c34b59b727348e34ff6d5",
+      "type": "rootfs"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_r7450",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,r7450"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "R7450",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

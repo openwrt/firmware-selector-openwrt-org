@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "-wpad-basic-wolfssl"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-mikrotik_routerboard-750gr3",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-mikrotik_routerboard-750gr3-initramfs-kernel.bin",
+      "sha256": "d5128a5f4779c884db5b8d98e9c6628f2db6134f2101ee7f9b86430aa4364b88",
+      "sha256_unsigned": "d5128a5f4779c884db5b8d98e9c6628f2db6134f2101ee7f9b86430aa4364b88",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-mikrotik_routerboard-750gr3-squashfs-sysupgrade.bin",
+      "sha256": "2d82ed1d407488b0e4378351e8953c90267bda177213924fa389721a845d9375",
+      "sha256_unsigned": "cc4f7d2e708c63d532015257353f1f0bd4d0df853abbafc77bf34e7c94e47230",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mikrotik_routerboard-750gr3",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mikrotik,routerboard-750gr3",
+    "mikrotik,rb750gr3"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RouterBOARD 750Gr3",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

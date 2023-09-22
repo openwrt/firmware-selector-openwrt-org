@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca988x-ct",
+    "kmod-ath10k-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-dlink_dap-2660-a1",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dap-2660-a1-initramfs-kernel.bin",
+      "sha256": "90686f8c96ea7497f3cbf384fe901f6d65c44ef8cfede9bc1f2ee799ed015ca0",
+      "sha256_unsigned": "90686f8c96ea7497f3cbf384fe901f6d65c44ef8cfede9bc1f2ee799ed015ca0",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dap-2660-a1-squashfs-factory.img",
+      "sha256": "4d9cc2672b6461539ba33e2a186205c2660e14827d57ebcff37d5fe9fa61d83a",
+      "sha256_unsigned": "4d9cc2672b6461539ba33e2a186205c2660e14827d57ebcff37d5fe9fa61d83a",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-dlink_dap-2660-a1-squashfs-sysupgrade.bin",
+      "sha256": "d2632dff1a1bddfdf7de7ceb66a3522392864223b55be3efe0f9474286dfd184",
+      "sha256_unsigned": "a48392276dfa723e1f32421963ffae5697bd8de9348686e6b1ee3e8b812dcba9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dlink_dap-2660-a1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "dlink,dap-2660-a1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "DAP-2660",
+      "variant": "A1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "nvram",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "otrx",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/bcm47xx/mips74k/",
+  "image_prefix": "openwrt-22.03.5-bcm47xx-mips74k-asus_rt-ac53u",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm47xx-mips74k-asus_rt-ac53u-squashfs.trx",
+      "sha256": "30680b873de55461cb573cdedc318a6938fc2791b90b2437abd0290c328ffc52",
+      "sha256_unsigned": "30680b873de55461cb573cdedc318a6938fc2791b90b2437abd0290c328ffc52",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "asus_rt-ac53u",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "asus,rt-ac53u"
+  ],
+  "target": "bcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "RT-AC53U",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

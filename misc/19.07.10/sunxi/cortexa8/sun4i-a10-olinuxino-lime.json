@@ -1,0 +1,73 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-ata-core",
+    "kmod-ata-sunxi",
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi"
+  ],
+  "image_path": "19.07.10/targets/sunxi/cortexa8/",
+  "image_prefix": "openwrt-19.07.10-sunxi-cortexa8-sun4i-a10-olinuxino-lime",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-sunxi-cortexa8-sun4i-a10-olinuxino-lime-ext4-sdcard.img.gz",
+      "sha256": "757d723f2adbd819adbdbed4b87943c8f2793b2bc0413905e11abb3bc900ace3",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-sunxi-cortexa8-sun4i-a10-olinuxino-lime-squashfs-sdcard.img.gz",
+      "sha256": "b16a10eef4b7b5bfdf8f1690d2fc9709aa46473907ffadb7a5b0296aa66532cc",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "sun4i-a10-olinuxino-lime",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "olimex,a10-olinuxino-lime"
+  ],
+  "target": "sunxi/cortexa8",
+  "titles": [
+    {
+      "title": "Olimex A10-OLinuXino-LIME"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

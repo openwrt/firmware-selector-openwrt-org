@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca9887-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/mikrotik/",
+  "image_prefix": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-952ui-5ac2nd",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-952ui-5ac2nd-squashfs-sysupgrade.bin",
+      "sha256": "dd942070d13719af29b5d24aceb7d22d9931b55d3db8b4899acc72c85ae3aced",
+      "sha256_unsigned": "cd6039eee8e14e1616e964b806824787f062ad257c16ce658aea0af7d423cf39",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-952ui-5ac2nd-initramfs-kernel.bin",
+      "sha256": "3ce8bcf166af92779662265ea6a5dd20fa5c35b0feaad2552ef782028fb9bcb4",
+      "sha256_unsigned": "3ce8bcf166af92779662265ea6a5dd20fa5c35b0feaad2552ef782028fb9bcb4",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mikrotik_routerboard-952ui-5ac2nd",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mikrotik,routerboard-952ui-5ac2nd",
+    "rb-952ui-5ac2nd"
+  ],
+  "target": "ath79/mikrotik",
+  "titles": [
+    {
+      "model": "RouterBOARD 952Ui-5ac2nD (hAP ac lite)",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

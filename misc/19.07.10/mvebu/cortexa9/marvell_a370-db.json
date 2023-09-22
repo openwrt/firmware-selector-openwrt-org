@@ -1,0 +1,59 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/mvebu/cortexa9/",
+  "image_prefix": "openwrt-19.07.10-mvebu-cortexa9-marvell_a370-db",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-mvebu-cortexa9-marvell_a370-db-squashfs-sysupgrade.bin",
+      "sha256": "647ab49051c08447703117c980d320a0f663ae6a47a1480f62acca39b8f70c06",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "marvell_a370-db",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "marvell,a370-db",
+    "armada-370-db"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "title": "Marvell Armada 370 DB (DB-88F6710-BP-DDR3)"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

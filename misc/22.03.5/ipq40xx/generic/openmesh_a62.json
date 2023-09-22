@@ -1,0 +1,87 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-board-qca4019",
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9888-ct"
+  ],
+  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-generic-openmesh_a62",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-openmesh_a62-squashfs-sysupgrade.bin",
+      "sha256": "ff7d3bcc7c611ad15754fbe7544abf6b0cc453098be1e8853d3379c7078c3efb",
+      "sha256_unsigned": "d0b049fffd9acb0112e321910f912d84e7d16001fc40e65e7431fe90eedaaf05",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-openmesh_a62-initramfs-fit-uImage.itb",
+      "sha256": "22b4b19ae44fde8e1b37a5137d79587388562d6210e20feba6d547dd27217609",
+      "sha256_unsigned": "22b4b19ae44fde8e1b37a5137d79587388562d6210e20feba6d547dd27217609",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-openmesh_a62-squashfs-factory.bin",
+      "sha256": "cfd470e4560ca980933e044adc7342d1a49198b9592f24719d88e6112bb04e70",
+      "sha256_unsigned": "cfd470e4560ca980933e044adc7342d1a49198b9592f24719d88e6112bb04e70",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "openmesh_a62",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "openmesh,a62"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "A62",
+      "vendor": "OpenMesh"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

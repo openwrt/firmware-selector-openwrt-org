@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ata-ahci",
+    "kmod-sdhci-mt7620",
+    "kmod-usb3",
+    "-wpad-basic-wolfssl"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-unielec_u7621-06-64m",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-unielec_u7621-06-64m-squashfs-sysupgrade.bin",
+      "sha256": "0217b2480af96609d62e18e905f250438fb08dd10e93478820c325e2c24017fe",
+      "sha256_unsigned": "80742e99d85a3eaf976807a34b220747c6eae8cc68b1067530ed3377c4356190",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-unielec_u7621-06-64m-initramfs-kernel.bin",
+      "sha256": "80904dc465364fb369e3fa5cd079d1ef91711e071e16695b7989bc4035b76cad",
+      "sha256_unsigned": "80904dc465364fb369e3fa5cd079d1ef91711e071e16695b7989bc4035b76cad",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "unielec_u7621-06-64m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "unielec,u7621-06-64m",
+    "unielec,u7621-06-512m-64m"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "U7621-06",
+      "variant": "64M",
+      "vendor": "UniElec"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

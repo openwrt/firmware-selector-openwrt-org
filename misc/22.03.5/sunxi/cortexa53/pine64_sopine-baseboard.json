@@ -1,0 +1,74 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-rtl8723bs",
+    "rtl8723bu-firmware"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa53/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa53-pine64_sopine-baseboard",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa53-pine64_sopine-baseboard-squashfs-sdcard.img.gz",
+      "sha256": "10e0cb684d125e31d4198e041d17c848f85459e60da23eba3b59dc6aacf9a79f",
+      "sha256_unsigned": "22f7e1d6863fde5cee40fddc48a55537d94da870b2e784bdd7564e19e739ceef",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa53-pine64_sopine-baseboard-ext4-sdcard.img.gz",
+      "sha256": "3d195f346b775729270acd74063ef4a46090263c6ac5e1163c611d10b6f1000a",
+      "sha256_unsigned": "ead1c55db1a7e6a645302f532c6ca3d361606aeb6bb7faf73fe95089f62087d4",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "pine64_sopine-baseboard",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "pine64,sopine-baseboard"
+  ],
+  "target": "sunxi/cortexa53",
+  "titles": [
+    {
+      "model": "SoPine",
+      "vendor": "Pine64"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ubnt_lap-120",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_lap-120-initramfs-kernel.bin",
+      "sha256": "bb64d517ec6f23a1a4a6b5651a393511049f4c68eb0cbfc54f5d45b2adc6bf7f",
+      "sha256_unsigned": "bb64d517ec6f23a1a4a6b5651a393511049f4c68eb0cbfc54f5d45b2adc6bf7f",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_lap-120-squashfs-factory.bin",
+      "sha256": "39b49c20a5ac744df567cb29b79d21a564c52726efe318af1745eab44e7704f0",
+      "sha256_unsigned": "39b49c20a5ac744df567cb29b79d21a564c52726efe318af1745eab44e7704f0",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_lap-120-squashfs-sysupgrade.bin",
+      "sha256": "32329eea961652a98f64a477e5f01193112f8f1dea8c1600cfabb51ed3a69bd6",
+      "sha256_unsigned": "fc640ab9b892b2764ee77fe6ff15bc93dde6e99c66cc24974d94cbdb6a9adf30",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_lap-120",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,lap-120"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "LiteAP ac (LAP-120)",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

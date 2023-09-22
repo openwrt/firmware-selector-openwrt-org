@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "nvram",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "otrx",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-b43"
+  ],
+  "image_path": "22.03.5/targets/bcm47xx/legacy/",
+  "image_prefix": "openwrt-22.03.5-bcm47xx-legacy-netgear_wndr3300-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm47xx-legacy-netgear_wndr3300-v1-squashfs.chk",
+      "sha256": "24a36fe602203ba7ef9b6d81e6cfa9ff2a771b277d323d49d705a594befddb3b",
+      "sha256_unsigned": "24a36fe602203ba7ef9b6d81e6cfa9ff2a771b277d323d49d705a594befddb3b",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wndr3300-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wndr3300-v1"
+  ],
+  "target": "bcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WNDR3300",
+      "variant": "v1",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

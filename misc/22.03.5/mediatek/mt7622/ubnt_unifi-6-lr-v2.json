@@ -1,0 +1,76 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7615-firmware",
+    "kmod-mt7615e",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7915e"
+  ],
+  "image_path": "22.03.5/targets/mediatek/mt7622/",
+  "image_prefix": "openwrt-22.03.5-mediatek-mt7622-ubnt_unifi-6-lr-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-ubnt_unifi-6-lr-v2-squashfs-sysupgrade.bin",
+      "sha256": "10def36ac0207709acc9f006518a4e7dd407c3404314296163bef8051c143058",
+      "sha256_unsigned": "4855c58113836813398f6fd819be83ec615a84863d372c7cc413911e5eab6d4c",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mediatek-mt7622-ubnt_unifi-6-lr-v2-initramfs-kernel.bin",
+      "sha256": "9ab114291fcaa8b364f1e82e0e255bd12e8a00a157bf0d45687a6d03555c196b",
+      "sha256_unsigned": "9ab114291fcaa8b364f1e82e0e255bd12e8a00a157bf0d45687a6d03555c196b",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_unifi-6-lr-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,unifi-6-lr-v2"
+  ],
+  "target": "mediatek/mt7622",
+  "titles": [
+    {
+      "model": "UniFi 6 LR",
+      "variant": "v2",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

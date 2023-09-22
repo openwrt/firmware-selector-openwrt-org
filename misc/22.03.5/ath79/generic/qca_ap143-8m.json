@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-qca_ap143-8m",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-qca_ap143-8m-squashfs-factory.bin",
+      "sha256": "a79b37fb296c7593f34d72c52ef3b056f9b6489ba6e16b72d4d2eadf32b1cc94",
+      "sha256_unsigned": "a79b37fb296c7593f34d72c52ef3b056f9b6489ba6e16b72d4d2eadf32b1cc94",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-qca_ap143-8m-squashfs-sysupgrade.bin",
+      "sha256": "efe44e9f8d45b7b455474f0c9c42935433f860f8c7648d1a9628cca7b56c125d",
+      "sha256_unsigned": "4df544665829b1174e17b86752b8a28a759e3b1ac065953d028fef91900c3475",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-qca_ap143-8m-initramfs-kernel.bin",
+      "sha256": "c67df42ea2d5e20a0495d4c3ea60f4c69323ce46359c15b6c591879c6b9f3827",
+      "sha256_unsigned": "c67df42ea2d5e20a0495d4c3ea60f4c69323ce46359c15b6c591879c6b9f3827",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "qca_ap143-8m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "qca,ap143-8m",
+    "ap143"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "AP143",
+      "variant": "(8M)",
+      "vendor": "Qualcomm Atheros"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

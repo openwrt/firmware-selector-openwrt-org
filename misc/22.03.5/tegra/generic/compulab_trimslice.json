@@ -1,0 +1,77 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-r8169",
+    "kmod-rt2800-usb",
+    "kmod-rtc-em3027",
+    "kmod-usb-storage",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/tegra/generic/",
+  "image_prefix": "openwrt-22.03.5-tegra-compulab_trimslice",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-tegra-compulab_trimslice-squashfs-sdcard.img.gz",
+      "sha256": "5f039907cb5666ddbc71e946ddf357f8b5c3b0db2f05b90d0be196b11d6766ec",
+      "sha256_unsigned": "6ae1c1d6b94a0d29711600e71050d3c503b4b8fdf7719f41ccafc565646b3f9b",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-tegra-compulab_trimslice-ext4-sdcard.img.gz",
+      "sha256": "8eae26c5201b27034a79e64bef24fc4dd3bef53c5176e8ce54ad28fee65fbadd",
+      "sha256_unsigned": "9c2c6342ae133ec837ac0fd1d8267557eea25ccb9e4eadd79d271b57a4110db1",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "compulab_trimslice",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "compulab,trimslice"
+  ],
+  "target": "tegra/generic",
+  "titles": [
+    {
+      "model": "TrimSlice",
+      "vendor": "CompuLab"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

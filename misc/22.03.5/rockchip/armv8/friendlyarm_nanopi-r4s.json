@@ -1,0 +1,75 @@
+{
+  "arch_packages": "aarch64_generic",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-r8169"
+  ],
+  "image_path": "22.03.5/targets/rockchip/armv8/",
+  "image_prefix": "openwrt-22.03.5-rockchip-armv8-friendlyarm_nanopi-r4s",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-rockchip-armv8-friendlyarm_nanopi-r4s-ext4-sysupgrade.img.gz",
+      "sha256": "f9adc0b59036b54f403ecfcb73b6200dff01dea0017ee28f850fa68759790b0d",
+      "sha256_unsigned": "75b4550b9670d322ebe3af424c07a404016980443e015339bc01b1b9455c3eb6",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-rockchip-armv8-friendlyarm_nanopi-r4s-squashfs-sysupgrade.img.gz",
+      "sha256": "1c474f48ad197d7f23fa4fa0172299426a03f1f87ac02d18c37abfa6584b870a",
+      "sha256_unsigned": "5422785d6feca9aeed5300bb82dcdd46ec94c96b28715f832e3b206be5dc75e7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "friendlyarm_nanopi-r4s",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "friendlyarm,nanopi-r4s"
+  ],
+  "target": "rockchip/armv8",
+  "titles": [
+    {
+      "model": "NanoPi R4S",
+      "variant": "4GB LPDDR4",
+      "vendor": "FriendlyARM"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

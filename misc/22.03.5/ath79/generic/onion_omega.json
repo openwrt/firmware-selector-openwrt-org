@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-onion_omega",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-onion_omega-squashfs-factory.bin",
+      "sha256": "6ea368f0f652b7776fa3d9ccf9001238bd92c5b8cdf0d65eb3a3d067c1e7263d",
+      "sha256_unsigned": "6ea368f0f652b7776fa3d9ccf9001238bd92c5b8cdf0d65eb3a3d067c1e7263d",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-onion_omega-squashfs-sysupgrade.bin",
+      "sha256": "ebd8ac3154d5811232529b75c1b01368bbfc0d43b4072f8d5389f68febbcbc42",
+      "sha256_unsigned": "6df9045bc97eeea4c8e61018f7af586021411d0cdf06c3270c38293d27d7f620",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-onion_omega-initramfs-kernel.bin",
+      "sha256": "fd8de1e431106ff1447fe991ba5c3fe4c7ce05473249477848d91e4abb78b641",
+      "sha256_unsigned": "fd8de1e431106ff1447fe991ba5c3fe4c7ce05473249477848d91e4abb78b641",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "onion_omega",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "onion,omega",
+    "onion-omega"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Omega",
+      "vendor": "Onion"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

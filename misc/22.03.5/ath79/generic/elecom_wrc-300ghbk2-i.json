@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-elecom_wrc-300ghbk2-i",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-elecom_wrc-300ghbk2-i-initramfs-kernel.bin",
+      "sha256": "ab3af5138d87bbc54318af78e8a2feee031b7911463eeb914d440d254fa840bb",
+      "sha256_unsigned": "ab3af5138d87bbc54318af78e8a2feee031b7911463eeb914d440d254fa840bb",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-elecom_wrc-300ghbk2-i-squashfs-sysupgrade.bin",
+      "sha256": "c6962d74f64f0c07084509f6632fef7aaf44f2d848ef0aeedcff1614e2cabd20",
+      "sha256_unsigned": "70f80a535d3fd41c0d51745308cc19cbab655ddba9cd37ab987aa767369ad6ec",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "elecom_wrc-300ghbk2-i",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "elecom,wrc-300ghbk2-i"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WRC-300GHBK2-I",
+      "vendor": "ELECOM"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

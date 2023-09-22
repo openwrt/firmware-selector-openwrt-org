@@ -1,0 +1,95 @@
+{
+  "arch_packages": "arm_mpcore",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "block-mount",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fdisk",
+    "fstools",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-leds-gpio",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "lsblk",
+    "mdadm",
+    "mtd",
+    "netifd",
+    "opkg",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-oxnas-sata",
+    "kmod-fs-ext4",
+    "kmod-fs-xfs",
+    "kmod-usb2-oxnas",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/oxnas/ox820/",
+  "image_prefix": "openwrt-22.03.5-oxnas-ox820-mitrastar_stg-212",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-oxnas-ox820-mitrastar_stg-212-squashfs-ubinized.bin",
+      "sha256": "69afecd21af9d770aaedcd05e4ae2490abdcb50e7535e16ca5689fc6757a5d88",
+      "sha256_unsigned": "69afecd21af9d770aaedcd05e4ae2490abdcb50e7535e16ca5689fc6757a5d88",
+      "type": "ubinized"
+    },
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-oxnas-ox820-mitrastar_stg-212-ubifs-ubinized.bin",
+      "sha256": "aee373a6f345a9b1d8266bfdc4197d9ae339c4dd35c12bf031746306e3af5ef1",
+      "sha256_unsigned": "aee373a6f345a9b1d8266bfdc4197d9ae339c4dd35c12bf031746306e3af5ef1",
+      "type": "ubinized"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-oxnas-ox820-mitrastar_stg-212-initramfs-uImage",
+      "sha256": "906fc62bf4c110de26b8fb3165df094ae05b505e47f557b66061d9ce59a858e4",
+      "sha256_unsigned": "906fc62bf4c110de26b8fb3165df094ae05b505e47f557b66061d9ce59a858e4",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-oxnas-ox820-mitrastar_stg-212-squashfs-sysupgrade.tar",
+      "sha256": "242ac5f8d5e96a429c52ee4ec2c50fc21e87e13806bbea081f1f32c891f0e145",
+      "sha256_unsigned": "d6664c6d2ff2ac2e46a89b91f356df85a0da8bb62fe2913a4999c7226a4c2c31",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-oxnas-ox820-mitrastar_stg-212-ubifs-sysupgrade.tar",
+      "sha256": "37576268df615b541761e3f8bd859fa94f3ccf9c4ec7c5f2403299c64005c7d2",
+      "sha256_unsigned": "08590a7ff9cb9e565dff903122ac1809007c27c49dad241aaefecc0898915b1f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mitrastar_stg-212",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mitrastar,stg-212",
+    "stg212"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "model": "STG-212",
+      "vendor": "MitraStar"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

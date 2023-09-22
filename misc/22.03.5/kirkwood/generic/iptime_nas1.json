@@ -1,0 +1,78 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-marvell-sata",
+    "kmod-fs-ext4",
+    "kmod-gpio-button-hotplug",
+    "kmod-gpio-pca953x",
+    "kmod-hwmon-drivetemp",
+    "kmod-hwmon-gpiofan",
+    "kmod-usb-ledtrig-usbport",
+    "-uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-iptime_nas1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-iptime_nas1-squashfs-sysupgrade.bin",
+      "sha256": "76a890ed889544adbd1886c4e7646ed5173cc98e42d9ebb619d12f22bceec87b",
+      "sha256_unsigned": "a5c108ab196483aeb4b996c79b2796d32aee483894e66fa6f7338837b4379558",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-iptime_nas1-initramfs-uImage",
+      "sha256": "0599329af7e40483f8aa2026699b1f9becf0b88ddb7f135664f7e71994d79d41",
+      "sha256_unsigned": "0599329af7e40483f8aa2026699b1f9becf0b88ddb7f135664f7e71994d79d41",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iptime_nas1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iptime,nas1"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "NAS1",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

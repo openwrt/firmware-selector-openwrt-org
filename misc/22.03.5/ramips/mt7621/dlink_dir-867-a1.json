@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-dlink_dir-867-a1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-dlink_dir-867-a1-squashfs-factory.bin",
+      "sha256": "97875830e208854689fe4efc89ea99e3ab4fc06d12e2f819830faf9998d64a74",
+      "sha256_unsigned": "97875830e208854689fe4efc89ea99e3ab4fc06d12e2f819830faf9998d64a74",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-dlink_dir-867-a1-initramfs-kernel.bin",
+      "sha256": "9e1a69366e7fe80103add5f72e32ff0f712b0a857a21493d92a6d2f143d43910",
+      "sha256_unsigned": "9e1a69366e7fe80103add5f72e32ff0f712b0a857a21493d92a6d2f143d43910",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-dlink_dir-867-a1-squashfs-sysupgrade.bin",
+      "sha256": "a081e47f038ce9881bdb0aafae26bc6b69d6ca32f4125dc5cbfb5930449d62ce",
+      "sha256_unsigned": "ea34709230b898e56af246447765d2897482aefdc9486a82f818851104fff476",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dlink_dir-867-a1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "dlink,dir-867-a1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "DIR-867",
+      "variant": "A1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,90 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-i2c-ralink"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-hootoo_ht-tm05",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-hootoo_ht-tm05-squashfs-rootfs.bin",
+      "sha256": "d4a6be4f91bd7171607a17bd6349618746a80f50e611820b4b3b1bfda16bd850",
+      "sha256_unsigned": "d4a6be4f91bd7171607a17bd6349618746a80f50e611820b4b3b1bfda16bd850",
+      "type": "rootfs"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-hootoo_ht-tm05-initramfs-kernel.bin",
+      "sha256": "883938623dd8049e7103700cddf7144b9db83bcf0f5ad4191be519fd72aaf556",
+      "sha256_unsigned": "883938623dd8049e7103700cddf7144b9db83bcf0f5ad4191be519fd72aaf556",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-hootoo_ht-tm05-squashfs-sysupgrade.bin",
+      "sha256": "6afcccc4748fae1c5efb53c46808d8a231dd8b8b0d09b886df24af064f54e0ba",
+      "sha256_unsigned": "b900a1d143737d98c008a31c2b126eb36e7ec336f2941bce2a95c8d5aa1c2874",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-hootoo_ht-tm05-squashfs-kernel.bin",
+      "sha256": "24f4c070492d98b160bce44367488732fdf7753c3ee4cc74a2ad71ba5df9fbf2",
+      "sha256_unsigned": "24f4c070492d98b160bce44367488732fdf7753c3ee4cc74a2ad71ba5df9fbf2",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "hootoo_ht-tm05",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "hootoo,ht-tm05"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "HT-TM05",
+      "vendor": "HooToo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_re455-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_re455-v1-squashfs-factory.bin",
+      "sha256": "dc51c36175c3a3fb24fe702315275e308a698dcd4d78d72a78e5b096b1e88cdb",
+      "sha256_unsigned": "dc51c36175c3a3fb24fe702315275e308a698dcd4d78d72a78e5b096b1e88cdb",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_re455-v1-initramfs-kernel.bin",
+      "sha256": "d46b1c79b98a137cba9291a4bdc82f54905164a86328b5c76b0427e63308c8f0",
+      "sha256_unsigned": "d46b1c79b98a137cba9291a4bdc82f54905164a86328b5c76b0427e63308c8f0",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_re455-v1-squashfs-sysupgrade.bin",
+      "sha256": "4a71a39eeee5b8aecef39d16ffe6dfba0f7baaba2bcc64a2c5329cd04149b0b9",
+      "sha256_unsigned": "74811da36be2900ae2949fbc522df2736a0ebc67adc7d9c325459e3068d1ee61",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_re455-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,re455-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "RE455",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,79 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic",
+    "kmod-usb2",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic",
+    "kmod-usb2"
+  ],
+  "device_packages": [
+    "kmod-rtc-ds1307",
+    "uboot-envtools"
+  ],
+  "image_path": "19.07.10/targets/mpc85xx/p1020/",
+  "image_prefix": "openwrt-19.07.10-mpc85xx-p1020-panda",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-mpc85xx-p1020-panda-squashfs-sysupgrade.bin",
+      "sha256": "ee6dedcf5a6af3a15a8a0de976aef8e45cfa7aebc3fb99000cfb289c0593199b",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-mpc85xx-p1020-panda-squashfs-fdt.bin",
+      "sha256": "3c72f0a66bd9cce126c50aca0ce3981882487dc9ab9ba59653631ebe23c0ded8",
+      "type": "fdt"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "panda",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "ocedo,panda"
+  ],
+  "target": "mpc85xx/p1020",
+  "titles": [
+    {
+      "title": "OCEDO Panda"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

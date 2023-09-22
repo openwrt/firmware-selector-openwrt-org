@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [
+    "kmod-tg3",
+    "kmod-b43"
+  ],
+  "image_path": "19.07.10/targets/brcm47xx/generic/",
+  "image_prefix": "openwrt-19.07.10-brcm47xx-generic-linksys-wrt310n-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-brcm47xx-generic-linksys-wrt310n-v1-squashfs.bin",
+      "sha256": "6eef5bd87a24c24d87a9a09cf469d33841329c2280f00c5a914bf72fac30f476",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksys-wrt310n-v1",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "brcm47xx/generic",
+  "titles": [
+    {
+      "title": "Linksys WRT310N v1"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,97 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-netgear_r7200",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r7200-squashfs-rootfs.bin",
+      "sha256": "0d5f183e4ee38c68c5c6878d9988e85af5a06f0c751c34b59b727348e34ff6d5",
+      "sha256_unsigned": "0d5f183e4ee38c68c5c6878d9988e85af5a06f0c751c34b59b727348e34ff6d5",
+      "type": "rootfs"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r7200-initramfs-kernel.bin",
+      "sha256": "63a58dcf87cc50e42d4c922a5d6429f346a260d52f4d17f995b69521faa4de69",
+      "sha256_unsigned": "63a58dcf87cc50e42d4c922a5d6429f346a260d52f4d17f995b69521faa4de69",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r7200-squashfs-factory.img",
+      "sha256": "f79afbd6324aec0de044b82ad665033073cf7f1e84d94b42fc425f6c477dd25b",
+      "sha256_unsigned": "f79afbd6324aec0de044b82ad665033073cf7f1e84d94b42fc425f6c477dd25b",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r7200-squashfs-kernel.bin",
+      "sha256": "93e77c4dcba017f39aab05ba5aa65f78475b163194b2788c1558fccd123fc22f",
+      "sha256_unsigned": "93e77c4dcba017f39aab05ba5aa65f78475b163194b2788c1558fccd123fc22f",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r7200-squashfs-sysupgrade.bin",
+      "sha256": "817261f38db541a2895122e164ee7c6fa6f3601af66a15b950ffd0d28819cf69",
+      "sha256_unsigned": "7e7967ee7e2c23cb40722779fd0a107ca549adae5c47591e63c0b6d2faf0e65b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_r7200",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,r7200"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "R7200",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

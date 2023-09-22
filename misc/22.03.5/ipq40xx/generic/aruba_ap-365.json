@@ -1,0 +1,81 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-board-qca4019",
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-hwmon-ad7418",
+    "ipq-wifi-aruba_ap-365"
+  ],
+  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-generic-aruba_ap-365",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-aruba_ap-365-squashfs-sysupgrade.bin",
+      "sha256": "c394c0ff3269bd0cf832b254bbba245f3d7422b15d20b16694b1fdab851b3b06",
+      "sha256_unsigned": "e257e1a18799f008992c3c88dfd0f4fccdf7ba970e2f548ee95cba509477b748",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-aruba_ap-365-initramfs-fit-uImage.itb",
+      "sha256": "9b60388c0adabe29b920810158bdb7e1fa089c86fbd371e041aab1f2a42028ee",
+      "sha256_unsigned": "9b60388c0adabe29b920810158bdb7e1fa089c86fbd371e041aab1f2a42028ee",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "aruba_ap-365",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "aruba,ap-365"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "AP-365",
+      "vendor": "Aruba"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/mikrotik/",
+  "image_prefix": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-951ui-2nd",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-951ui-2nd-initramfs-kernel.bin",
+      "sha256": "d797df3eaa8b063283668960c5a3b5ae165f570a47d1cec22a2bbf0f0e9d701b",
+      "sha256_unsigned": "d797df3eaa8b063283668960c5a3b5ae165f570a47d1cec22a2bbf0f0e9d701b",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-951ui-2nd-squashfs-sysupgrade.bin",
+      "sha256": "2168080dc17db9900c4076611eb6ada3c76415447c23e701281b41da2b36c8b4",
+      "sha256_unsigned": "3160c6fb09eee2fc905cba79454b6c5b860cc71a8af67bf8c988ee19e93f4cf9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mikrotik_routerboard-951ui-2nd",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mikrotik,routerboard-951ui-2nd",
+    "rb-951ui-2nd"
+  ],
+  "target": "ath79/mikrotik",
+  "titles": [
+    {
+      "model": "RouterBOARD 951Ui-2nD (hAP)",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

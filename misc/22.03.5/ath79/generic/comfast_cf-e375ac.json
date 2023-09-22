@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9888-ct",
+    "-uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-comfast_cf-e375ac",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-comfast_cf-e375ac-initramfs-kernel.bin",
+      "sha256": "62fb01cebc9c66c50d3e05bbcabee277e0a4004ec6bc32b88ef646e66fb03223",
+      "sha256_unsigned": "62fb01cebc9c66c50d3e05bbcabee277e0a4004ec6bc32b88ef646e66fb03223",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-comfast_cf-e375ac-squashfs-sysupgrade.bin",
+      "sha256": "d2d9bd576b20a226cfc807ef7e9db506b1d0ea24fcd04286a7d329a0c0befb00",
+      "sha256_unsigned": "0014817f13c0a07bce32109891e99aeb79caf2e180d6253e67d374d54b436e97",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "comfast_cf-e375ac",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "comfast,cf-e375ac"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CF-E375AC",
+      "vendor": "COMFAST"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

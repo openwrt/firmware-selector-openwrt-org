@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-linksys_ea8100-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-linksys_ea8100-v2-squashfs-sysupgrade.bin",
+      "sha256": "4d42517a1c213a83f0a23db4d679820755fb77c731a57d3391ad00de60c0a66c",
+      "sha256_unsigned": "16da31b639c673263a808bd6bfc7b04c7cdd31b77603495ca843795060b38007",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-linksys_ea8100-v2-squashfs-factory.bin",
+      "sha256": "d5c7e1bd8c1ddb955bd1fb68fba713445c968de7fc0ddb80cefa33bbc53a7c1e",
+      "sha256_unsigned": "d5c7e1bd8c1ddb955bd1fb68fba713445c968de7fc0ddb80cefa33bbc53a7c1e",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-linksys_ea8100-v2-initramfs-kernel.bin",
+      "sha256": "6f9afed6100b1d23874d38155e1c93075977b9083584424cbbe4a377e865ee0c",
+      "sha256_unsigned": "6f9afed6100b1d23874d38155e1c93075977b9083584424cbbe4a377e865ee0c",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksys_ea8100-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "linksys,ea8100-v2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "EA8100",
+      "variant": "v2",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

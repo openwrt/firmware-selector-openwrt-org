@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/nand/",
+  "image_prefix": "openwrt-22.03.5-ath79-nand-8dev_rambutan",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-nand-8dev_rambutan-initramfs-kernel.bin",
+      "sha256": "3663b382bad62a9ee88a93f228daff55b6ab3d4975db6e9eddc9fdb7bded0c35",
+      "sha256_unsigned": "3663b382bad62a9ee88a93f228daff55b6ab3d4975db6e9eddc9fdb7bded0c35",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-8dev_rambutan-squashfs-sysupgrade.tar",
+      "sha256": "6a0f01d5e0bed0e28237bb891ef1032278253f0caece7a992f5daa3b3ab83074",
+      "sha256_unsigned": "f5ca02a9c8ac66320a83d83432e8767a3d1b7d9cd60a3ad4f926fe1633f57488",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-8dev_rambutan-squashfs-factory.bin",
+      "sha256": "0d2993998bef366dd8d920817c1540de897fa3294da05508c3fe310833a55fd8",
+      "sha256_unsigned": "0d2993998bef366dd8d920817c1540de897fa3294da05508c3fe310833a55fd8",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "8dev_rambutan",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "8dev,rambutan"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "Rambutan",
+      "vendor": "8devices"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

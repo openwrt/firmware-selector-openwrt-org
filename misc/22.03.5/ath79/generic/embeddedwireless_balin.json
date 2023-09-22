@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-embeddedwireless_balin",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-embeddedwireless_balin-squashfs-sysupgrade.bin",
+      "sha256": "d0f5544cff1c0de0274d9faee2404dfa98d0467e787a2bb71c1404dd6bc7f6d6",
+      "sha256_unsigned": "c4a1aa5d8f8d1ad933836a94dc5709744e7c23886b680728c17275b1dc681c01",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-embeddedwireless_balin-initramfs-kernel.bin",
+      "sha256": "702a8e53826c933501ee2be85a3ae0b1ae6fbc8e13261c29a645af705bb0e546",
+      "sha256_unsigned": "702a8e53826c933501ee2be85a3ae0b1ae6fbc8e13261c29a645af705bb0e546",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "embeddedwireless_balin",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "embeddedwireless,balin"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Balin",
+      "vendor": "Embedded Wireless"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

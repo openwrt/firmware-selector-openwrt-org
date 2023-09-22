@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-8devices_carambola",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-8devices_carambola-squashfs-sysupgrade.bin",
+      "sha256": "7321e65cfd626fdc7a20ead7d495c8a152e3f76367fe4108eb3753681a317d13",
+      "sha256_unsigned": "2913b6c59c65f0cff558664657c67c805741f0315136499a6373bb0cebc41504",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-8devices_carambola-initramfs-kernel.bin",
+      "sha256": "3f184e66c2b88eefadf73c9a0aa3be2fd94261cb3b47a4deb7c477b5716bc6cd",
+      "sha256_unsigned": "3f184e66c2b88eefadf73c9a0aa3be2fd94261cb3b47a4deb7c477b5716bc6cd",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "8devices_carambola",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "8devices,carambola",
+    "carambola"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "Carambola",
+      "vendor": "8devices"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

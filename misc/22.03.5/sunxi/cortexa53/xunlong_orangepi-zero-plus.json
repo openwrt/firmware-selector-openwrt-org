@@ -1,0 +1,71 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/sunxi/cortexa53/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa53-xunlong_orangepi-zero-plus",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa53-xunlong_orangepi-zero-plus-ext4-sdcard.img.gz",
+      "sha256": "005597194501de3276db9b788cd07bae9eee5cc73dcf2c2dc92668dca7577dd3",
+      "sha256_unsigned": "09bacf2ae6abb18b2ef724d6b8c06e2b14c0558c00df198bd69bc82275d2e45d",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa53-xunlong_orangepi-zero-plus-squashfs-sdcard.img.gz",
+      "sha256": "e626d76d3b3e411b429defb4f113ccd005bec74aac5aa8a0015d247c563923b5",
+      "sha256_unsigned": "70602e7e557c85f5b53621555f62e778cad61264582b753cef2976a19268595f",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "xunlong_orangepi-zero-plus",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "xunlong,orangepi-zero-plus"
+  ],
+  "target": "sunxi/cortexa53",
+  "titles": [
+    {
+      "model": "Orange Pi Zero Plus",
+      "vendor": "Xunlong"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

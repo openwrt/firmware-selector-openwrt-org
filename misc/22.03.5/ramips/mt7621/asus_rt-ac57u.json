@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-asus_rt-ac57u",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-asus_rt-ac57u-squashfs-sysupgrade.bin",
+      "sha256": "eccde1317761380e60df81672ebd827dfa8b48b682d3d2614a9ec42bed264207",
+      "sha256_unsigned": "342291a9acd9f9922aa0001f6e2abec7e6a49db274312e458d7124f692afaf8e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-asus_rt-ac57u-initramfs-kernel.bin",
+      "sha256": "169c854b8ad2b1b631686f886580570c2cdb6af1e9af3dbaa36de85c640a7c77",
+      "sha256_unsigned": "169c854b8ad2b1b631686f886580570c2cdb6af1e9af3dbaa36de85c640a7c77",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "asus_rt-ac57u",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "asus,rt-ac57u"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RT-AC57U",
+      "vendor": "ASUS"
+    },
+    {
+      "model": "RT-AC1200GU",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

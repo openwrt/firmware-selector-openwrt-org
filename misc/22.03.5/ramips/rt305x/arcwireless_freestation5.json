@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-rt2500-usb",
+    "kmod-rt2800-usb",
+    "kmod-rt2x00-usb"
+  ],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-arcwireless_freestation5",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-arcwireless_freestation5-initramfs-kernel.bin",
+      "sha256": "db0eb44cae0039d3b31db45ad2b6858e49c870d2c8cb5a671ddc8682ae44b9dd",
+      "sha256_unsigned": "db0eb44cae0039d3b31db45ad2b6858e49c870d2c8cb5a671ddc8682ae44b9dd",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-arcwireless_freestation5-squashfs-sysupgrade.bin",
+      "sha256": "46e606d9cf034c0541dbfef39763a6d69a2c1b4cb61a55ff3bedafcab8cd0d0b",
+      "sha256_unsigned": "24d5a13183a9f8fcfded6808063cc45321bb1943884982c9b07227fbf0d620a9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "arcwireless_freestation5",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "arcwireless,freestation5",
+    "freestation5"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "FreeStation",
+      "vendor": "ARC Wireless"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

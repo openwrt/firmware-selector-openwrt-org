@@ -1,0 +1,82 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-hwmon-adt7475",
+    "kmod-fs-ext4",
+    "kmod-ata-marvell-sata",
+    "mdadm",
+    "kmod-gpio-button-hotplug"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-seagate_blackarmor-nas220",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-seagate_blackarmor-nas220-squashfs-factory.bin",
+      "sha256": "987c1d7b497335d4d0eb19124b626ff0892f054be4bb1af471842ebbc39d4ca7",
+      "sha256_unsigned": "987c1d7b497335d4d0eb19124b626ff0892f054be4bb1af471842ebbc39d4ca7",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-seagate_blackarmor-nas220-initramfs-uImage",
+      "sha256": "0499e35822f2287630be7a3ab5dd91dc27c520f9ca93a9903b13ce00e8f1a0db",
+      "sha256_unsigned": "0499e35822f2287630be7a3ab5dd91dc27c520f9ca93a9903b13ce00e8f1a0db",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-seagate_blackarmor-nas220-squashfs-sysupgrade.bin",
+      "sha256": "6b5285caee0de981f3995ea5a63584be553fa2018de5df3e7e24114cb6a26559",
+      "sha256_unsigned": "b092d2077b3c6bd0136fba44ed591c780b37107f9ed45ea5f5ca8c0d06a07066",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "seagate_blackarmor-nas220",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "seagate,blackarmor-nas220"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "Blackarmor NAS220",
+      "vendor": "Seagate"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

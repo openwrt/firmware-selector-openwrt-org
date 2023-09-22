@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ubnt_edgeswitch-5xp",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_edgeswitch-5xp-initramfs-kernel.bin",
+      "sha256": "3c31c68d443d4f896a2f8938c81f940e31fde47cb326664666b9a63797c0dbec",
+      "sha256_unsigned": "3c31c68d443d4f896a2f8938c81f940e31fde47cb326664666b9a63797c0dbec",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_edgeswitch-5xp-squashfs-factory.bin",
+      "sha256": "cf01aa209354de9323c787ab869754db16bab044ab1ed343bb3527b5e6bcf2e7",
+      "sha256_unsigned": "cf01aa209354de9323c787ab869754db16bab044ab1ed343bb3527b5e6bcf2e7",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_edgeswitch-5xp-squashfs-sysupgrade.bin",
+      "sha256": "02e74d41c0502dd9ddf8ef9cad8942c39569df48b7ef2b115056a8f8afe5cae9",
+      "sha256_unsigned": "982f4f6ed3da3fc2166013335793dc7b2b2984672877772e51f606d49bb2acec",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_edgeswitch-5xp",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,edgeswitch-5xp"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EdgeSwitch 5XP",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

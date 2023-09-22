@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-poray_x5",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-poray_x5-initramfs-kernel.bin",
+      "sha256": "0c603549e79a85c43cc5cc953ba8d3abd9c4aff9770ee5d7b52a93c7df786c18",
+      "sha256_unsigned": "0c603549e79a85c43cc5cc953ba8d3abd9c4aff9770ee5d7b52a93c7df786c18",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-poray_x5-squashfs-factory.bin",
+      "sha256": "8e4a16967fd66f22c7944fb3d1358a59562d72abbfa31dddb33893d970e48b19",
+      "sha256_unsigned": "8e4a16967fd66f22c7944fb3d1358a59562d72abbfa31dddb33893d970e48b19",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-poray_x5-squashfs-sysupgrade.bin",
+      "sha256": "5a3d059d7e572b043ecaef573aec5e5cf04f76e46eb058c43de3115562fa87bf",
+      "sha256_unsigned": "2b5458ea62d50c64228394c23ca6599b6a4cbc90cbf05b7a634016c870ce49f5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "poray_x5",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "poray,x5",
+    "x5"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "X5/X6",
+      "vendor": "Poray"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

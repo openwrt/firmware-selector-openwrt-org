@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-youhua_wr1200js",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-youhua_wr1200js-squashfs-sysupgrade.bin",
+      "sha256": "1651bdf38f37a796cdc2372bf00683c19c9b4cf00cc779147f457b4ddde81d08",
+      "sha256_unsigned": "3567cb2974639d2aa0cecde238ffd1825e9d03142156c50cec21b0c880cc575e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-youhua_wr1200js-initramfs-kernel.bin",
+      "sha256": "48ad38db118cf4123bb9aac362341a1a81767e7ad396c81fbf34b16fd9f8b98f",
+      "sha256_unsigned": "48ad38db118cf4123bb9aac362341a1a81767e7ad396c81fbf34b16fd9f8b98f",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "youhua_wr1200js",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "youhua,wr1200js"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WR1200JS",
+      "vendor": "YouHua"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

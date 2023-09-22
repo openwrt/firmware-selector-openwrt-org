@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-8dev_lima",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-8dev_lima-initramfs-kernel.bin",
+      "sha256": "74a21827a15ae04cc96304254654fd583ab036feed919193cf2aae135b95c839",
+      "sha256_unsigned": "74a21827a15ae04cc96304254654fd583ab036feed919193cf2aae135b95c839",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-8dev_lima-squashfs-sysupgrade.bin",
+      "sha256": "3317f25ae96506435074415d7e8a91a026e9edd645dac722b1253637f44ed531",
+      "sha256_unsigned": "e3050a05424194083277e3c05c6e8ec1483dd0a5e4d6717f7979c06120dfa64d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "8dev_lima",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "8dev,lima",
+    "lima"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Lima",
+      "vendor": "8devices"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

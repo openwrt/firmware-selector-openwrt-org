@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-gehua_ghl-r-001",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-gehua_ghl-r-001-squashfs-sysupgrade.bin",
+      "sha256": "9d94370d8603a377dafd3a55f2b5943f1257b1c856f68c1a8034cfcda8f5fc6a",
+      "sha256_unsigned": "d318f742afca9487822a79595c071739f9faa6d36c2f8c584e842e5af2c49ff6",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-gehua_ghl-r-001-initramfs-kernel.bin",
+      "sha256": "32f7a4d2e050c3d5b23edefd3db598c9748da6baaf25e8d98be6ae1e396954d5",
+      "sha256_unsigned": "32f7a4d2e050c3d5b23edefd3db598c9748da6baaf25e8d98be6ae1e396954d5",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "gehua_ghl-r-001",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "gehua,ghl-r-001"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "GHL-R-001",
+      "vendor": "GeHua"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

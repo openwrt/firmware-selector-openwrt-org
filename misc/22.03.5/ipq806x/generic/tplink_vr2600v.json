@@ -1,0 +1,85 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca99x0-ct"
+  ],
+  "image_path": "22.03.5/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq806x-generic-tplink_vr2600v",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-tplink_vr2600v-squashfs-sysupgrade.bin",
+      "sha256": "adeac9bd11304a4a404d6b938faaf8cac789b9fe0c8accc7be295f2021c6483b",
+      "sha256_unsigned": "87a60c2a03e63c1b07b6faace76974529ba0840edb2bac841bd995e21bc4be00",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-tplink_vr2600v-initramfs-uImage",
+      "sha256": "c2799187b5a9f4bdecbce0478f582acaea8a34395632c0fd8959e57fcea5fccf",
+      "sha256_unsigned": "c2799187b5a9f4bdecbce0478f582acaea8a34395632c0fd8959e57fcea5fccf",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_vr2600v",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,vr2600v",
+    "vr2600v"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "Archer VR2600v",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

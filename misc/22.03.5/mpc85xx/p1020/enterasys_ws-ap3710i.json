@@ -1,0 +1,76 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-button-hotplug",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/mpc85xx/p1020/",
+  "image_prefix": "openwrt-22.03.5-mpc85xx-p1020-enterasys_ws-ap3710i",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1020-enterasys_ws-ap3710i-initramfs-kernel.bin",
+      "sha256": "f52b2cff956e419c09fc48d57aeab72f94b0f3a1fdd0eac280ab6b26d58bb864",
+      "sha256_unsigned": "f52b2cff956e419c09fc48d57aeab72f94b0f3a1fdd0eac280ab6b26d58bb864",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1020-enterasys_ws-ap3710i-squashfs-sysupgrade.bin",
+      "sha256": "13dc66c5557ac8e172252ca012072bf1921a89d9f1f4b245ae6293fe76b2d0c8",
+      "sha256_unsigned": "77f9f1c8247e62a6bb0658913fd76c0db69460108923e0282133d5472f9a58f2",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "enterasys_ws-ap3710i",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "enterasys,ws-ap3710i"
+  ],
+  "target": "mpc85xx/p1020",
+  "titles": [
+    {
+      "model": "WS-AP3710i",
+      "vendor": "Enterasys"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

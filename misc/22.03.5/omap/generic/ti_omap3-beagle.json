@@ -1,0 +1,79 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-usb-net-asix",
+    "kmod-usb-net-asix-ax88179",
+    "kmod-usb-net-hso",
+    "kmod-usb-net-kaweth",
+    "kmod-usb-net-pegasus",
+    "kmod-usb-net-mcs7830",
+    "kmod-usb-net-smsc95xx",
+    "kmod-usb-net-dm9601-ether"
+  ],
+  "image_path": "22.03.5/targets/omap/generic/",
+  "image_prefix": "openwrt-22.03.5-omap-ti_omap3-beagle",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-omap-ti_omap3-beagle-squashfs-sdcard.img.gz",
+      "sha256": "6a27451617b75c2c781d4520a62354ff2f85b04836fb60d527d45d65606fee13",
+      "sha256_unsigned": "bbc11951652566a135c3ed0ca39dbe730953e4e3a000ceff2b8ce093badc78ab",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-omap-ti_omap3-beagle-ext4-sdcard.img.gz",
+      "sha256": "d686856e39e11511af7cdf83ceb8125ee86bf3a7993182f8cf0e69adebdd2d4c",
+      "sha256_unsigned": "cd3538d7ce5478e3a69fc775411f6bcfd019f9f6001898f98f62f68380fa13bb",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ti_omap3-beagle",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ti,omap3-beagle"
+  ],
+  "target": "omap/generic",
+  "titles": [
+    {
+      "model": "OMAP3 TI beagleboard",
+      "vendor": "BeagleBoard.org"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

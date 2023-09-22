@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-sound-core",
+    "kmod-sound-mt7620",
+    "kmod-i2c-ralink"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-dlink_dch-m225",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-dlink_dch-m225-squashfs-sysupgrade.bin",
+      "sha256": "0d670d02bc9e52e7b97a7b29c63626ffb0de8e2e3496d9b4d3d20f2b59059c17",
+      "sha256_unsigned": "6c2c1f5c4c7f760f384300c776824f573ff1ee076acd736b4afef80b901745b2",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-dlink_dch-m225-initramfs-kernel.bin",
+      "sha256": "f7a9a692d77a2291ecaeccfc9d882b77088309d15384724f66ba1ae38f998998",
+      "sha256_unsigned": "f7a9a692d77a2291ecaeccfc9d882b77088309d15384724f66ba1ae38f998998",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-dlink_dch-m225-squashfs-factory.bin",
+      "sha256": "2da0ed49e7c1f2dd6db195d5464faf9375f34d549f6d19b682a1a2560669bbb9",
+      "sha256_unsigned": "2da0ed49e7c1f2dd6db195d5464faf9375f34d549f6d19b682a1a2560669bbb9",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dlink_dch-m225",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "dlink,dch-m225",
+    "dch-m225"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DCH-M225",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

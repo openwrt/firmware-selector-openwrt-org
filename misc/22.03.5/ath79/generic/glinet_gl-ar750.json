@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9887-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-glinet_gl-ar750",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-glinet_gl-ar750-squashfs-sysupgrade.bin",
+      "sha256": "17d9052679d08393f5fd63309b3850376faca1580312668d4f7f93bddc03317f",
+      "sha256_unsigned": "5db7d68ffe7ae204944ea807e13c5a995b3a17e925b4ac6d0c035d560963fafb",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-glinet_gl-ar750-initramfs-kernel.bin",
+      "sha256": "2a1e146945a5f71554963275da19ca2c1861c030d0784565f5217d99a2644f3d",
+      "sha256_unsigned": "2a1e146945a5f71554963275da19ca2c1861c030d0784565f5217d99a2644f3d",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "glinet_gl-ar750",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "glinet,gl-ar750",
+    "gl-ar750"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "GL-AR750",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

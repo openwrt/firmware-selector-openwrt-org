@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-i2c-gpio",
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-pisen_wmb001n",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-pisen_wmb001n-squashfs-sysupgrade.bin",
+      "sha256": "5636e1ec85444c9f095fd7563f1eae76c38f4ac5d2b8000b9845324ebbacd368",
+      "sha256_unsigned": "a961ff81e59554605f197033d0f6f476599b7716aad4b7fdff1f9b9286dfba19",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-pisen_wmb001n-initramfs-kernel.bin",
+      "sha256": "53caf75019c4406f80e6279c41f103759fb312f17d760f3fdc546b947b02f1c0",
+      "sha256_unsigned": "53caf75019c4406f80e6279c41f103759fb312f17d760f3fdc546b947b02f1c0",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-pisen_wmb001n-squashfs-factory.bin",
+      "sha256": "31a50daa56c2061ffc62211294ee9d415b786f9056e5699c729a8ffabbdd8778",
+      "sha256_unsigned": "a961ff81e59554605f197033d0f6f476599b7716aad4b7fdff1f9b9286dfba19",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "pisen_wmb001n",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "pisen,wmb001n"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WMB001N",
+      "vendor": "PISEN"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-pisen_wmm003n",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-pisen_wmm003n-squashfs-factory.bin",
+      "sha256": "5525315e006f7a9e50f5b4faedebfc50f5280188e08c6b06308bf4b10beb4750",
+      "sha256_unsigned": "5525315e006f7a9e50f5b4faedebfc50f5280188e08c6b06308bf4b10beb4750",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-pisen_wmm003n-initramfs-kernel.bin",
+      "sha256": "69b548a93462db4dad88bca880bab7dbf42fee767cdc5fd8b55e369198f04c39",
+      "sha256_unsigned": "69b548a93462db4dad88bca880bab7dbf42fee767cdc5fd8b55e369198f04c39",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-pisen_wmm003n-squashfs-sysupgrade.bin",
+      "sha256": "bed8af9f99b580cf7123d9311213e89e02b6b105ba5447e99622cd309fb2a8d9",
+      "sha256_unsigned": "53b21629a34de80932c69ccdacd86cdb436c63a3261ec8ec6655b44eefca3dc1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "pisen_wmm003n",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "pisen,wmm003n"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Cloud Easy Power (WMM003N)",
+      "vendor": "PISEN"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

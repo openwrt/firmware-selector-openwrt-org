@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-iodata_wnpr2600g",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iodata_wnpr2600g-squashfs-factory.bin",
+      "sha256": "b6147243525df11d1b43584ce2b84e0223d99bf2439fdbbc76de1c4e9afb2da7",
+      "sha256_unsigned": "b6147243525df11d1b43584ce2b84e0223d99bf2439fdbbc76de1c4e9afb2da7",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iodata_wnpr2600g-squashfs-sysupgrade.bin",
+      "sha256": "2b5b3655e5a2bdd73f80b1e8d30d07d82d7f6e40a5fb86be8a6c8ce0a822dabc",
+      "sha256_unsigned": "4aa42a40b0a6d8d089adc9f8c85304e4c3c4fbc0880b4f0703b3c81dd8057fb0",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iodata_wnpr2600g-initramfs-kernel.bin",
+      "sha256": "6f70187dd637fe97701b885a64f4be3bf7244744e78c18884fc40be14b55dae9",
+      "sha256_unsigned": "6f70187dd637fe97701b885a64f4be3bf7244744e78c18884fc40be14b55dae9",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iodata_wnpr2600g",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iodata,wnpr2600g"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WNPR2600G",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

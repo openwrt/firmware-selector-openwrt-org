@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-generic-brcm_bcm96338gw",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-brcm_bcm96338gw-squashfs-cfe.bin",
+      "sha256": "27d4623d62afbab0b76b1bfd4a1fac7fc77a9d58e75b24eb8dcf056e7dd6b8a8",
+      "sha256_unsigned": "27d4623d62afbab0b76b1bfd4a1fac7fc77a9d58e75b24eb8dcf056e7dd6b8a8",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "brcm_bcm96338gw",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "brcm,bcm96338gw"
+  ],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "96338GW",
+      "vendor": "Generic"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

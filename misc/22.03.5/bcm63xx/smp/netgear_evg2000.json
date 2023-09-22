@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-smp-netgear_evg2000",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-netgear_evg2000-squashfs-factory.chk",
+      "sha256": "557b5b4cae7b9d16da5747d7b24ba16ae198c5f1422265e226f9234a3d3993cf",
+      "sha256_unsigned": "557b5b4cae7b9d16da5747d7b24ba16ae198c5f1422265e226f9234a3d3993cf",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-netgear_evg2000-squashfs-sysupgrade.bin",
+      "sha256": "fc34cb3deb670a0b5ca26bfaa583c7ce25b8bac0969e6e60dbeff2430b589b73",
+      "sha256_unsigned": "fc34cb3deb670a0b5ca26bfaa583c7ce25b8bac0969e6e60dbeff2430b589b73",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_evg2000",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,evg2000"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "EVG2000",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

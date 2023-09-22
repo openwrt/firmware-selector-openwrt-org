@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-generic-adb_a4001n1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-adb_a4001n1-squashfs-sysupgrade.bin",
+      "sha256": "e1b9fde1e575783c6e07eec50583408e8c5c481d736fcf55bf5743e7c8d23d75",
+      "sha256_unsigned": "e1b9fde1e575783c6e07eec50583408e8c5c481d736fcf55bf5743e7c8d23d75",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-adb_a4001n1-squashfs-cfe.bin",
+      "sha256": "f97ed1b000711c23e78d9751b4777f8cf233b47521eee051e07daf515e685f58",
+      "sha256_unsigned": "f97ed1b000711c23e78d9751b4777f8cf233b47521eee051e07daf515e685f58",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "adb_a4001n1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "adb,a4001n1"
+  ],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "P.DG A4001N1",
+      "vendor": "ADB"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

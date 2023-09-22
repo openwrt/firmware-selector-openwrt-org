@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-generic-nucom_r5010un-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-nucom_r5010un-v2-squashfs-sysupgrade.bin",
+      "sha256": "c0fa0267ac908b4642dd5c159f4620dca1ef24c3ef0511dcb1a0e90a765713bb",
+      "sha256_unsigned": "c0fa0267ac908b4642dd5c159f4620dca1ef24c3ef0511dcb1a0e90a765713bb",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-nucom_r5010un-v2-squashfs-cfe.bin",
+      "sha256": "9eb05cb461bc80f2bc5023312d891c8ea4841f7d82613948cc34ec4e52377b4a",
+      "sha256_unsigned": "9eb05cb461bc80f2bc5023312d891c8ea4841f7d82613948cc34ec4e52377b4a",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "nucom_r5010un-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "nucom,r5010un-v2"
+  ],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "R5010UN",
+      "variant": "v2",
+      "vendor": "NuCom"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,94 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-board-qca4019",
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9888-ct",
+    "ipq-wifi-glinet_gl-b2200",
+    "kmod-fs-ext4",
+    "kmod-mmc",
+    "kmod-spi-dev",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-fs-f2fs"
+  ],
+  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-generic-glinet_gl-b2200",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-glinet_gl-b2200-squashfs-emmc.img.gz",
+      "sha256": "cd3097167d3226aa79bb67ec6c0cfdcba3d57c2a40ee93a00b4d134ef134a4ce",
+      "sha256_unsigned": "b8c779657806dc53c608f5f475a74241305dec63f29b2b19d1940a712e822feb",
+      "type": "emmc"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-glinet_gl-b2200-initramfs-recovery.itb",
+      "sha256": "02071309b3bc5711b1913ba357e439b4bf21314e34a912e67c7a72c977eef387",
+      "sha256_unsigned": "02071309b3bc5711b1913ba357e439b4bf21314e34a912e67c7a72c977eef387",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-glinet_gl-b2200-squashfs-sysupgrade.bin",
+      "sha256": "2a93a26017f191cb7d78e11f3e3b13ca5d49ba8ea5f95eb6bd17f6260095011a",
+      "sha256_unsigned": "d18916bc1d1346c8f5c25d30ad3408ddb79ac8daa59c01b078d22c8c85cf4deb",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "glinet_gl-b2200",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "glinet,gl-b2200"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "GL-B2200",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

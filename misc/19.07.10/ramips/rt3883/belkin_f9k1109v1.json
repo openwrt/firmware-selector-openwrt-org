@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-pci",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "swconfig"
+  ],
+  "image_path": "19.07.10/targets/ramips/rt3883/",
+  "image_prefix": "openwrt-19.07.10-ramips-rt3883-belkin_f9k1109v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-rt3883-belkin_f9k1109v1-squashfs-sysupgrade.bin",
+      "sha256": "3996ee73ad9965a1f0d4451913ca081e1bfbfc2c1049bd4751d56927cff41ea5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "belkin_f9k1109v1",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "belkin,f9k1109v1"
+  ],
+  "target": "ramips/rt3883",
+  "titles": [
+    {
+      "title": "Belkin F9K1109 Version 1.0"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

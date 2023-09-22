@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9887-ct",
+    "kmod-usb2",
+    "kmod-usb-storage",
+    "block-mount"
+  ],
+  "image_path": "22.03.5/targets/ath79/nand/",
+  "image_prefix": "openwrt-22.03.5-ath79-nand-glinet_gl-ar750s-nor-nand",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-ar750s-nor-nand-initramfs-kernel.bin",
+      "sha256": "29b2e23579061750eb297796eb629d6c1cc436e0e7a559111342e7c91b213453",
+      "sha256_unsigned": "29b2e23579061750eb297796eb629d6c1cc436e0e7a559111342e7c91b213453",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-ar750s-nor-nand-squashfs-sysupgrade.bin",
+      "sha256": "f7851220c0aeabf492d8691978e890436eee85b31f527622c62204b0cdece711",
+      "sha256_unsigned": "94ae385f0d5942ef52fa08b197f3718ff21d85ca1f82332ba7aa7dcb03b2e2c7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "glinet_gl-ar750s-nor-nand",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "glinet,gl-ar750s-nor-nand",
+    "glinet,gl-ar750s-nor"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "GL-AR750S",
+      "variant": "NOR/NAND",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

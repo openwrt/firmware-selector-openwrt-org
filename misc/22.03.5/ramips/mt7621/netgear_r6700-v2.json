@@ -1,0 +1,108 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-netgear_r6700-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r6700-v2-squashfs-factory.img",
+      "sha256": "ecd5f209470d56bd85d4b8b384dac3ab679effecbb1cf5390cfd664dda68b372",
+      "sha256_unsigned": "ecd5f209470d56bd85d4b8b384dac3ab679effecbb1cf5390cfd664dda68b372",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r6700-v2-squashfs-rootfs.bin",
+      "sha256": "0d5f183e4ee38c68c5c6878d9988e85af5a06f0c751c34b59b727348e34ff6d5",
+      "sha256_unsigned": "0d5f183e4ee38c68c5c6878d9988e85af5a06f0c751c34b59b727348e34ff6d5",
+      "type": "rootfs"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r6700-v2-squashfs-kernel.bin",
+      "sha256": "44684642a21798ac2f15d6c998722993b835824f0a09512e6c7482dde235fdf9",
+      "sha256_unsigned": "44684642a21798ac2f15d6c998722993b835824f0a09512e6c7482dde235fdf9",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r6700-v2-squashfs-sysupgrade.bin",
+      "sha256": "4e608a3d27f82e6b28af3c5f6c64bb701a98815dd27711df9c3e0cb4bd585422",
+      "sha256_unsigned": "2e3ba20860f73b57c6f385f749d811659f539c8466105cf94390c35eb4fc6c6b",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r6700-v2-initramfs-kernel.bin",
+      "sha256": "ac33b561a4bcf0f43ea0482aa386680c7d0a2cf269d47b7b128c16a1fd0a12da",
+      "sha256_unsigned": "ac33b561a4bcf0f43ea0482aa386680c7d0a2cf269d47b7b128c16a1fd0a12da",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_r6700-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,r6700-v2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "R6700",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    },
+    {
+      "model": "Nighthawk AC2400",
+      "variant": "v1",
+      "vendor": "NETGEAR"
+    },
+    {
+      "model": "Nighthawk AC2100",
+      "variant": "v1",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

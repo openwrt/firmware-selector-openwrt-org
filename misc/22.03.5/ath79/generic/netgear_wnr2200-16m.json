@@ -1,0 +1,88 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-netgear_wnr2200-16m",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wnr2200-16m-initramfs-kernel.bin",
+      "sha256": "5f21f68eb2c52b55b9e27f3dd5c58bf15517947ff04d3f263ce072365bc01535",
+      "sha256_unsigned": "5f21f68eb2c52b55b9e27f3dd5c58bf15517947ff04d3f263ce072365bc01535",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wnr2200-16m-squashfs-sysupgrade.bin",
+      "sha256": "106957b3f30ef02c097cd3e1633aa1a07ceb9a7bfb7f19bd25d2aa659677487c",
+      "sha256_unsigned": "e3c7e013d7c629404ed130883b7e76d7d86b58700f259e7a030545fd587d7c22",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-netgear_wnr2200-16m-squashfs-factory.img",
+      "sha256": "4615c1f146337975da6ed51888fdd6ffa6f7fd0ad3e8636461cc779056ca4c75",
+      "sha256_unsigned": "4615c1f146337975da6ed51888fdd6ffa6f7fd0ad3e8636461cc779056ca4c75",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wnr2200-16m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wnr2200-16m"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WNR2200",
+      "variant": "16M",
+      "vendor": "NETGEAR"
+    },
+    {
+      "model": "WNR2200",
+      "variant": "CN/RU",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

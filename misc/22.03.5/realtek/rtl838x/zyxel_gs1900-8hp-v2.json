@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_4kec",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "ethtool",
+    "firewall4",
+    "fstools",
+    "ip-bridge",
+    "ip-full",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "opkg",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "tc-bpf",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "lua-rs232"
+  ],
+  "image_path": "22.03.5/targets/realtek/rtl838x/",
+  "image_prefix": "openwrt-22.03.5-realtek-rtl838x-zyxel_gs1900-8hp-v2",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-zyxel_gs1900-8hp-v2-initramfs-kernel.bin",
+      "sha256": "880d4450eaaad8735926369b4d188fd73dbf2bc90f56a01f3225eae2ed269f51",
+      "sha256_unsigned": "880d4450eaaad8735926369b4d188fd73dbf2bc90f56a01f3225eae2ed269f51",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-realtek-rtl838x-zyxel_gs1900-8hp-v2-squashfs-sysupgrade.bin",
+      "sha256": "e50b6a6c9bd7595688d2c8b0b2d584b0710527471d7ff9bd0ae62f59dc862d75",
+      "sha256_unsigned": "95cbf648877a4560d58d2b1856b2e54cb6c7703d226073077a5d2c458294879f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zyxel_gs1900-8hp-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zyxel,gs1900-8hp-v2"
+  ],
+  "target": "realtek/rtl838x",
+  "titles": [
+    {
+      "model": "GS1900-8HP",
+      "variant": "v2",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-mt7603",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-sdhci-mt7620"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt76x8-vocore2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt76x8-vocore2-squashfs-sysupgrade.bin",
+      "sha256": "b6b2dd57b8d2e38a4bb13461e909dbe75e186f81e3ca431f4d4551c516394fdd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "vocore2",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "vocore2"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "title": "VoCore VoCore2"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

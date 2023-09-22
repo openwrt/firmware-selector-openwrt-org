@@ -1,0 +1,76 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-sunxi",
+    "kmod-rtc-sunxi",
+    "kmod-usb-hid"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa7/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc-ext4-sdcard.img.gz",
+      "sha256": "e90d5b4cc8bfbff1e5d2b1c1e168ab8967e021c46b3ef34d5be73a91fb933fa0",
+      "sha256_unsigned": "7c7b5a99338798339b349399aa9eeabfee1d25f7a6a237414451f383069d53b0",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc-squashfs-sdcard.img.gz",
+      "sha256": "3c046160342fe9943e670451723806a294bb530ab8c4872a48c76f91f0f400e6",
+      "sha256_unsigned": "9557ccdfa5d1dd8204246c1b7d272b7c7c8eaf6c9ae458559453c23c65790023",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "olimex_a20-olinuxino-lime2-emmc",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "olimex,a20-olinuxino-lime2-emmc"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "A20-OLinuXino-LIME2",
+      "variant": "eMMC",
+      "vendor": "Olimex"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

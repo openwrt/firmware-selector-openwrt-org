@@ -1,0 +1,68 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "e2fsprogs",
+    "ethtool",
+    "mkf2fs",
+    "partx-utils",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/mvebu/cortexa53/",
+  "image_prefix": "openwrt-19.07.10-mvebu-cortexa53-marvell_armada-3720-db",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-mvebu-cortexa53-marvell_armada-3720-db-ext4-sdcard.img.gz",
+      "sha256": "795987c268c8cf032fb84323cd64880b11b4b3494c20bdef78d8c50eeb65f733",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-mvebu-cortexa53-marvell_armada-3720-db-squashfs-sdcard.img.gz",
+      "sha256": "d343686446c87a69d09ffee840eab544234166ee22ea3935962dc64a2b02de1a",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "marvell_armada-3720-db",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "marvell,armada-3720-db"
+  ],
+  "target": "mvebu/cortexa53",
+  "titles": [
+    {
+      "title": "Marvell Armada 3720 Development Board DB-88F3720-DDR3"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

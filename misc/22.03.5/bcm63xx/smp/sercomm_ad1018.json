@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "nand-utils",
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-smp-sercomm_ad1018",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-sercomm_ad1018-squashfs-factory.img",
+      "sha256": "288f82bb004baa549f1ce6d6ebbd4e430753f293f27549f7684b6d421f164f44",
+      "sha256_unsigned": "288f82bb004baa549f1ce6d6ebbd4e430753f293f27549f7684b6d421f164f44",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-sercomm_ad1018-squashfs-sysupgrade.bin",
+      "sha256": "49c5bd4fd5ff7673b90360e9d3f8b45ed8b2d863bf801d540b12b9219b0036d9",
+      "sha256_unsigned": "92e32e3fd8c84f72e7a4579cbd434fa120aa4fa6c4615dae45a6f4129d4b90b9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "sercomm_ad1018",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "sercomm,ad1018"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "AD1018",
+      "vendor": "Sercomm"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

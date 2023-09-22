@@ -1,0 +1,71 @@
+{
+  "arch_packages": "powerpc_464fp",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug",
+    "kmod-ath9k",
+    "swconfig",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-eeprom-at24"
+  ],
+  "image_path": "19.07.10/targets/apm821xx/nand/",
+  "image_prefix": "openwrt-19.07.10-apm821xx-nand-netgear_wndap620",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-apm821xx-nand-netgear_wndap620-squashfs-factory.img",
+      "sha256": "df04a49d27742248aa2280b2aa1cf8d2ec65455c96353850c635b57c7ac5d4f6",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-apm821xx-nand-netgear_wndap620-squashfs-sysupgrade.bin",
+      "sha256": "0e6b2c7874bd03cd63b5200d9be724707ce4823d840a1145a09c0ecf9571de0a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wndap620",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "netgear,wndap620"
+  ],
+  "target": "apm821xx/nand",
+  "titles": [
+    {
+      "title": "Netgear WNDAP620 - Premium Wireless-N"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

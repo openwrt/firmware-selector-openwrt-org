@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-glinet_gl-ar300m-lite",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-glinet_gl-ar300m-lite-squashfs-sysupgrade.bin",
+      "sha256": "d2e0ba44b03c95cb4ce6211e0f0f19bd602771f78a63d639e894444e1af2d8be",
+      "sha256_unsigned": "2e146047c8a7c7d0d87ae14f63c71b3d8436603a2f498100fca4aceb5ea72c30",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-glinet_gl-ar300m-lite-initramfs-kernel.bin",
+      "sha256": "2164b4f207668a1e3a36912e70f601732110e2ef6adc57687ebadf3603f51609",
+      "sha256_unsigned": "2164b4f207668a1e3a36912e70f601732110e2ef6adc57687ebadf3603f51609",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "glinet_gl-ar300m-lite",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "glinet,gl-ar300m-lite",
+    "gl-ar300m"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "GL-AR300M",
+      "variant": "Lite",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

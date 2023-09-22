@@ -1,0 +1,87 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-board-qca4019",
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ipq-wifi-dlink_dap2610"
+  ],
+  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-generic-dlink_dap-2610",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-dlink_dap-2610-squashfs-factory.bin",
+      "sha256": "0609760069671dced7fbcab48c5280750809719e7f702dfaefc7b38c0ecd81a6",
+      "sha256_unsigned": "0609760069671dced7fbcab48c5280750809719e7f702dfaefc7b38c0ecd81a6",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-dlink_dap-2610-initramfs-fit-uImage.itb",
+      "sha256": "ae67af9890745f7a54450a2d0d0770076b60cf1d32c29f08648446282543bc07",
+      "sha256_unsigned": "ae67af9890745f7a54450a2d0d0770076b60cf1d32c29f08648446282543bc07",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-dlink_dap-2610-squashfs-sysupgrade.bin",
+      "sha256": "12c5e20bd30798dccdad1d95108a3f8b015d3d799415a35c328ce32909cd174e",
+      "sha256_unsigned": "6aa7d450135f6c715a1614ab10432d974930b3b6b8373ef8392269b3ebdae8be",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dlink_dap-2610",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "dlink,dap-2610"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "DAP-2610",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

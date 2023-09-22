@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-zbtlink_zbt-we2026",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-zbtlink_zbt-we2026-initramfs-kernel.bin",
+      "sha256": "350db1d9d2e558cda710766ca1c4f959fb87a5ea91ec04d908df17027ebecbd6",
+      "sha256_unsigned": "350db1d9d2e558cda710766ca1c4f959fb87a5ea91ec04d908df17027ebecbd6",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-zbtlink_zbt-we2026-squashfs-sysupgrade.bin",
+      "sha256": "a1781c26924348cdc0b263db5ea2c267e001ccc87bc431e4f860158018880c1a",
+      "sha256_unsigned": "d25604af14cddf20d457fcee1d63c87f116a67fae40821e6ba277ee8397ac880",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zbtlink_zbt-we2026",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zbtlink,zbt-we2026",
+    "zbt-we2026"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "ZBT-WE2026",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

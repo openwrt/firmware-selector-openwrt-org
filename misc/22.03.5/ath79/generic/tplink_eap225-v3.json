@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9888-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_eap225-v3",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_eap225-v3-squashfs-sysupgrade.bin",
+      "sha256": "dd9d1e0886a2f06ac577a8b6756e19fa270cdbc7702625737a1cbb5505e6af16",
+      "sha256_unsigned": "123a16b960ca4291a96c7150d0bd31c9108d4a9f1870322e0aeddbe1f3624a1a",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_eap225-v3-initramfs-kernel.bin",
+      "sha256": "216dbca904110bfa1bd30439d9f66b2d92d39de30b6cbf1593934badcdbe132e",
+      "sha256_unsigned": "216dbca904110bfa1bd30439d9f66b2d92d39de30b6cbf1593934badcdbe132e",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_eap225-v3-squashfs-factory.bin",
+      "sha256": "ab791d00f6be612c32069091887b01df710a7892356faa0ca0724fef2b582d6b",
+      "sha256_unsigned": "ab791d00f6be612c32069091887b01df710a7892356faa0ca0724fef2b582d6b",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_eap225-v3",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,eap225-v3"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EAP225",
+      "variant": "v3",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,83 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct"
+  ],
+  "device_packages": [
+    "ipq-wifi-alfa-network_ap120c-ac",
+    "kmod-usb-acm",
+    "kmod-tpm-i2c-atmel",
+    "uboot-envtools"
+  ],
+  "image_path": "19.07.10/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-19.07.10-ipq40xx-generic-alfa-network_ap120c-ac",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq40xx-generic-alfa-network_ap120c-ac-squashfs-nand-sysupgrade.bin",
+      "sha256": "3df066c6b8ad792b96864dacfce59fe3b822ebc4fc0dabaf768b2622623b8d57",
+      "type": "nand-sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq40xx-generic-alfa-network_ap120c-ac-squashfs-nand-factory.bin",
+      "sha256": "df6cee5e53d8d2c54f5e871c107c692f1c879e6619e67a39d837c700d7fa27d8",
+      "type": "nand-factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "alfa-network_ap120c-ac",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "alfa-network,ap120c-ac"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "title": "ALFA Network AP120C-AC"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

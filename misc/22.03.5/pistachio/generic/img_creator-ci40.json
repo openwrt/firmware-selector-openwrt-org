@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc_24kf",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-tpm-i2c-infineon",
+    "kmod-ca8210",
+    "wpan-tools"
+  ],
+  "image_path": "22.03.5/targets/pistachio/generic/",
+  "image_prefix": "openwrt-22.03.5-pistachio-img_creator-ci40",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-pistachio-img_creator-ci40-squashfs-factory.ubi",
+      "sha256": "f99a9847a1f26f6349f1484f5476201a8cea5f1452152b4261c63e3f1283a0b2",
+      "sha256_unsigned": "f99a9847a1f26f6349f1484f5476201a8cea5f1452152b4261c63e3f1283a0b2",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-pistachio-img_creator-ci40-squashfs-sysupgrade.tar",
+      "sha256": "b04f754e9fbeb9068ad3c32b61bedbd3a8319c0bb85b6eca75e5921f475979f9",
+      "sha256_unsigned": "b04f754e9fbeb9068ad3c32b61bedbd3a8319c0bb85b6eca75e5921f475979f9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "img_creator-ci40",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "img,creator-ci40"
+  ],
+  "target": "pistachio/generic",
+  "titles": [
+    {
+      "model": "Creator Ci40 (VL-62899)",
+      "vendor": "Imagination Technologies"
+    },
+    {
+      "model": "Marduk board",
+      "vendor": "Imagination Technologies"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

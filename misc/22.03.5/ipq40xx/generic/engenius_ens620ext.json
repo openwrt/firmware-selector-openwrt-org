@@ -1,0 +1,92 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-board-qca4019",
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-generic-engenius_ens620ext",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-engenius_ens620ext-squashfs-sysupgrade.bin",
+      "sha256": "501074c100ba6c8508f150c00650b18cc9ec377ab628a98354b15b51bf45454f",
+      "sha256_unsigned": "b0b12cc6ac3c3da2edb6553a4b2ba7b165545bf57cb0ae3bfc5106d954cb8b3c",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-engenius_ens620ext-initramfs-fit-uImage.itb",
+      "sha256": "2a10e2dbef46da50dc2bd1e23d64046142e0306c75a320e9573885332577c5cc",
+      "sha256_unsigned": "2a10e2dbef46da50dc2bd1e23d64046142e0306c75a320e9573885332577c5cc",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-engenius_ens620ext-squashfs-factory_30.bin",
+      "sha256": "87d54b577bcdbc0c4e341ed304671453bb7e15f88c092ca71a4064bd0d54659b",
+      "sha256_unsigned": "87d54b577bcdbc0c4e341ed304671453bb7e15f88c092ca71a4064bd0d54659b",
+      "type": "factory_30"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-engenius_ens620ext-squashfs-factory_35.bin",
+      "sha256": "4d868937fd22654a78d48090289e4591068ee75c4beccf900731732e8aed423f",
+      "sha256_unsigned": "4d868937fd22654a78d48090289e4591068ee75c4beccf900731732e8aed423f",
+      "type": "factory_35"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "engenius_ens620ext",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "engenius,ens620ext"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "ENS620EXT",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

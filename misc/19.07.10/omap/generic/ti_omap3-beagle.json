@@ -1,0 +1,76 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-usb-net",
+    "kmod-usb-net-asix",
+    "kmod-usb-net-asix-ax88179",
+    "kmod-usb-net-hso",
+    "kmod-usb-net-kaweth",
+    "kmod-usb-net-pegasus",
+    "kmod-usb-net-mcs7830",
+    "kmod-usb-net-smsc95xx",
+    "kmod-usb-net-dm9601-ether"
+  ],
+  "image_path": "19.07.10/targets/omap/generic/",
+  "image_prefix": "openwrt-19.07.10-omap-ti_omap3-beagle",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-omap-ti_omap3-beagle-ext4-sdcard.img.gz",
+      "sha256": "7f7d7020348973bd970d1fc237bc62a9a6bc903b3205170c7cab23abe7a14c21",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-omap-ti_omap3-beagle-squashfs-sdcard.img.gz",
+      "sha256": "578da387f407db8a1a11bfa3c59b5282aee1ed7c6344767e598a30f1b57bc2c4",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ti_omap3-beagle",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "ti,omap3-beagle"
+  ],
+  "target": "omap/generic",
+  "titles": [
+    {
+      "title": "OMAP3 TI beagleboard"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "-swconfig",
+    "kmod-usb2",
+    "kmod-usb-chipidea2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ruckus_zf7372",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ruckus_zf7372-squashfs-sysupgrade.bin",
+      "sha256": "bf9f80eb764883683dff0cbccaca3685430c23898bf915fbcf0c4b9f14c106bc",
+      "sha256_unsigned": "31189bd35a22e8140c2228996e5c3f09f5e209d32d9e2c83391fa5df7483c61a",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ruckus_zf7372-initramfs-kernel.bin",
+      "sha256": "fde540c7923f1498edb2358e301862dbe7adefabbd81d638dc3835223c94c8ac",
+      "sha256_unsigned": "fde540c7923f1498edb2358e301862dbe7adefabbd81d638dc3835223c94c8ac",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ruckus_zf7372",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ruckus,zf7372"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "ZoneFlex 7352/7372[-E/-U]",
+      "vendor": "Ruckus"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

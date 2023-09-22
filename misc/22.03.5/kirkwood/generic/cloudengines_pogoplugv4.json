@@ -1,0 +1,82 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-marvell-sata",
+    "kmod-fs-ext4",
+    "kmod-mvsdio",
+    "kmod-usb3",
+    "kmod-gpio-button-hotplug"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-cloudengines_pogoplugv4",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-cloudengines_pogoplugv4-initramfs-uImage",
+      "sha256": "2eff9061aa8f41cee16faa6a4cfdca093da8aa6df862373699d49a3e13617c04",
+      "sha256_unsigned": "2eff9061aa8f41cee16faa6a4cfdca093da8aa6df862373699d49a3e13617c04",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-cloudengines_pogoplugv4-squashfs-factory.bin",
+      "sha256": "53a6ea070ca9ed98146926231bb497eb224dfca7a58046870ca5ee4874f31f49",
+      "sha256_unsigned": "53a6ea070ca9ed98146926231bb497eb224dfca7a58046870ca5ee4874f31f49",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-cloudengines_pogoplugv4-squashfs-sysupgrade.bin",
+      "sha256": "668b9e450781b9ed29e1447490d7a8cbf8deb3ae6f164ebd748d26e78412ac11",
+      "sha256_unsigned": "c4b25dcc39c06e0cd616ae80f6e6593943bb471d687bfb0ee5424a28608f38f5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "cloudengines_pogoplugv4",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "cloudengines,pogoplugv4"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "Pogoplug V4",
+      "vendor": "Cloud Engines"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

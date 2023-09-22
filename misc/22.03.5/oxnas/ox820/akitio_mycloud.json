@@ -1,0 +1,95 @@
+{
+  "arch_packages": "arm_mpcore",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "block-mount",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fdisk",
+    "fstools",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-leds-gpio",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "lsblk",
+    "mdadm",
+    "mtd",
+    "netifd",
+    "opkg",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-oxnas-sata",
+    "kmod-i2c-gpio",
+    "kmod-rtc-ds1307",
+    "kmod-usb2-oxnas",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/oxnas/ox820/",
+  "image_prefix": "openwrt-22.03.5-oxnas-ox820-akitio_mycloud",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-oxnas-ox820-akitio_mycloud-squashfs-sysupgrade.tar",
+      "sha256": "2cdc87273392a43e6848ba124b15204b7eea2e1d545cbe92aa82a83a25f2374a",
+      "sha256_unsigned": "6ce59e840d235c9d4b529c451d7e14967ede671fc83bf975b7ef1f6177798aa3",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-oxnas-ox820-akitio_mycloud-ubifs-ubinized.bin",
+      "sha256": "1e1e8b78b81388816db872aa7e98ffa103e1ac632dd32814ca01da5e68f472cc",
+      "sha256_unsigned": "1e1e8b78b81388816db872aa7e98ffa103e1ac632dd32814ca01da5e68f472cc",
+      "type": "ubinized"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-oxnas-ox820-akitio_mycloud-squashfs-ubinized.bin",
+      "sha256": "f45d23759114e35ac64164822919d72ac284cda185e5adee4b3f67a47e0cf07e",
+      "sha256_unsigned": "f45d23759114e35ac64164822919d72ac284cda185e5adee4b3f67a47e0cf07e",
+      "type": "ubinized"
+    },
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-oxnas-ox820-akitio_mycloud-ubifs-sysupgrade.tar",
+      "sha256": "00bd9efa44c4ef77562b2865c04507e7d6140a0b3f0d245885805e130893f365",
+      "sha256_unsigned": "f8b74ccc64431f21057b45cd35dbcfaf389d658a1f867651fca98d06a6b499b7",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-oxnas-ox820-akitio_mycloud-initramfs-uImage",
+      "sha256": "fab13d0e8b4dd921fcc3576a1cb03f3d3aa58de7d0d234c13a567d41f63d98d2",
+      "sha256_unsigned": "fab13d0e8b4dd921fcc3576a1cb03f3d3aa58de7d0d234c13a567d41f63d98d2",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "akitio_mycloud",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "akitio,mycloud",
+    "akitio"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "model": "MyCloud Mini",
+      "vendor": "Akitio"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

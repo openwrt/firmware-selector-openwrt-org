@@ -1,0 +1,70 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-rtl8192cu"
+  ],
+  "image_path": "19.07.10/targets/sunxi/cortexa8/",
+  "image_prefix": "openwrt-19.07.10-sunxi-cortexa8-sun5i-a13-olimex-som",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-sunxi-cortexa8-sun5i-a13-olimex-som-ext4-sdcard.img.gz",
+      "sha256": "d56f22a119e3da97ce3612021c03231a9cb68a372139d06deb84b7b1117fca32",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-sunxi-cortexa8-sun5i-a13-olimex-som-squashfs-sdcard.img.gz",
+      "sha256": "ca106707b496e311946de237e5483baaf1229ca12dbe5fbb50ff69a7cc48b898",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "sun5i-a13-olimex-som",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "olimex,a13-olinuxino"
+  ],
+  "target": "sunxi/cortexa8",
+  "titles": [
+    {
+      "title": "Olimex A13 SOM"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

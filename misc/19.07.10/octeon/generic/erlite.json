@@ -1,0 +1,56 @@
+{
+  "arch_packages": "mips64_octeonplus",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/octeon/generic/",
+  "image_prefix": "openwrt-19.07.10-octeon-erlite",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-octeon-erlite-squashfs-sysupgrade.tar",
+      "sha256": "f28caf362a70ea703663ede8b65eac2220f94b9d7f8968d43a1a20917e5bf4b1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "erlite",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "octeon/generic",
+  "titles": [
+    {
+      "title": "Ubiquiti EdgeRouter Lite"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

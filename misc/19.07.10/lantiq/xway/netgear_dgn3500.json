@@ -1,0 +1,90 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "wpad-basic",
+    "kmod-ltq-adsl-ar9-mei",
+    "kmod-ltq-adsl-ar9",
+    "kmod-ltq-adsl-ar9-fw-a",
+    "kmod-ltq-atm-ar9",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ltq-deu-ar9",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/lantiq/xway/",
+  "image_prefix": "openwrt-19.07.10-lantiq-xway-netgear_dgn3500",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-xway-netgear_dgn3500-squashfs-factory-na.img",
+      "sha256": "41b4c2bd482d1d968c9305a700694a58fcd46a309d1ca7803f4b3e3b464f56c9",
+      "type": "factory-na"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-xway-netgear_dgn3500-squashfs-factory.img",
+      "sha256": "04ea05d79dab340b90baecb252c4bd098c2f5b10b06223e980b85553552779dd",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-xway-netgear_dgn3500-squashfs-sysupgrade.bin",
+      "sha256": "48a3c398b264e31078913f02a431178580a792ea512e94be29788b79b56cc3b9",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-xway-netgear_dgn3500-squashfs-sysupgrade-na.bin",
+      "sha256": "b667beca02f228ef583a6230e85b307a77dbc76398ead8c285ec1daa404e546e",
+      "type": "sysupgrade-na"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_dgn3500",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "netgear,dgn3500",
+    "DGN3500"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "title": "Netgear DGN3500"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

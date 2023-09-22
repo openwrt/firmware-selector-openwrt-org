@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/mikrotik/",
+  "image_prefix": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-lhg-5nd",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-lhg-5nd-initramfs-kernel.bin",
+      "sha256": "42280764345acf1a833191046c08f65f36b846424ae2eaf0c04ab06e23a3cb72",
+      "sha256_unsigned": "42280764345acf1a833191046c08f65f36b846424ae2eaf0c04ab06e23a3cb72",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-lhg-5nd-squashfs-sysupgrade.bin",
+      "sha256": "054cb67de4b1cb060eafa067d16bf4fea9148f12a49ce36cc62b757d5fd84d2f",
+      "sha256_unsigned": "313bade4bef46be1cbc71c8e8464d2a87da8bd960cbfd2ca4250ce931ff88c08",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mikrotik_routerboard-lhg-5nd",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mikrotik,routerboard-lhg-5nd"
+  ],
+  "target": "ath79/mikrotik",
+  "titles": [
+    {
+      "model": "RouterBOARD LHG 5nD (LHG 5)",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

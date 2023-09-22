@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-asus_rt-n14u",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-asus_rt-n14u-squashfs-sysupgrade.bin",
+      "sha256": "9245cbed0d9678ffd7ea5d1f8f84a95f01640aadaa99452bc5590484fb5dc302",
+      "sha256_unsigned": "7040f0b2a94aa6f0a7a60c2b3599721590b49d9cd74a28cfebfb32f53a70d2bc",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-asus_rt-n14u-initramfs-kernel.bin",
+      "sha256": "c03977ebd6411b5923e7621bd04205965d6e04455ed7bdad875e0d7819fadb5a",
+      "sha256_unsigned": "c03977ebd6411b5923e7621bd04205965d6e04455ed7bdad875e0d7819fadb5a",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "asus_rt-n14u",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "asus,rt-n14u",
+    "rt-n14u"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "RT-N14u",
+      "vendor": "Asus"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

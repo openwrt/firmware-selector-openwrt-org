@@ -1,0 +1,82 @@
+{
+  "arch_packages": "aarch64_generic",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "layerscape-mc",
+    "layerscape-dpl",
+    "tfa-ls1088a-rdb",
+    "restool",
+    "kmod-ahci-qoriq",
+    "kmod-hwmon-ina2xx",
+    "kmod-hwmon-lm90"
+  ],
+  "image_path": "22.03.5/targets/layerscape/armv8_64b/",
+  "image_prefix": "openwrt-22.03.5-layerscape-armv8_64b-fsl_ls1088a-rdb",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-layerscape-armv8_64b-fsl_ls1088a-rdb-squashfs-firmware.bin",
+      "sha256": "849489bf35071cd882bdefe92e3b05bf194c4fa2238424e4f822cd3972d6119f",
+      "sha256_unsigned": "849489bf35071cd882bdefe92e3b05bf194c4fa2238424e4f822cd3972d6119f",
+      "type": "firmware"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-layerscape-armv8_64b-fsl_ls1088a-rdb-squashfs-sysupgrade.bin",
+      "sha256": "a1febd57805f2b86597267527880d79393e24bac107684ed4cb7b4634ca1b698",
+      "sha256_unsigned": "2a8726c8a75f32d54f734d97e2d6ca3510614a0d7352c4bac85225054a14337e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "fsl_ls1088a-rdb",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "fsl,ls1088a-rdb"
+  ],
+  "target": "layerscape/armv8_64b",
+  "titles": [
+    {
+      "model": "LS1088A-RDB",
+      "variant": "Default",
+      "vendor": "NXP"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

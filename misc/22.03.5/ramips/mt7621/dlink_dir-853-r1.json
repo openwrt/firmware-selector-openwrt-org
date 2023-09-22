@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-dlink_dir-853-r1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-dlink_dir-853-r1-squashfs-sysupgrade.bin",
+      "sha256": "7b13519b038872beb271f4749e7b93175c8014c7d3632f5b1e1a21f3128fe6be",
+      "sha256_unsigned": "c07bd87b59260aed5f88765c83452dbcf701c07913a9293f671098b8f2099e33",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-dlink_dir-853-r1-initramfs-kernel.bin",
+      "sha256": "1e55b77f69b39a03f3921a3f25824abf887315963caa4a60976a148023bd08c9",
+      "sha256_unsigned": "1e55b77f69b39a03f3921a3f25824abf887315963caa4a60976a148023bd08c9",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "dlink_dir-853-r1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "dlink,dir-853-r1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "DIR-853",
+      "variant": "R1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

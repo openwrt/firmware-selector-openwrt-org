@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-tplink_re650-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-tplink_re650-v2-squashfs-factory.bin",
+      "sha256": "ae634d949925fea49a45321e0cb0a502096082d8b0a8dcac4d23e99c70f482cc",
+      "sha256_unsigned": "ae634d949925fea49a45321e0cb0a502096082d8b0a8dcac4d23e99c70f482cc",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-tplink_re650-v2-squashfs-sysupgrade.bin",
+      "sha256": "87c55e1d99c70d78b1c9d3de4d552c42b3483fc89b3aa2a4c2e30f9e3ec7f33f",
+      "sha256_unsigned": "e9f8f63ec1b01ca3b48da468f6f527d879dd9b6cfe2066d051f3cddd307c2462",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-tplink_re650-v2-initramfs-kernel.bin",
+      "sha256": "bdba67cf08ccb42a0d6008c947bb5f69615a4c57bc1a93fd0712101da0be46ad",
+      "sha256_unsigned": "bdba67cf08ccb42a0d6008c947bb5f69615a4c57bc1a93fd0712101da0be46ad",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_re650-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,re650-v2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RE650",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

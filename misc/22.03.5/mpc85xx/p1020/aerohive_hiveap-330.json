@@ -1,0 +1,83 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-button-hotplug",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-tpm-i2c-atmel",
+    "kmod-hwmon-lm70"
+  ],
+  "image_path": "22.03.5/targets/mpc85xx/p1020/",
+  "image_prefix": "openwrt-22.03.5-mpc85xx-p1020-aerohive_hiveap-330",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1020-aerohive_hiveap-330-initramfs-kernel.bin",
+      "sha256": "88ce557f0d1bd2b42ae13d16acf85b2cd642dcda05afc611bf2c60c733586548",
+      "sha256_unsigned": "88ce557f0d1bd2b42ae13d16acf85b2cd642dcda05afc611bf2c60c733586548",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1020-aerohive_hiveap-330-squashfs-sysupgrade.bin",
+      "sha256": "308b71d97d6735ebdaa4834136090e124f6da05231030f02e2a5b412f8119f76",
+      "sha256_unsigned": "a9059d2ccd516b62ed8486eab6f84bae8c6f5d0acf829705e1a987aca42e2bed",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "aerohive_hiveap-330",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "aerohive,hiveap-330"
+  ],
+  "target": "mpc85xx/p1020",
+  "titles": [
+    {
+      "model": "HiveAP-330",
+      "vendor": "Aerohive"
+    },
+    {
+      "model": "HiveAP-350",
+      "vendor": "Aerohive"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

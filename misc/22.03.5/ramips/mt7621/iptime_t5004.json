@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "-wpad-basic-wolfssl"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-iptime_t5004",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iptime_t5004-initramfs-kernel.bin",
+      "sha256": "d11c4c73cadfbafbab13ba5b2561dcebf514aca1764ddbf5fe495e5449f465ec",
+      "sha256_unsigned": "d11c4c73cadfbafbab13ba5b2561dcebf514aca1764ddbf5fe495e5449f465ec",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-iptime_t5004-squashfs-sysupgrade.bin",
+      "sha256": "f7203c39940bb9818551eeb84617ac91f27b3df08a69a103b122fdb845b455bb",
+      "sha256_unsigned": "e9cfd2212d44917935262f1d08eb062547547ec781ac5e05ed53c4f14957e885",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iptime_t5004",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iptime,t5004"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "T5004",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt7620-kn_rc",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7620-kn_rc-squashfs-factory.bin",
+      "sha256": "7a73596247d0cd13980f45687e77d5dc94b2f86695ef7284e709a5afc880ee95",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7620-kn_rc-squashfs-sysupgrade.bin",
+      "sha256": "95a9ba6d56a46283a6dc49fd582c487b4b596e0e3532e9a7c4c68758bf18a39b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "kn_rc",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "kn_rc"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "title": "ZyXEL Keenetic Omni"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

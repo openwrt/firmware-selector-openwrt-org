@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-rt2800-pci"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-asus_rp-n53",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-asus_rp-n53-squashfs-sysupgrade.bin",
+      "sha256": "532979a30ae820fee4e2b0b2cbc8b38672e1d1c14fc7f0920e7450d16a659ba4",
+      "sha256_unsigned": "38b5c2cbe2901cbcfcde8e7c4fd5da553076330bc58100efebeae51857789cf3",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-asus_rp-n53-initramfs-kernel.bin",
+      "sha256": "08c312e0a4f07d8d1c313057c030e70131101d8e4ea1e1ece55f351da6d91ee7",
+      "sha256_unsigned": "08c312e0a4f07d8d1c313057c030e70131101d8e4ea1e1ece55f351da6d91ee7",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "asus_rp-n53",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "asus,rp-n53",
+    "rp-n53"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "RP-N53",
+      "vendor": "Asus"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

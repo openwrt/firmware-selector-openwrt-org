@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "kmod-usb-ohci",
+    "kmod-usb2"
+  ],
+  "image_path": "19.07.10/targets/brcm47xx/mips74k/",
+  "image_prefix": "openwrt-19.07.10-brcm47xx-mips74k-netgear-wndr3400-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-brcm47xx-mips74k-netgear-wndr3400-v2-squashfs.chk",
+      "sha256": "2a52def7aaa0772d978dfef5387e30600d1107dd6ee6b414e844ee86c71930c6",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear-wndr3400-v2",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "title": "Netgear WNDR3400 v2"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,70 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/omap/generic/",
+  "image_prefix": "openwrt-22.03.5-omap-ti_am335x-evm",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-omap-ti_am335x-evm-ext4-sdcard.img.gz",
+      "sha256": "644665fc1daeaefa989ff319722c402a44a9d1f50b37e5d756d15fffe18f8530",
+      "sha256_unsigned": "709e4774d90652fa7c783dfdea68757ff92a5aa7d8c3436703a4a96a9a9bd0e6",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-omap-ti_am335x-evm-squashfs-sdcard.img.gz",
+      "sha256": "d518f478c9bd2eed1ea20de8f0b73c61ebbc7f967ae60073dd4d1a4a716d23dd",
+      "sha256_unsigned": "521e949924e57b7824d9ea279145652b320b09ba8c02e4e79fbd280689da3dc0",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ti_am335x-evm",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ti,am335x-evm"
+  ],
+  "target": "omap/generic",
+  "titles": [
+    {
+      "model": "AM335x EVM",
+      "vendor": "Texas Instruments"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

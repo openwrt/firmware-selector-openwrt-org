@@ -1,0 +1,78 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-core",
+    "kmod-ata-sunxi",
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi",
+    "kmod-sound-core",
+    "kmod-sound-soc-sunxi"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa8/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa8-marsboard_a10-marsboard",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa8-marsboard_a10-marsboard-squashfs-sdcard.img.gz",
+      "sha256": "35f891b81b55d3e127e1b4c80b934bcedccc6a86f8769763d981fecf1c18d26b",
+      "sha256_unsigned": "ec7e10e0067eef911a0e12eee1d2c8f628270e55090cea4703b828abad9e781c",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa8-marsboard_a10-marsboard-ext4-sdcard.img.gz",
+      "sha256": "4e82bc29acca786aa629cca98a40e7d0fef9d420bbd134634fe5b97355a5096d",
+      "sha256_unsigned": "8fe84ee690e7a356ba8be4736898703784284ca0cb97786e42eb74f6f846bc9b",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "marsboard_a10-marsboard",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "marsboard,a10-marsboard"
+  ],
+  "target": "sunxi/cortexa8",
+  "titles": [
+    {
+      "model": "MarsBoard A10",
+      "vendor": "HAOYU Electronics"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,83 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca99x0-ct"
+  ],
+  "image_path": "22.03.5/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq806x-generic-buffalo_wxr-2533dhp",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-buffalo_wxr-2533dhp-initramfs-uImage",
+      "sha256": "666b160ead17bd40b8c050ec6219603ff4e2654bf828685d81f72084913b609d",
+      "sha256_unsigned": "666b160ead17bd40b8c050ec6219603ff4e2654bf828685d81f72084913b609d",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq806x-generic-buffalo_wxr-2533dhp-squashfs-sysupgrade.bin",
+      "sha256": "db8dd5eba885d25368743b16124ce616676e8c3a8e773102a5edbb3f1d8e812b",
+      "sha256_unsigned": "0d1f26e80602a91bb921c575d36dc1cd9a8b408b0b9aa5efb8600d3a23d515ee",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_wxr-2533dhp",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "buffalo,wxr-2533dhp"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "WXR-2533DHP",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

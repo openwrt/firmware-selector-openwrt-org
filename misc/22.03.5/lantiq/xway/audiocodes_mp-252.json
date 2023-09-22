@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-a",
+    "kmod-ltq-atm-danube",
+    "kmod-ltq-tapi",
+    "kmod-ltq-vmmc",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-dwc2",
+    "kmod-rt2800-pci",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/lantiq/xway/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xway-audiocodes_mp-252",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xway-audiocodes_mp-252-initramfs-kernel.bin",
+      "sha256": "cf020d620532ff4619a7930fe2e9e53f8b4d53f6c9197d078d66b12a555c340c",
+      "sha256_unsigned": "cf020d620532ff4619a7930fe2e9e53f8b4d53f6c9197d078d66b12a555c340c",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xway-audiocodes_mp-252-squashfs-sysupgrade.bin",
+      "sha256": "42b928b261f8b19aa3d01e7e67b9bb452b6684de22a91fd9c9bfd5d623d63ea3",
+      "sha256_unsigned": "0a5f133140b3391070cd3581b8c6ddcf111b9fdf97b7c33d6d57c3825d4d371c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "audiocodes_mp-252",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "audiocodes,mp-252",
+    "ACMP252"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "MediaPack MP-252",
+      "vendor": "AudioCodes"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9888-ct",
+    "kmod-usb-net-rndis",
+    "kmod-usb-acm",
+    "comgt-ncm"
+  ],
+  "image_path": "22.03.5/targets/ath79/nand/",
+  "image_prefix": "openwrt-22.03.5-ath79-nand-zte_mf286r",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-zte_mf286r-squashfs-sysupgrade.bin",
+      "sha256": "f3633dce613d53e63da7fb64e0127e0ace2aa0028ec1be14ce355901bbb7fb3d",
+      "sha256_unsigned": "e2ef049b457d4799ce6c2526455a14cab8666029cbac816ed0b2a0583c94b038",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-nand-zte_mf286r-initramfs-kernel.bin",
+      "sha256": "6554bd4a7520944f4124a7239f1f0b21a940cd2f2cbedf3824205850e49218ba",
+      "sha256_unsigned": "6554bd4a7520944f4124a7239f1f0b21a940cd2f2cbedf3824205850e49218ba",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zte_mf286r",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zte,mf286r"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "MF286R",
+      "vendor": "ZTE"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

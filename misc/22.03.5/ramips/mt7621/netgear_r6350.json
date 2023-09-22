@@ -1,0 +1,97 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-netgear_r6350",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r6350-squashfs-sysupgrade.bin",
+      "sha256": "0ac1af1d3b97d9973f6e42e3b84ff829afda7a7af0dd8f6bc6d0e7abc659db9b",
+      "sha256_unsigned": "936bd9ce0bb7f901cf2ca973e4c7cc3a22c0851003dc277060fddafd73660727",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r6350-squashfs-factory.img",
+      "sha256": "25fe69793d7443a29aa6f09f925dea336308a7eccfcc7b712c14ded35e7085fa",
+      "sha256_unsigned": "25fe69793d7443a29aa6f09f925dea336308a7eccfcc7b712c14ded35e7085fa",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r6350-squashfs-kernel.bin",
+      "sha256": "0ee78d0362e50dcd2af5fc34455ab05b7828a5b2fea3736f35c35459fa5db567",
+      "sha256_unsigned": "0ee78d0362e50dcd2af5fc34455ab05b7828a5b2fea3736f35c35459fa5db567",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r6350-initramfs-kernel.bin",
+      "sha256": "2638c4fd954165b2deb93050ab9db4fb544e916407c1fbd2af4b1a38a0c230f0",
+      "sha256_unsigned": "2638c4fd954165b2deb93050ab9db4fb544e916407c1fbd2af4b1a38a0c230f0",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_r6350-squashfs-rootfs.bin",
+      "sha256": "0d5f183e4ee38c68c5c6878d9988e85af5a06f0c751c34b59b727348e34ff6d5",
+      "sha256_unsigned": "0d5f183e4ee38c68c5c6878d9988e85af5a06f0c751c34b59b727348e34ff6d5",
+      "type": "rootfs"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_r6350",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,r6350"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "R6350",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

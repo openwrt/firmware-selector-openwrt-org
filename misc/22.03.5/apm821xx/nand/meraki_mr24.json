@@ -1,0 +1,77 @@
+{
+  "arch_packages": "powerpc_464fp",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-i2c-core",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-spi-gpio",
+    "-swconfig"
+  ],
+  "image_path": "22.03.5/targets/apm821xx/nand/",
+  "image_prefix": "openwrt-22.03.5-apm821xx-nand-meraki_mr24",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-apm821xx-nand-meraki_mr24-squashfs-sysupgrade.bin",
+      "sha256": "7a98182b54bdd286b8bd32f23a7f3dc17630f83b6fd4afa964d2b0c13e00409c",
+      "sha256_unsigned": "8f6e4a9dd19321ebdaf55a4ad400b787278411dab71bbe2385bc067d8c6006f6",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-apm821xx-nand-meraki_mr24-initramfs-kernel.bin",
+      "sha256": "74f4f284c9743f028392c33bc5184172f785863e9d199afdce96c3a30bc65a6b",
+      "sha256_unsigned": "74f4f284c9743f028392c33bc5184172f785863e9d199afdce96c3a30bc65a6b",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "meraki_mr24",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "meraki,mr24",
+    "mr24"
+  ],
+  "target": "apm821xx/nand",
+  "titles": [
+    {
+      "model": "MR24",
+      "vendor": "Cisco Meraki"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

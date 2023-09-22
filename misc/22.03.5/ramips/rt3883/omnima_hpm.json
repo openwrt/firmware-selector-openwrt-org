@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-pci",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ramips/rt3883/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt3883-omnima_hpm",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt3883-omnima_hpm-squashfs-sysupgrade.bin",
+      "sha256": "438ddd60c1bbd2fc41d2daaedcffe4191d93fa91c64602ceb919260314af1051",
+      "sha256_unsigned": "5daf27843d8496c496a8ba387fbd56cfb6d236cff5a36b3c422b52a23f5fc34c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "omnima_hpm",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "omnima,hpm",
+    "hpm"
+  ],
+  "target": "ramips/rt3883",
+  "titles": [
+    {
+      "model": "HPM",
+      "vendor": "Omnima"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

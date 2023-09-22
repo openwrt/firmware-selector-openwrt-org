@@ -1,0 +1,93 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-usb3",
+    "kmod-ata-ahci"
+  ],
+  "image_path": "22.03.5/targets/mediatek/mt7623/",
+  "image_prefix": "openwrt-22.03.5-mediatek-mt7623-bananapi_bpi-r2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mediatek-mt7623-bananapi_bpi-r2-squashfs-sysupgrade.itb",
+      "sha256": "a213f5135606d01d33f61e0eb057378bffcb1254efba46cf559a820fbe2b2ea0",
+      "sha256_unsigned": "e6e0967c53fec4cf38284d1c3a447f09f4ea0a800a0d582f77370728d5283094",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-22.03.5-mediatek-mt7623-bananapi_bpi-r2-preloader.bin",
+      "sha256": "33d6abe872e557e5d960b1a7f2a394ca297ee6bf02da8f7383d2fbf599460261",
+      "sha256_unsigned": "33d6abe872e557e5d960b1a7f2a394ca297ee6bf02da8f7383d2fbf599460261",
+      "type": "preloader.bin"
+    },
+    {
+      "name": "openwrt-22.03.5-mediatek-mt7623-bananapi_bpi-r2-u-boot.bin",
+      "sha256": "bf6ff19531822819f16f507fc0cb97ffe16864aae074191de0082df545cafb91",
+      "sha256_unsigned": "bf6ff19531822819f16f507fc0cb97ffe16864aae074191de0082df545cafb91",
+      "type": "u-boot.bin"
+    },
+    {
+      "name": "openwrt-22.03.5-mediatek-mt7623-bananapi_bpi-r2-sdcard.img.gz",
+      "sha256": "a5e4ba6913d534e537220a2865f321cb636acece28d6dc53dc9df2e28ed3a7e4",
+      "sha256_unsigned": "a5e4ba6913d534e537220a2865f321cb636acece28d6dc53dc9df2e28ed3a7e4",
+      "type": "sdcard.img.gz"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mediatek-mt7623-bananapi_bpi-r2-initramfs-recovery.itb",
+      "sha256": "d2e03defc5a3f5562d287fb1e51cf7522427172e278de5c7c48038f4b38d7271",
+      "sha256_unsigned": "d2e03defc5a3f5562d287fb1e51cf7522427172e278de5c7c48038f4b38d7271",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "bananapi_bpi-r2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "bananapi,bpi-r2"
+  ],
+  "target": "mediatek/mt7623",
+  "titles": [
+    {
+      "model": "BPi-R2",
+      "vendor": "Bananapi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

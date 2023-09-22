@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "nvram",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "otrx",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-b43"
+  ],
+  "image_path": "22.03.5/targets/bcm47xx/legacy/",
+  "image_prefix": "openwrt-22.03.5-bcm47xx-legacy-linksys_wrt150n",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm47xx-legacy-linksys_wrt150n-squashfs.bin",
+      "sha256": "c6bd4b92ecf497b74dec9bf624f3756a26820fe2ad8e9c22f8e241da365efcc4",
+      "sha256_unsigned": "c6bd4b92ecf497b74dec9bf624f3756a26820fe2ad8e9c22f8e241da365efcc4",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksys_wrt150n",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "linksys,wrt150n"
+  ],
+  "target": "bcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WRT150N",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

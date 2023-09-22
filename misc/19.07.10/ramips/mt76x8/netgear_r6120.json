@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-mt7603",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt76x8-netgear_r6120",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt76x8-netgear_r6120-squashfs-sysupgrade.bin",
+      "sha256": "333af343797fafe3b8c9d8e3aa194ea064a73dcf160723c17a3d123d9ce849bd",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt76x8-netgear_r6120-squashfs-factory.img",
+      "sha256": "a56cb40f6627c25e237ef8f87f02a1e430b14666265e1c8ecf5cf11bee1bf077",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_r6120",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "netgear,r6120"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "title": "Netgear R6120"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

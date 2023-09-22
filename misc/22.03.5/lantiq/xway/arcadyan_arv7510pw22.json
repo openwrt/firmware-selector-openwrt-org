@@ -1,0 +1,92 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-a",
+    "kmod-ltq-atm-danube",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ltq-tapi",
+    "kmod-ltq-vmmc",
+    "kmod-rt2800-pci",
+    "wpad-basic-wolfssl",
+    "kmod-usb-uhci",
+    "kmod-usb2",
+    "kmod-usb2-pci",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/lantiq/xway/",
+  "image_prefix": "openwrt-22.03.5-lantiq-xway-arcadyan_arv7510pw22",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-lantiq-xway-arcadyan_arv7510pw22-initramfs-kernel.bin",
+      "sha256": "15923d546226fb93a811266b3bb8b89e3b51edf4dd6f45587f2d32015588cdd6",
+      "sha256_unsigned": "15923d546226fb93a811266b3bb8b89e3b51edf4dd6f45587f2d32015588cdd6",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-lantiq-xway-arcadyan_arv7510pw22-squashfs-sysupgrade.bin",
+      "sha256": "fa2f8a2c38e73979ed010b52a115a77475526a064f34ce293f77a4be158a4429",
+      "sha256_unsigned": "d72bd0d98d41d965fcb83032b85f719e578a0847c476e745cea1728288569cde",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "arcadyan_arv7510pw22",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "arcadyan,arv7510pw22",
+    "ARV7510PW22"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "ARV7510PW22",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "ARV7510PW22",
+      "vendor": "Astoria Networks"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

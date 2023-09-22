@@ -1,0 +1,95 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-core",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-usb-phy-qcom-dwc3",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-core",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-usb-phy-qcom-dwc3",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "19.07.10/targets/ipq806x/generic/",
+  "image_prefix": "openwrt-19.07.10-ipq806x-generic-netgear_r7500",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq806x-generic-netgear_r7500-squashfs-sysupgrade.bin",
+      "sha256": "f833933547aef3bd7df78b7f6256ee828640ea8d44741f290ca04a702418108a",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ipq806x-generic-netgear_r7500-squashfs-factory.img",
+      "sha256": "c34d0a23b59125f901ef93e7a380129d28be0ec5be00579ab27e3908cf38f331",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_r7500",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "netgear,r7500",
+    "r7500"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "title": "Netgear Nighthawk X4 R7500"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

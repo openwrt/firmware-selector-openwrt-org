@@ -1,0 +1,79 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ipq40xx/mikrotik/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-mikrotik-mikrotik_sxtsq-5-ac",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-mikrotik-mikrotik_sxtsq-5-ac-initramfs-kernel.bin",
+      "sha256": "c5cc798f36fb857da418ef61ad908cacd866ef570829b8a13e57523d191af76d",
+      "sha256_unsigned": "c5cc798f36fb857da418ef61ad908cacd866ef570829b8a13e57523d191af76d",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-mikrotik-mikrotik_sxtsq-5-ac-squashfs-sysupgrade.bin",
+      "sha256": "a1fba63cb756396cd64262f6213bbd6544ae253b272af6e2336a5912d6e70416",
+      "sha256_unsigned": "264133fe8e150d279a6d67872e3de56fffcf6f9fef456e9694c14900e933110d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mikrotik_sxtsq-5-ac",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mikrotik,sxtsq-5-ac"
+  ],
+  "target": "ipq40xx/mikrotik",
+  "titles": [
+    {
+      "model": "SXTsq 5 ac (RBSXTsqG-5acD)",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

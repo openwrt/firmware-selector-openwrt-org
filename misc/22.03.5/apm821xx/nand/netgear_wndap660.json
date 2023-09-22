@@ -1,0 +1,82 @@
+{
+  "arch_packages": "powerpc_464fp",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-i2c-core",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-eeprom-at24"
+  ],
+  "image_path": "22.03.5/targets/apm821xx/nand/",
+  "image_prefix": "openwrt-22.03.5-apm821xx-nand-netgear_wndap660",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-apm821xx-nand-netgear_wndap660-squashfs-sysupgrade.bin",
+      "sha256": "5efb24d83bba0a3c3088777a7eaef2617ab524c84d8e914d1749dda2e4dc96f0",
+      "sha256_unsigned": "db5fe285ff08fc8f36a2bfd2a5803c0840b9ddd791baaf358529a31900cf03eb",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-apm821xx-nand-netgear_wndap660-squashfs-factory.img",
+      "sha256": "17e7d699d17493455302ba9b280689d8ea6675d8c3b687cb92a920451d39bf26",
+      "sha256_unsigned": "17e7d699d17493455302ba9b280689d8ea6675d8c3b687cb92a920451d39bf26",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-apm821xx-nand-netgear_wndap660-initramfs-kernel.bin",
+      "sha256": "4e37122571a3eb5922d4f93d045274b07e4a993c7509b9dd7f72c488394433a3",
+      "sha256_unsigned": "4e37122571a3eb5922d4f93d045274b07e4a993c7509b9dd7f72c488394433a3",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wndap660",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wndap660"
+  ],
+  "target": "apm821xx/nand",
+  "titles": [
+    {
+      "model": "WNDAP660 (Dual Radio Dual Band Wireless-N)",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

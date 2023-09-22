@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-sdhci-mt7620",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-lenovo_newifi-d1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-lenovo_newifi-d1-squashfs-sysupgrade.bin",
+      "sha256": "fe33c2d40e909b4774c7539d8829c91aa6f1ea294665509816555b5bcddcb43f",
+      "sha256_unsigned": "1075e3d8339af05f62911b72e0a78c059a30aec6167c4ba7054f09af3c7ad487",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-lenovo_newifi-d1-initramfs-kernel.bin",
+      "sha256": "cb0f612a860d95ab78d72ffacf16647c6daf166ca50c2300948c5aa5f958bb76",
+      "sha256_unsigned": "cb0f612a860d95ab78d72ffacf16647c6daf166ca50c2300948c5aa5f958bb76",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "lenovo_newifi-d1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "lenovo,newifi-d1",
+    "newifi-d1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "D1",
+      "vendor": "Newifi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

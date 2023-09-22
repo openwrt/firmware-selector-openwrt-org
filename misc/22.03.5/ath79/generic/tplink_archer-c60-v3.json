@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca9888-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_archer-c60-v3",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c60-v3-initramfs-kernel.bin",
+      "sha256": "e608f88e34fc6da897307e3937270e9310df38a72e5d7f24a82368b387d840f6",
+      "sha256_unsigned": "e608f88e34fc6da897307e3937270e9310df38a72e5d7f24a82368b387d840f6",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c60-v3-squashfs-factory.bin",
+      "sha256": "c178e0fe87b002f5b31b6d94e8718a1cc5e3af6e3106b54c62f3766e0797bbfb",
+      "sha256_unsigned": "c178e0fe87b002f5b31b6d94e8718a1cc5e3af6e3106b54c62f3766e0797bbfb",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c60-v3-squashfs-sysupgrade.bin",
+      "sha256": "97f6310d5c294c6c7b07b5ae0bc1d2090fb1e41d7bec3e8ed3a5f9c0ff9ea5f7",
+      "sha256_unsigned": "3109faf543a7f86a41024e57e597dc72b75890929b4a1a36c1518e5dd7f46e38",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-c60-v3",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-c60-v3"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Archer C60",
+      "variant": "v3",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,80 @@
+{
+  "arch_packages": "aarch64_cortex-a72",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "ethtool",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/mvebu/cortexa72/",
+  "image_prefix": "openwrt-22.03.5-mvebu-cortexa72-iei_puzzle-m901",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mvebu-cortexa72-iei_puzzle-m901-squashfs-sdcard.img.gz",
+      "sha256": "a89281128f199241dcd113b34eb7d276bf12f393aa644b1e69630b438582dee3",
+      "sha256_unsigned": "015cb68efbe18c17307367627eb1ae1050aa2e831b644f2b7632d8c32f3fe26c",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-mvebu-cortexa72-iei_puzzle-m901-ext4-sdcard.img.gz",
+      "sha256": "8a4e70d9b8725933eeb51ad0252004a0e1deeea5cda56136c0d5ec565c41787e",
+      "sha256_unsigned": "07751de70b4597362f3feff7621f6a521f17d29e0d41012535d7d81c697d305a",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mvebu-cortexa72-iei_puzzle-m901-initramfs-kernel.bin",
+      "sha256": "52b4d659c46c3a9da0c09bda6e09473e4f8e5bba40589d43197bc3b0afdc9ba9",
+      "sha256_unsigned": "52b4d659c46c3a9da0c09bda6e09473e4f8e5bba40589d43197bc3b0afdc9ba9",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "iei_puzzle-m901",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "iei,puzzle-m901"
+  ],
+  "target": "mvebu/cortexa72",
+  "titles": [
+    {
+      "model": "Puzzle-M901",
+      "vendor": "iEi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "wpad-basic",
+    "uboot-envtools",
+    "iwinfo"
+  ],
+  "image_path": "19.07.10/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt7621-xiaomi_mir3g",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-xiaomi_mir3g-squashfs-rootfs0.bin",
+      "sha256": "d6fa3248752765a5f899e49718d3d24df38d5114a0d800c82c2271a2217eb588",
+      "type": "rootfs0"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-xiaomi_mir3g-squashfs-sysupgrade.bin",
+      "sha256": "97ad06e15c6fd07acfb22bc4f6d2ded00a6367755a24ebd84b8d4d2d099ca368",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt7621-xiaomi_mir3g-squashfs-kernel1.bin",
+      "sha256": "c25c6dd966d081ba8fc7f1e99a5c76e9a84ad198afbf56bdbc3c1952329a4079",
+      "type": "kernel1"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "xiaomi_mir3g",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "xiaomi,mir3g",
+    "R3G",
+    "mir3g"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Xiaomi Mi Router 3G"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

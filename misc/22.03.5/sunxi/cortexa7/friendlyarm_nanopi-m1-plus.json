@@ -1,0 +1,77 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-leds-gpio",
+    "kmod-brcmfmac",
+    "cypress-firmware-43430-sdio",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa7/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa7-friendlyarm_nanopi-m1-plus",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-friendlyarm_nanopi-m1-plus-ext4-sdcard.img.gz",
+      "sha256": "8b1e66f4a101f1794aeb9f4907d60685dbb1fbe5285b64c9d7532e650b2b2a49",
+      "sha256_unsigned": "96ae622bb31a9daeae0a108cfe891f7ae104dda7b2eb15e424e0ad908bef9df8",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa7-friendlyarm_nanopi-m1-plus-squashfs-sdcard.img.gz",
+      "sha256": "a81704332f3f32456d9aa3ee0f06116db76608752b4af0ba3aba75438f6050c5",
+      "sha256_unsigned": "4cf926e7d5c13d0efc0114fc1061f04370b1c021b34c396d3abbd3ca9780b9b0",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "friendlyarm_nanopi-m1-plus",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "friendlyarm,nanopi-m1-plus"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "NanoPi M1 Plus",
+      "vendor": "FriendlyARM"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

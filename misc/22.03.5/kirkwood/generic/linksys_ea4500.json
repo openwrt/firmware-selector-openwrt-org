@@ -1,0 +1,83 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-mwl8k",
+    "wpad-basic-wolfssl",
+    "kmod-gpio-button-hotplug",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-linksys_ea4500",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-linksys_ea4500-initramfs-uImage",
+      "sha256": "9aa05ae0b945b8c7054324152f7cb86cd340ab56b913497488e57f6957b0225b",
+      "sha256_unsigned": "9aa05ae0b945b8c7054324152f7cb86cd340ab56b913497488e57f6957b0225b",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-linksys_ea4500-squashfs-factory.bin",
+      "sha256": "dfb9714045ca2d187b7ee1b0fc75efebd914b8bd37302065626ec12d97a33110",
+      "sha256_unsigned": "dfb9714045ca2d187b7ee1b0fc75efebd914b8bd37302065626ec12d97a33110",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-linksys_ea4500-squashfs-sysupgrade.bin",
+      "sha256": "43ec1cfe11e3711d02c5b0dfe8af13202f548878dad68294b6a6ce5706a54a06",
+      "sha256_unsigned": "008a48359e711d926d671be0cf147e29685289b3d4160d4bc70eec2ce43d7c09",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksys_ea4500",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "linksys,ea4500",
+    "linksys,viper",
+    "linksys-viper"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "EA4500",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

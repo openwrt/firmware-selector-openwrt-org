@@ -1,0 +1,68 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/sunxi/cortexa53/",
+  "image_prefix": "openwrt-19.07.10-sunxi-cortexa53-sun50i-h5-nanopi-neo2",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-sunxi-cortexa53-sun50i-h5-nanopi-neo2-ext4-sdcard.img.gz",
+      "sha256": "0b1c5aa6cfad50f65e9ab94f56d3c80909d5093e2ab074af28aecde9e5a233d5",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-sunxi-cortexa53-sun50i-h5-nanopi-neo2-squashfs-sdcard.img.gz",
+      "sha256": "98038eed05fc1c7cfdf7cceeff23055432acfae1eee2fac6bc8e2d0e9fb698b0",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "sun50i-h5-nanopi-neo2",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "nanopi-neo2"
+  ],
+  "target": "sunxi/cortexa53",
+  "titles": [
+    {
+      "title": "Nanopi NEO2 (H5)"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

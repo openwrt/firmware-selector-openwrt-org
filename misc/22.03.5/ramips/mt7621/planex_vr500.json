@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "-wpad-basic-wolfssl"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-planex_vr500",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-planex_vr500-squashfs-sysupgrade.bin",
+      "sha256": "271ea299a0c17cf87d85a0915dececa751a57f7a37923c5409c6082e64a358eb",
+      "sha256_unsigned": "50ccb8b25b49348ad70550a121b69963009f631e0e0e5497c7c0c966d82e2113",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-planex_vr500-initramfs-kernel.bin",
+      "sha256": "12dd4fa9517ce52a955607006efca4b36704bb3afd8adfe2c9d947515d99ff2a",
+      "sha256_unsigned": "12dd4fa9517ce52a955607006efca4b36704bb3afd8adfe2c9d947515d99ff2a",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "planex_vr500",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "planex,vr500",
+    "vr500"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "VR500",
+      "vendor": "Planex"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

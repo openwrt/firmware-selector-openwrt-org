@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-ampedwireless_ally-00x19k",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-ampedwireless_ally-00x19k-squashfs-sysupgrade.bin",
+      "sha256": "3c1ffe42f0ec2c34b1d197a4e7920bf7fa65c3b9530ecf1676b963368f6616c2",
+      "sha256_unsigned": "67e93d3799b9716fb040214ec5f5d34ba51e13444000f17f122880ebf91e8a88",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-ampedwireless_ally-00x19k-initramfs-kernel.bin",
+      "sha256": "41dd6b3d18cabe5da65b094e7877778c149237cdd29a2074afa4e62cd2e7a8c6",
+      "sha256_unsigned": "41dd6b3d18cabe5da65b094e7877778c149237cdd29a2074afa4e62cd2e7a8c6",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ampedwireless_ally-00x19k",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ampedwireless,ally-00x19k"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "ALLY-00X19K",
+      "vendor": "Amped Wireless"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

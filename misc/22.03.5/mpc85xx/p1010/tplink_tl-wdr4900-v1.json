@@ -1,0 +1,84 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-button-hotplug",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/mpc85xx/p1010/",
+  "image_prefix": "openwrt-22.03.5-mpc85xx-p1010-tplink_tl-wdr4900-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1010-tplink_tl-wdr4900-v1-squashfs-sysupgrade.bin",
+      "sha256": "7b91f341bb4211f822fb215c5456b4759774c51546dcdf20fbc995e13776ea10",
+      "sha256_unsigned": "89c55dd2fb63cba639f6165dd4f6a80da32f6bdc591cadce270ab72e937a8d1c",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1010-tplink_tl-wdr4900-v1-squashfs-factory.bin",
+      "sha256": "dcf6bc9f00bfdd4106e8b7a5b1833ee46e2b969cb3933decb827004bb6dd485c",
+      "sha256_unsigned": "dcf6bc9f00bfdd4106e8b7a5b1833ee46e2b969cb3933decb827004bb6dd485c",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-22.03.5-mpc85xx-p1010-tplink_tl-wdr4900-v1-fdt.bin",
+      "sha256": "06d8b4186f532e6209e959787d8ea479b03aa87f83f4bb1b68022994da8525ae",
+      "sha256_unsigned": "06d8b4186f532e6209e959787d8ea479b03aa87f83f4bb1b68022994da8525ae",
+      "type": "fdt.bin"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_tl-wdr4900-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,tl-wdr4900-v1",
+    "tl-wdr4900-v1"
+  ],
+  "target": "mpc85xx/p1010",
+  "titles": [
+    {
+      "model": "TL-WDR4900",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

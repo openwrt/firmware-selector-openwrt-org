@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "block-mount",
+    "kmod-usb-serial-ch341",
+    "kmod-usb-net-qmi-wwan",
+    "uqmi"
+  ],
+  "image_path": "22.03.5/targets/ath79/nand/",
+  "image_prefix": "openwrt-22.03.5-ath79-nand-glinet_gl-xe300",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-xe300-initramfs-kernel.bin",
+      "sha256": "21d25a3b560d2689b18f359bee906c307a1da07ed3f53f3d191a12484b13cc66",
+      "sha256_unsigned": "21d25a3b560d2689b18f359bee906c307a1da07ed3f53f3d191a12484b13cc66",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-xe300-squashfs-factory.img",
+      "sha256": "c959bf9d96bf1770f1574915de02742f351666c6ea651a3fc00e460843738971",
+      "sha256_unsigned": "c959bf9d96bf1770f1574915de02742f351666c6ea651a3fc00e460843738971",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-nand-glinet_gl-xe300-squashfs-sysupgrade.bin",
+      "sha256": "4220d704ce38d39fc84e6ef92a9dd47e371a3ed30dcc40f1c52063a5ae948de7",
+      "sha256_unsigned": "47a4cb049276e1291e642d20522a4681b5a709d5d9432dedad68aa37dd5fc9eb",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "glinet_gl-xe300",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "glinet,gl-xe300"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "GL-XE300",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ubnt_rocket-5ac-lite",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_rocket-5ac-lite-squashfs-factory.bin",
+      "sha256": "994b56393f2296c94806bea43028b43418396defd1b608a2888792c9df4cf930",
+      "sha256_unsigned": "994b56393f2296c94806bea43028b43418396defd1b608a2888792c9df4cf930",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_rocket-5ac-lite-initramfs-kernel.bin",
+      "sha256": "aa923f85dff74a35c2a8d2ee7ae4cdb23e69945a584c3530f87b9c71d5e8e9fc",
+      "sha256_unsigned": "aa923f85dff74a35c2a8d2ee7ae4cdb23e69945a584c3530f87b9c71d5e8e9fc",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_rocket-5ac-lite-squashfs-sysupgrade.bin",
+      "sha256": "ef6015a39830457affdeea4a06e34b37b9be71dff20a64f65c14d805ccfff078",
+      "sha256_unsigned": "522724d4e64371c6cd2b7985210f31278357d83797529aafd1011f44e94a4c01",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_rocket-5ac-lite",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,rocket-5ac-lite"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Rocket 5AC",
+      "variant": "Lite",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2",
+    "kmod-ledtrig-oneshot",
+    "kmod-usb-serial-ftdi",
+    "kmod-usb-storage",
+    "kmod-fs-ext4"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-etactica_eg200",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-etactica_eg200-initramfs-kernel.bin",
+      "sha256": "76af74d82bd9854fddae18ddb6bb91a6c7245388c6a8b3860f959402ef81a2af",
+      "sha256_unsigned": "76af74d82bd9854fddae18ddb6bb91a6c7245388c6a8b3860f959402ef81a2af",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-etactica_eg200-squashfs-sysupgrade.bin",
+      "sha256": "8dda41985116a8d9826a34ca0dd932da8a2f955c303fc9bb8c1e3c724c0cf6a7",
+      "sha256_unsigned": "d247381ddb10dfa9e51e97868773e6af53705f4150370ab98ace4692945fabd1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "etactica_eg200",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "etactica,eg200",
+    "rme-eg200"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EG200",
+      "vendor": "eTactica"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

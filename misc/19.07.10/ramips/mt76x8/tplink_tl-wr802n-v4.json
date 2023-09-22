@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-mt7603",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-19.07.10-ramips-mt76x8-tplink_tl-wr802n-v4",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt76x8-tplink_tl-wr802n-v4-squashfs-tftp-recovery.bin",
+      "sha256": "a35d243d08db1883972f72de612c95f6fd1257bfd1805675af7dca4b196e4a7e",
+      "type": "tftp-recovery"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-mt76x8-tplink_tl-wr802n-v4-squashfs-sysupgrade.bin",
+      "sha256": "e45845c02e357ac34c359f198147be52c56a528b1950e4970e840358aa98625d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_tl-wr802n-v4",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "tplink,tl-wr802n-v4"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "title": "TP-Link TL-WR802N v4"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

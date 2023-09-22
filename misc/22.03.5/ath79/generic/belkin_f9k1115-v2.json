@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct",
+    "kmod-usb2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-belkin_f9k1115-v2",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-belkin_f9k1115-v2-initramfs-kernel.bin",
+      "sha256": "1111086a7be0df6421becbf6ce47059cea2e1dd673e2a97c16479190a4deae24",
+      "sha256_unsigned": "1111086a7be0df6421becbf6ce47059cea2e1dd673e2a97c16479190a4deae24",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-belkin_f9k1115-v2-squashfs-factory.bin",
+      "sha256": "f97b79ffecdde3e1a32a073bd8734784a9b60c0563c31e04a85e8844c59e09e5",
+      "sha256_unsigned": "f97b79ffecdde3e1a32a073bd8734784a9b60c0563c31e04a85e8844c59e09e5",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-belkin_f9k1115-v2-squashfs-sysupgrade.bin",
+      "sha256": "a6858e0e9949a49a249dbb4133dc2ba88c445adefcdfe09c71c0e638fb8f21c6",
+      "sha256_unsigned": "1e8440aa3bac99ddfedde48d0569a29b96121036c4ded18a761f7e58a54992a5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "belkin_f9k1115-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "belkin,f9k1115-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "F9K1115 v2 (AC1750 DB Wi-Fi)",
+      "vendor": "Belkin"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

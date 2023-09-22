@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-deu-vr9",
+    "ltq-vdsl-app",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "ppp-mod-pppoa",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/lantiq/xrx200/",
+  "image_prefix": "openwrt-19.07.10-lantiq-xrx200-arcadyan_vg3503j",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-lantiq-xrx200-arcadyan_vg3503j-squashfs-sysupgrade.bin",
+      "sha256": "4839b6ef3f42cbc2b3cc0c8bd45d00dbfb20f3554e12efb05f0718bf5c9cb924",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "arcadyan_vg3503j",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "arcadyan,vg3503j",
+    "VG3503J"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "title": "BT OpenReach - ECI VDSL Modem V-2FUb/R"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

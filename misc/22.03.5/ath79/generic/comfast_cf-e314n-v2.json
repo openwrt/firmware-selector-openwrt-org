@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-comfast_cf-e314n-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-comfast_cf-e314n-v2-squashfs-sysupgrade.bin",
+      "sha256": "0c267677dfbc8c158b5ad1b8bbe7164a4ac4357053c1971fd8437df3028bf40e",
+      "sha256_unsigned": "990859bfe03ef669d6c3a2be63eb474fc36d26ef3b6c86511bc3531bb71e28d2",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-comfast_cf-e314n-v2-initramfs-kernel.bin",
+      "sha256": "2c47f7c276ff98a08a1578151e209ae3b4d4f5fc52f55739aacce4200e103705",
+      "sha256_unsigned": "2c47f7c276ff98a08a1578151e209ae3b4d4f5fc52f55739aacce4200e103705",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "comfast_cf-e314n-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "comfast,cf-e314n-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CF-E314N",
+      "variant": "v2",
+      "vendor": "COMFAST"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7603",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt76x8-tplink_tl-wa801nd-v5",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-tplink_tl-wa801nd-v5-squashfs-sysupgrade.bin",
+      "sha256": "5f3f12a8003bc854bcb45730f828c9030f1455d6599a48a278138d5dfaddac4b",
+      "sha256_unsigned": "a4f283a5ec8bd17617fcf02ff65e86cc2f9c78d3a34d5dbb7d451057c89b385c",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-tplink_tl-wa801nd-v5-initramfs-kernel.bin",
+      "sha256": "e68d965c246de0dad191280d140e7d008814bf8c4ebbb802bce1f96dca1051a1",
+      "sha256_unsigned": "e68d965c246de0dad191280d140e7d008814bf8c4ebbb802bce1f96dca1051a1",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-tplink_tl-wa801nd-v5-squashfs-tftp-recovery.bin",
+      "sha256": "a24a6b106a1a112ea7d0a3291650d327cb4ffa64ec7dee3838b3cfbddfd28b9b",
+      "sha256_unsigned": "a24a6b106a1a112ea7d0a3291650d327cb4ffa64ec7dee3838b3cfbddfd28b9b",
+      "type": "tftp-recovery"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_tl-wa801nd-v5",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,tl-wa801nd-v5"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "TL-WA801ND",
+      "variant": "v5",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

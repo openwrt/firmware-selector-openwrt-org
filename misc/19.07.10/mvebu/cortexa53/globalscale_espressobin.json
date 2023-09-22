@@ -1,0 +1,68 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "e2fsprogs",
+    "ethtool",
+    "mkf2fs",
+    "partx-utils",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/mvebu/cortexa53/",
+  "image_prefix": "openwrt-19.07.10-mvebu-cortexa53-globalscale_espressobin",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-mvebu-cortexa53-globalscale_espressobin-ext4-sdcard.img.gz",
+      "sha256": "f479f8796af27153140cfc91c1d54bf7e55c2eb68ccd9cc055e2951dfff35e4b",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-mvebu-cortexa53-globalscale_espressobin-squashfs-sdcard.img.gz",
+      "sha256": "486197631a071ccb7e64f11e825f6ff1273d3038a06e44822e3ab7060731086d",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "globalscale_espressobin",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "globalscale,espressobin"
+  ],
+  "target": "mvebu/cortexa53",
+  "titles": [
+    {
+      "title": "ESPRESSObin (Marvell Armada 3700 Community Board)"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

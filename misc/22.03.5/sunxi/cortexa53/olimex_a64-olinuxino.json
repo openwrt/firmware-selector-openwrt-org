@@ -1,0 +1,74 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "e2fsprogs",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mkf2fs",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "partx-utils",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-rtl8723bs",
+    "rtl8723bu-firmware"
+  ],
+  "image_path": "22.03.5/targets/sunxi/cortexa53/",
+  "image_prefix": "openwrt-22.03.5-sunxi-cortexa53-olimex_a64-olinuxino",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-sunxi-cortexa53-olimex_a64-olinuxino-squashfs-sdcard.img.gz",
+      "sha256": "93f1f2d3ac5eaa23b6b60624800328d44601c5909ab3cab6eb14647004d618be",
+      "sha256_unsigned": "29992454018527a365dcffb0ff75470e29ee1177ab52d7033b17027d7c0cbf78",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-sunxi-cortexa53-olimex_a64-olinuxino-ext4-sdcard.img.gz",
+      "sha256": "874d82f6c11c5c106f55d7d20167bc401e2fa15322d6cc935a5c291c15af1c9c",
+      "sha256_unsigned": "608bdd1322e6022642790df3c2992ce5b3daf4bee3145ad54d71b602e6e1b55f",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "olimex_a64-olinuxino",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "olimex,a64-olinuxino"
+  ],
+  "target": "sunxi/cortexa53",
+  "titles": [
+    {
+      "model": "A64-Olinuxino",
+      "vendor": "Olimex"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

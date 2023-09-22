@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-mercury_mw4530r-v1",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-mercury_mw4530r-v1-initramfs-kernel.bin",
+      "sha256": "dd38c026bb42473d73890d6dab33e5009e3ec4016d7c9a55a20a00b1418363e9",
+      "sha256_unsigned": "dd38c026bb42473d73890d6dab33e5009e3ec4016d7c9a55a20a00b1418363e9",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-mercury_mw4530r-v1-squashfs-sysupgrade.bin",
+      "sha256": "a821fe396eb7e97e7189362dd6d78d2ab1c04544b8885b416a887c46e397a840",
+      "sha256_unsigned": "7035dd7dd8096f560b81c0879d011f09742a565d4a7765b2e0cff7a7cc60462a",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-mercury_mw4530r-v1-squashfs-factory.bin",
+      "sha256": "89801e0c3c3db8252cfb8949c4ac7052f50108a4b929f00ad3c8238c0a9a90bc",
+      "sha256_unsigned": "89801e0c3c3db8252cfb8949c4ac7052f50108a4b929f00ad3c8238c0a9a90bc",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mercury_mw4530r-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mercury,mw4530r-v1",
+    "tl-wdr4300"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "MW4530R",
+      "variant": "v1",
+      "vendor": "Mercury"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

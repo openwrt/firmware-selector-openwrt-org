@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7603",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt76x8-wrtnode_wrtnode2r",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-wrtnode_wrtnode2r-squashfs-sysupgrade.bin",
+      "sha256": "3911c559b7dd40ce5cb1682217eaccbfc7453d5a9488d89f8020ecd96439c928",
+      "sha256_unsigned": "2f7ccff0abb0a6068da5adff57e0e2bce9d49ba97e8ead631ef806cbc8feaefc",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-wrtnode_wrtnode2r-initramfs-kernel.bin",
+      "sha256": "801a230b7c5615f68387a0730fc0ce113ef067a1e86d679061403ac87147561d",
+      "sha256_unsigned": "801a230b7c5615f68387a0730fc0ce113ef067a1e86d679061403ac87147561d",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "wrtnode_wrtnode2r",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "wrtnode,wrtnode2r",
+    "wrtnode2r"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "WRTnode 2R",
+      "vendor": "WRTnode"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

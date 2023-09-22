@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-spi-gpio",
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-ath9k"
+  ],
+  "image_path": "19.07.10/targets/ar71xx/nand/",
+  "image_prefix": "openwrt-19.07.10-ar71xx-nand-c-60",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ar71xx-nand-c-60-squashfs-sysupgrade.tar",
+      "sha256": "5abc44645ea2637e4c1bd2432bacc53c616de2810fd0613f19230b7212c76a9a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "c-60",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "ar71xx/nand",
+  "titles": [
+    {
+      "title": "AirTight C-60"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

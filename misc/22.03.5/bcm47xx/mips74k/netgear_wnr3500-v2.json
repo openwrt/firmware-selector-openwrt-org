@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "nvram",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "otrx",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-b43"
+  ],
+  "image_path": "22.03.5/targets/bcm47xx/mips74k/",
+  "image_prefix": "openwrt-22.03.5-bcm47xx-mips74k-netgear_wnr3500-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm47xx-mips74k-netgear_wnr3500-v2-squashfs.chk",
+      "sha256": "059e8b7dcd0719d858bb6b6ca2c2992e875d3929ba2807a5df833f4eca8f20f6",
+      "sha256_unsigned": "059e8b7dcd0719d858bb6b6ca2c2992e875d3929ba2807a5df833f4eca8f20f6",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_wnr3500-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,wnr3500-v2"
+  ],
+  "target": "bcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "WNR3500",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

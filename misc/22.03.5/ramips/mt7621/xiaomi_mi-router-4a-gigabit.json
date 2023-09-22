@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-4a-gigabit",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-4a-gigabit-squashfs-sysupgrade.bin",
+      "sha256": "0f22ca6afa747ab8cbfdec097840642e1f04ca889afbc653de9b0e82b8bcaa19",
+      "sha256_unsigned": "df1664c751853bdfa3545177b746f2a9d5c540061f746416749f778216d3b9ee",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-4a-gigabit-initramfs-kernel.bin",
+      "sha256": "8512cdb683a36b39a41b5d3ae14838c75e37df3d85bae9e2cae9f33af46aa2b2",
+      "sha256_unsigned": "8512cdb683a36b39a41b5d3ae14838c75e37df3d85bae9e2cae9f33af46aa2b2",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "xiaomi_mi-router-4a-gigabit",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "xiaomi,mi-router-4a-gigabit"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Mi Router 4A",
+      "variant": "Gigabit Edition",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

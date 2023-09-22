@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-qxwlan_e750g-v8-8m",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-qxwlan_e750g-v8-8m-squashfs-sysupgrade.bin",
+      "sha256": "2d7063c90c31543f7e27aee3355b151394a3b6960882be6bc13b95acfc09af12",
+      "sha256_unsigned": "4522044425f213a543f68f0c0e845201a9631de513174185942ecfe7d39e3f3a",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-qxwlan_e750g-v8-8m-initramfs-kernel.bin",
+      "sha256": "d23545e2845a323b118549a724fb579f45bf5094824d209b8bc153e3ded2add2",
+      "sha256_unsigned": "d23545e2845a323b118549a724fb579f45bf5094824d209b8bc153e3ded2add2",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "qxwlan_e750g-v8-8m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "qxwlan,e750g-v8-8m",
+    "e750g-v8"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "E750G",
+      "variant": "v8 (8M)",
+      "vendor": "Qxwlan"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_tl-wr710n-v2.1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wr710n-v2.1-squashfs-factory.bin",
+      "sha256": "5dae76dcbf1161be7395e75b049eeab5cfb8314f7118d9a81ab48246194589a0",
+      "sha256_unsigned": "5dae76dcbf1161be7395e75b049eeab5cfb8314f7118d9a81ab48246194589a0",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wr710n-v2.1-squashfs-sysupgrade.bin",
+      "sha256": "4e6efdb8f72013815bc295be566f1269537ee4ba542b078632dcd02e116ec502",
+      "sha256_unsigned": "b536931604ae9871a836aa3074699756390b9f348f3b7cc4cb5aac3e522c432e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wr710n-v2.1-initramfs-kernel.bin",
+      "sha256": "0cc6338675480a01971bcbceb2edf9d58a3d47e7041ab4f48a472e178d2fe203",
+      "sha256_unsigned": "0cc6338675480a01971bcbceb2edf9d58a3d47e7041ab4f48a472e178d2fe203",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_tl-wr710n-v2.1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,tl-wr710n-v2.1",
+    "tl-wr710n"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WR710N",
+      "variant": "v2.1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

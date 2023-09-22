@@ -1,0 +1,82 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-rtc-rs5c372a",
+    "kmod-hwmon-gpiofan",
+    "kmod-hwmon-drivetemp",
+    "kmod-usb3",
+    "kmod-linkstation-poweroff",
+    "kmod-md-raid0",
+    "kmod-md-raid1",
+    "kmod-md-mod",
+    "kmod-fs-xfs",
+    "mkf2fs",
+    "e2fsprogs",
+    "partx-utils"
+  ],
+  "image_path": "22.03.5/targets/mvebu/cortexa9/",
+  "image_prefix": "openwrt-22.03.5-mvebu-cortexa9-buffalo_ls421de",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mvebu-cortexa9-buffalo_ls421de-initramfs-kernel.bin",
+      "sha256": "90e997588a92463f8773890e40b082a54d1c09dce3dd83ebd8d5cfcf6e6b9f6d",
+      "sha256_unsigned": "90e997588a92463f8773890e40b082a54d1c09dce3dd83ebd8d5cfcf6e6b9f6d",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mvebu-cortexa9-buffalo_ls421de-squashfs-sysupgrade.bin",
+      "sha256": "07a7ca11f84db5736d1bada33fbf2ab0f1d0ad3187214b566e200df502f830e8",
+      "sha256_unsigned": "1a23e77764ebf72a8835e4570ced7f9622b366daf26e0a06be5d1484344933f1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "buffalo_ls421de",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "buffalo,ls421de"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "LinkStation LS421DE",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

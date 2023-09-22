@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/mikrotik/",
+  "image_prefix": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-mapl-2nd",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-mapl-2nd-squashfs-sysupgrade.bin",
+      "sha256": "1d74d39b1f23b06660d721c886a2811d82194738943b9d99ae2d855ec9a94360",
+      "sha256_unsigned": "63c08d558b3310fffdc329fb50570dbecc709769ce9a7f55ffd7606cf83d1c81",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-mapl-2nd-initramfs-kernel.bin",
+      "sha256": "a589a319c9aaf41b06edcb78f2c4e7a1b27a696564b232d86938b36336402ed5",
+      "sha256_unsigned": "a589a319c9aaf41b06edcb78f2c4e7a1b27a696564b232d86938b36336402ed5",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mikrotik_routerboard-mapl-2nd",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mikrotik,routerboard-mapl-2nd"
+  ],
+  "target": "ath79/mikrotik",
+  "titles": [
+    {
+      "model": "RouterBOARD mAPL-2nD (mAP lite)",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

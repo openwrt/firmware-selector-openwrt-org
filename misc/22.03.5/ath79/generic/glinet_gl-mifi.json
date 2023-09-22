@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-glinet_gl-mifi",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-glinet_gl-mifi-squashfs-sysupgrade.bin",
+      "sha256": "3745c833bde6b754c9cec2ab64a867e4ec9ea2d6ef60a994e9ec2acc28c52456",
+      "sha256_unsigned": "7b26af817fab3a7c29cd630289dbe704c2557f75fc52e43710c0872260db5ab7",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-glinet_gl-mifi-initramfs-kernel.bin",
+      "sha256": "a43be5bd73d1380d9e032eb51350e4c3503ed79b25d08700f6f9d86f77e81a9f",
+      "sha256_unsigned": "a43be5bd73d1380d9e032eb51350e4c3503ed79b25d08700f6f9d86f77e81a9f",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "glinet_gl-mifi",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "glinet,gl-mifi",
+    "gl-mifi"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "GL-MiFi",
+      "vendor": "GL.iNET"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

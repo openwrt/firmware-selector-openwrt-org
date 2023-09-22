@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-generic-huawei_echolife-hg556a-b",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-huawei_echolife-hg556a-b-squashfs-cfe.bin",
+      "sha256": "c113e1b283049afb8c205fb70d879aae07b9e14ff913eb3a164b130e15e4fb9b",
+      "sha256_unsigned": "c113e1b283049afb8c205fb70d879aae07b9e14ff913eb3a164b130e15e4fb9b",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "huawei_echolife-hg556a-b",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "huawei,echolife-hg556a-b"
+  ],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "EchoLife HG556a",
+      "variant": "B",
+      "vendor": "Huawei"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

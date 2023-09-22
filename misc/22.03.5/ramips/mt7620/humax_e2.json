@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-humax_e2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-humax_e2-squashfs-sysupgrade.bin",
+      "sha256": "21c2e1aab15fc52485e38040aaca61e19de9156bb06fde29eb02fc6cff5bcc9d",
+      "sha256_unsigned": "794db213c68a53da64a885697c73c0ec94078d00cbbfba6323bce606b858162e",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-humax_e2-initramfs-kernel.bin",
+      "sha256": "482ec219c72fd0ae59f0465672d47bea19304c7afb062a324f612014430f8e10",
+      "sha256_unsigned": "482ec219c72fd0ae59f0465672d47bea19304c7afb062a324f612014430f8e10",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "humax_e2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "humax,e2"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "E2",
+      "vendor": "HUMAX"
+    },
+    {
+      "model": "QUANTUM E2",
+      "vendor": "HUMAX"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

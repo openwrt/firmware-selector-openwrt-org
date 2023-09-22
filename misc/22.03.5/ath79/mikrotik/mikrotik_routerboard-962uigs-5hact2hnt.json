@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct",
+    "kmod-usb2",
+    "kmod-i2c-gpio",
+    "kmod-sfp"
+  ],
+  "image_path": "22.03.5/targets/ath79/mikrotik/",
+  "image_prefix": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-962uigs-5hact2hnt",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-962uigs-5hact2hnt-squashfs-sysupgrade.bin",
+      "sha256": "723ec31d4357bb838df7e62bfc34b6a99c5f28dfa99fe73e1b58b595d151da7a",
+      "sha256_unsigned": "12a448798aebc01e8ef6856eef0d8bc8148ee0a76fcba7ebbcf73c37649e2ecf",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-962uigs-5hact2hnt-initramfs-kernel.bin",
+      "sha256": "82ad4ef915d6910522d9c85033365f1511377646153fd1ee23622acd2e2999ba",
+      "sha256_unsigned": "82ad4ef915d6910522d9c85033365f1511377646153fd1ee23622acd2e2999ba",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "mikrotik_routerboard-962uigs-5hact2hnt",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "mikrotik,routerboard-962uigs-5hact2hnt",
+    "rb-962uigs-5hact2hnt"
+  ],
+  "target": "ath79/mikrotik",
+  "titles": [
+    {
+      "model": "RouterBOARD 962UiGS-5HacT2HnT (hAP ac)",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

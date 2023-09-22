@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt7615e",
+    "kmod-mt7663-firmware-ap",
+    "kmod-usb3",
+    "kmod-usb-net-rndis",
+    "comgt-ncm"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-wavlink_ws-wn572hp3-4g",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-wavlink_ws-wn572hp3-4g-initramfs-kernel.bin",
+      "sha256": "7efc4a49e6b45c5511e6f35a3217a5a669b1e4add8d2f2619a2cd4dbacb73395",
+      "sha256_unsigned": "7efc4a49e6b45c5511e6f35a3217a5a669b1e4add8d2f2619a2cd4dbacb73395",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-wavlink_ws-wn572hp3-4g-squashfs-sysupgrade.bin",
+      "sha256": "d3d8bf871f0ecbb330981729c202f1915255c74e61a7dcc79ebc345ddd390c1a",
+      "sha256_unsigned": "32e721bc134584d5f430102cf31dbfe9506fb37ae705cd2c88677fd0b6311970",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "wavlink_ws-wn572hp3-4g",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "wavlink,ws-wn572hp3-4g"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WS-WN572HP3",
+      "variant": "4G",
+      "vendor": "Wavlink"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

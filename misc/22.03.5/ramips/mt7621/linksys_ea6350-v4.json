@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "uboot-envtools",
+    "kmod-mt7603",
+    "kmod-mt7663-firmware-ap"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-linksys_ea6350-v4",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-linksys_ea6350-v4-squashfs-factory.bin",
+      "sha256": "45723443ead4245c10a88e674e9438e4c3e9f13c3caeb96addb94a022a7cc627",
+      "sha256_unsigned": "45723443ead4245c10a88e674e9438e4c3e9f13c3caeb96addb94a022a7cc627",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-linksys_ea6350-v4-squashfs-sysupgrade.bin",
+      "sha256": "eca3a6270a61abb31025f66f493eb55f7192ab485ab38e4d320090f824b0cb29",
+      "sha256_unsigned": "6345bd51e9e8c63fc6f732335bfaa1653ea86103981761e5d73a4342ebc39c57",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-linksys_ea6350-v4-initramfs-kernel.bin",
+      "sha256": "3207b785bd034ad8878aa83e9570b47927d5ac6db572992879e0e0edccb4a83f",
+      "sha256_unsigned": "3207b785bd034ad8878aa83e9570b47927d5ac6db572992879e0e0edccb4a83f",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksys_ea6350-v4",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "linksys,ea6350-v4"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "EA6350",
+      "variant": "v4",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

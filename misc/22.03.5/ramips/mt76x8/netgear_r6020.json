@@ -1,0 +1,81 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-mt7603",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt76x8-netgear_r6020",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-netgear_r6020-initramfs-kernel.bin",
+      "sha256": "8ce87ceb66c0e6df1ec57bd32c4e0d0f275a8fbb54b0647c8b7126d23546a07e",
+      "sha256_unsigned": "8ce87ceb66c0e6df1ec57bd32c4e0d0f275a8fbb54b0647c8b7126d23546a07e",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-netgear_r6020-squashfs-factory.img",
+      "sha256": "7ba274759e8c97624aec52f7cfbf01bb9781f0e06e40cd076eb374e1f3b76c57",
+      "sha256_unsigned": "7ba274759e8c97624aec52f7cfbf01bb9781f0e06e40cd076eb374e1f3b76c57",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt76x8-netgear_r6020-squashfs-sysupgrade.bin",
+      "sha256": "02fce9990bff09b52e06a0e868c4fc29e6501b85762c4c9926f65d0c915fbb4a",
+      "sha256_unsigned": "6bb4d7dc69fb41e3acecbde3c7c04b9c5ffc539fecbe12589859db954c34689b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_r6020",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,r6020"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "R6020",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

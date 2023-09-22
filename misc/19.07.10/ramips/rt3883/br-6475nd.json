@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-pci",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "swconfig"
+  ],
+  "image_path": "19.07.10/targets/ramips/rt3883/",
+  "image_prefix": "openwrt-19.07.10-ramips-rt3883-br-6475nd",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-rt3883-br-6475nd-squashfs-sysupgrade.bin",
+      "sha256": "7b399b23288036d6be571df78ddca5e5e34c24f8ca6006d895496d8331f16f2f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "br-6475nd",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "br-6475nd"
+  ],
+  "target": "ramips/rt3883",
+  "titles": [
+    {
+      "title": "Edimax BR-6475nD"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/brcm63xx/generic/",
+  "image_prefix": "openwrt-19.07.10-brcm63xx-generic-96328avng-generic",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-brcm63xx-generic-96328avng-generic-squashfs-cfe-16M.bin",
+      "sha256": "933e7c8fc019bd72c09228ed4c1f9b78a47cf33d1b08e7e28374dfa6a578ed01",
+      "type": "cfe-16M"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-brcm63xx-generic-96328avng-generic-squashfs-cfe-8M.bin",
+      "sha256": "3a659c550281ab9bde934de5bf8f97308dcba36b0b1ff68ff775b746cdc052cb",
+      "type": "cfe-8M"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-brcm63xx-generic-96328avng-generic-squashfs-cfe-4M.bin",
+      "sha256": "00775cd35bec14598f9b3e36d8789f2566ba9c362b47091655d09ae0872e38c0",
+      "type": "cfe-4M"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "96328avng-generic",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "title": "Generic 96328avng"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

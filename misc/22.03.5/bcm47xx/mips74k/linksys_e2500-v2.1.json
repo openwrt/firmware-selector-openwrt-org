@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "nvram",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "otrx",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-b43"
+  ],
+  "image_path": "22.03.5/targets/bcm47xx/mips74k/",
+  "image_prefix": "openwrt-22.03.5-bcm47xx-mips74k-linksys_e2500-v2.1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm47xx-mips74k-linksys_e2500-v2.1-squashfs.bin",
+      "sha256": "abb30fbb2dc683503f63b2b46b7601f51479998e0c1ad278c4c0f16faf85eaa7",
+      "sha256_unsigned": "abb30fbb2dc683503f63b2b46b7601f51479998e0c1ad278c4c0f16faf85eaa7",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "linksys_e2500-v2.1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "linksys,e2500-v2.1"
+  ],
+  "target": "bcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "E2500",
+      "variant": "v2.1",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

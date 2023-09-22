@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-openmesh_om2p-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-openmesh_om2p-v1-squashfs-sysupgrade.bin",
+      "sha256": "bc1f76bf868627110fe6440efa5841ce26395a28b891504a1b48b4ac2d9ea9c4",
+      "sha256_unsigned": "ecf6106c6d366d3072eaf230a68a87acd38710e823b33a69887c349710b22e43",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-openmesh_om2p-v1-initramfs-kernel.bin",
+      "sha256": "a3611b02bf72d43579573862c21fdaaae4ab5e095b4a7ca5046fdc1388b6c406",
+      "sha256_unsigned": "a3611b02bf72d43579573862c21fdaaae4ab5e095b4a7ca5046fdc1388b6c406",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "openmesh_om2p-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "openmesh,om2p-v1",
+    "om2p"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "OM2P",
+      "variant": "v1",
+      "vendor": "OpenMesh"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

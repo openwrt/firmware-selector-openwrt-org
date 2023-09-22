@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "rssileds"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-ubnt_powerbeam-m2-xw",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_powerbeam-m2-xw-initramfs-kernel.bin",
+      "sha256": "8b78ee17eca376cd015af0ba50566ae986ad16c1a7336052949a71875bd7310c",
+      "sha256_unsigned": "8b78ee17eca376cd015af0ba50566ae986ad16c1a7336052949a71875bd7310c",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_powerbeam-m2-xw-squashfs-sysupgrade.bin",
+      "sha256": "4b16c06a62857d7956c1980da812d9ab45b75ae6170e6ab31a4c1b64380cd123",
+      "sha256_unsigned": "16d1e44bcab5fbe168f2309b007b67e44884ec95fd41ea653619ddf80ef8084c",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-ubnt_powerbeam-m2-xw-squashfs-factory.bin",
+      "sha256": "073c520c024f2b61445ab52a312eb31f2d2b40e6553d383e7b842afc2d18ed8f",
+      "sha256_unsigned": "073c520c024f2b61445ab52a312eb31f2d2b40e6553d383e7b842afc2d18ed8f",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ubnt_powerbeam-m2-xw",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ubnt,powerbeam-m2-xw",
+    "loco-m-xw"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "PowerBeam M2",
+      "variant": "XW",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

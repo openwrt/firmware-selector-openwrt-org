@@ -1,0 +1,80 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-ata-marvell-sata",
+    "kmod-fs-ext4"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-raidsonic_ib-nas62x0",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-raidsonic_ib-nas62x0-squashfs-factory.bin",
+      "sha256": "fc44ef817b90b9675e73479638c0479d7d6b3171d013ce6579a02b408703075e",
+      "sha256_unsigned": "fc44ef817b90b9675e73479638c0479d7d6b3171d013ce6579a02b408703075e",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-raidsonic_ib-nas62x0-squashfs-sysupgrade.bin",
+      "sha256": "0aec21f28c661ab0465b1986a9aec689b5726de9fb869573e9720371f2d0a7ca",
+      "sha256_unsigned": "a45a1dc9b619d7629ff097dd8851241eafea725c33e90abcc32884f8ddb15cd3",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-raidsonic_ib-nas62x0-initramfs-uImage",
+      "sha256": "45707168311bd5fe49c6f9b787f4cf64292aa98f98119c644a7655f84b652960",
+      "sha256_unsigned": "45707168311bd5fe49c6f9b787f4cf64292aa98f98119c644a7655f84b652960",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "raidsonic_ib-nas62x0",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "raidsonic,ib-nas62x0",
+    "ib62x0"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "ICY BOX IB-NAS62x0",
+      "vendor": "RaidSonic"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-engenius_eap600",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_eap600-squashfs-factory.bin",
+      "sha256": "8d6900641a5646a02c1da61d565f29bc0ce1dc8826ddddceb7ec5bb1673c1e07",
+      "sha256_unsigned": "8d6900641a5646a02c1da61d565f29bc0ce1dc8826ddddceb7ec5bb1673c1e07",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_eap600-squashfs-sysupgrade.bin",
+      "sha256": "4b862307be864ea7c7c6d1aec58208f34b12607e5d04989e35d255537f4fb404",
+      "sha256_unsigned": "b1e35e11ce987c35977479df944b8b5f9d1774295c90fdf242f83f1bbd875f31",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_eap600-initramfs-kernel.bin",
+      "sha256": "704c0e7b97e645e2863ae6f6940caaf6520220767f4450db5fd6768a1912e069",
+      "sha256_unsigned": "704c0e7b97e645e2863ae6f6940caaf6520220767f4450db5fd6768a1912e069",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "engenius_eap600",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "engenius,eap600"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EAP600",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

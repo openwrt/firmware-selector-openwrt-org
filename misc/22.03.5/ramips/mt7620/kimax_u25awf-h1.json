@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-storage",
+    "kmod-scsi-core",
+    "kmod-fs-ext4",
+    "kmod-fs-vfat",
+    "block-mount"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7620-kimax_u25awf-h1",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-kimax_u25awf-h1-initramfs-kernel.bin",
+      "sha256": "7b2701b051e6267d9718169e51e908345c2ef1794a6c7a42dba4c8da3b694133",
+      "sha256_unsigned": "7b2701b051e6267d9718169e51e908345c2ef1794a6c7a42dba4c8da3b694133",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7620-kimax_u25awf-h1-squashfs-sysupgrade.bin",
+      "sha256": "32929e926192f64aba1e974c60fe160206a42728b8461ffa15502ca367b506b5",
+      "sha256_unsigned": "c292c4531c5bd300182fc138627f143410259c75754d6a3e87d23b8e6b8625bc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "kimax_u25awf-h1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "kimax,u25awf-h1",
+    "u25awf-h1"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "U25AWF",
+      "variant": "H1",
+      "vendor": "Kimax"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

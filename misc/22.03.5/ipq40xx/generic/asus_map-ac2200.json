@@ -1,0 +1,81 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-board-qca4019",
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9888-ct",
+    "kmod-ath3k"
+  ],
+  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-generic-asus_map-ac2200",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-asus_map-ac2200-squashfs-sysupgrade.bin",
+      "sha256": "5b84a932cf26f00ba961787031d409cfc05510ab8810196af5113e69d131447d",
+      "sha256_unsigned": "c8b4ed5a032beb2decb0ccc62be7d0ab10883199c8a4da6329ac65099afffdc3",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-asus_map-ac2200-initramfs-fit-uImage.itb",
+      "sha256": "d2acfd74829083ee58bb7eab4ec8e7efea51f161738c0de19e22155a8b27f1a5",
+      "sha256_unsigned": "d2acfd74829083ee58bb7eab4ec8e7efea51f161738c0de19e22155a8b27f1a5",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "asus_map-ac2200",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "asus,map-ac2200"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "Lyra (MAP-AC2200)",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

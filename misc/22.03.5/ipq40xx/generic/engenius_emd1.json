@@ -1,0 +1,87 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "ath10k-board-qca4019",
+    "ath10k-firmware-qca4019-ct",
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath10k-ct",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb-dwc3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-usb3",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "ipq-wifi-engenius_emd1"
+  ],
+  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_prefix": "openwrt-22.03.5-ipq40xx-generic-engenius_emd1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-engenius_emd1-squashfs-factory.bin",
+      "sha256": "f2c914f443ff177169a6b85ec59c6687108d7293ddd0a71ae3bb5cb3dbaf9b38",
+      "sha256_unsigned": "f2c914f443ff177169a6b85ec59c6687108d7293ddd0a71ae3bb5cb3dbaf9b38",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-engenius_emd1-squashfs-sysupgrade.bin",
+      "sha256": "e12f4196a48db86ce274ecde944dbefebd9723d63948e97d72a9453f1eae3930",
+      "sha256_unsigned": "8ed3df43476e1ea278a359c2a46ff0292f2bad1acb9d872de68e17e8a3adccc0",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ipq40xx-generic-engenius_emd1-initramfs-fit-uImage.itb",
+      "sha256": "d88c11b8b3981333e48841c4562079c02b152e71515cfd48bd1355e872e140d1",
+      "sha256_unsigned": "d88c11b8b3981333e48841c4562079c02b152e71515cfd48bd1355e872e140d1",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "engenius_emd1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "engenius,emd1"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "EMD1",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

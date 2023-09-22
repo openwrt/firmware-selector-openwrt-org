@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-smp-bt_home-hub-2-a",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-smp-bt_home-hub-2-a-squashfs-cfe.bin",
+      "sha256": "015b22a49af0b6d6cd9bff7a0a4b02bcb4ed6106347bbfaabd2f3c63ff9f7788",
+      "sha256_unsigned": "015b22a49af0b6d6cd9bff7a0a4b02bcb4ed6106347bbfaabd2f3c63ff9f7788",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "bt_home-hub-2-a",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "bt,home-hub-2-a"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "Home Hub 2.0",
+      "variant": "A",
+      "vendor": "British Telecom (BT)"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

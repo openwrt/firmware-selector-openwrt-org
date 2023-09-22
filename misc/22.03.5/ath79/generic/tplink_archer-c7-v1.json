@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_archer-c7-v1",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c7-v1-initramfs-kernel.bin",
+      "sha256": "c30d1c5234401590405924ec04a1776e754b928743c5022c9057f473f848ef5a",
+      "sha256_unsigned": "c30d1c5234401590405924ec04a1776e754b928743c5022c9057f473f848ef5a",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c7-v1-squashfs-factory.bin",
+      "sha256": "ea57ff1aa2f63110da28b5fbb1f2160bf78f3e9c7fec9893b0992b8d0961febf",
+      "sha256_unsigned": "ea57ff1aa2f63110da28b5fbb1f2160bf78f3e9c7fec9893b0992b8d0961febf",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_archer-c7-v1-squashfs-sysupgrade.bin",
+      "sha256": "52ee27ebab5b670281799fad6b2dc73e5532f8ee5508ec2cedae8355a10d2dcd",
+      "sha256_unsigned": "bb1e9bb3637b358077a2d4eb6da58fbf4ee7ce0962a1b0b73932ce19a34d4574",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_archer-c7-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,archer-c7-v1",
+    "archer-c7"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Archer C7",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

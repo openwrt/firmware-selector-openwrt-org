@@ -1,0 +1,79 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-mvsdio"
+  ],
+  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_prefix": "openwrt-22.03.5-kirkwood-cisco_on100",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-cisco_on100-squashfs-factory.bin",
+      "sha256": "34d416f364ba120d26b9f19ee54a3c4789d70df750ae7ae7d07c5491506ac894",
+      "sha256_unsigned": "34d416f364ba120d26b9f19ee54a3c4789d70df750ae7ae7d07c5491506ac894",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-kirkwood-cisco_on100-initramfs-uImage",
+      "sha256": "1c4dbcf8220637c9943b51966ca42d07b012824f25dc54f2f495c1a7a3938391",
+      "sha256_unsigned": "1c4dbcf8220637c9943b51966ca42d07b012824f25dc54f2f495c1a7a3938391",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-kirkwood-cisco_on100-squashfs-sysupgrade.bin",
+      "sha256": "31a1d5deb2578ae1ce4435098757c34d7834d379d15f06e6b80d84bc21354cce",
+      "sha256_unsigned": "508c22cc84f987421a6912c04bbd9d2257c944a63dab673fe6862eeeaa2e3a51",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "cisco_on100",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "cisco,on100",
+    "on100"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "ON100",
+      "vendor": "Cisco Systems"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

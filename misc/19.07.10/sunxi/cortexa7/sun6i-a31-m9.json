@@ -1,0 +1,72 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi",
+    "kmod-rtl8192cu"
+  ],
+  "image_path": "19.07.10/targets/sunxi/cortexa7/",
+  "image_prefix": "openwrt-19.07.10-sunxi-cortexa7-sun6i-a31-m9",
+  "images": [
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-19.07.10-sunxi-cortexa7-sun6i-a31-m9-ext4-sdcard.img.gz",
+      "sha256": "1b26af43550283f7f4965a689e4c7c89ffcdd5386f56d07543890c927035dc7e",
+      "type": "sdcard"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-sunxi-cortexa7-sun6i-a31-m9-squashfs-sdcard.img.gz",
+      "sha256": "3f04d2e6a8b9497386aa92f30d8f79bca532c3392a27f21ec487db4948827330",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "sun6i-a31-m9",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "mele,m9"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "title": "Mele M9 top set box"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr4300-v1",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr4300-v1-squashfs-sysupgrade.bin",
+      "sha256": "fc15af5d59ef57629fd7f964c0c7ed38cfe3cd94896d583ea18e49ae169f153d",
+      "sha256_unsigned": "0ec9fc8ea1ca20c427eb9e6ab7e2bd221b7e1068e2fd17a6d0fef698ecfa94b0",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr4300-v1-initramfs-kernel.bin",
+      "sha256": "97f738299e14cc0afaf9df8b801e6eeeca7a36d63c4ee3d9ec19441b3ed41651",
+      "sha256_unsigned": "97f738299e14cc0afaf9df8b801e6eeeca7a36d63c4ee3d9ec19441b3ed41651",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-tplink_tl-wdr4300-v1-squashfs-factory.bin",
+      "sha256": "ad6bf433ca15097d8655f06e8bc2851e452ebbf1e223f39a8cfca2f95c6e24ad",
+      "sha256_unsigned": "ad6bf433ca15097d8655f06e8bc2851e452ebbf1e223f39a8cfca2f95c6e24ad",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "tplink_tl-wdr4300-v1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "tplink,tl-wdr4300-v1",
+    "tl-wdr4300"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WDR4300",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "image_path": "19.07.10/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-19.07.10-ramips-rt305x-hlk-rm04",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-rt305x-hlk-rm04-squashfs-sysupgrade.bin",
+      "sha256": "ce3614e6b80740a3bb346f6c12d1ef1c5a76c0ed404eedcf006b5258b76ee401",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-19.07.10-ramips-rt305x-hlk-rm04-squashfs-factory.bin",
+      "sha256": "cbf5c28e4ea690c33f86b48d8e01656f8478cee22a5920fb0360ed6c18d112e5",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "hlk-rm04",
+  "source_date_epoch": 1650114812,
+  "supported_devices": [
+    "hlk-rm04"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "title": "Hi-Link HLK-RM04"
+    }
+  ],
+  "version_code": "r11427-9ce6aa9d8d",
+  "version_number": "19.07.10"
+}

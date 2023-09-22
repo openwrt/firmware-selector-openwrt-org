@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-qxwlan_e600g-v2-8m",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-qxwlan_e600g-v2-8m-initramfs-kernel.bin",
+      "sha256": "d08687bd11420eb77f4260084db0665f7e5e8014cc9a1fe1aad6618d9154d9f4",
+      "sha256_unsigned": "d08687bd11420eb77f4260084db0665f7e5e8014cc9a1fe1aad6618d9154d9f4",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-qxwlan_e600g-v2-8m-squashfs-sysupgrade.bin",
+      "sha256": "d1b76eca0188ecc20810a3d4f752d6447f29c12214e91403ee575744bb2bed9f",
+      "sha256_unsigned": "bee68c3d97188d4c20ab94c7b6e5e9f042be8505a27b073eb1e6e16ba1c00f3b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "qxwlan_e600g-v2-8m",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "qxwlan,e600g-v2-8m",
+    "e600g-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "E600G",
+      "variant": "v2 (8M)",
+      "vendor": "Qxwlan"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

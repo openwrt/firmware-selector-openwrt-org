@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_prefix": "openwrt-22.03.5-bcm63xx-generic-comtrend_vr-3025u",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-comtrend_vr-3025u-squashfs-sysupgrade.bin",
+      "sha256": "fd44f822f76b4994847c76183d5b86495a267ab8da579db67203b0c8e055d9fa",
+      "sha256_unsigned": "fd44f822f76b4994847c76183d5b86495a267ab8da579db67203b0c8e055d9fa",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-bcm63xx-generic-comtrend_vr-3025u-squashfs-cfe.bin",
+      "sha256": "effeaf3d44b8a7f6bdf1fe86f801313d2d0226c2a1dfd6ef2f071e04e8dfba36",
+      "sha256_unsigned": "effeaf3d44b8a7f6bdf1fe86f801313d2d0226c2a1dfd6ef2f071e04e8dfba36",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "comtrend_vr-3025u",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "comtrend,vr-3025u"
+  ],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "VR-3025u",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

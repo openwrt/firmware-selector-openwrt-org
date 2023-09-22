@@ -1,0 +1,85 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-button-hotplug",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-rtc-ds1307"
+  ],
+  "image_path": "22.03.5/targets/mpc85xx/p1020/",
+  "image_prefix": "openwrt-22.03.5-mpc85xx-p1020-ocedo_panda",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1020-ocedo_panda-initramfs-kernel.bin",
+      "sha256": "a1e1fff387025e0001d5c46356d05c4ee08fe9c84c9c03cfe44eedc12c6dcb73",
+      "sha256_unsigned": "a1e1fff387025e0001d5c46356d05c4ee08fe9c84c9c03cfe44eedc12c6dcb73",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1020-ocedo_panda-squashfs-fdt.bin",
+      "sha256": "1aa2b03bc147048f98006bafc3d6ee0ef3f118fa7b35d5b6f4d937b9d0153efc",
+      "sha256_unsigned": "1aa2b03bc147048f98006bafc3d6ee0ef3f118fa7b35d5b6f4d937b9d0153efc",
+      "type": "fdt"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1020-ocedo_panda-squashfs-sysupgrade.bin",
+      "sha256": "fae99c8e4a56e85109304bd0054164244796dbf2c0b1a9500598e6c5a2d8020d",
+      "sha256_unsigned": "1e41a8c842c5457785d7c21372530744d2f92cc4d3436b79b1011fe3f37b64c3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "ocedo_panda",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "ocedo,panda"
+  ],
+  "target": "mpc85xx/p1020",
+  "titles": [
+    {
+      "model": "Panda",
+      "vendor": "OCEDO"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

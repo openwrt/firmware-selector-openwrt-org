@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9887-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-engenius_ews511ap",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_ews511ap-squashfs-sysupgrade.bin",
+      "sha256": "e978c7cd5654a177aa84b12336527b97e27878431e5173721cf0271035521bdb",
+      "sha256_unsigned": "9bcaab0c8e28b905e77da6a4fec91a74f1e6721e5dfcf947dae0ea953985a145",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-engenius_ews511ap-initramfs-kernel.bin",
+      "sha256": "2eb5502b2a36463e3a06fe9f47c308310890735f8bcee3ed14bb638f6783afcf",
+      "sha256_unsigned": "2eb5502b2a36463e3a06fe9f47c308310890735f8bcee3ed14bb638f6783afcf",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "engenius_ews511ap",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "engenius,ews511ap"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EWS511AP",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

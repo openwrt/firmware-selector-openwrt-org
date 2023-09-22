@@ -1,0 +1,83 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "uboot-envtools",
+    "uencrypt"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-beeline_smartbox-flash",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-beeline_smartbox-flash-squashfs-sysupgrade.bin",
+      "sha256": "104cc28ffa33817d95f445327f3efed0da0fec62e549637a7f9736d4e89799cb",
+      "sha256_unsigned": "473a8ca67753d25032fe605457eb27602f9aa4603f6e55370430b402dadddf45",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-beeline_smartbox-flash-squashfs-factory.trx",
+      "sha256": "b1c107fa4358788614df3845eb1ad1613e1e76f6385da5ecc6e5b1dfc7bc29c1",
+      "sha256_unsigned": "b1c107fa4358788614df3845eb1ad1613e1e76f6385da5ecc6e5b1dfc7bc29c1",
+      "type": "factory"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-beeline_smartbox-flash-initramfs-kernel.bin",
+      "sha256": "25f45cdd5530adb9071fed904a6a14a90d0a72c82f9e160d16d85bf8779e9b30",
+      "sha256_unsigned": "25f45cdd5530adb9071fed904a6a14a90d0a72c82f9e160d16d85bf8779e9b30",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "beeline_smartbox-flash",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "beeline,smartbox-flash"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "SmartBox Flash",
+      "vendor": "Beeline"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

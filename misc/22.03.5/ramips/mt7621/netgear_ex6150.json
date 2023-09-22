@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-netgear_ex6150",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_ex6150-initramfs-kernel.bin",
+      "sha256": "54f862ee2e291fd2b34394c5dce592e7b8d8154e2fb76b941c404a7a7075f985",
+      "sha256_unsigned": "54f862ee2e291fd2b34394c5dce592e7b8d8154e2fb76b941c404a7a7075f985",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_ex6150-squashfs-factory.chk",
+      "sha256": "b63424be8eaa08ed28fa2ff173c1697fddc056457c7e148f2cc4845c85d8ac6d",
+      "sha256_unsigned": "b63424be8eaa08ed28fa2ff173c1697fddc056457c7e148f2cc4845c85d8ac6d",
+      "type": "factory"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-netgear_ex6150-squashfs-sysupgrade.bin",
+      "sha256": "e014726306af0e7956da7d81ae3ca6e219f908d2940576076b81e494a7a6a22e",
+      "sha256_unsigned": "3637e687642ae88030a76a1c33041dfdf75af0578c8b5aa2c48bd088b91cac94",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "netgear_ex6150",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "netgear,ex6150"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "EX6150",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

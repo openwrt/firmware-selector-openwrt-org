@@ -1,0 +1,79 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-button-hotplug",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-usb2",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/mpc85xx/p1020/",
+  "image_prefix": "openwrt-22.03.5-mpc85xx-p1020-extreme-networks_ws-ap3825i",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1020-extreme-networks_ws-ap3825i-squashfs-sysupgrade.bin",
+      "sha256": "d863302fe5c2e6ba6ad68384e7c213ab25fbc71657ee8b3a7ce635481bea2a42",
+      "sha256_unsigned": "92d23472097f67a3911f88b4174b56c5f58c3d08bec71acd34b46e3724c5b481",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-mpc85xx-p1020-extreme-networks_ws-ap3825i-initramfs-kernel.bin",
+      "sha256": "5acee4b4cbaebd5ad389585521a36fb658777b4f53178012b7639399113c6869",
+      "sha256_unsigned": "5acee4b4cbaebd5ad389585521a36fb658777b4f53178012b7639399113c6869",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "extreme-networks_ws-ap3825i",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "extreme-networks,ws-ap3825i"
+  ],
+  "target": "mpc85xx/p1020",
+  "titles": [
+    {
+      "model": "WS-AP3825i",
+      "vendor": "Extreme Networks"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

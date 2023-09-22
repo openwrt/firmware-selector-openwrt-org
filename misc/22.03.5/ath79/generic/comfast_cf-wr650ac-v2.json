@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "swconfig",
+    "uboot-envtools",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_prefix": "openwrt-22.03.5-ath79-generic-comfast_cf-wr650ac-v2",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ath79-generic-comfast_cf-wr650ac-v2-squashfs-sysupgrade.bin",
+      "sha256": "2987274091552900738df49b7ccbdb4c097c492e7c2817dc4f5a837aba21433d",
+      "sha256_unsigned": "6e6a540518161fe9f68a4c0438cfb4c00ec4062b432985b13ce819eafe68853f",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ath79-generic-comfast_cf-wr650ac-v2-initramfs-kernel.bin",
+      "sha256": "643bb9e503c546c227885963068a9dad7baf0cad22f860509b7d026339cf21eb",
+      "sha256_unsigned": "643bb9e503c546c227885963068a9dad7baf0cad22f860509b7d026339cf21eb",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "comfast_cf-wr650ac-v2",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "comfast,cf-wr650ac-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CF-WR650AC",
+      "variant": "v2",
+      "vendor": "COMFAST"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "kmod-mt76"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-telco-electronics_x1",
+  "images": [
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-telco-electronics_x1-initramfs-kernel.bin",
+      "sha256": "94f3b41df9a2dd3600ec9e33afba6076323a1471e30819732669e6c312e4a28a",
+      "sha256_unsigned": "94f3b41df9a2dd3600ec9e33afba6076323a1471e30819732669e6c312e4a28a",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-telco-electronics_x1-squashfs-sysupgrade.bin",
+      "sha256": "e5821bbc3bad1ca9eebf5fc40087a20cca1c85fbb2c8980b254149d588e18802",
+      "sha256_unsigned": "f23d417338d97b68a05dbdc5ef919252c5623df331c00edc85fc3d02d2578c6b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "telco-electronics_x1",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "telco-electronics,x1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "X1",
+      "vendor": "Telco Electronics"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

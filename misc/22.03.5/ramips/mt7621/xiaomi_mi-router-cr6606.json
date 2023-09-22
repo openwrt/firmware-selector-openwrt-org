@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-mt7915e",
+    "uboot-envtools"
+  ],
+  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_prefix": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-cr6606",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-cr6606-squashfs-firmware.bin",
+      "sha256": "694c7982544372b5043429971b82ef6f3d53f967fc6b183b3aa04aa1742ba11a",
+      "sha256_unsigned": "694c7982544372b5043429971b82ef6f3d53f967fc6b183b3aa04aa1742ba11a",
+      "type": "firmware"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-cr6606-initramfs-kernel.bin",
+      "sha256": "fd39011338c93b5b7508465c3529a528abbfcd79babbf836a94503779ad5dee9",
+      "sha256_unsigned": "fd39011338c93b5b7508465c3529a528abbfcd79babbf836a94503779ad5dee9",
+      "type": "kernel"
+    },
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-mt7621-xiaomi_mi-router-cr6606-squashfs-sysupgrade.bin",
+      "sha256": "297ab244baf4eb69dc41981ff76cf68c0130b33fa8b46b3392b48c93d9ef3211",
+      "sha256_unsigned": "ce29d21e9f83c7713e1ca3d79f3521e8b46b4e666af8bb25c44823c9118e0da1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "xiaomi_mi-router-cr6606",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "xiaomi,mi-router-cr6606"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Mi Router CR6606",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

@@ -1,0 +1,77 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-at91-udc",
+    "kmod-nft-offload",
+    "kmod-usb-gadget-eth",
+    "kmod-usb-ohci",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "procd-ujail",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd"
+  ],
+  "device_packages": [],
+  "image_path": "22.03.5/targets/at91/sam9x/",
+  "image_prefix": "openwrt-22.03.5-at91-sam9x-calao_usb-a9260",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-at91-sam9x-calao_usb-a9260-squashfs-factory.bin",
+      "sha256": "07ac72e2462db9f455d75d687e6c8a14ebe5a2d9b7c5c27de8fa582f31c8aff4",
+      "sha256_unsigned": "07ac72e2462db9f455d75d687e6c8a14ebe5a2d9b7c5c27de8fa582f31c8aff4",
+      "type": "factory"
+    },
+    {
+      "filesystem": "ext4",
+      "name": "openwrt-22.03.5-at91-sam9x-calao_usb-a9260-ext4-factory.bin",
+      "sha256": "dfdb5af91530998a60c18150a244e86515ddf3a24893767280f5fa86308db50a",
+      "sha256_unsigned": "dfdb5af91530998a60c18150a244e86515ddf3a24893767280f5fa86308db50a",
+      "type": "factory"
+    },
+    {
+      "filesystem": "ubifs",
+      "name": "openwrt-22.03.5-at91-sam9x-calao_usb-a9260-ubifs-factory.bin",
+      "sha256": "64dcff209a925a0bef01cc896b3731bc246f3f5f52810edb0dde5ea6acaccde4",
+      "sha256_unsigned": "64dcff209a925a0bef01cc896b3731bc246f3f5f52810edb0dde5ea6acaccde4",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "calao_usb-a9260",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "calao,usb-a9260"
+  ],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "USB A9260",
+      "vendor": "Calao"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}

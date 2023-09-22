@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2023-09-22 06:59:57",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dnsmasq",
+    "dropbear",
+    "firewall4",
+    "fstools",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-nft-offload",
+    "kmod-rt2800-soc",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "nftables",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "opkg",
+    "ppp",
+    "ppp-mod-pppoe",
+    "procd",
+    "procd-seccomp",
+    "swconfig",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-net-qmi-wwan",
+    "uqmi",
+    "kmod-usb-serial",
+    "kmod-usb-serial-option"
+  ],
+  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_prefix": "openwrt-22.03.5-ramips-rt305x-zte_mf283plus",
+  "images": [
+    {
+      "filesystem": "squashfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-zte_mf283plus-squashfs-sysupgrade.bin",
+      "sha256": "95c42d10ee94004507beefa80661c30a2ed6eb686bca35d9a9528cab2461dd41",
+      "sha256_unsigned": "ef81ebb691017f9fb141e88452b0c56d62e8fafe0c56715c621a6be634cca1ce",
+      "type": "sysupgrade"
+    },
+    {
+      "filesystem": "initramfs",
+      "name": "openwrt-22.03.5-ramips-rt305x-zte_mf283plus-initramfs-kernel.bin",
+      "sha256": "3776ba674cd6765677d6f5e16dfb57812595c8618822499b9806b551b90fb3c4",
+      "sha256_unsigned": "3776ba674cd6765677d6f5e16dfb57812595c8618822499b9806b551b90fb3c4",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "model_id": "zte_mf283plus",
+  "source_date_epoch": 1682627295,
+  "supported_devices": [
+    "zte,mf283plus"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "MF283+",
+      "vendor": "ZTE"
+    }
+  ],
+  "version_code": "r20134-5f15225c1e",
+  "version_number": "22.03.5"
+}
