@@ -485,7 +485,7 @@ function getNameDifference(images, image) {
 
 // add download button for image
 function createLink(mobj, image, image_url) {
-  const href = (image_url + "/" + image.name).replace(/\/+/g, "/");
+  const href = image_url + "/" + image.name;
   let label = image.type;
 
   // distinguish labels if neccessary
