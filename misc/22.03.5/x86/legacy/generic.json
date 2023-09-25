@@ -49,7 +49,7 @@
     "kmod-via-velocity",
     "kmod-forcedeth"
   ],
-  "image_path": "22.03.5/targets/x86/legacy/",
+  "image_path": "releases/22.03.5/targets/x86/legacy/",
   "image_prefix": "openwrt-22.03.5-x86-legacy-generic",
   "images": [
     {

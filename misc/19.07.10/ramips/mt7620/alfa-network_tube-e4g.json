@@ -43,7 +43,7 @@
     "-kmod-rt2800-soc",
     "-wpad-basic"
   ],
-  "image_path": "19.07.10/targets/ramips/mt7620/",
+  "image_path": "releases/19.07.10/targets/ramips/mt7620/",
   "image_prefix": "openwrt-19.07.10-ramips-mt7620-alfa-network_tube-e4g",
   "images": [
     {

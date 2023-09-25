@@ -45,7 +45,7 @@
     "ipq-wifi-mobipromo_cm520-79f",
     "kmod-usb-ledtrig-usbport"
   ],
-  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_path": "releases/22.03.5/targets/ipq40xx/generic/",
   "image_prefix": "openwrt-22.03.5-ipq40xx-generic-mobipromo_cm520-79f",
   "images": [
     {

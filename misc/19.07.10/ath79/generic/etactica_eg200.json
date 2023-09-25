@@ -43,7 +43,7 @@
     "kmod-usb-storage",
     "kmod-fs-ext4"
   ],
-  "image_path": "19.07.10/targets/ath79/generic/",
+  "image_path": "releases/19.07.10/targets/ath79/generic/",
   "image_prefix": "openwrt-19.07.10-ath79-generic-etactica_eg200",
   "images": [
     {

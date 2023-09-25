@@ -40,7 +40,7 @@
     "wpad-basic-wolfssl"
   ],
   "device_packages": [],
-  "image_path": "22.03.5/targets/mpc85xx/p1010/",
+  "image_path": "releases/22.03.5/targets/mpc85xx/p1010/",
   "image_prefix": "openwrt-22.03.5-mpc85xx-p1010-sophos_red-15w-rev1",
   "images": [
     {

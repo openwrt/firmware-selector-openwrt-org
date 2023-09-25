@@ -43,7 +43,7 @@
     "kmod-pps-gpio",
     "kmod-rtc-ds1307"
   ],
-  "image_path": "22.03.5/targets/imx/cortexa9/",
+  "image_path": "releases/22.03.5/targets/imx/cortexa9/",
   "image_prefix": "openwrt-22.03.5-imx-cortexa9-toradex_apalis",
   "images": [
     {

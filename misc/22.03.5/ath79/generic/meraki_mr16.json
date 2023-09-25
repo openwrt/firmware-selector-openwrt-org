@@ -38,7 +38,7 @@
   "device_packages": [
     "kmod-owl-loader"
   ],
-  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_path": "releases/22.03.5/targets/ath79/generic/",
   "image_prefix": "openwrt-22.03.5-ath79-generic-meraki_mr16",
   "images": [
     {

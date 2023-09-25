@@ -46,7 +46,7 @@
     "kmod-usb-ledtrig-usbport",
     "iwinfo"
   ],
-  "image_path": "19.07.10/targets/lantiq/xrx200/",
+  "image_path": "releases/19.07.10/targets/lantiq/xrx200/",
   "image_prefix": "openwrt-19.07.10-lantiq-xrx200-zyxel_p-2812hnu-f1",
   "images": [
     {

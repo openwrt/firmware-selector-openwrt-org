@@ -42,7 +42,7 @@
     "kmod-hwmon-lm92",
     "kmod-gpio-pcf857x"
   ],
-  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_path": "releases/22.03.5/targets/ramips/rt305x/",
   "image_prefix": "openwrt-22.03.5-ramips-rt305x-allnet_all5003",
   "images": [
     {

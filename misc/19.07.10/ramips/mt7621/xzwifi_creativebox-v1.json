@@ -40,7 +40,7 @@
     "kmod-sdhci-mt7620",
     "kmod-usb3"
   ],
-  "image_path": "19.07.10/targets/ramips/mt7621/",
+  "image_path": "releases/19.07.10/targets/ramips/mt7621/",
   "image_prefix": "openwrt-19.07.10-ramips-mt7621-xzwifi_creativebox-v1",
   "images": [
     {

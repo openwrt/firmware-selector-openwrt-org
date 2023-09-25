@@ -39,7 +39,7 @@
     "kmod-sun4i-emac",
     "kmod-rtc-sunxi"
   ],
-  "image_path": "22.03.5/targets/sunxi/cortexa8/",
+  "image_path": "releases/22.03.5/targets/sunxi/cortexa8/",
   "image_prefix": "openwrt-22.03.5-sunxi-cortexa8-cubietech_a10-cubieboard",
   "images": [
     {

@@ -41,7 +41,7 @@
     "wpad-basic",
     "iwinfo"
   ],
-  "image_path": "19.07.10/targets/sunxi/cortexa7/",
+  "image_path": "releases/19.07.10/targets/sunxi/cortexa7/",
   "image_prefix": "openwrt-19.07.10-sunxi-cortexa7-sun7i-a20-lamobo-r1",
   "images": [
     {

@@ -38,7 +38,7 @@
     "kmod-rtl8723bs",
     "rtl8723bu-firmware"
   ],
-  "image_path": "22.03.5/targets/sunxi/cortexa53/",
+  "image_path": "releases/22.03.5/targets/sunxi/cortexa53/",
   "image_prefix": "openwrt-22.03.5-sunxi-cortexa53-olimex_a64-olinuxino",
   "images": [
     {

@@ -41,7 +41,7 @@
     "kmod-usb3",
     "swconfig"
   ],
-  "image_path": "22.03.5/targets/mediatek/mt7622/",
+  "image_path": "releases/22.03.5/targets/mediatek/mt7622/",
   "image_prefix": "openwrt-22.03.5-mediatek-mt7622-elecom_wrc-2533gent",
   "images": [
     {

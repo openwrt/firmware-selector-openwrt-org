@@ -42,7 +42,7 @@
     "kmod-i2c-gpio",
     "kmod-sfp"
   ],
-  "image_path": "22.03.5/targets/ath79/mikrotik/",
+  "image_path": "releases/22.03.5/targets/ath79/mikrotik/",
   "image_prefix": "openwrt-22.03.5-ath79-mikrotik-mikrotik_routerboard-962uigs-5hact2hnt",
   "images": [
     {

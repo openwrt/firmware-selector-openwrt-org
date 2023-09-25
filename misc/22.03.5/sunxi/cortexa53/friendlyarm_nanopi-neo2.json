@@ -35,7 +35,7 @@
     "urngd"
   ],
   "device_packages": [],
-  "image_path": "22.03.5/targets/sunxi/cortexa53/",
+  "image_path": "releases/22.03.5/targets/sunxi/cortexa53/",
   "image_prefix": "openwrt-22.03.5-sunxi-cortexa53-friendlyarm_nanopi-neo2",
   "images": [
     {

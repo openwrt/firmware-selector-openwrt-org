@@ -35,7 +35,7 @@
   "device_packages": [
     "kmod-mvsdio"
   ],
-  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_path": "releases/22.03.5/targets/kirkwood/generic/",
   "image_prefix": "openwrt-22.03.5-kirkwood-globalscale_sheevaplug",
   "images": [
     {

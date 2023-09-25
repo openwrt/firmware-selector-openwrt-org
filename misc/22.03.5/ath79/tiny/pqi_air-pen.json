@@ -37,7 +37,7 @@
   "device_packages": [
     "kmod-usb-chipidea2"
   ],
-  "image_path": "22.03.5/targets/ath79/tiny/",
+  "image_path": "releases/22.03.5/targets/ath79/tiny/",
   "image_prefix": "openwrt-22.03.5-ath79-tiny-pqi_air-pen",
   "images": [
     {

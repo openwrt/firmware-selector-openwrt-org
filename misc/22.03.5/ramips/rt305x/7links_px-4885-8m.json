@@ -41,7 +41,7 @@
     "kmod-usb-ledtrig-usbport",
     "kmod-leds-gpio"
   ],
-  "image_path": "22.03.5/targets/ramips/rt305x/",
+  "image_path": "releases/22.03.5/targets/ramips/rt305x/",
   "image_prefix": "openwrt-22.03.5-ramips-rt305x-7links_px-4885-8m",
   "images": [
     {

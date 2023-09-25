@@ -50,7 +50,7 @@
     "fritz-tffs",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/lantiq/xrx200/",
+  "image_path": "releases/22.03.5/targets/lantiq/xrx200/",
   "image_prefix": "openwrt-22.03.5-lantiq-xrx200-avm_fritz3390",
   "images": [
     {

@@ -44,7 +44,7 @@
     "wpad-basic-wolfssl",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/lantiq/xway/",
+  "image_path": "releases/22.03.5/targets/lantiq/xway/",
   "image_prefix": "openwrt-22.03.5-lantiq-xway-arcadyan_arv7506pw11",
   "images": [
     {

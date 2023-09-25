@@ -37,7 +37,7 @@
     "kmod-mt7603",
     "kmod-rt2800-pci"
   ],
-  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_path": "releases/22.03.5/targets/ramips/mt7621/",
   "image_prefix": "openwrt-22.03.5-ramips-mt7621-buffalo_wsr-600dhp",
   "images": [
     {

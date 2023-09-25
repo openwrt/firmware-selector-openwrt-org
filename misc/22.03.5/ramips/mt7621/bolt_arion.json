@@ -38,7 +38,7 @@
     "kmod-mt76x2",
     "uboot-envtools"
   ],
-  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_path": "releases/22.03.5/targets/ramips/mt7621/",
   "image_prefix": "openwrt-22.03.5-ramips-mt7621-bolt_arion",
   "images": [
     {

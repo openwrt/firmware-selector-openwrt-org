@@ -42,7 +42,7 @@
     "wpad-basic",
     "iwinfo"
   ],
-  "image_path": "19.07.10/targets/ramips/mt7621/",
+  "image_path": "releases/19.07.10/targets/ramips/mt7621/",
   "image_prefix": "openwrt-19.07.10-ramips-mt7621-mqmaker_witi-512m",
   "images": [
     {

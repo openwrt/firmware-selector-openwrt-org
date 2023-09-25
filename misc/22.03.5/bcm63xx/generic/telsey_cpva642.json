@@ -37,7 +37,7 @@
     "kmod-usb-ohci",
     "kmod-usb-ledtrig-usbport"
   ],
-  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_path": "releases/22.03.5/targets/bcm63xx/generic/",
   "image_prefix": "openwrt-22.03.5-bcm63xx-generic-telsey_cpva642",
   "images": [
     {

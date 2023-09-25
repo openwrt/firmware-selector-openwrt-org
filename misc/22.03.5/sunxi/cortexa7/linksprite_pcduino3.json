@@ -41,7 +41,7 @@
     "kmod-rtl8xxxu",
     "rtl8188eu-firmware"
   ],
-  "image_path": "22.03.5/targets/sunxi/cortexa7/",
+  "image_path": "releases/22.03.5/targets/sunxi/cortexa7/",
   "image_prefix": "openwrt-22.03.5-sunxi-cortexa7-linksprite_pcduino3",
   "images": [
     {

@@ -45,7 +45,7 @@
     "kmod-fs-vfat",
     "block-mount"
   ],
-  "image_path": "19.07.10/targets/ramips/rt305x/",
+  "image_path": "releases/19.07.10/targets/ramips/rt305x/",
   "image_prefix": "openwrt-19.07.10-ramips-rt305x-m2m",
   "images": [
     {

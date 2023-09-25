@@ -41,7 +41,7 @@
     "tfa-ls1012a-frwy-sdboot",
     "kmod-ppfe"
   ],
-  "image_path": "22.03.5/targets/layerscape/armv8_64b/",
+  "image_path": "releases/22.03.5/targets/layerscape/armv8_64b/",
   "image_prefix": "openwrt-22.03.5-layerscape-armv8_64b-fsl_ls1012a-frwy-sdboot",
   "images": [
     {

@@ -36,7 +36,7 @@
     "uboot-envtools"
   ],
   "device_packages": [],
-  "image_path": "19.07.10/targets/ath79/generic/",
+  "image_path": "releases/19.07.10/targets/ath79/generic/",
   "image_prefix": "openwrt-19.07.10-ath79-generic-xiaomi_mi-router-4q",
   "images": [
     {

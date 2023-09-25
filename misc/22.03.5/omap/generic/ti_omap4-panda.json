@@ -36,7 +36,7 @@
   "device_packages": [
     "kmod-usb-net-smsc95xx"
   ],
-  "image_path": "22.03.5/targets/omap/generic/",
+  "image_path": "releases/22.03.5/targets/omap/generic/",
   "image_prefix": "openwrt-22.03.5-omap-ti_omap4-panda",
   "images": [
     {

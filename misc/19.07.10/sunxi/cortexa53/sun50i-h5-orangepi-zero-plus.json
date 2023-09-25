@@ -35,7 +35,7 @@
     "e2fsprogs"
   ],
   "device_packages": [],
-  "image_path": "19.07.10/targets/sunxi/cortexa53/",
+  "image_path": "releases/19.07.10/targets/sunxi/cortexa53/",
   "image_prefix": "openwrt-19.07.10-sunxi-cortexa53-sun50i-h5-orangepi-zero-plus",
   "images": [
     {

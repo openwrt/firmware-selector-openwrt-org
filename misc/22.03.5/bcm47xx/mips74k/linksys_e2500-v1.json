@@ -39,7 +39,7 @@
   "device_packages": [
     "kmod-b43"
   ],
-  "image_path": "22.03.5/targets/bcm47xx/mips74k/",
+  "image_path": "releases/22.03.5/targets/bcm47xx/mips74k/",
   "image_prefix": "openwrt-22.03.5-bcm47xx-mips74k-linksys_e2500-v1",
   "images": [
     {

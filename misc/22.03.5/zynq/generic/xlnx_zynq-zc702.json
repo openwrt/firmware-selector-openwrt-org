@@ -39,7 +39,7 @@
     "kmod-can",
     "kmod-can-xilinx-can"
   ],
-  "image_path": "22.03.5/targets/zynq/generic/",
+  "image_path": "releases/22.03.5/targets/zynq/generic/",
   "image_prefix": "openwrt-22.03.5-zynq-xlnx_zynq-zc702",
   "images": [
     {

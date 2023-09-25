@@ -38,7 +38,7 @@
   "device_packages": [
     "kmod-ath9k"
   ],
-  "image_path": "19.07.10/targets/ar71xx/generic/",
+  "image_path": "releases/19.07.10/targets/ar71xx/generic/",
   "image_prefix": "openwrt-19.07.10-ar71xx-generic-c-55",
   "images": [
     {

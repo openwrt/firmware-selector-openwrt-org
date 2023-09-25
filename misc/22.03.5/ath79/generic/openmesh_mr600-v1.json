@@ -38,7 +38,7 @@
   "device_packages": [
     "uboot-envtools"
   ],
-  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_path": "releases/22.03.5/targets/ath79/generic/",
   "image_prefix": "openwrt-22.03.5-ath79-generic-openmesh_mr600-v1",
   "images": [
     {

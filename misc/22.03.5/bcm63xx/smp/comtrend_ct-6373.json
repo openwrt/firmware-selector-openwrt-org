@@ -40,7 +40,7 @@
     "kmod-usb-ledtrig-usbport",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_path": "releases/22.03.5/targets/bcm63xx/smp/",
   "image_prefix": "openwrt-22.03.5-bcm63xx-smp-comtrend_ct-6373",
   "images": [
     {

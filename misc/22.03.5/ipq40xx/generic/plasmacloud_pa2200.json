@@ -45,7 +45,7 @@
     "ath10k-firmware-qca9888-ct",
     "ipq-wifi-plasmacloud_pa2200"
   ],
-  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_path": "releases/22.03.5/targets/ipq40xx/generic/",
   "image_prefix": "openwrt-22.03.5-ipq40xx-generic-plasmacloud_pa2200",
   "images": [
     {

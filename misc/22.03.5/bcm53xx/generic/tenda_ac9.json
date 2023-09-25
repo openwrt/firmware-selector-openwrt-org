@@ -45,7 +45,7 @@
     "kmod-usb-ledtrig-usbport",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/bcm53xx/generic/",
+  "image_path": "releases/22.03.5/targets/bcm53xx/generic/",
   "image_prefix": "openwrt-22.03.5-bcm53xx-generic-tenda_ac9",
   "images": [
     {

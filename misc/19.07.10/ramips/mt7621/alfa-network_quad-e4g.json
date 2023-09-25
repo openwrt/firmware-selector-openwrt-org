@@ -39,7 +39,7 @@
     "kmod-usb3",
     "uboot-envtools"
   ],
-  "image_path": "19.07.10/targets/ramips/mt7621/",
+  "image_path": "releases/19.07.10/targets/ramips/mt7621/",
   "image_prefix": "openwrt-19.07.10-ramips-mt7621-alfa-network_quad-e4g",
   "images": [
     {

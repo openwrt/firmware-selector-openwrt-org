@@ -38,7 +38,7 @@
   "device_packages": [
     "kmod-b43"
   ],
-  "image_path": "22.03.5/targets/bcm47xx/legacy/",
+  "image_path": "releases/22.03.5/targets/bcm47xx/legacy/",
   "image_prefix": "openwrt-22.03.5-bcm47xx-legacy-linksys_wrt150n",
   "images": [
     {

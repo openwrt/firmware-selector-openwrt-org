@@ -56,7 +56,7 @@
     "kmod-phy-bcm-ns-usb3",
     "iwinfo"
   ],
-  "image_path": "19.07.10/targets/bcm53xx/generic/",
+  "image_path": "releases/19.07.10/targets/bcm53xx/generic/",
   "image_prefix": "openwrt-19.07.10-bcm53xx-phicomm-k3",
   "images": [
     {

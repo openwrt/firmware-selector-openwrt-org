@@ -40,7 +40,7 @@
     "kmod-usb-ohci",
     "kmod-usb2"
   ],
-  "image_path": "22.03.5/targets/bcm47xx/mips74k/",
+  "image_path": "releases/22.03.5/targets/bcm47xx/mips74k/",
   "image_prefix": "openwrt-22.03.5-bcm47xx-mips74k-netgear_wnr3500l-v2",
   "images": [
     {

@@ -43,7 +43,7 @@
     "-swconfig",
     "-uboot-envtools"
   ],
-  "image_path": "19.07.10/targets/ar71xx/generic/",
+  "image_path": "releases/19.07.10/targets/ar71xx/generic/",
   "image_prefix": "openwrt-19.07.10-ar71xx-generic-cf-e355ac-v2",
   "images": [
     {

@@ -40,7 +40,7 @@
     "kmod-usb-uhci",
     "kmod-usb2-pci"
   ],
-  "image_path": "22.03.5/targets/bcm47xx/legacy/",
+  "image_path": "releases/22.03.5/targets/bcm47xx/legacy/",
   "image_prefix": "openwrt-22.03.5-bcm47xx-legacy-asus_wl-500w",
   "images": [
     {

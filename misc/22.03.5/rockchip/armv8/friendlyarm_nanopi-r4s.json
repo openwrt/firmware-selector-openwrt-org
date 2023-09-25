@@ -38,7 +38,7 @@
   "device_packages": [
     "kmod-r8169"
   ],
-  "image_path": "22.03.5/targets/rockchip/armv8/",
+  "image_path": "releases/22.03.5/targets/rockchip/armv8/",
   "image_prefix": "openwrt-22.03.5-rockchip-armv8-friendlyarm_nanopi-r4s",
   "images": [
     {

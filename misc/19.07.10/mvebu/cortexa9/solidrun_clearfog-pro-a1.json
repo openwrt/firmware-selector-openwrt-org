@@ -36,7 +36,7 @@
     "partx-utils",
     "swconfig"
   ],
-  "image_path": "19.07.10/targets/mvebu/cortexa9/",
+  "image_path": "releases/19.07.10/targets/mvebu/cortexa9/",
   "image_prefix": "openwrt-19.07.10-mvebu-cortexa9-solidrun_clearfog-pro-a1",
   "images": [
     {

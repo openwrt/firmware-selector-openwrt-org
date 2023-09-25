@@ -41,7 +41,7 @@
     "kmod-bgmac",
     "kmod-tg3"
   ],
-  "image_path": "22.03.5/targets/bcm47xx/generic/",
+  "image_path": "releases/22.03.5/targets/bcm47xx/generic/",
   "image_prefix": "openwrt-22.03.5-bcm47xx-generic-standard",
   "images": [
     {

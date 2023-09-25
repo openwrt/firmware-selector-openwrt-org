@@ -40,7 +40,7 @@
     "kmod-ipt-offload"
   ],
   "device_packages": [],
-  "image_path": "19.07.10/targets/lantiq/xrx200/",
+  "image_path": "releases/19.07.10/targets/lantiq/xrx200/",
   "image_prefix": "openwrt-19.07.10-lantiq-xrx200-netgear_dm200",
   "images": [
     {

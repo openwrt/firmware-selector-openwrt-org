@@ -33,7 +33,7 @@
     "kmod-gpio-button-hotplug",
     "kmod-hwmon-lm85"
   ],
-  "image_path": "19.07.10/targets/kirkwood/generic/",
+  "image_path": "releases/19.07.10/targets/kirkwood/generic/",
   "image_prefix": "openwrt-19.07.10-kirkwood-zyxel_nsa310b",
   "images": [
     {

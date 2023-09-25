@@ -38,7 +38,7 @@
     "wpad-basic-wolfssl",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/kirkwood/generic/",
+  "image_path": "releases/22.03.5/targets/kirkwood/generic/",
   "image_prefix": "openwrt-22.03.5-kirkwood-endian_4i-edge-200",
   "images": [
     {

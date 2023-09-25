@@ -46,7 +46,7 @@
     "ipq-wifi-linksys_ea8300",
     "kmod-usb-ledtrig-usbport"
   ],
-  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_path": "releases/22.03.5/targets/ipq40xx/generic/",
   "image_prefix": "openwrt-22.03.5-ipq40xx-generic-linksys_ea8300",
   "images": [
     {

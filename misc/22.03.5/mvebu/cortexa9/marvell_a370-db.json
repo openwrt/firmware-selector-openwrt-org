@@ -33,7 +33,7 @@
     "urngd"
   ],
   "device_packages": [],
-  "image_path": "22.03.5/targets/mvebu/cortexa9/",
+  "image_path": "releases/22.03.5/targets/mvebu/cortexa9/",
   "image_prefix": "openwrt-22.03.5-mvebu-cortexa9-marvell_a370-db",
   "images": [
     {

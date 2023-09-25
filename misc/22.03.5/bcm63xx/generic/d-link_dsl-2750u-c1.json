@@ -40,7 +40,7 @@
     "wpad-basic-wolfssl",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_path": "releases/22.03.5/targets/bcm63xx/generic/",
   "image_prefix": "openwrt-22.03.5-bcm63xx-generic-d-link_dsl-2750u-c1",
   "images": [
     {

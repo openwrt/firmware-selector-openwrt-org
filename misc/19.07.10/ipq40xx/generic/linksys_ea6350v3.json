@@ -48,7 +48,7 @@
     "ipq-wifi-linksys_ea6350v3",
     "uboot-envtools"
   ],
-  "image_path": "19.07.10/targets/ipq40xx/generic/",
+  "image_path": "releases/19.07.10/targets/ipq40xx/generic/",
   "image_prefix": "openwrt-19.07.10-ipq40xx-generic-linksys_ea6350v3",
   "images": [
     {

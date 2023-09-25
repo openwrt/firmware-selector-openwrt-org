@@ -45,7 +45,7 @@
     "kmod-input-gpio-keys-polled",
     "kmod-rtc-isl1208"
   ],
-  "image_path": "22.03.5/targets/layerscape/armv8_64b/",
+  "image_path": "releases/22.03.5/targets/layerscape/armv8_64b/",
   "image_prefix": "openwrt-22.03.5-layerscape-armv8_64b-traverse_ls1043",
   "images": [
     {

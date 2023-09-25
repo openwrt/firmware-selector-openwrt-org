@@ -33,7 +33,7 @@
     "urngd"
   ],
   "device_packages": [],
-  "image_path": "22.03.5/targets/realtek/rtl839x/",
+  "image_path": "releases/22.03.5/targets/realtek/rtl839x/",
   "image_prefix": "openwrt-22.03.5-realtek-rtl839x-zyxel_gs1900-48",
   "images": [
     {

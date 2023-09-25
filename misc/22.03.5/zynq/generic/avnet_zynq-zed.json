@@ -36,7 +36,7 @@
     "urngd"
   ],
   "device_packages": [],
-  "image_path": "22.03.5/targets/zynq/generic/",
+  "image_path": "releases/22.03.5/targets/zynq/generic/",
   "image_prefix": "openwrt-22.03.5-zynq-avnet_zynq-zed",
   "images": [
     {

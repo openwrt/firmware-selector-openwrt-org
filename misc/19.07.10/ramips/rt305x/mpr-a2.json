@@ -40,7 +40,7 @@
     "kmod-usb2",
     "kmod-ledtrig-netdev"
   ],
-  "image_path": "19.07.10/targets/ramips/rt305x/",
+  "image_path": "releases/19.07.10/targets/ramips/rt305x/",
   "image_prefix": "openwrt-19.07.10-ramips-rt305x-mpr-a2",
   "images": [
     {

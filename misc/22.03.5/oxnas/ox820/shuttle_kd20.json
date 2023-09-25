@@ -46,7 +46,7 @@
     "kmod-fs-ext4",
     "kmod-fs-xfs"
   ],
-  "image_path": "22.03.5/targets/oxnas/ox820/",
+  "image_path": "releases/22.03.5/targets/oxnas/ox820/",
   "image_prefix": "openwrt-22.03.5-oxnas-ox820-shuttle_kd20",
   "images": [
     {

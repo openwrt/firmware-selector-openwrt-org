@@ -40,7 +40,7 @@
     "kmod-mt7915e",
     "kmod-leds-ubnt-ledbar"
   ],
-  "image_path": "22.03.5/targets/mediatek/mt7622/",
+  "image_path": "releases/22.03.5/targets/mediatek/mt7622/",
   "image_prefix": "openwrt-22.03.5-mediatek-mt7622-ubnt_unifi-6-lr-v1",
   "images": [
     {

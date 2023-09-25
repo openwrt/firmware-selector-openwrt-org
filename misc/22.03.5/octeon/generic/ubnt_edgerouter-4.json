@@ -41,7 +41,7 @@
     "kmod-usb-dwc3",
     "kmod-usb-storage-uas"
   ],
-  "image_path": "22.03.5/targets/octeon/generic/",
+  "image_path": "releases/22.03.5/targets/octeon/generic/",
   "image_prefix": "openwrt-22.03.5-octeon-generic-ubnt_edgerouter-4",
   "images": [
     {

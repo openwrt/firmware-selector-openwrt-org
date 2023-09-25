@@ -37,7 +37,7 @@
     "kmod-ca8210",
     "wpan-tools"
   ],
-  "image_path": "22.03.5/targets/pistachio/generic/",
+  "image_path": "releases/22.03.5/targets/pistachio/generic/",
   "image_prefix": "openwrt-22.03.5-pistachio-img_creator-ci40",
   "images": [
     {

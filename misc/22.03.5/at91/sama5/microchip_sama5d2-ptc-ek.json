@@ -35,7 +35,7 @@
     "urngd"
   ],
   "device_packages": [],
-  "image_path": "22.03.5/targets/at91/sama5/",
+  "image_path": "releases/22.03.5/targets/at91/sama5/",
   "image_prefix": "openwrt-22.03.5-at91-sama5-microchip_sama5d2-ptc-ek",
   "images": [
     {

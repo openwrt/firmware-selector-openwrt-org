@@ -39,7 +39,7 @@
     "wlc",
     "iwinfo"
   ],
-  "image_path": "19.07.10/targets/brcm63xx/generic/",
+  "image_path": "releases/19.07.10/targets/brcm63xx/generic/",
   "image_prefix": "openwrt-19.07.10-brcm63xx-generic-R1000H",
   "images": [
     {

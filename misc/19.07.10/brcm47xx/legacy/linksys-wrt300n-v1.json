@@ -46,7 +46,7 @@
   "device_packages": [
     "kmod-b43"
   ],
-  "image_path": "19.07.10/targets/brcm47xx/legacy/",
+  "image_path": "releases/19.07.10/targets/brcm47xx/legacy/",
   "image_prefix": "openwrt-19.07.10-brcm47xx-legacy-linksys-wrt300n-v1",
   "images": [
     {

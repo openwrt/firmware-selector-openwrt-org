@@ -48,7 +48,7 @@
     "uboot-envtools",
     "kmod-usb-ledtrig-usbport"
   ],
-  "image_path": "19.07.10/targets/ipq40xx/generic/",
+  "image_path": "releases/19.07.10/targets/ipq40xx/generic/",
   "image_prefix": "openwrt-19.07.10-ipq40xx-generic-zyxel_nbg6617",
   "images": [
     {

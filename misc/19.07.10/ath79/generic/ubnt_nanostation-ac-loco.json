@@ -41,7 +41,7 @@
     "kmod-ath10k-ct-smallbuffers",
     "ath10k-firmware-qca988x-ct"
   ],
-  "image_path": "19.07.10/targets/ath79/generic/",
+  "image_path": "releases/19.07.10/targets/ath79/generic/",
   "image_prefix": "openwrt-19.07.10-ath79-generic-ubnt_nanostation-ac-loco",
   "images": [
     {

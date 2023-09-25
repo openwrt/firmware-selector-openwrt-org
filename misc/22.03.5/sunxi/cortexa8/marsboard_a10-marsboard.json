@@ -42,7 +42,7 @@
     "kmod-sound-core",
     "kmod-sound-soc-sunxi"
   ],
-  "image_path": "22.03.5/targets/sunxi/cortexa8/",
+  "image_path": "releases/22.03.5/targets/sunxi/cortexa8/",
   "image_prefix": "openwrt-22.03.5-sunxi-cortexa8-marsboard_a10-marsboard",
   "images": [
     {

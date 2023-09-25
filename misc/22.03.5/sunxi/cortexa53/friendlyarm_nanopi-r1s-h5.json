@@ -38,7 +38,7 @@
     "kmod-gpio-button-hotplug",
     "kmod-usb-net-rtl8152"
   ],
-  "image_path": "22.03.5/targets/sunxi/cortexa53/",
+  "image_path": "releases/22.03.5/targets/sunxi/cortexa53/",
   "image_prefix": "openwrt-22.03.5-sunxi-cortexa53-friendlyarm_nanopi-r1s-h5",
   "images": [
     {

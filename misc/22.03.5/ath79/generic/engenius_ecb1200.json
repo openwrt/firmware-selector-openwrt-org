@@ -39,7 +39,7 @@
     "ath10k-firmware-qca988x-ct",
     "kmod-ath10k-ct"
   ],
-  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_path": "releases/22.03.5/targets/ath79/generic/",
   "image_prefix": "openwrt-22.03.5-ath79-generic-engenius_ecb1200",
   "images": [
     {

@@ -37,7 +37,7 @@
   "device_packages": [
     "kmod-switch-rtl8366s"
   ],
-  "image_path": "19.07.10/targets/ramips/rt288x/",
+  "image_path": "releases/19.07.10/targets/ramips/rt288x/",
   "image_prefix": "openwrt-19.07.10-ramips-rt288x-dlink_dap-1522-a1",
   "images": [
     {

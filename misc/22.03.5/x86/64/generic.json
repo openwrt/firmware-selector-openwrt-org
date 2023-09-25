@@ -48,7 +48,7 @@
     "kmod-r8169",
     "kmod-tg3"
   ],
-  "image_path": "22.03.5/targets/x86/64/",
+  "image_path": "releases/22.03.5/targets/x86/64/",
   "image_prefix": "openwrt-22.03.5-x86-64-generic",
   "images": [
     {

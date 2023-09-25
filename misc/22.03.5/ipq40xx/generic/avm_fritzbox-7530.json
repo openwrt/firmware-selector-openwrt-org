@@ -45,7 +45,7 @@
     "fritz-caldata",
     "fritz-tffs-nand"
   ],
-  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_path": "releases/22.03.5/targets/ipq40xx/generic/",
   "image_prefix": "openwrt-22.03.5-ipq40xx-generic-avm_fritzbox-7530",
   "images": [
     {

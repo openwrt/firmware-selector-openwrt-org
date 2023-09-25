@@ -49,7 +49,7 @@
     "wpad-basic-wolfssl",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/bcm27xx/bcm2709/",
+  "image_path": "releases/22.03.5/targets/bcm27xx/bcm2709/",
   "image_prefix": "openwrt-22.03.5-bcm27xx-bcm2709-rpi-2",
   "images": [
     {

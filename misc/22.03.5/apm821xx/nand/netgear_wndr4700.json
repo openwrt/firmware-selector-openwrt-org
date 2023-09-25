@@ -55,7 +55,7 @@
     "kmod-usb-storage",
     "partx-utils"
   ],
-  "image_path": "22.03.5/targets/apm821xx/nand/",
+  "image_path": "releases/22.03.5/targets/apm821xx/nand/",
   "image_prefix": "openwrt-22.03.5-apm821xx-nand-netgear_wndr4700",
   "images": [
     {

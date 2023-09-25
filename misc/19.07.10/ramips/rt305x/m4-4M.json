@@ -40,7 +40,7 @@
     "kmod-ledtrig-netdev",
     "kmod-ledtrig-timer"
   ],
-  "image_path": "19.07.10/targets/ramips/rt305x/",
+  "image_path": "releases/19.07.10/targets/ramips/rt305x/",
   "image_prefix": "openwrt-19.07.10-ramips-rt305x-m4-4M",
   "images": [
     {

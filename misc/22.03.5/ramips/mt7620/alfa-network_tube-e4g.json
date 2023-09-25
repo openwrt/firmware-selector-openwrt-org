@@ -44,7 +44,7 @@
     "-kmod-rt2800-soc",
     "-wpad-basic-wolfssl"
   ],
-  "image_path": "22.03.5/targets/ramips/mt7620/",
+  "image_path": "releases/22.03.5/targets/ramips/mt7620/",
   "image_prefix": "openwrt-22.03.5-ramips-mt7620-alfa-network_tube-e4g",
   "images": [
     {

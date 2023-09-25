@@ -40,7 +40,7 @@
     "kmod-crypto-hw-geode",
     "kmod-ledtrig-gpio"
   ],
-  "image_path": "22.03.5/targets/x86/geode/",
+  "image_path": "releases/22.03.5/targets/x86/geode/",
   "image_prefix": "openwrt-22.03.5-x86-geode-generic",
   "images": [
     {

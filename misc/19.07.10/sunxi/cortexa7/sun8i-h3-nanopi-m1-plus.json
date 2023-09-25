@@ -43,7 +43,7 @@
     "wpad-basic",
     "iwinfo"
   ],
-  "image_path": "19.07.10/targets/sunxi/cortexa7/",
+  "image_path": "releases/19.07.10/targets/sunxi/cortexa7/",
   "image_prefix": "openwrt-19.07.10-sunxi-cortexa7-sun8i-h3-nanopi-m1-plus",
   "images": [
     {

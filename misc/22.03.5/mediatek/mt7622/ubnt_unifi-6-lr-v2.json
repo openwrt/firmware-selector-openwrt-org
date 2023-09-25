@@ -39,7 +39,7 @@
   "device_packages": [
     "kmod-mt7915e"
   ],
-  "image_path": "22.03.5/targets/mediatek/mt7622/",
+  "image_path": "releases/22.03.5/targets/mediatek/mt7622/",
   "image_prefix": "openwrt-22.03.5-mediatek-mt7622-ubnt_unifi-6-lr-v2",
   "images": [
     {

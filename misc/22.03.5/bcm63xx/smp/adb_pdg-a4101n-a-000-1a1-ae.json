@@ -40,7 +40,7 @@
     "wpad-basic-wolfssl",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/bcm63xx/smp/",
+  "image_path": "releases/22.03.5/targets/bcm63xx/smp/",
   "image_prefix": "openwrt-22.03.5-bcm63xx-smp-adb_pdg-a4101n-a-000-1a1-ae",
   "images": [
     {

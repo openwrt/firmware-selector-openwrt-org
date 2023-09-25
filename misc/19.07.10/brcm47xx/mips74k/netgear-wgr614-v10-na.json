@@ -44,7 +44,7 @@
     "kmod-ledtrig-netdev"
   ],
   "device_packages": [],
-  "image_path": "19.07.10/targets/brcm47xx/mips74k/",
+  "image_path": "releases/19.07.10/targets/brcm47xx/mips74k/",
   "image_prefix": "openwrt-19.07.10-brcm47xx-mips74k-netgear-wgr614-v10-na",
   "images": [
     {

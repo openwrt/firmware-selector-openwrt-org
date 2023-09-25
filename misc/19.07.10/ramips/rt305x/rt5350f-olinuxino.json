@@ -42,7 +42,7 @@
     "kmod-i2c-ralink",
     "kmod-spi-dev"
   ],
-  "image_path": "19.07.10/targets/ramips/rt305x/",
+  "image_path": "releases/19.07.10/targets/ramips/rt305x/",
   "image_prefix": "openwrt-19.07.10-ramips-rt305x-rt5350f-olinuxino",
   "images": [
     {

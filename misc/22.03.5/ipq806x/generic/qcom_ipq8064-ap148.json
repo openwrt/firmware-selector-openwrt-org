@@ -47,7 +47,7 @@
   "device_packages": [
     "ath10k-firmware-qca99x0-ct"
   ],
-  "image_path": "22.03.5/targets/ipq806x/generic/",
+  "image_path": "releases/22.03.5/targets/ipq806x/generic/",
   "image_prefix": "openwrt-22.03.5-ipq806x-generic-qcom_ipq8064-ap148",
   "images": [
     {

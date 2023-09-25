@@ -31,7 +31,7 @@
     "kmod-gpio-button-hotplug"
   ],
   "device_packages": [],
-  "image_path": "19.07.10/targets/mvebu/cortexa9/",
+  "image_path": "releases/19.07.10/targets/mvebu/cortexa9/",
   "image_prefix": "openwrt-19.07.10-mvebu-cortexa9-marvell_a388-rd",
   "images": [
     {

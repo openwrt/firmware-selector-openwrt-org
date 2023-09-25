@@ -39,7 +39,7 @@
     "nand-utils"
   ],
   "device_packages": [],
-  "image_path": "19.07.10/targets/rb532/generic/",
+  "image_path": "releases/19.07.10/targets/rb532/generic/",
   "image_prefix": "openwrt-19.07.10-rb532-nand",
   "images": [
     {

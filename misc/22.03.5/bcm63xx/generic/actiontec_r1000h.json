@@ -41,7 +41,7 @@
     "wlc",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/bcm63xx/generic/",
+  "image_path": "releases/22.03.5/targets/bcm63xx/generic/",
   "image_prefix": "openwrt-22.03.5-bcm63xx-generic-actiontec_r1000h",
   "images": [
     {

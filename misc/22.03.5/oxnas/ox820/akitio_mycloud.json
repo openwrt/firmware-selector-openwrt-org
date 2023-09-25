@@ -37,7 +37,7 @@
     "kmod-usb2-oxnas",
     "kmod-usb-ledtrig-usbport"
   ],
-  "image_path": "22.03.5/targets/oxnas/ox820/",
+  "image_path": "releases/22.03.5/targets/oxnas/ox820/",
   "image_prefix": "openwrt-22.03.5-oxnas-ox820-akitio_mycloud",
   "images": [
     {

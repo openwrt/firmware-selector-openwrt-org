@@ -47,7 +47,7 @@
     "kmod-tg3",
     "kmod-b43"
   ],
-  "image_path": "19.07.10/targets/brcm47xx/generic/",
+  "image_path": "releases/19.07.10/targets/brcm47xx/generic/",
   "image_prefix": "openwrt-19.07.10-brcm47xx-generic-linksys-wrt310n-v1",
   "images": [
     {

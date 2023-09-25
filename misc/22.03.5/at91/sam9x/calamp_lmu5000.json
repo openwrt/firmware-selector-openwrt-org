@@ -40,7 +40,7 @@
     "kmod-usb-serial-sierrawireless",
     "kmod-gpio-mcp23s08"
   ],
-  "image_path": "22.03.5/targets/at91/sam9x/",
+  "image_path": "releases/22.03.5/targets/at91/sam9x/",
   "image_prefix": "openwrt-22.03.5-at91-sam9x-calamp_lmu5000",
   "images": [
     {

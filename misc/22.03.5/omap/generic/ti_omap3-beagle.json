@@ -43,7 +43,7 @@
     "kmod-usb-net-smsc95xx",
     "kmod-usb-net-dm9601-ether"
   ],
-  "image_path": "22.03.5/targets/omap/generic/",
+  "image_path": "releases/22.03.5/targets/omap/generic/",
   "image_prefix": "openwrt-22.03.5-omap-ti_omap3-beagle",
   "images": [
     {

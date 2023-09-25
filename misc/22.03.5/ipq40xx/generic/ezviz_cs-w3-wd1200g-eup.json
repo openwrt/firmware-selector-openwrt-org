@@ -46,7 +46,7 @@
     "kmod-ath10k-ct-smallbuffers",
     "ipq-wifi-ezviz_cs-w3-wd1200g-eup"
   ],
-  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_path": "releases/22.03.5/targets/ipq40xx/generic/",
   "image_prefix": "openwrt-22.03.5-ipq40xx-generic-ezviz_cs-w3-wd1200g-eup",
   "images": [
     {

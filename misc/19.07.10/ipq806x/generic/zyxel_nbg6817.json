@@ -64,7 +64,7 @@
     "kmod-fs-ext4",
     "losetup"
   ],
-  "image_path": "19.07.10/targets/ipq806x/generic/",
+  "image_path": "releases/19.07.10/targets/ipq806x/generic/",
   "image_prefix": "openwrt-19.07.10-ipq806x-generic-zyxel_nbg6817",
   "images": [
     {

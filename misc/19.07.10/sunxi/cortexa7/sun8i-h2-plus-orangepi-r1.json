@@ -39,7 +39,7 @@
     "kmod-usb-net",
     "kmod-usb-net-rtl8152"
   ],
-  "image_path": "19.07.10/targets/sunxi/cortexa7/",
+  "image_path": "releases/19.07.10/targets/sunxi/cortexa7/",
   "image_prefix": "openwrt-19.07.10-sunxi-cortexa7-sun8i-h2-plus-orangepi-r1",
   "images": [
     {

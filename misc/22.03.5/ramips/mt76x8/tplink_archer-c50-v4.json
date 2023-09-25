@@ -38,7 +38,7 @@
   "device_packages": [
     "kmod-mt76x2"
   ],
-  "image_path": "22.03.5/targets/ramips/mt76x8/",
+  "image_path": "releases/22.03.5/targets/ramips/mt76x8/",
   "image_prefix": "openwrt-22.03.5-ramips-mt76x8-tplink_archer-c50-v4",
   "images": [
     {

@@ -47,7 +47,7 @@
     "kmod-pps-gpio",
     "kobs-ng"
   ],
-  "image_path": "19.07.10/targets/imx6/generic/",
+  "image_path": "releases/19.07.10/targets/imx6/generic/",
   "image_prefix": "openwrt-19.07.10-imx6-ventana",
   "images": [
     {

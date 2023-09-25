@@ -50,7 +50,7 @@
     "kmod-ltq-vmmc",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/lantiq/xrx200/",
+  "image_path": "releases/22.03.5/targets/lantiq/xrx200/",
   "image_prefix": "openwrt-22.03.5-lantiq-xrx200-arcadyan_vgv7510kw22-nor",
   "images": [
     {

@@ -44,7 +44,7 @@
   "device_packages": [
     "ipq-wifi-8dev_habanero-dvk"
   ],
-  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_path": "releases/22.03.5/targets/ipq40xx/generic/",
   "image_prefix": "openwrt-22.03.5-ipq40xx-generic-8dev_habanero-dvk",
   "images": [
     {

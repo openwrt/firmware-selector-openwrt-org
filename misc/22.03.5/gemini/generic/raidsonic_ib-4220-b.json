@@ -61,7 +61,7 @@
     "badblocks",
     "partx-utils"
   ],
-  "image_path": "22.03.5/targets/gemini/generic/",
+  "image_path": "releases/22.03.5/targets/gemini/generic/",
   "image_prefix": "openwrt-22.03.5-gemini-raidsonic_ib-4220-b",
   "images": [
     {

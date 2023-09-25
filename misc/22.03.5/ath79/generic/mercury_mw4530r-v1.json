@@ -39,7 +39,7 @@
     "kmod-usb2",
     "kmod-usb-ledtrig-usbport"
   ],
-  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_path": "releases/22.03.5/targets/ath79/generic/",
   "image_prefix": "openwrt-22.03.5-ath79-generic-mercury_mw4530r-v1",
   "images": [
     {

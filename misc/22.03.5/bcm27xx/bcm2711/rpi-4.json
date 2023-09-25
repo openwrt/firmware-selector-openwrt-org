@@ -47,7 +47,7 @@
     "kmod-usb-net-lan78xx",
     "iwinfo"
   ],
-  "image_path": "22.03.5/targets/bcm27xx/bcm2711/",
+  "image_path": "releases/22.03.5/targets/bcm27xx/bcm2711/",
   "image_prefix": "openwrt-22.03.5-bcm27xx-bcm2711-rpi-4",
   "images": [
     {

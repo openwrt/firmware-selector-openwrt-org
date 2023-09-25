@@ -40,7 +40,7 @@
     "kmod-spi-gpio",
     "-swconfig"
   ],
-  "image_path": "22.03.5/targets/apm821xx/nand/",
+  "image_path": "releases/22.03.5/targets/apm821xx/nand/",
   "image_prefix": "openwrt-22.03.5-apm821xx-nand-meraki_mr24",
   "images": [
     {

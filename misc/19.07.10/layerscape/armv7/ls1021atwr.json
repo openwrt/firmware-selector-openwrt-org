@@ -35,7 +35,7 @@
   "device_packages": [
     "layerscape-rcw-ls1021atwr"
   ],
-  "image_path": "19.07.10/targets/layerscape/armv7/",
+  "image_path": "releases/19.07.10/targets/layerscape/armv7/",
   "image_prefix": "openwrt-19.07.10-layerscape-armv7-ls1021atwr",
   "images": [
     {

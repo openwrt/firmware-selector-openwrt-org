@@ -48,7 +48,7 @@
     "ath10k-firmware-qca99x0-ct",
     "kmod-wil6210"
   ],
-  "image_path": "22.03.5/targets/ipq806x/generic/",
+  "image_path": "releases/22.03.5/targets/ipq806x/generic/",
   "image_prefix": "openwrt-22.03.5-ipq806x-generic-tplink_ad7200",
   "images": [
     {

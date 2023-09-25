@@ -50,7 +50,7 @@
     "kmod-forcedeth",
     "kmod-fs-vfat"
   ],
-  "image_path": "22.03.5/targets/x86/generic/",
+  "image_path": "releases/22.03.5/targets/x86/generic/",
   "image_prefix": "openwrt-22.03.5-x86-generic-generic",
   "images": [
     {

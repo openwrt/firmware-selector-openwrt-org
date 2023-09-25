@@ -39,7 +39,7 @@
     "kmod-usb3",
     "-wpad-basic-wolfssl"
   ],
-  "image_path": "22.03.5/targets/ramips/mt7621/",
+  "image_path": "releases/22.03.5/targets/ramips/mt7621/",
   "image_prefix": "openwrt-22.03.5-ramips-mt7621-asiarf_ap7621-001",
   "images": [
     {

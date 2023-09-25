@@ -37,7 +37,7 @@
     "tfa-ls1012ardb",
     "kmod-ppfe"
   ],
-  "image_path": "19.07.10/targets/layerscape/armv8_64b/",
+  "image_path": "releases/19.07.10/targets/layerscape/armv8_64b/",
   "image_prefix": "openwrt-19.07.10-layerscape-armv8_64b-ls1012ardb",
   "images": [
     {

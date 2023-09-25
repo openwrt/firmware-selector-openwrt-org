@@ -35,7 +35,7 @@
     "swconfig"
   ],
   "device_packages": [],
-  "image_path": "19.07.10/targets/ramips/rt288x/",
+  "image_path": "releases/19.07.10/targets/ramips/rt288x/",
   "image_prefix": "openwrt-19.07.10-ramips-rt288x-ar725w",
   "images": [
     {

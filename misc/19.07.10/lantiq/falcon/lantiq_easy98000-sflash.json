@@ -34,7 +34,7 @@
     "kmod-i2c-lantiq",
     "kmod-eeprom-at24"
   ],
-  "image_path": "19.07.10/targets/lantiq/falcon/",
+  "image_path": "releases/19.07.10/targets/lantiq/falcon/",
   "image_prefix": "openwrt-19.07.10-lantiq-falcon-lantiq_easy98000-sflash",
   "images": [
     {

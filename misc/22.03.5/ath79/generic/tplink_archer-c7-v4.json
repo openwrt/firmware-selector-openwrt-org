@@ -41,7 +41,7 @@
     "kmod-ath10k-ct",
     "ath10k-firmware-qca988x-ct"
   ],
-  "image_path": "22.03.5/targets/ath79/generic/",
+  "image_path": "releases/22.03.5/targets/ath79/generic/",
   "image_prefix": "openwrt-22.03.5-ath79-generic-tplink_archer-c7-v4",
   "images": [
     {

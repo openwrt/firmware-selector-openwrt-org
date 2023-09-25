@@ -43,7 +43,7 @@
   "device_packages": [
     "kmod-ledtrig-gpio"
   ],
-  "image_path": "22.03.5/targets/ipq40xx/mikrotik/",
+  "image_path": "releases/22.03.5/targets/ipq40xx/mikrotik/",
   "image_prefix": "openwrt-22.03.5-ipq40xx-mikrotik-mikrotik_hap-ac3",
   "images": [
     {

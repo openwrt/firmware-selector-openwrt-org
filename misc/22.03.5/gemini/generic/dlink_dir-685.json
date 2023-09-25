@@ -62,7 +62,7 @@
     "partx-utils",
     "kmod-rt2800-pci"
   ],
-  "image_path": "22.03.5/targets/gemini/generic/",
+  "image_path": "releases/22.03.5/targets/gemini/generic/",
   "image_prefix": "openwrt-22.03.5-gemini-dlink_dir-685",
   "images": [
     {

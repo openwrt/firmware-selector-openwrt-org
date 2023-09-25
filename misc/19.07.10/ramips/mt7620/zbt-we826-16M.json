@@ -40,7 +40,7 @@
     "kmod-usb-ohci",
     "kmod-sdhci-mt7620"
   ],
-  "image_path": "19.07.10/targets/ramips/mt7620/",
+  "image_path": "releases/19.07.10/targets/ramips/mt7620/",
   "image_prefix": "openwrt-19.07.10-ramips-mt7620-zbt-we826-16M",
   "images": [
     {

@@ -39,7 +39,7 @@
     "kmod-usb3",
     "kmod-ata-ahci"
   ],
-  "image_path": "22.03.5/targets/mediatek/mt7623/",
+  "image_path": "releases/22.03.5/targets/mediatek/mt7623/",
   "image_prefix": "openwrt-22.03.5-mediatek-mt7623-bananapi_bpi-r2",
   "images": [
     {

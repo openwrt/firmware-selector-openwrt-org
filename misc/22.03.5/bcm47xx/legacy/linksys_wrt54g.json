@@ -39,7 +39,7 @@
     "kmod-b43",
     "kmod-b43legacy"
   ],
-  "image_path": "22.03.5/targets/bcm47xx/legacy/",
+  "image_path": "releases/22.03.5/targets/bcm47xx/legacy/",
   "image_prefix": "openwrt-22.03.5-bcm47xx-legacy-linksys_wrt54g",
   "images": [
     {

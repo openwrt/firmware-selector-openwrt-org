@@ -49,7 +49,7 @@
     "kmod-gpio-pca953x",
     "kmod-eeprom-at24"
   ],
-  "image_path": "19.07.10/targets/mpc85xx/p2020/",
+  "image_path": "releases/19.07.10/targets/mpc85xx/p2020/",
   "image_prefix": "openwrt-19.07.10-mpc85xx-p2020-p2020rdb",
   "images": [
     {

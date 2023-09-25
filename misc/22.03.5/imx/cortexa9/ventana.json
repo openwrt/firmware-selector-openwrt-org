@@ -47,7 +47,7 @@
     "kmod-pps-gpio",
     "kobs-ng"
   ],
-  "image_path": "22.03.5/targets/imx/cortexa9/",
+  "image_path": "releases/22.03.5/targets/imx/cortexa9/",
   "image_prefix": "openwrt-22.03.5-imx-cortexa9-gateworks_ventana-large",
   "images": [
     {

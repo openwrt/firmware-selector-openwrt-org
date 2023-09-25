@@ -41,7 +41,7 @@
     "-swconfig",
     "-uboot-envtools"
   ],
-  "image_path": "19.07.10/targets/ath79/generic/",
+  "image_path": "releases/19.07.10/targets/ath79/generic/",
   "image_prefix": "openwrt-19.07.10-ath79-generic-comfast_cf-e110n-v2",
   "images": [
     {

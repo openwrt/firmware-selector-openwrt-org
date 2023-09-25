@@ -42,7 +42,7 @@
     "kmod-usb-ledtrig-usbport",
     "swconfig"
   ],
-  "image_path": "19.07.10/targets/ramips/rt3883/",
+  "image_path": "releases/19.07.10/targets/ramips/rt3883/",
   "image_prefix": "openwrt-19.07.10-ramips-rt3883-cy-swr1100",
   "images": [
     {

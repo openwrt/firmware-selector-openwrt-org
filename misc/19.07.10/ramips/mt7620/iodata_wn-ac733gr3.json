@@ -38,7 +38,7 @@
     "kmod-mt76x0e",
     "kmod-switch-rtl8367b"
   ],
-  "image_path": "19.07.10/targets/ramips/mt7620/",
+  "image_path": "releases/19.07.10/targets/ramips/mt7620/",
   "image_prefix": "openwrt-19.07.10-ramips-mt7620-iodata_wn-ac733gr3",
   "images": [
     {

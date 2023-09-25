@@ -44,7 +44,7 @@
     "fconfig",
     "-swconfig"
   ],
-  "image_path": "19.07.10/targets/ath79/generic/",
+  "image_path": "releases/19.07.10/targets/ath79/generic/",
   "image_prefix": "openwrt-19.07.10-ath79-generic-ubnt_routerstation",
   "images": [
     {

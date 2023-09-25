@@ -39,7 +39,7 @@
   "device_packages": [
     "layerscape-rcw"
   ],
-  "image_path": "22.03.5/targets/layerscape/armv7/",
+  "image_path": "releases/22.03.5/targets/layerscape/armv7/",
   "image_prefix": "openwrt-22.03.5-layerscape-armv7-fsl_ls1021a-twr",
   "images": [
     {

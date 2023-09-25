@@ -44,7 +44,7 @@
   "device_packages": [
     "ipq-wifi-aruba_ap-303"
   ],
-  "image_path": "22.03.5/targets/ipq40xx/generic/",
+  "image_path": "releases/22.03.5/targets/ipq40xx/generic/",
   "image_prefix": "openwrt-22.03.5-ipq40xx-generic-aruba_ap-303",
   "images": [
     {
