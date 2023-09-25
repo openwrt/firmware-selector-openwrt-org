@@ -65,7 +65,6 @@ build site for target environment using remote directory:
     - cp -R ./www ./build
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html build/index.js
     - sed -i "s;  //asu_url;  asu_url;" build/config.js
-    - sed -i "s;https://downloads.openwrt.org/releases/;https://downloads.openwrt.org/;" build/config.js
     - misc/collect.py --insert-latest-release --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' https://downloads.openwrt.org build
 
 build site for target environment using local directory:
@@ -74,7 +73,6 @@ build site for target environment using local directory:
     - cp -R ./www ./build
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html build/index.js
     - sed -i "s;  //asu_url;  asu_url;" build/config.js
-    - sed -i "s;https://downloads.openwrt.org/releases/;https://downloads.openwrt.org/;" build/config.js
     - misc/collect.py --insert-latest-release --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' tests/profiles build
 
 .test site:
