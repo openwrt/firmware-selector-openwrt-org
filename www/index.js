@@ -485,7 +485,7 @@ function getNameDifference(images, image) {
 
 // add download button for image
 function createLink(mobj, image, image_url) {
-  const href = image_url + "/" + image.name;
+  const href = (image_url + "/" + image.name).replace(/\/+/g, "/");
   let label = image.type;
 
   // distinguish labels if neccessary
@@ -526,13 +526,12 @@ function updateImages(mobj) {
 
   if (mobj) {
     const images = mobj.images;
-    const image_folder =
-      config.image_url
-        .replace("{title}", encodeURI($("#models").value))
-        .replace("{target}", mobj.target)
-        .replace("{path}", mobj.image_path)
-        .replace("{id}", mobj.model_id)
-        .replace("{version}", mobj.version_number) + "/";
+    const image_folder = config.image_url
+      .replace("{title}", encodeURI($("#models").value))
+      .replace("{target}", mobj.target)
+      .replace("{path}", mobj.image_path)
+      .replace("{id}", mobj.model_id)
+      .replace("{version}", mobj.version_number);
 
     const h3 = $("#downloads1 h3");
     if ("build_cmd" in mobj) {
