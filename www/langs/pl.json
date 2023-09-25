@@ -39,5 +39,6 @@
     "tr-download_imagebuilder": "Pobieranie archiwum ImageBuilder",
     "tr-calculate_packages_hash": "Zatwierdzanie wyboru pakietów",
     "tr-defaults": "Skrypt do uruchomienia przy pierwszym rozruchu (uci-defaults)",
-    "tr-packages": "Zainstalowane pakiety"
+    "tr-packages": "Zainstalowane pakiety",
+    "tr-latest-releases": "Ostatnie"
 }
