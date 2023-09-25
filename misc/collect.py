@@ -4,7 +4,6 @@ Create JSON files and update www/config.js, www/data for the OpenWrt Firmware Se
 """
 
 from pathlib import Path
-import itertools
 import tempfile
 import datetime
 import argparse
@@ -98,22 +97,10 @@ def add_profile(releases, args, file_path, file_content, file_last_modified):
     for model_id, model_obj in file_content["profiles"].items():
         profile = {**file_content, **model_obj}
         profile["build_at"] = file_last_modified
-        profile["image_path"] = file_path  # will be shortened later
+        profile["image_path"] = file_path
         profile["model_id"] = model_id
         del profile["profiles"]
         releases.setdefault(version, []).append(profile)
-
-
-# strip image_path
-def strip_image_path(releases):
-    if len(releases) > 0:
-        # create two iterators over all profiles
-        p1, p2 = itertools.tee(itertools.chain.from_iterable(releases.values()))
-        prefix_path = os.path.commonpath([p["image_path"] for p in p1])
-        from_start = len("/") + len(prefix_path)
-        from_end = len("profiles.json")
-        for profile in p2:
-            profile["image_path"] = profile["image_path"][from_start:-from_end]
 
 
 """
@@ -207,6 +194,9 @@ def scrape(args):
         os.system("find {}/* -type d -empty -delete".format(tmp_dir))
 
         # create overview.json files
+        base = os.path.join(
+            tmp_dir, args.release_src.replace("https://", "").replace("http://", "")
+        )
         for path in glob.glob("{}".format(tmp_dir)):
             for ppath in Path(path).rglob("profiles.json"):
                 with open(str(ppath), "r", encoding="utf-8") as file:
@@ -217,12 +207,11 @@ def scrape(args):
                     add_profile(
                         releases,
                         args,
-                        str(ppath),
+                        os.path.relpath(os.path.dirname(ppath), base),
                         json.loads(file.read()),
                         last_modified,
                     )
 
-    strip_image_path(releases)
     write_data(releases, args)
 
 
@@ -243,9 +232,14 @@ def scan(args):
             last_modified = time.strftime(
                 BUILD_DATE_FORMAT, time.gmtime(os.path.getmtime(str(path)))
             )
-            add_profile(releases, args, str(path), json.loads(content), last_modified)
+            add_profile(
+                releases,
+                args,
+                os.path.relpath(path, args.release_src),
+                json.loads(content),
+                last_modified,
+            )
 
-    strip_image_path(releases)
     write_data(releases, args)
 
 

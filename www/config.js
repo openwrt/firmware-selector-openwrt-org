@@ -14,7 +14,7 @@ var config = {
   default_version: "22.03.5",
 
   // Image download URL
-  image_url: "https://downloads.openwrt.org/releases/{path}",
+  image_url: "https://downloads.openwrt.org/{path}",
 
   // Info link URL (optional)
   info_url: "https://openwrt.org/start?do=search&id=toh&q={title} @toh",
