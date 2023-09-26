@@ -37,10 +37,10 @@ Further arguments for `collect.py`:
 
 Notes about `config.js`
 
-* `image_url`: Link template to the actual image to downloads.
+* `image_url`: Download location of the actual images.
 * `info_url`: Link template to some information page.
 
-Allowed variables `{path}`, `{id}`, `{target}`, `{version}`, `{title}`.
+Allowed variables in `info_url`: `{id}`, `{target}`, `{version}`, `{title}`.
 
 ### Generate OpenWrt JSON
 

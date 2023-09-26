@@ -526,12 +526,7 @@ function updateImages(mobj) {
 
   if (mobj) {
     const images = mobj.images;
-    const image_folder = config.image_url
-      .replace("{title}", encodeURI($("#models").value))
-      .replace("{target}", mobj.target)
-      .replace("{path}", mobj.image_path)
-      .replace("{id}", mobj.model_id)
-      .replace("{version}", mobj.version_number);
+    const image_folder = config.image_url + mobj.image_path;
 
     const h3 = $("#downloads1 h3");
     if ("build_cmd" in mobj) {
