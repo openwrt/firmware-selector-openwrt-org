@@ -39,5 +39,6 @@
     "tr-calculate_packages_hash": "Validar selección de paquetes",
     "tr-building_image": "Generando imagen de firmware",
     "tr-packages": "Paquetes instalados",
-    "tr-defaults": "Script para ejecutar en el primer arranque (uci-defaults)"
+    "tr-defaults": "Script para ejecutar en el primer arranque (uci-defaults)",
+    "tr-latest-releases": "Última"
 }
