@@ -39,5 +39,6 @@
     "tr-build-size": "Vybrané balíčky přesahují kapacitu paměti zařízení",
     "tr-init": "Přijatá žádost o sestavení",
     "tr-download_imagebuilder": "Stahování archivu ImageBuilder",
-    "tr-factory-help": "K prvnímu nahrání OpenWrt do routeru použijte tovární (Factory) obraz. Obvykle tak učiníte prostřednictvím webového rozhraní původního firmwaru."
+    "tr-factory-help": "K prvnímu nahrání OpenWrt do routeru použijte tovární (Factory) obraz. Obvykle tak učiníte prostřednictvím webového rozhraní původního firmwaru.",
+    "tr-latest-releases": "Nejnovější"
 }
