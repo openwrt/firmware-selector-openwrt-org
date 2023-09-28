@@ -39,5 +39,6 @@
     "tr-download_imagebuilder": "Скачивание архива ImageBuilder",
     "tr-title": "OpenWrt — Выбор прошивки",
     "tr-packages": "Установленные пакеты",
-    "tr-defaults": "Скрипт для запуска при первой загрузке (uci-defaults)"
+    "tr-defaults": "Скрипт для запуска при первой загрузке (uci-defaults)",
+    "tr-latest-releases": "Последний"
 }
