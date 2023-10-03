@@ -39,5 +39,6 @@
     "tr-calculate_packages_hash": "Patikrinti paketo pasirinkimą",
     "tr-building_image": "Kuriamas programinės įrangos „image“",
     "tr-packages": "Įdiegti paketai",
-    "tr-defaults": "Skriptas skirtas pajungti per pirmąjį pajungimą (uci-defaults)"
+    "tr-defaults": "Skriptas skirtas pajungti per pirmąjį pajungimą (uci-defaults)",
+    "tr-latest-releases": "Naujausias"
 }
