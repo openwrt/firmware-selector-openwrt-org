@@ -7,7 +7,7 @@
     "tr-message": "기기명 또는 모델명을 입력한 후, 안정 빌드 또는 나이틀리(\"snapshot\") 빌드 버전을 선택하세요.",
     "tr-version-build": "이 빌드에 대하여",
     "tr-custom-build": "커스텀 빌드",
-    "tr-customize": "설치될 패키지 사용자화",
+    "tr-customize": "설치될 패키지 또는 초기 부팅 스크립트",
     "tr-request-build": "빌드 요청",
     "tr-model": "모델명",
     "tr-target": "플랫폼",
@@ -37,5 +37,8 @@
     "tr-download_imagebuilder": "ImageBuilder 아카이브 다운로드 중",
     "tr-unpack_imagebuilder": "ImageBuilder 설정",
     "tr-calculate_packages_hash": "패키지 선택 유효성 검증",
-    "tr-building_image": "펌웨어 이미지 생성 중"
+    "tr-building_image": "펌웨어 이미지 생성 중",
+    "tr-latest-releases": "최근",
+    "tr-packages": "설치된 패키지",
+    "tr-defaults": "초기 부팅 스크립트(uci-defaults)"
 }
