@@ -20,5 +20,6 @@ var config = {
   info_url: "https://openwrt.org/start?do=search&id=toh&q={title} @toh",
 
   // Attended Sysupgrade Server support (optional)
-  //asu_url: "https://sysupgrade.openwrt.org",
+  // asu_url: "https://sysupgrade.openwrt.org",
+  // asu_extra_packages: [ "luci" ],
 };

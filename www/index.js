@@ -607,6 +607,7 @@ function updateImages(mobj) {
       // only refresh package list if not data from ASU
       $("#packages").value = mobj.default_packages
         .concat(mobj.device_packages)
+        .concat(config.asu_extra_packages || [])
         .sort()
         .join(" ");
     }
