@@ -132,7 +132,7 @@ def create_latest_release(releases, args):
             for supported in get_supported(profile):
                 found = uniques.get(supported, None)
                 if found is None:
-                    uniques[supported] = (profile,)  # tuple!
+                    uniques[supported] = [profile]  # list!
                 elif version > Version(uniques[supported][0]["version_number"]):
                     uniques[supported][0] = profile
 
