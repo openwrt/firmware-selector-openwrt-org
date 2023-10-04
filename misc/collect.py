@@ -269,7 +269,6 @@ Usage Examples:
     )
     parser.add_argument(
         "--latest-release-pattern",
-        action="store_true",
         help='Only include matching versions in the "latest" release.',
     )
     parser.add_argument(
