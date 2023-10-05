@@ -39,5 +39,6 @@
     "tr-calculate_packages_hash": "Validering af pakkevalg",
     "tr-building_image": "Generering af firmware-image",
     "tr-packages": "Installerede pakker",
-    "tr-defaults": "Script, der skal køres ved første opstart (uci-defaults)"
+    "tr-defaults": "Script, der skal køres ved første opstart (uci-defaults)",
+    "tr-latest-releases": "Seneste"
 }
