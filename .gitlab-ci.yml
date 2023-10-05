@@ -28,10 +28,10 @@ check HTML, CSS and SVG with html5validator:
   stage: pre-build
   image: python:$CI_PYTHON_VERSION-slim-buster
   before_script:
-    - apt-get update; apt-get install -y make wget
+    - apt-get update; apt-get install -y make rsync
   script:
     - cp -R ./www ./build
-    - misc/collect.py --insert-latest-release https://downloads.openwrt.org build
+    - misc/collect.py --insert-latest-release rsync://downloads.openwrt.org/downloads/ build
   artifacts:
     expire_in: 1 week
     when: always
@@ -52,7 +52,7 @@ build site on Python 3.8:
   stage: pre-build
   image: debian:10
   before_script:
-    - apt-get update; apt-get install -y make python3 ca-certificates git wget
+    - apt-get update; apt-get install -y make python3 ca-certificates git rsync
   artifacts:
     expire_in: 1 week
     when: always
@@ -65,7 +65,7 @@ build site for target environment using remote directory:
     - cp -R ./www ./build
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html build/index.js
     - sed -i "s;  //asu_url;  asu_url;" build/config.js
-    - misc/collect.py --insert-latest-release --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' https://downloads.openwrt.org build
+    - misc/collect.py --insert-latest-release --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' rsync://downloads.openwrt.org/downloads/ build
 
 build site for target environment using local directory:
   extends: .build site
@@ -80,7 +80,7 @@ build site for target environment using local directory:
   image: selenium/standalone-firefox:latest
   script:
     - /opt/bin/entry_point.sh &
-    - sudo apt-get update; sudo apt-get install -y python3-pip python3-pytest wget
+    - sudo apt-get update; sudo apt-get install -y python3-pip python3-pytest rsync
     - pip3 install selenium-firefox
     - (cd build; python3 -m http.server &)
     - pytest-3 tests
