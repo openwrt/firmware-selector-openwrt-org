@@ -172,57 +172,61 @@ def write_data(releases, args):
     update_config(args.www_path, versions, args)
 
 
-"""
-Scrape profiles.json using wget (slower but more generic).
-Merge into overview.json files.
-Update config.json.
-"""
+def collect_profiles(releases, base_path, tmp_path, args):
+    for path in glob.glob("{}".format(tmp_path)):
+        for ppath in Path(path).rglob("profiles.json"):
+            with open(str(ppath), "r", encoding="utf-8") as file:
+                # we assume local timezone is UTC/GMT
+                last_modified = datetime.datetime.fromtimestamp(
+                    os.path.getmtime(str(ppath))
+                ).strftime(BUILD_DATE_FORMAT)
+                add_profile(
+                    releases,
+                    args,
+                    os.path.relpath(os.path.dirname(ppath), base_path),
+                    json.loads(file.read()),
+                    last_modified,
+                )
 
 
-def scrape(args):
+def use_wget(args):
     releases = {}
 
-    with tempfile.TemporaryDirectory() as tmp_dir:
+    with tempfile.TemporaryDirectory() as tmp_path:
         # download all profiles.json files
         os.system(
-            'wget -c -r -P {} -A "profiles.json" --reject-regex "kmods|packages" --no-parent {}'.format(
-                tmp_dir, args.release_src
+            'wget -c -r -P {} -A "profiles.json" --limit-rate=8M --reject-regex "kmods|packages" --no-parent {}'.format(
+                tmp_path, args.release_src
             )
         )
 
-        # delete empty folders
-        os.system("find {}/* -type d -empty -delete".format(tmp_dir))
-
         # create overview.json files
         base = os.path.join(
-            tmp_dir, args.release_src.replace("https://", "").replace("http://", "")
+            tmp_path, args.release_src.replace("https://", "").replace("http://", "")
         )
-        for path in glob.glob("{}".format(tmp_dir)):
-            for ppath in Path(path).rglob("profiles.json"):
-                with open(str(ppath), "r", encoding="utf-8") as file:
-                    # we assume local timezone is UTC/GMT
-                    last_modified = datetime.datetime.fromtimestamp(
-                        os.path.getmtime(str(ppath))
-                    ).strftime(BUILD_DATE_FORMAT)
-                    add_profile(
-                        releases,
-                        args,
-                        os.path.relpath(os.path.dirname(ppath), base),
-                        json.loads(file.read()),
-                        last_modified,
-                    )
+
+        collect_profiles(releases, base, tmp_path, args)
 
     write_data(releases, args)
 
 
-"""
-Scan a local directory for releases with profiles.json.
-Merge into overview.json files.
-Update config.json.
-"""
+def use_rsync(args):
+    releases = {}
+
+    with tempfile.TemporaryDirectory() as tmp_path:
+        # download all profiles.json files
+        os.system(
+            'rsync --bwlimit="8M" --del -m -r -t -v --include="*/" --include="profiles.json" --exclude="*" {} {}'.format(
+                args.release_src, tmp_path
+            )
+        )
+
+        collect_profiles(releases, tmp_path, tmp_path, args)
+
+    write_data(releases, args)
 
 
-def scan(args):
+def use_find(args):
     releases = {}
 
     # profiles.json is generated for each subtarget
@@ -252,6 +256,8 @@ Usage Examples:
     ./misc/collect.py ~/openwrt/bin  www/
     or
     ./misc/collect.py https://downloads.openwrt.org  www/
+    or
+     ./misc/collect.py rsync://downloads.openwrt.org/downloads/  www/
     """,
         formatter_class=argparse.RawTextHelpFormatter,
     )
@@ -283,10 +289,12 @@ Usage Examples:
         print("Error: {}/config.js does not exits!".format(args.www_path))
         exit(1)
 
-    if args.release_src.startswith("http"):
-        scrape(args)
+    if args.release_src.startswith("rsync"):
+        use_rsync(args)
+    elif args.release_src.startswith("http"):
+        use_wget(args)
     else:
-        scan(args)
+        use_find(args)
 
 
 if __name__ == "__main__":
