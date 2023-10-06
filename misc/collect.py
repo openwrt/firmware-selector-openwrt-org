@@ -110,16 +110,19 @@ profile for each model.
 
 
 def create_latest_release(releases, args):
-    def get_supported(profile):
-        for sd in profile["supported_devices"]:
-            yield sd.replace("-", "_").lower().strip()
+    def get_identifiers(profile):
+        def normalize(identifier):
+            return identifier.replace("-", "_").lower().strip()
+
+        for device in profile["supported_devices"]:
+            yield normalize(device)
         for title in profile["titles"]:
             if "title" in title:
-                yield title["title"].lower().strip()
+                yield normalize(title["title"])
             else:
-                yield f"{title['vendor']} {title['model']} {title.get('variant', '')}".replace(
-                    "-", "_"
-                ).lower().strip()
+                yield normalize(
+                    f"{title['vendor']} {title['model']} {title.get('variant', '')}"
+                )
 
     uniques = {}
     for release, profiles in releases.items():
@@ -135,11 +138,11 @@ def create_latest_release(releases, args):
             continue
 
         for profile in profiles:
-            supported = list(get_supported(profile))
+            ids = list(get_identifiers(profile))
 
             entry = None
-            for m in supported:
-                entry = uniques.get(m, None)
+            for i in ids:
+                entry = uniques.get(i, None)
                 if entry is not None:
                     break
 
@@ -148,8 +151,8 @@ def create_latest_release(releases, args):
             elif version > Version(entry[0]["version_number"]):
                 entry[0] = profile
 
-            for m in supported:
-                uniques[m] = entry
+            for i in ids:
+                uniques[i] = entry
 
     # get unique profile objects
     return {id(p[0]): p[0] for p in uniques.values()}.values()
