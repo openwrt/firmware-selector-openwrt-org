@@ -39,5 +39,6 @@
     "tr-calculate_packages_hash": "Validar a seleção do pacote",
     "tr-building_image": "A gerar a imagem de firmware",
     "tr-packages": "Pacotes instalados",
-    "tr-defaults": "Script a ser executado na primeira inicialização (uci-defaults)"
+    "tr-defaults": "Script a ser executado na primeira inicialização (uci-defaults)",
+    "tr-latest-releases": "Mais recentes"
 }
