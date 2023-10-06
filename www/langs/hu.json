@@ -5,7 +5,7 @@
     "tr-title": "OpenWrt firmware kiválasztó",
     "tr-version": "Verzió",
     "tr-date": "Dátum",
-    "tr-customize": "Testreszabás",
+    "tr-customize": "Telepített csomagok és/vagy első boot script testreszabása",
     "tr-custom-downloads": "Egyedi letöltések",
     "tr-model": "Modell",
     "tr-downloads": "Tölts le egy lemezképet",
@@ -23,7 +23,7 @@
     "tr-version-build": "Erről a kiadásról",
     "tr-custom-build": "Testreszabott kiadások",
     "tr-dtb-help": "Eszközfa blob. Ez a fájl beállítja a Linux kernelt a hardvernek megfelelően.",
-    "tr-request-build": "Kiadás kérése",
+    "tr-request-build": "KIADÁS KÉRÉSE",
     "tr-cpximg-help": "Használd sysupgrade-el az alap firmware-ben vagy a beépített cpximg betöltővel.",
     "tr-message": "Gépeld be az eszközöd nevét vagy modelljét és válassz ki egy stabil kiadást vagy a napi \"snapshot\" kiadást.",
     "tr-rootfs-help": "Root fájlrendszer külön lemezképként.",
@@ -31,5 +31,13 @@
     "tr-sdcard-help": "Lemezkép ami egy SD kártyára való flashelésére van szánva.",
     "tr-build-failed": "Kiadás sikertelen",
     "tr-sysupgrade-help": "Használj egy sysupgrade lemezképet hogy frissíts egy routert melyen már OpenWrt fut. A lemezképet lehet a LuCI web felülettel használni vagy a terminállal.",
-    "tr-links": "Linkek"
+    "tr-links": "Linkek",
+    "tr-latest-releases": "Legfrissebb",
+    "tr-packages": "Installált Csomagok",
+    "tr-build-size": "A kiválasztott csomagok meghaladják a tárhelyet",
+    "tr-defaults": "Futtatandó Script első bootolásnál (uci-defaults)",
+    "tr-download_imagebuilder": "ImageBuilder csomag letöltése",
+    "tr-calculate_packages_hash": "Csomag kiválasztás érvényesítése",
+    "tr-unpack_imagebuilder": "ImageBuilder beállítása",
+    "tr-building_image": "Firmware kép generálása"
 }
