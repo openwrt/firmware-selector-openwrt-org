@@ -112,8 +112,14 @@ profile for each model.
 def create_latest_release(releases, args):
     def get_supported(profile):
         for sd in profile["supported_devices"]:
-            yield sd.replace("-", " ").replace("_", " ")
-        yield profile["model_id"].replace("-", " ").replace("_", " ")
+            yield sd.replace("-", "_").lower().strip()
+        for title in profile["titles"]:
+            if "title" in title:
+                yield title["title"].lower().strip()
+            else:
+                yield f"{title['vendor']} {title['model']} {title.get('variant', '')}".replace(
+                    "-", "_"
+                ).lower().strip()
 
     uniques = {}
     for release, profiles in releases.items():
@@ -129,12 +135,21 @@ def create_latest_release(releases, args):
             continue
 
         for profile in profiles:
-            for supported in get_supported(profile):
-                found = uniques.get(supported, None)
-                if found is None:
-                    uniques[supported] = [profile]  # list!
-                elif version > Version(uniques[supported][0]["version_number"]):
-                    uniques[supported][0] = profile
+            supported = list(get_supported(profile))
+
+            entry = None
+            for m in supported:
+                entry = uniques.get(m, None)
+                if entry is not None:
+                    break
+
+            if entry is None:
+                entry = [profile]
+            elif version > Version(entry[0]["version_number"]):
+                entry[0] = profile
+
+            for m in supported:
+                uniques[m] = entry
 
     # get unique profile objects
     return {id(p[0]): p[0] for p in uniques.values()}.values()
