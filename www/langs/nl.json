@@ -39,5 +39,6 @@
     "tr-initramfs-help": "Linux Kernel met minimaal bestandsysteem. Bruikbaar voor een eerste installatie of hersteloperatie (recovery).",
     "tr-build-successful": "Samenstelling (build): succes",
     "tr-packages": "Geïnstalleerde pakketten",
-    "tr-defaults": "Script om uit te voeren bij de eerste keer opstarten (uci-defaults)"
+    "tr-defaults": "Script om uit te voeren bij de eerste keer opstarten (uci-defaults)",
+    "tr-latest-releases": "Laatste"
 }
