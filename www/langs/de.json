@@ -1,7 +1,7 @@
 {
     "tr-feedback-link": "Rückmeldung",
     "tr-server-link": "Alle Downloads",
-    "tr-notfound": "Kein Model gefunden!",
+    "tr-not-found": "Kein Model gefunden!",
     "tr-load": "Lade die OpenWrt Firmware für dein Gerät",
     "tr-title": "OpenWrt Firmware-Auswahl",
     "tr-message": "Bitte benutze die Eingabe um die passende Firmware zu finden.",
@@ -34,10 +34,10 @@
     "tr-links": "Links",
     "tr-build-size": "Ausgewählte Pakete überschreiten den Gerätespeicher",
     "tr-init": "Build-Anfrage erhalten",
-    "tr-download_imagebuilder": "ImageBuilder-Archiv wird heruntergeladen",
-    "tr-unpack_imagebuilder": "ImageBuilder einrichten",
-    "tr-calculate_packages_hash": "Paketauswahl bestätigen",
-    "tr-building_image": "Firmware-Image wird erzeugt",
+    "tr-download-imagebuilder": "ImageBuilder-Archiv wird heruntergeladen",
+    "tr-unpack-imagebuilder": "ImageBuilder einrichten",
+    "tr-calculate-packages-hash": "Paketauswahl bestätigen",
+    "tr-building-image": "Firmware-Image wird erzeugt",
     "tr-packages": "Installierte Pakete",
     "tr-defaults": "Skript, das beim ersten Start ausgeführt werden soll (uci-defaults)",
     "tr-latest-releases": "Neueste"

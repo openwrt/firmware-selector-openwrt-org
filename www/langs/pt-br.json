@@ -1,7 +1,7 @@
 {
     "tr-feedback-link": "Comentário",
     "tr-server-link": "Todos os downloads",
-    "tr-notfound": "Nenhum modelo foi encontrado!",
+    "tr-not-found": "Nenhum modelo foi encontrado!",
     "tr-load": "Baixe o firmware OpenWrt para o seu dispositivo",
     "tr-title": "Seletor de firmware do OpenWrt",
     "tr-version-build": "Sobre esta compilação",
@@ -34,10 +34,10 @@
     "tr-links": "Links",
     "tr-build-size": "Os pacotes selecionados excedem o armazenamento do dispositivo",
     "tr-init": "A solicitação de compilação foi recebida",
-    "tr-unpack_imagebuilder": "Configura o ImageBuilder",
-    "tr-building_image": "Gerando a imagem do firmware",
-    "tr-download_imagebuilder": "Baixando o arquivo do ImageBuilder",
-    "tr-calculate_packages_hash": "Valida a seleção do pacote",
+    "tr-unpack-imagebuilder": "Configura o ImageBuilder",
+    "tr-building-image": "Gerando a imagem do firmware",
+    "tr-download-imagebuilder": "Baixando o arquivo do ImageBuilder",
+    "tr-calculate-packages-hash": "Valida a seleção do pacote",
     "tr-packages": "Pacotes instalados",
     "tr-defaults": "Script para rodar na primeira inicialização (uci-defaults)"
 }

@@ -1,7 +1,7 @@
 {
     "tr-message": "Digite o nome ou modelo do seu dispositivo, depois selecione a compilação estável ou a compilação \"snapshot\" nightly.",
     "tr-server-link": "Todos os Downloads",
-    "tr-notfound": "Não foram encontrados modelos!",
+    "tr-not-found": "Não foram encontrados modelos!",
     "tr-title": "Selecionador de Firmware OpenWrt",
     "tr-version-build": "Acerca desta compilação",
     "tr-custom-build": "Compilação Personalizada",
@@ -34,10 +34,10 @@
     "tr-links": "Ligações",
     "tr-build-size": "Os pacotes selecionados excedem o armazenamento do aparelho",
     "tr-init": "Pedido de construção recebido",
-    "tr-download_imagebuilder": "A descarregar o ficheiro do ImageBuilder",
-    "tr-unpack_imagebuilder": "Configurar o ImageBuilder",
-    "tr-calculate_packages_hash": "Validar a seleção do pacote",
-    "tr-building_image": "A gerar a imagem de firmware",
+    "tr-download-imagebuilder": "A descarregar o ficheiro do ImageBuilder",
+    "tr-unpack-imagebuilder": "Configurar o ImageBuilder",
+    "tr-calculate-packages-hash": "Validar a seleção do pacote",
+    "tr-building-image": "A gerar a imagem de firmware",
     "tr-packages": "Pacotes instalados",
     "tr-defaults": "Script a ser executado na primeira inicialização (uci-defaults)",
     "tr-latest-releases": "Mais recentes"

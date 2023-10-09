@@ -1,7 +1,7 @@
 {
     "tr-title": "Výběr firmwaru OpenWrt",
     "tr-feedback-link": "Zpětná vazba",
-    "tr-notfound": "Nebyl nalezen žádný model!",
+    "tr-not-found": "Nebyl nalezen žádný model!",
     "tr-links": "Odkazy",
     "tr-version-build": "O tomto sestavení",
     "tr-custom-build": "Vlastní sestavení",
@@ -18,9 +18,9 @@
     "tr-other-help": "Jiný typ obrazu.",
     "tr-build-failed": "Sestavení se nezdařilo",
     "tr-check-again": "Zkontrolujte znovu za 5 sekund…",
-    "tr-unpack_imagebuilder": "Konfigurace nástroje ImageBuilder",
+    "tr-unpack-imagebuilder": "Konfigurace nástroje ImageBuilder",
     "tr-load": "Stažení OpenWrt Firmwaru pro vaše zařízení",
-    "tr-building_image": "Generování obrazu firmwaru",
+    "tr-building-image": "Generování obrazu firmwaru",
     "tr-packages": "Instalované balíčky",
     "tr-defaults": "Skript spouštěný při prvním spuštění systému (uci-defaults)",
     "tr-server-link": "Všechny soubory ke stažení",
@@ -35,10 +35,10 @@
     "tr-initramfs-help": "Linuxové jádro s minimálním souborovým systémem. Užitečné pro první instalaci nebo obnovu.",
     "tr-rootfs-help": "Kořenový souborový systém jako samostatný obraz.",
     "tr-request-image": "Vyžádat obraz",
-    "tr-calculate_packages_hash": "Ověřování výběru balíčků",
+    "tr-calculate-packages-hash": "Ověřování výběru balíčků",
     "tr-build-size": "Vybrané balíčky přesahují kapacitu paměti zařízení",
     "tr-init": "Přijatá žádost o sestavení",
-    "tr-download_imagebuilder": "Stahování archivu ImageBuilder",
+    "tr-download-imagebuilder": "Stahování archivu ImageBuilder",
     "tr-factory-help": "K prvnímu nahrání OpenWrt do routeru použijte tovární (Factory) obraz. Obvykle tak učiníte prostřednictvím webového rozhraní původního firmwaru.",
     "tr-latest-releases": "Nejnovější"
 }

@@ -1,7 +1,7 @@
 {
     "tr-load": "Download OpenWrt firmware til din enhed",
     "tr-server-link": "Alle downloads",
-    "tr-notfound": "Ingen model fundet!",
+    "tr-not-found": "Ingen model fundet!",
     "tr-title": "OpenWrt firmwarevælger",
     "tr-message": "Indtast navnet eller modellen på din enhed, og vælg derefter et stabilt build eller et natligt \"snapshot\" build.",
     "tr-version-build": "Om dette build",
@@ -34,10 +34,10 @@
     "tr-links": "Links",
     "tr-build-size": "Udvalgte pakker overstiger enhedens lagerplads",
     "tr-init": "Modtaget build anmodning",
-    "tr-download_imagebuilder": "Download af ImageBuilder-arkiv",
-    "tr-unpack_imagebuilder": "Opsæt ImageBuilder",
-    "tr-calculate_packages_hash": "Validering af pakkevalg",
-    "tr-building_image": "Generering af firmware-image",
+    "tr-download-imagebuilder": "Download af ImageBuilder-arkiv",
+    "tr-unpack-imagebuilder": "Opsæt ImageBuilder",
+    "tr-calculate-packages-hash": "Validering af pakkevalg",
+    "tr-building-image": "Generering af firmware-image",
     "tr-packages": "Installerede pakker",
     "tr-defaults": "Script, der skal køres ved første opstart (uci-defaults)",
     "tr-latest-releases": "Seneste"

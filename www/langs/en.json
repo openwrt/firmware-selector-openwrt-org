@@ -2,7 +2,7 @@
     "tr-latest-releases": "Latest",
     "tr-feedback-link": "Feedback",
     "tr-server-link": "All Downloads",
-    "tr-notfound": "No model found!",
+    "tr-not-found": "No model found!",
     "tr-load": "Download OpenWrt Firmware for your Device",
     "tr-links": "Links",
     "tr-title": "OpenWrt Firmware Selector",
@@ -35,10 +35,10 @@
     "tr-check-again": "Check again in 5 seconds…",
     "tr-build-size": "Selected packages exceed device storage",
     "tr-init": "Received build request",
-    "tr-download_imagebuilder": "Downloading ImageBuilder archive",
-    "tr-unpack_imagebuilder": "Set up ImageBuilder",
-    "tr-calculate_packages_hash": "Validate package selection",
-    "tr-building_image": "Generating firmware image",
+    "tr-download-imagebuilder": "Downloading ImageBuilder archive",
+    "tr-unpack-imagebuilder": "Set up ImageBuilder",
+    "tr-calculate-packages-hash": "Validate package selection",
+    "tr-building-image": "Generating firmware image",
     "tr-packages": "Installed Packages",
     "tr-defaults": "Script to run on first boot (uci-defaults)"
 }

@@ -8,7 +8,7 @@
     "tr-request-build": "طلب نسخة",
     "tr-links": "الروابط",
     "tr-server-link": "جميع التنزيلات",
-    "tr-notfound": "لم يتم العثور على النموذج!",
+    "tr-not-found": "لم يتم العثور على النموذج!",
     "tr-title": "خيارات OpenWrt Firmware",
     "tr-load": "تنزيل OpenWrt Firmware لجهازك",
     "tr-message": "حدد الاسم والنموذج الصحيحين لجهازك, ثم اختار النسخة المستقرة او الإصدارات الليلية \"snapshot\".",
@@ -34,8 +34,8 @@
     "tr-sysupgrade-help": "استخدم صورة Sysupgrade لتحديث جهاز توجيه يقوم بالفعل بتشغيل OpenWrt. يمكن استخدام الصورة مع واجهة الويب LuCI أو الجهاز.",
     "tr-build-size": "البرنامج المختار يتجاوز مساحة تخزين الجهاز",
     "tr-init": "تم استلام طلب بناء",
-    "tr-download_imagebuilder": "تنزيل أرشيف ImageBuilder",
-    "tr-unpack_imagebuilder": "قم بإعداد ImageBuilder",
-    "tr-calculate_packages_hash": "تحقق من صحة اختيار البرنامج",
-    "tr-building_image": "إنشاء firmware image"
+    "tr-download-imagebuilder": "تنزيل أرشيف ImageBuilder",
+    "tr-unpack-imagebuilder": "قم بإعداد ImageBuilder",
+    "tr-calculate-packages-hash": "تحقق من صحة اختيار البرنامج",
+    "tr-building-image": "إنشاء firmware image"
 }

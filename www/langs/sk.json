@@ -5,7 +5,7 @@
     "tr-customize": "Prispôsobenie nainštalovaných balíkov a/alebo skriptu pre prvé spustenie",
     "tr-request-build": "VYŽIADAŤ ZOSTAVENIE",
     "tr-feedback-link": "Spätná väzba",
-    "tr-notfound": "Nenašiel sa žiadny model!",
+    "tr-not-found": "Nenašiel sa žiadny model!",
     "tr-version": "Verzia",
     "tr-server-link": "Všetky súbory na stiahnutie",
     "tr-date": "Dátum",
@@ -34,10 +34,10 @@
     "tr-sdcard-help": "Obraz, ktorý je určený na nahratie na SD kartu.",
     "tr-build-size": "Vybrané balíky presahujú kapacitu pamäte zariadenia",
     "tr-init": "Prijatá žiadosť o zostavenie",
-    "tr-unpack_imagebuilder": "Konfigurácia nástroja ImageBuilder",
-    "tr-calculate_packages_hash": "Overovanie výberu balíkov",
-    "tr-building_image": "Generovanie obrazu firmvéru",
-    "tr-download_imagebuilder": "Sťahovanie archívu ImageBuilder",
+    "tr-unpack-imagebuilder": "Konfigurácia nástroja ImageBuilder",
+    "tr-calculate-packages-hash": "Overovanie výberu balíkov",
+    "tr-building-image": "Generovanie obrazu firmvéru",
+    "tr-download-imagebuilder": "Sťahovanie archívu ImageBuilder",
     "tr-packages": "Nainštalované balíky",
     "tr-defaults": "Skript spustený pri prvom spustení systému (uci-defaults)"
 }

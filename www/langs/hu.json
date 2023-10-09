@@ -15,7 +15,7 @@
     "tr-request-image": "Lemezkép kérése",
     "tr-other-help": "Más lemezkép típus.",
     "tr-kernel-help": "Linux kernel külön lemezképként.",
-    "tr-notfound": "Modell nem található!",
+    "tr-not-found": "Modell nem található!",
     "tr-tftp-help": "A TFTP lemezképeket egy eszköz flashelésére a rendszerindító TFTP-módszerén keresztül használják.",
     "tr-factory-help": "Használj egy gyári lemezképet, hogy egy routerre flashelj OpenWrt-et első alkalommal. Ezt általában az eredeti firmware webes felülete használatával teheted meg.",
     "tr-target": "Platform",
@@ -36,8 +36,8 @@
     "tr-packages": "Installált Csomagok",
     "tr-build-size": "A kiválasztott csomagok meghaladják a tárhelyet",
     "tr-defaults": "Futtatandó Script első bootolásnál (uci-defaults)",
-    "tr-download_imagebuilder": "ImageBuilder csomag letöltése",
-    "tr-calculate_packages_hash": "Csomag kiválasztás érvényesítése",
-    "tr-unpack_imagebuilder": "ImageBuilder beállítása",
-    "tr-building_image": "Firmware kép generálása"
+    "tr-download-imagebuilder": "ImageBuilder csomag letöltése",
+    "tr-calculate-packages-hash": "Csomag kiválasztás érvényesítése",
+    "tr-unpack-imagebuilder": "ImageBuilder beállítása",
+    "tr-building-image": "Firmware kép generálása"
 }

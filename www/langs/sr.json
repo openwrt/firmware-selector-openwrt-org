@@ -1,7 +1,7 @@
 {
     "tr-feedback-link": "Povratna informacija",
     "tr-server-link": "Sva preuzimanja",
-    "tr-notfound": "Nije pronađen modul!",
+    "tr-not-found": "Nije pronađen modul!",
     "tr-load": "Preuzmi OpenWrt Firmware za tvoj uređaj",
     "tr-title": "OpenWrt Firmware Izbor",
     "tr-message": "Upišite naziv modela vašeg uređaja, zatim izaberite stabilni build ili noćni ( tkz. \"snapshot\") build.",

@@ -1,6 +1,6 @@
 {
     "tr-server-link": "Kaikki lataukset",
-    "tr-notfound": "Mallia ei löytynyt!",
+    "tr-not-found": "Mallia ei löytynyt!",
     "tr-load": "Lataa OpenWrt-laiteohjelmisto laitteellesi",
     "tr-title": "OpenWrt-laiteohjelmiston valitsin",
     "tr-message": "Kirjoita laitteesi mallin nimi, valitse sen jälkeen vakaa versio tai nightly-versio.",

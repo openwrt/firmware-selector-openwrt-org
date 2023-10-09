@@ -8,10 +8,10 @@ const ofs_version = "%GIT_VERSION%";
 
 let progress = {
   "tr-init": 10,
-  "tr-download_imagebuilder": 20,
-  "tr-unpack_imagebuilder": 40,
-  "tr-calculate_packages_hash": 60,
-  "tr-building_image": 80,
+  "tr-download-imagebuilder": 20,
+  "tr-unpack-imagebuilder": 40,
+  "tr-calculate-packages-hash": 60,
+  "tr-building-image": 80,
 };
 
 const $ = document.querySelector.bind(document);
@@ -73,12 +73,12 @@ function buildAsuRequest(request_hash) {
         break;
     }
 
-    const tr = message.startsWith("tr-") ? message : "";
+    const tr = message.startsWith("tr-") ? message.replace("_", "-") : "";
 
     let status = "";
     if (loading) {
       status += `<progress style='margin-right: 10px;' max='100' value=${
-        progress[message] || ""
+        progress[tr] || ""
       }></progress>`;
     }
 

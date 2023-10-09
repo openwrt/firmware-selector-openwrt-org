@@ -1,6 +1,6 @@
 {
     "tr-server-link": "Toate Descărcările",
-    "tr-notfound": "Nu s-a găsit niciun model!",
+    "tr-not-found": "Nu s-a găsit niciun model!",
     "tr-title": "Selector de firmware OpenWrt",
     "tr-message": "Introduceți numele sau modelul dispozitivului dvs., apoi selectați o versiune stabilă sau o versiune nightly \"snapshot\".",
     "tr-version-build": "Despre această compilare",
@@ -33,11 +33,11 @@
     "tr-build-failed": "Compilarea nu a reușit",
     "tr-links": "Linkuri",
     "tr-build-size": "Pachetele selectate depășesc capacitatea de stocare a dispozitivului",
-    "tr-download_imagebuilder": "Descărcarea arhivei ImageBuilder",
-    "tr-unpack_imagebuilder": "Configurați ImageBuilder",
+    "tr-download-imagebuilder": "Descărcarea arhivei ImageBuilder",
+    "tr-unpack-imagebuilder": "Configurați ImageBuilder",
     "tr-init": "Cerere de compilare primită",
-    "tr-calculate_packages_hash": "Validați selecția pachetului",
-    "tr-building_image": "Generarea imaginii firmware",
+    "tr-calculate-packages-hash": "Validați selecția pachetului",
+    "tr-building-image": "Generarea imaginii firmware",
     "tr-packages": "Pachete instalate",
     "tr-defaults": "Script de executat la prima pornire (uci-defaults)",
     "tr-latest-releases": "Cele mai recente"

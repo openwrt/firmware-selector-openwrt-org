@@ -1,6 +1,6 @@
 {
     "tr-server-link": "Όλες οι λήψεις",
-    "tr-notfound": "Δεν βρέθηκε μοντέλο!",
+    "tr-not-found": "Δεν βρέθηκε μοντέλο!",
     "tr-load": "Κατεβάστε λογισμικό OpenWrt για τη συσκευή σας",
     "tr-title": "Επιλογέας Λογισμικού OpenWrt",
     "tr-version-build": "Σχετικά με αυτήν την έκδοση",
@@ -34,8 +34,8 @@
     "tr-links": "Σύνδεσμοι",
     "tr-build-size": "Τα επιλεγμένα πακέτα υπερβαίνουν τον χώρο αποθήκευσης της συσκευής",
     "tr-init": "Λήφθηκε αίτημα κατασκευής",
-    "tr-download_imagebuilder": "Λήψη αρχείου ImageBuilder",
-    "tr-unpack_imagebuilder": "Ρύθμιση ImageBuilder",
-    "tr-calculate_packages_hash": "Επικύρωση επιλεγμένων πακέτων",
-    "tr-building_image": "Δημιουργία εικόνας λογισμικού"
+    "tr-download-imagebuilder": "Λήψη αρχείου ImageBuilder",
+    "tr-unpack-imagebuilder": "Ρύθμιση ImageBuilder",
+    "tr-calculate-packages-hash": "Επικύρωση επιλεγμένων πακέτων",
+    "tr-building-image": "Δημιουργία εικόνας λογισμικού"
 }

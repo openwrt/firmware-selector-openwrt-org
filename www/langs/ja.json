@@ -4,7 +4,7 @@
     "tr-custom-build": "カスタムビルド",
     "tr-customize": "インストールされるパッケージのカスタマイズ",
     "tr-request-build": "ビルドをリクエスト",
-    "tr-notfound": "モデルが見つかりませんでした！",
+    "tr-not-found": "モデルが見つかりませんでした！",
     "tr-load": "デバイス用のOpenWrtファームウェアをダウンロード",
     "tr-message": "名前またはモデル名を入力し、リリースビルドまたは \"snapshot\" ビルドを選択します。",
     "tr-version-build": "このビルドについて",
@@ -33,9 +33,9 @@
     "tr-cpximg-help": "純正ファームウェアのsysupgrade、または内蔵のcpximg loaderで使用します。",
     "tr-eva-help": "OpenWrtとブートローダーのイメージ。",
     "tr-check-again": "5 秒後にもう一度確認してください...",
-    "tr-download_imagebuilder": "イメージビルダーアーカイブのダウンロード",
-    "tr-unpack_imagebuilder": "イメージビルダーのセットアップ",
-    "tr-calculate_packages_hash": "検証されたパッケージ",
-    "tr-building_image": "ファームウェアイメージの生成",
+    "tr-download-imagebuilder": "イメージビルダーアーカイブのダウンロード",
+    "tr-unpack-imagebuilder": "イメージビルダーのセットアップ",
+    "tr-calculate-packages-hash": "検証されたパッケージ",
+    "tr-building-image": "ファームウェアイメージの生成",
     "tr-init": "ビルド要求の受信"
 }

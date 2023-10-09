@@ -1,5 +1,5 @@
 {
-    "tr-notfound": "¡Modelo no encontrado!",
+    "tr-not-found": "¡Modelo no encontrado!",
     "tr-load": "Descargue el firmware OpenWrt para su dispositivo",
     "tr-title": "Selector de firmware OpenWrt",
     "tr-message": "Escriba el nombre o modelo de su dispositivo, luego seleccione la versión estable o la compilación nocturna \"snapshot\".",
@@ -34,10 +34,10 @@
     "tr-links": "Enlaces",
     "tr-build-size": "Los paquetes seleccionados exceden la capacidad de almacenamiento del dispositivo",
     "tr-init": "Solicitud de compilación recibida",
-    "tr-download_imagebuilder": "Descargando archivo de ImageBuilder",
-    "tr-unpack_imagebuilder": "Configurar ImageBuilder",
-    "tr-calculate_packages_hash": "Validar selección de paquetes",
-    "tr-building_image": "Generando imagen de firmware",
+    "tr-download-imagebuilder": "Descargando archivo de ImageBuilder",
+    "tr-unpack-imagebuilder": "Configurar ImageBuilder",
+    "tr-calculate-packages-hash": "Validar selección de paquetes",
+    "tr-building-image": "Generando imagen de firmware",
     "tr-packages": "Paquetes instalados",
     "tr-defaults": "Script para ejecutar en el primer arranque (uci-defaults)",
     "tr-latest-releases": "Última"
