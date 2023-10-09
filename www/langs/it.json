@@ -39,5 +39,6 @@
     "tr-build-size": "I pacchetti selezionati superano lo spazio di archiviazione del dispositivo",
     "tr-download-imagebuilder": "Scaricamento dell'archivio di ImageBuilder",
     "tr-packages": "Pacchetti installati",
-    "tr-defaults": "Script da eseguire al primo avvio (uci-defaults)"
+    "tr-defaults": "Script da eseguire al primo avvio (uci-defaults)",
+    "tr-latest-releases": "Ultimo/a"
 }
