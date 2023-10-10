@@ -73,7 +73,7 @@ function buildAsuRequest(request_hash) {
         break;
     }
 
-    const tr = message.startsWith("tr-") ? message.replace("_", "-") : "";
+    const tr = message.startsWith("tr-") ? message.replaceAll("_", "-") : "";
 
     let status = "";
     if (loading) {
