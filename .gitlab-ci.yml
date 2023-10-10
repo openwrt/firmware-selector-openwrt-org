@@ -31,7 +31,7 @@ check HTML, CSS and SVG with html5validator:
     - apt-get update; apt-get install -y make rsync
   script:
     - cp -R ./www ./build
-    - misc/collect.py --insert-latest-release rsync://downloads.openwrt.org/downloads/ build
+    - misc/collect.py rsync://downloads.openwrt.org/downloads/ build
   artifacts:
     expire_in: 1 week
     when: always
@@ -66,7 +66,7 @@ build site for target environment using remote directory:
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html build/index.js
     - sed -i "s;  // asu_url;  asu_url;" build/config.js
     - sed -i "s;  // asu_extra_packages;  asu_extra_packages;" build/config.js
-    - misc/collect.py --insert-latest-release --latest-release-pattern '[0-9.]+(-rc[0-9]+)?' --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' rsync://downloads.openwrt.org/downloads/ build
+    - misc/collect.py --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' rsync://downloads.openwrt.org/downloads/ build
 
 build site for target environment using local directory:
   extends: .build site
@@ -75,7 +75,7 @@ build site for target environment using local directory:
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html build/index.js
     - sed -i "s;  // asu_url;  asu_url;" build/config.js
     - sed -i "s;  // asu_extra_packages;  asu_extra_packages;" build/config.js
-    - misc/collect.py --insert-latest-release --latest-release-pattern '[0-9.]+(-rc[0-9]+)?' --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' tests/profiles build
+    - misc/collect.py --version-pattern 'SNAPSHOT|[0-9.]+(-rc[0-9]+)?' tests/profiles build
 
 .test site:
   stage: test
