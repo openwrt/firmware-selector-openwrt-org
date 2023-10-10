@@ -37,7 +37,7 @@
     "tr-download-imagebuilder": "下载 ImageBuilder 存档中",
     "tr-unpack-imagebuilder": "配置 ImageBuilder",
     "tr-calculate-packages-hash": "验证包选择",
-    "tr-building-image": "生成固件映像",
+    "tr-building-image": "正在生成固件映像",
     "tr-packages": "已安装的软件包",
     "tr-defaults": "首次启动时运行的脚本（uci-defaults）",
     "tr-latest-releases": "最新"
