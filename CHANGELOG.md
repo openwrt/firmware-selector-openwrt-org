@@ -2,6 +2,17 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v4.0.0 - 2023-10-10
+
+* Translation updates and fixes
+  * new Georgian translation
+* Remove variables from "image_url" in config.js and collect.py
+  * Breaks backwards compatibility!
+* Add rsync support to collect.py
+* Allow insertion of artificial "latest" release
+  * Contains the last image for every model
+  * collect.py --insert-latest-release
+
 ## v3.8.7 - 2023-08-05
 
 * Translation updates and fixes (add Czech and Lithuanian)
