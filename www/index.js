@@ -88,7 +88,7 @@ function buildAsuRequest(request_hash) {
     translate();
   }
 
-  if (!current_device || !current_device.model_id) {
+  if (!current_device || !current_device.id) {
     showStatus("bad profile");
     return;
   }
@@ -134,7 +134,7 @@ function buildAsuRequest(request_hash) {
               hide("#log");
             }
             showStatus("tr-build-successful", false, "info");
-            mobj["model_id"] = current_device.model_id;
+            mobj["id"] = current_device.id;
             updateImages(mobj, {
               image_url: image_url,
             });
@@ -553,7 +553,7 @@ function updateImages(mobj) {
       (config.info_url || "")
         .replace("{title}", encodeURI($("#models").value))
         .replace("{target}", mobj.target)
-        .replace("{id}", mobj.model_id)
+        .replace("{id}", mobj.id)
         .replace("{version}", mobj.version_number)
     );
 
@@ -565,7 +565,7 @@ function updateImages(mobj) {
         "&target=" +
         encodeURIComponent(mobj.target) +
         "&id=" +
-        encodeURIComponent(mobj.model_id)
+        encodeURIComponent(mobj.id)
     );
 
     images.sort((a, b) => a.name.localeCompare(b.name));
@@ -624,7 +624,7 @@ function updateImages(mobj) {
         "&target=" +
         encodeURIComponent(mobj.target) +
         "&id=" +
-        encodeURIComponent(mobj.model_id)
+        encodeURIComponent(mobj.id)
     );
 
     hide("#notfound");
@@ -643,14 +643,11 @@ function updateImages(mobj) {
 }
 
 // Update model title in search box.
-function setModel(overview, target, model_id) {
-  if (target && model_id) {
+function setModel(overview, target, id) {
+  if (target && id) {
     const title = $("#models").value;
     for (const mobj of Object.values(overview.profiles)) {
-      if (
-        (mobj.target === target && mobj.model_id === model_id) ||
-        mobj.title === title
-      ) {
+      if ((mobj.target === target && mobj.id === id) || mobj.title === title) {
         $("#models").value = mobj.title;
         $("#models").oninput();
         return;
@@ -662,18 +659,18 @@ function setModel(overview, target, model_id) {
 function changeModel(version, overview, title, base_url) {
   const entry = overview.profiles[title];
   if (entry) {
-    fetch(`${base_url}/${entry.target}/${entry.model_id}.json`, {
+    fetch(`${base_url}/${entry.target}/${entry.id}.json`, {
       cache: "no-cache",
     })
       .then((obj) => {
         return obj.json();
       })
       .then((mobj) => {
-        mobj["model_id"] = entry.model_id;
+        mobj["id"] = entry.id;
         updateImages(mobj);
         current_device = {
           version: version,
-          model_id: entry.model_id,
+          id: entry.id,
           target: entry.target,
         };
       });
@@ -767,15 +764,12 @@ function init() {
           for (let title of getModelTitles(profile.titles)) {
             if (title.length == 0) {
               console.warn(
-                `Empty device title for model id: ${profile.target}, ${profile.model_id}`
+                `Empty device title for model id: ${profile.target}, ${profile.id}`
               );
               continue;
             }
 
-            const e = Object.assign(
-              { model_id: profile.model_id, title: title },
-              profile
-            );
+            const e = Object.assign({ id: profile.id, title: title }, profile);
             resolve_duplicate(e);
             profiles.push(e);
           }
@@ -800,7 +794,7 @@ function init() {
         setModel(
           obj,
           current_device["target"] || url_params.get("target"),
-          current_device["model_id"] || url_params.get("id")
+          current_device["id"] || url_params.get("id")
         );
 
         // trigger update of current selected model

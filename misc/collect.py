@@ -44,7 +44,7 @@ def create_overview_json(release_name, profiles):
             {
                 "target": profile["target"],
                 "titles": profile["titles"],
-                "model_id": profile["model_id"],
+                "id": profile["id"],
             }
         )
 
@@ -98,7 +98,7 @@ def add_profile(releases, args, file_path, file_content, file_last_modified):
         profile = {**file_content, **model_obj}
         profile["build_at"] = file_last_modified
         profile["image_path"] = file_path
-        profile["model_id"] = model_id
+        profile["id"] = model_id
         del profile["profiles"]
         releases.setdefault(version, []).append(profile)
 
@@ -181,7 +181,7 @@ def write_data(releases, args):
                 "data",
                 release_name,
                 profile["target"],
-                "{}.json".format(profile["model_id"]),
+                "{}.json".format(profile["id"]),
             )
             write_json(profile_path, profile, args.formatted)
 
