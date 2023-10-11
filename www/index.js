@@ -125,7 +125,6 @@ function buildAsuRequest(request_hash) {
           showStatus("tr-build-successful", false, "info");
 
           response.json().then((mobj) => {
-            const image_url = config.asu_url + "/store/" + mobj.bin_dir;
             if ("stderr" in mobj) {
               $("#stderr").innerText = mobj.stderr;
               $("#stdout").innerText = mobj.stdout;
@@ -135,9 +134,8 @@ function buildAsuRequest(request_hash) {
             }
             showStatus("tr-build-successful", false, "info");
             mobj["id"] = current_device.id;
-            updateImages(mobj, {
-              image_url: image_url,
-            });
+            mobj["asu_image_url"] = config.asu_url + "/store/" + mobj.bin_dir;
+            updateImages(mobj);
           });
           break;
         case 202:
@@ -526,7 +524,12 @@ function updateImages(mobj) {
 
   if (mobj) {
     const images = mobj.images;
-    const image_folder = config.image_url + mobj.image_path;
+    let image_folder = config.image_url + mobj.image_path;
+
+    // ASU override
+    if ("asu_image_url" in mobj) {
+      image_folder = mobj.asu_image_url;
+    }
 
     const h3 = $("#downloads1 h3");
     if ("build_cmd" in mobj) {
