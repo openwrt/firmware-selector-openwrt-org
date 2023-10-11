@@ -67,7 +67,7 @@
 }
 
 /* adjust for mobile view */
-@media (min-resolution: 400dpi), (max-width: 600px) {
+@media (min-resolution: 400dpi), (max-width: 600px), (pointer: coarse) {
   #models-autocomplete {
     /* move version selection in a new line */
     flex-direction: column;
