@@ -15,13 +15,17 @@ Configure with [config.js](www/config.js).
 
 ## Installation
 
-Place the `www/` folder somewhere web accessible. Then use the `collect.py` script to update `www/config.json` and to write all device data into `www/data/`:
+Place the `www/` folder somewhere web accessible. Then use the `collect.py` script to collect all the `profiles.json` files a OpenWrt build has generated. The data will be written to `www/data/` and `www/config.json` will be updated:
 
+Scrape from a web site:
 ```
 ./misc/collect.py https://downloads.openwrt.org  www/
 ```
-or for local accessible OpenWrt builds:
-
+or via rsync (faster):
+```
+./misc/collect.py rsync://downloads.openwrt.org/downloads  www/
+```
+or scan a local OpenWrt build folder:
 ```
 ./misc/collect.py ~/openwrt/bin  www/
 ```
