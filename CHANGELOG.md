@@ -2,6 +2,10 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v4.0.1 - 2023-10-11
+
+* fix ASU image path handling
+
 ## v4.0.0 - 2023-10-10
 
 * Translation updates and fixes
