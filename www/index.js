@@ -56,20 +56,23 @@ function buildAsuRequest(request_hash) {
   $$("#download-table1 *").forEach((e) => e.remove());
   $$("#download-links2 *").forEach((e) => e.remove());
   $$("#download-extras2 *").forEach((e) => e.remove());
-  hide("#log");
+  hide("#asu-log");
 
   function showStatus(message, loading, type) {
+    const bs = $("#asu-buildstatus");
     switch (type) {
       case "error":
-        $("#buildstatus").style.backgroundColor = "#f8d7da";
-        show("#buildstatus");
+        bs.classList.remove("asu-info");
+        bs.classList.add("asu-error");
+        show(bs);
         break;
       case "info":
-        $("#buildstatus").style.backgroundColor = "#d1ecf1";
-        show("#buildstatus");
+        bs.classList.remove("asu-error");
+        bs.classList.add("asu-info");
+        show(bs);
         break;
       default:
-        hide("#buildstatus");
+        hide(bs);
         break;
     }
 
@@ -84,7 +87,7 @@ function buildAsuRequest(request_hash) {
 
     status += `<span class="${tr}">${message}</span>`;
 
-    $("#buildstatus").getElementsByTagName("span")[0].innerHTML = status;
+    $("#asu-buildstatus").getElementsByTagName("span")[0].innerHTML = status;
     translate();
   }
 
@@ -98,7 +101,7 @@ function buildAsuRequest(request_hash) {
   var body = JSON.stringify({
     profile: current_device.id,
     target: current_device.target,
-    packages: split($("#packages").value),
+    packages: split($("#asu-packages").value),
     defaults: $("#uci-defaults-content").value,
     version: $("#versions").value,
     diff_packages: true,
@@ -126,11 +129,11 @@ function buildAsuRequest(request_hash) {
 
           response.json().then((mobj) => {
             if ("stderr" in mobj) {
-              $("#stderr").innerText = mobj.stderr;
-              $("#stdout").innerText = mobj.stdout;
-              show("#log");
+              $("#asu-stderr").innerText = mobj.stderr;
+              $("#asu-stdout").innerText = mobj.stdout;
+              show("#asu-log");
             } else {
-              hide("#log");
+              hide("#asu-log");
             }
             showStatus("tr-build-successful", false, "info");
             mobj["id"] = current_device.id;
@@ -153,16 +156,16 @@ function buildAsuRequest(request_hash) {
         case 500: // build failed
           response.json().then((mobj) => {
             if ("stderr" in mobj) {
-              $("#stderr").innerText = mobj.stderr;
-              $("#stdout").innerText = mobj.stdout;
-              show("#log");
+              $("#asu-stderr").innerText = mobj.stderr;
+              $("#asu-stdout").innerText = mobj.stdout;
+              show("#asu-log");
 
               if (mobj["stderr"].includes("images are too big")) {
                 showStatus("tr-build-size", false, "error");
                 return;
               }
             } else {
-              hide("#log");
+              hide("#asu-log");
             }
 
             let status = mobj["detail"] || "tr-build-failed";
@@ -608,7 +611,7 @@ function updateImages(mobj) {
 
     if ("manifest" in mobj === false) {
       // only refresh package list if not data from ASU
-      $("#packages").value = mobj.default_packages
+      $("#asu-packages").value = mobj.default_packages
         .concat(mobj.device_packages)
         .concat(config.asu_extra_packages || [])
         .sort()

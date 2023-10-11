@@ -1,6 +1,75 @@
+/* light mode */
+@media (prefers-color-scheme: light) {
+  header {
+    background-color: #00a3e1;
+  }
+
+  body {
+    background-color: #f5f5f5;
+    color: black;
+  }
+
+  #image-info,
+  #image-folder,
+  #image-link {
+    /* black */
+    filter: invert(0%) sepia(90%) saturate(970%) hue-rotate(149deg)
+      brightness(115%) contrast(108%);
+  }
+
+  .container > div {
+    background-color: #fff;
+  }
+
+  .asu-info {
+    background-color: #d1ecf1;
+  }
+
+  .asu-error {
+    background-color: #f8d7da;
+  }
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  header {
+    background-color: #0080b3;
+  }
+
+  body {
+    background-color: #18181b;
+    color: #d0d0d0;
+  }
+
+  #image-info,
+  #image-folder,
+  #image-link {
+    /* white */
+    filter: invert(100%) sepia(9%) saturate(261%) hue-rotate(281deg)
+      brightness(117%) contrast(100%);
+  }
+
+  .container > div {
+    background-color: #252528;
+  }
+
+  .autocomplete-items div {
+    background-color: #252528 !important;
+  }
+
+  .asu-info {
+    background-color: #1d4046;
+  }
+
+  .asu-error {
+    background-color: #601b21;
+  }
+}
+
+/* adjust for mobile view */
 @media (min-resolution: 400dpi), (max-width: 600px) {
-  /* move version selection in a new line */
   #models-autocomplete {
+    /* move version selection in a new line */
     flex-direction: column;
   }
 
@@ -27,7 +96,6 @@
 
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f5f5f5;
   padding: 0;
   margin: 0;
 }
@@ -93,7 +161,6 @@ header {
   box-shadow: 0em 0.125em 0.25em -0.06em rgba(0, 0, 0, 0.2),
     0em 0.25em 0.3em 0em rgba(0, 0, 0, 0.14),
     0em 0.06em 0.625em 0em rgba(0, 0, 0, 0.12);
-  background-color: #00a3e1;
 }
 
 h6 {
@@ -112,7 +179,6 @@ header > div {
   display: flex;
   position: relative;
   align-items: center;
-  color: #fff;
 }
 
 .container {
@@ -132,9 +198,7 @@ header > div {
     0em 0.06em 0.06em 0em rgba(0, 0, 0, 0.14),
     0em 0.125em 0.06em -0.06em rgba(0, 0, 0, 0.12);
   border-radius: 0.25em;
-  color: rgba(0, 0, 0, 0.87);
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  background-color: #fff;
 }
 
 #versions {
@@ -352,17 +416,17 @@ header > div {
   background-color: #038fc6;
 }
 
-.alert {
+#asu-buildstatus {
   padding: 20px;
   margin-bottom: 15px;
 }
 
-#stdout,
-#stderr {
+#asu-stdout,
+#asu-stderr {
   overflow: scroll;
 }
 
-#packages,
+#asu-packages,
 #uci-defaults-content,
 #uci-defaults-group {
   resize: none;
