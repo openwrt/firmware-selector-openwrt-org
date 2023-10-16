@@ -21,6 +21,10 @@
     background-color: #fff;
   }
 
+  .autocomplete-items div {
+    background-color: #fff;
+  }
+
   .asu-info {
     background-color: #d1ecf1;
   }
@@ -54,7 +58,7 @@
   }
 
   .autocomplete-items div {
-    background-color: #252528 !important;
+    background-color: #252528;
   }
 
   .asu-info {
@@ -70,11 +74,11 @@
 @media (min-resolution: 400dpi), (max-width: 600px), (pointer: coarse) {
   #models-autocomplete {
     /* move version selection in a new line */
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
   #versions {
-    margin-top: 0.5em;
+    margin-top: 0.5em !important;
   }
 
   .autocomplete > input {
@@ -139,7 +143,6 @@ a {
 .autocomplete-items div {
   padding: 0.8em;
   cursor: pointer;
-  background-color: #fff;
   border-bottom: 0.1em solid #d4d4d4;
 }
 
