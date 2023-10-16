@@ -257,7 +257,7 @@ def use_find(args):
             add_profile(
                 releases,
                 args,
-                os.path.relpath(path, args.release_src),
+                os.path.relpath(os.path.dirname(path), args.release_src),
                 json.loads(content),
                 last_modified,
             )
