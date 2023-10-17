@@ -2,6 +2,11 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v4.0.2 - 2023-10-17
+
+* add support for ligt/dark scheme
+* better mobile screen detection
+
 ## v4.0.1 - 2023-10-11
 
 * fix ASU image path handling
