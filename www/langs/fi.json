@@ -12,7 +12,7 @@
     "tr-custom-downloads": "Mukautetut lataukset",
     "tr-feedback-link": "Palaute",
     "tr-version-build": "Tietoja tästä koonnista",
-    "tr-customize": "Mukauta",
+    "tr-customize": "Mukauta asennettuja paketteja ja/tai ensimmäisen käynnistyksen komentosarjaa",
     "tr-model": "Malli",
     "tr-target": "Alusta",
     "tr-eva-help": "Levykuva OpenWrt:llä ja käynnistyslataajalla.",
@@ -23,7 +23,11 @@
     "tr-build-successful": "Koonti onnistui",
     "tr-build-failed": "Koonti epäonnistui",
     "tr-request-image": "Pyydä levykuva",
-    "tr-check-again": "Tarkista uudelleen 5 sekunnin kuluttua...",
+    "tr-check-again": "Tarkista uudelleen 5 sekunnin kuluttua…",
     "tr-initramfs-help": "Linux-ydin minimalistisen tiedostojärjestelmän kera. Hyödyllinen ensimmäistä asennusta tai palautusta varten.",
-    "tr-links": "Linkit"
+    "tr-links": "Linkit",
+    "tr-latest-releases": "Uusin",
+    "tr-packages": "Asennetut paketit",
+    "tr-build-size": "Valitut paketit tarvitsevat enemmän tilaa kuin laitteessa on tarjolla",
+    "tr-defaults": "Ensimmäisellä käynnistyksellä suoritettava komentosarja (uci-defaults)"
 }
