@@ -36,7 +36,7 @@
     "tr-init": "Build-Anfrage erhalten",
     "tr-download-imagebuilder": "ImageBuilder-Archiv wird heruntergeladen",
     "tr-unpack-imagebuilder": "ImageBuilder einrichten",
-    "tr-calculate-packages-hash": "Paketauswahl bestätigen",
+    "tr-calculate-packages-hash": "Überprüfe Paketauswahl",
     "tr-building-image": "Firmware-Image wird erzeugt",
     "tr-packages": "Installierte Pakete",
     "tr-defaults": "Skript, das beim ersten Start ausgeführt werden soll (uci-defaults)",
