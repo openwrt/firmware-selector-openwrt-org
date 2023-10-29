@@ -39,5 +39,6 @@
     "tr-unpack-imagebuilder": "ImageBuilder'ı kur",
     "tr-calculate-packages-hash": "Paket seçimini doğrula",
     "tr-packages": "Kurulu Paketler",
-    "tr-defaults": "İlk önyüklemede çalıştırılacak betik (uci-defaults)"
+    "tr-defaults": "İlk önyüklemede çalıştırılacak betik (uci-defaults)",
+    "tr-latest-releases": "Son Sürümler"
 }
