@@ -2,7 +2,7 @@
     "tr-load": "Aygıtınız için OpenWrt yazılımını indirin",
     "tr-title": "OpenWrt Yazılım Seçicisi",
     "tr-message": "Aygıtınızın adını veya modelini yazın, ardından kararlı bir sürüm veya gecelik \"anlık görüntü\" sürümünü seçin.",
-    "tr-version-build": "Sürüm",
+    "tr-version-build": "Bu sürüm hakkında",
     "tr-custom-build": "Özel Sürüm",
     "tr-customize": "Kurulu paketleri ve/veya ilk önyükleme betiğini özelleştir",
     "tr-request-build": "SÜRÜM OLUŞTUR",
