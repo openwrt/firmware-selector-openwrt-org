@@ -39,5 +39,6 @@
     "tr-calculate-packages-hash": "Bekreft pakkeutvalg",
     "tr-building-image": "Genererer fastvare avbildning",
     "tr-packages": "Installerte pakker",
-    "tr-defaults": "Skript som kjøres ved første oppstart (uci-defaults)"
+    "tr-defaults": "Skript som kjøres ved første oppstart (uci-defaults)",
+    "tr-latest-releases": "Siste"
 }
