@@ -4,7 +4,7 @@
     "tr-load": "下载适用于您设备的 OpenWrt 固件",
     "tr-title": "OpenWrt 固件选择器",
     "tr-message": "输入设备的名称或型号，然后选择一个稳定或快照版本。",
-    "tr-version-build": "关于构建",
+    "tr-version-build": "关于此构建",
     "tr-custom-build": "自定义构建",
     "tr-customize": "自定义已安装的软件包和/或首次启动脚本",
     "tr-request-build": "请求构建",
