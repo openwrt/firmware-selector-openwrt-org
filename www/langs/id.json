@@ -39,5 +39,6 @@
     "tr-building-image": "Membuat image frimware",
     "tr-unpack-imagebuilder": "Menyiapkan ImageBuilder",
     "tr-packages": "Paket Terinstall",
-    "tr-defaults": "Skript berjalan waktu boot pertama (uci-defaults)"
+    "tr-defaults": "Skript berjalan waktu boot pertama (uci-defaults)",
+    "tr-latest-releases": "Terbaru"
 }
