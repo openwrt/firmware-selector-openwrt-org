@@ -2,6 +2,11 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v4.0.4 - 2023-12-15
+
+* translation updates
+* add Galician translation
+
 ## v4.0.3 - 2023-11-16
 
 * translation updates
