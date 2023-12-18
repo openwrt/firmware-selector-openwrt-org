@@ -39,5 +39,6 @@
     "tr-init": "S'ha rebut la petició de compilació",
     "tr-calculate-packages-hash": "Validar la selecció de paquets",
     "tr-building-image": "S'està generant la imatge del microprogramari",
-    "tr-download-imagebuilder": "S'està descarregant l'arxiu ImageBuilder"
+    "tr-download-imagebuilder": "S'està descarregant l'arxiu ImageBuilder",
+    "tr-latest-releases": "Última"
 }
