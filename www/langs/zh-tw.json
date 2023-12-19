@@ -39,5 +39,6 @@
     "tr-building-image": "產生韌體映像",
     "tr-init": "已收到建置請求",
     "tr-packages": "已安裝的套件",
-    "tr-defaults": "首次啟動時運行的文稿（uci 預設值）"
+    "tr-defaults": "首次啟動時運行的文稿（uci 預設值）",
+    "tr-latest-releases": "最新"
 }
