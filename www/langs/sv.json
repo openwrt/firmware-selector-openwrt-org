@@ -39,5 +39,6 @@
     "tr-calculate-packages-hash": "Bekräfta paketval",
     "tr-building-image": "Genererar avbilden för den inre mjukvaran",
     "tr-packages": "Installerade paket",
-    "tr-defaults": "Skript som ska köras vid första uppstarten (uci-defaults)"
+    "tr-defaults": "Skript som ska köras vid första uppstarten (uci-defaults)",
+    "tr-latest-releases": "Senaste"
 }
