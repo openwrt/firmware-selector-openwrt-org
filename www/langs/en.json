@@ -3,7 +3,7 @@
     "tr-feedback-link": "Feedback",
     "tr-server-link": "All Downloads",
     "tr-not-found": "No model found!",
-    "tr-load": "Download OpenWrt Firmware for your Device",
+    "tr-load": "Download OpenWrt firmware for your device",
     "tr-links": "Links",
     "tr-title": "OpenWrt Firmware Selector",
     "tr-message": "Type the name or model of your device, then select a stable build or the nightly \"snapshot\" build.",
