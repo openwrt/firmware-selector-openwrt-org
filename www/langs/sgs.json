@@ -1,7 +1,7 @@
 {
-    "tr-load": "Atsėsiost „OpenWrt“ pruogramėnė īronga tamstuos sėstemā",
+    "tr-load": "Atsėsiost „OpenWrt“ pruogramėnė pariedīma tamstuos sėstemā",
     "tr-sdcard-help": "Laikmena, katras tor būt ėrašīts ont „SD-Kuortos“.",
-    "tr-title": "„OpenWrt“ pruogramėnės īronguos sosėlasītėms",
+    "tr-title": "„OpenWrt“ pruogramėnės pariedīma sosėlasītėms",
     "tr-not-found": "Nikuoks muodėlis nerasts!",
     "tr-version-build": "Aple šin laikmena",
     "tr-latest-releases": "Paskiausė",
@@ -25,5 +25,20 @@
     "tr-request-build": "LŪGUOTĖ LAIKMENA",
     "tr-custom-build": "Sosėlasītėnė laikmena",
     "tr-request-image": "Lūguotė laikmena",
-    "tr-rootfs-help": "„Root“ failū sėstema kāp atskėra laikmena."
+    "tr-rootfs-help": "„Root“ failū sėstema kāp atskėra laikmena.",
+    "tr-packages": "Īdiegtė paketā",
+    "tr-dtb-help": "Pariedīma medžio „blob“. Šis fails, konfėgūruoj „Linux Kernel“ tamstuos pariedīmā.",
+    "tr-initramfs-help": "„Linux kernel“ so maža failū sėstema. Naudėnga pėrmam ėdėgėmōj aba atkūrėma.",
+    "tr-calculate-packages-hash": "Tikrėnt paketū sosėlasītėistė",
+    "tr-check-again": "Tikrėnt apėntās puo 5 sekondžiu…",
+    "tr-defaults": "Skrėpts, skėrts palēst pėrmam palēdėme („uci-defaults“)",
+    "tr-download-imagebuilder": "Atsėsiunčėms „ImageBuilder“ arhīvs",
+    "tr-message": "Īvest pavadėnėma aba muodeli pariedīmuo, tumet pasirenkėt stabėlū aba „nightly snapshot“ laikmena.",
+    "tr-uboot-help": "Palēdėma pajongėma laikmena. Pruograma katra paleidž uoperacėnė sėstema onkstė ont palēdėma.",
+    "tr-factory-help": "Naudout fabrėka laikmena īrašīt maršrutizatoriū so „OpenWrt“ pėrma sīki. Tamsta pagatavs padėrbtė par tėnklopi originalie pruogramėnėj pariedīmė.",
+    "tr-cpximg-help": "Naudout so „sysupgrade“ naudoujōnt tėpėne pruogramėne pariedīma aba so īrengtu „cpximg loader“.",
+    "tr-tftp-help": "„TFTP“ laikmenas naudoujoms īrašīt pariedīmo par „TFTP“ metuoda, palēdėma pajongėma.",
+    "tr-sysupgrade-help": "Naudout „Sysupgrade“ laikmena atnaujėnt maršrutizatoriū katras dėrba „OpenWrt“. Laikmena gal būt ėr naudoujama so „LuCI“ tėnklapio aba tėrmėnala.",
+    "tr-unpack-imagebuilder": "„ImageBuilder“ pariedīms",
+    "tr-building-image": "Kūrėms pruogramėnės pariedīmuo laikmena"
 }
