@@ -29,5 +29,7 @@
     "tr-latest-releases": "Uusin",
     "tr-packages": "Asennetut paketit",
     "tr-build-size": "Valitut paketit tarvitsevat enemmän tilaa kuin laitteessa on tarjolla",
-    "tr-defaults": "Ensimmäisellä käynnistyksellä suoritettava komentosarja (uci-defaults)"
+    "tr-defaults": "Ensimmäisellä käynnistyksellä suoritettava komentosarja (uci-defaults)",
+    "tr-tftp-help": "TFTP-tiedostoja käytetään firmwaren asentamiseen käynnistyslataajan (bootloader) TFTP-toiminnon kautta.",
+    "tr-sysupgrade-help": "Käytä \"Sysupgrade\"-tiedostoa päivitykseen laitteella jossa on jo OpenWrt käytössä. Sysupgrade-tiedoston voi ladata LuCI-käyttöliittymässä tai pääte-emulaattorilla."
 }
