@@ -212,11 +212,14 @@ def use_wget(args):
 
     with tempfile.TemporaryDirectory() as tmp_path:
         # download all profiles.json files
-        os.system(
+        rc = os.system(
             'wget -c -r -P {} -A "profiles.json" --limit-rate=1M --reject-regex "kmods|packages" --no-parent {}'.format(
                 tmp_path, args.release_src
             )
         )
+
+        if rc != 0:
+            sys.exit(1)
 
         # create overview.json files
         base = os.path.join(
@@ -233,11 +236,14 @@ def use_rsync(args):
 
     with tempfile.TemporaryDirectory() as tmp_path:
         # download all profiles.json files
-        os.system(
+        rc = os.system(
             'rsync --bwlimit=1M --del -m -r -t -v --include="*/" --include="profiles.json" --exclude="*" {} {}'.format(
                 args.release_src, tmp_path
             )
         )
+
+        if rc != 0:
+            sys.exit(1)
 
         collect_profiles(releases, tmp_path, tmp_path, args)
 
