@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "olimex_a10-olinuxino-lime",
+  "id": "olimex_a10-olinuxino-lime",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "olimex,a10-olinuxino-lime"

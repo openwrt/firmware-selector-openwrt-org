@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "v11st-fe",
+  "id": "v11st-fe",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "v11st-fe"

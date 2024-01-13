@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_routerboard-lhg-5nd",
+  "id": "mikrotik_routerboard-lhg-5nd",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mikrotik,routerboard-lhg-5nd"

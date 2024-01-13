@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asus_rt-n10p-v2",
+  "id": "asus_rt-n10p-v2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "asus,rt-n10p-v2"

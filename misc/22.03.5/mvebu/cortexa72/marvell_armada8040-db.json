@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "marvell_armada8040-db",
+  "id": "marvell_armada8040-db",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "marvell,armada8040-db"

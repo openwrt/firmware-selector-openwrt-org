@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wavlink_ws-wn572hp3-4g",
+  "id": "wavlink_ws-wn572hp3-4g",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "wavlink,ws-wn572hp3-4g"

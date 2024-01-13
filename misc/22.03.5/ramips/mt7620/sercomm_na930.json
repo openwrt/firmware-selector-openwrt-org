@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sercomm_na930",
+  "id": "sercomm_na930",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sercomm,na930",

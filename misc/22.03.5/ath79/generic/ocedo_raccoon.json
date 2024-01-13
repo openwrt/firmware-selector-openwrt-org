@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ocedo_raccoon",
+  "id": "ocedo_raccoon",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ocedo,raccoon"

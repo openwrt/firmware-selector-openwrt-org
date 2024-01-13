@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritz7360sl",
+  "id": "avm_fritz7360sl",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "avm,fritz7360sl",

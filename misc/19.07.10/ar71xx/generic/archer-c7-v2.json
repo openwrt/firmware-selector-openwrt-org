@@ -71,7 +71,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "archer-c7-v2",
+  "id": "archer-c7-v2",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "ar71xx/generic",

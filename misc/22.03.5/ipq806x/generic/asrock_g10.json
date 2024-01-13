@@ -74,7 +74,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asrock_g10",
+  "id": "asrock_g10",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "asrock,g10"

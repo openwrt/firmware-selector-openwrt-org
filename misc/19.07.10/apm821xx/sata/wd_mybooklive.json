@@ -77,7 +77,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wd_mybooklive",
+  "id": "wd_mybooklive",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "wd,mybooklive",

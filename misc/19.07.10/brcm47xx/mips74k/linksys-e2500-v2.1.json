@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys-e2500-v2.1",
+  "id": "linksys-e2500-v2.1",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/mips74k",

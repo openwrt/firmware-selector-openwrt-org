@@ -42,7 +42,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "RTA1320_16M",
+  "id": "RTA1320_16M",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/generic",

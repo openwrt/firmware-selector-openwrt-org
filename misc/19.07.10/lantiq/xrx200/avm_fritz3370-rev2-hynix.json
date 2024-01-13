@@ -69,7 +69,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritz3370-rev2-hynix",
+  "id": "avm_fritz3370-rev2-hynix",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "avm,fritz3370-rev2-hynix"

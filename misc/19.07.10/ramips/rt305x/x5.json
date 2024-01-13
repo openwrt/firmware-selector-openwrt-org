@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "x5",
+  "id": "x5",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "x5"

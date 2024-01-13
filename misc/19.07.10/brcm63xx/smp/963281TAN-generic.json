@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "963281TAN-generic",
+  "id": "963281TAN-generic",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/smp",

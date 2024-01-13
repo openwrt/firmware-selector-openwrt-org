@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mtc_wr1201",
+  "id": "mtc_wr1201",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mtc,wr1201"

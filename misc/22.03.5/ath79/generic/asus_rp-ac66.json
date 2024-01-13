@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asus_rp-ac66",
+  "id": "asus_rp-ac66",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "asus,rp-ac66"

@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_lhgg-60ad",
+  "id": "mikrotik_lhgg-60ad",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mikrotik,lhgg-60ad"

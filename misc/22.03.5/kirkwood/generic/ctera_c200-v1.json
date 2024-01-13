@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ctera_c200-v1",
+  "id": "ctera_c200-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ctera,c200-v1"

@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_tl-wr902ac-v3",
+  "id": "tplink_tl-wr902ac-v3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,tl-wr902ac-v3"

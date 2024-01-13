@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "bdcom_wap2100-sk",
+  "id": "bdcom_wap2100-sk",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "bdcom,wap2100-sk"

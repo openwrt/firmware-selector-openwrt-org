@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "pqi_air-pen",
+  "id": "pqi_air-pen",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "pqi,air-pen",

@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_routerboard-962uigs-5hact2hnt",
+  "id": "mikrotik_routerboard-962uigs-5hact2hnt",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mikrotik,routerboard-962uigs-5hact2hnt",

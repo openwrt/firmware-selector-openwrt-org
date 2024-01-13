@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "comfast_cf-wr800n",
+  "id": "comfast_cf-wr800n",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "comfast,cf-wr800n",

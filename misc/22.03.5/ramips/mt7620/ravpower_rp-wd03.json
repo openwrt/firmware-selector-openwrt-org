@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ravpower_rp-wd03",
+  "id": "ravpower_rp-wd03",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ravpower,rp-wd03",

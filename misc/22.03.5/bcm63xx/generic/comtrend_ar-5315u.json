@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "comtrend_ar-5315u",
+  "id": "comtrend_ar-5315u",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "comtrend,ar-5315u"

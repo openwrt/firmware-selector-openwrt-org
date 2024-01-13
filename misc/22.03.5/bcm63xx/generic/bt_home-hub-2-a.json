@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "bt_home-hub-2-a",
+  "id": "bt_home-hub-2-a",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "bt,home-hub-2-a"

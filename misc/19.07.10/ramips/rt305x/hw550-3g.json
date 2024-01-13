@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hw550-3g",
+  "id": "hw550-3g",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "hw550-3g"

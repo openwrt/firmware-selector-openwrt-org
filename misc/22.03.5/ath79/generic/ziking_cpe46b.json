@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ziking_cpe46b",
+  "id": "ziking_cpe46b",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ziking,cpe46b"

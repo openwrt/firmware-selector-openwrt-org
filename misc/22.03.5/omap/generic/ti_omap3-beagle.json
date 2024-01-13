@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ti_omap3-beagle",
+  "id": "ti_omap3-beagle",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ti,omap3-beagle"

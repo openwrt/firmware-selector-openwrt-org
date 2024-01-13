@@ -44,7 +44,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt-erx",
+  "id": "ubnt-erx",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "ubnt-erx",

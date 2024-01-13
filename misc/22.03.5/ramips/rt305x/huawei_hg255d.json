@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "huawei_hg255d",
+  "id": "huawei_hg255d",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "huawei,hg255d",

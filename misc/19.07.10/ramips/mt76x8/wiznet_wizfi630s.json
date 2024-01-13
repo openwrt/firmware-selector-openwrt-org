@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wiznet_wizfi630s",
+  "id": "wiznet_wizfi630s",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "wiznet,wizfi630s",

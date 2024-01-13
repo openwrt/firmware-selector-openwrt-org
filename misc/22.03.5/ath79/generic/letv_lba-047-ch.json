@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "letv_lba-047-ch",
+  "id": "letv_lba-047-ch",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "letv,lba-047-ch"

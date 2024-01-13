@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "winchannel_wb2000",
+  "id": "winchannel_wb2000",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "winchannel,wb2000"

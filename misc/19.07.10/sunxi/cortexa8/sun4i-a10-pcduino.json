@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun4i-a10-pcduino",
+  "id": "sun4i-a10-pcduino",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "linksprite,a10-pcduino"

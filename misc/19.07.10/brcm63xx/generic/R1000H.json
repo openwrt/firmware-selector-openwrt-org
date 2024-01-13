@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "R1000H",
+  "id": "R1000H",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/generic",

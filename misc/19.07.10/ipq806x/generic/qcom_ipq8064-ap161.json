@@ -78,7 +78,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "qcom_ipq8064-ap161",
+  "id": "qcom_ipq8064-ap161",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "qcom,ipq8064-ap161"

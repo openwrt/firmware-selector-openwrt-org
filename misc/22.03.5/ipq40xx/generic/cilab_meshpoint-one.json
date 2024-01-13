@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "cilab_meshpoint-one",
+  "id": "cilab_meshpoint-one",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "cilab,meshpoint-one"

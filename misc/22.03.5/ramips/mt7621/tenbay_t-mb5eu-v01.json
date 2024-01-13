@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tenbay_t-mb5eu-v01",
+  "id": "tenbay_t-mb5eu-v01",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tenbay,t-mb5eu-v01",

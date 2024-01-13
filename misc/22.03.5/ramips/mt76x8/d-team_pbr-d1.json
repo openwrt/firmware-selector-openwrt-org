@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "d-team_pbr-d1",
+  "id": "d-team_pbr-d1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "d-team,pbr-d1",

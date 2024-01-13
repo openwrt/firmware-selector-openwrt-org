@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "pine64_pine64-plus",
+  "id": "pine64_pine64-plus",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "pine64,pine64-plus"

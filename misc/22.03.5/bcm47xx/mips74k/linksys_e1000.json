@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_e1000",
+  "id": "linksys_e1000",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksys,e1000"

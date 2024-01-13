@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_ea4500-v3",
+  "id": "linksys_ea4500-v3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksys,ea4500-v3"

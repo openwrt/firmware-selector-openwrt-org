@@ -71,7 +71,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "edgecore_ecw5211",
+  "id": "edgecore_ecw5211",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "edgecore,ecw5211"

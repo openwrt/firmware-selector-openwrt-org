@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink_dwr-512-b",
+  "id": "dlink_dwr-512-b",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "dlink,dwr-512-b",

@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "cudy_wr1000",
+  "id": "cudy_wr1000",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "cudy,wr1000",

@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "pcs_cap324",
+  "id": "pcs_cap324",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "pcs,cap324",

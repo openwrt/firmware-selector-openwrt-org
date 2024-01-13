@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alfa-network_w502u",
+  "id": "alfa-network_w502u",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "alfa-network,w502u",

@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_bhr-4grv",
+  "id": "buffalo_bhr-4grv",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "buffalo,bhr-4grv",

@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "poray_x5",
+  "id": "poray_x5",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "poray,x5",

@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ventana",
+  "id": "ventana",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "gateworks,ventana-large"

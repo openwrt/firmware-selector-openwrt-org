@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "whr-600d",
+  "id": "whr-600d",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "whr-600d"

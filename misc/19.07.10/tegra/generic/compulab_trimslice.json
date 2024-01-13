@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "compulab_trimslice",
+  "id": "compulab_trimslice",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "compulab,trimslice"

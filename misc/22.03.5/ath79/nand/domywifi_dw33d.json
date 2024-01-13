@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "domywifi_dw33d",
+  "id": "domywifi_dw33d",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "domywifi,dw33d"

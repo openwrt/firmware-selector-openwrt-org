@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_dgn3500",
+  "id": "netgear_dgn3500",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "netgear,dgn3500",

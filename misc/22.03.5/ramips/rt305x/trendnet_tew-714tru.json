@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "trendnet_tew-714tru",
+  "id": "trendnet_tew-714tru",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "trendnet,tew-714tru",

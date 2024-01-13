@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "motorola-we800g",
+  "id": "motorola-we800g",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/legacy",

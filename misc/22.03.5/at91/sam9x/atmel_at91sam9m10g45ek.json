@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "atmel_at91sam9m10g45ek",
+  "id": "atmel_at91sam9m10g45ek",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "atmel,at91sam9m10g45ek"

@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "miniembplug",
+  "id": "miniembplug",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "miniembplug"

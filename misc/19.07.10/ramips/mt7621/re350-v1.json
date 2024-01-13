@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "re350-v1",
+  "id": "re350-v1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "re350-v1"

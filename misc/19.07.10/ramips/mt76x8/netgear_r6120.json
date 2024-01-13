@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_r6120",
+  "id": "netgear_r6120",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "netgear,r6120"

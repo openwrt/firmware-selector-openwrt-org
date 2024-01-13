@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear-wgr614-v10-na",
+  "id": "netgear-wgr614-v10-na",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/mips74k",

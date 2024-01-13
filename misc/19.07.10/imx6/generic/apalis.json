@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "apalis",
+  "id": "apalis",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "apalis,ixora",

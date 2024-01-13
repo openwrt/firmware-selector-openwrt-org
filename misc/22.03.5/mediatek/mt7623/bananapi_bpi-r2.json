@@ -76,7 +76,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "bananapi_bpi-r2",
+  "id": "bananapi_bpi-r2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "bananapi,bpi-r2"

@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "devolo_dvl1200e",
+  "id": "devolo_dvl1200e",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "devolo,dvl1200e"

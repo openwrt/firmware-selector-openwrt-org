@@ -87,7 +87,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "generic",
+  "id": "generic",
   "source_date_epoch": 1682627295,
   "supported_devices": [],
   "target": "x86/geode",

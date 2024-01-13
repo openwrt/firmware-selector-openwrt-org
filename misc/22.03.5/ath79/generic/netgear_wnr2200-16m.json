@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_wnr2200-16m",
+  "id": "netgear_wnr2200-16m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,wnr2200-16m"

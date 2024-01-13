@@ -74,7 +74,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zyxel_emg2926_q10a",
+  "id": "zyxel_emg2926_q10a",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zyxel,emg2926,q10a"

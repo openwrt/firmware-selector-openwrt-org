@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "phicomm_psg1208",
+  "id": "phicomm_psg1208",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "phicomm,psg1208",

@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zyxel_keenetic-lite-b",
+  "id": "zyxel_keenetic-lite-b",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zyxel,keenetic-lite-b"

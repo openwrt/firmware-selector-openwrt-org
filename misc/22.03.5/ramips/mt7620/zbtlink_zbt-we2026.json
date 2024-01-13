@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zbtlink_zbt-we2026",
+  "id": "zbtlink_zbt-we2026",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zbtlink,zbt-we2026",

@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "qxwlan_e1700ac-v2-16m",
+  "id": "qxwlan_e1700ac-v2-16m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "qxwlan,e1700ac-v2-16m",

@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_ex6100v2",
+  "id": "netgear_ex6100v2",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "netgear,ex6100v2"

@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "planex_mzk-750dhp",
+  "id": "planex_mzk-750dhp",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "planex,mzk-750dhp",

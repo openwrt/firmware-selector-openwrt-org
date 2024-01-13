@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "poray_m4-8m",
+  "id": "poray_m4-8m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "poray,m4-8m",

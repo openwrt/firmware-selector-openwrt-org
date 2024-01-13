@@ -71,7 +71,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mobipromo_cm520-79f",
+  "id": "mobipromo_cm520-79f",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mobipromo,cm520-79f"

@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys-wrt54g3g-em",
+  "id": "linksys-wrt54g3g-em",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/legacy",

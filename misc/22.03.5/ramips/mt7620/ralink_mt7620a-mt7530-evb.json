@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ralink_mt7620a-mt7530-evb",
+  "id": "ralink_mt7620a-mt7530-evb",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ralink,mt7620a-mt7530-evb",

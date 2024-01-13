@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "p2020rdb",
+  "id": "p2020rdb",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "fsl,P2020RDB"

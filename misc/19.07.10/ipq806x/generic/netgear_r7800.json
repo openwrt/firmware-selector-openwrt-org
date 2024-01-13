@@ -78,7 +78,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_r7800",
+  "id": "netgear_r7800",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "netgear,r7800",

@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "meraki_mx60",
+  "id": "meraki_mx60",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "meraki,mx60"

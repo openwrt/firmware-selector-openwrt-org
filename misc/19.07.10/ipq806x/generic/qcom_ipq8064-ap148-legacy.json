@@ -78,7 +78,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "qcom_ipq8064-ap148-legacy",
+  "id": "qcom_ipq8064-ap148-legacy",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "qcom,ipq8064-ap148",

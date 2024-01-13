@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "allnet_all5003",
+  "id": "allnet_all5003",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "allnet,all5003",

@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "pine64_rockpro64",
+  "id": "pine64_rockpro64",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "pine64,rockpro64"

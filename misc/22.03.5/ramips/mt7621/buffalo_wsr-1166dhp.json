@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_wsr-1166dhp",
+  "id": "buffalo_wsr-1166dhp",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "buffalo,wsr-1166dhp",

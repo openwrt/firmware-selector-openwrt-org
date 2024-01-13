@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "phicomm_k2t",
+  "id": "phicomm_k2t",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "phicomm,k2t"

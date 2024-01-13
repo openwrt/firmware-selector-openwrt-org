@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_r6250",
+  "id": "netgear_r6250",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,r6250"

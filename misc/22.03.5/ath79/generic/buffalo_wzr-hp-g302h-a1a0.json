@@ -72,7 +72,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_wzr-hp-g302h-a1a0",
+  "id": "buffalo_wzr-hp-g302h-a1a0",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "buffalo,wzr-hp-g302h-a1a0",

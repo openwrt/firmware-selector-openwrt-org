@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "enterasys_ws-ap3705i",
+  "id": "enterasys_ws-ap3705i",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "enterasys,ws-ap3705i"

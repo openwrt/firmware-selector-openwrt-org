@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "gl-mt300a",
+  "id": "gl-mt300a",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "gl-mt300a"

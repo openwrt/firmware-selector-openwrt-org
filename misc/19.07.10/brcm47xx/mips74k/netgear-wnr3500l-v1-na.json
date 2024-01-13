@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear-wnr3500l-v1-na",
+  "id": "netgear-wnr3500l-v1-na",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/mips74k",

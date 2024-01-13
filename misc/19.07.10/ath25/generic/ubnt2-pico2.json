@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt2-pico2",
+  "id": "ubnt2-pico2",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "ath25/generic",

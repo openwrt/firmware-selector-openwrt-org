@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "samsung_cy-swr1100",
+  "id": "samsung_cy-swr1100",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "samsung,cy-swr1100",

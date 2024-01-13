@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksprite_pcduino3-nano",
+  "id": "linksprite_pcduino3-nano",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksprite,pcduino3-nano"

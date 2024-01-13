@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "teltonika_rut5xx",
+  "id": "teltonika_rut5xx",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "teltonika,rut5xx",

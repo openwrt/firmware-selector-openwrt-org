@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_wndap660",
+  "id": "netgear_wndap660",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,wndap660"

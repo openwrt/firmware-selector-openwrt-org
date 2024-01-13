@@ -45,7 +45,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "lantiq_easy98000-nor",
+  "id": "lantiq_easy98000-nor",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "lantiq,easy98000-nor"

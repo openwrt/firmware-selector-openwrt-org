@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "openmesh_a40",
+  "id": "openmesh_a40",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "openmesh,a40",

@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zbt-cpe102",
+  "id": "zbt-cpe102",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "zbt-cpe102"

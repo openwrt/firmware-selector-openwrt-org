@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hak5_packet-squirrel",
+  "id": "hak5_packet-squirrel",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "hak5,packet-squirrel",

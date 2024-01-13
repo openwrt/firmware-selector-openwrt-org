@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mediatek_ap-mt7621a-v60",
+  "id": "mediatek_ap-mt7621a-v60",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mediatek,ap-mt7621a-v60"

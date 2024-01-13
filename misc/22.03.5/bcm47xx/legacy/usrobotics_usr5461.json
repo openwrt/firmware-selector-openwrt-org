@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "usrobotics_usr5461",
+  "id": "usrobotics_usr5461",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "usrobotics,usr5461"

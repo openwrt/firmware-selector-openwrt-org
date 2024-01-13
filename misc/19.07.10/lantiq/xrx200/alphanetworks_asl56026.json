@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alphanetworks_asl56026",
+  "id": "alphanetworks_asl56026",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "alphanetworks,asl56026"

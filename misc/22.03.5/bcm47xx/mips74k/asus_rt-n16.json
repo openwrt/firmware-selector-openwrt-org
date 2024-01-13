@@ -53,7 +53,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asus_rt-n16",
+  "id": "asus_rt-n16",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "asus,rt-n16"

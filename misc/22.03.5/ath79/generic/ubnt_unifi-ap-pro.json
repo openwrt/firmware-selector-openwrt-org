@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_unifi-ap-pro",
+  "id": "ubnt_unifi-ap-pro",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,unifi-ap-pro",

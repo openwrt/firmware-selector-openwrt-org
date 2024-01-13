@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "glinet_gl-ap1300",
+  "id": "glinet_gl-ap1300",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "glinet,gl-ap1300"

@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear-wndr3300-v1",
+  "id": "netgear-wndr3300-v1",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/legacy",

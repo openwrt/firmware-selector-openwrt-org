@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "winstars_ws-wn583a6",
+  "id": "winstars_ws-wn583a6",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "winstars,ws-wn583a6"

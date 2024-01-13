@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "olimex_a64-olinuxino-emmc",
+  "id": "olimex_a64-olinuxino-emmc",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "olimex,a64-olinuxino-emmc"

@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xiaomi_miwifi-mini",
+  "id": "xiaomi_miwifi-mini",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "xiaomi,miwifi-mini",

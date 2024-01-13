@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "adslr_g7",
+  "id": "adslr_g7",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "adslr,g7"

@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "loewe_wmdr-143n",
+  "id": "loewe_wmdr-143n",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "loewe,wmdr-143n",

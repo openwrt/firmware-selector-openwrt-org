@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "comtrend_ct-6373",
+  "id": "comtrend_ct-6373",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "comtrend,ct-6373"

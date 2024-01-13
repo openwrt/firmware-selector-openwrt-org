@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun7i-a20-cubietruck",
+  "id": "sun7i-a20-cubietruck",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "cubietech,cubietruck"

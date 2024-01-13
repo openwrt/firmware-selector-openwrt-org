@@ -41,7 +41,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "lantiq_falcon-mdu",
+  "id": "lantiq_falcon-mdu",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "lantiq,falcon-mdu"

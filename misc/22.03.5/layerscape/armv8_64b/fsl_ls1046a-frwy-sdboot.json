@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "fsl_ls1046a-frwy-sdboot",
+  "id": "fsl_ls1046a-frwy-sdboot",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "fsl,ls1046a-frwy-sdboot"

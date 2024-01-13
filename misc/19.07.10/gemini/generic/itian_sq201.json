@@ -76,7 +76,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "itian_sq201",
+  "id": "itian_sq201",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "itian,sq201"

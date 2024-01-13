@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "comfast_cf-wr758ac-v1",
+  "id": "comfast_cf-wr758ac-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "comfast,cf-wr758ac-v1",

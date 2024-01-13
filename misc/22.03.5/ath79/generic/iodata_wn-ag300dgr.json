@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iodata_wn-ag300dgr",
+  "id": "iodata_wn-ag300dgr",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iodata,wn-ag300dgr"

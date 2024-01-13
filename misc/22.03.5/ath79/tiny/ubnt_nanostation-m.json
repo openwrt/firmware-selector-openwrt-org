@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_nanostation-m",
+  "id": "ubnt_nanostation-m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,nanostation-m",

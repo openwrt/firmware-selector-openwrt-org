@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "7623n-bananapi-bpi-r2",
+  "id": "7623n-bananapi-bpi-r2",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "mediatek/mt7623",

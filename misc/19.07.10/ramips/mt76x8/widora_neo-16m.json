@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "widora_neo-16m",
+  "id": "widora_neo-16m",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "widora,neo-16m",

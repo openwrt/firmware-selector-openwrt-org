@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksprite_a10-pcduino",
+  "id": "linksprite_a10-pcduino",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksprite,a10-pcduino"

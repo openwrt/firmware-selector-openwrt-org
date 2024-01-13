@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys-wrtsl54gs",
+  "id": "linksys-wrtsl54gs",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/legacy",

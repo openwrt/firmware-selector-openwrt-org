@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "DSL2640B-B",
+  "id": "DSL2640B-B",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/smp",

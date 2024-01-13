@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "araknis_an-300-ap-i-n",
+  "id": "araknis_an-300-ap-i-n",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "araknis,an-300-ap-i-n"

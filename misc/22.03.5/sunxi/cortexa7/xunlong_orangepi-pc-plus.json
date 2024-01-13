@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xunlong_orangepi-pc-plus",
+  "id": "xunlong_orangepi-pc-plus",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "xunlong,orangepi-pc-plus"

@@ -71,7 +71,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "teltonika_rutx10",
+  "id": "teltonika_rutx10",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "teltonika,rutx10"

@@ -53,7 +53,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_wndr4000",
+  "id": "netgear_wndr4000",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,wndr4000"

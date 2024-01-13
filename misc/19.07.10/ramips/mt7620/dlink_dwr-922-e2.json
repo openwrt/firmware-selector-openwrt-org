@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink_dwr-922-e2",
+  "id": "dlink_dwr-922-e2",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "dlink,dwr-922-e2"

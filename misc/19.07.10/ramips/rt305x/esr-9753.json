@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "esr-9753",
+  "id": "esr-9753",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "esr-9753"

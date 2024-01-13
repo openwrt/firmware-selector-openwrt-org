@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dwr-512-b",
+  "id": "dwr-512-b",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "dwr-512-b"

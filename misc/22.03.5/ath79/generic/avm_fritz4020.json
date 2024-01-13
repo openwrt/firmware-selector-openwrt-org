@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritz4020",
+  "id": "avm_fritz4020",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "avm,fritz4020",

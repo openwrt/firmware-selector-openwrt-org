@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "edimax_rg21s",
+  "id": "edimax_rg21s",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "edimax,rg21s"

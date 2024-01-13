@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun8i-h3-bananapi-m2-plus",
+  "id": "sun8i-h3-bananapi-m2-plus",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "sinovoip,bananapi-m2-plus"

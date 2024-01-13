@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_wzr-1750dhp",
+  "id": "buffalo_wzr-1750dhp",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "buffalo,wzr-1750dhp"

@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "engenius_eap1200h",
+  "id": "engenius_eap1200h",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "engenius,eap1200h"

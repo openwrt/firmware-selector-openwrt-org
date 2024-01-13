@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wevo_11acnas",
+  "id": "wevo_11acnas",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "wevo,11acnas",

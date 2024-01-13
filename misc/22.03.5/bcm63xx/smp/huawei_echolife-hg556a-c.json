@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "huawei_echolife-hg556a-c",
+  "id": "huawei_echolife-hg556a-c",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "huawei,echolife-hg556a-c"

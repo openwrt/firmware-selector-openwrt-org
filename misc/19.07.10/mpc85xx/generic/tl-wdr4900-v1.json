@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tl-wdr4900-v1",
+  "id": "tl-wdr4900-v1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "tl-wdr4900-v1",

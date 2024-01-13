@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "t-com_speedport-w-303v",
+  "id": "t-com_speedport-w-303v",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "t-com,speedport-w-303v"

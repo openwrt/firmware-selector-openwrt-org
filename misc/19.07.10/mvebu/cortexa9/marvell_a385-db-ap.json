@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "marvell_a385-db-ap",
+  "id": "marvell_a385-db-ap",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "marvell,a385-db-ap",

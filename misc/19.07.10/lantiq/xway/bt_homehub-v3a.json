@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "bt_homehub-v3a",
+  "id": "bt_homehub-v3a",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "bt,homehub-v3a",

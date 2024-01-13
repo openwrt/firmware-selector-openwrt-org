@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "8dev_lima",
+  "id": "8dev_lima",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "8dev,lima",

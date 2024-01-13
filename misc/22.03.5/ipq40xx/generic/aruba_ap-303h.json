@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "aruba_ap-303h",
+  "id": "aruba_ap-303h",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "aruba,ap-303h"

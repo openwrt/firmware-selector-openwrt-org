@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "samsung_wam250",
+  "id": "samsung_wam250",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "samsung,wam250",

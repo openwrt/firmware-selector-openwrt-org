@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "unielec_u7621-06-256m-16m",
+  "id": "unielec_u7621-06-256m-16m",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "unielec,u7621-06-256m-16m",

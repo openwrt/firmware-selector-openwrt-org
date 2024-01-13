@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ampedwireless_ally-00x19k",
+  "id": "ampedwireless_ally-00x19k",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ampedwireless,ally-00x19k"

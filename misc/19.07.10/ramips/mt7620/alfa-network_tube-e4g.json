@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alfa-network_tube-e4g",
+  "id": "alfa-network_tube-e4g",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "alfa-network,tube-e4g"

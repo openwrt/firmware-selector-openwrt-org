@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_srr60",
+  "id": "netgear_srr60",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,srr60"

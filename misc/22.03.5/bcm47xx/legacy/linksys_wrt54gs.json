@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_wrt54gs",
+  "id": "linksys_wrt54gs",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksys,wrt54gs"

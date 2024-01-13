@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wavlink_wl-wn577a2",
+  "id": "wavlink_wl-wn577a2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "wavlink,wl-wn577a2"

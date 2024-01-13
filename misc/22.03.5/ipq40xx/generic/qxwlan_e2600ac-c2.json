@@ -70,7 +70,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "qxwlan_e2600ac-c2",
+  "id": "qxwlan_e2600ac-c2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "qxwlan,e2600ac-c2"

@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zbtlink_zbt-we3526",
+  "id": "zbtlink_zbt-we3526",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "zbtlink,zbt-we3526"

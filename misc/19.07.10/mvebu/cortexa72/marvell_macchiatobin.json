@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "marvell_macchiatobin",
+  "id": "marvell_macchiatobin",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "marvell,armada8040-mcbin"

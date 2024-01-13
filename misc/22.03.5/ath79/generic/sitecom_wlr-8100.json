@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sitecom_wlr-8100",
+  "id": "sitecom_wlr-8100",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sitecom,wlr-8100",

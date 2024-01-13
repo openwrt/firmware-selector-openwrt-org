@@ -77,7 +77,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "p2w_r619ac-64m",
+  "id": "p2w_r619ac-64m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "p2w,r619ac-64m"

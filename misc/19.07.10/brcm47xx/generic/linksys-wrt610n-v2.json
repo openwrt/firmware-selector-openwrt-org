@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys-wrt610n-v2",
+  "id": "linksys-wrt610n-v2",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/generic",

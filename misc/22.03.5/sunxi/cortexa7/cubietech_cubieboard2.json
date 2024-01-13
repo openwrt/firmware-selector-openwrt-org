@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "cubietech_cubieboard2",
+  "id": "cubietech_cubieboard2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "cubietech,cubieboard2"

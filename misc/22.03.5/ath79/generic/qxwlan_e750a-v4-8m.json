@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "qxwlan_e750a-v4-8m",
+  "id": "qxwlan_e750a-v4-8m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "qxwlan,e750a-v4-8m",

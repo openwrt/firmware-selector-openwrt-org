@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "air3gii",
+  "id": "air3gii",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "air3gii"

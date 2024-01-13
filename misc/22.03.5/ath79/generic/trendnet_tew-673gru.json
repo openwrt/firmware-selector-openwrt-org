@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "trendnet_tew-673gru",
+  "id": "trendnet_tew-673gru",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "trendnet,tew-673gru"

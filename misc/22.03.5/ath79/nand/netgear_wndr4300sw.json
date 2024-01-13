@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_wndr4300sw",
+  "id": "netgear_wndr4300sw",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,wndr4300sw"

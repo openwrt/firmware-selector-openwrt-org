@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "rt-n12p",
+  "id": "rt-n12p",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "rt-n12p"

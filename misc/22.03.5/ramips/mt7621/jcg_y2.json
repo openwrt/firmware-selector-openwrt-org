@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "jcg_y2",
+  "id": "jcg_y2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "jcg,y2"

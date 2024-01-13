@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "kimax_u25awf-h1",
+  "id": "kimax_u25awf-h1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "kimax,u25awf-h1",

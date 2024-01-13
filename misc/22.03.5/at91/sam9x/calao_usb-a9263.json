@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "calao_usb-a9263",
+  "id": "calao_usb-a9263",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "atmel,usb-a9263"

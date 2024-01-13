@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "archer-c59-v1",
+  "id": "archer-c59-v1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "archer-c59-v1"

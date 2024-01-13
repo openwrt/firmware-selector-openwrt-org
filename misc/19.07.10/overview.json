@@ -1,7 +1,7 @@
 {
   "profiles": [
     {
-      "model_id": "dlink_dir-685",
+      "id": "dlink_dir-685",
       "target": "gemini/generic",
       "titles": [
         {
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "model_id": "dlink_dns-313",
+      "id": "dlink_dns-313",
       "target": "gemini/generic",
       "titles": [
         {
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "model_id": "itian_sq201",
+      "id": "itian_sq201",
       "target": "gemini/generic",
       "titles": [
         {
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "model_id": "raidsonic_ib-4220-b",
+      "id": "raidsonic_ib-4220-b",
       "target": "gemini/generic",
       "titles": [
         {
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "model_id": "ls1021atwr",
+      "id": "ls1021atwr",
       "target": "layerscape/armv7",
       "titles": [
         {
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "model_id": "ls1012ardb",
+      "id": "ls1012ardb",
       "target": "layerscape/armv8_64b",
       "titles": [
         {
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "model_id": "ls1043ardb",
+      "id": "ls1043ardb",
       "target": "layerscape/armv8_64b",
       "titles": [
         {
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "model_id": "ls1046ardb",
+      "id": "ls1046ardb",
       "target": "layerscape/armv8_64b",
       "titles": [
         {
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "model_id": "ls1088ardb",
+      "id": "ls1088ardb",
       "target": "layerscape/armv8_64b",
       "titles": [
         {
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "model_id": "ls2088ardb",
+      "id": "ls2088ardb",
       "target": "layerscape/armv8_64b",
       "titles": [
         {
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "model_id": "traverse-ls1043",
+      "id": "traverse-ls1043",
       "target": "layerscape/armv8_64b",
       "titles": [
         {
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "model_id": "nand",
+      "id": "nand",
       "target": "rb532/generic",
       "titles": [
         {
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "model_id": "cisco_on100",
+      "id": "cisco_on100",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "model_id": "cloudengines_pogoe02",
+      "id": "cloudengines_pogoe02",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "model_id": "cloudengines_pogoplugv4",
+      "id": "cloudengines_pogoplugv4",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "model_id": "iom_iconnect-1.1",
+      "id": "iom_iconnect-1.1",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "model_id": "iom_ix2_200",
+      "id": "iom_ix2_200",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "model_id": "linksys_audi",
+      "id": "linksys_audi",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "model_id": "linksys_viper",
+      "id": "linksys_viper",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "model_id": "raidsonic_ib-nas62x0",
+      "id": "raidsonic_ib-nas62x0",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "model_id": "seagate_dockstar",
+      "id": "seagate_dockstar",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -190,7 +190,7 @@
       ]
     },
     {
-      "model_id": "seagate_goflexhome",
+      "id": "seagate_goflexhome",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "model_id": "seagate_goflexnet",
+      "id": "seagate_goflexnet",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "model_id": "zyxel_nsa310b",
+      "id": "zyxel_nsa310b",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -217,7 +217,7 @@
       ]
     },
     {
-      "model_id": "zyxel_nsa325",
+      "id": "zyxel_nsa325",
       "target": "kirkwood/generic",
       "titles": [
         {
@@ -226,7 +226,7 @@
       ]
     },
     {
-      "model_id": "er",
+      "id": "er",
       "target": "octeon/generic",
       "titles": [
         {
@@ -235,7 +235,7 @@
       ]
     },
     {
-      "model_id": "erlite",
+      "id": "erlite",
       "target": "octeon/generic",
       "titles": [
         {
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy88388",
+      "id": "lantiq_easy88388",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -253,7 +253,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy88444",
+      "id": "lantiq_easy88444",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy98000-nand",
+      "id": "lantiq_easy98000-nand",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy98000-nor",
+      "id": "lantiq_easy98000-nor",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy98000-sflash",
+      "id": "lantiq_easy98000-sflash",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy98020",
+      "id": "lantiq_easy98020",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -298,7 +298,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy98020-v18",
+      "id": "lantiq_easy98020-v18",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -307,7 +307,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy98021",
+      "id": "lantiq_easy98021",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -316,7 +316,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy98035synce",
+      "id": "lantiq_easy98035synce",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy98035synce1588",
+      "id": "lantiq_easy98035synce1588",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "model_id": "lantiq_falcon-mdu",
+      "id": "lantiq_falcon-mdu",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -343,7 +343,7 @@
       ]
     },
     {
-      "model_id": "lantiq_falcon-sfp",
+      "id": "lantiq_falcon-sfp",
       "target": "lantiq/falcon",
       "titles": [
         {
@@ -352,7 +352,7 @@
       ]
     },
     {
-      "model_id": "allnet_all0333cj",
+      "id": "allnet_all0333cj",
       "target": "lantiq/ase",
       "titles": [
         {
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "model_id": "netgear_dgn1000b",
+      "id": "netgear_dgn1000b",
       "target": "lantiq/ase",
       "titles": [
         {
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_arv4510pw",
+      "id": "arcadyan_arv4510pw",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -379,7 +379,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_arv7506pw11",
+      "id": "arcadyan_arv7506pw11",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -388,7 +388,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_arv7510pw22",
+      "id": "arcadyan_arv7510pw22",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_arv7518pw",
+      "id": "arcadyan_arv7518pw",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -406,7 +406,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_arv7519pw",
+      "id": "arcadyan_arv7519pw",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_arv752dpw",
+      "id": "arcadyan_arv752dpw",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -424,7 +424,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_arv752dpw22",
+      "id": "arcadyan_arv752dpw22",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_arv8539pw22",
+      "id": "arcadyan_arv8539pw22",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -442,7 +442,7 @@
       ]
     },
     {
-      "model_id": "audiocodes_mp-252",
+      "id": "audiocodes_mp-252",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -451,7 +451,7 @@
       ]
     },
     {
-      "model_id": "avm_fritz7312",
+      "id": "avm_fritz7312",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -460,7 +460,7 @@
       ]
     },
     {
-      "model_id": "avm_fritz7320",
+      "id": "avm_fritz7320",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "model_id": "bt_homehub-v2b",
+      "id": "bt_homehub-v2b",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -478,7 +478,7 @@
       ]
     },
     {
-      "model_id": "bt_homehub-v3a",
+      "id": "bt_homehub-v3a",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -487,7 +487,7 @@
       ]
     },
     {
-      "model_id": "buffalo_wbmr-hp-g300h-a",
+      "id": "buffalo_wbmr-hp-g300h-a",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "model_id": "buffalo_wbmr-hp-g300h-b",
+      "id": "buffalo_wbmr-hp-g300h-b",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy50712",
+      "id": "lantiq_easy50712",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -514,7 +514,7 @@
       ]
     },
     {
-      "model_id": "netgear_dgn3500",
+      "id": "netgear_dgn3500",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -523,7 +523,7 @@
       ]
     },
     {
-      "model_id": "netgear_dgn3500b",
+      "id": "netgear_dgn3500b",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -532,7 +532,7 @@
       ]
     },
     {
-      "model_id": "siemens_gigaset-sx76x",
+      "id": "siemens_gigaset-sx76x",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "model_id": "zte_h201l",
+      "id": "zte_h201l",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -550,7 +550,7 @@
       ]
     },
     {
-      "model_id": "zyxel_p-2601hn",
+      "id": "zyxel_p-2601hn",
       "target": "lantiq/xway",
       "titles": [
         {
@@ -559,7 +559,7 @@
       ]
     },
     {
-      "model_id": "alphanetworks_asl56026",
+      "id": "alphanetworks_asl56026",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -568,7 +568,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_arv7519rw22",
+      "id": "arcadyan_arv7519rw22",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -577,7 +577,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_vg3503j",
+      "id": "arcadyan_vg3503j",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -586,7 +586,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_vgv7510kw22-brn",
+      "id": "arcadyan_vgv7510kw22-brn",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -595,7 +595,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_vgv7510kw22-nor",
+      "id": "arcadyan_vgv7510kw22-nor",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -604,7 +604,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_vgv7519-brn",
+      "id": "arcadyan_vgv7519-brn",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -613,7 +613,7 @@
       ]
     },
     {
-      "model_id": "arcadyan_vgv7519-nor",
+      "id": "arcadyan_vgv7519-nor",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -622,7 +622,7 @@
       ]
     },
     {
-      "model_id": "avm_fritz3370-rev2-hynix",
+      "id": "avm_fritz3370-rev2-hynix",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -631,7 +631,7 @@
       ]
     },
     {
-      "model_id": "avm_fritz3370-rev2-micron",
+      "id": "avm_fritz3370-rev2-micron",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     {
-      "model_id": "avm_fritz7360sl",
+      "id": "avm_fritz7360sl",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -649,7 +649,7 @@
       ]
     },
     {
-      "model_id": "avm_fritz7362sl",
+      "id": "avm_fritz7362sl",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -658,7 +658,7 @@
       ]
     },
     {
-      "model_id": "avm_fritz7412",
+      "id": "avm_fritz7412",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -667,7 +667,7 @@
       ]
     },
     {
-      "model_id": "bt_homehub-v5a",
+      "id": "bt_homehub-v5a",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -676,7 +676,7 @@
       ]
     },
     {
-      "model_id": "buffalo_wbmr-300hpd",
+      "id": "buffalo_wbmr-300hpd",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -685,7 +685,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy80920-nand",
+      "id": "lantiq_easy80920-nand",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -694,7 +694,7 @@
       ]
     },
     {
-      "model_id": "lantiq_easy80920-nor",
+      "id": "lantiq_easy80920-nor",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -703,7 +703,7 @@
       ]
     },
     {
-      "model_id": "netgear_dm200",
+      "id": "netgear_dm200",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -712,7 +712,7 @@
       ]
     },
     {
-      "model_id": "tplink_tdw8970",
+      "id": "tplink_tdw8970",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -721,7 +721,7 @@
       ]
     },
     {
-      "model_id": "tplink_tdw8980",
+      "id": "tplink_tdw8980",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -730,7 +730,7 @@
       ]
     },
     {
-      "model_id": "tplink_vr200",
+      "id": "tplink_vr200",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -739,7 +739,7 @@
       ]
     },
     {
-      "model_id": "tplink_vr200v",
+      "id": "tplink_vr200v",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -748,7 +748,7 @@
       ]
     },
     {
-      "model_id": "zyxel_p-2812hnu-f1",
+      "id": "zyxel_p-2812hnu-f1",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -757,7 +757,7 @@
       ]
     },
     {
-      "model_id": "zyxel_p-2812hnu-f3",
+      "id": "zyxel_p-2812hnu-f3",
       "target": "lantiq/xrx200",
       "titles": [
         {
@@ -766,7 +766,7 @@
       ]
     },
     {
-      "model_id": "rpi",
+      "id": "rpi",
       "target": "brcm2708/bcm2708",
       "titles": [
         {
@@ -775,7 +775,7 @@
       ]
     },
     {
-      "model_id": "rpi-3",
+      "id": "rpi-3",
       "target": "brcm2708/bcm2710",
       "titles": [
         {
@@ -784,7 +784,7 @@
       ]
     },
     {
-      "model_id": "rpi-2",
+      "id": "rpi-2",
       "target": "brcm2708/bcm2709",
       "titles": [
         {
@@ -793,7 +793,7 @@
       ]
     },
     {
-      "model_id": "buffalo_wxr-2533dhp",
+      "id": "buffalo_wxr-2533dhp",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -802,7 +802,7 @@
       ]
     },
     {
-      "model_id": "compex_wpq864",
+      "id": "compex_wpq864",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -811,7 +811,7 @@
       ]
     },
     {
-      "model_id": "linksys_ea8500",
+      "id": "linksys_ea8500",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -820,7 +820,7 @@
       ]
     },
     {
-      "model_id": "nec_wg2600hp",
+      "id": "nec_wg2600hp",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -829,7 +829,7 @@
       ]
     },
     {
-      "model_id": "netgear_d7800",
+      "id": "netgear_d7800",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -838,7 +838,7 @@
       ]
     },
     {
-      "model_id": "netgear_r7500",
+      "id": "netgear_r7500",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -847,7 +847,7 @@
       ]
     },
     {
-      "model_id": "netgear_r7500v2",
+      "id": "netgear_r7500v2",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -856,7 +856,7 @@
       ]
     },
     {
-      "model_id": "netgear_r7800",
+      "id": "netgear_r7800",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -865,7 +865,7 @@
       ]
     },
     {
-      "model_id": "qcom_ipq8064-ap148",
+      "id": "qcom_ipq8064-ap148",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -874,7 +874,7 @@
       ]
     },
     {
-      "model_id": "qcom_ipq8064-ap148-legacy",
+      "id": "qcom_ipq8064-ap148-legacy",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -883,7 +883,7 @@
       ]
     },
     {
-      "model_id": "qcom_ipq8064-ap161",
+      "id": "qcom_ipq8064-ap161",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -892,7 +892,7 @@
       ]
     },
     {
-      "model_id": "tplink_c2600",
+      "id": "tplink_c2600",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -901,7 +901,7 @@
       ]
     },
     {
-      "model_id": "tplink_vr2600v",
+      "id": "tplink_vr2600v",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -910,7 +910,7 @@
       ]
     },
     {
-      "model_id": "zyxel_nbg6817",
+      "id": "zyxel_nbg6817",
       "target": "ipq806x/generic",
       "titles": [
         {
@@ -919,7 +919,7 @@
       ]
     },
     {
-      "model_id": "compulab_trimslice",
+      "id": "compulab_trimslice",
       "target": "tegra/generic",
       "titles": [
         {
@@ -928,7 +928,7 @@
       ]
     },
     {
-      "model_id": "marduk",
+      "id": "marduk",
       "target": "pistachio/generic",
       "titles": [
         {
@@ -937,7 +937,7 @@
       ]
     },
     {
-      "model_id": "avnet_zynq-zed",
+      "id": "avnet_zynq-zed",
       "target": "zynq/generic",
       "titles": [
         {
@@ -946,7 +946,7 @@
       ]
     },
     {
-      "model_id": "digilent_zynq-zybo",
+      "id": "digilent_zynq-zybo",
       "target": "zynq/generic",
       "titles": [
         {
@@ -955,7 +955,7 @@
       ]
     },
     {
-      "model_id": "digilent_zynq-zybo-z7",
+      "id": "digilent_zynq-zybo-z7",
       "target": "zynq/generic",
       "titles": [
         {
@@ -964,7 +964,7 @@
       ]
     },
     {
-      "model_id": "xlnx_zynq-zc702",
+      "id": "xlnx_zynq-zc702",
       "target": "zynq/generic",
       "titles": [
         {
@@ -973,7 +973,7 @@
       ]
     },
     {
-      "model_id": "cznic_turris-omnia",
+      "id": "cznic_turris-omnia",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -982,7 +982,7 @@
       ]
     },
     {
-      "model_id": "globalscale_mirabox",
+      "id": "globalscale_mirabox",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -991,7 +991,7 @@
       ]
     },
     {
-      "model_id": "linksys_wrt1200ac",
+      "id": "linksys_wrt1200ac",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1000,7 +1000,7 @@
       ]
     },
     {
-      "model_id": "linksys_wrt1900ac",
+      "id": "linksys_wrt1900ac",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1009,7 +1009,7 @@
       ]
     },
     {
-      "model_id": "linksys_wrt1900acs",
+      "id": "linksys_wrt1900acs",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1018,7 +1018,7 @@
       ]
     },
     {
-      "model_id": "linksys_wrt1900acv2",
+      "id": "linksys_wrt1900acv2",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1027,7 +1027,7 @@
       ]
     },
     {
-      "model_id": "linksys_wrt3200acm",
+      "id": "linksys_wrt3200acm",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1036,7 +1036,7 @@
       ]
     },
     {
-      "model_id": "linksys_wrt32x",
+      "id": "linksys_wrt32x",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1045,7 +1045,7 @@
       ]
     },
     {
-      "model_id": "marvell_a370-db",
+      "id": "marvell_a370-db",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1054,7 +1054,7 @@
       ]
     },
     {
-      "model_id": "marvell_a370-rd",
+      "id": "marvell_a370-rd",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1063,7 +1063,7 @@
       ]
     },
     {
-      "model_id": "marvell_a385-db-ap",
+      "id": "marvell_a385-db-ap",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1072,7 +1072,7 @@
       ]
     },
     {
-      "model_id": "marvell_a388-rd",
+      "id": "marvell_a388-rd",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1081,7 +1081,7 @@
       ]
     },
     {
-      "model_id": "marvell_axp-db",
+      "id": "marvell_axp-db",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1090,7 +1090,7 @@
       ]
     },
     {
-      "model_id": "marvell_axp-gp",
+      "id": "marvell_axp-gp",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1099,7 +1099,7 @@
       ]
     },
     {
-      "model_id": "plathome_openblocks-ax3-4",
+      "id": "plathome_openblocks-ax3-4",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1108,7 +1108,7 @@
       ]
     },
     {
-      "model_id": "solidrun_clearfog-base-a1",
+      "id": "solidrun_clearfog-base-a1",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1117,7 +1117,7 @@
       ]
     },
     {
-      "model_id": "solidrun_clearfog-pro-a1",
+      "id": "solidrun_clearfog-pro-a1",
       "target": "mvebu/cortexa9",
       "titles": [
         {
@@ -1126,7 +1126,7 @@
       ]
     },
     {
-      "model_id": "marvell_armada7040-db",
+      "id": "marvell_armada7040-db",
       "target": "mvebu/cortexa72",
       "titles": [
         {
@@ -1135,7 +1135,7 @@
       ]
     },
     {
-      "model_id": "marvell_armada8040-db",
+      "id": "marvell_armada8040-db",
       "target": "mvebu/cortexa72",
       "titles": [
         {
@@ -1144,7 +1144,7 @@
       ]
     },
     {
-      "model_id": "marvell_macchiatobin",
+      "id": "marvell_macchiatobin",
       "target": "mvebu/cortexa72",
       "titles": [
         {
@@ -1153,7 +1153,7 @@
       ]
     },
     {
-      "model_id": "globalscale_espressobin",
+      "id": "globalscale_espressobin",
       "target": "mvebu/cortexa53",
       "titles": [
         {
@@ -1162,7 +1162,7 @@
       ]
     },
     {
-      "model_id": "globalscale_espressobin-emmc",
+      "id": "globalscale_espressobin-emmc",
       "target": "mvebu/cortexa53",
       "titles": [
         {
@@ -1171,7 +1171,7 @@
       ]
     },
     {
-      "model_id": "globalscale_espressobin-v7",
+      "id": "globalscale_espressobin-v7",
       "target": "mvebu/cortexa53",
       "titles": [
         {
@@ -1180,7 +1180,7 @@
       ]
     },
     {
-      "model_id": "globalscale_espressobin-v7-emmc",
+      "id": "globalscale_espressobin-v7-emmc",
       "target": "mvebu/cortexa53",
       "titles": [
         {
@@ -1189,7 +1189,7 @@
       ]
     },
     {
-      "model_id": "marvell_armada-3720-db",
+      "id": "marvell_armada-3720-db",
       "target": "mvebu/cortexa53",
       "titles": [
         {
@@ -1198,7 +1198,7 @@
       ]
     },
     {
-      "model_id": "nand-64m",
+      "id": "nand-64m",
       "target": "ar71xx/mikrotik",
       "titles": [
         {
@@ -1207,7 +1207,7 @@
       ]
     },
     {
-      "model_id": "nand-large",
+      "id": "nand-large",
       "target": "ar71xx/mikrotik",
       "titles": [
         {
@@ -1216,7 +1216,7 @@
       ]
     },
     {
-      "model_id": "nand-large-ac",
+      "id": "nand-large-ac",
       "target": "ar71xx/mikrotik",
       "titles": [
         {
@@ -1225,7 +1225,7 @@
       ]
     },
     {
-      "model_id": "rb-nor-flash-16M",
+      "id": "rb-nor-flash-16M",
       "target": "ar71xx/mikrotik",
       "titles": [
         {
@@ -1234,7 +1234,7 @@
       ]
     },
     {
-      "model_id": "rb-nor-flash-16M-ac",
+      "id": "rb-nor-flash-16M-ac",
       "target": "ar71xx/mikrotik",
       "titles": [
         {
@@ -1243,7 +1243,7 @@
       ]
     },
     {
-      "model_id": "NBG6616",
+      "id": "NBG6616",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1252,7 +1252,7 @@
       ]
     },
     {
-      "model_id": "antminer-s1",
+      "id": "antminer-s1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1261,7 +1261,7 @@
       ]
     },
     {
-      "model_id": "antminer-s3",
+      "id": "antminer-s3",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1270,7 +1270,7 @@
       ]
     },
     {
-      "model_id": "antrouter-r1",
+      "id": "antrouter-r1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1279,7 +1279,7 @@
       ]
     },
     {
-      "model_id": "ap121f",
+      "id": "ap121f",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1288,7 +1288,7 @@
       ]
     },
     {
-      "model_id": "ap531b0",
+      "id": "ap531b0",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1297,7 +1297,7 @@
       ]
     },
     {
-      "model_id": "ap90q",
+      "id": "ap90q",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1306,7 +1306,7 @@
       ]
     },
     {
-      "model_id": "archer-c25-v1",
+      "id": "archer-c25-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1315,7 +1315,7 @@
       ]
     },
     {
-      "model_id": "archer-c5-v1",
+      "id": "archer-c5-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1324,7 +1324,7 @@
       ]
     },
     {
-      "model_id": "archer-c58-v1",
+      "id": "archer-c58-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1333,7 +1333,7 @@
       ]
     },
     {
-      "model_id": "archer-c59-v1",
+      "id": "archer-c59-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1342,7 +1342,7 @@
       ]
     },
     {
-      "model_id": "archer-c59-v2",
+      "id": "archer-c59-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1351,7 +1351,7 @@
       ]
     },
     {
-      "model_id": "archer-c60-v1",
+      "id": "archer-c60-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1360,7 +1360,7 @@
       ]
     },
     {
-      "model_id": "archer-c60-v2",
+      "id": "archer-c60-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1369,7 +1369,7 @@
       ]
     },
     {
-      "model_id": "archer-c7-v1",
+      "id": "archer-c7-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1378,7 +1378,7 @@
       ]
     },
     {
-      "model_id": "archer-c7-v2",
+      "id": "archer-c7-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1387,7 +1387,7 @@
       ]
     },
     {
-      "model_id": "archer-c7-v2-il",
+      "id": "archer-c7-v2-il",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1396,7 +1396,7 @@
       ]
     },
     {
-      "model_id": "archer-c7-v4",
+      "id": "archer-c7-v4",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1405,7 +1405,7 @@
       ]
     },
     {
-      "model_id": "archer-c7-v5",
+      "id": "archer-c7-v5",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1414,7 +1414,7 @@
       ]
     },
     {
-      "model_id": "arduino-yun",
+      "id": "arduino-yun",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1423,7 +1423,7 @@
       ]
     },
     {
-      "model_id": "bsb",
+      "id": "bsb",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1432,7 +1432,7 @@
       ]
     },
     {
-      "model_id": "c-55",
+      "id": "c-55",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1441,7 +1441,7 @@
       ]
     },
     {
-      "model_id": "cap324",
+      "id": "cap324",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1450,7 +1450,7 @@
       ]
     },
     {
-      "model_id": "carambola2",
+      "id": "carambola2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1459,7 +1459,7 @@
       ]
     },
     {
-      "model_id": "cf-e316n-v2",
+      "id": "cf-e316n-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1468,7 +1468,7 @@
       ]
     },
     {
-      "model_id": "cf-e320n-v2",
+      "id": "cf-e320n-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1477,7 +1477,7 @@
       ]
     },
     {
-      "model_id": "cf-e355ac-v1",
+      "id": "cf-e355ac-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1486,7 +1486,7 @@
       ]
     },
     {
-      "model_id": "cf-e355ac-v2",
+      "id": "cf-e355ac-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1495,7 +1495,7 @@
       ]
     },
     {
-      "model_id": "cf-e375ac",
+      "id": "cf-e375ac",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1504,7 +1504,7 @@
       ]
     },
     {
-      "model_id": "cf-e380ac-v1",
+      "id": "cf-e380ac-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1513,7 +1513,7 @@
       ]
     },
     {
-      "model_id": "cf-e380ac-v2",
+      "id": "cf-e380ac-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1522,7 +1522,7 @@
       ]
     },
     {
-      "model_id": "cf-e385ac",
+      "id": "cf-e385ac",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1531,7 +1531,7 @@
       ]
     },
     {
-      "model_id": "cf-e520n",
+      "id": "cf-e520n",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1540,7 +1540,7 @@
       ]
     },
     {
-      "model_id": "cf-e530n",
+      "id": "cf-e530n",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1549,7 +1549,7 @@
       ]
     },
     {
-      "model_id": "cpe210-220-v1",
+      "id": "cpe210-220-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1558,7 +1558,7 @@
       ]
     },
     {
-      "model_id": "cpe210-v2",
+      "id": "cpe210-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1567,7 +1567,7 @@
       ]
     },
     {
-      "model_id": "cpe210-v3",
+      "id": "cpe210-v3",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1576,7 +1576,7 @@
       ]
     },
     {
-      "model_id": "cpe505n",
+      "id": "cpe505n",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1585,7 +1585,7 @@
       ]
     },
     {
-      "model_id": "cpe510-520-v1",
+      "id": "cpe510-520-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1594,7 +1594,7 @@
       ]
     },
     {
-      "model_id": "cpe510-v2",
+      "id": "cpe510-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1603,7 +1603,7 @@
       ]
     },
     {
-      "model_id": "cpe830",
+      "id": "cpe830",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1612,7 +1612,7 @@
       ]
     },
     {
-      "model_id": "cpe870",
+      "id": "cpe870",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1621,7 +1621,7 @@
       ]
     },
     {
-      "model_id": "cr3000",
+      "id": "cr3000",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1630,7 +1630,7 @@
       ]
     },
     {
-      "model_id": "cr5000",
+      "id": "cr5000",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1639,7 +1639,7 @@
       ]
     },
     {
-      "model_id": "dap-1330-a1",
+      "id": "dap-1330-a1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1648,7 +1648,7 @@
       ]
     },
     {
-      "model_id": "dap-2695-a1",
+      "id": "dap-2695-a1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1657,7 +1657,7 @@
       ]
     },
     {
-      "model_id": "dir-869-a1",
+      "id": "dir-869-a1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1666,7 +1666,7 @@
       ]
     },
     {
-      "model_id": "dr342",
+      "id": "dr342",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1675,7 +1675,7 @@
       ]
     },
     {
-      "model_id": "dr531",
+      "id": "dr531",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1684,7 +1684,7 @@
       ]
     },
     {
-      "model_id": "dragino2",
+      "id": "dragino2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1693,7 +1693,7 @@
       ]
     },
     {
-      "model_id": "e1700ac-v2-16M",
+      "id": "e1700ac-v2-16M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1702,7 +1702,7 @@
       ]
     },
     {
-      "model_id": "e1700ac-v2-8M",
+      "id": "e1700ac-v2-8M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1711,7 +1711,7 @@
       ]
     },
     {
-      "model_id": "e558-v2-16M",
+      "id": "e558-v2-16M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1720,7 +1720,7 @@
       ]
     },
     {
-      "model_id": "e558-v2-8M",
+      "id": "e558-v2-8M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1729,7 +1729,7 @@
       ]
     },
     {
-      "model_id": "e600g-v2-16M",
+      "id": "e600g-v2-16M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1738,7 +1738,7 @@
       ]
     },
     {
-      "model_id": "e600g-v2-8M",
+      "id": "e600g-v2-8M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1747,7 +1747,7 @@
       ]
     },
     {
-      "model_id": "e600gac-v2-16M",
+      "id": "e600gac-v2-16M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1756,7 +1756,7 @@
       ]
     },
     {
-      "model_id": "e600gac-v2-8M",
+      "id": "e600gac-v2-8M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1765,7 +1765,7 @@
       ]
     },
     {
-      "model_id": "e750a-v4-16M",
+      "id": "e750a-v4-16M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1774,7 +1774,7 @@
       ]
     },
     {
-      "model_id": "e750a-v4-8M",
+      "id": "e750a-v4-8M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1783,7 +1783,7 @@
       ]
     },
     {
-      "model_id": "e750g-v8-16M",
+      "id": "e750g-v8-16M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1792,7 +1792,7 @@
       ]
     },
     {
-      "model_id": "e750g-v8-8M",
+      "id": "e750g-v8-8M",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1801,7 +1801,7 @@
       ]
     },
     {
-      "model_id": "el-m150",
+      "id": "el-m150",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1810,7 +1810,7 @@
       ]
     },
     {
-      "model_id": "el-mini",
+      "id": "el-mini",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1819,7 +1819,7 @@
       ]
     },
     {
-      "model_id": "ew-balin",
+      "id": "ew-balin",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1828,7 +1828,7 @@
       ]
     },
     {
-      "model_id": "ew-dorin",
+      "id": "ew-dorin",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1837,7 +1837,7 @@
       ]
     },
     {
-      "model_id": "ew-dorin-router",
+      "id": "ew-dorin-router",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1846,7 +1846,7 @@
       ]
     },
     {
-      "model_id": "fritz300e",
+      "id": "fritz300e",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1855,7 +1855,7 @@
       ]
     },
     {
-      "model_id": "fritz4020",
+      "id": "fritz4020",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1864,7 +1864,7 @@
       ]
     },
     {
-      "model_id": "fritz450e",
+      "id": "fritz450e",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1873,7 +1873,7 @@
       ]
     },
     {
-      "model_id": "gl-ar150",
+      "id": "gl-ar150",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1882,7 +1882,7 @@
       ]
     },
     {
-      "model_id": "gl-ar300",
+      "id": "gl-ar300",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1891,7 +1891,7 @@
       ]
     },
     {
-      "model_id": "gl-ar300m",
+      "id": "gl-ar300m",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1900,7 +1900,7 @@
       ]
     },
     {
-      "model_id": "gl-ar750",
+      "id": "gl-ar750",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1909,7 +1909,7 @@
       ]
     },
     {
-      "model_id": "gl-ar750s",
+      "id": "gl-ar750s",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1918,7 +1918,7 @@
       ]
     },
     {
-      "model_id": "gl-domino",
+      "id": "gl-domino",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1927,7 +1927,7 @@
       ]
     },
     {
-      "model_id": "gl-inet-6408A-v1",
+      "id": "gl-inet-6408A-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1936,7 +1936,7 @@
       ]
     },
     {
-      "model_id": "gl-inet-6416A-v1",
+      "id": "gl-inet-6416A-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1945,7 +1945,7 @@
       ]
     },
     {
-      "model_id": "gl-mifi",
+      "id": "gl-mifi",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1954,7 +1954,7 @@
       ]
     },
     {
-      "model_id": "gl-usb150",
+      "id": "gl-usb150",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1963,7 +1963,7 @@
       ]
     },
     {
-      "model_id": "hiwifi-hc6361",
+      "id": "hiwifi-hc6361",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1972,7 +1972,7 @@
       ]
     },
     {
-      "model_id": "jwap230",
+      "id": "jwap230",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1981,7 +1981,7 @@
       ]
     },
     {
-      "model_id": "koala",
+      "id": "koala",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1990,7 +1990,7 @@
       ]
     },
     {
-      "model_id": "lan-turtle",
+      "id": "lan-turtle",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -1999,7 +1999,7 @@
       ]
     },
     {
-      "model_id": "lima",
+      "id": "lima",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2008,7 +2008,7 @@
       ]
     },
     {
-      "model_id": "mc-mac1200r",
+      "id": "mc-mac1200r",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2017,7 +2017,7 @@
       ]
     },
     {
-      "model_id": "minibox-v1",
+      "id": "minibox-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2026,7 +2026,7 @@
       ]
     },
     {
-      "model_id": "minibox-v3.2",
+      "id": "minibox-v3.2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2035,7 +2035,7 @@
       ]
     },
     {
-      "model_id": "mr12",
+      "id": "mr12",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2044,7 +2044,7 @@
       ]
     },
     {
-      "model_id": "mr16",
+      "id": "mr16",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2053,7 +2053,7 @@
       ]
     },
     {
-      "model_id": "mw4530r-v1",
+      "id": "mw4530r-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2062,7 +2062,7 @@
       ]
     },
     {
-      "model_id": "mynet-n600",
+      "id": "mynet-n600",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2071,7 +2071,7 @@
       ]
     },
     {
-      "model_id": "mynet-n750",
+      "id": "mynet-n750",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2080,7 +2080,7 @@
       ]
     },
     {
-      "model_id": "n5q",
+      "id": "n5q",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2089,7 +2089,7 @@
       ]
     },
     {
-      "model_id": "omy-g1",
+      "id": "omy-g1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2098,7 +2098,7 @@
       ]
     },
     {
-      "model_id": "omy-x1",
+      "id": "omy-x1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2107,7 +2107,7 @@
       ]
     },
     {
-      "model_id": "onion-omega",
+      "id": "onion-omega",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2116,7 +2116,7 @@
       ]
     },
     {
-      "model_id": "oolite-v1",
+      "id": "oolite-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2125,7 +2125,7 @@
       ]
     },
     {
-      "model_id": "oolite-v5.2",
+      "id": "oolite-v5.2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2134,7 +2134,7 @@
       ]
     },
     {
-      "model_id": "oolite-v5.2-dev",
+      "id": "oolite-v5.2-dev",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2143,7 +2143,7 @@
       ]
     },
     {
-      "model_id": "packet-squirrel",
+      "id": "packet-squirrel",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2152,7 +2152,7 @@
       ]
     },
     {
-      "model_id": "pqi-air-pen",
+      "id": "pqi-air-pen",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2161,7 +2161,7 @@
       ]
     },
     {
-      "model_id": "qihoo-c301",
+      "id": "qihoo-c301",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2170,7 +2170,7 @@
       ]
     },
     {
-      "model_id": "r36a",
+      "id": "r36a",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2179,7 +2179,7 @@
       ]
     },
     {
-      "model_id": "r602n",
+      "id": "r602n",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2188,7 +2188,7 @@
       ]
     },
     {
-      "model_id": "re355-v1",
+      "id": "re355-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2197,7 +2197,7 @@
       ]
     },
     {
-      "model_id": "re450-v1",
+      "id": "re450-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2206,7 +2206,7 @@
       ]
     },
     {
-      "model_id": "rme-eg200",
+      "id": "rme-eg200",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2215,7 +2215,7 @@
       ]
     },
     {
-      "model_id": "rut900",
+      "id": "rut900",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2224,7 +2224,7 @@
       ]
     },
     {
-      "model_id": "rw2458n",
+      "id": "rw2458n",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2233,7 +2233,7 @@
       ]
     },
     {
-      "model_id": "sc1750",
+      "id": "sc1750",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2242,7 +2242,7 @@
       ]
     },
     {
-      "model_id": "sc300m",
+      "id": "sc300m",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2251,7 +2251,7 @@
       ]
     },
     {
-      "model_id": "sc450",
+      "id": "sc450",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2260,7 +2260,7 @@
       ]
     },
     {
-      "model_id": "smart-300",
+      "id": "smart-300",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2269,7 +2269,7 @@
       ]
     },
     {
-      "model_id": "som9331",
+      "id": "som9331",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2278,7 +2278,7 @@
       ]
     },
     {
-      "model_id": "sr3200",
+      "id": "sr3200",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2287,7 +2287,7 @@
       ]
     },
     {
-      "model_id": "t830",
+      "id": "t830",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2296,7 +2296,7 @@
       ]
     },
     {
-      "model_id": "tellstick-znet-lite",
+      "id": "tellstick-znet-lite",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2305,7 +2305,7 @@
       ]
     },
     {
-      "model_id": "tl-mr6400-v1",
+      "id": "tl-mr6400-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2314,7 +2314,7 @@
       ]
     },
     {
-      "model_id": "tl-wdr3500-v1",
+      "id": "tl-wdr3500-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2323,7 +2323,7 @@
       ]
     },
     {
-      "model_id": "tl-wdr3600-v1",
+      "id": "tl-wdr3600-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2332,7 +2332,7 @@
       ]
     },
     {
-      "model_id": "tl-wdr4300-v1",
+      "id": "tl-wdr4300-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2341,7 +2341,7 @@
       ]
     },
     {
-      "model_id": "tl-wdr4300-v1-il",
+      "id": "tl-wdr4300-v1-il",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2350,7 +2350,7 @@
       ]
     },
     {
-      "model_id": "tl-wdr4310-v1",
+      "id": "tl-wdr4310-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2359,7 +2359,7 @@
       ]
     },
     {
-      "model_id": "tl-wdr4900-v2",
+      "id": "tl-wdr4900-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2368,7 +2368,7 @@
       ]
     },
     {
-      "model_id": "tl-wdr6500-v2",
+      "id": "tl-wdr6500-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2377,7 +2377,7 @@
       ]
     },
     {
-      "model_id": "tl-wdr7500-v3",
+      "id": "tl-wdr7500-v3",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2386,7 +2386,7 @@
       ]
     },
     {
-      "model_id": "tl-wpa8630-v1",
+      "id": "tl-wpa8630-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2395,7 +2395,7 @@
       ]
     },
     {
-      "model_id": "tl-wr1043n-v5",
+      "id": "tl-wr1043n-v5",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2404,7 +2404,7 @@
       ]
     },
     {
-      "model_id": "tl-wr1043nd-v1",
+      "id": "tl-wr1043nd-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2413,7 +2413,7 @@
       ]
     },
     {
-      "model_id": "tl-wr1043nd-v2",
+      "id": "tl-wr1043nd-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2422,7 +2422,7 @@
       ]
     },
     {
-      "model_id": "tl-wr1043nd-v3",
+      "id": "tl-wr1043nd-v3",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2431,7 +2431,7 @@
       ]
     },
     {
-      "model_id": "tl-wr1043nd-v4",
+      "id": "tl-wr1043nd-v4",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2440,7 +2440,7 @@
       ]
     },
     {
-      "model_id": "tl-wr2543-v1",
+      "id": "tl-wr2543-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2449,7 +2449,7 @@
       ]
     },
     {
-      "model_id": "tl-wr710n-v1",
+      "id": "tl-wr710n-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2458,7 +2458,7 @@
       ]
     },
     {
-      "model_id": "tl-wr710n-v2.1",
+      "id": "tl-wr710n-v2.1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2467,7 +2467,7 @@
       ]
     },
     {
-      "model_id": "tl-wr810n-v1",
+      "id": "tl-wr810n-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2476,7 +2476,7 @@
       ]
     },
     {
-      "model_id": "tl-wr810n-v2",
+      "id": "tl-wr810n-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2485,7 +2485,7 @@
       ]
     },
     {
-      "model_id": "tl-wr842n-v1",
+      "id": "tl-wr842n-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2494,7 +2494,7 @@
       ]
     },
     {
-      "model_id": "tl-wr842n-v2",
+      "id": "tl-wr842n-v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2503,7 +2503,7 @@
       ]
     },
     {
-      "model_id": "tl-wr842n-v3",
+      "id": "tl-wr842n-v3",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2512,7 +2512,7 @@
       ]
     },
     {
-      "model_id": "tl-wr902ac-v1",
+      "id": "tl-wr902ac-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2521,7 +2521,7 @@
       ]
     },
     {
-      "model_id": "tl-wr942n-v1",
+      "id": "tl-wr942n-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2530,7 +2530,7 @@
       ]
     },
     {
-      "model_id": "ts-d084",
+      "id": "ts-d084",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2539,7 +2539,7 @@
       ]
     },
     {
-      "model_id": "ubdev01",
+      "id": "ubdev01",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2548,7 +2548,7 @@
       ]
     },
     {
-      "model_id": "ubnt-air-gateway",
+      "id": "ubnt-air-gateway",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2557,7 +2557,7 @@
       ]
     },
     {
-      "model_id": "ubnt-air-gateway-pro",
+      "id": "ubnt-air-gateway-pro",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2566,7 +2566,7 @@
       ]
     },
     {
-      "model_id": "ubnt-airrouter",
+      "id": "ubnt-airrouter",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2575,7 +2575,7 @@
       ]
     },
     {
-      "model_id": "ubnt-bullet-m",
+      "id": "ubnt-bullet-m",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2584,7 +2584,7 @@
       ]
     },
     {
-      "model_id": "ubnt-bullet-m-xw",
+      "id": "ubnt-bullet-m-xw",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2593,7 +2593,7 @@
       ]
     },
     {
-      "model_id": "ubnt-lbe-m5",
+      "id": "ubnt-lbe-m5",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2602,7 +2602,7 @@
       ]
     },
     {
-      "model_id": "ubnt-loco-m-xw",
+      "id": "ubnt-loco-m-xw",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2611,7 +2611,7 @@
       ]
     },
     {
-      "model_id": "ubnt-ls-sr71",
+      "id": "ubnt-ls-sr71",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2620,7 +2620,7 @@
       ]
     },
     {
-      "model_id": "ubnt-nano-m",
+      "id": "ubnt-nano-m",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2629,7 +2629,7 @@
       ]
     },
     {
-      "model_id": "ubnt-nano-m-xw",
+      "id": "ubnt-nano-m-xw",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2638,7 +2638,7 @@
       ]
     },
     {
-      "model_id": "ubnt-rocket-m",
+      "id": "ubnt-rocket-m",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2647,7 +2647,7 @@
       ]
     },
     {
-      "model_id": "ubnt-rocket-m-ti",
+      "id": "ubnt-rocket-m-ti",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2656,7 +2656,7 @@
       ]
     },
     {
-      "model_id": "ubnt-rocket-m-xw",
+      "id": "ubnt-rocket-m-xw",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2665,7 +2665,7 @@
       ]
     },
     {
-      "model_id": "ubnt-rs",
+      "id": "ubnt-rs",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2674,7 +2674,7 @@
       ]
     },
     {
-      "model_id": "ubnt-rspro",
+      "id": "ubnt-rspro",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2683,7 +2683,7 @@
       ]
     },
     {
-      "model_id": "ubnt-uap-pro",
+      "id": "ubnt-uap-pro",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2692,7 +2692,7 @@
       ]
     },
     {
-      "model_id": "ubnt-unifi",
+      "id": "ubnt-unifi",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2701,7 +2701,7 @@
       ]
     },
     {
-      "model_id": "ubnt-unifi-outdoor",
+      "id": "ubnt-unifi-outdoor",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2710,7 +2710,7 @@
       ]
     },
     {
-      "model_id": "ubnt-unifi-outdoor-plus",
+      "id": "ubnt-unifi-outdoor-plus",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2719,7 +2719,7 @@
       ]
     },
     {
-      "model_id": "ubnt-unifiac-lite",
+      "id": "ubnt-unifiac-lite",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2728,7 +2728,7 @@
       ]
     },
     {
-      "model_id": "ubnt-unifiac-lr",
+      "id": "ubnt-unifiac-lr",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2737,7 +2737,7 @@
       ]
     },
     {
-      "model_id": "ubnt-unifiac-mesh",
+      "id": "ubnt-unifiac-mesh",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2746,7 +2746,7 @@
       ]
     },
     {
-      "model_id": "ubnt-unifiac-mesh-pro",
+      "id": "ubnt-unifiac-mesh-pro",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2755,7 +2755,7 @@
       ]
     },
     {
-      "model_id": "ubnt-unifiac-pro",
+      "id": "ubnt-unifiac-pro",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2764,7 +2764,7 @@
       ]
     },
     {
-      "model_id": "wam250",
+      "id": "wam250",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2773,7 +2773,7 @@
       ]
     },
     {
-      "model_id": "wbs210-v1",
+      "id": "wbs210-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2782,7 +2782,7 @@
       ]
     },
     {
-      "model_id": "wbs510-v1",
+      "id": "wbs510-v1",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2791,7 +2791,7 @@
       ]
     },
     {
-      "model_id": "weio",
+      "id": "weio",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2800,7 +2800,7 @@
       ]
     },
     {
-      "model_id": "wifi-pineapple-nano",
+      "id": "wifi-pineapple-nano",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2809,7 +2809,7 @@
       ]
     },
     {
-      "model_id": "wlr8100",
+      "id": "wlr8100",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2818,7 +2818,7 @@
       ]
     },
     {
-      "model_id": "wndr3700",
+      "id": "wndr3700",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2827,7 +2827,7 @@
       ]
     },
     {
-      "model_id": "wndr3700v2",
+      "id": "wndr3700v2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2836,7 +2836,7 @@
       ]
     },
     {
-      "model_id": "wndr3800",
+      "id": "wndr3800",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2845,7 +2845,7 @@
       ]
     },
     {
-      "model_id": "wndr3800ch",
+      "id": "wndr3800ch",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2854,7 +2854,7 @@
       ]
     },
     {
-      "model_id": "wndrmac",
+      "id": "wndrmac",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2863,7 +2863,7 @@
       ]
     },
     {
-      "model_id": "wndrmacv2",
+      "id": "wndrmacv2",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2872,7 +2872,7 @@
       ]
     },
     {
-      "model_id": "wpj342",
+      "id": "wpj342",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2881,7 +2881,7 @@
       ]
     },
     {
-      "model_id": "wpj344",
+      "id": "wpj344",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2890,7 +2890,7 @@
       ]
     },
     {
-      "model_id": "wpj531",
+      "id": "wpj531",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2899,7 +2899,7 @@
       ]
     },
     {
-      "model_id": "wpj558",
+      "id": "wpj558",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2908,7 +2908,7 @@
       ]
     },
     {
-      "model_id": "wpj563",
+      "id": "wpj563",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2917,7 +2917,7 @@
       ]
     },
     {
-      "model_id": "wrtnode2q",
+      "id": "wrtnode2q",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2926,7 +2926,7 @@
       ]
     },
     {
-      "model_id": "xd3200",
+      "id": "xd3200",
       "target": "ar71xx/generic",
       "titles": [
         {
@@ -2935,7 +2935,7 @@
       ]
     },
     {
-      "model_id": "ens202ext",
+      "id": "ens202ext",
       "target": "ar71xx/tiny",
       "titles": [
         {
@@ -2944,7 +2944,7 @@
       ]
     },
     {
-      "model_id": "c-60",
+      "id": "c-60",
       "target": "ar71xx/nand",
       "titles": [
         {
@@ -2953,7 +2953,7 @@
       ]
     },
     {
-      "model_id": "hiveap-121",
+      "id": "hiveap-121",
       "target": "ar71xx/nand",
       "titles": [
         {
@@ -2962,7 +2962,7 @@
       ]
     },
     {
-      "model_id": "mr18",
+      "id": "mr18",
       "target": "ar71xx/nand",
       "titles": [
         {
@@ -2971,7 +2971,7 @@
       ]
     },
     {
-      "model_id": "rambutan",
+      "id": "rambutan",
       "target": "ar71xx/nand",
       "titles": [
         {
@@ -2980,7 +2980,7 @@
       ]
     },
     {
-      "model_id": "wi2a-ac200i",
+      "id": "wi2a-ac200i",
       "target": "ar71xx/nand",
       "titles": [
         {
@@ -2989,7 +2989,7 @@
       ]
     },
     {
-      "model_id": "z1",
+      "id": "z1",
       "target": "ar71xx/nand",
       "titles": [
         {
@@ -2998,7 +2998,7 @@
       ]
     },
     {
-      "model_id": "7623a-unielec-u7623-02-emmc-512m",
+      "id": "7623a-unielec-u7623-02-emmc-512m",
       "target": "mediatek/mt7623",
       "titles": [
         {
@@ -3007,7 +3007,7 @@
       ]
     },
     {
-      "model_id": "7623n-bananapi-bpi-r2",
+      "id": "7623n-bananapi-bpi-r2",
       "target": "mediatek/mt7623",
       "titles": [
         {
@@ -3016,7 +3016,7 @@
       ]
     },
     {
-      "model_id": "MTK-RFB1",
+      "id": "MTK-RFB1",
       "target": "mediatek/mt7622",
       "titles": [
         {
@@ -3025,7 +3025,7 @@
       ]
     },
     {
-      "model_id": "ti_am335x-bone-black",
+      "id": "ti_am335x-bone-black",
       "target": "omap/generic",
       "titles": [
         {
@@ -3034,7 +3034,7 @@
       ]
     },
     {
-      "model_id": "ti_am335x-evm",
+      "id": "ti_am335x-evm",
       "target": "omap/generic",
       "titles": [
         {
@@ -3043,7 +3043,7 @@
       ]
     },
     {
-      "model_id": "ti_omap3-beagle",
+      "id": "ti_omap3-beagle",
       "target": "omap/generic",
       "titles": [
         {
@@ -3052,7 +3052,7 @@
       ]
     },
     {
-      "model_id": "ti_omap4-panda",
+      "id": "ti_omap4-panda",
       "target": "omap/generic",
       "titles": [
         {
@@ -3061,7 +3061,7 @@
       ]
     },
     {
-      "model_id": "8dev_carambola2",
+      "id": "8dev_carambola2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3070,7 +3070,7 @@
       ]
     },
     {
-      "model_id": "aruba_ap-105",
+      "id": "aruba_ap-105",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3079,7 +3079,7 @@
       ]
     },
     {
-      "model_id": "avm_fritz300e",
+      "id": "avm_fritz300e",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3088,7 +3088,7 @@
       ]
     },
     {
-      "model_id": "avm_fritz4020",
+      "id": "avm_fritz4020",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3097,7 +3097,7 @@
       ]
     },
     {
-      "model_id": "buffalo_bhr-4grv",
+      "id": "buffalo_bhr-4grv",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3106,7 +3106,7 @@
       ]
     },
     {
-      "model_id": "buffalo_bhr-4grv2",
+      "id": "buffalo_bhr-4grv2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3115,7 +3115,7 @@
       ]
     },
     {
-      "model_id": "buffalo_wzr-hp-ag300h",
+      "id": "buffalo_wzr-hp-ag300h",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3124,7 +3124,7 @@
       ]
     },
     {
-      "model_id": "buffalo_wzr-hp-g302h-a1a0",
+      "id": "buffalo_wzr-hp-g302h-a1a0",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3133,7 +3133,7 @@
       ]
     },
     {
-      "model_id": "buffalo_wzr-hp-g450h",
+      "id": "buffalo_wzr-hp-g450h",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3142,7 +3142,7 @@
       ]
     },
     {
-      "model_id": "comfast_cf-e110n-v2",
+      "id": "comfast_cf-e110n-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3151,7 +3151,7 @@
       ]
     },
     {
-      "model_id": "comfast_cf-e120a-v3",
+      "id": "comfast_cf-e120a-v3",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3160,7 +3160,7 @@
       ]
     },
     {
-      "model_id": "comfast_cf-e5",
+      "id": "comfast_cf-e5",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3169,7 +3169,7 @@
       ]
     },
     {
-      "model_id": "devolo_dvl1200e",
+      "id": "devolo_dvl1200e",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3178,7 +3178,7 @@
       ]
     },
     {
-      "model_id": "devolo_dvl1200i",
+      "id": "devolo_dvl1200i",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3187,7 +3187,7 @@
       ]
     },
     {
-      "model_id": "devolo_dvl1750c",
+      "id": "devolo_dvl1750c",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3196,7 +3196,7 @@
       ]
     },
     {
-      "model_id": "devolo_dvl1750e",
+      "id": "devolo_dvl1750e",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3205,7 +3205,7 @@
       ]
     },
     {
-      "model_id": "devolo_dvl1750i",
+      "id": "devolo_dvl1750i",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3214,7 +3214,7 @@
       ]
     },
     {
-      "model_id": "devolo_dvl1750x",
+      "id": "devolo_dvl1750x",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3223,7 +3223,7 @@
       ]
     },
     {
-      "model_id": "dlink_dir-825-b1",
+      "id": "dlink_dir-825-b1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3232,7 +3232,7 @@
       ]
     },
     {
-      "model_id": "dlink_dir-825-c1",
+      "id": "dlink_dir-825-c1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3241,7 +3241,7 @@
       ]
     },
     {
-      "model_id": "dlink_dir-835-a1",
+      "id": "dlink_dir-835-a1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3250,7 +3250,7 @@
       ]
     },
     {
-      "model_id": "dlink_dir-859-a1",
+      "id": "dlink_dir-859-a1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3259,7 +3259,7 @@
       ]
     },
     {
-      "model_id": "elecom_wrc-1750ghbk2-i",
+      "id": "elecom_wrc-1750ghbk2-i",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3268,7 +3268,7 @@
       ]
     },
     {
-      "model_id": "elecom_wrc-300ghbk2-i",
+      "id": "elecom_wrc-300ghbk2-i",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3277,7 +3277,7 @@
       ]
     },
     {
-      "model_id": "embeddedwireless_dorin",
+      "id": "embeddedwireless_dorin",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3286,7 +3286,7 @@
       ]
     },
     {
-      "model_id": "engenius_ecb1750",
+      "id": "engenius_ecb1750",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3295,7 +3295,7 @@
       ]
     },
     {
-      "model_id": "engenius_epg5000",
+      "id": "engenius_epg5000",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3304,7 +3304,7 @@
       ]
     },
     {
-      "model_id": "engenius_ews511ap",
+      "id": "engenius_ews511ap",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3313,7 +3313,7 @@
       ]
     },
     {
-      "model_id": "etactica_eg200",
+      "id": "etactica_eg200",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3322,7 +3322,7 @@
       ]
     },
     {
-      "model_id": "glinet_gl-ar150",
+      "id": "glinet_gl-ar150",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3331,7 +3331,7 @@
       ]
     },
     {
-      "model_id": "glinet_gl-ar300m-lite",
+      "id": "glinet_gl-ar300m-lite",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3340,7 +3340,7 @@
       ]
     },
     {
-      "model_id": "glinet_gl-x750",
+      "id": "glinet_gl-x750",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3349,7 +3349,7 @@
       ]
     },
     {
-      "model_id": "iodata_etg3-r",
+      "id": "iodata_etg3-r",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3358,7 +3358,7 @@
       ]
     },
     {
-      "model_id": "iodata_wn-ac1167dgr",
+      "id": "iodata_wn-ac1167dgr",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3367,7 +3367,7 @@
       ]
     },
     {
-      "model_id": "iodata_wn-ac1600dgr",
+      "id": "iodata_wn-ac1600dgr",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3376,7 +3376,7 @@
       ]
     },
     {
-      "model_id": "iodata_wn-ac1600dgr2",
+      "id": "iodata_wn-ac1600dgr2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3385,7 +3385,7 @@
       ]
     },
     {
-      "model_id": "iodata_wn-ag300dgr",
+      "id": "iodata_wn-ag300dgr",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3394,7 +3394,7 @@
       ]
     },
     {
-      "model_id": "jjplus_ja76pf2",
+      "id": "jjplus_ja76pf2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3403,7 +3403,7 @@
       ]
     },
     {
-      "model_id": "librerouter_librerouter-v1",
+      "id": "librerouter_librerouter-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3412,7 +3412,7 @@
       ]
     },
     {
-      "model_id": "nec_wg1200cr",
+      "id": "nec_wg1200cr",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3421,7 +3421,7 @@
       ]
     },
     {
-      "model_id": "nec_wg800hp",
+      "id": "nec_wg800hp",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3430,7 +3430,7 @@
       ]
     },
     {
-      "model_id": "netgear_ex6400",
+      "id": "netgear_ex6400",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3439,7 +3439,7 @@
       ]
     },
     {
-      "model_id": "netgear_ex7300",
+      "id": "netgear_ex7300",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3448,7 +3448,7 @@
       ]
     },
     {
-      "model_id": "netgear_wndr3700",
+      "id": "netgear_wndr3700",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3457,7 +3457,7 @@
       ]
     },
     {
-      "model_id": "netgear_wndr3700v2",
+      "id": "netgear_wndr3700v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3466,7 +3466,7 @@
       ]
     },
     {
-      "model_id": "netgear_wndr3800",
+      "id": "netgear_wndr3800",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3475,7 +3475,7 @@
       ]
     },
     {
-      "model_id": "ocedo_koala",
+      "id": "ocedo_koala",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3484,7 +3484,7 @@
       ]
     },
     {
-      "model_id": "ocedo_raccoon",
+      "id": "ocedo_raccoon",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3493,7 +3493,7 @@
       ]
     },
     {
-      "model_id": "ocedo_ursus",
+      "id": "ocedo_ursus",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3502,7 +3502,7 @@
       ]
     },
     {
-      "model_id": "openmesh_om5p-ac-v2",
+      "id": "openmesh_om5p-ac-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3511,7 +3511,7 @@
       ]
     },
     {
-      "model_id": "pcs_cap324",
+      "id": "pcs_cap324",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3520,7 +3520,7 @@
       ]
     },
     {
-      "model_id": "pcs_cr3000",
+      "id": "pcs_cr3000",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3529,7 +3529,7 @@
       ]
     },
     {
-      "model_id": "pcs_cr5000",
+      "id": "pcs_cr5000",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3538,7 +3538,7 @@
       ]
     },
     {
-      "model_id": "phicomm_k2t",
+      "id": "phicomm_k2t",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3547,7 +3547,7 @@
       ]
     },
     {
-      "model_id": "pisen_wmm003n",
+      "id": "pisen_wmm003n",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3556,7 +3556,7 @@
       ]
     },
     {
-      "model_id": "rosinson_wr818",
+      "id": "rosinson_wr818",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3565,7 +3565,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-a7-v5",
+      "id": "tplink_archer-a7-v5",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3574,7 +3574,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c2-v3",
+      "id": "tplink_archer-c2-v3",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3583,7 +3583,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c25-v1",
+      "id": "tplink_archer-c25-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3592,7 +3592,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c5-v1",
+      "id": "tplink_archer-c5-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3601,7 +3601,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c58-v1",
+      "id": "tplink_archer-c58-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3610,7 +3610,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c59-v1",
+      "id": "tplink_archer-c59-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3619,7 +3619,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c6-v2",
+      "id": "tplink_archer-c6-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3628,7 +3628,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c60-v1",
+      "id": "tplink_archer-c60-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3637,7 +3637,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c60-v2",
+      "id": "tplink_archer-c60-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3646,7 +3646,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c60-v3",
+      "id": "tplink_archer-c60-v3",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3655,7 +3655,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c7-v1",
+      "id": "tplink_archer-c7-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3664,7 +3664,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c7-v2",
+      "id": "tplink_archer-c7-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3673,7 +3673,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c7-v4",
+      "id": "tplink_archer-c7-v4",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3682,7 +3682,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-c7-v5",
+      "id": "tplink_archer-c7-v5",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3691,7 +3691,7 @@
       ]
     },
     {
-      "model_id": "tplink_archer-d50-v1",
+      "id": "tplink_archer-d50-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3700,7 +3700,7 @@
       ]
     },
     {
-      "model_id": "tplink_cpe210-v2",
+      "id": "tplink_cpe210-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3709,7 +3709,7 @@
       ]
     },
     {
-      "model_id": "tplink_cpe210-v3",
+      "id": "tplink_cpe210-v3",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3718,7 +3718,7 @@
       ]
     },
     {
-      "model_id": "tplink_cpe220-v3",
+      "id": "tplink_cpe220-v3",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3727,7 +3727,7 @@
       ]
     },
     {
-      "model_id": "tplink_re350k-v1",
+      "id": "tplink_re350k-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3736,7 +3736,7 @@
       ]
     },
     {
-      "model_id": "tplink_re450-v2",
+      "id": "tplink_re450-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3745,7 +3745,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wdr3500-v1",
+      "id": "tplink_tl-wdr3500-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3754,7 +3754,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wdr3600-v1",
+      "id": "tplink_tl-wdr3600-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3763,7 +3763,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wdr4300-v1",
+      "id": "tplink_tl-wdr4300-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3772,7 +3772,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wdr4300-v1-il",
+      "id": "tplink_tl-wdr4300-v1-il",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3781,7 +3781,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wdr4310-v1",
+      "id": "tplink_tl-wdr4310-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3790,7 +3790,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wdr4900-v2",
+      "id": "tplink_tl-wdr4900-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3799,7 +3799,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr1043n-v5",
+      "id": "tplink_tl-wr1043n-v5",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3808,7 +3808,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr1043nd-v1",
+      "id": "tplink_tl-wr1043nd-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3817,7 +3817,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr1043nd-v2",
+      "id": "tplink_tl-wr1043nd-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3826,7 +3826,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr1043nd-v3",
+      "id": "tplink_tl-wr1043nd-v3",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3835,7 +3835,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr1043nd-v4",
+      "id": "tplink_tl-wr1043nd-v4",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3844,7 +3844,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr2543-v1",
+      "id": "tplink_tl-wr2543-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3853,7 +3853,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr710n-v1",
+      "id": "tplink_tl-wr710n-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3862,7 +3862,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr710n-v2.1",
+      "id": "tplink_tl-wr710n-v2.1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3871,7 +3871,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr810n-v1",
+      "id": "tplink_tl-wr810n-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3880,7 +3880,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr810n-v2",
+      "id": "tplink_tl-wr810n-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3889,7 +3889,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr842n-v1",
+      "id": "tplink_tl-wr842n-v1",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3898,7 +3898,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr842n-v2",
+      "id": "tplink_tl-wr842n-v2",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3907,7 +3907,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr842n-v3",
+      "id": "tplink_tl-wr842n-v3",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3916,7 +3916,7 @@
       ]
     },
     {
-      "model_id": "ubnt_acb-isp",
+      "id": "ubnt_acb-isp",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3925,7 +3925,7 @@
       ]
     },
     {
-      "model_id": "ubnt_airrouter",
+      "id": "ubnt_airrouter",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3934,7 +3934,7 @@
       ]
     },
     {
-      "model_id": "ubnt_bullet-m",
+      "id": "ubnt_bullet-m",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3943,7 +3943,7 @@
       ]
     },
     {
-      "model_id": "ubnt_bullet-m-xw",
+      "id": "ubnt_bullet-m-xw",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3952,7 +3952,7 @@
       ]
     },
     {
-      "model_id": "ubnt_lap-120",
+      "id": "ubnt_lap-120",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3961,7 +3961,7 @@
       ]
     },
     {
-      "model_id": "ubnt_nanobeam-ac",
+      "id": "ubnt_nanobeam-ac",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3970,7 +3970,7 @@
       ]
     },
     {
-      "model_id": "ubnt_nanostation-ac",
+      "id": "ubnt_nanostation-ac",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3979,7 +3979,7 @@
       ]
     },
     {
-      "model_id": "ubnt_nanostation-ac-loco",
+      "id": "ubnt_nanostation-ac-loco",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3988,7 +3988,7 @@
       ]
     },
     {
-      "model_id": "ubnt_nanostation-loco-m",
+      "id": "ubnt_nanostation-loco-m",
       "target": "ath79/generic",
       "titles": [
         {
@@ -3997,7 +3997,7 @@
       ]
     },
     {
-      "model_id": "ubnt_nanostation-loco-m-xw",
+      "id": "ubnt_nanostation-loco-m-xw",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4006,7 +4006,7 @@
       ]
     },
     {
-      "model_id": "ubnt_nanostation-m",
+      "id": "ubnt_nanostation-m",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4015,7 +4015,7 @@
       ]
     },
     {
-      "model_id": "ubnt_nanostation-m-xw",
+      "id": "ubnt_nanostation-m-xw",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4024,7 +4024,7 @@
       ]
     },
     {
-      "model_id": "ubnt_picostation-m",
+      "id": "ubnt_picostation-m",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4033,7 +4033,7 @@
       ]
     },
     {
-      "model_id": "ubnt_rocket-m",
+      "id": "ubnt_rocket-m",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4042,7 +4042,7 @@
       ]
     },
     {
-      "model_id": "ubnt_routerstation",
+      "id": "ubnt_routerstation",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4051,7 +4051,7 @@
       ]
     },
     {
-      "model_id": "ubnt_routerstation-pro",
+      "id": "ubnt_routerstation-pro",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4060,7 +4060,7 @@
       ]
     },
     {
-      "model_id": "ubnt_unifi",
+      "id": "ubnt_unifi",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4069,7 +4069,7 @@
       ]
     },
     {
-      "model_id": "ubnt_unifiac-lite",
+      "id": "ubnt_unifiac-lite",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4078,7 +4078,7 @@
       ]
     },
     {
-      "model_id": "ubnt_unifiac-lr",
+      "id": "ubnt_unifiac-lr",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4087,7 +4087,7 @@
       ]
     },
     {
-      "model_id": "ubnt_unifiac-mesh",
+      "id": "ubnt_unifiac-mesh",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4096,7 +4096,7 @@
       ]
     },
     {
-      "model_id": "ubnt_unifiac-mesh-pro",
+      "id": "ubnt_unifiac-mesh-pro",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4105,7 +4105,7 @@
       ]
     },
     {
-      "model_id": "ubnt_unifiac-pro",
+      "id": "ubnt_unifiac-pro",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4114,7 +4114,7 @@
       ]
     },
     {
-      "model_id": "wd_mynet-n750",
+      "id": "wd_mynet-n750",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4123,7 +4123,7 @@
       ]
     },
     {
-      "model_id": "wd_mynet-wifi-rangeextender",
+      "id": "wd_mynet-wifi-rangeextender",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4132,7 +4132,7 @@
       ]
     },
     {
-      "model_id": "winchannel_wb2000",
+      "id": "winchannel_wb2000",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4141,7 +4141,7 @@
       ]
     },
     {
-      "model_id": "xiaomi_mi-router-4q",
+      "id": "xiaomi_mi-router-4q",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4150,7 +4150,7 @@
       ]
     },
     {
-      "model_id": "yuncore_a770",
+      "id": "yuncore_a770",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4159,7 +4159,7 @@
       ]
     },
     {
-      "model_id": "yuncore_a782",
+      "id": "yuncore_a782",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4168,7 +4168,7 @@
       ]
     },
     {
-      "model_id": "yuncore_xd4200",
+      "id": "yuncore_xd4200",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4177,7 +4177,7 @@
       ]
     },
     {
-      "model_id": "zbtlink_zbt-wd323",
+      "id": "zbtlink_zbt-wd323",
       "target": "ath79/generic",
       "titles": [
         {
@@ -4186,7 +4186,7 @@
       ]
     },
     {
-      "model_id": "buffalo_whr-g301n",
+      "id": "buffalo_whr-g301n",
       "target": "ath79/tiny",
       "titles": [
         {
@@ -4195,7 +4195,7 @@
       ]
     },
     {
-      "model_id": "netgear_wnr612-v2",
+      "id": "netgear_wnr612-v2",
       "target": "ath79/tiny",
       "titles": [
         {
@@ -4204,7 +4204,7 @@
       ]
     },
     {
-      "model_id": "on_n150r",
+      "id": "on_n150r",
       "target": "ath79/tiny",
       "titles": [
         {
@@ -4213,7 +4213,7 @@
       ]
     },
     {
-      "model_id": "pqi_air-pen",
+      "id": "pqi_air-pen",
       "target": "ath79/tiny",
       "titles": [
         {
@@ -4222,7 +4222,7 @@
       ]
     },
     {
-      "model_id": "963281TAN-generic",
+      "id": "963281TAN-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4231,7 +4231,7 @@
       ]
     },
     {
-      "model_id": "96328avng-generic",
+      "id": "96328avng-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4240,7 +4240,7 @@
       ]
     },
     {
-      "model_id": "96338GW-generic",
+      "id": "96338GW-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4249,7 +4249,7 @@
       ]
     },
     {
-      "model_id": "96338W-generic",
+      "id": "96338W-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4258,7 +4258,7 @@
       ]
     },
     {
-      "model_id": "96345GW2-generic",
+      "id": "96345GW2-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4267,7 +4267,7 @@
       ]
     },
     {
-      "model_id": "96348GW-10-generic",
+      "id": "96348GW-10-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4276,7 +4276,7 @@
       ]
     },
     {
-      "model_id": "96348GW-11-generic",
+      "id": "96348GW-11-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4285,7 +4285,7 @@
       ]
     },
     {
-      "model_id": "96348GW-generic",
+      "id": "96348GW-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4294,7 +4294,7 @@
       ]
     },
     {
-      "model_id": "96348R-generic",
+      "id": "96348R-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4303,7 +4303,7 @@
       ]
     },
     {
-      "model_id": "96358VW-generic",
+      "id": "96358VW-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4312,7 +4312,7 @@
       ]
     },
     {
-      "model_id": "96358VW2-generic",
+      "id": "96358VW2-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4321,7 +4321,7 @@
       ]
     },
     {
-      "model_id": "96368MVNgr-generic",
+      "id": "96368MVNgr-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4330,7 +4330,7 @@
       ]
     },
     {
-      "model_id": "96368MVWG-generic",
+      "id": "96368MVWG-generic",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4339,7 +4339,7 @@
       ]
     },
     {
-      "model_id": "A226G",
+      "id": "A226G",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4348,7 +4348,7 @@
       ]
     },
     {
-      "model_id": "A226M",
+      "id": "A226M",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4357,7 +4357,7 @@
       ]
     },
     {
-      "model_id": "A226M-FWB",
+      "id": "A226M-FWB",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4366,7 +4366,7 @@
       ]
     },
     {
-      "model_id": "A4001N",
+      "id": "A4001N",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4375,7 +4375,7 @@
       ]
     },
     {
-      "model_id": "A4001N1",
+      "id": "A4001N1",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4384,7 +4384,7 @@
       ]
     },
     {
-      "model_id": "AD1018-SPI_flash",
+      "id": "AD1018-SPI_flash",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4393,7 +4393,7 @@
       ]
     },
     {
-      "model_id": "AGPF-S0",
+      "id": "AGPF-S0",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4402,7 +4402,7 @@
       ]
     },
     {
-      "model_id": "AR1004G",
+      "id": "AR1004G",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4411,7 +4411,7 @@
       ]
     },
     {
-      "model_id": "AR5315u",
+      "id": "AR5315u",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4420,7 +4420,7 @@
       ]
     },
     {
-      "model_id": "AR5381u",
+      "id": "AR5381u",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4429,7 +4429,7 @@
       ]
     },
     {
-      "model_id": "AR5387un",
+      "id": "AR5387un",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4438,7 +4438,7 @@
       ]
     },
     {
-      "model_id": "AV4202N",
+      "id": "AV4202N",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4447,7 +4447,7 @@
       ]
     },
     {
-      "model_id": "BTV2110",
+      "id": "BTV2110",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4456,7 +4456,7 @@
       ]
     },
     {
-      "model_id": "BTV2500V",
+      "id": "BTV2500V",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4465,7 +4465,7 @@
       ]
     },
     {
-      "model_id": "CPA-ZNTE60T",
+      "id": "CPA-ZNTE60T",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4474,7 +4474,7 @@
       ]
     },
     {
-      "model_id": "CPVA502PLUS",
+      "id": "CPVA502PLUS",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4483,7 +4483,7 @@
       ]
     },
     {
-      "model_id": "CT-5365",
+      "id": "CT-5365",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4492,7 +4492,7 @@
       ]
     },
     {
-      "model_id": "CT-536_CT-5621",
+      "id": "CT-536_CT-5621",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4501,7 +4501,7 @@
       ]
     },
     {
-      "model_id": "CT-6373",
+      "id": "CT-6373",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4510,7 +4510,7 @@
       ]
     },
     {
-      "model_id": "DG834GT_PN",
+      "id": "DG834GT_PN",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4519,7 +4519,7 @@
       ]
     },
     {
-      "model_id": "DGND3700v1",
+      "id": "DGND3700v1",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4528,7 +4528,7 @@
       ]
     },
     {
-      "model_id": "DGND3800B",
+      "id": "DGND3800B",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4537,7 +4537,7 @@
       ]
     },
     {
-      "model_id": "DSL2640B-B",
+      "id": "DSL2640B-B",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4546,7 +4546,7 @@
       ]
     },
     {
-      "model_id": "DSL2640U",
+      "id": "DSL2640U",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4555,7 +4555,7 @@
       ]
     },
     {
-      "model_id": "DSL2650U",
+      "id": "DSL2650U",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4564,7 +4564,7 @@
       ]
     },
     {
-      "model_id": "DSL274XB-C2",
+      "id": "DSL274XB-C2",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4573,7 +4573,7 @@
       ]
     },
     {
-      "model_id": "DSL274XB-C3",
+      "id": "DSL274XB-C3",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4582,7 +4582,7 @@
       ]
     },
     {
-      "model_id": "DSL274XB-F1",
+      "id": "DSL274XB-F1",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4591,7 +4591,7 @@
       ]
     },
     {
-      "model_id": "DSL275XB-D1",
+      "id": "DSL275XB-D1",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4600,7 +4600,7 @@
       ]
     },
     {
-      "model_id": "DV-201AMR",
+      "id": "DV-201AMR",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4609,7 +4609,7 @@
       ]
     },
     {
-      "model_id": "DVAG3810BN",
+      "id": "DVAG3810BN",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4618,7 +4618,7 @@
       ]
     },
     {
-      "model_id": "EVG2000",
+      "id": "EVG2000",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4627,7 +4627,7 @@
       ]
     },
     {
-      "model_id": "F5D7633",
+      "id": "F5D7633",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4636,7 +4636,7 @@
       ]
     },
     {
-      "model_id": "FAST2404",
+      "id": "FAST2404",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4645,7 +4645,7 @@
       ]
     },
     {
-      "model_id": "FAST2504n",
+      "id": "FAST2504n",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4654,7 +4654,7 @@
       ]
     },
     {
-      "model_id": "FAST2604",
+      "id": "FAST2604",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4663,7 +4663,7 @@
       ]
     },
     {
-      "model_id": "FAST2704N",
+      "id": "FAST2704N",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4672,7 +4672,7 @@
       ]
     },
     {
-      "model_id": "FAST2704V2",
+      "id": "FAST2704V2",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4681,7 +4681,7 @@
       ]
     },
     {
-      "model_id": "GW6000",
+      "id": "GW6000",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4690,7 +4690,7 @@
       ]
     },
     {
-      "model_id": "GW6200",
+      "id": "GW6200",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4699,7 +4699,7 @@
       ]
     },
     {
-      "model_id": "HG520v",
+      "id": "HG520v",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4708,7 +4708,7 @@
       ]
     },
     {
-      "model_id": "HG553",
+      "id": "HG553",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4717,7 +4717,7 @@
       ]
     },
     {
-      "model_id": "HG556a-A",
+      "id": "HG556a-A",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4726,7 +4726,7 @@
       ]
     },
     {
-      "model_id": "HG556a-B",
+      "id": "HG556a-B",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4735,7 +4735,7 @@
       ]
     },
     {
-      "model_id": "HG556a-C",
+      "id": "HG556a-C",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4744,7 +4744,7 @@
       ]
     },
     {
-      "model_id": "HG622",
+      "id": "HG622",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4753,7 +4753,7 @@
       ]
     },
     {
-      "model_id": "HG655b",
+      "id": "HG655b",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4762,7 +4762,7 @@
       ]
     },
     {
-      "model_id": "HomeHub2A",
+      "id": "HomeHub2A",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4771,7 +4771,7 @@
       ]
     },
     {
-      "model_id": "NEUFBOX4-FXC",
+      "id": "NEUFBOX4-FXC",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4780,7 +4780,7 @@
       ]
     },
     {
-      "model_id": "NEUFBOX4-SER",
+      "id": "NEUFBOX4-SER",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4789,7 +4789,7 @@
       ]
     },
     {
-      "model_id": "NEUFBOX6",
+      "id": "NEUFBOX6",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4798,7 +4798,7 @@
       ]
     },
     {
-      "model_id": "P870HW-51a_v2",
+      "id": "P870HW-51a_v2",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4807,7 +4807,7 @@
       ]
     },
     {
-      "model_id": "R1000H",
+      "id": "R1000H",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4816,7 +4816,7 @@
       ]
     },
     {
-      "model_id": "R5010UNv2",
+      "id": "R5010UNv2",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4825,7 +4825,7 @@
       ]
     },
     {
-      "model_id": "RG100A",
+      "id": "RG100A",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4834,7 +4834,7 @@
       ]
     },
     {
-      "model_id": "RTA1025W_16",
+      "id": "RTA1025W_16",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4843,7 +4843,7 @@
       ]
     },
     {
-      "model_id": "RTA1320_16M",
+      "id": "RTA1320_16M",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4852,7 +4852,7 @@
       ]
     },
     {
-      "model_id": "SPW303V",
+      "id": "SPW303V",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4861,7 +4861,7 @@
       ]
     },
     {
-      "model_id": "SPW500V",
+      "id": "SPW500V",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4870,7 +4870,7 @@
       ]
     },
     {
-      "model_id": "SR102",
+      "id": "SR102",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4879,7 +4879,7 @@
       ]
     },
     {
-      "model_id": "TD-W8900GB",
+      "id": "TD-W8900GB",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4888,7 +4888,7 @@
       ]
     },
     {
-      "model_id": "USR9108",
+      "id": "USR9108",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4897,7 +4897,7 @@
       ]
     },
     {
-      "model_id": "VH4032N",
+      "id": "VH4032N",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4906,7 +4906,7 @@
       ]
     },
     {
-      "model_id": "VR-3025u",
+      "id": "VR-3025u",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4915,7 +4915,7 @@
       ]
     },
     {
-      "model_id": "VR-3025un",
+      "id": "VR-3025un",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4924,7 +4924,7 @@
       ]
     },
     {
-      "model_id": "VR-3026e",
+      "id": "VR-3026e",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4933,7 +4933,7 @@
       ]
     },
     {
-      "model_id": "WAP-5813n",
+      "id": "WAP-5813n",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4942,7 +4942,7 @@
       ]
     },
     {
-      "model_id": "livebox",
+      "id": "livebox",
       "target": "brcm63xx/generic",
       "titles": [
         {
@@ -4951,7 +4951,7 @@
       ]
     },
     {
-      "model_id": "963281TAN-generic",
+      "id": "963281TAN-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -4960,7 +4960,7 @@
       ]
     },
     {
-      "model_id": "96328avng-generic",
+      "id": "96328avng-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -4969,7 +4969,7 @@
       ]
     },
     {
-      "model_id": "96338GW-generic",
+      "id": "96338GW-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -4978,7 +4978,7 @@
       ]
     },
     {
-      "model_id": "96338W-generic",
+      "id": "96338W-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -4987,7 +4987,7 @@
       ]
     },
     {
-      "model_id": "96345GW2-generic",
+      "id": "96345GW2-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -4996,7 +4996,7 @@
       ]
     },
     {
-      "model_id": "96348GW-10-generic",
+      "id": "96348GW-10-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5005,7 +5005,7 @@
       ]
     },
     {
-      "model_id": "96348GW-11-generic",
+      "id": "96348GW-11-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5014,7 +5014,7 @@
       ]
     },
     {
-      "model_id": "96348GW-generic",
+      "id": "96348GW-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5023,7 +5023,7 @@
       ]
     },
     {
-      "model_id": "96348R-generic",
+      "id": "96348R-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5032,7 +5032,7 @@
       ]
     },
     {
-      "model_id": "96358VW-generic",
+      "id": "96358VW-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5041,7 +5041,7 @@
       ]
     },
     {
-      "model_id": "96358VW2-generic",
+      "id": "96358VW2-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5050,7 +5050,7 @@
       ]
     },
     {
-      "model_id": "96368MVNgr-generic",
+      "id": "96368MVNgr-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5059,7 +5059,7 @@
       ]
     },
     {
-      "model_id": "96368MVWG-generic",
+      "id": "96368MVWG-generic",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5068,7 +5068,7 @@
       ]
     },
     {
-      "model_id": "A226G",
+      "id": "A226G",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5077,7 +5077,7 @@
       ]
     },
     {
-      "model_id": "A226M",
+      "id": "A226M",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5086,7 +5086,7 @@
       ]
     },
     {
-      "model_id": "A226M-FWB",
+      "id": "A226M-FWB",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5095,7 +5095,7 @@
       ]
     },
     {
-      "model_id": "A4001N",
+      "id": "A4001N",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5104,7 +5104,7 @@
       ]
     },
     {
-      "model_id": "A4001N1",
+      "id": "A4001N1",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5113,7 +5113,7 @@
       ]
     },
     {
-      "model_id": "AD1018-SPI_flash",
+      "id": "AD1018-SPI_flash",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5122,7 +5122,7 @@
       ]
     },
     {
-      "model_id": "AGPF-S0",
+      "id": "AGPF-S0",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5131,7 +5131,7 @@
       ]
     },
     {
-      "model_id": "AR1004G",
+      "id": "AR1004G",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5140,7 +5140,7 @@
       ]
     },
     {
-      "model_id": "AR5315u",
+      "id": "AR5315u",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5149,7 +5149,7 @@
       ]
     },
     {
-      "model_id": "AR5381u",
+      "id": "AR5381u",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5158,7 +5158,7 @@
       ]
     },
     {
-      "model_id": "AR5387un",
+      "id": "AR5387un",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5167,7 +5167,7 @@
       ]
     },
     {
-      "model_id": "AV4202N",
+      "id": "AV4202N",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5176,7 +5176,7 @@
       ]
     },
     {
-      "model_id": "BTV2110",
+      "id": "BTV2110",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5185,7 +5185,7 @@
       ]
     },
     {
-      "model_id": "BTV2500V",
+      "id": "BTV2500V",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5194,7 +5194,7 @@
       ]
     },
     {
-      "model_id": "CPA-ZNTE60T",
+      "id": "CPA-ZNTE60T",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5203,7 +5203,7 @@
       ]
     },
     {
-      "model_id": "CPVA502PLUS",
+      "id": "CPVA502PLUS",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5212,7 +5212,7 @@
       ]
     },
     {
-      "model_id": "CT-5365",
+      "id": "CT-5365",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5221,7 +5221,7 @@
       ]
     },
     {
-      "model_id": "CT-536_CT-5621",
+      "id": "CT-536_CT-5621",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5230,7 +5230,7 @@
       ]
     },
     {
-      "model_id": "CT-6373",
+      "id": "CT-6373",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5239,7 +5239,7 @@
       ]
     },
     {
-      "model_id": "DG834GT_PN",
+      "id": "DG834GT_PN",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5248,7 +5248,7 @@
       ]
     },
     {
-      "model_id": "DGND3700v1",
+      "id": "DGND3700v1",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5257,7 +5257,7 @@
       ]
     },
     {
-      "model_id": "DGND3800B",
+      "id": "DGND3800B",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5266,7 +5266,7 @@
       ]
     },
     {
-      "model_id": "DSL2640B-B",
+      "id": "DSL2640B-B",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5275,7 +5275,7 @@
       ]
     },
     {
-      "model_id": "DSL2640U",
+      "id": "DSL2640U",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5284,7 +5284,7 @@
       ]
     },
     {
-      "model_id": "DSL2650U",
+      "id": "DSL2650U",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5293,7 +5293,7 @@
       ]
     },
     {
-      "model_id": "DSL274XB-C2",
+      "id": "DSL274XB-C2",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5302,7 +5302,7 @@
       ]
     },
     {
-      "model_id": "DSL274XB-C3",
+      "id": "DSL274XB-C3",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5311,7 +5311,7 @@
       ]
     },
     {
-      "model_id": "DSL274XB-F1",
+      "id": "DSL274XB-F1",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5320,7 +5320,7 @@
       ]
     },
     {
-      "model_id": "DSL275XB-D1",
+      "id": "DSL275XB-D1",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5329,7 +5329,7 @@
       ]
     },
     {
-      "model_id": "DV-201AMR",
+      "id": "DV-201AMR",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5338,7 +5338,7 @@
       ]
     },
     {
-      "model_id": "DVAG3810BN",
+      "id": "DVAG3810BN",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5347,7 +5347,7 @@
       ]
     },
     {
-      "model_id": "EVG2000",
+      "id": "EVG2000",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5356,7 +5356,7 @@
       ]
     },
     {
-      "model_id": "F5D7633",
+      "id": "F5D7633",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5365,7 +5365,7 @@
       ]
     },
     {
-      "model_id": "FAST2404",
+      "id": "FAST2404",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5374,7 +5374,7 @@
       ]
     },
     {
-      "model_id": "FAST2504n",
+      "id": "FAST2504n",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5383,7 +5383,7 @@
       ]
     },
     {
-      "model_id": "FAST2604",
+      "id": "FAST2604",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5392,7 +5392,7 @@
       ]
     },
     {
-      "model_id": "FAST2704N",
+      "id": "FAST2704N",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5401,7 +5401,7 @@
       ]
     },
     {
-      "model_id": "FAST2704V2",
+      "id": "FAST2704V2",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5410,7 +5410,7 @@
       ]
     },
     {
-      "model_id": "GW6000",
+      "id": "GW6000",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5419,7 +5419,7 @@
       ]
     },
     {
-      "model_id": "GW6200",
+      "id": "GW6200",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5428,7 +5428,7 @@
       ]
     },
     {
-      "model_id": "HG520v",
+      "id": "HG520v",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5437,7 +5437,7 @@
       ]
     },
     {
-      "model_id": "HG553",
+      "id": "HG553",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5446,7 +5446,7 @@
       ]
     },
     {
-      "model_id": "HG556a-A",
+      "id": "HG556a-A",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5455,7 +5455,7 @@
       ]
     },
     {
-      "model_id": "HG556a-B",
+      "id": "HG556a-B",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5464,7 +5464,7 @@
       ]
     },
     {
-      "model_id": "HG556a-C",
+      "id": "HG556a-C",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5473,7 +5473,7 @@
       ]
     },
     {
-      "model_id": "HG622",
+      "id": "HG622",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5482,7 +5482,7 @@
       ]
     },
     {
-      "model_id": "HG655b",
+      "id": "HG655b",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5491,7 +5491,7 @@
       ]
     },
     {
-      "model_id": "HomeHub2A",
+      "id": "HomeHub2A",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5500,7 +5500,7 @@
       ]
     },
     {
-      "model_id": "NEUFBOX4-FXC",
+      "id": "NEUFBOX4-FXC",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5509,7 +5509,7 @@
       ]
     },
     {
-      "model_id": "NEUFBOX4-SER",
+      "id": "NEUFBOX4-SER",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5518,7 +5518,7 @@
       ]
     },
     {
-      "model_id": "NEUFBOX6",
+      "id": "NEUFBOX6",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5527,7 +5527,7 @@
       ]
     },
     {
-      "model_id": "P870HW-51a_v2",
+      "id": "P870HW-51a_v2",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5536,7 +5536,7 @@
       ]
     },
     {
-      "model_id": "R1000H",
+      "id": "R1000H",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5545,7 +5545,7 @@
       ]
     },
     {
-      "model_id": "R5010UNv2",
+      "id": "R5010UNv2",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5554,7 +5554,7 @@
       ]
     },
     {
-      "model_id": "RG100A",
+      "id": "RG100A",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5563,7 +5563,7 @@
       ]
     },
     {
-      "model_id": "RTA1025W_16",
+      "id": "RTA1025W_16",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5572,7 +5572,7 @@
       ]
     },
     {
-      "model_id": "RTA1320_16M",
+      "id": "RTA1320_16M",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5581,7 +5581,7 @@
       ]
     },
     {
-      "model_id": "SPW303V",
+      "id": "SPW303V",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5590,7 +5590,7 @@
       ]
     },
     {
-      "model_id": "SPW500V",
+      "id": "SPW500V",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5599,7 +5599,7 @@
       ]
     },
     {
-      "model_id": "SR102",
+      "id": "SR102",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5608,7 +5608,7 @@
       ]
     },
     {
-      "model_id": "TD-W8900GB",
+      "id": "TD-W8900GB",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5617,7 +5617,7 @@
       ]
     },
     {
-      "model_id": "USR9108",
+      "id": "USR9108",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5626,7 +5626,7 @@
       ]
     },
     {
-      "model_id": "VH4032N",
+      "id": "VH4032N",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5635,7 +5635,7 @@
       ]
     },
     {
-      "model_id": "VR-3025u",
+      "id": "VR-3025u",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5644,7 +5644,7 @@
       ]
     },
     {
-      "model_id": "VR-3025un",
+      "id": "VR-3025un",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5653,7 +5653,7 @@
       ]
     },
     {
-      "model_id": "VR-3026e",
+      "id": "VR-3026e",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5662,7 +5662,7 @@
       ]
     },
     {
-      "model_id": "WAP-5813n",
+      "id": "WAP-5813n",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5671,7 +5671,7 @@
       ]
     },
     {
-      "model_id": "livebox",
+      "id": "livebox",
       "target": "brcm63xx/smp",
       "titles": [
         {
@@ -5680,7 +5680,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-ac53u",
+      "id": "asus-rt-ac53u",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5689,7 +5689,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n10",
+      "id": "asus-rt-n10",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5698,7 +5698,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n10p",
+      "id": "asus-rt-n10p",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5707,7 +5707,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n10p-v2",
+      "id": "asus-rt-n10p-v2",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5716,7 +5716,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n10u",
+      "id": "asus-rt-n10u",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5725,7 +5725,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n10u-b",
+      "id": "asus-rt-n10u-b",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5734,7 +5734,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n12",
+      "id": "asus-rt-n12",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5743,7 +5743,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n12-b1",
+      "id": "asus-rt-n12-b1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5752,7 +5752,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n12-c1",
+      "id": "asus-rt-n12-c1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5761,7 +5761,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n12-d1",
+      "id": "asus-rt-n12-d1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5770,7 +5770,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n12hp",
+      "id": "asus-rt-n12hp",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5779,7 +5779,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n14uhp",
+      "id": "asus-rt-n14uhp",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5788,7 +5788,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n15u",
+      "id": "asus-rt-n15u",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5797,7 +5797,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n16",
+      "id": "asus-rt-n16",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5806,7 +5806,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n53",
+      "id": "asus-rt-n53",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5815,7 +5815,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n66u",
+      "id": "asus-rt-n66u",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5824,7 +5824,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n66w",
+      "id": "asus-rt-n66w",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5833,7 +5833,7 @@
       ]
     },
     {
-      "model_id": "linksys-e1200-v1",
+      "id": "linksys-e1200-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5842,7 +5842,7 @@
       ]
     },
     {
-      "model_id": "linksys-e1200-v2",
+      "id": "linksys-e1200-v2",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5851,7 +5851,7 @@
       ]
     },
     {
-      "model_id": "linksys-e1500-v1",
+      "id": "linksys-e1500-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5860,7 +5860,7 @@
       ]
     },
     {
-      "model_id": "linksys-e1550-v1",
+      "id": "linksys-e1550-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5869,7 +5869,7 @@
       ]
     },
     {
-      "model_id": "linksys-e2000-v1",
+      "id": "linksys-e2000-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5878,7 +5878,7 @@
       ]
     },
     {
-      "model_id": "linksys-e2500-v1",
+      "id": "linksys-e2500-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5887,7 +5887,7 @@
       ]
     },
     {
-      "model_id": "linksys-e2500-v2",
+      "id": "linksys-e2500-v2",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5896,7 +5896,7 @@
       ]
     },
     {
-      "model_id": "linksys-e2500-v2.1",
+      "id": "linksys-e2500-v2.1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5905,7 +5905,7 @@
       ]
     },
     {
-      "model_id": "linksys-e2500-v3",
+      "id": "linksys-e2500-v3",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5914,7 +5914,7 @@
       ]
     },
     {
-      "model_id": "linksys-e3200-v1",
+      "id": "linksys-e3200-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5923,7 +5923,7 @@
       ]
     },
     {
-      "model_id": "linksys-e4200-v1",
+      "id": "linksys-e4200-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5932,7 +5932,7 @@
       ]
     },
     {
-      "model_id": "linksys-e900-v1",
+      "id": "linksys-e900-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5941,7 +5941,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt160n-v3",
+      "id": "linksys-wrt160n-v3",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5950,7 +5950,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt310n-v2",
+      "id": "linksys-wrt310n-v2",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5959,7 +5959,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt320n-v1",
+      "id": "linksys-wrt320n-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5968,7 +5968,7 @@
       ]
     },
     {
-      "model_id": "netgear-wgr614-v10",
+      "id": "netgear-wgr614-v10",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5977,7 +5977,7 @@
       ]
     },
     {
-      "model_id": "netgear-wgr614-v10-na",
+      "id": "netgear-wgr614-v10-na",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5986,7 +5986,7 @@
       ]
     },
     {
-      "model_id": "netgear-wn2500rp-v1",
+      "id": "netgear-wn2500rp-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -5995,7 +5995,7 @@
       ]
     },
     {
-      "model_id": "netgear-wn3000rp",
+      "id": "netgear-wn3000rp",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6004,7 +6004,7 @@
       ]
     },
     {
-      "model_id": "netgear-wndr3400-v1",
+      "id": "netgear-wndr3400-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6013,7 +6013,7 @@
       ]
     },
     {
-      "model_id": "netgear-wndr3400-v2",
+      "id": "netgear-wndr3400-v2",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6022,7 +6022,7 @@
       ]
     },
     {
-      "model_id": "netgear-wndr3400-v3",
+      "id": "netgear-wndr3400-v3",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6031,7 +6031,7 @@
       ]
     },
     {
-      "model_id": "netgear-wndr3700-v3",
+      "id": "netgear-wndr3700-v3",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6040,7 +6040,7 @@
       ]
     },
     {
-      "model_id": "netgear-wndr4000",
+      "id": "netgear-wndr4000",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6049,7 +6049,7 @@
       ]
     },
     {
-      "model_id": "netgear-wnr1000-v3",
+      "id": "netgear-wnr1000-v3",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6058,7 +6058,7 @@
       ]
     },
     {
-      "model_id": "netgear-wnr3500-v2",
+      "id": "netgear-wnr3500-v2",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6067,7 +6067,7 @@
       ]
     },
     {
-      "model_id": "netgear-wnr3500l-v1",
+      "id": "netgear-wnr3500l-v1",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6076,7 +6076,7 @@
       ]
     },
     {
-      "model_id": "netgear-wnr3500l-v1-na",
+      "id": "netgear-wnr3500l-v1-na",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6085,7 +6085,7 @@
       ]
     },
     {
-      "model_id": "netgear-wnr3500l-v2",
+      "id": "netgear-wnr3500l-v2",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6094,7 +6094,7 @@
       ]
     },
     {
-      "model_id": "standard",
+      "id": "standard",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6103,7 +6103,7 @@
       ]
     },
     {
-      "model_id": "standard-noloader-nodictionarylzma",
+      "id": "standard-noloader-nodictionarylzma",
       "target": "brcm47xx/mips74k",
       "titles": [
         {
@@ -6112,7 +6112,7 @@
       ]
     },
     {
-      "model_id": "linksys-e3000-v1",
+      "id": "linksys-e3000-v1",
       "target": "brcm47xx/generic",
       "titles": [
         {
@@ -6121,7 +6121,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt300n-v1.1",
+      "id": "linksys-wrt300n-v1.1",
       "target": "brcm47xx/generic",
       "titles": [
         {
@@ -6130,7 +6130,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt310n-v1",
+      "id": "linksys-wrt310n-v1",
       "target": "brcm47xx/generic",
       "titles": [
         {
@@ -6139,7 +6139,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt350n-v1",
+      "id": "linksys-wrt350n-v1",
       "target": "brcm47xx/generic",
       "titles": [
         {
@@ -6148,7 +6148,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt610n-v1",
+      "id": "linksys-wrt610n-v1",
       "target": "brcm47xx/generic",
       "titles": [
         {
@@ -6157,7 +6157,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt610n-v2",
+      "id": "linksys-wrt610n-v2",
       "target": "brcm47xx/generic",
       "titles": [
         {
@@ -6166,7 +6166,7 @@
       ]
     },
     {
-      "model_id": "standard",
+      "id": "standard",
       "target": "brcm47xx/generic",
       "titles": [
         {
@@ -6175,7 +6175,7 @@
       ]
     },
     {
-      "model_id": "asus-wl-300g",
+      "id": "asus-wl-300g",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6184,7 +6184,7 @@
       ]
     },
     {
-      "model_id": "asus-wl-320gp",
+      "id": "asus-wl-320gp",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6193,7 +6193,7 @@
       ]
     },
     {
-      "model_id": "asus-wl-330ge",
+      "id": "asus-wl-330ge",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6202,7 +6202,7 @@
       ]
     },
     {
-      "model_id": "asus-wl-500gd",
+      "id": "asus-wl-500gd",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6211,7 +6211,7 @@
       ]
     },
     {
-      "model_id": "asus-wl-500gp-v1",
+      "id": "asus-wl-500gp-v1",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6220,7 +6220,7 @@
       ]
     },
     {
-      "model_id": "asus-wl-500gp-v2",
+      "id": "asus-wl-500gp-v2",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6229,7 +6229,7 @@
       ]
     },
     {
-      "model_id": "asus-wl-500w",
+      "id": "asus-wl-500w",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6238,7 +6238,7 @@
       ]
     },
     {
-      "model_id": "asus-wl-520gu",
+      "id": "asus-wl-520gu",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6247,7 +6247,7 @@
       ]
     },
     {
-      "model_id": "asus-wl-550ge",
+      "id": "asus-wl-550ge",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6256,7 +6256,7 @@
       ]
     },
     {
-      "model_id": "asus-wl-hdd25",
+      "id": "asus-wl-hdd25",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6265,7 +6265,7 @@
       ]
     },
     {
-      "model_id": "dlink-dwl-3150",
+      "id": "dlink-dwl-3150",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6274,7 +6274,7 @@
       ]
     },
     {
-      "model_id": "edimax-ps1208-mfg",
+      "id": "edimax-ps1208-mfg",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6283,7 +6283,7 @@
       ]
     },
     {
-      "model_id": "huawei-e970",
+      "id": "huawei-e970",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6292,7 +6292,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt150n",
+      "id": "linksys-wrt150n",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6301,7 +6301,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt160n-v1",
+      "id": "linksys-wrt160n-v1",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6310,7 +6310,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt300n-v1",
+      "id": "linksys-wrt300n-v1",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6319,7 +6319,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt54g",
+      "id": "linksys-wrt54g",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6328,7 +6328,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt54g3g",
+      "id": "linksys-wrt54g3g",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6337,7 +6337,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt54g3g-em",
+      "id": "linksys-wrt54g3g-em",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6346,7 +6346,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt54g3gv2-vf",
+      "id": "linksys-wrt54g3gv2-vf",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6355,7 +6355,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt54gs",
+      "id": "linksys-wrt54gs",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6364,7 +6364,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrt54gs-v4",
+      "id": "linksys-wrt54gs-v4",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6373,7 +6373,7 @@
       ]
     },
     {
-      "model_id": "linksys-wrtsl54gs",
+      "id": "linksys-wrtsl54gs",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6382,7 +6382,7 @@
       ]
     },
     {
-      "model_id": "motorola-wa840g",
+      "id": "motorola-wa840g",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6391,7 +6391,7 @@
       ]
     },
     {
-      "model_id": "motorola-we800g",
+      "id": "motorola-we800g",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6400,7 +6400,7 @@
       ]
     },
     {
-      "model_id": "motorola-wr850g",
+      "id": "motorola-wr850g",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6409,7 +6409,7 @@
       ]
     },
     {
-      "model_id": "netgear-wgr614-v8",
+      "id": "netgear-wgr614-v8",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6418,7 +6418,7 @@
       ]
     },
     {
-      "model_id": "netgear-wgt634u",
+      "id": "netgear-wgt634u",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6427,7 +6427,7 @@
       ]
     },
     {
-      "model_id": "netgear-wndr3300-v1",
+      "id": "netgear-wndr3300-v1",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6436,7 +6436,7 @@
       ]
     },
     {
-      "model_id": "netgear-wnr834b-v2",
+      "id": "netgear-wnr834b-v2",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6445,7 +6445,7 @@
       ]
     },
     {
-      "model_id": "standard",
+      "id": "standard",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6454,7 +6454,7 @@
       ]
     },
     {
-      "model_id": "standard-noloader-gz",
+      "id": "standard-noloader-gz",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6463,7 +6463,7 @@
       ]
     },
     {
-      "model_id": "usrobotics-usr5461",
+      "id": "usrobotics-usr5461",
       "target": "brcm47xx/legacy",
       "titles": [
         {
@@ -6472,7 +6472,7 @@
       ]
     },
     {
-      "model_id": "apalis",
+      "id": "apalis",
       "target": "imx6/generic",
       "titles": [
         {
@@ -6481,7 +6481,7 @@
       ]
     },
     {
-      "model_id": "cubox",
+      "id": "cubox",
       "target": "imx6/generic",
       "titles": [
         {
@@ -6490,7 +6490,7 @@
       ]
     },
     {
-      "model_id": "ventana",
+      "id": "ventana",
       "target": "imx6/generic",
       "titles": [
         {
@@ -6499,7 +6499,7 @@
       ]
     },
     {
-      "model_id": "8dev_jalapeno",
+      "id": "8dev_jalapeno",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6508,7 +6508,7 @@
       ]
     },
     {
-      "model_id": "alfa-network_ap120c-ac",
+      "id": "alfa-network_ap120c-ac",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6517,7 +6517,7 @@
       ]
     },
     {
-      "model_id": "asus_map-ac2200",
+      "id": "asus_map-ac2200",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6526,7 +6526,7 @@
       ]
     },
     {
-      "model_id": "asus_rt-ac58u",
+      "id": "asus_rt-ac58u",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6535,7 +6535,7 @@
       ]
     },
     {
-      "model_id": "avm_fritzbox-4040",
+      "id": "avm_fritzbox-4040",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6544,7 +6544,7 @@
       ]
     },
     {
-      "model_id": "avm_fritzbox-7530",
+      "id": "avm_fritzbox-7530",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6553,7 +6553,7 @@
       ]
     },
     {
-      "model_id": "avm_fritzrepeater-1200",
+      "id": "avm_fritzrepeater-1200",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6562,7 +6562,7 @@
       ]
     },
     {
-      "model_id": "avm_fritzrepeater-3000",
+      "id": "avm_fritzrepeater-3000",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6571,7 +6571,7 @@
       ]
     },
     {
-      "model_id": "compex_wpj428",
+      "id": "compex_wpj428",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6580,7 +6580,7 @@
       ]
     },
     {
-      "model_id": "engenius_eap1300",
+      "id": "engenius_eap1300",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6589,7 +6589,7 @@
       ]
     },
     {
-      "model_id": "engenius_ens620ext",
+      "id": "engenius_ens620ext",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6598,7 +6598,7 @@
       ]
     },
     {
-      "model_id": "glinet_gl-b1300",
+      "id": "glinet_gl-b1300",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6607,7 +6607,7 @@
       ]
     },
     {
-      "model_id": "linksys_ea6350v3",
+      "id": "linksys_ea6350v3",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6616,7 +6616,7 @@
       ]
     },
     {
-      "model_id": "linksys_ea8300",
+      "id": "linksys_ea8300",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6625,7 +6625,7 @@
       ]
     },
     {
-      "model_id": "meraki_mr33",
+      "id": "meraki_mr33",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6634,7 +6634,7 @@
       ]
     },
     {
-      "model_id": "netgear_ex6100v2",
+      "id": "netgear_ex6100v2",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6643,7 +6643,7 @@
       ]
     },
     {
-      "model_id": "netgear_ex6150v2",
+      "id": "netgear_ex6150v2",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6652,7 +6652,7 @@
       ]
     },
     {
-      "model_id": "openmesh_a42",
+      "id": "openmesh_a42",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6661,7 +6661,7 @@
       ]
     },
     {
-      "model_id": "openmesh_a62",
+      "id": "openmesh_a62",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6670,7 +6670,7 @@
       ]
     },
     {
-      "model_id": "qcom_ap-dk01.1-c1",
+      "id": "qcom_ap-dk01.1-c1",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6679,7 +6679,7 @@
       ]
     },
     {
-      "model_id": "qcom_ap-dk04.1-c1",
+      "id": "qcom_ap-dk04.1-c1",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6688,7 +6688,7 @@
       ]
     },
     {
-      "model_id": "qxwlan_e2600ac-c1",
+      "id": "qxwlan_e2600ac-c1",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6697,7 +6697,7 @@
       ]
     },
     {
-      "model_id": "qxwlan_e2600ac-c2",
+      "id": "qxwlan_e2600ac-c2",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6706,7 +6706,7 @@
       ]
     },
     {
-      "model_id": "zyxel_nbg6617",
+      "id": "zyxel_nbg6617",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6715,7 +6715,7 @@
       ]
     },
     {
-      "model_id": "zyxel_wre6606",
+      "id": "zyxel_wre6606",
       "target": "ipq40xx/generic",
       "titles": [
         {
@@ -6724,7 +6724,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-ac56u",
+      "id": "asus-rt-ac56u",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6733,7 +6733,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-ac68u",
+      "id": "asus-rt-ac68u",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6742,7 +6742,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-ac87u",
+      "id": "asus-rt-ac87u",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6751,7 +6751,7 @@
       ]
     },
     {
-      "model_id": "asus-rt-n18u",
+      "id": "asus-rt-n18u",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6760,7 +6760,7 @@
       ]
     },
     {
-      "model_id": "buffalo-wxr-1900dhp",
+      "id": "buffalo-wxr-1900dhp",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6769,7 +6769,7 @@
       ]
     },
     {
-      "model_id": "buffalo-wzr-1750dhp",
+      "id": "buffalo-wzr-1750dhp",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6778,7 +6778,7 @@
       ]
     },
     {
-      "model_id": "buffalo-wzr-600dhp2",
+      "id": "buffalo-wzr-600dhp2",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6787,7 +6787,7 @@
       ]
     },
     {
-      "model_id": "buffalo-wzr-900dhp",
+      "id": "buffalo-wzr-900dhp",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6796,7 +6796,7 @@
       ]
     },
     {
-      "model_id": "dlink-dir-885l",
+      "id": "dlink-dir-885l",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6805,7 +6805,7 @@
       ]
     },
     {
-      "model_id": "linksys-ea6500-v2",
+      "id": "linksys-ea6500-v2",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6814,7 +6814,7 @@
       ]
     },
     {
-      "model_id": "luxul-abr-4500",
+      "id": "luxul-abr-4500",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6823,7 +6823,7 @@
       ]
     },
     {
-      "model_id": "luxul-xap-1610",
+      "id": "luxul-xap-1610",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6832,7 +6832,7 @@
       ]
     },
     {
-      "model_id": "luxul-xbr-4500",
+      "id": "luxul-xbr-4500",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6841,7 +6841,7 @@
       ]
     },
     {
-      "model_id": "luxul-xwr-3150",
+      "id": "luxul-xwr-3150",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6850,7 +6850,7 @@
       ]
     },
     {
-      "model_id": "netgear-r6250",
+      "id": "netgear-r6250",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6859,7 +6859,7 @@
       ]
     },
     {
-      "model_id": "netgear-r6300-v2",
+      "id": "netgear-r6300-v2",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6868,7 +6868,7 @@
       ]
     },
     {
-      "model_id": "netgear-r7000",
+      "id": "netgear-r7000",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6877,7 +6877,7 @@
       ]
     },
     {
-      "model_id": "netgear-r7900",
+      "id": "netgear-r7900",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6886,7 +6886,7 @@
       ]
     },
     {
-      "model_id": "netgear-r8000",
+      "id": "netgear-r8000",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6895,7 +6895,7 @@
       ]
     },
     {
-      "model_id": "phicomm-k3",
+      "id": "phicomm-k3",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6904,7 +6904,7 @@
       ]
     },
     {
-      "model_id": "smartrg-sr400ac",
+      "id": "smartrg-sr400ac",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6913,7 +6913,7 @@
       ]
     },
     {
-      "model_id": "tenda-ac9",
+      "id": "tenda-ac9",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6922,7 +6922,7 @@
       ]
     },
     {
-      "model_id": "tplink-archer-c5-v2",
+      "id": "tplink-archer-c5-v2",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6931,7 +6931,7 @@
       ]
     },
     {
-      "model_id": "tplink-archer-c9-v1",
+      "id": "tplink-archer-c9-v1",
       "target": "bcm53xx/generic",
       "titles": [
         {
@@ -6940,7 +6940,7 @@
       ]
     },
     {
-      "model_id": "generic",
+      "id": "generic",
       "target": "ath25/generic",
       "titles": [
         {
@@ -6949,7 +6949,7 @@
       ]
     },
     {
-      "model_id": "ubnt2-pico2",
+      "id": "ubnt2-pico2",
       "target": "ath25/generic",
       "titles": [
         {
@@ -6958,7 +6958,7 @@
       ]
     },
     {
-      "model_id": "wd_mybooklive",
+      "id": "wd_mybooklive",
       "target": "apm821xx/sata",
       "titles": [
         {
@@ -6967,7 +6967,7 @@
       ]
     },
     {
-      "model_id": "meraki_mr24",
+      "id": "meraki_mr24",
       "target": "apm821xx/nand",
       "titles": [
         {
@@ -6976,7 +6976,7 @@
       ]
     },
     {
-      "model_id": "meraki_mx60",
+      "id": "meraki_mx60",
       "target": "apm821xx/nand",
       "titles": [
         {
@@ -6985,7 +6985,7 @@
       ]
     },
     {
-      "model_id": "netgear_wndap620",
+      "id": "netgear_wndap620",
       "target": "apm821xx/nand",
       "titles": [
         {
@@ -6994,7 +6994,7 @@
       ]
     },
     {
-      "model_id": "netgear_wndap660",
+      "id": "netgear_wndap660",
       "target": "apm821xx/nand",
       "titles": [
         {
@@ -7003,7 +7003,7 @@
       ]
     },
     {
-      "model_id": "netgear_wndr4700",
+      "id": "netgear_wndr4700",
       "target": "apm821xx/nand",
       "titles": [
         {
@@ -7012,7 +7012,7 @@
       ]
     },
     {
-      "model_id": "ArcherC20i",
+      "id": "ArcherC20i",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7021,7 +7021,7 @@
       ]
     },
     {
-      "model_id": "ArcherC50v1",
+      "id": "ArcherC50v1",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7030,7 +7030,7 @@
       ]
     },
     {
-      "model_id": "ArcherMR200",
+      "id": "ArcherMR200",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7039,7 +7039,7 @@
       ]
     },
     {
-      "model_id": "ai-br100",
+      "id": "ai-br100",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7048,7 +7048,7 @@
       ]
     },
     {
-      "model_id": "alfa-network_ac1200rm",
+      "id": "alfa-network_ac1200rm",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7057,7 +7057,7 @@
       ]
     },
     {
-      "model_id": "alfa-network_r36m-e4g",
+      "id": "alfa-network_r36m-e4g",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7066,7 +7066,7 @@
       ]
     },
     {
-      "model_id": "alfa-network_tube-e4g",
+      "id": "alfa-network_tube-e4g",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7075,7 +7075,7 @@
       ]
     },
     {
-      "model_id": "bdcom_wap2100-sk",
+      "id": "bdcom_wap2100-sk",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7084,7 +7084,7 @@
       ]
     },
     {
-      "model_id": "bocco",
+      "id": "bocco",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7093,7 +7093,7 @@
       ]
     },
     {
-      "model_id": "c108",
+      "id": "c108",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7102,7 +7102,7 @@
       ]
     },
     {
-      "model_id": "cf-wr800n",
+      "id": "cf-wr800n",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7111,7 +7111,7 @@
       ]
     },
     {
-      "model_id": "cs-qr10",
+      "id": "cs-qr10",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7120,7 +7120,7 @@
       ]
     },
     {
-      "model_id": "d240",
+      "id": "d240",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7129,7 +7129,7 @@
       ]
     },
     {
-      "model_id": "db-wrt01",
+      "id": "db-wrt01",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7138,7 +7138,7 @@
       ]
     },
     {
-      "model_id": "dch-m225",
+      "id": "dch-m225",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7147,7 +7147,7 @@
       ]
     },
     {
-      "model_id": "dir-810l",
+      "id": "dir-810l",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7156,7 +7156,7 @@
       ]
     },
     {
-      "model_id": "dlink_dir-510l",
+      "id": "dlink_dir-510l",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7165,7 +7165,7 @@
       ]
     },
     {
-      "model_id": "dlink_dwr-116-a1",
+      "id": "dlink_dwr-116-a1",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7174,7 +7174,7 @@
       ]
     },
     {
-      "model_id": "dlink_dwr-118-a1",
+      "id": "dlink_dwr-118-a1",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7183,7 +7183,7 @@
       ]
     },
     {
-      "model_id": "dlink_dwr-118-a2",
+      "id": "dlink_dwr-118-a2",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7192,7 +7192,7 @@
       ]
     },
     {
-      "model_id": "dlink_dwr-921-c1",
+      "id": "dlink_dwr-921-c1",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7201,7 +7201,7 @@
       ]
     },
     {
-      "model_id": "dlink_dwr-921-c3",
+      "id": "dlink_dwr-921-c3",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7210,7 +7210,7 @@
       ]
     },
     {
-      "model_id": "dlink_dwr-922-e2",
+      "id": "dlink_dwr-922-e2",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7219,7 +7219,7 @@
       ]
     },
     {
-      "model_id": "e1700",
+      "id": "e1700",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7228,7 +7228,7 @@
       ]
     },
     {
-      "model_id": "edimax_br-6478ac-v2",
+      "id": "edimax_br-6478ac-v2",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7237,7 +7237,7 @@
       ]
     },
     {
-      "model_id": "ex3700-ex3800",
+      "id": "ex3700-ex3800",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7246,7 +7246,7 @@
       ]
     },
     {
-      "model_id": "gl-mt300a",
+      "id": "gl-mt300a",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7255,7 +7255,7 @@
       ]
     },
     {
-      "model_id": "gl-mt300n",
+      "id": "gl-mt300n",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7264,7 +7264,7 @@
       ]
     },
     {
-      "model_id": "gl-mt750",
+      "id": "gl-mt750",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7273,7 +7273,7 @@
       ]
     },
     {
-      "model_id": "hc5661",
+      "id": "hc5661",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7282,7 +7282,7 @@
       ]
     },
     {
-      "model_id": "hc5761",
+      "id": "hc5761",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7291,7 +7291,7 @@
       ]
     },
     {
-      "model_id": "hc5861",
+      "id": "hc5861",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7300,7 +7300,7 @@
       ]
     },
     {
-      "model_id": "head-weblink_hdrm200",
+      "id": "head-weblink_hdrm200",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7309,7 +7309,7 @@
       ]
     },
     {
-      "model_id": "iodata_wn-ac1167gr",
+      "id": "iodata_wn-ac1167gr",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7318,7 +7318,7 @@
       ]
     },
     {
-      "model_id": "iodata_wn-ac733gr3",
+      "id": "iodata_wn-ac733gr3",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7327,7 +7327,7 @@
       ]
     },
     {
-      "model_id": "kimax_u35wf",
+      "id": "kimax_u35wf",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7336,7 +7336,7 @@
       ]
     },
     {
-      "model_id": "kn_rc",
+      "id": "kn_rc",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7345,7 +7345,7 @@
       ]
     },
     {
-      "model_id": "kn_rf",
+      "id": "kn_rf",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7354,7 +7354,7 @@
       ]
     },
     {
-      "model_id": "kng_rc",
+      "id": "kng_rc",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7363,7 +7363,7 @@
       ]
     },
     {
-      "model_id": "lava_lr-25g001",
+      "id": "lava_lr-25g001",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7372,7 +7372,7 @@
       ]
     },
     {
-      "model_id": "microwrt",
+      "id": "microwrt",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7381,7 +7381,7 @@
       ]
     },
     {
-      "model_id": "miwifi-mini",
+      "id": "miwifi-mini",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7390,7 +7390,7 @@
       ]
     },
     {
-      "model_id": "mlw221",
+      "id": "mlw221",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7399,7 +7399,7 @@
       ]
     },
     {
-      "model_id": "mlwg2",
+      "id": "mlwg2",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7408,7 +7408,7 @@
       ]
     },
     {
-      "model_id": "mt7620a",
+      "id": "mt7620a",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7417,7 +7417,7 @@
       ]
     },
     {
-      "model_id": "mt7620a_mt7530",
+      "id": "mt7620a_mt7530",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7426,7 +7426,7 @@
       ]
     },
     {
-      "model_id": "mt7620a_mt7610e",
+      "id": "mt7620a_mt7610e",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7435,7 +7435,7 @@
       ]
     },
     {
-      "model_id": "mt7620a_v22sg",
+      "id": "mt7620a_v22sg",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7444,7 +7444,7 @@
       ]
     },
     {
-      "model_id": "mzk-750dhp",
+      "id": "mzk-750dhp",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7453,7 +7453,7 @@
       ]
     },
     {
-      "model_id": "mzk-ex300np",
+      "id": "mzk-ex300np",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7462,7 +7462,7 @@
       ]
     },
     {
-      "model_id": "mzk-ex750np",
+      "id": "mzk-ex750np",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7471,7 +7471,7 @@
       ]
     },
     {
-      "model_id": "na930",
+      "id": "na930",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7480,7 +7480,7 @@
       ]
     },
     {
-      "model_id": "oy-0001",
+      "id": "oy-0001",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7489,7 +7489,7 @@
       ]
     },
     {
-      "model_id": "phicomm_k2g",
+      "id": "phicomm_k2g",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7498,7 +7498,7 @@
       ]
     },
     {
-      "model_id": "psg1208",
+      "id": "psg1208",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7507,7 +7507,7 @@
       ]
     },
     {
-      "model_id": "psg1218a",
+      "id": "psg1218a",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7516,7 +7516,7 @@
       ]
     },
     {
-      "model_id": "psg1218b",
+      "id": "psg1218b",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7525,7 +7525,7 @@
       ]
     },
     {
-      "model_id": "ravpower_wd03",
+      "id": "ravpower_wd03",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7534,7 +7534,7 @@
       ]
     },
     {
-      "model_id": "rp-n53",
+      "id": "rp-n53",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7543,7 +7543,7 @@
       ]
     },
     {
-      "model_id": "rt-ac51u",
+      "id": "rt-ac51u",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7552,7 +7552,7 @@
       ]
     },
     {
-      "model_id": "rt-n12p",
+      "id": "rt-n12p",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7561,7 +7561,7 @@
       ]
     },
     {
-      "model_id": "rt-n14u",
+      "id": "rt-n14u",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7570,7 +7570,7 @@
       ]
     },
     {
-      "model_id": "tiny-ac",
+      "id": "tiny-ac",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7579,7 +7579,7 @@
       ]
     },
     {
-      "model_id": "tplink_c2-v1",
+      "id": "tplink_c2-v1",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7588,7 +7588,7 @@
       ]
     },
     {
-      "model_id": "tplink_c20-v1",
+      "id": "tplink_c20-v1",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7597,7 +7597,7 @@
       ]
     },
     {
-      "model_id": "u25awf-h1",
+      "id": "u25awf-h1",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7606,7 +7606,7 @@
       ]
     },
     {
-      "model_id": "we1026-5g-16m",
+      "id": "we1026-5g-16m",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7615,7 +7615,7 @@
       ]
     },
     {
-      "model_id": "whr-1166d",
+      "id": "whr-1166d",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7624,7 +7624,7 @@
       ]
     },
     {
-      "model_id": "whr-300hp2",
+      "id": "whr-300hp2",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7633,7 +7633,7 @@
       ]
     },
     {
-      "model_id": "whr-600d",
+      "id": "whr-600d",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7642,7 +7642,7 @@
       ]
     },
     {
-      "model_id": "wmr-300",
+      "id": "wmr-300",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7651,7 +7651,7 @@
       ]
     },
     {
-      "model_id": "wn3000rpv3",
+      "id": "wn3000rpv3",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7660,7 +7660,7 @@
       ]
     },
     {
-      "model_id": "wrh-300cr",
+      "id": "wrh-300cr",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7669,7 +7669,7 @@
       ]
     },
     {
-      "model_id": "wrtnode",
+      "id": "wrtnode",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7678,7 +7678,7 @@
       ]
     },
     {
-      "model_id": "wt3020-8M",
+      "id": "wt3020-8M",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7687,7 +7687,7 @@
       ]
     },
     {
-      "model_id": "y1",
+      "id": "y1",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7696,7 +7696,7 @@
       ]
     },
     {
-      "model_id": "y1s",
+      "id": "y1s",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7705,7 +7705,7 @@
       ]
     },
     {
-      "model_id": "youku-yk1",
+      "id": "youku-yk1",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7714,7 +7714,7 @@
       ]
     },
     {
-      "model_id": "zbt-ape522ii",
+      "id": "zbt-ape522ii",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7723,7 +7723,7 @@
       ]
     },
     {
-      "model_id": "zbt-cpe102",
+      "id": "zbt-cpe102",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7732,7 +7732,7 @@
       ]
     },
     {
-      "model_id": "zbt-wa05",
+      "id": "zbt-wa05",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7741,7 +7741,7 @@
       ]
     },
     {
-      "model_id": "zbt-we2026",
+      "id": "zbt-we2026",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7750,7 +7750,7 @@
       ]
     },
     {
-      "model_id": "zbt-we826-16M",
+      "id": "zbt-we826-16M",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7759,7 +7759,7 @@
       ]
     },
     {
-      "model_id": "zbt-we826-32M",
+      "id": "zbt-we826-32M",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7768,7 +7768,7 @@
       ]
     },
     {
-      "model_id": "zbt-wr8305rt",
+      "id": "zbt-wr8305rt",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7777,7 +7777,7 @@
       ]
     },
     {
-      "model_id": "zbtlink_zbt-we826-e",
+      "id": "zbtlink_zbt-we826-e",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7786,7 +7786,7 @@
       ]
     },
     {
-      "model_id": "zte-q7",
+      "id": "zte-q7",
       "target": "ramips/mt7620",
       "titles": [
         {
@@ -7795,7 +7795,7 @@
       ]
     },
     {
-      "model_id": "3g-6200n",
+      "id": "3g-6200n",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7804,7 +7804,7 @@
       ]
     },
     {
-      "model_id": "3g-6200nl",
+      "id": "3g-6200nl",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7813,7 +7813,7 @@
       ]
     },
     {
-      "model_id": "3g150b",
+      "id": "3g150b",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7822,7 +7822,7 @@
       ]
     },
     {
-      "model_id": "3g300m",
+      "id": "3g300m",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7831,7 +7831,7 @@
       ]
     },
     {
-      "model_id": "air3gii",
+      "id": "air3gii",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7840,7 +7840,7 @@
       ]
     },
     {
-      "model_id": "all0256n-4M",
+      "id": "all0256n-4M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7849,7 +7849,7 @@
       ]
     },
     {
-      "model_id": "all0256n-8M",
+      "id": "all0256n-8M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7858,7 +7858,7 @@
       ]
     },
     {
-      "model_id": "all5002",
+      "id": "all5002",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7867,7 +7867,7 @@
       ]
     },
     {
-      "model_id": "all5003",
+      "id": "all5003",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7876,7 +7876,7 @@
       ]
     },
     {
-      "model_id": "asl26555-16M",
+      "id": "asl26555-16M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7885,7 +7885,7 @@
       ]
     },
     {
-      "model_id": "asl26555-8M",
+      "id": "asl26555-8M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7894,7 +7894,7 @@
       ]
     },
     {
-      "model_id": "atp-52b",
+      "id": "atp-52b",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7903,7 +7903,7 @@
       ]
     },
     {
-      "model_id": "awapn2403",
+      "id": "awapn2403",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7912,7 +7912,7 @@
       ]
     },
     {
-      "model_id": "awm002-evb-8M",
+      "id": "awm002-evb-8M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7921,7 +7921,7 @@
       ]
     },
     {
-      "model_id": "bc2",
+      "id": "bc2",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7930,7 +7930,7 @@
       ]
     },
     {
-      "model_id": "broadway",
+      "id": "broadway",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7939,7 +7939,7 @@
       ]
     },
     {
-      "model_id": "carambola",
+      "id": "carambola",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7948,7 +7948,7 @@
       ]
     },
     {
-      "model_id": "d105",
+      "id": "d105",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7957,7 +7957,7 @@
       ]
     },
     {
-      "model_id": "dap-1350",
+      "id": "dap-1350",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7966,7 +7966,7 @@
       ]
     },
     {
-      "model_id": "dir-320-b1",
+      "id": "dir-320-b1",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7975,7 +7975,7 @@
       ]
     },
     {
-      "model_id": "dir-600-b1",
+      "id": "dir-600-b1",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7984,7 +7984,7 @@
       ]
     },
     {
-      "model_id": "dir-610-a1",
+      "id": "dir-610-a1",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -7993,7 +7993,7 @@
       ]
     },
     {
-      "model_id": "dir-615-d",
+      "id": "dir-615-d",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8002,7 +8002,7 @@
       ]
     },
     {
-      "model_id": "dir-615-h1",
+      "id": "dir-615-h1",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8011,7 +8011,7 @@
       ]
     },
     {
-      "model_id": "dir-620-a1",
+      "id": "dir-620-a1",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8020,7 +8020,7 @@
       ]
     },
     {
-      "model_id": "dir-620-d1",
+      "id": "dir-620-d1",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8029,7 +8029,7 @@
       ]
     },
     {
-      "model_id": "dwr-512-b",
+      "id": "dwr-512-b",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8038,7 +8038,7 @@
       ]
     },
     {
-      "model_id": "esr-9753",
+      "id": "esr-9753",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8047,7 +8047,7 @@
       ]
     },
     {
-      "model_id": "f5d8235-v2",
+      "id": "f5d8235-v2",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8056,7 +8056,7 @@
       ]
     },
     {
-      "model_id": "f7c027",
+      "id": "f7c027",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8065,7 +8065,7 @@
       ]
     },
     {
-      "model_id": "fonera20n",
+      "id": "fonera20n",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8074,7 +8074,7 @@
       ]
     },
     {
-      "model_id": "freestation5",
+      "id": "freestation5",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8083,7 +8083,7 @@
       ]
     },
     {
-      "model_id": "hg255d",
+      "id": "hg255d",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8092,7 +8092,7 @@
       ]
     },
     {
-      "model_id": "hlk-rm04",
+      "id": "hlk-rm04",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8101,7 +8101,7 @@
       ]
     },
     {
-      "model_id": "ht-tm02",
+      "id": "ht-tm02",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8110,7 +8110,7 @@
       ]
     },
     {
-      "model_id": "hw550-3g",
+      "id": "hw550-3g",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8119,7 +8119,7 @@
       ]
     },
     {
-      "model_id": "ip2202",
+      "id": "ip2202",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8128,7 +8128,7 @@
       ]
     },
     {
-      "model_id": "jhr-n805r",
+      "id": "jhr-n805r",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8137,7 +8137,7 @@
       ]
     },
     {
-      "model_id": "jhr-n825r",
+      "id": "jhr-n825r",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8146,7 +8146,7 @@
       ]
     },
     {
-      "model_id": "jhr-n926r",
+      "id": "jhr-n926r",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8155,7 +8155,7 @@
       ]
     },
     {
-      "model_id": "kn",
+      "id": "kn",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8164,7 +8164,7 @@
       ]
     },
     {
-      "model_id": "m2m",
+      "id": "m2m",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8173,7 +8173,7 @@
       ]
     },
     {
-      "model_id": "m3",
+      "id": "m3",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8182,7 +8182,7 @@
       ]
     },
     {
-      "model_id": "m4-4M",
+      "id": "m4-4M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8191,7 +8191,7 @@
       ]
     },
     {
-      "model_id": "m4-8M",
+      "id": "m4-8M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8200,7 +8200,7 @@
       ]
     },
     {
-      "model_id": "miniembplug",
+      "id": "miniembplug",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8209,7 +8209,7 @@
       ]
     },
     {
-      "model_id": "miniembwifi",
+      "id": "miniembwifi",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8218,7 +8218,7 @@
       ]
     },
     {
-      "model_id": "mofi3500-3gn",
+      "id": "mofi3500-3gn",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8227,7 +8227,7 @@
       ]
     },
     {
-      "model_id": "mpr-a1",
+      "id": "mpr-a1",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8236,7 +8236,7 @@
       ]
     },
     {
-      "model_id": "mpr-a2",
+      "id": "mpr-a2",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8245,7 +8245,7 @@
       ]
     },
     {
-      "model_id": "mr-102n",
+      "id": "mr-102n",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8254,7 +8254,7 @@
       ]
     },
     {
-      "model_id": "mzk-dp150n",
+      "id": "mzk-dp150n",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8263,7 +8263,7 @@
       ]
     },
     {
-      "model_id": "mzk-w300nh2",
+      "id": "mzk-w300nh2",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8272,7 +8272,7 @@
       ]
     },
     {
-      "model_id": "mzk-wdpr",
+      "id": "mzk-wdpr",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8281,7 +8281,7 @@
       ]
     },
     {
-      "model_id": "nbg-419n",
+      "id": "nbg-419n",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8290,7 +8290,7 @@
       ]
     },
     {
-      "model_id": "nbg-419n2",
+      "id": "nbg-419n2",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8299,7 +8299,7 @@
       ]
     },
     {
-      "model_id": "ncs601w",
+      "id": "ncs601w",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8308,7 +8308,7 @@
       ]
     },
     {
-      "model_id": "nixcore-x1-16M",
+      "id": "nixcore-x1-16M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8317,7 +8317,7 @@
       ]
     },
     {
-      "model_id": "nixcore-x1-8M",
+      "id": "nixcore-x1-8M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8326,7 +8326,7 @@
       ]
     },
     {
-      "model_id": "nw718",
+      "id": "nw718",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8335,7 +8335,7 @@
       ]
     },
     {
-      "model_id": "psr-680w",
+      "id": "psr-680w",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8344,7 +8344,7 @@
       ]
     },
     {
-      "model_id": "pwh2004",
+      "id": "pwh2004",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8353,7 +8353,7 @@
       ]
     },
     {
-      "model_id": "px-4885-8M",
+      "id": "px-4885-8M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8362,7 +8362,7 @@
       ]
     },
     {
-      "model_id": "rt-g32-b1",
+      "id": "rt-g32-b1",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8371,7 +8371,7 @@
       ]
     },
     {
-      "model_id": "rt-n13u",
+      "id": "rt-n13u",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8380,7 +8380,7 @@
       ]
     },
     {
-      "model_id": "rt5350f-olinuxino",
+      "id": "rt5350f-olinuxino",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8389,7 +8389,7 @@
       ]
     },
     {
-      "model_id": "rt5350f-olinuxino-evb",
+      "id": "rt5350f-olinuxino-evb",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8398,7 +8398,7 @@
       ]
     },
     {
-      "model_id": "rut5xx",
+      "id": "rut5xx",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8407,7 +8407,7 @@
       ]
     },
     {
-      "model_id": "sl-r7205",
+      "id": "sl-r7205",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8416,7 +8416,7 @@
       ]
     },
     {
-      "model_id": "tew-638apb-v2",
+      "id": "tew-638apb-v2",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8425,7 +8425,7 @@
       ]
     },
     {
-      "model_id": "tew-714tru",
+      "id": "tew-714tru",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8434,7 +8434,7 @@
       ]
     },
     {
-      "model_id": "ur-326n4g",
+      "id": "ur-326n4g",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8443,7 +8443,7 @@
       ]
     },
     {
-      "model_id": "ur-336un",
+      "id": "ur-336un",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8452,7 +8452,7 @@
       ]
     },
     {
-      "model_id": "v22rw-2x2",
+      "id": "v22rw-2x2",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8461,7 +8461,7 @@
       ]
     },
     {
-      "model_id": "vocore-16M",
+      "id": "vocore-16M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8470,7 +8470,7 @@
       ]
     },
     {
-      "model_id": "vocore-8M",
+      "id": "vocore-8M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8479,7 +8479,7 @@
       ]
     },
     {
-      "model_id": "w150m",
+      "id": "w150m",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8488,7 +8488,7 @@
       ]
     },
     {
-      "model_id": "w306r-v20",
+      "id": "w306r-v20",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8497,7 +8497,7 @@
       ]
     },
     {
-      "model_id": "w502u",
+      "id": "w502u",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8506,7 +8506,7 @@
       ]
     },
     {
-      "model_id": "wcr-150gn",
+      "id": "wcr-150gn",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8515,7 +8515,7 @@
       ]
     },
     {
-      "model_id": "whr-g300n",
+      "id": "whr-g300n",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8524,7 +8524,7 @@
       ]
     },
     {
-      "model_id": "wizard8800",
+      "id": "wizard8800",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8533,7 +8533,7 @@
       ]
     },
     {
-      "model_id": "wizfi630a",
+      "id": "wizfi630a",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8542,7 +8542,7 @@
       ]
     },
     {
-      "model_id": "wl-330n",
+      "id": "wl-330n",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8551,7 +8551,7 @@
       ]
     },
     {
-      "model_id": "wl-330n3g",
+      "id": "wl-330n3g",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8560,7 +8560,7 @@
       ]
     },
     {
-      "model_id": "wnce2001",
+      "id": "wnce2001",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8569,7 +8569,7 @@
       ]
     },
     {
-      "model_id": "wr512-3gn-8M",
+      "id": "wr512-3gn-8M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8578,7 +8578,7 @@
       ]
     },
     {
-      "model_id": "wr6202",
+      "id": "wr6202",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8587,7 +8587,7 @@
       ]
     },
     {
-      "model_id": "wt1520-4M",
+      "id": "wt1520-4M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8596,7 +8596,7 @@
       ]
     },
     {
-      "model_id": "wt1520-8M",
+      "id": "wt1520-8M",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8605,7 +8605,7 @@
       ]
     },
     {
-      "model_id": "x5",
+      "id": "x5",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8614,7 +8614,7 @@
       ]
     },
     {
-      "model_id": "x8",
+      "id": "x8",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8623,7 +8623,7 @@
       ]
     },
     {
-      "model_id": "xdxrn502j",
+      "id": "xdxrn502j",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8632,7 +8632,7 @@
       ]
     },
     {
-      "model_id": "zorlik_zl5900v2",
+      "id": "zorlik_zl5900v2",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8641,7 +8641,7 @@
       ]
     },
     {
-      "model_id": "zyxel_keenetic-start",
+      "id": "zyxel_keenetic-start",
       "target": "ramips/rt305x",
       "titles": [
         {
@@ -8650,7 +8650,7 @@
       ]
     },
     {
-      "model_id": "11acnas",
+      "id": "11acnas",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8659,7 +8659,7 @@
       ]
     },
     {
-      "model_id": "alfa-network_quad-e4g",
+      "id": "alfa-network_quad-e4g",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8668,7 +8668,7 @@
       ]
     },
     {
-      "model_id": "asus_rt-ac57u",
+      "id": "asus_rt-ac57u",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8677,7 +8677,7 @@
       ]
     },
     {
-      "model_id": "d-team_newifi-d2",
+      "id": "d-team_newifi-d2",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8686,7 +8686,7 @@
       ]
     },
     {
-      "model_id": "dir-860l-b1",
+      "id": "dir-860l-b1",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8695,7 +8695,7 @@
       ]
     },
     {
-      "model_id": "elecom_wrc-1167ghbk2-s",
+      "id": "elecom_wrc-1167ghbk2-s",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8704,7 +8704,7 @@
       ]
     },
     {
-      "model_id": "elecom_wrc-1900gst",
+      "id": "elecom_wrc-1900gst",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8713,7 +8713,7 @@
       ]
     },
     {
-      "model_id": "elecom_wrc-2533gst",
+      "id": "elecom_wrc-2533gst",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8722,7 +8722,7 @@
       ]
     },
     {
-      "model_id": "ew1200",
+      "id": "ew1200",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8731,7 +8731,7 @@
       ]
     },
     {
-      "model_id": "firewrt",
+      "id": "firewrt",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8740,7 +8740,7 @@
       ]
     },
     {
-      "model_id": "gnubee_gb-pc1",
+      "id": "gnubee_gb-pc1",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8749,7 +8749,7 @@
       ]
     },
     {
-      "model_id": "gnubee_gb-pc2",
+      "id": "gnubee_gb-pc2",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8758,7 +8758,7 @@
       ]
     },
     {
-      "model_id": "hc5962",
+      "id": "hc5962",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8767,7 +8767,7 @@
       ]
     },
     {
-      "model_id": "iodata_wn-ax1167gr",
+      "id": "iodata_wn-ax1167gr",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8776,7 +8776,7 @@
       ]
     },
     {
-      "model_id": "iodata_wn-gx300gr",
+      "id": "iodata_wn-gx300gr",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8785,7 +8785,7 @@
       ]
     },
     {
-      "model_id": "k2p",
+      "id": "k2p",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8794,7 +8794,7 @@
       ]
     },
     {
-      "model_id": "mediatek_ap-mt7621a-v60",
+      "id": "mediatek_ap-mt7621a-v60",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8803,7 +8803,7 @@
       ]
     },
     {
-      "model_id": "mikrotik_rb750gr3",
+      "id": "mikrotik_rb750gr3",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8812,7 +8812,7 @@
       ]
     },
     {
-      "model_id": "mikrotik_rbm11g",
+      "id": "mikrotik_rbm11g",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8821,7 +8821,7 @@
       ]
     },
     {
-      "model_id": "mikrotik_rbm33g",
+      "id": "mikrotik_rbm33g",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8830,7 +8830,7 @@
       ]
     },
     {
-      "model_id": "mqmaker_witi-256m",
+      "id": "mqmaker_witi-256m",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8839,7 +8839,7 @@
       ]
     },
     {
-      "model_id": "mqmaker_witi-512m",
+      "id": "mqmaker_witi-512m",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8848,7 +8848,7 @@
       ]
     },
     {
-      "model_id": "mt7621",
+      "id": "mt7621",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8857,7 +8857,7 @@
       ]
     },
     {
-      "model_id": "mtc_wr1201",
+      "id": "mtc_wr1201",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8866,7 +8866,7 @@
       ]
     },
     {
-      "model_id": "netgear_ex6150",
+      "id": "netgear_ex6150",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8875,7 +8875,7 @@
       ]
     },
     {
-      "model_id": "netgear_r6350",
+      "id": "netgear_r6350",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8884,7 +8884,7 @@
       ]
     },
     {
-      "model_id": "newifi-d1",
+      "id": "newifi-d1",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8893,7 +8893,7 @@
       ]
     },
     {
-      "model_id": "pbr-m1",
+      "id": "pbr-m1",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8902,7 +8902,7 @@
       ]
     },
     {
-      "model_id": "r6220",
+      "id": "r6220",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8911,7 +8911,7 @@
       ]
     },
     {
-      "model_id": "re350-v1",
+      "id": "re350-v1",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8920,7 +8920,7 @@
       ]
     },
     {
-      "model_id": "re6500",
+      "id": "re6500",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8929,7 +8929,7 @@
       ]
     },
     {
-      "model_id": "sap-g3200u3",
+      "id": "sap-g3200u3",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8938,7 +8938,7 @@
       ]
     },
     {
-      "model_id": "sk-wb8",
+      "id": "sk-wb8",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8947,7 +8947,7 @@
       ]
     },
     {
-      "model_id": "telco-electronics_x1",
+      "id": "telco-electronics_x1",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8956,7 +8956,7 @@
       ]
     },
     {
-      "model_id": "timecloud",
+      "id": "timecloud",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8965,7 +8965,7 @@
       ]
     },
     {
-      "model_id": "ubnt-erx",
+      "id": "ubnt-erx",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8974,7 +8974,7 @@
       ]
     },
     {
-      "model_id": "ubnt-erx-sfp",
+      "id": "ubnt-erx-sfp",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8983,7 +8983,7 @@
       ]
     },
     {
-      "model_id": "unielec_u7621-06-256m-16m",
+      "id": "unielec_u7621-06-256m-16m",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -8992,7 +8992,7 @@
       ]
     },
     {
-      "model_id": "unielec_u7621-06-512m-64m",
+      "id": "unielec_u7621-06-512m-64m",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9001,7 +9001,7 @@
       ]
     },
     {
-      "model_id": "vr500",
+      "id": "vr500",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9010,7 +9010,7 @@
       ]
     },
     {
-      "model_id": "w2914nsv2",
+      "id": "w2914nsv2",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9019,7 +9019,7 @@
       ]
     },
     {
-      "model_id": "wf-2881",
+      "id": "wf-2881",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9028,7 +9028,7 @@
       ]
     },
     {
-      "model_id": "wndr3700v5",
+      "id": "wndr3700v5",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9037,7 +9037,7 @@
       ]
     },
     {
-      "model_id": "wsr-1166",
+      "id": "wsr-1166",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9046,7 +9046,7 @@
       ]
     },
     {
-      "model_id": "wsr-600",
+      "id": "wsr-600",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9055,7 +9055,7 @@
       ]
     },
     {
-      "model_id": "xiaomi_mir3g",
+      "id": "xiaomi_mir3g",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9064,7 +9064,7 @@
       ]
     },
     {
-      "model_id": "xiaomi_mir3p",
+      "id": "xiaomi_mir3p",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9073,7 +9073,7 @@
       ]
     },
     {
-      "model_id": "xzwifi_creativebox-v1",
+      "id": "xzwifi_creativebox-v1",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9082,7 +9082,7 @@
       ]
     },
     {
-      "model_id": "youhua_wr1200js",
+      "id": "youhua_wr1200js",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9091,7 +9091,7 @@
       ]
     },
     {
-      "model_id": "youku_yk-l2",
+      "id": "youku_yk-l2",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9100,7 +9100,7 @@
       ]
     },
     {
-      "model_id": "zbt-we1326",
+      "id": "zbt-we1326",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9109,7 +9109,7 @@
       ]
     },
     {
-      "model_id": "zbt-wg2626",
+      "id": "zbt-wg2626",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9118,7 +9118,7 @@
       ]
     },
     {
-      "model_id": "zbt-wg3526-16M",
+      "id": "zbt-wg3526-16M",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9127,7 +9127,7 @@
       ]
     },
     {
-      "model_id": "zbt-wg3526-32M",
+      "id": "zbt-wg3526-32M",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9136,7 +9136,7 @@
       ]
     },
     {
-      "model_id": "zbtlink_zbt-we3526",
+      "id": "zbtlink_zbt-we3526",
       "target": "ramips/mt7621",
       "titles": [
         {
@@ -9145,7 +9145,7 @@
       ]
     },
     {
-      "model_id": "LinkIt7688",
+      "id": "LinkIt7688",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9154,7 +9154,7 @@
       ]
     },
     {
-      "model_id": "alfa-network_awusfree1",
+      "id": "alfa-network_awusfree1",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9163,7 +9163,7 @@
       ]
     },
     {
-      "model_id": "cudy_wr1000",
+      "id": "cudy_wr1000",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9172,7 +9172,7 @@
       ]
     },
     {
-      "model_id": "duzun-dm06",
+      "id": "duzun-dm06",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9181,7 +9181,7 @@
       ]
     },
     {
-      "model_id": "gl-mt300n-v2",
+      "id": "gl-mt300n-v2",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9190,7 +9190,7 @@
       ]
     },
     {
-      "model_id": "glinet_vixmini",
+      "id": "glinet_vixmini",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9199,7 +9199,7 @@
       ]
     },
     {
-      "model_id": "hc5661a",
+      "id": "hc5661a",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9208,7 +9208,7 @@
       ]
     },
     {
-      "model_id": "hilink_hlk-7628n",
+      "id": "hilink_hlk-7628n",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9217,7 +9217,7 @@
       ]
     },
     {
-      "model_id": "hiwifi_hc5861b",
+      "id": "hiwifi_hc5861b",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9226,7 +9226,7 @@
       ]
     },
     {
-      "model_id": "mac1200r-v2",
+      "id": "mac1200r-v2",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9235,7 +9235,7 @@
       ]
     },
     {
-      "model_id": "miwifi-nano",
+      "id": "miwifi-nano",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9244,7 +9244,7 @@
       ]
     },
     {
-      "model_id": "netgear_r6120",
+      "id": "netgear_r6120",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9253,7 +9253,7 @@
       ]
     },
     {
-      "model_id": "omega2",
+      "id": "omega2",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9262,7 +9262,7 @@
       ]
     },
     {
-      "model_id": "omega2p",
+      "id": "omega2p",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9271,7 +9271,7 @@
       ]
     },
     {
-      "model_id": "pbr-d1",
+      "id": "pbr-d1",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9280,7 +9280,7 @@
       ]
     },
     {
-      "model_id": "rakwireless_rak633",
+      "id": "rakwireless_rak633",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9289,7 +9289,7 @@
       ]
     },
     {
-      "model_id": "skylab_skw92a",
+      "id": "skylab_skw92a",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9298,7 +9298,7 @@
       ]
     },
     {
-      "model_id": "tama_w06",
+      "id": "tama_w06",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9307,7 +9307,7 @@
       ]
     },
     {
-      "model_id": "tl-wr840n-v4",
+      "id": "tl-wr840n-v4",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9316,7 +9316,7 @@
       ]
     },
     {
-      "model_id": "tl-wr841n-v13",
+      "id": "tl-wr841n-v13",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9325,7 +9325,7 @@
       ]
     },
     {
-      "model_id": "totolink_lr1200",
+      "id": "totolink_lr1200",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9334,7 +9334,7 @@
       ]
     },
     {
-      "model_id": "tplink_c20-v4",
+      "id": "tplink_c20-v4",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9343,7 +9343,7 @@
       ]
     },
     {
-      "model_id": "tplink_c50-v3",
+      "id": "tplink_c50-v3",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9352,7 +9352,7 @@
       ]
     },
     {
-      "model_id": "tplink_c50-v4",
+      "id": "tplink_c50-v4",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9361,7 +9361,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-mr3020-v3",
+      "id": "tplink_tl-mr3020-v3",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9370,7 +9370,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-mr3420-v5",
+      "id": "tplink_tl-mr3420-v5",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9379,7 +9379,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wa801nd-v5",
+      "id": "tplink_tl-wa801nd-v5",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9388,7 +9388,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr802n-v4",
+      "id": "tplink_tl-wr802n-v4",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9397,7 +9397,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr842n-v5",
+      "id": "tplink_tl-wr842n-v5",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9406,7 +9406,7 @@
       ]
     },
     {
-      "model_id": "tplink_tl-wr902ac-v3",
+      "id": "tplink_tl-wr902ac-v3",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9415,7 +9415,7 @@
       ]
     },
     {
-      "model_id": "u7628-01-128M-16M",
+      "id": "u7628-01-128M-16M",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9424,7 +9424,7 @@
       ]
     },
     {
-      "model_id": "vocore2",
+      "id": "vocore2",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9433,7 +9433,7 @@
       ]
     },
     {
-      "model_id": "vocore2lite",
+      "id": "vocore2lite",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9442,7 +9442,7 @@
       ]
     },
     {
-      "model_id": "wavlink_wl-wn570ha1",
+      "id": "wavlink_wl-wn570ha1",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9451,7 +9451,7 @@
       ]
     },
     {
-      "model_id": "wavlink_wl-wn575a3",
+      "id": "wavlink_wl-wn575a3",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9460,7 +9460,7 @@
       ]
     },
     {
-      "model_id": "wcr-1166ds",
+      "id": "wcr-1166ds",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9469,7 +9469,7 @@
       ]
     },
     {
-      "model_id": "widora_neo-16m",
+      "id": "widora_neo-16m",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9478,7 +9478,7 @@
       ]
     },
     {
-      "model_id": "widora_neo-32m",
+      "id": "widora_neo-32m",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9487,7 +9487,7 @@
       ]
     },
     {
-      "model_id": "wiznet_wizfi630s",
+      "id": "wiznet_wizfi630s",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9496,7 +9496,7 @@
       ]
     },
     {
-      "model_id": "wrtnode2p",
+      "id": "wrtnode2p",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9505,7 +9505,7 @@
       ]
     },
     {
-      "model_id": "wrtnode2r",
+      "id": "wrtnode2r",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9514,7 +9514,7 @@
       ]
     },
     {
-      "model_id": "xiaomi_mir4a-100m",
+      "id": "xiaomi_mir4a-100m",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9523,7 +9523,7 @@
       ]
     },
     {
-      "model_id": "zbtlink_zbt-we1226",
+      "id": "zbtlink_zbt-we1226",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9532,7 +9532,7 @@
       ]
     },
     {
-      "model_id": "zyxel_keenetic-extra-ii",
+      "id": "zyxel_keenetic-extra-ii",
       "target": "ramips/mt76x8",
       "titles": [
         {
@@ -9541,7 +9541,7 @@
       ]
     },
     {
-      "model_id": "belkin_f9k1109v1",
+      "id": "belkin_f9k1109v1",
       "target": "ramips/rt3883",
       "titles": [
         {
@@ -9550,7 +9550,7 @@
       ]
     },
     {
-      "model_id": "br-6475nd",
+      "id": "br-6475nd",
       "target": "ramips/rt3883",
       "titles": [
         {
@@ -9559,7 +9559,7 @@
       ]
     },
     {
-      "model_id": "cy-swr1100",
+      "id": "cy-swr1100",
       "target": "ramips/rt3883",
       "titles": [
         {
@@ -9568,7 +9568,7 @@
       ]
     },
     {
-      "model_id": "dir-645",
+      "id": "dir-645",
       "target": "ramips/rt3883",
       "titles": [
         {
@@ -9577,7 +9577,7 @@
       ]
     },
     {
-      "model_id": "hpm",
+      "id": "hpm",
       "target": "ramips/rt3883",
       "titles": [
         {
@@ -9586,7 +9586,7 @@
       ]
     },
     {
-      "model_id": "rt-n56u",
+      "id": "rt-n56u",
       "target": "ramips/rt3883",
       "titles": [
         {
@@ -9595,7 +9595,7 @@
       ]
     },
     {
-      "model_id": "tew-691gr",
+      "id": "tew-691gr",
       "target": "ramips/rt3883",
       "titles": [
         {
@@ -9604,7 +9604,7 @@
       ]
     },
     {
-      "model_id": "tew-692gr",
+      "id": "tew-692gr",
       "target": "ramips/rt3883",
       "titles": [
         {
@@ -9613,7 +9613,7 @@
       ]
     },
     {
-      "model_id": "wlr-6000",
+      "id": "wlr-6000",
       "target": "ramips/rt3883",
       "titles": [
         {
@@ -9622,7 +9622,7 @@
       ]
     },
     {
-      "model_id": "wmdr-143n",
+      "id": "wmdr-143n",
       "target": "ramips/rt3883",
       "titles": [
         {
@@ -9631,7 +9631,7 @@
       ]
     },
     {
-      "model_id": "ar670w",
+      "id": "ar670w",
       "target": "ramips/rt288x",
       "titles": [
         {
@@ -9640,7 +9640,7 @@
       ]
     },
     {
-      "model_id": "ar725w",
+      "id": "ar725w",
       "target": "ramips/rt288x",
       "titles": [
         {
@@ -9649,7 +9649,7 @@
       ]
     },
     {
-      "model_id": "dlink_dap-1522-a1",
+      "id": "dlink_dap-1522-a1",
       "target": "ramips/rt288x",
       "titles": [
         {
@@ -9658,7 +9658,7 @@
       ]
     },
     {
-      "model_id": "f5d8235-v1",
+      "id": "f5d8235-v1",
       "target": "ramips/rt288x",
       "titles": [
         {
@@ -9667,7 +9667,7 @@
       ]
     },
     {
-      "model_id": "rt-n15",
+      "id": "rt-n15",
       "target": "ramips/rt288x",
       "titles": [
         {
@@ -9676,7 +9676,7 @@
       ]
     },
     {
-      "model_id": "v11st-fe",
+      "id": "v11st-fe",
       "target": "ramips/rt288x",
       "titles": [
         {
@@ -9685,7 +9685,7 @@
       ]
     },
     {
-      "model_id": "wli-tx4-ag300n",
+      "id": "wli-tx4-ag300n",
       "target": "ramips/rt288x",
       "titles": [
         {
@@ -9694,7 +9694,7 @@
       ]
     },
     {
-      "model_id": "wzr-agl300nh",
+      "id": "wzr-agl300nh",
       "target": "ramips/rt288x",
       "titles": [
         {
@@ -9703,7 +9703,7 @@
       ]
     },
     {
-      "model_id": "hiveap-330",
+      "id": "hiveap-330",
       "target": "mpc85xx/p1020",
       "titles": [
         {
@@ -9712,7 +9712,7 @@
       ]
     },
     {
-      "model_id": "panda",
+      "id": "panda",
       "target": "mpc85xx/p1020",
       "titles": [
         {
@@ -9721,7 +9721,7 @@
       ]
     },
     {
-      "model_id": "ws-ap3710i",
+      "id": "ws-ap3710i",
       "target": "mpc85xx/p1020",
       "titles": [
         {
@@ -9730,7 +9730,7 @@
       ]
     },
     {
-      "model_id": "red-15w-rev1",
+      "id": "red-15w-rev1",
       "target": "mpc85xx/generic",
       "titles": [
         {
@@ -9739,7 +9739,7 @@
       ]
     },
     {
-      "model_id": "tl-wdr4900-v1",
+      "id": "tl-wdr4900-v1",
       "target": "mpc85xx/generic",
       "titles": [
         {
@@ -9748,7 +9748,7 @@
       ]
     },
     {
-      "model_id": "p2020rdb",
+      "id": "p2020rdb",
       "target": "mpc85xx/p2020",
       "titles": [
         {
@@ -9757,7 +9757,7 @@
       ]
     },
     {
-      "model_id": "sun50i-a64-pine64-plus",
+      "id": "sun50i-a64-pine64-plus",
       "target": "sunxi/cortexa53",
       "titles": [
         {
@@ -9766,7 +9766,7 @@
       ]
     },
     {
-      "model_id": "sun50i-a64-sopine-baseboard",
+      "id": "sun50i-a64-sopine-baseboard",
       "target": "sunxi/cortexa53",
       "titles": [
         {
@@ -9775,7 +9775,7 @@
       ]
     },
     {
-      "model_id": "sun50i-h5-nanopi-neo-plus2",
+      "id": "sun50i-h5-nanopi-neo-plus2",
       "target": "sunxi/cortexa53",
       "titles": [
         {
@@ -9784,7 +9784,7 @@
       ]
     },
     {
-      "model_id": "sun50i-h5-nanopi-neo2",
+      "id": "sun50i-h5-nanopi-neo2",
       "target": "sunxi/cortexa53",
       "titles": [
         {
@@ -9793,7 +9793,7 @@
       ]
     },
     {
-      "model_id": "sun50i-h5-orangepi-pc2",
+      "id": "sun50i-h5-orangepi-pc2",
       "target": "sunxi/cortexa53",
       "titles": [
         {
@@ -9802,7 +9802,7 @@
       ]
     },
     {
-      "model_id": "sun50i-h5-orangepi-zero-plus",
+      "id": "sun50i-h5-orangepi-zero-plus",
       "target": "sunxi/cortexa53",
       "titles": [
         {
@@ -9811,7 +9811,7 @@
       ]
     },
     {
-      "model_id": "sun4i-a10-cubieboard",
+      "id": "sun4i-a10-cubieboard",
       "target": "sunxi/cortexa8",
       "titles": [
         {
@@ -9820,7 +9820,7 @@
       ]
     },
     {
-      "model_id": "sun4i-a10-marsboard",
+      "id": "sun4i-a10-marsboard",
       "target": "sunxi/cortexa8",
       "titles": [
         {
@@ -9829,7 +9829,7 @@
       ]
     },
     {
-      "model_id": "sun4i-a10-olinuxino-lime",
+      "id": "sun4i-a10-olinuxino-lime",
       "target": "sunxi/cortexa8",
       "titles": [
         {
@@ -9838,7 +9838,7 @@
       ]
     },
     {
-      "model_id": "sun4i-a10-pcduino",
+      "id": "sun4i-a10-pcduino",
       "target": "sunxi/cortexa8",
       "titles": [
         {
@@ -9847,7 +9847,7 @@
       ]
     },
     {
-      "model_id": "sun5i-a13-olimex-som",
+      "id": "sun5i-a13-olimex-som",
       "target": "sunxi/cortexa8",
       "titles": [
         {
@@ -9856,7 +9856,7 @@
       ]
     },
     {
-      "model_id": "sun5i-a13-olinuxino",
+      "id": "sun5i-a13-olinuxino",
       "target": "sunxi/cortexa8",
       "titles": [
         {
@@ -9865,7 +9865,7 @@
       ]
     },
     {
-      "model_id": "sun6i-a31-m9",
+      "id": "sun6i-a31-m9",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9874,7 +9874,7 @@
       ]
     },
     {
-      "model_id": "sun7i-a20-bananapi",
+      "id": "sun7i-a20-bananapi",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9883,7 +9883,7 @@
       ]
     },
     {
-      "model_id": "sun7i-a20-bananapro",
+      "id": "sun7i-a20-bananapro",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9892,7 +9892,7 @@
       ]
     },
     {
-      "model_id": "sun7i-a20-cubieboard2",
+      "id": "sun7i-a20-cubieboard2",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9901,7 +9901,7 @@
       ]
     },
     {
-      "model_id": "sun7i-a20-cubietruck",
+      "id": "sun7i-a20-cubietruck",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9910,7 +9910,7 @@
       ]
     },
     {
-      "model_id": "sun7i-a20-lamobo-r1",
+      "id": "sun7i-a20-lamobo-r1",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9919,7 +9919,7 @@
       ]
     },
     {
-      "model_id": "sun7i-a20-olinuxino-lime",
+      "id": "sun7i-a20-olinuxino-lime",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9928,7 +9928,7 @@
       ]
     },
     {
-      "model_id": "sun7i-a20-olinuxino-lime2",
+      "id": "sun7i-a20-olinuxino-lime2",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9937,7 +9937,7 @@
       ]
     },
     {
-      "model_id": "sun7i-a20-olinuxino-lime2-emmc",
+      "id": "sun7i-a20-olinuxino-lime2-emmc",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9946,7 +9946,7 @@
       ]
     },
     {
-      "model_id": "sun7i-a20-olinuxino-micro",
+      "id": "sun7i-a20-olinuxino-micro",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9955,7 +9955,7 @@
       ]
     },
     {
-      "model_id": "sun7i-a20-pcduino3",
+      "id": "sun7i-a20-pcduino3",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9964,7 +9964,7 @@
       ]
     },
     {
-      "model_id": "sun8i-h2-plus-orangepi-r1",
+      "id": "sun8i-h2-plus-orangepi-r1",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9973,7 +9973,7 @@
       ]
     },
     {
-      "model_id": "sun8i-h2-plus-orangepi-zero",
+      "id": "sun8i-h2-plus-orangepi-zero",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9982,7 +9982,7 @@
       ]
     },
     {
-      "model_id": "sun8i-h3-bananapi-m2-plus",
+      "id": "sun8i-h3-bananapi-m2-plus",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -9991,7 +9991,7 @@
       ]
     },
     {
-      "model_id": "sun8i-h3-nanopi-m1-plus",
+      "id": "sun8i-h3-nanopi-m1-plus",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -10000,7 +10000,7 @@
       ]
     },
     {
-      "model_id": "sun8i-h3-nanopi-neo",
+      "id": "sun8i-h3-nanopi-neo",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -10009,7 +10009,7 @@
       ]
     },
     {
-      "model_id": "sun8i-h3-orangepi-2",
+      "id": "sun8i-h3-orangepi-2",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -10018,7 +10018,7 @@
       ]
     },
     {
-      "model_id": "sun8i-h3-orangepi-one",
+      "id": "sun8i-h3-orangepi-one",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -10027,7 +10027,7 @@
       ]
     },
     {
-      "model_id": "sun8i-h3-orangepi-pc",
+      "id": "sun8i-h3-orangepi-pc",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -10036,7 +10036,7 @@
       ]
     },
     {
-      "model_id": "sun8i-h3-orangepi-pc-plus",
+      "id": "sun8i-h3-orangepi-pc-plus",
       "target": "sunxi/cortexa7",
       "titles": [
         {
@@ -10045,7 +10045,7 @@
       ]
     },
     {
-      "model_id": "sun8i-h3-orangepi-plus",
+      "id": "sun8i-h3-orangepi-plus",
       "target": "sunxi/cortexa7",
       "titles": [
         {

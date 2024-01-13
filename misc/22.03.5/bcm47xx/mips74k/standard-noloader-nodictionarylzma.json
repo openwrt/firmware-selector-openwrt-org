@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "standard-noloader-nodictionarylzma",
+  "id": "standard-noloader-nodictionarylzma",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "standard-noloader-nodictionarylzma"

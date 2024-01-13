@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "microchip_sama7g5-ek",
+  "id": "microchip_sama7g5-ek",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "microchip,sama7g5ek"

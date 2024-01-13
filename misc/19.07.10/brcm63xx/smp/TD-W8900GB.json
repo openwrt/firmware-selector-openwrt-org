@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "TD-W8900GB",
+  "id": "TD-W8900GB",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/smp",

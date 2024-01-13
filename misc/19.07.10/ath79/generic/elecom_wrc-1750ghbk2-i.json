@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "elecom_wrc-1750ghbk2-i",
+  "id": "elecom_wrc-1750ghbk2-i",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "elecom,wrc-1750ghbk2-i"

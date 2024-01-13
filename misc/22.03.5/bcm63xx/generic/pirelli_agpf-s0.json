@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "pirelli_agpf-s0",
+  "id": "pirelli_agpf-s0",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "pirelli,agpf-s0"

@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "siemens_gigaset-sx76x",
+  "id": "siemens_gigaset-sx76x",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "siemens,gigaset-sx76x",

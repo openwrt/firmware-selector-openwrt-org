@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "m4-8M",
+  "id": "m4-8M",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "m4-8M"

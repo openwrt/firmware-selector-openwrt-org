@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_wbmr-hp-g300h-b",
+  "id": "buffalo_wbmr-hp-g300h-b",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "WBMR",

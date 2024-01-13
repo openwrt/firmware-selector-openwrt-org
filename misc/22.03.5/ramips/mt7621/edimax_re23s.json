@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "edimax_re23s",
+  "id": "edimax_re23s",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "edimax,re23s"

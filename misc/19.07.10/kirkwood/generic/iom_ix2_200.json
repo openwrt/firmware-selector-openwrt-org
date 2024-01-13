@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iom_ix2_200",
+  "id": "iom_ix2_200",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "iom,ix2,200"

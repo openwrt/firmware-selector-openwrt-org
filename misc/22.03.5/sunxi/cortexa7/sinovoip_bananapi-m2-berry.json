@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sinovoip_bananapi-m2-berry",
+  "id": "sinovoip_bananapi-m2-berry",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "lemaker,bananapi-m2-berry"

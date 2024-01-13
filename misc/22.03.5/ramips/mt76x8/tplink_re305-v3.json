@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_re305-v3",
+  "id": "tplink_re305-v3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,re305-v3"

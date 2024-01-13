@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_unifi-flexhd",
+  "id": "ubnt_unifi-flexhd",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,unifi-flexhd"

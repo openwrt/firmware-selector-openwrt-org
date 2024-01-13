@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "8dev_rambutan",
+  "id": "8dev_rambutan",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "8dev,rambutan"

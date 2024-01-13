@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "comtrend_wap-5813n",
+  "id": "comtrend_wap-5813n",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "comtrend,wap-5813n"

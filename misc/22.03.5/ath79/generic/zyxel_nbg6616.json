@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zyxel_nbg6616",
+  "id": "zyxel_nbg6616",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zyxel,nbg6616",

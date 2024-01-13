@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "poray_ip2202",
+  "id": "poray_ip2202",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "poray,ip2202",

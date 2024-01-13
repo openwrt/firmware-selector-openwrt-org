@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sercomm_na502s",
+  "id": "sercomm_na502s",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sercomm,na502s"

@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xiaomi_mir3p",
+  "id": "xiaomi_mir3p",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "xiaomi,mir3p"

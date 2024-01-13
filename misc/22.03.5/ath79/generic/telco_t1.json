@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "telco_t1",
+  "id": "telco_t1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "telco,t1",

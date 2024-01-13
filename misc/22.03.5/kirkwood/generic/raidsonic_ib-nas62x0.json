@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "raidsonic_ib-nas62x0",
+  "id": "raidsonic_ib-nas62x0",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "raidsonic,ib-nas62x0",

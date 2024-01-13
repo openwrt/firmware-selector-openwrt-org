@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "watchguard_firebox-t10",
+  "id": "watchguard_firebox-t10",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "watchguard,firebox-t10"

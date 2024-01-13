@@ -53,7 +53,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "e600gac-v2-16M",
+  "id": "e600gac-v2-16M",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "e600gac-v2"

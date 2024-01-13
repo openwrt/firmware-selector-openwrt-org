@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "el-m150",
+  "id": "el-m150",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "ar71xx/generic",

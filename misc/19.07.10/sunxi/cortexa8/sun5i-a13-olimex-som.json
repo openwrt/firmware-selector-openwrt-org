@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun5i-a13-olimex-som",
+  "id": "sun5i-a13-olimex-som",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "olimex,a13-olinuxino"

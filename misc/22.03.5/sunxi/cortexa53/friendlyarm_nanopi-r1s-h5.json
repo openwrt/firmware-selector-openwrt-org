@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "friendlyarm_nanopi-r1s-h5",
+  "id": "friendlyarm_nanopi-r1s-h5",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "nanopi-r1s-h5"

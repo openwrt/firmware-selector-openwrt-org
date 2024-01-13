@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_unifi-nanohd",
+  "id": "ubnt_unifi-nanohd",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,unifi-nanohd"

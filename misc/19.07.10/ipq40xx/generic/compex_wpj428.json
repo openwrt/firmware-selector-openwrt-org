@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "compex_wpj428",
+  "id": "compex_wpj428",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "compex,wpj428"

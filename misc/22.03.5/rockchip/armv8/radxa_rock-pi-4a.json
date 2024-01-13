@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "radxa_rock-pi-4a",
+  "id": "radxa_rock-pi-4a",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "radxa,rockpi4a",

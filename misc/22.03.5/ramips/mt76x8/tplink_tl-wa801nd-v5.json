@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_tl-wa801nd-v5",
+  "id": "tplink_tl-wa801nd-v5",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,tl-wa801nd-v5"

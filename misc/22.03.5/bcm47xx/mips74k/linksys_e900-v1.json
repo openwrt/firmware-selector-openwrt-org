@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_e900-v1",
+  "id": "linksys_e900-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksys,e900-v1"

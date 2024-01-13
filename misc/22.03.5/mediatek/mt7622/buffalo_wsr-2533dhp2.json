@@ -72,7 +72,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_wsr-2533dhp2",
+  "id": "buffalo_wsr-2533dhp2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "buffalo,wsr-2533dhp2"

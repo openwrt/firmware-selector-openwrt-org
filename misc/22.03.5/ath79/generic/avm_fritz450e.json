@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritz450e",
+  "id": "avm_fritz450e",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "avm,fritz450e",

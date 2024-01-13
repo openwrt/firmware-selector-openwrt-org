@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "DG834GT_PN",
+  "id": "DG834GT_PN",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/generic",

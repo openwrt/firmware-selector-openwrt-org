@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iptime_a8004t",
+  "id": "iptime_a8004t",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iptime,a8004t"

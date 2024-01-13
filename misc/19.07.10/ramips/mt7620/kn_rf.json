@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "kn_rf",
+  "id": "kn_rf",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "kn_rf"

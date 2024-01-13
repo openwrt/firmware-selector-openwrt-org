@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wrtnode2p",
+  "id": "wrtnode2p",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "wrtnode2p"

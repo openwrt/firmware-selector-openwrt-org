@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "CT-6373",
+  "id": "CT-6373",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/smp",

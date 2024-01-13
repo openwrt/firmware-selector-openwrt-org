@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "vocore_vocore-8m",
+  "id": "vocore_vocore-8m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "vocore,vocore-8m",

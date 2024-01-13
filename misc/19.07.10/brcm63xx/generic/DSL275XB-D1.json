@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "DSL275XB-D1",
+  "id": "DSL275XB-D1",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/generic",

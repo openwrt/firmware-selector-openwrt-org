@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sfr_neufbox-6-sercomm-r0",
+  "id": "sfr_neufbox-6-sercomm-r0",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sfr,neufbox-6-sercomm-r0"

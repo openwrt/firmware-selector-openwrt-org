@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "engenius_esr600",
+  "id": "engenius_esr600",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "engenius,esr600"

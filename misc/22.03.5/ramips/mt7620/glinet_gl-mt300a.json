@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "glinet_gl-mt300a",
+  "id": "glinet_gl-mt300a",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "glinet,gl-mt300a",

@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "fon_fonera-20n",
+  "id": "fon_fonera-20n",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "fon,fonera-20n",

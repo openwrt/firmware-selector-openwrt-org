@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ncs601w",
+  "id": "ncs601w",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "ncs601w"

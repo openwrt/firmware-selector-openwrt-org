@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sinovoip_bananapi-m2-plus",
+  "id": "sinovoip_bananapi-m2-plus",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sinovoip,bananapi-m2-plus"

@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "totolink_a3",
+  "id": "totolink_a3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "totolink,a3"

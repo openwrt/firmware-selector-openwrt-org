@@ -53,7 +53,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_r6200-v1",
+  "id": "netgear_r6200-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,r6200-v1"

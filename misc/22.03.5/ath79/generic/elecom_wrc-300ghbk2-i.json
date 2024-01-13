@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "elecom_wrc-300ghbk2-i",
+  "id": "elecom_wrc-300ghbk2-i",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "elecom,wrc-300ghbk2-i"

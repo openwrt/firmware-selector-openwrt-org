@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_rbm33g",
+  "id": "mikrotik_rbm33g",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "mikrotik,rbm33g"

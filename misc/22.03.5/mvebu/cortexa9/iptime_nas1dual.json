@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iptime_nas1dual",
+  "id": "iptime_nas1dual",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iptime,nas1dual"

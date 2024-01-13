@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sk-wb8",
+  "id": "sk-wb8",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "sk-wb8"

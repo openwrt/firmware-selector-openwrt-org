@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "solidrun_cubox-i",
+  "id": "solidrun_cubox-i",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "solidrun,cubox-i"

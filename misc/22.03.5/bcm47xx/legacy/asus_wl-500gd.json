@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asus_wl-500gd",
+  "id": "asus_wl-500gd",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "asus,wl-500gd"

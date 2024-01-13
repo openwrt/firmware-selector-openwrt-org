@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ht-tm02",
+  "id": "ht-tm02",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "ht-tm02"

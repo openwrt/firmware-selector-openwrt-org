@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xiaomi_mi-router-4a-gigabit",
+  "id": "xiaomi_mi-router-4a-gigabit",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "xiaomi,mi-router-4a-gigabit"

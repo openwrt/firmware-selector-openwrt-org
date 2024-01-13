@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_whr-g301n",
+  "id": "buffalo_whr-g301n",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "buffalo,whr-g301n",

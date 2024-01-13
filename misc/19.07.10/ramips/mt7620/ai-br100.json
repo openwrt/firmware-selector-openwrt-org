@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ai-br100",
+  "id": "ai-br100",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "ai-br100"

@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "engenius_eap1300",
+  "id": "engenius_eap1300",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "engenius,eap1300"

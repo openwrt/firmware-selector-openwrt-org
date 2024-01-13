@@ -47,7 +47,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_rb750gr3",
+  "id": "mikrotik_rb750gr3",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "mikrotik,rb750gr3"

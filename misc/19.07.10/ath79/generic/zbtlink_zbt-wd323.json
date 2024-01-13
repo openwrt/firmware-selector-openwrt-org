@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zbtlink_zbt-wd323",
+  "id": "zbtlink_zbt-wd323",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "zbtlink,zbt-wd323"

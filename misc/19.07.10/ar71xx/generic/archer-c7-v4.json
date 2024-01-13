@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "archer-c7-v4",
+  "id": "archer-c7-v4",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "archer-c7-v4"

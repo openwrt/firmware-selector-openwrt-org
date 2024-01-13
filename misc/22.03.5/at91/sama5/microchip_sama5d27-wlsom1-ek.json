@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "microchip_sama5d27-wlsom1-ek",
+  "id": "microchip_sama5d27-wlsom1-ek",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "microchip,sama5d27-wlsom1-ek"

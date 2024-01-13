@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "whr-g300n",
+  "id": "whr-g300n",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "whr-g300n"

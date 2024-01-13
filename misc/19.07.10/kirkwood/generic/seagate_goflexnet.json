@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "seagate_goflexnet",
+  "id": "seagate_goflexnet",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "seagate,goflexnet",

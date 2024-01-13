@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "awm002-evb-8M",
+  "id": "awm002-evb-8M",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "awm002-evb-8M"

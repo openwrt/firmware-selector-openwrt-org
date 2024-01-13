@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "elecom_wrc-2533gst",
+  "id": "elecom_wrc-2533gst",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "elecom,wrc-2533gst"

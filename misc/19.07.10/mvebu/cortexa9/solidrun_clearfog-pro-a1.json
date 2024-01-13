@@ -47,7 +47,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "solidrun_clearfog-pro-a1",
+  "id": "solidrun_clearfog-pro-a1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "solidrun,clearfog-pro-a1",

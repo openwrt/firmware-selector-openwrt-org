@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mlw221",
+  "id": "mlw221",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "mlw221"

@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_edgerouter-x",
+  "id": "ubnt_edgerouter-x",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,edgerouter-x",

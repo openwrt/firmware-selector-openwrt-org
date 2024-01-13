@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys-wrt160n-v1",
+  "id": "linksys-wrt160n-v1",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/legacy",

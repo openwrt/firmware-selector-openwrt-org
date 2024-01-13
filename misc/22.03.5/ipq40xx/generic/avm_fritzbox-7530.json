@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritzbox-7530",
+  "id": "avm_fritzbox-7530",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "avm,fritzbox-7530"

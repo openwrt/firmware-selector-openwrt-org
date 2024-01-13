@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zio_freezio",
+  "id": "zio_freezio",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zio,freezio"

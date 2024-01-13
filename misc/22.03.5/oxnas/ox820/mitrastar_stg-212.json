@@ -77,7 +77,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mitrastar_stg-212",
+  "id": "mitrastar_stg-212",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mitrastar,stg-212",

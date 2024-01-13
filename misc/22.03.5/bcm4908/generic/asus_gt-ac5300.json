@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asus_gt-ac5300",
+  "id": "asus_gt-ac5300",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "asus,gt-ac5300"

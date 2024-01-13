@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "aruba_ap-105",
+  "id": "aruba_ap-105",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "aruba,ap-105"

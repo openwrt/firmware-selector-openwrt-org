@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "lamobo_lamobo-r1",
+  "id": "lamobo_lamobo-r1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "lamobo,lamobo-r1"

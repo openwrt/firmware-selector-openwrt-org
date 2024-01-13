@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dual-q_h721",
+  "id": "dual-q_h721",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "dual-q,h721"

@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritz300e",
+  "id": "avm_fritz300e",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "avm,fritz300e",

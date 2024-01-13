@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hlk-rm04",
+  "id": "hlk-rm04",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "hlk-rm04"

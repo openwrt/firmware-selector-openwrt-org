@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "cznic_turris-omnia",
+  "id": "cznic_turris-omnia",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "cznic,turris-omnia",

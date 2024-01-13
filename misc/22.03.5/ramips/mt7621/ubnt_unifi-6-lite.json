@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_unifi-6-lite",
+  "id": "ubnt_unifi-6-lite",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,unifi-6-lite"

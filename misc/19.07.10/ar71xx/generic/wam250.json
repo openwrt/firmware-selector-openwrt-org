@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wam250",
+  "id": "wam250",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "wam250"

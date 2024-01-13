@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_c2600",
+  "id": "tplink_c2600",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,c2600",

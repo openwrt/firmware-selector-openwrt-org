@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "solidrun_clearfog-base-a1",
+  "id": "solidrun_clearfog-base-a1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "solidrun,clearfog-base-a1",

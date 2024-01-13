@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hiveap-330",
+  "id": "hiveap-330",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "aerohive,hiveap-330"

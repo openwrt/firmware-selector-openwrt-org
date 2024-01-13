@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "storlink_sl93512r",
+  "id": "storlink_sl93512r",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "storlink,sl93512r"

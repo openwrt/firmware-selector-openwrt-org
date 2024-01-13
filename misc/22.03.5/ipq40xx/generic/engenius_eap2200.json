@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "engenius_eap2200",
+  "id": "engenius_eap2200",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "engenius,eap2200"

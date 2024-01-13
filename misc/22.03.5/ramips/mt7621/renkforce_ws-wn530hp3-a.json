@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "renkforce_ws-wn530hp3-a",
+  "id": "renkforce_ws-wn530hp3-a",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "renkforce,ws-wn530hp3-a"

@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ls1046ardb",
+  "id": "ls1046ardb",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "layerscape/armv8_64b",

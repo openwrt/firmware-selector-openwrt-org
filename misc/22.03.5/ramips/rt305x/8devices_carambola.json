@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "8devices_carambola",
+  "id": "8devices_carambola",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "8devices,carambola",

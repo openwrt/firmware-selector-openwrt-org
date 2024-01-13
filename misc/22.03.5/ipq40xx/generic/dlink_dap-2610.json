@@ -70,7 +70,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink_dap-2610",
+  "id": "dlink_dap-2610",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "dlink,dap-2610"

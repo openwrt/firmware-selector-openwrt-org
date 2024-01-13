@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hilink_hlk-7628n",
+  "id": "hilink_hlk-7628n",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "hilink,hlk-7628n"

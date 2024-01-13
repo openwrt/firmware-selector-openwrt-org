@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "aruba_ap-365",
+  "id": "aruba_ap-365",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "aruba,ap-365"

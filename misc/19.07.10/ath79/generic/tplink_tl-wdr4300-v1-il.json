@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_tl-wdr4300-v1-il",
+  "id": "tplink_tl-wdr4300-v1-il",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "tplink,tl-wdr4300-v1-il",

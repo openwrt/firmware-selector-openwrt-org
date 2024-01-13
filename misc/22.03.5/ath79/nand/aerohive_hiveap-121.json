@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "aerohive_hiveap-121",
+  "id": "aerohive_hiveap-121",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "aerohive,hiveap-121",

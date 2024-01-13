@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zyxel_p-2812hnu-f3",
+  "id": "zyxel_p-2812hnu-f3",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "zyxel,p-2812hnu-f3",

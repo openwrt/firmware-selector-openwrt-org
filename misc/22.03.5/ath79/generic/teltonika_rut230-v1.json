@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "teltonika_rut230-v1",
+  "id": "teltonika_rut230-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "teltonika,rut230-v1"

@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "nec_wf1200cr",
+  "id": "nec_wf1200cr",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "nec,wf1200cr"

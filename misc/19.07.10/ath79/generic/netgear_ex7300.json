@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_ex7300",
+  "id": "netgear_ex7300",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "netgear,ex7300"

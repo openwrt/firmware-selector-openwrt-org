@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hnet_c108",
+  "id": "hnet_c108",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "hnet,c108",

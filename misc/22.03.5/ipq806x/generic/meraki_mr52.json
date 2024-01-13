@@ -80,7 +80,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "meraki_mr52",
+  "id": "meraki_mr52",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "meraki,mr52"

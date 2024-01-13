@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "luxul_abr-4500",
+  "id": "luxul_abr-4500",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "luxul,abr-4500"

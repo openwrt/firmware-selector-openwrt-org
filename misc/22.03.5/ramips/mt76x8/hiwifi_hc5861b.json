@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hiwifi_hc5861b",
+  "id": "hiwifi_hc5861b",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "hiwifi,hc5861b"

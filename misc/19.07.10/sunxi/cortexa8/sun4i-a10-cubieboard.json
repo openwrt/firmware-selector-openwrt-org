@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun4i-a10-cubieboard",
+  "id": "sun4i-a10-cubieboard",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "cubietech,a10-cubieboard"

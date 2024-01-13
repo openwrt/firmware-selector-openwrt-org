@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "aximcom_mr-102n",
+  "id": "aximcom_mr-102n",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "aximcom,mr-102n",

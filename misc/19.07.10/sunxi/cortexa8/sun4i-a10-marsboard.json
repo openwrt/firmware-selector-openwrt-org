@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun4i-a10-marsboard",
+  "id": "sun4i-a10-marsboard",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "marsboard,a10-marsboard"

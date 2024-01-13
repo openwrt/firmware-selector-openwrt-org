@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_ea6350v3",
+  "id": "linksys_ea6350v3",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "linksys,ea6350v3"

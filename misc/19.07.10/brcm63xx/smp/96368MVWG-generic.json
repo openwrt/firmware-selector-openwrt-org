@@ -42,7 +42,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "96368MVWG-generic",
+  "id": "96368MVWG-generic",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/smp",

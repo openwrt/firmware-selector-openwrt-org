@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "minew_g1-c",
+  "id": "minew_g1-c",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "minew,g1-c",

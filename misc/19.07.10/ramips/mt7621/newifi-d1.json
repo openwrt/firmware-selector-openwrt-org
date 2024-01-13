@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "newifi-d1",
+  "id": "newifi-d1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "newifi-d1"

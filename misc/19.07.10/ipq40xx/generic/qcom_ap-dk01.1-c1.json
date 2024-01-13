@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "qcom_ap-dk01.1-c1",
+  "id": "qcom_ap-dk01.1-c1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "qcom,ap-dk01.1-c1"

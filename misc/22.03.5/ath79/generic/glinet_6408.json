@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "glinet_6408",
+  "id": "glinet_6408",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "glinet,6408",

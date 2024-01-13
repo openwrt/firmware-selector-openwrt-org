@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "innacomm_w3400v6",
+  "id": "innacomm_w3400v6",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "innacomm,w3400v6"

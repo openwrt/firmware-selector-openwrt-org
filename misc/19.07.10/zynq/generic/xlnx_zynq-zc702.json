@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xlnx_zynq-zc702",
+  "id": "xlnx_zynq-zc702",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "zynq/generic",

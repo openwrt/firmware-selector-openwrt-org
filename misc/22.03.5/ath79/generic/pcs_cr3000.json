@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "pcs_cr3000",
+  "id": "pcs_cr3000",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "pcs,cr3000",

@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink-dwl-3150",
+  "id": "dlink-dwl-3150",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/legacy",

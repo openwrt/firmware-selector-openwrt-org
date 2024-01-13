@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "luxul_xwr-3150",
+  "id": "luxul_xwr-3150",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "luxul,xwr-3150"

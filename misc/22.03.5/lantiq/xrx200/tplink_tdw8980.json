@@ -69,7 +69,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_tdw8980",
+  "id": "tplink_tdw8980",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,tdw8980",

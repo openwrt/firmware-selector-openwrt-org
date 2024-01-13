@@ -71,7 +71,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zyxel_nwa55axe",
+  "id": "zyxel_nwa55axe",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zyxel,nwa55axe"

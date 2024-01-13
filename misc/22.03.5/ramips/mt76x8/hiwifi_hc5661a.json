@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hiwifi_hc5661a",
+  "id": "hiwifi_hc5661a",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "hiwifi,hc5661a",

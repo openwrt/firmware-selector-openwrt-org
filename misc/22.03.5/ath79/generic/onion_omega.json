@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "onion_omega",
+  "id": "onion_omega",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "onion,omega",

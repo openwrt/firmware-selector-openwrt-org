@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "brcm_bcm96328avng",
+  "id": "brcm_bcm96328avng",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "brcm,bcm96328avng"

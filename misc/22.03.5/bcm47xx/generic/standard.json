@@ -53,7 +53,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "standard",
+  "id": "standard",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "standard"

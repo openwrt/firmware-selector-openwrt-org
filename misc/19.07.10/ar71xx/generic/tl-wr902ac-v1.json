@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tl-wr902ac-v1",
+  "id": "tl-wr902ac-v1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "tl-wr902ac-v1"

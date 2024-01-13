@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "globalscale_espressobin-v7-emmc",
+  "id": "globalscale_espressobin-v7-emmc",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "globalscale,espressobin-v7-emmc"

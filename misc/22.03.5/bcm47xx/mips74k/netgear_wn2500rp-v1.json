@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_wn2500rp-v1",
+  "id": "netgear_wn2500rp-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,wn2500rp-v1"

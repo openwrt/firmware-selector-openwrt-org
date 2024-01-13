@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun7i-a20-bananapro",
+  "id": "sun7i-a20-bananapro",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "lemaker,bananapro"

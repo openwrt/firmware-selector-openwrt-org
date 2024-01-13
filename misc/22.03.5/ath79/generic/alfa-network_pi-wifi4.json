@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alfa-network_pi-wifi4",
+  "id": "alfa-network_pi-wifi4",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "alfa-network,pi-wifi4"

@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_whr-600d",
+  "id": "buffalo_whr-600d",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "buffalo,whr-600d",

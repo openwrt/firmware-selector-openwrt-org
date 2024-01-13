@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "edimax_br-6475nd",
+  "id": "edimax_br-6475nd",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "edimax,br-6475nd",

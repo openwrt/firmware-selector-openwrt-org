@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "digilent_zynq-zybo-z7",
+  "id": "digilent_zynq-zybo-z7",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "digilent,zynq-zybo-z7"

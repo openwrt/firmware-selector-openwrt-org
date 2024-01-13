@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritzdvbc",
+  "id": "avm_fritzdvbc",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "avm,fritzdvbc"

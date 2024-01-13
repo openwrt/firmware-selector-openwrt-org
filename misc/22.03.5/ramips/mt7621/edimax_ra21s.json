@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "edimax_ra21s",
+  "id": "edimax_ra21s",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "edimax,ra21s"

@@ -53,7 +53,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "actiontec_r1000h",
+  "id": "actiontec_r1000h",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "actiontec,r1000h"

@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iodata_etg3-r",
+  "id": "iodata_etg3-r",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "iodata,etg3-r"

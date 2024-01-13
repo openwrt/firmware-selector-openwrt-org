@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "fritz300e",
+  "id": "fritz300e",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "fritz300e"

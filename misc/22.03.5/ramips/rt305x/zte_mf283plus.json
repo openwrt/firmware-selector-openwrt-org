@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zte_mf283plus",
+  "id": "zte_mf283plus",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zte,mf283plus"

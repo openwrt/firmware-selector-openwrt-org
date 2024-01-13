@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "phicomm_k2-v22.5",
+  "id": "phicomm_k2-v22.5",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "phicomm,k2-v22.5"

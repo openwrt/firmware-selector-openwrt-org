@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alphanetworks_asl26555-8m",
+  "id": "alphanetworks_asl26555-8m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "alphanetworks,asl26555-8m",

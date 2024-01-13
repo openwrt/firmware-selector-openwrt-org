@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "kobol_helios4",
+  "id": "kobol_helios4",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "kobol,helios4"

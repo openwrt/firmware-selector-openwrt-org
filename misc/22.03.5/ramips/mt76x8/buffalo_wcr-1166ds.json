@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_wcr-1166ds",
+  "id": "buffalo_wcr-1166ds",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "buffalo,wcr-1166ds",

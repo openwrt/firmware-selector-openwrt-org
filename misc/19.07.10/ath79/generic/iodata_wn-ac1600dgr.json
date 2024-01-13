@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iodata_wn-ac1600dgr",
+  "id": "iodata_wn-ac1600dgr",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "iodata,wn-ac1600dgr"

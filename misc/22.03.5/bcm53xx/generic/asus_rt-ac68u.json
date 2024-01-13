@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asus_rt-ac68u",
+  "id": "asus_rt-ac68u",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "asus,rt-ac68u"

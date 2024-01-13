@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iptime_a6ns-m",
+  "id": "iptime_a6ns-m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iptime,a6ns-m"

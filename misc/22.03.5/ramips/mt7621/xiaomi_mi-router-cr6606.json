@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xiaomi_mi-router-cr6606",
+  "id": "xiaomi_mi-router-cr6606",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "xiaomi,mi-router-cr6606"

@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iptime_ax2004m",
+  "id": "iptime_ax2004m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iptime,ax2004m"

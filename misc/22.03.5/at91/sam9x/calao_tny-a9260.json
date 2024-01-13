@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "calao_tny-a9260",
+  "id": "calao_tny-a9260",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "calao,tny-a9260"

@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "libretech_all-h3-cc-h5",
+  "id": "libretech_all-h3-cc-h5",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "libretech,all-h3-cc-h5"

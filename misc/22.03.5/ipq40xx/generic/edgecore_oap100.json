@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "edgecore_oap100",
+  "id": "edgecore_oap100",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "edgecore,oap100"

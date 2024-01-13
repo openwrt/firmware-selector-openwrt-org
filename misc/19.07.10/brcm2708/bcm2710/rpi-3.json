@@ -84,7 +84,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "rpi-3",
+  "id": "rpi-3",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "rpi-3-b",

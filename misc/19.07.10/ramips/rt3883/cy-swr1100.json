@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "cy-swr1100",
+  "id": "cy-swr1100",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "cy-swr1100"

@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_routerboard-m33g",
+  "id": "mikrotik_routerboard-m33g",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mikrotik,routerboard-m33g",

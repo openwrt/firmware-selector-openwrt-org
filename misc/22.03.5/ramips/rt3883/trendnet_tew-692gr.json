@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "trendnet_tew-692gr",
+  "id": "trendnet_tew-692gr",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "trendnet,tew-692gr",

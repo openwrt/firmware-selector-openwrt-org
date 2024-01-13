@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun6i-a31-m9",
+  "id": "sun6i-a31-m9",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "mele,m9"

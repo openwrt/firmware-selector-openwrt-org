@@ -74,7 +74,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "edgecore_ecw5410",
+  "id": "edgecore_ecw5410",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "edgecore,ecw5410"

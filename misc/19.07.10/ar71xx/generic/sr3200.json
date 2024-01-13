@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sr3200",
+  "id": "sr3200",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "ar71xx/generic",

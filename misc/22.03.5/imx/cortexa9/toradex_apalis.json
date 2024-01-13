@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "toradex_apalis",
+  "id": "toradex_apalis",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "apalis,ixora",

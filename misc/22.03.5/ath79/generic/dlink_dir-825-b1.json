@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink_dir-825-b1",
+  "id": "dlink_dir-825-b1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "dlink,dir-825-b1"

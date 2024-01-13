@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_unifiac-pro",
+  "id": "ubnt_unifiac-pro",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,unifiac-pro",

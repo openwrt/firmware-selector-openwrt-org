@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "youhua_wr1200js",
+  "id": "youhua_wr1200js",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "youhua,wr1200js"

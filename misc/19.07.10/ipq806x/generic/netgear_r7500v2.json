@@ -79,7 +79,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_r7500v2",
+  "id": "netgear_r7500v2",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "netgear,r7500v2",

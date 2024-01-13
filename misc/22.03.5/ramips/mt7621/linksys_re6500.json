@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_re6500",
+  "id": "linksys_re6500",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksys,re6500",

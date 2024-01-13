@@ -70,7 +70,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_routerstation",
+  "id": "ubnt_routerstation",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,routerstation"

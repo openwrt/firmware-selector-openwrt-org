@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asiarf_ap7621-001",
+  "id": "asiarf_ap7621-001",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "asiarf,ap7621-001"

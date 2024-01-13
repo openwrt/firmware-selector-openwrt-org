@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sc1750",
+  "id": "sc1750",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "ar71xx/generic",

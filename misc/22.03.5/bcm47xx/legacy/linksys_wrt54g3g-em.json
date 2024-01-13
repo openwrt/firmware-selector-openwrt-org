@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_wrt54g3g-em",
+  "id": "linksys_wrt54g3g-em",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksys,wrt54g3g-em"

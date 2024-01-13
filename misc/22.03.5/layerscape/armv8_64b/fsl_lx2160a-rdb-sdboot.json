@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "fsl_lx2160a-rdb-sdboot",
+  "id": "fsl_lx2160a-rdb-sdboot",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "fsl,lx2160a-rdb-sdboot"

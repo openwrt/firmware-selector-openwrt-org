@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iodata_wn-dx1167r",
+  "id": "iodata_wn-dx1167r",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iodata,wn-dx1167r"

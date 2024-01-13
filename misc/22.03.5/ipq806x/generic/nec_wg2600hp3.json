@@ -75,7 +75,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "nec_wg2600hp3",
+  "id": "nec_wg2600hp3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "nec,wg2600hp3"

@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "domywifi_dw22d",
+  "id": "domywifi_dw22d",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "domywifi,dw22d"

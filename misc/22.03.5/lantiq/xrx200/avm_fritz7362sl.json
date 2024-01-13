@@ -69,7 +69,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritz7362sl",
+  "id": "avm_fritz7362sl",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "avm,fritz7362sl"

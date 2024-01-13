@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "luxul_xap-1610",
+  "id": "luxul_xap-1610",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "luxul,xap-1610"

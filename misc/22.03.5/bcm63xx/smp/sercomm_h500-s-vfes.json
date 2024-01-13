@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sercomm_h500-s-vfes",
+  "id": "sercomm_h500-s-vfes",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sercomm,h500-s-vfes"

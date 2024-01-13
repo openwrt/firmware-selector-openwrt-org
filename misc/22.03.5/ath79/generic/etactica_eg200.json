@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "etactica_eg200",
+  "id": "etactica_eg200",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "etactica,eg200",

@@ -66,7 +66,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asus-rt-ac56u",
+  "id": "asus-rt-ac56u",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "bcm53xx/generic",

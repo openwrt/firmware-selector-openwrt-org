@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "arcadyan_arv4510pw",
+  "id": "arcadyan_arv4510pw",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "arcadyan,arv4510pw",

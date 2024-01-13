@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hame_mpr-a2",
+  "id": "hame_mpr-a2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "hame,mpr-a2",

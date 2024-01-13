@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "adb_pdg-a4001n-a-000-1a1-ax",
+  "id": "adb_pdg-a4001n-a-000-1a1-ax",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "adb,pdg-a4001n-a-000-1a1-ax"

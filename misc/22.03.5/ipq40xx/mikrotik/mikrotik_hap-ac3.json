@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_hap-ac3",
+  "id": "mikrotik_hap-ac3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mikrotik,hap-ac3"

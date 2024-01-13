@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mt7620a_mt7610e",
+  "id": "mt7620a_mt7610e",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "mt7620a_mt7610e"

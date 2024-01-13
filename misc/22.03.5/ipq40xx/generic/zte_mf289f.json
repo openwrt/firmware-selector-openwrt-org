@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zte_mf289f",
+  "id": "zte_mf289f",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zte,mf289f"

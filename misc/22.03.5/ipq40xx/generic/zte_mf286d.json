@@ -66,7 +66,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zte_mf286d",
+  "id": "zte_mf286d",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zte,mf286d"

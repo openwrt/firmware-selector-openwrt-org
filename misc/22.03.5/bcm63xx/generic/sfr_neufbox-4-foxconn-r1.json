@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sfr_neufbox-4-foxconn-r1",
+  "id": "sfr_neufbox-4-foxconn-r1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sfr,neufbox-4-foxconn-r1"

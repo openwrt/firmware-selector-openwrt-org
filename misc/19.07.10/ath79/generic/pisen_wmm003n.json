@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "pisen_wmm003n",
+  "id": "pisen_wmm003n",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "pisen,wmm003n"

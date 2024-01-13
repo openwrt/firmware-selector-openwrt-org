@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun8i-h2-plus-orangepi-zero",
+  "id": "sun8i-h2-plus-orangepi-zero",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "xunlong,orangepi-zero"

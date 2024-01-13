@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_wrt150n",
+  "id": "linksys_wrt150n",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksys,wrt150n"

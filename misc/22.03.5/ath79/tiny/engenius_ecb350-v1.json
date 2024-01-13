@@ -47,7 +47,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "engenius_ecb350-v1",
+  "id": "engenius_ecb350-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "engenius,ecb350-v1"

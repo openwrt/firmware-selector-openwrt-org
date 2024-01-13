@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_wn3000rp-v3",
+  "id": "netgear_wn3000rp-v3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,wn3000rp-v3",

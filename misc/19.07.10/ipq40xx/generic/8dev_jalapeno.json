@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "8dev_jalapeno",
+  "id": "8dev_jalapeno",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "8dev,jalapeno"

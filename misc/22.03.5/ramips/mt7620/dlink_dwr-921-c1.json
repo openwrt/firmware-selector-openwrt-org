@@ -69,7 +69,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink_dwr-921-c1",
+  "id": "dlink_dwr-921-c1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "dlink,dwr-921-c1"

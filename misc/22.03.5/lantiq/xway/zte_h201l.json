@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zte_h201l",
+  "id": "zte_h201l",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zte,h201l",

@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dovado_tiny-ac",
+  "id": "dovado_tiny-ac",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "dovado,tiny-ac",

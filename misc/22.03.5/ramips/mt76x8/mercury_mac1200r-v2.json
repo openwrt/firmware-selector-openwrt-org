@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mercury_mac1200r-v2",
+  "id": "mercury_mac1200r-v2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mercury,mac1200r-v2",

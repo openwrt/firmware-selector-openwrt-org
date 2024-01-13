@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "librerouter_librerouter-v1",
+  "id": "librerouter_librerouter-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "librerouter,librerouter-v1"

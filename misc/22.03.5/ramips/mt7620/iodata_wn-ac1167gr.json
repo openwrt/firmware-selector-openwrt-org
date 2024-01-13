@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iodata_wn-ac1167gr",
+  "id": "iodata_wn-ac1167gr",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iodata,wn-ac1167gr"

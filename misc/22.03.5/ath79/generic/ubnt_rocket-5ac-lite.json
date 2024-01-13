@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_rocket-5ac-lite",
+  "id": "ubnt_rocket-5ac-lite",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,rocket-5ac-lite"

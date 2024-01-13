@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun50i-h5-orangepi-pc2",
+  "id": "sun50i-h5-orangepi-pc2",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "xunlong,orangepi-pc2"

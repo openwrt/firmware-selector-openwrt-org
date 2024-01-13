@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ocedo_panda",
+  "id": "ocedo_panda",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ocedo,panda"

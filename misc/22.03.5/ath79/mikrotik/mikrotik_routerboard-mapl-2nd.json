@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_routerboard-mapl-2nd",
+  "id": "mikrotik_routerboard-mapl-2nd",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mikrotik,routerboard-mapl-2nd"

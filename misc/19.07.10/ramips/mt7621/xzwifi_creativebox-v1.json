@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xzwifi_creativebox-v1",
+  "id": "xzwifi_creativebox-v1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "xzwifi,creativebox-v1"

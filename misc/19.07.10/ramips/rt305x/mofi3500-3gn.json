@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mofi3500-3gn",
+  "id": "mofi3500-3gn",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "mofi3500-3gn"

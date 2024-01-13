@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "meraki_mr32",
+  "id": "meraki_mr32",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "meraki,mr32"

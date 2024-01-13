@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_wgr614-v10-na",
+  "id": "netgear_wgr614-v10-na",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,wgr614-v10-na"

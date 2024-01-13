@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "cisco_on100",
+  "id": "cisco_on100",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "cisco,on100"

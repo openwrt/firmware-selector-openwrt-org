@@ -71,7 +71,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alfa-network_ap120c-ac",
+  "id": "alfa-network_ap120c-ac",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "alfa-network,ap120c-ac"

@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ruijie_rg-ew3200gx-pro",
+  "id": "ruijie_rg-ew3200gx-pro",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ruijie,rg-ew3200gx-pro"

@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iom_iconnect-1.1",
+  "id": "iom_iconnect-1.1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "iom,iconnect-1.1",

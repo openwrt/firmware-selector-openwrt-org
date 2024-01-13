@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun7i-a20-cubieboard2",
+  "id": "sun7i-a20-cubieboard2",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "cubietech,cubieboard2"

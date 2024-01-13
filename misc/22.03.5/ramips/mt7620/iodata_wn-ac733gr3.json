@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iodata_wn-ac733gr3",
+  "id": "iodata_wn-ac733gr3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iodata,wn-ac733gr3"

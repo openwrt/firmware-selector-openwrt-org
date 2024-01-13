@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xunlong_orangepi-one-plus",
+  "id": "xunlong_orangepi-one-plus",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "xunlong,orangepi-one-plus"

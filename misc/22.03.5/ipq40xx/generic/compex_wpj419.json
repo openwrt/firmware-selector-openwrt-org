@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "compex_wpj419",
+  "id": "compex_wpj419",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "compex,wpj419"

@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "olimex_a20-olinuxino-lime2",
+  "id": "olimex_a20-olinuxino-lime2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "olimex,a20-olinuxino-lime2"

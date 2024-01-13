@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "smartrg_sr400ac",
+  "id": "smartrg_sr400ac",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "smartrg,sr400ac"

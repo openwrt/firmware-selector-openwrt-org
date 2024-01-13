@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "d-link_dsl-274xb-f1",
+  "id": "d-link_dsl-274xb-f1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "d-link,dsl-274xb-f1"

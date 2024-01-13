@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_archer-c20-v4",
+  "id": "tplink_archer-c20-v4",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,archer-c20-v4",

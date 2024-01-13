@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "upvel_ur-336un",
+  "id": "upvel_ur-336un",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "upvel,ur-336un",

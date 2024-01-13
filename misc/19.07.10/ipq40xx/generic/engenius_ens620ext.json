@@ -70,7 +70,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "engenius_ens620ext",
+  "id": "engenius_ens620ext",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "engenius,ens620ext"

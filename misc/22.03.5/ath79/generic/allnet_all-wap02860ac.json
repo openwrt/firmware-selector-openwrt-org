@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "allnet_all-wap02860ac",
+  "id": "allnet_all-wap02860ac",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "allnet,all-wap02860ac"

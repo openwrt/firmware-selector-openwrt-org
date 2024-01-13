@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "fon_fon2601",
+  "id": "fon_fon2601",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "fon,fon2601"

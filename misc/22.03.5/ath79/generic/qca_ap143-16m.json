@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "qca_ap143-16m",
+  "id": "qca_ap143-16m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "qca,ap143-16m",

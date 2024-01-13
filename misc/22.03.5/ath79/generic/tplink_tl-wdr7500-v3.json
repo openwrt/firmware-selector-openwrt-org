@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_tl-wdr7500-v3",
+  "id": "tplink_tl-wdr7500-v3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,tl-wdr7500-v3",

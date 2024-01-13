@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xiaomi_mi-router-4a-100m-intl",
+  "id": "xiaomi_mi-router-4a-100m-intl",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "xiaomi,mi-router-4a-100m-intl",

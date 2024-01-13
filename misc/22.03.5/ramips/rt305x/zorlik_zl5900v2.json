@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zorlik_zl5900v2",
+  "id": "zorlik_zl5900v2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zorlik,zl5900v2"

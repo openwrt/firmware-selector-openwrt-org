@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_picostation-2",
+  "id": "ubnt_picostation-2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,picostation-2"

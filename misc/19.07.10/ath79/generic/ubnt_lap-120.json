@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_lap-120",
+  "id": "ubnt_lap-120",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "ubnt,lap-120"

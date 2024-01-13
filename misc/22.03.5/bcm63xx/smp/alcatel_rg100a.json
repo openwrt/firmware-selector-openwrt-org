@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alcatel_rg100a",
+  "id": "alcatel_rg100a",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "alcatel,rg100a"

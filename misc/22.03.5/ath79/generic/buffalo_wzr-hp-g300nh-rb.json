@@ -74,7 +74,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_wzr-hp-g300nh-rb",
+  "id": "buffalo_wzr-hp-g300nh-rb",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "buffalo,wzr-hp-g300nh-rb",

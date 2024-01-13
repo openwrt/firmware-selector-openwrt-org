@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_ea7300-v1",
+  "id": "linksys_ea7300-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksys,ea7300-v1"

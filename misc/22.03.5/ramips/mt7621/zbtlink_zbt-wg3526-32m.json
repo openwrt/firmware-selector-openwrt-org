@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zbtlink_zbt-wg3526-32m",
+  "id": "zbtlink_zbt-wg3526-32m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zbtlink,zbt-wg3526-32m",

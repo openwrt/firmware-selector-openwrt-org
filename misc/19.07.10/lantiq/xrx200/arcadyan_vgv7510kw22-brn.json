@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "arcadyan_vgv7510kw22-brn",
+  "id": "arcadyan_vgv7510kw22-brn",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "arcadyan,vgv7510kw22-brn",

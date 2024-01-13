@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "domywifi_dm202",
+  "id": "domywifi_dm202",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "domywifi,dm202"

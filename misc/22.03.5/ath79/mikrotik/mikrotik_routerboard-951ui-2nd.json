@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_routerboard-951ui-2nd",
+  "id": "mikrotik_routerboard-951ui-2nd",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mikrotik,routerboard-951ui-2nd",

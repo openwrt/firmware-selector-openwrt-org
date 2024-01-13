@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink-dir-885l",
+  "id": "dlink-dir-885l",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "bcm53xx/generic",

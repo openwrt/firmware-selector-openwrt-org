@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "arcadyan_arv8539pw22",
+  "id": "arcadyan_arv8539pw22",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "arcadyan,arv8539pw22",

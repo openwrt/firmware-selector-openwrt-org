@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xiaomi_miwifi-nano",
+  "id": "xiaomi_miwifi-nano",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "xiaomi,miwifi-nano",

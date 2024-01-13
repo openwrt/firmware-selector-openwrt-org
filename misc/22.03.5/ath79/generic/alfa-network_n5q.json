@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alfa-network_n5q",
+  "id": "alfa-network_n5q",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "alfa-network,n5q",

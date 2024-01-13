@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_tl-wr802n-v4",
+  "id": "tplink_tl-wr802n-v4",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,tl-wr802n-v4"

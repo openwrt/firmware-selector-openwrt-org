@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xiaomi_mir4a-100m",
+  "id": "xiaomi_mir4a-100m",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "xiaomi,mir4a-100m"

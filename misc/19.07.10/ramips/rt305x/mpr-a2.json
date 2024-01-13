@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mpr-a2",
+  "id": "mpr-a2",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "mpr-a2"

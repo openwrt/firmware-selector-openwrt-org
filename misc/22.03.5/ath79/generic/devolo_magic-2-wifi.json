@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "devolo_magic-2-wifi",
+  "id": "devolo_magic-2-wifi",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "devolo,magic-2-wifi"

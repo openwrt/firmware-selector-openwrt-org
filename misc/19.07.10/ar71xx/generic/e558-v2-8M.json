@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "e558-v2-8M",
+  "id": "e558-v2-8M",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "e558-v2"

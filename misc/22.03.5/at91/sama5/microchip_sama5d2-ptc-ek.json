@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "microchip_sama5d2-ptc-ek",
+  "id": "microchip_sama5d2-ptc-ek",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "atmel,sama5d2-ptc_ek"

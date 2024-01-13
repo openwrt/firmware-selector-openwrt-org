@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wcr-150gn",
+  "id": "wcr-150gn",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "wcr-150gn"

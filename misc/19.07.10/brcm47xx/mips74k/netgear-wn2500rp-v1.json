@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear-wn2500rp-v1",
+  "id": "netgear-wn2500rp-v1",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/mips74k",

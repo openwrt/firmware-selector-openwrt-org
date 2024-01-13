@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_eap225-wall-v2",
+  "id": "tplink_eap225-wall-v2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,eap225-wall-v2"

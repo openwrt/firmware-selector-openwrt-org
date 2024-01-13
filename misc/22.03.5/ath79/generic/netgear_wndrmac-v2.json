@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_wndrmac-v2",
+  "id": "netgear_wndrmac-v2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,wndrmac-v2",

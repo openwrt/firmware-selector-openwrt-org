@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_ex6120",
+  "id": "netgear_ex6120",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,ex6120"

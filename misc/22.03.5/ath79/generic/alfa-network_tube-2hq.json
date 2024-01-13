@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alfa-network_tube-2hq",
+  "id": "alfa-network_tube-2hq",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "alfa-network,tube-2hq",

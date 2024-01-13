@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "cudy_wr2100",
+  "id": "cudy_wr2100",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "cudy,wr2100"

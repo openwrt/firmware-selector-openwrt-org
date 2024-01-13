@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "extreme-networks_ws-ap3825i",
+  "id": "extreme-networks_ws-ap3825i",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "extreme-networks,ws-ap3825i"

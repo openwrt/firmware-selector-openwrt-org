@@ -62,7 +62,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ArcherC50v1",
+  "id": "ArcherC50v1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "c50"

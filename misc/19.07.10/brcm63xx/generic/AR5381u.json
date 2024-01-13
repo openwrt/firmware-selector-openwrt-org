@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "AR5381u",
+  "id": "AR5381u",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/generic",

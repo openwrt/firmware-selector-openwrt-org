@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "huawei_echolife-hg622",
+  "id": "huawei_echolife-hg622",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "huawei,echolife-hg622"

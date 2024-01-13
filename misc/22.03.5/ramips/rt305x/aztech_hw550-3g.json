@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "aztech_hw550-3g",
+  "id": "aztech_hw550-3g",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "aztech,hw550-3g",

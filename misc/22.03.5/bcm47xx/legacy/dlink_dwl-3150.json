@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink_dwl-3150",
+  "id": "dlink_dwl-3150",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "dlink,dwl-3150"

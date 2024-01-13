@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "seagate_dockstar",
+  "id": "seagate_dockstar",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "seagate,dockstar",

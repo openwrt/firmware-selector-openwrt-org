@@ -74,7 +74,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "raidsonic_ib-4220-b",
+  "id": "raidsonic_ib-4220-b",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "raidsonic,ib-4220-b"

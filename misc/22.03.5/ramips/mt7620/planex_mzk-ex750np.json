@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "planex_mzk-ex750np",
+  "id": "planex_mzk-ex750np",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "planex,mzk-ex750np",

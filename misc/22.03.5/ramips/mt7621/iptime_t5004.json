@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iptime_t5004",
+  "id": "iptime_t5004",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iptime,t5004"

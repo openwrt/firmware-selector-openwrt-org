@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hilink_hlk-7621a-evb",
+  "id": "hilink_hlk-7621a-evb",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "hilink,hlk-7621a-evb"

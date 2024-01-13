@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sophos_red-15w-rev1",
+  "id": "sophos_red-15w-rev1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sophos,red-15w-rev1"

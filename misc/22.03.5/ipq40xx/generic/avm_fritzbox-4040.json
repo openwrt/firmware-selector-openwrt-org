@@ -71,7 +71,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritzbox-4040",
+  "id": "avm_fritzbox-4040",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "avm,fritzbox-4040"

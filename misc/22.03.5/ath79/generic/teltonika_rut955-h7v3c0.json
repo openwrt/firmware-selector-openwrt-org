@@ -70,7 +70,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "teltonika_rut955-h7v3c0",
+  "id": "teltonika_rut955-h7v3c0",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "teltonika,rut955-h7v3c0"

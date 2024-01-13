@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "friendlyarm_nanopi-neo",
+  "id": "friendlyarm_nanopi-neo",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "friendlyarm,nanopi-neo"

@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_bullet-m-xw",
+  "id": "ubnt_bullet-m-xw",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "ubnt,bullet-m-xw",

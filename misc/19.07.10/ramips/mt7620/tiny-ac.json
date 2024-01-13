@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tiny-ac",
+  "id": "tiny-ac",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "tiny-ac"

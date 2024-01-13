@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "lb-link_bl-w1200",
+  "id": "lb-link_bl-w1200",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "lb-link,bl-w1200"

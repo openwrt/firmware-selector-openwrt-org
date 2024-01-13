@@ -79,7 +79,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_wac104",
+  "id": "netgear_wac104",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,wac104"

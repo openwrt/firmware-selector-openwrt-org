@@ -99,7 +99,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "geos",
+  "id": "geos",
   "source_date_epoch": 1682627295,
   "supported_devices": [],
   "target": "x86/geode",

@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "edimax_br-6478ac-v2",
+  "id": "edimax_br-6478ac-v2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "edimax,br-6478ac-v2"

@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "fsl_ls1012a-frwy-sdboot",
+  "id": "fsl_ls1012a-frwy-sdboot",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "fsl,ls1012a-frwy-sdboot"

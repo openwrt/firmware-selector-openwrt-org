@@ -41,7 +41,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "lantiq_easy98035synce",
+  "id": "lantiq_easy98035synce",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "lantiq,easy98035synce"

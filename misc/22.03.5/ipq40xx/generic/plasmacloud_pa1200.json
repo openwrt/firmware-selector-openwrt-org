@@ -70,7 +70,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "plasmacloud_pa1200",
+  "id": "plasmacloud_pa1200",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "plasmacloud,pa1200"

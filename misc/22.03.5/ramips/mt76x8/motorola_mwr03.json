@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "motorola_mwr03",
+  "id": "motorola_mwr03",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "motorola,mwr03"

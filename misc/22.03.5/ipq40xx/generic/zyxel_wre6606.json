@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zyxel_wre6606",
+  "id": "zyxel_wre6606",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zyxel,wre6606"

@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zbtlink_zbt-we1026-5g-16m",
+  "id": "zbtlink_zbt-we1026-5g-16m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zbtlink,zbt-we1026-5g-16m",

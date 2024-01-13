@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink_dir-878-r1",
+  "id": "dlink_dir-878-r1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "dlink,dir-878-r1"

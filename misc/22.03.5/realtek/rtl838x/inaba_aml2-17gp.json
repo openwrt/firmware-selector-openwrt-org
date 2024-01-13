@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "inaba_aml2-17gp",
+  "id": "inaba_aml2-17gp",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "inaba,aml2-17gp"

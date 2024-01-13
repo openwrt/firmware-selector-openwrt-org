@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iodata_bsh-g24mb",
+  "id": "iodata_bsh-g24mb",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iodata,bsh-g24mb"

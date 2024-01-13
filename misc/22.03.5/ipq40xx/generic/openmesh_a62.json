@@ -70,7 +70,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "openmesh_a62",
+  "id": "openmesh_a62",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "openmesh,a62"

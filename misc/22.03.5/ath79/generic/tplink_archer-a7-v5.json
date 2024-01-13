@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_archer-a7-v5",
+  "id": "tplink_archer-a7-v5",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,archer-a7-v5"

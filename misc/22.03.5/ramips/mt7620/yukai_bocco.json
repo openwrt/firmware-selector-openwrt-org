@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "yukai_bocco",
+  "id": "yukai_bocco",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "yukai,bocco",

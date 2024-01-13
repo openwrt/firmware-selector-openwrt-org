@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_gs110tpp-v1",
+  "id": "netgear_gs110tpp-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,gs110tpp-v1"

@@ -53,7 +53,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mqmaker_witi-256m",
+  "id": "mqmaker_witi-256m",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "mqmaker,witi-256m",

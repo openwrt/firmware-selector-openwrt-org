@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "qihoo_c301",
+  "id": "qihoo_c301",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "qihoo,c301",

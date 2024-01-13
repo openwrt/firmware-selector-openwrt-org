@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_routerboard-wap-g-5hact2hnd",
+  "id": "mikrotik_routerboard-wap-g-5hact2hnd",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mikrotik,routerboard-wap-g-5hact2hnd",

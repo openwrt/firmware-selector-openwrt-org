@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_rbs50",
+  "id": "netgear_rbs50",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,rbs50"

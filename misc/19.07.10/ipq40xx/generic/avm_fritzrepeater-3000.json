@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritzrepeater-3000",
+  "id": "avm_fritzrepeater-3000",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "avm,fritzrepeater-3000"

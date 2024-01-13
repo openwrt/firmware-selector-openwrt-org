@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "edimax_ew-7476rpc",
+  "id": "edimax_ew-7476rpc",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "edimax,ew-7476rpc"

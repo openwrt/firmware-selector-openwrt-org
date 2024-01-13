@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hiwifi_hc5761a",
+  "id": "hiwifi_hc5761a",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "hiwifi,hc5761a"

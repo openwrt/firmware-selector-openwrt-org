@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_unifiac-lr",
+  "id": "ubnt_unifiac-lr",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "ubnt,unifiac-lr",

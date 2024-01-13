@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "checkpoint_l-50",
+  "id": "checkpoint_l-50",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "checkpoint,l-50"

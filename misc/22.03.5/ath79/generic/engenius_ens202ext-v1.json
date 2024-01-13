@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "engenius_ens202ext-v1",
+  "id": "engenius_ens202ext-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "engenius,ens202ext-v1"

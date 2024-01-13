@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "comfast_cf-e120a-v3",
+  "id": "comfast_cf-e120a-v3",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "comfast,cf-e120a-v3"

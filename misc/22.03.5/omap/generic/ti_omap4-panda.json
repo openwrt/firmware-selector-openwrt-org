@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ti_omap4-panda",
+  "id": "ti_omap4-panda",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ti,omap4-panda"

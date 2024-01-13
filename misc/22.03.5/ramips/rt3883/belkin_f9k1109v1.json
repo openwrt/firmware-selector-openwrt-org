@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "belkin_f9k1109v1",
+  "id": "belkin_f9k1109v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "belkin,f9k1109v1"

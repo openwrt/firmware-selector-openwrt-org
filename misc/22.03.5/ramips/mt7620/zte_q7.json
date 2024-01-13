@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zte_q7",
+  "id": "zte_q7",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zte,q7",

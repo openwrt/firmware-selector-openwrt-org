@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "intenso_memory2move",
+  "id": "intenso_memory2move",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "intenso,memory2move",

@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "kimax_u35wf",
+  "id": "kimax_u35wf",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "kimax,u35wf"

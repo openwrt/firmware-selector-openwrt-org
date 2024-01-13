@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_tl-wdr4310-v1",
+  "id": "tplink_tl-wdr4310-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,tl-wdr4310-v1",

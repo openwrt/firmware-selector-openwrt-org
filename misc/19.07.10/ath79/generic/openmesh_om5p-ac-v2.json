@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "openmesh_om5p-ac-v2",
+  "id": "openmesh_om5p-ac-v2",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "openmesh,om5p-ac-v2",

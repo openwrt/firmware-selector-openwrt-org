@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "atheros_db120",
+  "id": "atheros_db120",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "atheros,db120",

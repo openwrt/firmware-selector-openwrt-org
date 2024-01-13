@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "engenius_epg5000",
+  "id": "engenius_epg5000",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "engenius,epg5000",

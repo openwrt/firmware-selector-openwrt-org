@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alfa-network_r36m-e4g",
+  "id": "alfa-network_r36m-e4g",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "alfa-network,r36m-e4g"

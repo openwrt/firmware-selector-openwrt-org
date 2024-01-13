@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "comtrend_vr-3032u",
+  "id": "comtrend_vr-3032u",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "comtrend,vr-3032u"

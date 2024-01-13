@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dir-320-b1",
+  "id": "dir-320-b1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "dir-320-b1"

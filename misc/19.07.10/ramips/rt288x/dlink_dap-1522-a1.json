@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink_dap-1522-a1",
+  "id": "dlink_dap-1522-a1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "dlink,dap-1522-a1"

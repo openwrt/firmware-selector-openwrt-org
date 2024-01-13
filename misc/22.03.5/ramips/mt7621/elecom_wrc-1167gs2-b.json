@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "elecom_wrc-1167gs2-b",
+  "id": "elecom_wrc-1167gs2-b",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "elecom,wrc-1167gs2-b"

@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "usrobotics-usr5461",
+  "id": "usrobotics-usr5461",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm47xx/legacy",

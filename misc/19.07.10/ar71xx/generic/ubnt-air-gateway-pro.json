@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt-air-gateway-pro",
+  "id": "ubnt-air-gateway-pro",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "ar71xx/generic",

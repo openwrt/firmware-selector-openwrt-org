@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "HG655b",
+  "id": "HG655b",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/smp",

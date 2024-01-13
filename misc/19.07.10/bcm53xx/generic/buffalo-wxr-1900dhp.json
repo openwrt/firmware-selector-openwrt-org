@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo-wxr-1900dhp",
+  "id": "buffalo-wxr-1900dhp",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "bcm53xx/generic",

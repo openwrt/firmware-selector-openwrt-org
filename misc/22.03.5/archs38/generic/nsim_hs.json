@@ -34,7 +34,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "nsim_hs",
+  "id": "nsim_hs",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "nsim,hs"

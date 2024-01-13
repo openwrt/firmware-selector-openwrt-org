@@ -44,7 +44,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "k2p",
+  "id": "k2p",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "k2p"

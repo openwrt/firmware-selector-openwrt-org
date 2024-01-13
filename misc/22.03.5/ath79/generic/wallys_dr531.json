@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wallys_dr531",
+  "id": "wallys_dr531",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "wallys,dr531",

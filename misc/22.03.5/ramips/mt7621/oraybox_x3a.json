@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "oraybox_x3a",
+  "id": "oraybox_x3a",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "oraybox,x3a"

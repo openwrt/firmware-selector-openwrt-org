@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ohyeah_oy-0001",
+  "id": "ohyeah_oy-0001",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ohyeah,oy-0001",

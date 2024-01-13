@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ezviz_cs-w3-wd1200g-eup",
+  "id": "ezviz_cs-w3-wd1200g-eup",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ezviz,cs-w3-wd1200g-eup"

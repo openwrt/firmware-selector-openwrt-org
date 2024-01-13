@@ -41,7 +41,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "lantiq_easy50712",
+  "id": "lantiq_easy50712",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "lantiq,easy50712"

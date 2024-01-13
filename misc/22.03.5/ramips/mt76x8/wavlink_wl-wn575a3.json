@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wavlink_wl-wn575a3",
+  "id": "wavlink_wl-wn575a3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "wavlink,wl-wn575a3",

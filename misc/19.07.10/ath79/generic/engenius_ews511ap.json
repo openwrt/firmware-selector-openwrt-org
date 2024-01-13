@@ -50,7 +50,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "engenius_ews511ap",
+  "id": "engenius_ews511ap",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "engenius,ews511ap"

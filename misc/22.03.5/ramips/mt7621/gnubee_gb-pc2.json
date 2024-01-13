@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "gnubee_gb-pc2",
+  "id": "gnubee_gb-pc2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "gnubee,gb-pc2"

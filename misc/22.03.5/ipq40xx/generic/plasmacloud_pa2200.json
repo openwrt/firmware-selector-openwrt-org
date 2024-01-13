@@ -71,7 +71,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "plasmacloud_pa2200",
+  "id": "plasmacloud_pa2200",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "plasmacloud,pa2200"

@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ens202ext",
+  "id": "ens202ext",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "ar71xx/tiny",

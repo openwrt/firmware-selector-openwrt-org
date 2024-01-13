@@ -42,7 +42,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "marvell_a388-rd",
+  "id": "marvell_a388-rd",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "armada-388-rd",

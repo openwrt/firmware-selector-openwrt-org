@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mikrotik_routerboard-750gr3",
+  "id": "mikrotik_routerboard-750gr3",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mikrotik,routerboard-750gr3",

@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_wzr-600dhp2",
+  "id": "buffalo_wzr-600dhp2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "buffalo,wzr-600dhp2"

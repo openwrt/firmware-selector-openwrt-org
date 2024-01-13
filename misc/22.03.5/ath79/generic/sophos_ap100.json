@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sophos_ap100",
+  "id": "sophos_ap100",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sophos,ap100"

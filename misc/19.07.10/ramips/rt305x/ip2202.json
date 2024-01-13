@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ip2202",
+  "id": "ip2202",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "ip2202"

@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xiaomi_mir3g",
+  "id": "xiaomi_mir3g",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "xiaomi,mir3g",

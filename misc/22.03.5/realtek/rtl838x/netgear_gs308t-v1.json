@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_gs308t-v1",
+  "id": "netgear_gs308t-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,gs308t-v1"

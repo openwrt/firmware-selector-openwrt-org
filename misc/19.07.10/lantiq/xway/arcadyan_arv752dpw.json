@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "arcadyan_arv752dpw",
+  "id": "arcadyan_arv752dpw",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "arcadyan,arv752dpw",

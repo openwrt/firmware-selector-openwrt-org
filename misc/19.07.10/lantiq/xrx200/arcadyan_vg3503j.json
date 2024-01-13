@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "arcadyan_vg3503j",
+  "id": "arcadyan_vg3503j",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "arcadyan,vg3503j",

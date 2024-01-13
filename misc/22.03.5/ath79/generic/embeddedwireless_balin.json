@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "embeddedwireless_balin",
+  "id": "embeddedwireless_balin",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "embeddedwireless,balin"

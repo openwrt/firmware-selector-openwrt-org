@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zyxel_keenetic-extra-ii",
+  "id": "zyxel_keenetic-extra-ii",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zyxel,keenetic-extra-ii"

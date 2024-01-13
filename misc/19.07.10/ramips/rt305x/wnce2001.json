@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wnce2001",
+  "id": "wnce2001",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "wnce2001"

@@ -70,7 +70,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "engenius_emd1",
+  "id": "engenius_emd1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "engenius,emd1"

@@ -68,7 +68,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "microchip_sama5d4-xplained",
+  "id": "microchip_sama5d4-xplained",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "atmel,sama5d4-xplained"

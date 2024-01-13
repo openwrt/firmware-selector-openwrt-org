@@ -77,7 +77,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "glinet_gl-b2200",
+  "id": "glinet_gl-b2200",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "glinet,gl-b2200"

@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mediatek_mt7622-rfb1",
+  "id": "mediatek_mt7622-rfb1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mediatek,mt7622-rfb1"

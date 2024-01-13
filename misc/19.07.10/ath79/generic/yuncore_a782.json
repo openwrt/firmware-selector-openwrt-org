@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "yuncore_a782",
+  "id": "yuncore_a782",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "yuncore,a782"

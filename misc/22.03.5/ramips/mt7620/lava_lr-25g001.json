@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "lava_lr-25g001",
+  "id": "lava_lr-25g001",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "lava,lr-25g001"

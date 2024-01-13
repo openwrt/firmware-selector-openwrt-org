@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "humax_e2",
+  "id": "humax_e2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "humax,e2"

@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "compex_wpq864",
+  "id": "compex_wpq864",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "compex,wpq864"

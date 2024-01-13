@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_ea8500",
+  "id": "linksys_ea8500",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "linksys,ea8500",

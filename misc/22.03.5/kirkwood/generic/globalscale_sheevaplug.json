@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "globalscale_sheevaplug",
+  "id": "globalscale_sheevaplug",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "globalscale,sheevaplug"

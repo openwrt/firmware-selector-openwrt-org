@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "meraki_mr16",
+  "id": "meraki_mr16",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "meraki,mr16",

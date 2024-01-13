@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "allnet_all0256n-8m",
+  "id": "allnet_all0256n-8m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "allnet,all0256n-8m",

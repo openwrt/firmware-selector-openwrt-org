@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sun50i-a64-sopine-baseboard",
+  "id": "sun50i-a64-sopine-baseboard",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "pine64,sopine-baseboard"

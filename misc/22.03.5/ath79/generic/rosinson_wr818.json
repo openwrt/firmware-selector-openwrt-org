@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "rosinson_wr818",
+  "id": "rosinson_wr818",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "rosinson,wr818"

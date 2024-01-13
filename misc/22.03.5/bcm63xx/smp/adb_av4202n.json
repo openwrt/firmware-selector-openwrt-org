@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "adb_av4202n",
+  "id": "adb_av4202n",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "adb,av4202n"

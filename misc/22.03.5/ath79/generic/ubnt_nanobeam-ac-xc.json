@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_nanobeam-ac-xc",
+  "id": "ubnt_nanobeam-ac-xc",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "ubnt,nanobeam-ac-xc"

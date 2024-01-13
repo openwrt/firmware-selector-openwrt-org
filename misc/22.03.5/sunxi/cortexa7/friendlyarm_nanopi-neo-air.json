@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "friendlyarm_nanopi-neo-air",
+  "id": "friendlyarm_nanopi-neo-air",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "friendlyarm,nanopi-neo-air"

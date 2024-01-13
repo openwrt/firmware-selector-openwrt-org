@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avnet_zynq-zed",
+  "id": "avnet_zynq-zed",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "avnet,zynq-zed"

@@ -69,7 +69,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "arcadyan_vgv7519-nor",
+  "id": "arcadyan_vgv7519-nor",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "arcadyan,vgv7519-nor",

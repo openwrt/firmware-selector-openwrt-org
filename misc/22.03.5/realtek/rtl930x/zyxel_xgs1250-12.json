@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zyxel_xgs1250-12",
+  "id": "zyxel_xgs1250-12",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zyxel,xgs1250-12"

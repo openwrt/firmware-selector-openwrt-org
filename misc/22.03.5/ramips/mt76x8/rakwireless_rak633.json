@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "rakwireless_rak633",
+  "id": "rakwireless_rak633",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "rakwireless,rak633"

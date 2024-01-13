@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mediatek_linkit-smart-7688",
+  "id": "mediatek_linkit-smart-7688",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mediatek,linkit-smart-7688",

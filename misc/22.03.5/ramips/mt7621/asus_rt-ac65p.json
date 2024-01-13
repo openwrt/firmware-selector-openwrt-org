@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asus_rt-ac65p",
+  "id": "asus_rt-ac65p",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "asus,rt-ac65p"

@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "marvell_a370-rd",
+  "id": "marvell_a370-rd",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "marvell,a370-rd",

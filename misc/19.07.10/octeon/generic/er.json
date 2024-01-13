@@ -42,7 +42,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "er",
+  "id": "er",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "octeon/generic",

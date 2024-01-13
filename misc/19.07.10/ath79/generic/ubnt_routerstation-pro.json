@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "ubnt_routerstation-pro",
+  "id": "ubnt_routerstation-pro",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "ubnt,routerstation-pro",

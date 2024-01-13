@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mqmaker_witi",
+  "id": "mqmaker_witi",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mqmaker,witi",

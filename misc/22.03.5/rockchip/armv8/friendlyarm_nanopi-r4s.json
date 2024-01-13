@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "friendlyarm_nanopi-r4s",
+  "id": "friendlyarm_nanopi-r4s",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "friendlyarm,nanopi-r4s"

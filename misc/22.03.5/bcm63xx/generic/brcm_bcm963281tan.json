@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "brcm_bcm963281tan",
+  "id": "brcm_bcm963281tan",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "brcm,bcm963281tan"

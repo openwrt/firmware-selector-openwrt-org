@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "technicolor_tg582n-telecom-italia",
+  "id": "technicolor_tg582n-telecom-italia",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "technicolor,tg582n-telecom-italia"

@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "rambutan",
+  "id": "rambutan",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "ar71xx/nand",

@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "psr-680w",
+  "id": "psr-680w",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "psr-680w"

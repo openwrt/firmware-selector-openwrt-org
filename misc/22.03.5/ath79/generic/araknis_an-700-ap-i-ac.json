@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "araknis_an-700-ap-i-ac",
+  "id": "araknis_an-700-ap-i-ac",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "araknis,an-700-ap-i-ac"

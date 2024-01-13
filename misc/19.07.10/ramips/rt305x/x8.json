@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "x8",
+  "id": "x8",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "x8"

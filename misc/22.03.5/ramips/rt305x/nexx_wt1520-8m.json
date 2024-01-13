@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "nexx_wt1520-8m",
+  "id": "nexx_wt1520-8m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "nexx,wt1520-8m",

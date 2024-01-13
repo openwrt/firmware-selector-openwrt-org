@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "elecom_wrc-1750gst2",
+  "id": "elecom_wrc-1750gst2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "elecom,wrc-1750gst2"

@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "avm_fritz1750e",
+  "id": "avm_fritz1750e",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "avm,fritz1750e"

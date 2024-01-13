@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mediatek_mt7628an-eval-board",
+  "id": "mediatek_mt7628an-eval-board",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mediatek,mt7628an-eval-board",

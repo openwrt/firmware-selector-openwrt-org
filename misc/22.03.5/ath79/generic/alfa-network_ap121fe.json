@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alfa-network_ap121fe",
+  "id": "alfa-network_ap121fe",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "alfa-network,ap121fe"

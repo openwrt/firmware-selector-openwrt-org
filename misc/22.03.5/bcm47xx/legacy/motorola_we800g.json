@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "motorola_we800g",
+  "id": "motorola_we800g",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "motorola,we800g"

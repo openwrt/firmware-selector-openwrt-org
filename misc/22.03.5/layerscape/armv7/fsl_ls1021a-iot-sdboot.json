@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "fsl_ls1021a-iot-sdboot",
+  "id": "fsl_ls1021a-iot-sdboot",
   "source_date_epoch": 1682627295,
   "supported_devices": [],
   "target": "layerscape/armv7",

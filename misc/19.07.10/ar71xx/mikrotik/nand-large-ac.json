@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "nand-large-ac",
+  "id": "nand-large-ac",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "rb-921gs-5hpacd-r2",

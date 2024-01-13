@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "plathome_openblocks-ax3-4",
+  "id": "plathome_openblocks-ax3-4",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "plathome,openblocks-ax3-4",

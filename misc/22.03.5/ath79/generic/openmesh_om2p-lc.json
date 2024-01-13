@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "openmesh_om2p-lc",
+  "id": "openmesh_om2p-lc",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "openmesh,om2p-lc",

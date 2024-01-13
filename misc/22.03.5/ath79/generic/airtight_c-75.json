@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "airtight_c-75",
+  "id": "airtight_c-75",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "airtight,c-75"

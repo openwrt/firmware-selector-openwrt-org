@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sercomm_ad1018",
+  "id": "sercomm_ad1018",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sercomm,ad1018"

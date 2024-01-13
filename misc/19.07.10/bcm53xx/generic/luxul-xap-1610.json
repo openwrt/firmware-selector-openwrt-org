@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "luxul-xap-1610",
+  "id": "luxul-xap-1610",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "bcm53xx/generic",

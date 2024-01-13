@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iodata_wn-dx1200gr",
+  "id": "iodata_wn-dx1200gr",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iodata,wn-dx1200gr"

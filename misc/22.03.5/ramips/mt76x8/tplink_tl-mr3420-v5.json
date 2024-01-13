@@ -66,7 +66,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_tl-mr3420-v5",
+  "id": "tplink_tl-mr3420-v5",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,tl-mr3420-v5"

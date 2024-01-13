@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zbtlink_zbt-wg1602-16m",
+  "id": "zbtlink_zbt-wg1602-16m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zbtlink,zbt-wg1602-16m"

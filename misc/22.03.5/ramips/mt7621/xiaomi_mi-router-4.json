@@ -71,7 +71,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "xiaomi_mi-router-4",
+  "id": "xiaomi_mi-router-4",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "xiaomi,mi-router-4"

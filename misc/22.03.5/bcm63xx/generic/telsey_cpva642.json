@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "telsey_cpva642",
+  "id": "telsey_cpva642",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "telsey,cpva642"

@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "olimex_rt5350f-olinuxino-evb",
+  "id": "olimex_rt5350f-olinuxino-evb",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "olimex,rt5350f-olinuxino-evb",

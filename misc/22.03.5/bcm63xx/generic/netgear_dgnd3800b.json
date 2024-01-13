@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_dgnd3800b",
+  "id": "netgear_dgnd3800b",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,dgnd3800b"

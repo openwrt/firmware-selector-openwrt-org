@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_viper",
+  "id": "linksys_viper",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "linksys,viper",

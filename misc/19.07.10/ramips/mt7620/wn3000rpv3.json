@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wn3000rpv3",
+  "id": "wn3000rpv3",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "wn3000rpv3"

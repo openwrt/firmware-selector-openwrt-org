@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "joyit_jt-or750i",
+  "id": "joyit_jt-or750i",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "joyit,jt-or750i"

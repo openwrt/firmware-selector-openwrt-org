@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_whr-300hp2",
+  "id": "buffalo_whr-300hp2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "buffalo,whr-300hp2",

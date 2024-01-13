@@ -55,7 +55,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "siemens_ws-ap3610",
+  "id": "siemens_ws-ap3610",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "siemens,ws-ap3610"

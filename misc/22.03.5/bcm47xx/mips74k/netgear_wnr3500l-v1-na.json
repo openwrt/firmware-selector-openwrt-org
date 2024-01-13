@@ -53,7 +53,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_wnr3500l-v1-na",
+  "id": "netgear_wnr3500l-v1-na",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,wnr3500l-v1-na"

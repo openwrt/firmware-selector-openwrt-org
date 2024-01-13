@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "cubietech_a10-cubieboard",
+  "id": "cubietech_a10-cubieboard",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "cubietech,a10-cubieboard"

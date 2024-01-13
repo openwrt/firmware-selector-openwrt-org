@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "zyxel_nsa310s",
+  "id": "zyxel_nsa310s",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "zyxel,nsa310s"

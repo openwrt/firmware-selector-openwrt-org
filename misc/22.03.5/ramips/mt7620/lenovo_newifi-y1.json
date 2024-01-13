@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "lenovo_newifi-y1",
+  "id": "lenovo_newifi-y1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "lenovo,newifi-y1",

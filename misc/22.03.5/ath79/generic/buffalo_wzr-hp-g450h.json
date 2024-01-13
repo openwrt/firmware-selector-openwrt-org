@@ -72,7 +72,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "buffalo_wzr-hp-g450h",
+  "id": "buffalo_wzr-hp-g450h",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "buffalo,wzr-hp-g450h",

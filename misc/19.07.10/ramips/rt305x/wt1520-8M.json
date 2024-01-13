@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wt1520-8M",
+  "id": "wt1520-8M",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "wt1520-8M"

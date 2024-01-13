@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "pine64_sopine-baseboard",
+  "id": "pine64_sopine-baseboard",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "pine64,sopine-baseboard"

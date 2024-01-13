@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "hak5_wifi-pineapple-nano",
+  "id": "hak5_wifi-pineapple-nano",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "hak5,wifi-pineapple-nano",

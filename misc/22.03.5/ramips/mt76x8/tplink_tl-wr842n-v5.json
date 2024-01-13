@@ -66,7 +66,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_tl-wr842n-v5",
+  "id": "tplink_tl-wr842n-v5",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,tl-wr842n-v5"

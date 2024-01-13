@@ -46,7 +46,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mzk-ex300np",
+  "id": "mzk-ex300np",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "mzk-ex300np"

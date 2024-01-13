@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "netgear_r6300-v2",
+  "id": "netgear_r6300-v2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "netgear,r6300-v2"

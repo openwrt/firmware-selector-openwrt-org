@@ -73,7 +73,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "adtran_bsap1840",
+  "id": "adtran_bsap1840",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "adtran,bsap1840"

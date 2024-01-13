@@ -56,7 +56,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "telco-electronics_x1",
+  "id": "telco-electronics_x1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "telco-electronics,x1"

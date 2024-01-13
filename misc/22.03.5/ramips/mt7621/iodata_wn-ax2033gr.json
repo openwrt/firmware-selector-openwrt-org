@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iodata_wn-ax2033gr",
+  "id": "iodata_wn-ax2033gr",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iodata,wn-ax2033gr"

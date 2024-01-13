@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "kng_rc",
+  "id": "kng_rc",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "kng_rc"

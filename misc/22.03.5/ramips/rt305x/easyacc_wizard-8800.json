@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "easyacc_wizard-8800",
+  "id": "easyacc_wizard-8800",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "easyacc,wizard-8800",

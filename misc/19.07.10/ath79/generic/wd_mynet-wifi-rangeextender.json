@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wd_mynet-wifi-rangeextender",
+  "id": "wd_mynet-wifi-rangeextender",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "wd,mynet-wifi-rangeextender",

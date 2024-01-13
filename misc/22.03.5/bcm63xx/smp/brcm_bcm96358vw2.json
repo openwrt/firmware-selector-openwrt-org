@@ -45,7 +45,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "brcm_bcm96358vw2",
+  "id": "brcm_bcm96358vw2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "brcm,bcm96358vw2"

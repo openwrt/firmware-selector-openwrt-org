@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "calao_usb-a9g20",
+  "id": "calao_usb-a9g20",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "calao,usb-a9g20"

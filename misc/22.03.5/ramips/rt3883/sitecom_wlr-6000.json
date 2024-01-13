@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sitecom_wlr-6000",
+  "id": "sitecom_wlr-6000",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sitecom,wlr-6000",

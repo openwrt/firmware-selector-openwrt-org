@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "kingston_mlw221",
+  "id": "kingston_mlw221",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "kingston,mlw221",

@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iei_puzzle-m902",
+  "id": "iei_puzzle-m902",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iei,puzzle-m902"

@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "edimax_ps1208-mfg",
+  "id": "edimax_ps1208-mfg",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "edimax,ps1208-mfg"

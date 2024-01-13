@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "d-link_dgs-1210-16",
+  "id": "d-link_dgs-1210-16",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "d-link,dgs-1210-16"

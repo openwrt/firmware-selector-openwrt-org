@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "samknows_whitebox-v8",
+  "id": "samknows_whitebox-v8",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "samknows,whitebox-v8",

@@ -48,7 +48,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "alfa-network_awusfree1",
+  "id": "alfa-network_awusfree1",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "alfa-network,awusfree1"

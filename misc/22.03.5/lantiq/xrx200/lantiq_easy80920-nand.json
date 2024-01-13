@@ -76,7 +76,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "lantiq_easy80920-nand",
+  "id": "lantiq_easy80920-nand",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "lantiq,easy80920-nand"

@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "mercury_mw4530r-v1",
+  "id": "mercury_mw4530r-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "mercury,mw4530r-v1",

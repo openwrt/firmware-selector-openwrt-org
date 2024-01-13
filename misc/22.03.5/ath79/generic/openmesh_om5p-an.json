@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "openmesh_om5p-an",
+  "id": "openmesh_om5p-an",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "openmesh,om5p-an",

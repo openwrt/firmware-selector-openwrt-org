@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "aigale_ai-br100",
+  "id": "aigale_ai-br100",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "aigale,ai-br100",

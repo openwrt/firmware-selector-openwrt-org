@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "prolink_pwh2004",
+  "id": "prolink_pwh2004",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "prolink,pwh2004",

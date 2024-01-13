@@ -61,7 +61,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "comfast_cf-e313ac",
+  "id": "comfast_cf-e313ac",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "comfast,cf-e313ac"

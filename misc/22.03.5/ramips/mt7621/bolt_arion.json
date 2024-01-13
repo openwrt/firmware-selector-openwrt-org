@@ -57,7 +57,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "bolt_arion",
+  "id": "bolt_arion",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "bolt,arion"

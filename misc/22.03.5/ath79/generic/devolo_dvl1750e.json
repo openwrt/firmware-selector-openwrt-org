@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "devolo_dvl1750e",
+  "id": "devolo_dvl1750e",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "devolo,dvl1750e"

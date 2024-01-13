@@ -67,7 +67,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "dlink_dir-510l",
+  "id": "dlink_dir-510l",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "dlink,dir-510l"

@@ -54,7 +54,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "linksys_wrt1200ac",
+  "id": "linksys_wrt1200ac",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "armada-385-linksys-caiman",

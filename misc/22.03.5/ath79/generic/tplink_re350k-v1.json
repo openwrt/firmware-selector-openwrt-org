@@ -65,7 +65,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_re350k-v1",
+  "id": "tplink_re350k-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,re350k-v1"

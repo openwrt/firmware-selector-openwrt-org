@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tama_w06",
+  "id": "tama_w06",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tama,w06"

@@ -64,7 +64,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "wd_mynet-n750",
+  "id": "wd_mynet-n750",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "wd,mynet-n750",

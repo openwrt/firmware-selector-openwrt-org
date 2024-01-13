@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "e750g-v8-16M",
+  "id": "e750g-v8-16M",
   "source_date_epoch": 1650114812,
   "supported_devices": [
     "e750g-v8"

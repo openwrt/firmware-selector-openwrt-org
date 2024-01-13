@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "youku_yk-l1",
+  "id": "youku_yk-l1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "youku,yk-l1",

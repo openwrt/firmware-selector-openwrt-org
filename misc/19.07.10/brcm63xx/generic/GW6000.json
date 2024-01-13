@@ -49,7 +49,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "GW6000",
+  "id": "GW6000",
   "source_date_epoch": 1650114812,
   "supported_devices": [],
   "target": "brcm63xx/generic",

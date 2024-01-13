@@ -60,7 +60,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "iptime_a1004ns",
+  "id": "iptime_a1004ns",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "iptime,a1004ns"

@@ -51,7 +51,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_re355-v1",
+  "id": "tplink_re355-v1",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,re355-v1",

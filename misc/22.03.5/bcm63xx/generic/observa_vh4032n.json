@@ -59,7 +59,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "observa_vh4032n",
+  "id": "observa_vh4032n",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "observa,vh4032n"

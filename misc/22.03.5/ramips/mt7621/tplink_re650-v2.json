@@ -63,7 +63,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "tplink_re650-v2",
+  "id": "tplink_re650-v2",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "tplink,re650-v2"

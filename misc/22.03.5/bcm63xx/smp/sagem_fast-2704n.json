@@ -52,7 +52,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "sagem_fast-2704n",
+  "id": "sagem_fast-2704n",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "sagem,fast-2704n"

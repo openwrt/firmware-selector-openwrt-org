@@ -58,7 +58,7 @@
     }
   ],
   "metadata_version": 1,
-  "model_id": "asiarf_awm002-evb-8m",
+  "id": "asiarf_awm002-evb-8m",
   "source_date_epoch": 1682627295,
   "supported_devices": [
     "asiarf,awm002-evb-8m",
