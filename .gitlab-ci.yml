@@ -108,7 +108,7 @@ test scaned site with selenium:
     - master
     - tags
   script:
-    - rsync -rlptvz build/ "rsync://firmware_selector@mirror-02.infra.openwrt.org/$RSYNC_TARGET/www/"
+    - rsync -rlptvz build/ "rsync://firmware_selector@$RSYNC_SERVER/$RSYNC_TARGET/www/"
 
 deploy to firmware-selector.staging.openwrt.org:
   extends: .deploy
