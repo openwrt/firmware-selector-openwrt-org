@@ -2,7 +2,7 @@
     "tr-feedback-link": "フィードバック",
     "tr-server-link": "全てのダウンロード",
     "tr-custom-build": "カスタムビルド",
-    "tr-customize": "インストールされるパッケージのカスタマイズ",
+    "tr-customize": "インストールされたパッケージ、初回起動時のスクリプトのカスタマイズ",
     "tr-request-build": "ビルドをリクエスト",
     "tr-not-found": "モデルが見つかりませんでした！",
     "tr-load": "デバイス用のOpenWrtファームウェアをダウンロード",
@@ -37,5 +37,8 @@
     "tr-unpack-imagebuilder": "イメージビルダーのセットアップ",
     "tr-calculate-packages-hash": "検証されたパッケージ",
     "tr-building-image": "ファームウェアイメージの生成",
-    "tr-init": "ビルド要求の受信"
+    "tr-init": "ビルド要求の受信",
+    "tr-packages": "インストールされたパッケージ",
+    "tr-defaults": "初回起動時に実行されるスクリプト (uci-defaults)",
+    "tr-latest-releases": "最新版"
 }
