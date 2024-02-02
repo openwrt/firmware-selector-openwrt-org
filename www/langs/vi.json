@@ -39,5 +39,6 @@
     "tr-factory-help": "Sử dụng ảnh gốc để flash bộ định tuyến với OpenWrt lần đầu tiên. Bạn thường làm điều này thông qua giao diện web.",
     "tr-sdcard-help": "Image được dùng để flash vào Thẻ SD.",
     "tr-tftp-help": "Image TFTP được sử dụng để flash thiết bị thông qua phương thức TFTP của bộ khởi động.",
-    "tr-defaults": "Đoạn mã để chạy cho lần khởi động đầu tiên (mặc định của uci)"
+    "tr-defaults": "Đoạn mã để chạy cho lần khởi động đầu tiên (mặc định của uci)",
+    "tr-latest-releases": "Mới nhất"
 }
