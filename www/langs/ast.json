@@ -1,1 +1,25 @@
-{}
+{
+    "tr-feedback-link": "Opinar",
+    "tr-load": "Descarga de firmwares d'OpenWrt pa preseos",
+    "tr-customize": "Personalizar los paquetes instalaos y/o'l script del primer arrique",
+    "tr-version-build": "Tocante a esta compilación",
+    "tr-request-build": "SOLICITAR LA COMPILACIÓN",
+    "tr-version": "Versión",
+    "tr-downloads": "Baxa una imaxe",
+    "tr-custom-downloads": "Descargues personalizaes",
+    "tr-other-help": "Otru tipu d'imaxe.",
+    "tr-sdcard-help": "Una imaxe que ta pensada pa flaxala nuna tarxeta SD.",
+    "tr-packages": "Paquetes instalaos",
+    "tr-defaults": "Script que va executase nel primer arrinque (uci-defaults)",
+    "tr-build-size": "Los paquetes seleicionaos superen l'almacenamientu del preséu",
+    "tr-init": "Recibióse la solicitú de compilación",
+    "tr-server-link": "Toles descargues",
+    "tr-message": "Escribi'l nome del preséu y dempués seleiciona una versión estable o snapshot.",
+    "tr-model": "Modelu",
+    "tr-target": "Plataforma",
+    "tr-date": "Data",
+    "tr-not-found": "¡Nun s'atopó nengún modelu!",
+    "tr-links": "Enllaces",
+    "tr-title": "Selector de firmwares d'OpenWrt",
+    "tr-tftp-help": "Les imáxenes TFTP úsense pa flaxar un preséu pel métodu TFTP del cargador d'arrinque."
+}
