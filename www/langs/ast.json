@@ -21,5 +21,10 @@
     "tr-not-found": "¡Nun s'atopó nengún modelu!",
     "tr-links": "Enllaces",
     "tr-title": "Selector de firmwares d'OpenWrt",
-    "tr-tftp-help": "Les imáxenes TFTP úsense pa flaxar un preséu pel métodu TFTP del cargador d'arrinque."
+    "tr-tftp-help": "Les imáxenes TFTP úsense pa flaxar un preséu pel métodu TFTP del cargador d'arrinque.",
+    "tr-dtb-help": "Blob del árbole del preséu. Esti ficheru configura'l kernel Linux pal hardware.",
+    "tr-build-successful": "La compilación foi correuta",
+    "tr-build-failed": "La compilación falló",
+    "tr-uboot-help": "Imaxe del cargador d'arrinque. Software de nivel baxu que carga'l sistema operativu nel aniciu del arrinque.",
+    "tr-eva-help": "Imaxe con OpenWrt y un cargador d'arrinque."
 }
