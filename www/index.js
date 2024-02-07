@@ -117,6 +117,7 @@ function buildAsuRequest(request_hash) {
   }
 
   fetch(request_url, {
+    cache: "no-cache",
     method: method,
     headers: {
       "Content-Type": "application/json",
@@ -528,11 +529,10 @@ function updateImages(mobj) {
 
   if (mobj) {
     const images = mobj.images;
-    let image_folder = config.image_url + mobj.image_path;
 
     // ASU override
     if ("asu_image_url" in mobj) {
-      image_folder = mobj.asu_image_url;
+      mobj.image_folder = mobj.asu_image_url;
     }
 
     const h3 = $("#downloads1 h3");
@@ -553,7 +553,7 @@ function updateImages(mobj) {
     setValue("#image-version", mobj.version_number);
     setValue("#image-code", mobj.version_code);
     setValue("#image-date", mobj.build_at);
-    setValue("#image-folder", image_folder);
+    setValue("#image-folder", mobj.image_folder);
 
     setValue(
       "#image-info",
@@ -582,7 +582,7 @@ function updateImages(mobj) {
     const extras2 = $("#download-extras2");
 
     for (const image of images) {
-      const link = createLink(mobj, image, image_folder);
+      const link = createLink(mobj, image, mobj.image_folder);
       const extra = createExtra(image);
 
       const row = append(table1, "TR");
@@ -591,7 +591,7 @@ function updateImages(mobj) {
     }
 
     for (const image of images) {
-      const link = createLink(mobj, image, image_folder);
+      const link = createLink(mobj, image, mobj.image_folder);
       const extra = createExtra(image);
 
       links2.appendChild(link);
@@ -666,7 +666,7 @@ function setModel(overview, target, id) {
 function changeModel(version, overview, title, base_url) {
   const entry = overview.profiles[title];
   if (entry) {
-    fetch(`${base_url}/${entry.target}/${entry.id}.json`, {
+    fetch(`${base_url}/targets/${entry.target}/profiles.json`, {
       cache: "no-cache",
     })
       .then((obj) => {
@@ -674,6 +674,9 @@ function changeModel(version, overview, title, base_url) {
       })
       .then((mobj) => {
         mobj["id"] = entry.id;
+        mobj["images"] = mobj["profiles"][entry.id]["images"];
+        mobj["titles"] = mobj["profiles"][entry.id]["titles"];
+        mobj["image_folder"] = `${base_url}/targets/${entry.target}/`;
         updateImages(mobj);
         current_device = {
           version: version,
@@ -731,7 +734,7 @@ function setup_uci_defaults() {
   };
 }
 
-function init() {
+async function init() {
   url_params = new URLSearchParams(window.location.search);
 
   $("#ofs_version").innerText = ofs_version;
@@ -740,10 +743,43 @@ function init() {
     show("#details_custom");
   }
 
-  setupSelectList($("#versions"), Object.keys(config.versions), (version) => {
+  let versions = await fetch(config.image_url + "/.versions.json", {
+    cache: "no-cache",
+  })
+    .then((obj) => {
+      return obj.json();
+    })
+    .then((obj) => {
+      return obj.versions_list.filter(
+        (version) =>
+          // 19.07.4 is the first version supporting JSON profiles
+          version.localeCompare("19.07.4", undefined, {
+            numeric: true,
+            sensitivity: "base",
+          }) >= 0
+      );
+    });
+
+  console.log(versions);
+
+  if (config.show_snapshots) {
+    for (const version of versions.slice()) {
+      let branch = version.split(".").slice(0, -1).join(".") + "-SNAPSHOT";
+      if (!versions.includes(branch)) {
+        versions.push(branch);
+      }
+    }
+    versions.push("SNAPSHOTS");
+  }
+
+  setupSelectList($("#versions"), versions, (version) => {
     // A new version was selected
-    let base_url = config.versions[version];
-    fetch(base_url + "/overview.json", { cache: "no-cache" })
+    let base_url = `${config.image_url}/releases/${version}`;
+    if (version == "SNAPSHOTS") {
+      base_url = `${config.image_url}/snapshots/`;
+    }
+
+    fetch(base_url + "/.overview.json", { cache: "no-cache" })
       .then((obj) => {
         return obj.json();
       })
