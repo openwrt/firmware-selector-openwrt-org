@@ -5,7 +5,7 @@
     "tr-target": "Platform",
     "tr-version": "Versi",
     "tr-date": "Tanggal",
-    "tr-load": "Unduh Firmware OpenWrt untuk Perangkat Anda",
+    "tr-load": "Unduh firmware OpenWrt untuk perangkat Anda",
     "tr-message": "Ketik nama atau model perangkat Anda, lalu pilih build stabil atau build \"snapshot\" nightly.",
     "tr-customize": "Sesuaikan paket yang terpasang and/or boot skript pertama",
     "tr-server-link": "Semua Unduhan",
