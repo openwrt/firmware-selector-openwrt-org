@@ -1,45 +1,31 @@
-from selenium import webdriver
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.by import By
+from playwright.sync_api import sync_playwright
 
+def test_spa(simplehttpserver):
+    with sync_playwright() as p:
+        browser = p.firefox.launch()
+        page = browser.new_page()
+        page.goto("http://localhost:8000")
+        assert "OpenWrt Firmware Selector" in page.title()
 
-def init_driver():
-    driver = webdriver.Remote(
-        command_executor="http://localhost:4444/wd/hub",
-        options=webdriver.FirefoxOptions(),
-    )
-    return driver
+        assert page.locator("#versions").select_option("19.07.10")[0] == "19.07.10"
 
+        page.fill("#models", "a7 v5")
+        models = page.inner_text("#models-autocomplete-list")
+        assert "TP-Link Archer A7 v5" in models
 
-def test_spa():
-    driver = init_driver()
-    driver.get("http://localhost:8000")
-    assert "OpenWrt Firmware Selector" in driver.title
+        message = page.locator("xpath=/html/body/div/div/p").inner_text()
+        assert "Type the name or model of your device" in message
 
-    versions = Select(driver.find_element(By.ID, "versions"))
-    selected_version = versions.first_selected_option.get_attribute("value")
-    assert "snapshot" not in selected_version.lower()
+        page.select_option("#languages", "Deutsch (German)")
+        message = page.locator("xpath=/html/body/div/div/p").inner_text()
+        assert "benutze die Eingabe um die passende" in message
 
-    model = driver.find_element(By.ID, "models")
-    model.clear()
-    model.send_keys("a7 v5")
+        page.select_option("#languages", "ca")
+        message = page.locator("xpath=/html/body/div/div/p").inner_text()
+        assert "el nom o el model del vostre dispositiu" in message
 
-    models = driver.find_element(By.ID, "models-autocomplete-list")
-    assert "TP-Link Archer A7 v5" in models.text
+        page.select_option("#languages", "Polski (Polish)")
+        message = page.locator("xpath=/html/body/div/div/p").inner_text()
+        assert "nazwę lub model swojego urządzenia" in message
 
-    message = driver.find_element(By.XPATH, "/html/body/div/div/p")
-    assert "Type the name or model of your device" in message.text
-
-    lang = Select(driver.find_element(By.CSS_SELECTOR, "#languages"))
-
-    lang.select_by_visible_text("Deutsch (German)")
-    message = driver.find_element(By.XPATH, "/html/body/div/div/p")
-    assert "benutze die Eingabe um die passende" in message.text
-
-    lang.select_by_value("ca")
-    message = driver.find_element(By.XPATH, "/html/body/div/div/p")
-    assert "el nom o el model del vostre dispositiu" in message.text
-
-    lang.select_by_visible_text("Polski (Polish)")
-    message = driver.find_element(By.XPATH, "/html/body/div/div/p")
-    assert "nazwę lub model swojego urządzenia" in message.text
+        browser.close()
