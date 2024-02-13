@@ -39,5 +39,6 @@
     "tr-building-image": "Generovanie obrazu firmvéru",
     "tr-download-imagebuilder": "Sťahovanie archívu ImageBuilder",
     "tr-packages": "Nainštalované balíky",
-    "tr-defaults": "Skript spustený pri prvom spustení systému (uci-defaults)"
+    "tr-defaults": "Skript spustený pri prvom spustení systému (uci-defaults)",
+    "tr-latest-releases": "Najnovšie"
 }
