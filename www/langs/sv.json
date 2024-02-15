@@ -25,7 +25,7 @@
     "tr-target": "Plattform",
     "tr-factory-help": "Använd en avbild för fabriksåterställning för att flasha en router med OpenWrt för första gången. Du gör normalt det här med den inre mjukvarans webbgränssnitt.",
     "tr-cpximg-help": "Använd med sysupgrade i den inre original-mjukvaran eller med den inbyggda cpximg-laddaren.",
-    "tr-load": "Ladda ner OpenWrt-mjukvara för din enhet",
+    "tr-load": "Hämta OpenWrt-mjukvara för din enhet",
     "tr-title": "Väljare av OpenWrt-mjukvara",
     "tr-sysupgrade-help": "Använd en avbild för uppgradering av systemet för att uppdatera en router som redan kör OpenWrt. Avbilden kan användas med LuCi's webbgränssnitt eller terminalen.",
     "tr-request-image": "Fråga efter avbild",
