@@ -1,6 +1,6 @@
 {
     "tr-message": "Digite o nome ou modelo do seu dispositivo, depois selecione a compilação estável ou a compilação \"snapshot\" nightly.",
-    "tr-server-link": "Todos os Downloads",
+    "tr-server-link": "Todas as descargas",
     "tr-not-found": "Não foram encontrados modelos!",
     "tr-title": "Selecionador de Firmware OpenWrt",
     "tr-version-build": "Acerca desta compilação",
@@ -10,7 +10,7 @@
     "tr-model": "Modelo",
     "tr-target": "Plataforma",
     "tr-downloads": "Descarregar uma imagem",
-    "tr-custom-downloads": "Transferências Personalizadas",
+    "tr-custom-downloads": "Descargas Personalizadas",
     "tr-dtb-help": "Blob de árvore do dispositivo. Este ficheiro configura o Kernel Linux para o hardware.",
     "tr-uboot-help": "Imagem do bootloader. Software de baixo-nível que carrega o sistema operativo antes no arranque.",
     "tr-cpximg-help": "Utilize com o sysupgrade no firmware de fábrica ou com o carregador cpximg embutido.",
