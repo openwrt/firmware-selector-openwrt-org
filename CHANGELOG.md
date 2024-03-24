@@ -2,10 +2,14 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v4.0.6 - 2024-03-24
+
+* translation updates
+* add Asturian translation
+
 ## v4.0.5 - 2024-01-19
 
 * translation updates
-* add Samogitian translation
 * add Samogitian translation
 
 ## v4.0.4 - 2023-12-15
