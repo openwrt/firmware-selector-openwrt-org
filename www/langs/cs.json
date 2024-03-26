@@ -19,7 +19,7 @@
     "tr-build-failed": "Sestavení se nezdařilo",
     "tr-check-again": "Zkontrolujte znovu za 5 sekund…",
     "tr-unpack-imagebuilder": "Konfigurace nástroje ImageBuilder",
-    "tr-load": "Stažení OpenWrt Firmwaru pro vaše zařízení",
+    "tr-load": "Stažení OpenWrt firmwaru pro vaše zařízení",
     "tr-building-image": "Generování obrazu firmwaru",
     "tr-packages": "Instalované balíčky",
     "tr-defaults": "Skript spouštěný při prvním spuštění systému (uci-defaults)",
