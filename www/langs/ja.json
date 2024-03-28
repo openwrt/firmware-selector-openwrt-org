@@ -32,7 +32,7 @@
     "tr-custom-downloads": "カスタムダウンロード",
     "tr-cpximg-help": "純正ファームウェアのsysupgrade、または内蔵のcpximg loaderで使用します。",
     "tr-eva-help": "OpenWrtとブートローダーのイメージ。",
-    "tr-check-again": "5 秒後にもう一度確認してください...",
+    "tr-check-again": "5 秒後にもう一度確認してください…",
     "tr-download-imagebuilder": "イメージビルダーアーカイブのダウンロード",
     "tr-unpack-imagebuilder": "イメージビルダーのセットアップ",
     "tr-calculate-packages-hash": "検証されたパッケージ",
