@@ -6,7 +6,7 @@
     "tr-not-found": "Jokio modelio nerasta!",
     "tr-title": "„OpenWrt“ programinių įrangų (tvarkyklių) pasirinkimas",
     "tr-message": "Įveskite pavadinimą arba modelį savo įrenginio, tada pasirinkite stabilų arba naktinį „snapshot“ laikmeną.",
-    "tr-load": "Atsisiųsti „OpenWrt“ programinę įrangą jūsų įrenginiui",
+    "tr-load": "Atsisiųsti „OpenWrt“ programinę įrangą Jūsų įrenginiui",
     "tr-version-build": "Apie šią laikmeną",
     "tr-custom-build": "Nenumatyta laikmena",
     "tr-customize": "Keiskite įdiegtus paketus ir/arba pirmąjį pajungimo skriptą",
