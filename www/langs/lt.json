@@ -1,7 +1,7 @@
 {
     "tr-links": "Nuorodos",
     "tr-eva-help": "Laikmena su „OpenWrt“ ir „boot loader“.",
-    "tr-feedback-link": "Atsiliepimas",
+    "tr-feedback-link": "Atsiliepimas/-ai",
     "tr-server-link": "Visi atsisiuntimai",
     "tr-not-found": "Jokio modelio nerasta!",
     "tr-title": "„OpenWrt“ programinių įrangų (tvarkyklių) pasirinkimas",
@@ -40,5 +40,5 @@
     "tr-building-image": "Kuriamas programinės įrangos „image“",
     "tr-packages": "Įdiegti paketai",
     "tr-defaults": "Skriptas skirtas pajungti per pirmąjį pajungimą (uci-defaults)",
-    "tr-latest-releases": "Naujausias"
+    "tr-latest-releases": "Naujausias/Paskiausias"
 }
