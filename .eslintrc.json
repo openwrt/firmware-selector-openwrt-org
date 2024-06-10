@@ -1,11 +1,8 @@
 {
-    "env": {
-        "browser": true,
-        "es2020": true
-    },
-    "extends": [
-	    "eslint:recommended",
-	    "prettier"
-    ],
-    "ignorePatterns": [ "**/langs/*.json" ]
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "ignorePatterns": ["**/langs/*.json"]
 }
