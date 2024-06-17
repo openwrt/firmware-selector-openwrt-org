@@ -5,6 +5,10 @@ on:
     paths:
       - ".github/workflows/*"
       - "www/**"
+  pull_request:
+    paths:
+      - ".github/workflows/*"
+      - "www/**"
 
 jobs:
   Test:
@@ -41,7 +45,7 @@ jobs:
         run: python -m playwright install --with-deps
 
       - name: Run your tests
-        run: pytest --tracing=retain-on-failure --simplehttpserver-directory ./www/
+        run: pytest --tracing=retain-on-failure --simplehttpserver-directory ./
 
       - uses: actions/upload-artifact@v4
         if: always()
