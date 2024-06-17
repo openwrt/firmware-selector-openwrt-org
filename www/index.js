@@ -103,6 +103,7 @@ function buildAsuRequest(request_hash) {
     target: current_device.target,
     packages: split($("#asu-packages").value),
     defaults: $("#uci-defaults-content").value,
+    version_code: $("#image-code").innerText,
     version: $("#versions").value,
     diff_packages: true,
     client: "ofs/" + ofs_version,
