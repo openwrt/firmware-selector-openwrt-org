@@ -4,7 +4,7 @@ def test_spa(simplehttpserver):
     with sync_playwright() as p:
         browser = p.firefox.launch()
         page = browser.new_page()
-        page.goto("http://localhost:8000")
+        page.goto("http://localhost:8000/www/")
         assert "OpenWrt Firmware Selector" in page.title()
 
         assert page.locator("#versions").select_option("19.07.10")[0] == "19.07.10"
