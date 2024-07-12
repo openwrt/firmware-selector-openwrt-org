@@ -18,7 +18,7 @@
     "tr-build-successful": "بناء ناجح",
     "tr-downloads": "تحميل نسخة",
     "tr-custom-downloads": "التنزيلات المخصصة",
-    "tr-check-again": "تحقق مرة أخرى في 5 ثوان ...",
+    "tr-check-again": "تحقق مرة أخرى خلال 5 ثوانٍ…",
     "tr-build-failed": "فشل البناء",
     "tr-request-image": "طلب صورة",
     "tr-tftp-help": "تُستخدم صور TFTP لتفليش جهاز عبر طريقة TFTP لمحمل bootloader.",
@@ -28,7 +28,7 @@
     "tr-uboot-help": "صورة Bootloader. برنامج منخفض المستوى يقوم بتحميل نظام التشغيل مبكرًا عند bootloader.",
     "tr-cpximg-help": "استخدمه مع sysupgrade في stock firmware أو مع محمل cpximg المدمج.",
     "tr-eva-help": "صورة مع OpenWrt و bootloader.",
-    "tr-customize": "تخصيص Package المثبتة",
+    "tr-customize": "تخصيص الحزمة المثبتة او سكريبت التشغيل الاول",
     "tr-initramfs-help": "نواة Linux مع الحد الأدنى من نظام الملفات. مفيد للتثبيت أو الاسترداد لأول مرة.",
     "tr-kernel-help": "نواة Linux كصورة منفصلة.",
     "tr-sysupgrade-help": "استخدم صورة Sysupgrade لتحديث جهاز توجيه يقوم بالفعل بتشغيل OpenWrt. يمكن استخدام الصورة مع واجهة الويب LuCI أو الجهاز.",
@@ -37,5 +37,8 @@
     "tr-download-imagebuilder": "تنزيل أرشيف ImageBuilder",
     "tr-unpack-imagebuilder": "قم بإعداد ImageBuilder",
     "tr-calculate-packages-hash": "تحقق من صحة اختيار البرنامج",
-    "tr-building-image": "إنشاء firmware image"
+    "tr-building-image": "إنشاء firmware image",
+    "tr-packages": "الحزم المثبتة",
+    "tr-defaults": "البرنامج النصي المراد تشغيله عند التمهيد الأول (uci - defaults)",
+    "tr-latest-releases": "الأحدث"
 }
