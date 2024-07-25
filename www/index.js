@@ -615,7 +615,6 @@ function updateImages(mobj) {
       $("#asu-packages").value = mobj.default_packages
         .concat(mobj.device_packages)
         .concat(config.asu_extra_packages || [])
-        .sort()
         .join(" ");
     }
 
