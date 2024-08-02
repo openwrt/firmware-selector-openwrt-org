@@ -415,7 +415,8 @@ body {
 
   #image-info,
   #image-folder,
-  #image-link {
+  #image-link,
+  #uci-defaults-template {
     /* white */
     filter: invert(100%) sepia(9%) saturate(261%) hue-rotate(281deg) brightness(117%) contrast(100%);
   }
