@@ -530,9 +530,12 @@ function updateImages(mobj) {
   if (mobj) {
     const images = mobj.images;
 
-    // ASU override
     if ("asu_image_url" in mobj) {
+      // ASU override
       mobj.image_folder = mobj.asu_image_url;
+    } else {
+      const base_url = config.image_urls[mobj.version_number];
+      mobj.image_folder = `${base_url}/targets/${mobj.target}`;
     }
 
     const h3 = $("#downloads1 h3");
@@ -662,8 +665,9 @@ function setModel(overview, target, id) {
   }
 }
 
-function changeModel(version, overview, title, base_url) {
+function changeModel(version, overview, title) {
   const entry = overview.profiles[title];
+  const base_url = config.image_urls[version];
   if (entry) {
     fetch(`${base_url}/targets/${entry.target}/profiles.json`, {
       cache: "no-cache",
@@ -675,7 +679,6 @@ function changeModel(version, overview, title, base_url) {
         mobj["id"] = entry.id;
         mobj["images"] = mobj["profiles"][entry.id]["images"];
         mobj["titles"] = mobj["profiles"][entry.id]["titles"];
-        mobj["image_folder"] = `${base_url}/targets/${entry.target}/`;
         updateImages(mobj);
         current_device = {
           version: version,
@@ -733,6 +736,16 @@ function setup_uci_defaults() {
   };
 }
 
+function insertSnapshotVersions(versions) {
+  for (const version of versions.slice()) {
+    let branch = version.split(".").slice(0, -1).join(".") + "-SNAPSHOT";
+    if (!versions.includes(branch)) {
+      versions.push(branch);
+    }
+  }
+  versions.push("SNAPSHOTS");
+}
+
 async function init() {
   url_params = new URLSearchParams(window.location.search);
 
@@ -742,14 +755,14 @@ async function init() {
     show("#details_custom");
   }
 
-  let versions = await fetch(config.image_url + "/.versions.json", {
+  let upstream_config = await fetch(config.image_url + "/.versions.json", {
     cache: "no-cache",
   })
     .then((obj) => {
       return obj.json();
     })
     .then((obj) => {
-      return obj.versions_list.filter(
+      const versions = obj.versions_list.filter(
         (version) =>
           // 19.07.4 is the first version supporting JSON profiles
           version.localeCompare("19.07.4", undefined, {
@@ -757,28 +770,42 @@ async function init() {
             sensitivity: "base",
           }) >= 0
       );
+
+      if (config.show_snapshots) {
+        insertSnapshotVersions(versions);
+      }
+
+      return {
+        versions: versions,
+        image_url_override: obj.image_url_override,
+        default_version: obj.stable_version,
+      };
     });
 
-  console.log(versions);
+  config.versions ||= upstream_config.versions;
+  config.default_version ||= upstream_config.default_version;
+  config.overview_urls = {};
+  config.image_urls = {};
 
-  if (config.show_snapshots) {
-    for (const version of versions.slice()) {
-      let branch = version.split(".").slice(0, -1).join(".") + "-SNAPSHOT";
-      if (!versions.includes(branch)) {
-        versions.push(branch);
-      }
+  const overview_url = config.image_url;
+  const image_url = upstream_config.image_url_override || config.image_url;
+  for (const version of config.versions) {
+    if (version == "SNAPSHOTS") {
+      // openwrt.org oddity
+      config.overview_urls[version] = `${overview_url}/snapshots/`;
+      config.image_urls[version] = `${image_url}/snapshots/`;
+    } else {
+      config.overview_urls[version] = `${overview_url}/releases/${version}`;
+      config.image_urls[version] = `${image_url}/releases/${version}`;
     }
-    versions.push("SNAPSHOTS");
   }
 
-  setupSelectList($("#versions"), versions, (version) => {
-    // A new version was selected
-    let base_url = `${config.image_url}/releases/${version}`;
-    if (version == "SNAPSHOTS") {
-      base_url = `${config.image_url}/snapshots/`;
-    }
+  console.log("versions: " + config.versions);
 
-    fetch(base_url + "/.overview.json", { cache: "no-cache" })
+  setupSelectList($("#versions"), config.versions, (version) => {
+    // A new version was selected
+    let overview_url = `${config.overview_urls[version]}/.overview.json`;
+    fetch(overview_url, { cache: "no-cache" })
       .then((obj) => {
         return obj.json();
       })
@@ -828,7 +855,7 @@ async function init() {
           Object.keys(obj.profiles),
           updateImages,
           (selectList) => {
-            changeModel(version, obj, selectList.value, base_url);
+            changeModel(version, obj, selectList.value);
           }
         );
 

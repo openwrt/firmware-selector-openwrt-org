@@ -1,0 +1,5 @@
+{
+  "stable_version": "23.05.4",
+  "versions_list": ["23.05.4", "19.07.10"],
+  "image_url_override": "https://downloads.openwrt.org"
+}
