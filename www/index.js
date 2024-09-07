@@ -35,6 +35,16 @@ function htmlToElement(html) {
   return e.content.firstChild;
 }
 
+function showAlert(message) {
+  $("#alert").innerText = message;
+  show("#alert");
+}
+
+function hideAlert() {
+  hide("#alert");
+  $("#alert").innerText = "";
+}
+
 function getModelTitles(titles) {
   return titles.map((e) => {
     if (e.title) {
@@ -239,8 +249,16 @@ function translate(lang) {
     apply(current_language, current_language_json);
   } else {
     fetch("langs/" + new_lang + ".json")
-      .then((obj) => obj.json())
-      .then((mapping) => apply(new_lang, mapping));
+      .then((obj) => {
+        if (obj.status == 200) {
+          hideAlert();
+          return obj.json();
+        } else {
+          showAlert(`Failed to fetch ${obj.uri}`);
+        }
+      })
+      .then((mapping) => apply(new_lang, mapping))
+      .catch((err) => showAlert(err.message));
   }
 }
 
@@ -673,7 +691,12 @@ function changeModel(version, overview, title) {
       cache: "no-cache",
     })
       .then((obj) => {
-        return obj.json();
+        if (obj.status == 200) {
+          hideAlert();
+          return obj.json();
+        } else {
+          showAlert(`Failed to fetch ${obj.uri}`);
+        }
       })
       .then((mobj) => {
         mobj["id"] = entry.id;
@@ -685,7 +708,8 @@ function changeModel(version, overview, title) {
           id: entry.id,
           target: entry.target,
         };
-      });
+      })
+      .catch((err) => showAlert(err.message));
   } else {
     updateImages();
     current_device = {};
@@ -723,16 +747,24 @@ function setup_uci_defaults() {
   let link = icon.getAttribute("data-link");
   let textarea = $("#uci-defaults-content");
   icon.onclick = function () {
-    fetch(link).then((response) => {
-      response.text().then((text) => {
+    fetch(link)
+      .then((obj) => {
+        if (obj.status == 200) {
+          hideAlert();
+          return obj.text();
+        } else {
+          showAlert(`Failed to fetch ${obj.uri}`);
+        }
+      })
+      .then((text) => {
         // toggle text
         if (textarea.value.indexOf(text) != -1) {
           textarea.value = textarea.value.replace(text, "");
         } else {
           textarea.value = textarea.value + text;
         }
-      });
-    });
+      })
+      .catch((err) => showAlert(err.message));
   };
 }
 
@@ -785,7 +817,8 @@ async function init() {
         image_url_override: obj.image_url_override,
         default_version: obj.stable_version,
       };
-    });
+    })
+    .catch((err) => showAlert(err.message));
 
   if (!config.versions) {
     config.versions = upstream_config.versions;
@@ -816,7 +849,12 @@ async function init() {
     let overview_url = `${config.overview_urls[version]}/.overview.json`;
     fetch(overview_url, { cache: "no-cache" })
       .then((obj) => {
-        return obj.json();
+        if (obj.status == 200) {
+          hideAlert();
+          return obj.json();
+        } else {
+          showAlert(`Failed to fetch ${obj.uri}`);
+        }
       })
       .then((obj) => {
         var dups = {};
@@ -877,7 +915,8 @@ async function init() {
 
         // trigger update of current selected model
         $("#models").onfocus();
-      });
+      })
+      .catch((err) => showAlert(err.message));
   });
 
   setup_uci_defaults();
