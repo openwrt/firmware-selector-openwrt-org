@@ -457,3 +457,13 @@ body {
     color: #d0d0d0;
   }
 }
+
+#alert {
+  position: absolute;
+  z-index: 1001;
+  height: 2em;
+  line-height: 2em;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
