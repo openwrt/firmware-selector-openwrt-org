@@ -4,10 +4,10 @@ var config = {
   // Show help text for images
   show_help: true,
 
-  // Versions list (optional)
+  // Versions list (optional if provided by .versions.json)
   versions: ["23.05.4", "19.07.10"],
 
-  // Pre-selected version (optional)
+  // Pre-selected version (optional if provided by .versions.json)
   default_version: "23.05.4",
 
   // Image download URL (e.g. "https://downloads.openwrt.org")

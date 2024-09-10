@@ -23,7 +23,7 @@ Steps:
 3. Organize the images like on [downloads.openwrt.org](https://downloads.openwrt.org).  
    Example: https://downloads.openwrt.org/releases/23.05.4/targets/ramips/mt7621/openwrt-23.05.4-ramips-mt7621-dlink_dir-1935-a1-squashfs-sysupgrade.bin  
    (path scheme is `<image_url>/releases/<version>/targets/<target>/<subtarget>/`)
-4. Place a single `.versions.json` at `image_path`.  
+4. Place a single `.versions.json` at `image_path`. This is optional.  
    Example: `https://downloads.openwrt.org/.versions.json`
 
 ```
@@ -32,6 +32,8 @@ Steps:
   "versions_list": ["23.05.4", "19.07.10"]
 }
 ```
+
+Note: These values can be overwritten with `versions` and `default_version` in the `config.js` file.
 
 5. Place `.overview.json` files in each version folder.  
    Example: `https://downloads.openwrt.org/releases/23.05.4/.overview.json`
