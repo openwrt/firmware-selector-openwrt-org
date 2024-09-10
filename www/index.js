@@ -759,7 +759,12 @@ async function init() {
     cache: "no-cache",
   })
     .then((obj) => {
-      return obj.json();
+      if (obj.status == 200) {
+        return obj.json();
+      } else {
+        // .versions.json is optional
+        return {versions_list: []}
+      }
     })
     .then((obj) => {
       const versions = obj.versions_list.filter(
