@@ -787,8 +787,12 @@ async function init() {
       };
     });
 
-  config.versions ||= upstream_config.versions;
-  config.default_version ||= upstream_config.default_version;
+  if (!config.versions) {
+    config.versions = upstream_config.versions;
+  }
+  if (!config.default_version) {
+    config.default_version = upstream_config.default_version;
+  }
   config.overview_urls = {};
   config.image_urls = {};
 
