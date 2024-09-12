@@ -1,3 +1,0 @@
-check Python scripts with black and flake8:
-  stage: pre-build
-  extends: .openwrt-pythoncheck
