@@ -16,11 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: HTML5Validator
-        uses: Cyb3r-Jak3/html5validator-action@master
+      - name: Validate HTML
+        uses: anishathalye/proof-html@v2
         with:
-          root: www/
-          css: true
+          directory: www/
 
       - uses: actions/setup-node@v4
         with:
