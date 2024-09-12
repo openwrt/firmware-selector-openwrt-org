@@ -148,7 +148,7 @@ function buildAsuRequest(request_hash) {
             showStatus(
               `tr-${mobj.imagebuilder_status || "init"}`,
               true,
-              "info"
+              "info",
             );
             setTimeout(buildAsuRequest.bind(null, mobj.request_hash), 5000);
           });
@@ -187,8 +187,8 @@ function setupSelectList(select, items, onselection) {
     (a + (a.indexOf("-") < 0 ? "-Z" : "")).localeCompare(
       b + (b.indexOf("-") < 0 ? "-Z" : ""),
       undefined,
-      { numeric: true }
-    )
+      { numeric: true },
+    ),
   );
 
   for (const item of items) {
@@ -498,7 +498,7 @@ function createLink(mobj, image, image_url) {
   }
 
   return htmlToElement(
-    `<td><a href="${href}" class="download-link"><span></span>${label.toUpperCase()}</a></td>`
+    `<td><a href="${href}" class="download-link"><span></span>${label.toUpperCase()}</a></td>`,
   );
 }
 
@@ -517,7 +517,7 @@ function createExtra(image) {
       (image.sha256
         ? `<div class="hash-content">sha256sum: ${image.sha256}</div>`
         : "") +
-      "</td>"
+      "</td>",
   );
 }
 
@@ -564,7 +564,7 @@ function updateImages(mobj) {
         .replace("{title}", encodeURI($("#models").value))
         .replace("{target}", mobj.target)
         .replace("{id}", mobj.id)
-        .replace("{version}", mobj.version_number)
+        .replace("{version}", mobj.version_number),
     );
 
     setValue(
@@ -575,7 +575,7 @@ function updateImages(mobj) {
         "&target=" +
         encodeURIComponent(mobj.target) +
         "&id=" +
-        encodeURIComponent(mobj.id)
+        encodeURIComponent(mobj.id),
     );
 
     images.sort((a, b) => a.name.localeCompare(b.name));
@@ -604,7 +604,7 @@ function updateImages(mobj) {
 
       link.onmouseover = function () {
         links2.childNodes.forEach((e) =>
-          e.firstChild.classList.remove("download-link-hover")
+          e.firstChild.classList.remove("download-link-hover"),
         );
         link.firstChild.classList.add("download-link-hover");
 
@@ -633,7 +633,7 @@ function updateImages(mobj) {
         "&target=" +
         encodeURIComponent(mobj.target) +
         "&id=" +
-        encodeURIComponent(mobj.id)
+        encodeURIComponent(mobj.id),
     );
 
     hide("#notfound");
@@ -763,7 +763,7 @@ async function init() {
         return obj.json();
       } else {
         // .versions.json is optional
-        return {versions_list: []}
+        return { versions_list: [] };
       }
     })
     .then((obj) => {
@@ -773,7 +773,7 @@ async function init() {
           version.localeCompare("19.07.4", undefined, {
             numeric: true,
             sensitivity: "base",
-          }) >= 0
+          }) >= 0,
       );
 
       if (config.show_snapshots) {
@@ -842,7 +842,7 @@ async function init() {
           for (let title of getModelTitles(profile.titles)) {
             if (title.length == 0) {
               console.warn(
-                `Empty device title for model id: ${profile.target}, ${profile.id}`
+                `Empty device title for model id: ${profile.target}, ${profile.id}`,
               );
               continue;
             }
@@ -865,14 +865,14 @@ async function init() {
           updateImages,
           (selectList) => {
             changeModel(version, obj, selectList.value);
-          }
+          },
         );
 
         // set model when selected version changes
         setModel(
           obj,
           current_device["target"] || url_params.get("target"),
-          current_device["id"] || url_params.get("id")
+          current_device["id"] || url_params.get("id"),
         );
 
         // trigger update of current selected model
