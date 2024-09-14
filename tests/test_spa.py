@@ -1,4 +1,4 @@
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, expect
 
 def test_spa(simplehttpserver):
     with sync_playwright() as p:
@@ -13,19 +13,16 @@ def test_spa(simplehttpserver):
         models = page.inner_text("#models-autocomplete-list")
         assert "TP-Link Archer A7 v5" in models
 
-        message = page.locator("xpath=/html/body/div/div/p").inner_text()
-        assert "Type the name or model of your device" in message
+        locator = page.locator("xpath=/html/body/div/div/p")
+        expect(locator).to_contain_text('Type the name or model of your device')
 
         page.select_option("#languages", "Deutsch (German)")
-        message = page.locator("xpath=/html/body/div/div/p").inner_text()
-        assert "benutze die Eingabe um die passende" in message
+        expect(locator).to_contain_text('benutze die Eingabe um die passende')
 
         page.select_option("#languages", "ca")
-        message = page.locator("xpath=/html/body/div/div/p").inner_text()
-        assert "el nom o el model del vostre dispositiu" in message
+        expect(locator).to_contain_text('el nom o el model del vostre dispositiu')
 
         page.select_option("#languages", "Polski (Polish)")
-        message = page.locator("xpath=/html/body/div/div/p").inner_text()
-        assert "nazwę lub model swojego urządzenia" in message
+        expect(locator).to_contain_text('nazwę lub model swojego urządzenia')
 
         browser.close()
