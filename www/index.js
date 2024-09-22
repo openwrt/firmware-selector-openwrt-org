@@ -403,7 +403,11 @@ function setupAutocompleteList(input, items, onbegin, onend) {
     if (currentFocus < 0) currentFocus = xs.length - 1;
     // add class 'autocomplete-active':
     xs[currentFocus].classList.add("autocomplete-active");
+    xs[currentFocus].setAttribute("tabindex", "0");
   }
+
+  // ensure the input can receive focus
+  input.setAttribute("tabindex", "0");
 
   function closeAllLists(elmnt) {
     // close all autocomplete lists in the document,
