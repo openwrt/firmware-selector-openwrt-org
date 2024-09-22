@@ -250,12 +250,11 @@ function translate(lang) {
   } else {
     fetch("langs/" + new_lang + ".json")
       .then((obj) => {
-        if (obj.status == 200) {
-          hideAlert();
-          return obj.json();
-        } else {
-          showAlert(`Failed to fetch ${obj.uri}`);
+        if (obj.status != 200) {
+          throw new Error(`Failed to fetch ${obj.url}`);
         }
+        hideAlert();
+        return obj.json();
       })
       .then((mapping) => apply(new_lang, mapping))
       .catch((err) => showAlert(err.message));
@@ -691,12 +690,11 @@ function changeModel(version, overview, title) {
       cache: "no-cache",
     })
       .then((obj) => {
-        if (obj.status == 200) {
-          hideAlert();
-          return obj.json();
-        } else {
-          showAlert(`Failed to fetch ${obj.uri}`);
+        if (obj.status != 200) {
+          throw new Error(`Failed to fetch ${obj.url}`);
         }
+        hideAlert();
+        return obj.json();
       })
       .then((mobj) => {
         mobj["id"] = entry.id;
@@ -749,12 +747,11 @@ function setup_uci_defaults() {
   icon.onclick = function () {
     fetch(link)
       .then((obj) => {
-        if (obj.status == 200) {
-          hideAlert();
-          return obj.text();
-        } else {
-          showAlert(`Failed to fetch ${obj.uri}`);
+        if (obj.status != 200) {
+          throw new Error(`Failed to fetch ${obj.url}`);
         }
+        hideAlert();
+        return obj.text();
       })
       .then((text) => {
         // toggle text
@@ -849,12 +846,11 @@ async function init() {
     let overview_url = `${config.overview_urls[version]}/.overview.json`;
     fetch(overview_url, { cache: "no-cache" })
       .then((obj) => {
-        if (obj.status == 200) {
-          hideAlert();
-          return obj.json();
-        } else {
-          showAlert(`Failed to fetch ${obj.uri}`);
+        if (obj.status != 200) {
+          throw new Error(`Failed to fetch ${obj.url}`);
         }
+        hideAlert();
+        return obj.json();
       })
       .then((obj) => {
         var dups = {};
