@@ -31,13 +31,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
+
+      - name: Setup config.json
+        run: |
+          cd www/
+          sed -i "s;%GIT_VERSION%;$(git describe --tags);" index.js
+          sed -i 's;image_url: "../misc",;image_url: "https://downloads.openwrt.org",;' config.js
+          sed -i "s;  //show_snapshots;  show_snapshots;" config.js
+          sed -i "s;  versions;  //  versions;" config.js
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
           path: "www/"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
