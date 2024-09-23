@@ -16,13 +16,13 @@ def test_spa(simplehttpserver):
         locator = page.locator("xpath=/html/body/div/div/p")
         expect(locator).to_contain_text('Type the name or model of your device')
 
-        page.select_option("#languages", "Deutsch (German)")
+        page.select_option("#languages-select", "Deutsch (German)")
         expect(locator).to_contain_text('benutze die Eingabe um die passende')
 
-        page.select_option("#languages", "ca")
+        page.select_option("#languages-select", "ca")
         expect(locator).to_contain_text('el nom o el model del vostre dispositiu')
 
-        page.select_option("#languages", "Polski (Polish)")
+        page.select_option("#languages-select", "Polski (Polish)")
         expect(locator).to_contain_text('nazwę lub model swojego urządzenia')
 
         browser.close()
