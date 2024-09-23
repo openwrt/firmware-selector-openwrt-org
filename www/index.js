@@ -719,7 +719,7 @@ function changeModel(version, overview, title) {
 }
 
 function initTranslation() {
-  const select = $("#languages");
+  const select = $("#languages-select");
 
   // set initial language
   const long = (navigator.language || navigator.userLanguage).toLowerCase();
@@ -733,10 +733,10 @@ function initTranslation() {
   }
 
   select.onchange = function () {
-    const selected = select.options[select.selectedIndex];
-    // transfer OPTION width to SELECT element
-    select.style.width = selected.getAttribute("data-width");
-    translate(selected.value);
+    const option = select.options[select.selectedIndex];
+    // set select button text and strip English name
+    $("#languages-button").textContent = option.text.replace(/ \(.*/, "");
+    translate(option.value);
   };
 
   // trigger translation
