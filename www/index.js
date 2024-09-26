@@ -704,6 +704,7 @@ function changeModel(version, overview, title) {
         mobj["id"] = entry.id;
         mobj["images"] = mobj["profiles"][entry.id]["images"];
         mobj["titles"] = mobj["profiles"][entry.id]["titles"];
+        mobj["device_packages"] = mobj["profiles"][entry.id]["device_packages"];
         updateImages(mobj);
         current_device = {
           version: version,
