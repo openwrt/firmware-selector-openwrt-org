@@ -549,8 +549,6 @@ function updateImages(mobj) {
   $$("#download-extras2 *").forEach((e) => e.remove());
 
   if (mobj) {
-    const images = mobj.images;
-
     if ("asu_image_url" in mobj) {
       // ASU override
       mobj.image_folder = mobj.asu_image_url;
@@ -599,13 +597,14 @@ function updateImages(mobj) {
         encodeURIComponent(mobj.id)
     );
 
-    images.sort((a, b) => a.name.localeCompare(b.name));
+    mobj.images.sort((a, b) => a.name.localeCompare(b.name));
 
     const table1 = $("#download-table1");
     const links2 = $("#download-links2");
     const extras2 = $("#download-extras2");
 
-    for (const image of images) {
+    // for desktop view
+    for (const image of mobj.images) {
       const link = createLink(mobj, image, mobj.image_folder);
       const extra = createExtra(image);
 
@@ -614,7 +613,8 @@ function updateImages(mobj) {
       row.appendChild(extra);
     }
 
-    for (const image of images) {
+    // for mobile view
+    for (const image of mobj.images) {
       const link = createLink(mobj, image, mobj.image_folder);
       const extra = createExtra(image);
 
