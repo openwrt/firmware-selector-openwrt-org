@@ -97,7 +97,7 @@ function buildAsuRequest(request_hash) {
 
     status += `<span class="${tr}">${message}</span>`;
 
-    $("#asu-buildstatus").getElementsByTagName("span")[0].innerHTML = status;
+    $("#asu-buildstatus span").innerHTML = status;
     translate();
   }
 
@@ -248,7 +248,7 @@ function translate(lang) {
   if (current_language === new_lang) {
     apply(current_language, current_language_json);
   } else {
-    fetch("langs/" + new_lang + ".json")
+    fetch(`langs/${new_lang}.json`)
       .then((obj) => {
         if (obj.status != 200) {
           throw new Error(`Failed to fetch ${obj.url}`);
@@ -621,7 +621,7 @@ function updateImages(mobj) {
       links2.appendChild(link);
       extras2.appendChild(extra);
 
-      extra.classList.add("hide");
+      hide(extra);
 
       link.onmouseover = function () {
         links2.childNodes.forEach((e) =>
@@ -629,8 +629,8 @@ function updateImages(mobj) {
         );
         link.firstChild.classList.add("download-link-hover");
 
-        extras2.childNodes.forEach((e) => e.classList.add("hide"));
-        extra.classList.remove("hide");
+        extras2.childNodes.forEach((e) => hide(e));
+        hide(extra);
       };
     }
 
