@@ -783,10 +783,11 @@ function insertSnapshotVersions(versions) {
 async function init() {
   url_params = new URLSearchParams(window.location.search);
 
-  $("#ofs_version").innerText = ofs_version;
+  $("#ofs-version").innerText = ofs_version;
 
   if (typeof config.asu_url !== "undefined") {
-    show("#details_custom");
+    // show ASU panel
+    show("#asu");
   }
 
   let upstream_config = await fetch(config.image_url + "/.versions.json", {
