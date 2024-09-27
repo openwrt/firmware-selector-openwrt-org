@@ -388,8 +388,10 @@ function setupAutocompleteList(input, items, onbegin, onend) {
     }
   };
 
-  input.onfocus = function () {
-    onend(input);
+  input.onkeyup = function (e) {
+    if (!e || e.key === "Enter" || e.keyCode === 13) {
+      onend(input);
+    }
   };
 
   function setActive(xs) {
@@ -916,7 +918,7 @@ async function init() {
         );
 
         // trigger update of current selected model
-        $("#models").onfocus();
+        $("#models").onkeyup();
       })
       .catch((err) => showAlert(err.message));
   });
