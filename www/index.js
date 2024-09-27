@@ -637,7 +637,11 @@ function updateImages(mobj) {
     }
 
     if ("manifest" in mobj === false) {
-      // only refresh package list if not data from ASU
+      // Not ASU. Hide fields.
+      $("#asu").open = false;
+      hide("#asu-log");
+      hide("#asu-buildstatus");
+      // Pre-select ASU packages.
       $("#asu-packages").value = mobj.default_packages
         .concat(mobj.device_packages)
         .concat(config.asu_extra_packages || [])
