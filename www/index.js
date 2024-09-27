@@ -777,7 +777,7 @@ function insertSnapshotVersions(versions) {
       versions.push(branch);
     }
   }
-  versions.push("SNAPSHOTS");
+  versions.push("SNAPSHOT");
 }
 
 async function init() {
@@ -834,7 +834,7 @@ async function init() {
   const overview_url = config.image_url;
   const image_url = upstream_config.image_url_override || config.image_url;
   for (const version of config.versions) {
-    if (version == "SNAPSHOTS") {
+    if (version == "SNAPSHOT") {
       // openwrt.org oddity
       config.overview_urls[version] = `${overview_url}/snapshots/`;
       config.image_urls[version] = `${image_url}/snapshots/`;
