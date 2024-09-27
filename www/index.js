@@ -95,7 +95,7 @@ function buildAsuRequest(request_hash) {
       }></progress>`;
     }
 
-    status += `<span class="${tr}">${message}</span>`;
+    status += `<span class="${tr}" style='white-space: nowrap;'>${message}</span>`;
 
     $("#asu-buildstatus span").innerHTML = status;
     translate();
