@@ -2,6 +2,14 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v5.0.0 - 2024-09-28
+
+* rework code use OpenWrt profiles.json files directly,
+  this makes the code incompatible with previous versions.
+* add Filipino translation
+* add Irish translation
+* add Malayalam translation
+
 ## v4.0.6 - 2024-03-24
 
 * translation updates
