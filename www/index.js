@@ -544,6 +544,14 @@ function createExtra(image) {
   );
 }
 
+function formatDate(date) {
+  if (date) {
+    const d = Date.parse(date);
+    return new Date(d).toLocaleString();
+  }
+  return date;
+}
+
 function updateImages(mobj) {
   // remove download table
   $$("#download-table1 *").forEach((e) => e.remove());
@@ -576,7 +584,7 @@ function updateImages(mobj) {
     setValue("#image-target", mobj.target);
     setValue("#image-version", mobj.version_number);
     setValue("#image-code", mobj.version_code);
-    setValue("#image-date", mobj.build_at);
+    setValue("#image-date", formatDate(mobj.build_at));
     setValue("#image-folder", mobj.image_folder);
 
     setValue(
