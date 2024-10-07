@@ -111,7 +111,9 @@ function buildAsuRequest(request_hash) {
   var body = JSON.stringify({
     profile: current_device.id,
     target: current_device.target,
-    packages: split($("#asu-packages").value),
+    packages: split(
+      $("#asu-device-packages").value + " " + $("#asu-default-packages").value
+    ),
     defaults: $("#uci-defaults-content").value,
     version_code: $("#image-code").innerText,
     version: $("#versions").value,
@@ -642,8 +644,8 @@ function updateImages(mobj) {
       hide("#asu-log");
       hide("#asu-buildstatus");
       // Pre-select ASU packages.
-      $("#asu-packages").value = mobj.default_packages
-        .concat(mobj.device_packages)
+      $("#asu-device-packages").value = mobj.device_packages.join(" ");
+      $("#asu-default-packages").value = mobj.default_packages
         .concat(config.asu_extra_packages || [])
         .join(" ");
     }

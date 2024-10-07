@@ -353,7 +353,8 @@ header > div {
   overflow: scroll;
 }
 
-#asu-packages,
+#asu-device-packages,
+#asu-default-packages,
 #uci-defaults-content,
 #uci-defaults-group {
   resize: none;
