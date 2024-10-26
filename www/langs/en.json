@@ -39,6 +39,8 @@
     "tr-unpack-imagebuilder": "Set up ImageBuilder",
     "tr-calculate-packages-hash": "Validate package selection",
     "tr-building-image": "Generating firmware image",
+    "tr-validate-manifest": "Validate manifest",
+    "tr-container-setup": "Setup container",
     "tr-packages": "Installed Packages",
     "tr-defaults": "Script to run on first boot (uci-defaults)"
 }
