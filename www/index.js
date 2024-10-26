@@ -8,7 +8,9 @@ const ofs_version = "%GIT_VERSION%";
 
 let progress = {
   "tr-init": 10,
+  "tr-container-setup": 15,
   "tr-download-imagebuilder": 20,
+  "tr-validate-manifest": 30,
   "tr-unpack-imagebuilder": 40,
   "tr-calculate-packages-hash": 60,
   "tr-building-image": 80,
