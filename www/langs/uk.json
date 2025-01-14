@@ -40,5 +40,7 @@
     "tr-building-image": "Створення образу прошивки",
     "tr-packages": "Встановлені пакети",
     "tr-defaults": "Скрипт для запуску при першому старті (uci-defaults)",
-    "tr-latest-releases": "Останнє"
+    "tr-latest-releases": "Останнє",
+    "tr-validate-manifest": "Підтвердити маніфест",
+    "tr-container-setup": "Налаштування контейнера"
 }
