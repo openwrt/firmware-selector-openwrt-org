@@ -40,5 +40,7 @@
     "tr-calculate-packages-hash": "Zatwierdzanie wyboru pakietów",
     "tr-defaults": "Skrypt do uruchomienia przy pierwszym rozruchu (uci-defaults)",
     "tr-packages": "Zainstalowane pakiety",
-    "tr-latest-releases": "Ostatnie"
+    "tr-latest-releases": "Ostatnie",
+    "tr-container-setup": "Konfigurowanie kontenera",
+    "tr-validate-manifest": "Sprawdź poprawność manifestu"
 }
