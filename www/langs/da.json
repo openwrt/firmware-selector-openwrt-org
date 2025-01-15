@@ -40,5 +40,7 @@
     "tr-building-image": "Generering af firmware-image",
     "tr-packages": "Installerede pakker",
     "tr-defaults": "Script, der skal køres ved første opstart (uci-defaults)",
-    "tr-latest-releases": "Seneste"
+    "tr-latest-releases": "Seneste",
+    "tr-container-setup": "Opsæt container",
+    "tr-validate-manifest": "Kontroller manifest"
 }
