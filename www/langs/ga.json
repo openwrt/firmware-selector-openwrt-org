@@ -40,5 +40,7 @@
     "tr-eva-help": "Íomhá le OpenWrt agus lódóir tosaithe.",
     "tr-sysupgrade-help": "Úsáid íomhá Sysupgrade chun ródaire a ritheann OpenWrt cheana a nuashonrú. Is féidir an íomhá a úsáid le comhéadan gréasáin LuCI nó leis an teirminéal.",
     "tr-unpack-imagebuilder": "Socraigh ImageBuilder",
-    "tr-download-imagebuilder": "Íoslódáil cartlann ImageBuilder"
+    "tr-download-imagebuilder": "Íoslódáil cartlann ImageBuilder",
+    "tr-container-setup": "Socrú coimeádán",
+    "tr-validate-manifest": "Léiriú a bhailíochtú"
 }
