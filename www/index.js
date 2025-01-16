@@ -554,6 +554,16 @@ function formatDate(date) {
   return date;
 }
 
+// apply preferred order to the download buttons (sysupgrade first)
+function sortImages(images) {
+  const typePrecedence = ["sysupgrade", "factory"];
+  return images.sort((a, b) => {
+    let ap = typePrecedence.indexOf(a.type);
+    let bp = typePrecedence.indexOf(b.type);
+    return ap == -1 ? 1 : bp == -1 ? -1 : ap - bp;
+  });
+}
+
 function updateImages(mobj) {
   // remove download table
   $$("#download-table1 *").forEach((e) => e.remove());
@@ -616,7 +626,7 @@ function updateImages(mobj) {
     const extras2 = $("#download-extras2");
 
     // for desktop view
-    for (const image of mobj.images) {
+    for (const image of sortImages(mobj.images)) {
       const link = createLink(mobj, image, mobj.image_folder);
       const extra = createExtra(image);
 
@@ -626,7 +636,7 @@ function updateImages(mobj) {
     }
 
     // for mobile view
-    for (const image of mobj.images) {
+    for (const image of sortImages(mobj.images)) {
       const link = createLink(mobj, image, mobj.image_folder);
       const extra = createExtra(image);
 
