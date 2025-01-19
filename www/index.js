@@ -837,12 +837,12 @@ async function init() {
           }) >= 0
       );
 
-      if (config.show_snapshots) {
-        insertSnapshotVersions(versions);
-      }
-
       if (config.upcoming_version != "") {
         versions.push(obj.upcoming_version);
+      }
+
+      if (config.show_snapshots) {
+        insertSnapshotVersions(versions);
       }
 
       return {
