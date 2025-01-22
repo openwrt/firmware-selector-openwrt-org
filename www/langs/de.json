@@ -40,5 +40,6 @@
     "tr-building-image": "Firmware-Image wird erzeugt",
     "tr-packages": "Installierte Pakete",
     "tr-defaults": "Skript, das beim ersten Start ausgeführt werden soll (uci-defaults)",
-    "tr-latest-releases": "Neueste"
+    "tr-latest-releases": "Neueste",
+    "tr-container-setup": "Containereinrichtung"
 }
