@@ -40,5 +40,6 @@
     "tr-building-image": "A gerar a imagem de firmware",
     "tr-packages": "Pacotes instalados",
     "tr-defaults": "Script a ser executado na primeira inicialização (uci-defaults)",
-    "tr-latest-releases": "Mais recentes"
+    "tr-latest-releases": "Mais recentes",
+    "tr-container-setup": "Configurar contentor"
 }
