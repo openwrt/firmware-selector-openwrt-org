@@ -40,5 +40,7 @@
     "tr-building-image": "Generando imagen de firmware",
     "tr-packages": "Paquetes instalados",
     "tr-defaults": "Script para ejecutar en el primer arranque (uci-defaults)",
-    "tr-latest-releases": "Última"
+    "tr-latest-releases": "Última",
+    "tr-validate-manifest": "Validar manifiesto",
+    "tr-container-setup": "Configurar contenedor"
 }
