@@ -40,5 +40,7 @@
     "tr-building-image": "Kuriama programinės įrangos laikmena",
     "tr-packages": "Įdiegti paketai",
     "tr-defaults": "Skriptas skirtas pajungti per pirmąjį pajungimą (uci-defaults)",
-    "tr-latest-releases": "Naujausias/Paskiausias"
+    "tr-latest-releases": "Naujausias/Paskiausias",
+    "tr-validate-manifest": "Patikrinti manifestą",
+    "tr-container-setup": "Sąrankos konteineris"
 }
