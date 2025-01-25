@@ -41,5 +41,6 @@
     "tr-packages": "Pacotes instalados",
     "tr-defaults": "Script a ser executado na primeira inicialização (uci-defaults)",
     "tr-latest-releases": "Mais recentes",
-    "tr-container-setup": "Configurar contentor"
+    "tr-container-setup": "Configurar contentor",
+    "tr-validate-manifest": "Validar manifesto"
 }
