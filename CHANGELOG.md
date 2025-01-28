@@ -2,6 +2,13 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v5.0.1 - 2025-01-29
+
+* convert image create date to local format
+* short image links to put sysupgrade images first
+* add upcoming_version from .versions.json to version list
+* add Tamil translation
+
 ## v5.0.0 - 2024-09-28
 
 * rework code use OpenWrt profiles.json files directly,
