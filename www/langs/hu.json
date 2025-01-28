@@ -10,7 +10,7 @@
     "tr-model": "Modell",
     "tr-downloads": "Tölts le egy lemezképet",
     "tr-uboot-help": "Rendszerindító lemezkép. Alacsony szintű szoftver amely betölti az operációs rendszert korai indításkor.",
-    "tr-check-again": "Ellenőrízd újra 5 másodpercen belül…",
+    "tr-check-again": "Ellenőrizd újra 5 másodpercen belül…",
     "tr-initramfs-help": "Linux kernel minimális fájlrendszerrel. Hasznos első telepítés vagy visszaállítás során.",
     "tr-request-image": "Lemezkép kérése",
     "tr-other-help": "Más lemezkép típus.",
@@ -34,10 +34,13 @@
     "tr-links": "Linkek",
     "tr-latest-releases": "Legfrissebb",
     "tr-packages": "Installált Csomagok",
-    "tr-build-size": "A kiválasztott csomagok meghaladják a tárhelyet",
+    "tr-build-size": "A kiválasztott csomagok nem férnek rá a tárhelyre",
     "tr-defaults": "Futtatandó Script első bootolásnál (uci-defaults)",
     "tr-download-imagebuilder": "ImageBuilder csomag letöltése",
     "tr-calculate-packages-hash": "Csomag kiválasztás érvényesítése",
     "tr-unpack-imagebuilder": "ImageBuilder beállítása",
-    "tr-building-image": "Firmware kép generálása"
+    "tr-building-image": "Firmware kép generálása",
+    "tr-init": "A build kérés megérkezett",
+    "tr-validate-manifest": "Manifesztó hitelesítése",
+    "tr-container-setup": "Konténerek beállítása"
 }
