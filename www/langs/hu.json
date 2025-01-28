@@ -40,7 +40,7 @@
     "tr-calculate-packages-hash": "Csomag kiválasztás érvényesítése",
     "tr-unpack-imagebuilder": "ImageBuilder beállítása",
     "tr-building-image": "Firmware kép generálása",
-    "tr-init": "A build kérés megérkezett",
+    "tr-init": "Megszerzett építési kérelem",
     "tr-validate-manifest": "Manifesztó hitelesítése",
     "tr-container-setup": "Konténerek beállítása"
 }
