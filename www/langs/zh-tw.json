@@ -5,7 +5,7 @@
     "tr-title": "OpenWrt 韌體選擇器",
     "tr-version-build": "關於此版本",
     "tr-custom-build": "自訂版本",
-    "tr-customize": "自定義已安裝套件及/或初次啟動腳本",
+    "tr-customize": "自定義已安裝套件包及/或初次啟動指令碼",
     "tr-request-build": "要求建置",
     "tr-model": "型號",
     "tr-target": "平台",
