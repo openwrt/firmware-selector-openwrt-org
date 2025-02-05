@@ -40,5 +40,7 @@
     "tr-title": "OpenWrt — Выбор прошивки",
     "tr-packages": "Установленные пакеты",
     "tr-defaults": "Скрипт для запуска при первой загрузке (uci-defaults)",
-    "tr-latest-releases": "Последний"
+    "tr-latest-releases": "Последний",
+    "tr-validate-manifest": "Проверить манифест",
+    "tr-container-setup": "Настройка контейнера"
 }
