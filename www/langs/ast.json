@@ -26,5 +26,8 @@
     "tr-build-successful": "La compilación foi correuta",
     "tr-build-failed": "La compilación falló",
     "tr-uboot-help": "Imaxe del cargador d'arrinque. Software de nivel baxu que carga'l sistema operativu nel aniciu del arrinque.",
-    "tr-eva-help": "Imaxe con OpenWrt y un cargador d'arrinque."
+    "tr-eva-help": "Imaxe con OpenWrt y un cargador d'arrinque.",
+    "tr-latest-releases": "Lo último",
+    "tr-sysupgrade-help": "Usa una imaxe Sysupgrade p'anovar el router que yá executa OpenWRT. Pues usar la imaxe cola interfaz LuCI o cola terminal.",
+    "tr-factory-help": "Usa una imaxe de fábrica pa flaxar un router con OpenWrt per primer vegada. Normalmente, tienes de facer esta aición pela interfaz web del firmware orixinal."
 }
