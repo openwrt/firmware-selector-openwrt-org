@@ -391,7 +391,7 @@ function setupAutocompleteList(input, items, onbegin, onend) {
   };
 
   input.onkeyup = function (e) {
-    if (!e || e.key === "Enter" || e.keyCode === 13) {
+    if (e && (e.key === "Enter" || e.keyCode === 13)) {
       onend(input);
     }
   };
@@ -427,11 +427,6 @@ function setupAutocompleteList(input, items, onbegin, onend) {
   document.addEventListener("click", (e) => {
     closeAllLists(e.target);
   });
-
-  // try to match if there is an input
-  if (input.value.length) {
-    input.oninput();
-  }
 }
 
 function setValue(query, value) {
@@ -564,6 +559,10 @@ function sortImages(images) {
   });
 }
 
+function isAnyDeviceSelected() {
+  return Object.keys(current_device).length > 0;
+}
+
 function updateImages(mobj) {
   // remove download table
   $$("#download-table1 *").forEach((e) => e.remove());
@@ -671,24 +670,23 @@ function updateImages(mobj) {
     translate();
 
     // set current selection in URL
-    history.replaceState(
-      null,
-      null,
-      document.location.href.split("?")[0] +
-        "?version=" +
-        encodeURIComponent(mobj.version_number) +
-        "&target=" +
-        encodeURIComponent(mobj.target) +
-        "&id=" +
-        encodeURIComponent(mobj.id)
-    );
+    if (isAnyDeviceSelected()) {
+      history.replaceState(
+        null,
+        null,
+        document.location.href.split("?")[0] +
+          "?version=" +
+          encodeURIComponent(mobj.version_number) +
+          "&target=" +
+          encodeURIComponent(mobj.target) +
+          "&id=" +
+          encodeURIComponent(mobj.id)
+      );
+    }
 
     hide("#notfound");
     show("#images");
   } else {
-    // clear URL
-    history.replaceState(null, null, document.location.href.split("?")[0]);
-
     if ($("#models").value.length > 0) {
       show("#notfound");
     } else {
