@@ -837,7 +837,7 @@ async function init() {
           }) >= 0
       );
 
-      if (config.upcoming_version != "") {
+      if (config.upcoming_version) {
         versions.push(obj.upcoming_version);
       }
 
