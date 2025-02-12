@@ -40,5 +40,7 @@
     "tr-download-imagebuilder": "Scaricamento dell'archivio di ImageBuilder",
     "tr-packages": "Pacchetti installati",
     "tr-defaults": "Script da eseguire al primo avvio (uci-defaults)",
-    "tr-latest-releases": "Ultima"
+    "tr-latest-releases": "Ultima",
+    "tr-validate-manifest": "Convalida il manifest",
+    "tr-container-setup": "Configura il container"
 }
