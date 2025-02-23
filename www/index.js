@@ -104,7 +104,7 @@ function buildAsuRequest(request_hash) {
   }
 
   if (!current_device || !current_device.id) {
-    showStatus("bad profile");
+    showStatus("bad profile", false, "error");
     return;
   }
 
@@ -188,9 +188,7 @@ function buildAsuRequest(request_hash) {
           break;
       }
     })
-    .catch((err) => {
-      showStatus(err, false, "error");
-    });
+    .catch((err) => showStatus(err.message, false, "error"));
 }
 
 function setupSelectList(select, items, onselection) {
@@ -850,6 +848,11 @@ async function init() {
       };
     })
     .catch((err) => showAlert(err.message));
+
+  if (!upstream_config) {
+    // prevent further errors
+    return;
+  }
 
   if (!config.versions) {
     config.versions = upstream_config.versions;
