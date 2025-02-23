@@ -2,6 +2,12 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v5.0.2 - 2025-02-23
+
+* load profiles.json only once on load
+* do not change browser link on load
+* fix display of some error messages
+
 ## v5.0.1 - 2025-01-29
 
 * convert image create date to local format
