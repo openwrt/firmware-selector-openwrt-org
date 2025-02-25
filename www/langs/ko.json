@@ -38,7 +38,7 @@
     "tr-unpack-imagebuilder": "ImageBuilder 설정",
     "tr-calculate-packages-hash": "패키지 선택 유효성 검증",
     "tr-building-image": "펌웨어 이미지 생성 중",
-    "tr-latest-releases": "최근",
+    "tr-latest-releases": "최신",
     "tr-packages": "설치된 패키지",
     "tr-defaults": "초기 부팅 스크립트(uci-defaults)"
 }
