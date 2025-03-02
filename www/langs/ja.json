@@ -40,5 +40,7 @@
     "tr-init": "ビルド要求の受信",
     "tr-packages": "インストールされたパッケージ",
     "tr-defaults": "初回起動時に実行されるスクリプト (uci-defaults)",
-    "tr-latest-releases": "最新版"
+    "tr-latest-releases": "最新版",
+    "tr-validate-manifest": "マニフェストを検証する",
+    "tr-container-setup": "コンテナのセットアップ"
 }
