@@ -40,5 +40,7 @@
     "tr-tftp-help": "Ginagamit ang mga TFTP image para mag-flash ng device sa pamamagitan ng TFTP na paraan ng bootloader.",
     "tr-rootfs-help": "Root file system bilang hiwalay na image.",
     "tr-build-failed": "Nabigo ang pag-build",
-    "tr-calculate-packages-hash": "Patunayan ang piniling package"
+    "tr-calculate-packages-hash": "Patunayan ang piniling package",
+    "tr-validate-manifest": "Patunayan ang manifest",
+    "tr-container-setup": "I-set up ang container"
 }
