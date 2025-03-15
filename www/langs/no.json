@@ -30,7 +30,7 @@
     "tr-uboot-help": "Bootloader image. Low-level software which loads the operating system early on boot.",
     "tr-cpximg-help": "Use with sysupgrade in the stock firmware or with the built-in cpximg loader.",
     "tr-eva-help": "Avbildning med OpenWrt og en oppstartslaster.",
-    "tr-initramfs-help": "Linux kernel with minimal file system. Useful for first installation or recovery.",
+    "tr-initramfs-help": "Linux kernel med minimalt filsystem. Brukes ved første installering eller gjenoppretting.",
     "tr-links": "Lenker",
     "tr-unpack-imagebuilder": "Konfigurer ImageBuilder",
     "tr-build-size": "Valgte pakker overskrider lagringsplassen på enheten",
@@ -40,5 +40,7 @@
     "tr-building-image": "Genererer fastvare avbildning",
     "tr-packages": "Installerte pakker",
     "tr-defaults": "Skript som kjøres ved første oppstart (uci-defaults)",
-    "tr-latest-releases": "Siste"
+    "tr-latest-releases": "Siste",
+    "tr-validate-manifest": "Valider manifest",
+    "tr-container-setup": "Sett opp container"
 }
