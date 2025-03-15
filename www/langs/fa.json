@@ -38,7 +38,9 @@
     "tr-unpack-imagebuilder": "برپایی ImageBuilder",
     "tr-calculate-packages-hash": "تأیید گزینش بسته",
     "tr-building-image": "ایجاد کردن تصویر ثابت‌افزار",
-    "tr-packages": "بسته‌های نصب شده",
+    "tr-packages": "بسته‌های نصب شده",
     "tr-defaults": "کدنوشته برای اجرا در نخستین راه‌اندازی (uci-defaults)",
-    "tr-latest-releases": "جدیدترین"
+    "tr-latest-releases": "جدیدترین",
+    "tr-validate-manifest": "اعتبارسنجی مانیفست",
+    "tr-container-setup": "‫ظرف راه اندازی"
 }
