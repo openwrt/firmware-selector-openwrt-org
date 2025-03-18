@@ -31,14 +31,16 @@
     "tr-cpximg-help": "Feu-ho servir amb sysupgrade al microprogramari de fàbrica o amb el carregador d'imatges cpximg inclòs.",
     "tr-eva-help": "Imatge amb OpenWrt i un carregador d'arrencada.",
     "tr-initramfs-help": "Nucli de Linux amb un sistema de fitxers mínim. Útil per a la primera instal·lació o pel procés de recuperació.",
-    "tr-unpack-imagebuilder": "Configurar ImageBuilder",
+    "tr-unpack-imagebuilder": "S'està configurant l'ImageBuilder",
     "tr-packages": "Paquets instal·lats",
     "tr-defaults": "Script que s'executarà durant la primera arrencada (uci-defaults)",
     "tr-links": "Enllaços",
     "tr-build-size": "Els paquets seleccionats excedeixen la capacitat d'emmagatzematge del dispositiu",
     "tr-init": "S'ha rebut la petició de compilació",
-    "tr-calculate-packages-hash": "Validar la selecció de paquets",
+    "tr-calculate-packages-hash": "S'està validant la selecció de paquets",
     "tr-building-image": "S'està generant la imatge del microprogramari",
     "tr-download-imagebuilder": "S'està descarregant l'arxiu ImageBuilder",
-    "tr-latest-releases": "Última"
+    "tr-latest-releases": "Última",
+    "tr-container-setup": "S'està preparant el contenidor",
+    "tr-validate-manifest": "S'està validant el manifest"
 }
