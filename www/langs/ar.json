@@ -40,5 +40,7 @@
     "tr-building-image": "إنشاء firmware image",
     "tr-packages": "الحزم المثبتة",
     "tr-defaults": "البرنامج النصي المراد تشغيله عند التمهيد الأول (uci - defaults)",
-    "tr-latest-releases": "الأحدث"
+    "tr-latest-releases": "الأحدث",
+    "tr-validate-manifest": "التحقق من صحة البيان",
+    "tr-container-setup": "إعداد الحاوية"
 }
