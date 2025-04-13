@@ -40,5 +40,6 @@
     "tr-init": "Přijatá žádost o sestavení",
     "tr-download-imagebuilder": "Stahování archivu ImageBuilder",
     "tr-factory-help": "K prvnímu nahrání OpenWrt do routeru použijte tovární (Factory) obraz. Obvykle tak učiníte prostřednictvím webového rozhraní původního firmwaru.",
-    "tr-latest-releases": "Nejnovější"
+    "tr-latest-releases": "Nejnovější",
+    "tr-container-setup": "Nastavit kontejner"
 }
