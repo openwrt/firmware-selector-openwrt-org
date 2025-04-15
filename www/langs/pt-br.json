@@ -39,6 +39,7 @@
     "tr-download-imagebuilder": "Baixando o arquivo do ImageBuilder",
     "tr-calculate-packages-hash": "Valida a seleção do pacote",
     "tr-packages": "Pacotes instalados",
-    "tr-defaults": "Script para rodar na primeira inicialização (uci-defaults)",
-    "tr-latest-releases": "Mais recente"
+    "tr-defaults": "Script para executar na primeira inicialização (uci-defaults)",
+    "tr-latest-releases": "Mais recente",
+    "tr-validate-manifest": "Validar manifesto"
 }
