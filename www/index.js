@@ -97,7 +97,7 @@ function buildAsuRequest(request_hash) {
       }></progress>`;
     }
 
-    status += `<span class="${tr}" style='white-space: nowrap;'>${message}</span>`;
+    status += `<span class="${tr}">${message}</span>`;
 
     $("#asu-buildstatus span").innerHTML = status;
     translate();
@@ -169,7 +169,10 @@ function buildAsuRequest(request_hash) {
         case 422: // bad package
         case 500: // build failed
           response.json().then((mobj) => {
-            if ("stderr" in mobj) {
+            if ("error" in mobj) {
+              showStatus(mobj.error, false, "error");
+              return;
+            } else if ("stderr" in mobj) {
               $("#asu-stderr").innerText = mobj.stderr;
               $("#asu-stdout").innerText = mobj.stdout;
               show("#asu-log");
