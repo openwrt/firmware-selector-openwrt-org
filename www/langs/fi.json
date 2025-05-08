@@ -32,5 +32,15 @@
     "tr-defaults": "Ensimmäisellä käynnistyksellä suoritettava komentosarja (uci-defaults)",
     "tr-tftp-help": "TFTP-tiedostoja käytetään firmwaren asentamiseen käynnistyslataajan (bootloader) TFTP-toiminnon kautta.",
     "tr-sysupgrade-help": "Käytä \"Sysupgrade\"-tiedostoa päivitykseen laitteella jossa on jo OpenWrt käytössä. Sysupgrade-tiedoston voi ladata LuCI-käyttöliittymässä tai pääte-emulaattorilla.",
-    "tr-building-image": "Luodaan laiteohjelmiston levykuvaa"
+    "tr-building-image": "Luodaan laiteohjelmiston levykuvaa",
+    "tr-dtb-help": "Laitepuu-blob. Tämä tiedosto määrittää Linux-kernelin laitteistoa varten.",
+    "tr-uboot-help": "Käynnistyslataimen kuva. Matalatasoinen ohjelmisto, joka lataa käyttöjärjestelmän varhain käynnistyksen yhteydessä.",
+    "tr-cpximg-help": "Käytä sysupgraden kanssa vakiolaiteohjelmistossa tai sisäänrakennettua cpximg-lataajan kanssa.",
+    "tr-init": "Vastaanotettu koodikoonnuspyyntö",
+    "tr-validate-manifest": "Vahvista manifesti",
+    "tr-container-setup": "Aseta kontti",
+    "tr-unpack-imagebuilder": "Aseta ImageBuilder",
+    "tr-calculate-packages-hash": "Vahvista pakettivalinta",
+    "tr-download-imagebuilder": "Ladataan ImageBuilder-arkisto",
+    "tr-factory-help": "Käytä tehdaskuvaa flash-toiminnan toteuttamiseksi OpenWrtilla ensimmäistä kertaa reitittimeen. Yleensä tämä tehdään alkuperäisen laiteohjelmiston verkkokäyttöliittymän kautta."
 }
