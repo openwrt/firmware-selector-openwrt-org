@@ -152,7 +152,7 @@ function buildAsuRequest(request_hash) {
             showStatus("tr-build-successful", false, "info");
             mobj["id"] = current_device.id;
             mobj["asu_image_url"] = config.asu_url + "/store/" + mobj.bin_dir;
-            updateImages(mobj);
+            updateImages(mobj.version_number, mobj);
           });
           break;
         case 202:
@@ -564,7 +564,7 @@ function isAnyDeviceSelected() {
   return Object.keys(current_device).length > 0;
 }
 
-function updateImages(mobj) {
+function updateImages(version, mobj) {
   // remove download table
   $$("#download-table1 *").forEach((e) => e.remove());
   $$("#download-links2 *").forEach((e) => e.remove());
@@ -575,7 +575,7 @@ function updateImages(mobj) {
       // ASU override
       mobj.image_folder = mobj.asu_image_url;
     } else {
-      const base_url = config.image_urls[mobj.version_number];
+      const base_url = config.image_urls[version];
       mobj.image_folder = `${base_url}/targets/${mobj.target}`;
     }
 
@@ -730,7 +730,7 @@ function changeModel(version, overview, title) {
         mobj["images"] = mobj["profiles"][entry.id]["images"];
         mobj["titles"] = mobj["profiles"][entry.id]["titles"];
         mobj["device_packages"] = mobj["profiles"][entry.id]["device_packages"];
-        updateImages(mobj);
+        updateImages(version, mobj);
         current_device = {
           version: version,
           id: entry.id,
