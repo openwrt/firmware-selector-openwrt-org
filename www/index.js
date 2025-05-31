@@ -827,13 +827,9 @@ async function init() {
       }
     })
     .then((obj) => {
+      const unsupported_versions_re = /^(19\.07\.\d|18\.06\.\d|17\.01\.\d)$/;
       const versions = obj.versions_list.filter(
-        (version) =>
-          // 19.07.4 is the first version supporting JSON profiles
-          version.localeCompare("19.07.4", undefined, {
-            numeric: true,
-            sensitivity: "base",
-          }) >= 0
+        (version) => !unsupported_versions_re.test(version)
       );
 
       if (config.upcoming_version) {
