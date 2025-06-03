@@ -2,6 +2,12 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v5.0.3 - 2025-06-02
+
+* fixes for custom versions
+* add Hindi translation
+* add Marathi translation
+
 ## v5.0.2 - 2025-02-23
 
 * load profiles.json only once on load
