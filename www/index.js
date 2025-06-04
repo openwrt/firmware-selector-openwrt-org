@@ -169,24 +169,24 @@ function buildAsuRequest(request_hash) {
         case 422: // bad package
         case 500: // build failed
           response.json().then((mobj) => {
-            if ("error" in mobj) {
-              showStatus(mobj.error, false, "error");
-              return;
-            } else if ("stderr" in mobj) {
+            if ("stderr" in mobj) {
               $("#asu-stderr").innerText = mobj.stderr;
               $("#asu-stdout").innerText = mobj.stdout;
               show("#asu-log");
-
-              if (mobj["stderr"].includes("images are too big")) {
-                showStatus("tr-build-size", false, "error");
-                return;
-              }
             } else {
               hide("#asu-log");
             }
 
-            let status = mobj["detail"] || "tr-build-failed";
-            showStatus(status, false, "error");
+            if ("detail" in mobj) {
+              showStatus(mobj["detail"], false, "error");
+            } else if (
+              "stderr" in mobj &&
+              mobj["stderr"].includes("images are too big")
+            ) {
+              showStatus("tr-build-size", false, "error");
+            } else {
+              showStatus("tr-build-failed", false, "error");
+            }
           });
           break;
       }
