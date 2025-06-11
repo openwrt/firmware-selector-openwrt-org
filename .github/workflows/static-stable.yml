@@ -1,0 +1,49 @@
+name: Deploy static content to OpenWrt Download Server
+
+on:
+  push:
+    branches: ["stable"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages-stable"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install rsync
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rsync
+
+      - name: Setup config.json
+        run: |
+          cd www/
+          sed -i "s;%GIT_VERSION%;$(git describe --tags);" index.js
+          sed -i 's;image_url: "../misc",;image_url: "https://downloads.openwrt.org",;' config.js
+          sed -i "s;  //show_snapshots;  show_snapshots;" config.js
+          sed -i "s;  versions;  //  versions;" config.js
+
+      - name: Upload using rsync
+        run: |
+          echo ${{ secrets.RSYNC_PASSWORD }} > ~/.rsync_password
+          chmod 600 ~/.rsync_password
+          rsync -av --password-file=~/.rsync_pass www/ ${{ secrets.RSYNC_USER }}@mirror-03.infra.openwrt.org::firmware_selector/
