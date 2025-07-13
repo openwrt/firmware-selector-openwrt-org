@@ -39,5 +39,6 @@
     "tr-init": "Réception de la demande de construction",
     "tr-unpack-imagebuilder": "Configurer ImageBuilder",
     "tr-packages": "Paquets installés",
-    "tr-defaults": "Script à exécuter au premier démarrage (uci-defaults)"
+    "tr-defaults": "Script à exécuter au premier démarrage (uci-defaults)",
+    "tr-latest-releases": "Dernier"
 }
