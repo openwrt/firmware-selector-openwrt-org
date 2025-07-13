@@ -14,7 +14,7 @@
     "tr-downloads": "Descargar una imagen",
     "tr-custom-downloads": "Descargas personalizadas",
     "tr-factory-help": "Utilice una imagen factory para instalar OpenWrt en un enrutador por primera vez. Normalmente se hace a través de la interfaz web del firmware original.",
-    "tr-sysupgrade-help": "Utilice una imagen sysupgrade para actualizar un enrutador que ya ejecuta OpenWrt. La imagen se puede utilizar con la interfaz web LuCI o desde el terminal.",
+    "tr-sysupgrade-help": "Utilice una imagen sysupgrade para actualizar un enrutador que ya ejecuta OpenWrt. La imagen se puede utilizar con la interfaz web LuCI o desde la terminal.",
     "tr-kernel-help": "Kernel de Linux como una imagen separada.",
     "tr-rootfs-help": "Sistema de archivos raíz como una imagen separada.",
     "tr-sdcard-help": "Imagen hecha para escribir en una tarjeta SD.",
