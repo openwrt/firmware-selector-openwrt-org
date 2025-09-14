@@ -165,9 +165,7 @@ function buildAsuRequest(request_hash) {
             setTimeout(buildAsuRequest.bind(null, mobj.request_hash), 5000);
           });
           break;
-        case 400: // bad request
-        case 422: // bad package
-        case 500: // build failed
+        default: // Anything else is considered an error.
           response.json().then((mobj) => {
             if ("stderr" in mobj) {
               $("#asu-stderr").innerText = mobj.stderr;
