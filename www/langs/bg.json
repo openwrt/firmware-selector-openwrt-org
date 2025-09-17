@@ -13,7 +13,7 @@
     "tr-request-image": "Заявяване на образ",
     "tr-check-again": "Опитайте след 5 секунди…",
     "tr-download-imagebuilder": "Изтегляне архив на ImageBuilder",
-    "tr-unpack-imagebuilder": "Настройка на ImageBuilder",
+    "tr-unpack-imagebuilder": "Настройване на ImageBuilder",
     "tr-calculate-packages-hash": "Проверяване на избраните пакети",
     "tr-packages": "Инсталирани пакети",
     "tr-defaults": "Скрипт, който да бъде изпълнен при първо стартиране (uci-defaults)",
@@ -38,9 +38,9 @@
     "tr-build-failed": "Грешка при създаване на образа",
     "tr-rootfs-help": "Коренова файлова система като отделен образ.",
     "tr-build-size": "Избраните пакети надвишават обема на паметта на устройството",
-    "tr-init": "Получена заявка за образ",
+    "tr-init": "Заявката за образ е получена",
     "tr-building-image": "Създаване на образ",
     "tr-initramfs-help": "Ядро на Линукс с минимална файлова система. Полезно за първа инсталация или възстановяване.",
     "tr-validate-manifest": "Проверяване на манифеста",
-    "tr-container-setup": "Настройка на контейнер"
+    "tr-container-setup": "Настройване на контейнер"
 }
