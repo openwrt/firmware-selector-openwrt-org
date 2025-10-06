@@ -2,6 +2,13 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v5.0.4 - 2025-10-06
+
+* ASU: handle all non-200 requests as errors
+* ASU: improve error handling
+* split Serbian translation into latin and cyrillic
+* add Thai translation
+
 ## v5.0.3 - 2025-06-02
 
 * fixes for custom versions
