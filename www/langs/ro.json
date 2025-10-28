@@ -40,5 +40,7 @@
     "tr-building-image": "Generarea imaginii firmware",
     "tr-packages": "Pachete instalate",
     "tr-defaults": "Script de executat la prima pornire (uci-defaults)",
-    "tr-latest-releases": "Cea mai recentă"
+    "tr-latest-releases": "Cea mai recentă",
+    "tr-validate-manifest": "Validați manifestul",
+    "tr-container-setup": "Configurați containerul"
 }
