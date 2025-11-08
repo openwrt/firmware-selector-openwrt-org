@@ -1,10 +1,10 @@
 {
     "tr-feedback-link": "フィードバック",
-    "tr-server-link": "全てのダウンロード",
+    "tr-server-link": "すべてのダウンロード",
     "tr-custom-build": "カスタムビルド",
     "tr-customize": "インストールされたパッケージ、初回起動時のスクリプトのカスタマイズ",
     "tr-request-build": "ビルドをリクエスト",
-    "tr-not-found": "モデルが見つかりませんでした！",
+    "tr-not-found": "モデルが見つかりませんでした!",
     "tr-load": "デバイス用のOpenWrtファームウェアをダウンロード",
     "tr-message": "名前またはモデル名を入力し、リリースビルドまたは \"snapshot\" ビルドを選択します。",
     "tr-version-build": "このビルドについて",
@@ -28,7 +28,7 @@
     "tr-request-image": "イメージをリクエスト",
     "tr-build-size": "選択されたパッケージはデバイスのストレージを超過しています",
     "tr-build-failed": "ビルド失敗",
-    "tr-title": "OpenWrt ファームウェアセレクタ",
+    "tr-title": "OpenWrt ファームウェア セレクター",
     "tr-custom-downloads": "カスタムダウンロード",
     "tr-cpximg-help": "純正ファームウェアのsysupgrade、または内蔵のcpximg loaderで使用します。",
     "tr-eva-help": "OpenWrtとブートローダーのイメージ。",
@@ -41,6 +41,6 @@
     "tr-packages": "インストールされたパッケージ",
     "tr-defaults": "初回起動時に実行されるスクリプト (uci-defaults)",
     "tr-latest-releases": "最新版",
-    "tr-validate-manifest": "マニフェストを検証する",
+    "tr-validate-manifest": "マニフェストを検証",
     "tr-container-setup": "コンテナのセットアップ"
 }
