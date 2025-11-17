@@ -31,5 +31,16 @@
     "tr-building-image": "กำลังสร้างอิมเมจเฟิร์มแวร์",
     "tr-validate-manifest": "ตรวจสอบ manifest",
     "tr-container-setup": "ตั้งค่า container",
-    "tr-custom-build": "build ที่สร้างเอง"
+    "tr-custom-build": "build ที่สร้างเอง",
+    "tr-custom-downloads": "การดาวน์โหลดแบบกำหนดเอง",
+    "tr-dtb-help": "บลอบแผนผังอุปกรณ์",
+    "tr-uboot-help": "อิมเมจ Bootloader",
+    "tr-cpximg-help": "ใช้กับ sysupgrade ในเฟริมแวร์ดั้งเดิมหรือใช้กับโปรแกรมบรรจุ cpximg ในตัว",
+    "tr-factory-help": "ใช้อิมเมจโรงงานเพื่อแฟลช OpenWrt กับเราเตอร์ในครั้งแรก ปกติจะแฟลชในส่วนต่อประสานเว็บของเราเตอร์ของเฟริมแวร์ดั้งเดิม",
+    "tr-sysupgrade-help": "ใช้อิมเมจ sysupgrade เพื่ออัพเดตเราเตอร์ที่มี OpenWrt อยู่แล้ว อิมเมจนี้สามารถใช้ได้กับส่วนประสานเว็บ LuCI หรือเทอมินอล",
+    "tr-kernel-help": "เคอร์เนล Linux เป็นอิมเมจแยก",
+    "tr-initramfs-help": "เคอร์เนล Linux กับระบบไฟล์ที่เล็กน้อย มีประโยชน์สำหรับการติดตั้งครั้งแรกหรือการกู้คืน",
+    "tr-rootfs-help": "ระบบไฟล์ Root เป็นอิมเมจแยก",
+    "tr-sdcard-help": "อิมเมจที่ควรจะแฟลชใน SD-Card",
+    "tr-tftp-help": "อิมเมจ TFTP ถูกใช้ในการแฟลชเครื่องโดยผ่านวิธี TFTP ของ Bootloader"
 }
