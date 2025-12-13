@@ -1,5 +1,5 @@
 {
-    "tr-load": "Télécharger le firmware OpenWrt pour votre périphérique",
+    "tr-load": "Télécharger le micrologiciel OpenWrt pour votre périphérique",
     "tr-title": "Sélecteur de Firmware",
     "tr-message": "Saisissez le nom ou le modèle de votre appareil, puis sélectionnez une version stable ou la version nocturne \"snapshot\".",
     "tr-version-build": "Build",
