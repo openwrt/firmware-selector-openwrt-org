@@ -1,7 +1,7 @@
 {
     "tr-server-link": "Toate Descărcările",
     "tr-not-found": "Nu s-a găsit niciun model!",
-    "tr-title": "Selector de firmware OpenWrt",
+    "tr-title": "Alege firmware-ul OpenWrt",
     "tr-message": "Introduceți numele sau modelul dispozitivului dvs., apoi selectați o versiune stabilă sau o versiune nightly \"snapshot\".",
     "tr-version-build": "Despre această compilare",
     "tr-custom-build": "Compilare personalizată",
