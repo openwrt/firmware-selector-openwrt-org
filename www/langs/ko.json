@@ -40,5 +40,7 @@
     "tr-building-image": "펌웨어 이미지 생성 중",
     "tr-latest-releases": "최신",
     "tr-packages": "설치된 패키지",
-    "tr-defaults": "초기 부팅 스크립트(uci-defaults)"
+    "tr-defaults": "초기 부팅 스크립트(uci-defaults)",
+    "tr-validate-manifest": "매니페스트 검증",
+    "tr-container-setup": "컨테이너 설정"
 }
