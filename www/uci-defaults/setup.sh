@@ -5,7 +5,12 @@
 # wlan_password="12345678"
 #
 # root_password=""
+#
+# For 24.10 and earlier, the 'netmask' will default to '255.255.255.0':
 # lan_ip_address="192.168.1.1"
+#
+# But, make sure to use CIDR notation for 25.12 and later:
+# lan_ip_address="192.168.1.1/24"
 #
 # pppoe_username=""
 # pppoe_password=""
