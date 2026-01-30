@@ -21,7 +21,7 @@
     "tr-target": "Platform",
     "tr-eva-help": "Lemezkép OpenWrt-el és egy rendszerindítóval.",
     "tr-version-build": "Erről a kiadásról",
-    "tr-custom-build": "Testreszabott kiadások",
+    "tr-custom-build": "Egyéni kiadás",
     "tr-dtb-help": "Eszközfa blob. Ez a fájl beállítja a Linux kernelt a hardvernek megfelelően.",
     "tr-request-build": "KIADÁS KÉRÉSE",
     "tr-cpximg-help": "Használd sysupgrade-el az alap firmware-ben vagy a beépített cpximg betöltővel.",
