@@ -21,5 +21,5 @@ var config = {
 
   // Attended Sysupgrade Server support (optional)
   asu_url: "https://sysupgrade.openwrt.org",
-  asu_extra_packages: ["luci"],
+  asu_extra_packages: ["luci", "luci-app-attendedsysupgrade"],
 };
