@@ -35,6 +35,7 @@
     "tr-check-again": "Check again in 5 seconds…",
     "tr-build-size": "Selected packages exceed device storage",
     "tr-init": "Received build request",
+    "tr-queued": "Request is in build queue",
     "tr-download-imagebuilder": "Downloading ImageBuilder archive",
     "tr-unpack-imagebuilder": "Set up ImageBuilder",
     "tr-calculate-packages-hash": "Validate package selection",

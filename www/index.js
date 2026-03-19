@@ -7,7 +7,8 @@ let url_params = undefined;
 const ofs_version = "%GIT_VERSION%";
 
 let progress = {
-  "tr-init": 10,
+  "tr-init": 5,
+  "tr-queued": 10,
   "tr-container-setup": 15,
   "tr-download-imagebuilder": 20,
   "tr-validate-manifest": 30,
@@ -158,10 +159,15 @@ function buildAsuRequest(request_hash) {
         case 202:
           response.json().then((mobj) => {
             showStatus(
-              `tr-${mobj.imagebuilder_status || "init"}`,
+              `tr-${mobj.detail || mobj.imagebuilder_status || "init"}`,
               true,
               "info"
             );
+            if (mobj.detail && mobj.queue_position) {
+              $(
+                "#asu-buildstatus span"
+              ).innerText += ` (${mobj.queue_position})`;
+            }
             setTimeout(buildAsuRequest.bind(null, mobj.request_hash), 5000);
           });
           break;
