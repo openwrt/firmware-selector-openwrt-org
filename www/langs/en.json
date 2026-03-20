@@ -34,6 +34,7 @@
     "tr-request-image": "Request image",
     "tr-check-again": "Check again in 5 seconds…",
     "tr-build-size": "Selected packages exceed device storage",
+    "tr-started": "Build started",
     "tr-init": "Received build request",
     "tr-queued": "Request is in build queue",
     "tr-download-imagebuilder": "Downloading ImageBuilder archive",
