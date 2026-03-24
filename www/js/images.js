@@ -19,7 +19,7 @@ export function getModelTitles(titles) {
   });
 }
 
-function getHelpTextClass(image) {
+export function getHelpTextClass(image) {
   const type = image.type;
   const name = image.name;
 
@@ -53,7 +53,7 @@ function getHelpTextClass(image) {
   return "tr-other-help";
 }
 
-function commonPrefix(array) {
+export function commonPrefix(array) {
   const A = array.sort();
   const a1 = A[0];
   const a2 = A[A.length - 1];
@@ -62,7 +62,7 @@ function commonPrefix(array) {
   return a1.slice(0, i);
 }
 
-function getNameDifference(images, image) {
+export function getNameDifference(images, image) {
   function ar(e) {
     return e.name.split("-");
   }
@@ -101,7 +101,7 @@ function createExtra(image, config) {
   );
 }
 
-function sortImages(images) {
+export function sortImages(images) {
   const typePrecedence = ["sysupgrade", "factory"];
   return images.sort((a, b) => {
     const ap = typePrecedence.indexOf(a.type);

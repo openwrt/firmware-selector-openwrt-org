@@ -60,6 +60,26 @@ If the option is not available (OpenWrt 18.06 or 19.07.3), apply commit [openwrt
 
 The Firmware Selector allows to define a script to be placed in the `/etc/uci-defaults/` folder of the OpenWrt image. These scripts are executed once on the first reboot and then deleted. See the [OpenWrt documentation](https://openwrt.org/docs/guide-developer/uci-defaults) on this topic.
 
+## Testing
+
+Run JavaScript unit tests (requires Node.js 18+):
+
+```
+node --test 'tests/js/*.test.js'
+```
+
+Or via yarn:
+
+```
+yarn run test:unit
+```
+
+With test coverage:
+
+```
+yarn run test:coverage
+```
+
 ## Translations
 
 Visit [weblate.org](https://hosted.weblate.org/projects/openwrt/firmware-wizard/) to contribute new translations or to improve them.
