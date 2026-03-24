@@ -18,7 +18,7 @@ Configure with [config.js](www/config.js).
 Steps:
 
 1. Place the `www/` folder somewhere web accessible.
-2. Set `image_url` in `www/config.json` to where the images are located.  
+2. Set `image_url` in `www/config.js` to where the images are located.  
    Example: https://downloads.openwrt.org
 3. Organize the images like on [downloads.openwrt.org](https://downloads.openwrt.org).  
    Example: https://downloads.openwrt.org/releases/23.05.4/targets/ramips/mt7621/openwrt-23.05.4-ramips-mt7621-dlink_dir-1935-a1-squashfs-sysupgrade.bin  
