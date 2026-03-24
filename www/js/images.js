@@ -15,7 +15,13 @@ export function getModelTitles(titles) {
     if (e.title) {
       return e.title;
     }
-    return ((e.vendor || "") + " " + (e.model || "") + " " + (e.variant || "")).trim();
+    return (
+      (e.vendor || "") +
+      " " +
+      (e.model || "") +
+      " " +
+      (e.variant || "")
+    ).trim();
   });
 }
 
@@ -96,7 +102,9 @@ function createExtra(image, config) {
       (config.show_help
         ? `<div class="help-content ${getHelpTextClass(image)}"></div>`
         : "") +
-      (image.sha256 ? `<div class="hash-content">sha256sum: ${image.sha256}</div>` : "") +
+      (image.sha256
+        ? `<div class="hash-content">sha256sum: ${image.sha256}</div>`
+        : "") +
       "</td>"
   );
 }
@@ -192,7 +200,9 @@ export function updateImages(version, mobj, context) {
       hide(extra);
 
       link.onmouseover = function () {
-        links2.childNodes.forEach((e) => e.firstChild.classList.remove("download-link-hover"));
+        links2.childNodes.forEach((e) =>
+          e.firstChild.classList.remove("download-link-hover")
+        );
         link.firstChild.classList.add("download-link-hover");
 
         extras2.childNodes.forEach((e) => hide(e));

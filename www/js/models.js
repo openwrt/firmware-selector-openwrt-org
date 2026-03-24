@@ -120,9 +120,14 @@ export function setupUciDefaults() {
 
 export function setupProfilesAutocomplete(version, obj, context) {
   const { updateImages, changeModelContext } = context;
-  setupAutocompleteList($("#models"), Object.keys(obj.profiles), updateImages, (selectList) => {
-    changeModel(version, obj, selectList.value, changeModelContext);
-  });
+  setupAutocompleteList(
+    $("#models"),
+    Object.keys(obj.profiles),
+    updateImages,
+    (selectList) => {
+      changeModel(version, obj, selectList.value, changeModelContext);
+    }
+  );
 }
 
 export function normalizeOverviewProfiles(obj) {
@@ -145,7 +150,9 @@ export function normalizeOverviewProfiles(obj) {
   for (const profile of obj.profiles) {
     for (const title of getModelTitles(profile.titles)) {
       if (title.length === 0) {
-        console.warn(`Empty device title for model id: ${profile.target}, ${profile.id}`);
+        console.warn(
+          `Empty device title for model id: ${profile.target}, ${profile.id}`
+        );
         continue;
       }
 

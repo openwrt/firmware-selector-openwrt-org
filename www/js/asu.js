@@ -2,7 +2,8 @@ import { $, $$, hide, show, split } from "./utils.js";
 import { translate } from "./translation.js";
 
 export function createAsuRequestBuilder(context) {
-  const { config, progress, ofsVersion, getCurrentDevice, updateImages } = context;
+  const { config, progress, ofsVersion, getCurrentDevice, updateImages } =
+    context;
 
   function showStatus(message, loading, type) {
     const bs = $("#asu-buildstatus");
@@ -25,7 +26,9 @@ export function createAsuRequestBuilder(context) {
     const tr = message.startsWith("tr-") ? message.replaceAll("_", "-") : "";
     let status = "";
     if (loading) {
-      status += `<progress style='margin-right: 10px;' max='100' value=${progress[tr] || ""}></progress>`;
+      status += `<progress style='margin-right: 10px;' max='100' value=${
+        progress[tr] || ""
+      }></progress>`;
     }
     status += `<span class="${tr}">${message}</span>`;
     $("#asu-buildstatus span").innerHTML = status;
@@ -97,7 +100,9 @@ export function createAsuRequestBuilder(context) {
                 "info"
               );
               if (mobj.detail && mobj.queue_position) {
-                $("#asu-buildstatus span").innerText += ` (${mobj.queue_position})`;
+                $(
+                  "#asu-buildstatus span"
+                ).innerText += ` (${mobj.queue_position})`;
               }
               setTimeout(buildAsuRequest.bind(null, mobj.request_hash), 5000);
             });
@@ -114,7 +119,10 @@ export function createAsuRequestBuilder(context) {
 
               if ("detail" in mobj) {
                 showStatus(mobj.detail, false, "error");
-              } else if ("stderr" in mobj && mobj.stderr.includes("images are too big")) {
+              } else if (
+                "stderr" in mobj &&
+                mobj.stderr.includes("images are too big")
+              ) {
                 showStatus("tr-build-size", false, "error");
               } else {
                 showStatus("tr-build-failed", false, "error");
