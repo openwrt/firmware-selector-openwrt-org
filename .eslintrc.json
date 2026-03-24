@@ -8,5 +8,13 @@
     "sourceType": "module"
   },
   "extends": ["eslint:recommended", "prettier"],
-  "ignorePatterns": ["**/langs/*.json"]
+  "ignorePatterns": ["**/langs/*.json"],
+  "overrides": [
+    {
+      "files": ["www/config.js"],
+      "parserOptions": {
+        "sourceType": "script"
+      }
+    }
+  ]
 }
