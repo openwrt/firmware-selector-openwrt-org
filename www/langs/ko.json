@@ -42,5 +42,7 @@
     "tr-packages": "설치 패키지",
     "tr-defaults": "초기 부팅 스크립트 (uci-defaults)",
     "tr-validate-manifest": "매니페스트 검증",
-    "tr-container-setup": "컨테이너 설정"
+    "tr-container-setup": "컨테이너 설정",
+    "tr-started": "빌드 시작됨",
+    "tr-queued": "빌드 대기열에 요청 추가됨"
 }

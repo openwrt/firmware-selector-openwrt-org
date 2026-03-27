@@ -8,7 +8,7 @@
     "tr-version-build": "Informacje o obrazie",
     "tr-custom-build": "Informacje o zmodyfikowanym obrazie",
     "tr-customize": "Dostosuj zainstalowane pakiety i/lub skrypt pierwszego rozruchu",
-    "tr-request-build": "ŻĄDANIE BUDOWY",
+    "tr-request-build": "ŻĄDANIE KOMPILOWANIA",
     "tr-model": "Model",
     "tr-target": "Platforma",
     "tr-version": "Wersja",
@@ -27,8 +27,8 @@
     "tr-sdcard-help": "Obraz do wgrania na kartę SD.",
     "tr-tftp-help": "Obraz TFTP służący do aktualizacji urządzenia z wykorzystaniem metody TFTP bootloadera.",
     "tr-other-help": "Inny typ obrazu.",
-    "tr-build-successful": "Budowanie zakończone pomyślnie",
-    "tr-build-failed": "Budowanie zakończone niepomyślnie",
+    "tr-build-successful": "Kompilowanie zakończone pomyślnie",
+    "tr-build-failed": "Kompilowanie zakończone niepomyślnie",
     "tr-request-image": "Żądanie obrazu",
     "tr-check-again": "Sprawdź ponownie za 5 sekund…",
     "tr-links": "Linki",
@@ -42,5 +42,7 @@
     "tr-packages": "Zainstalowane pakiety",
     "tr-latest-releases": "Ostatnie",
     "tr-container-setup": "Konfigurowanie kontenera",
-    "tr-validate-manifest": "Sprawdzanie poprawności manifestu"
+    "tr-validate-manifest": "Sprawdzanie poprawności manifestu",
+    "tr-started": "Rozpoczęto kompilowanie",
+    "tr-queued": "Żądanie znajduje się w kolejce kompilacji"
 }

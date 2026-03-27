@@ -42,5 +42,7 @@
     "tr-defaults": "Скрипт для запуска при первой загрузке (uci-defaults)",
     "tr-latest-releases": "Последний",
     "tr-validate-manifest": "Проверить манифест",
-    "tr-container-setup": "Настройка контейнера"
+    "tr-container-setup": "Настройка контейнера",
+    "tr-started": "Сборка начата",
+    "tr-queued": "Запрос в очереди на сборку"
 }

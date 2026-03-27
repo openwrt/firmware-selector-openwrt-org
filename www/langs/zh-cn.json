@@ -42,5 +42,7 @@
     "tr-defaults": "首次启动时运行的脚本（uci-defaults）",
     "tr-latest-releases": "最新",
     "tr-validate-manifest": "验证清单",
-    "tr-container-setup": "设置容器"
+    "tr-container-setup": "设置容器",
+    "tr-started": "开始构建",
+    "tr-queued": "请求位于构建队列中"
 }
