@@ -42,5 +42,7 @@
     "tr-defaults": "Script para ejecutar en el primer arranque (uci-defaults)",
     "tr-latest-releases": "Última",
     "tr-validate-manifest": "Validar manifiesto",
-    "tr-container-setup": "Configurar contenedor"
+    "tr-container-setup": "Configurar contenedor",
+    "tr-started": "Construcción iniciada",
+    "tr-queued": "Solicitud está en la cola de construcción"
 }
