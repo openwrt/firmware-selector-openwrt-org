@@ -5,23 +5,25 @@ on:
     paths:
       - ".github/workflows/*"
       - "www/**"
+      - "tests/**"
   pull_request:
     paths:
       - ".github/workflows/*"
       - "www/**"
+      - "tests/**"
 
 jobs:
   Test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Validate HTML
         uses: anishathalye/proof-html@v2
         with:
           directory: www/
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 20
 
@@ -30,8 +32,19 @@ jobs:
           yarn prettier --check www
           yarn eslint www/
 
+      - name: Run unit tests with coverage
+        run: node --test --experimental-test-coverage 'tests/js/*.test.js' | tee /tmp/test-results.txt
+
+      - name: Add coverage to build summary
+        if: always()
+        run: |
+          echo '### Unit Test Coverage' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          awk '/start of coverage report/{p=1;next}/end of coverage report/{p=0}p' /tmp/test-results.txt | sed 's/^ℹ //' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -46,7 +59,7 @@ jobs:
       - name: Run your tests
         run: pytest --tracing=retain-on-failure --simplehttpserver-directory ./
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: playwright-traces

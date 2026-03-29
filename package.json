@@ -1,4 +1,9 @@
 {
+  "type": "module",
+  "scripts": {
+    "test:unit": "node --test 'tests/js/*.test.js'",
+    "test:coverage": "node --test --experimental-test-coverage 'tests/js/*.test.js'"
+  },
   "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
