@@ -42,5 +42,7 @@
     "tr-unpack-imagebuilder": "Socraigh ImageBuilder",
     "tr-download-imagebuilder": "Íoslódáil cartlann ImageBuilder",
     "tr-container-setup": "Socrú coimeádán",
-    "tr-validate-manifest": "Léiriú a bhailíochtú"
+    "tr-validate-manifest": "Léiriú a bhailíochtú",
+    "tr-started": "Thosaigh an tógáil",
+    "tr-queued": "Tá an t-iarratas sa scuaine tógála"
 }
