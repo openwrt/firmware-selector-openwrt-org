@@ -2,7 +2,7 @@
     "tr-not-found": "¡Modelo no encontrado!",
     "tr-load": "Descarga el firmware OpenWrt para tu dispositivo",
     "tr-title": "Selector de firmware OpenWrt",
-    "tr-message": "Escriba el nombre o modelo de su dispositivo, luego seleccione la versión estable o la compilación nocturna \"snapshot\".",
+    "tr-message": "Escriba el nombre o modelo de su dispositivo, luego seleccione la versión estable o la compilación nocturna «instantánea».",
     "tr-version-build": "Acerca de esta compilación",
     "tr-custom-build": "Compilación personalizada",
     "tr-customize": "Personalice los paquetes instalados y/o el primer script de arranque",
