@@ -42,5 +42,7 @@
     "tr-defaults": "İlk önyüklemede çalıştırılacak betik (uci-defaults)",
     "tr-latest-releases": "Son Sürümler",
     "tr-validate-manifest": "Manifestoyu doğrula",
-    "tr-container-setup": "Kurulum konteyneri"
+    "tr-container-setup": "Kurulum konteyneri",
+    "tr-started": "İnşa başladı",
+    "tr-queued": "İstek inşa sırasındadır"
 }
