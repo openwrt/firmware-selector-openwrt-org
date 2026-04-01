@@ -42,5 +42,7 @@
     "tr-defaults": "Script da eseguire al primo avvio (uci-defaults)",
     "tr-latest-releases": "Ultima",
     "tr-validate-manifest": "Convalida il manifest",
-    "tr-container-setup": "Configura il container"
+    "tr-container-setup": "Configura il container",
+    "tr-started": "Build iniziata",
+    "tr-queued": "La richiesta è nella coda delle build"
 }
