@@ -42,5 +42,7 @@
     "tr-defaults": "Skript, das beim ersten Start ausgeführt werden soll (uci-defaults)",
     "tr-latest-releases": "Neueste",
     "tr-container-setup": "Containereinrichtung",
-    "tr-validate-manifest": "Manifest validieren"
+    "tr-validate-manifest": "Manifest validieren",
+    "tr-started": "Build gestartet",
+    "tr-queued": "Anfrage ist in Build-queue"
 }
