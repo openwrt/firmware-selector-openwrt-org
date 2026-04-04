@@ -8,9 +8,9 @@
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="index.css" />
     <script src="config.js"></script>
-    <script src="index.js"></script>
+    <script type="module" src="js/main.js"></script>
   </head>
-  <body onload="init()">
+  <body>
     <!-- header across the whole page -->
     <header>
       <div>
@@ -183,7 +183,7 @@
                     data-link="uci-defaults/setup.sh"
                   ></span>
                 </div>
-                <a href="javascript:buildAsuRequest()" class="custom-link">
+                <a href="#" id="asu-request-build" class="custom-link">
                   <span></span
                   ><span class="tr-request-build">REQUEST BUILD</span>
                 </a>
