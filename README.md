@@ -18,7 +18,7 @@ Configure with [config.js](www/config.js).
 Steps:
 
 1. Place the `www/` folder somewhere web accessible.
-2. Set `image_url` in `www/config.json` to where the images are located.  
+2. Set `image_url` in `www/config.js` to where the images are located.  
    Example: https://downloads.openwrt.org
 3. Organize the images like on [downloads.openwrt.org](https://downloads.openwrt.org).  
    Example: https://downloads.openwrt.org/releases/23.05.4/targets/ramips/mt7621/openwrt-23.05.4-ramips-mt7621-dlink_dir-1935-a1-squashfs-sysupgrade.bin  
@@ -59,6 +59,26 @@ If the option is not available (OpenWrt 18.06 or 19.07.3), apply commit [openwrt
 ### UCI-Defaults
 
 The Firmware Selector allows to define a script to be placed in the `/etc/uci-defaults/` folder of the OpenWrt image. These scripts are executed once on the first reboot and then deleted. See the [OpenWrt documentation](https://openwrt.org/docs/guide-developer/uci-defaults) on this topic.
+
+## Testing
+
+Run JavaScript unit tests (requires Node.js 18+):
+
+```
+node --test 'tests/js/*.test.js'
+```
+
+Or via yarn:
+
+```
+yarn run test:unit
+```
+
+With test coverage:
+
+```
+yarn run test:coverage
+```
 
 ## Translations
 
