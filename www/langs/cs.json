@@ -42,5 +42,7 @@
     "tr-factory-help": "K prvnímu nahrání OpenWrt do směrovače použijte tovární obraz. Obvykle tak učiníte prostřednictvím webového rozhraní původního firmwaru.",
     "tr-latest-releases": "Nejnovější",
     "tr-container-setup": "Nastavování kontejneru",
-    "tr-validate-manifest": "Ověřování deklarace"
+    "tr-validate-manifest": "Ověřování deklarace",
+    "tr-started": "Sestavování zahájeno",
+    "tr-queued": "Požadavek je ve frontě sestavování"
 }
