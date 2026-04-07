@@ -8,6 +8,8 @@ import {
   isAnyDeviceSelected,
   commonPrefix,
   getNameDifference,
+  normalizePackageList,
+  buildAsuPackages,
 } from "../../www/js/images.js";
 
 describe("getModelTitles", () => {
@@ -302,6 +304,63 @@ describe("sortImages", () => {
     const sorted = sortImages(images);
     assert.equal(sorted[0].type, "rootfs");
     assert.equal(sorted[1].type, "kernel");
+  });
+});
+
+describe("normalizePackageList", () => {
+  it("keeps only string entries", () => {
+    assert.deepEqual(
+      normalizePackageList(["a", 1, null, "b"]),
+      ["a", "b"]
+    );
+  });
+
+  it("returns empty array for non-array", () => {
+    assert.deepEqual(normalizePackageList(undefined), []);
+    assert.deepEqual(normalizePackageList({}), []);
+  });
+});
+
+describe("buildAsuPackages", () => {
+  it("merges profile, extras, and device_packages.json map", () => {
+    const pkgs = buildAsuPackages(
+      {
+        id: "dev,id",
+        default_packages: ["base"],
+        device_packages: ["kmod-x"],
+      },
+      {
+        asu_extra_packages: ["luci"],
+      },
+      { "dev,id": ["from-json"] }
+    );
+    assert.deepEqual(pkgs, ["base", "kmod-x", "luci", "from-json"]);
+  });
+
+  it("matches json map key with underscore when profile id uses comma", () => {
+    const pkgs = buildAsuPackages(
+      {
+        id: "vendor,model",
+        default_packages: [],
+        device_packages: [],
+      },
+      {},
+      { vendor_model: ["pkg-a"] }
+    );
+    assert.deepEqual(pkgs, ["pkg-a"]);
+  });
+
+  it("matches json map key with comma when profile id uses underscore", () => {
+    const pkgs = buildAsuPackages(
+      {
+        id: "vendor_model",
+        default_packages: [],
+        device_packages: [],
+      },
+      {},
+      { "vendor,model": ["pkg-b"] }
+    );
+    assert.deepEqual(pkgs, ["pkg-b"]);
   });
 });
 

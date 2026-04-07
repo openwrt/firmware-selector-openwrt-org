@@ -13,6 +13,7 @@ import {
 
 let currentDevice = {};
 let urlParams;
+let customDevicePackages = {};
 const ofsVersion = "%GIT_VERSION%";
 const progress = {
   "tr-init": 5,
@@ -36,6 +37,7 @@ function updateImagesBound(version, mobj) {
   return updateImages(version, mobj, {
     config,
     currentDevice,
+    customDevicePackages,
   });
 }
 
@@ -54,6 +56,12 @@ async function init() {
   if (typeof config.asu_url !== "undefined") {
     show("#asu");
   }
+
+  customDevicePackages = await fetch("device_packages.json", {
+    cache: "no-cache",
+  })
+    .then((obj) => (obj.status === 200 ? obj.json() : {}))
+    .catch(() => ({}));
 
   const upstreamConfig = await fetch(config.image_url + "/.versions.json", {
     cache: "no-cache",
