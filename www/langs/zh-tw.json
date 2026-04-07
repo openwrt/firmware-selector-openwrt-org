@@ -42,5 +42,7 @@
     "tr-defaults": "首次啟動時執行的指令碼 (uci-defaults)",
     "tr-latest-releases": "最新",
     "tr-validate-manifest": "驗證清單",
-    "tr-container-setup": "設定容器"
+    "tr-container-setup": "設定容器",
+    "tr-started": "建置已開始",
+    "tr-queued": "請求已在建置佇列中"
 }
