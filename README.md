@@ -56,6 +56,12 @@ If the option is not available (OpenWrt 18.06 or 19.07.3), apply commit [openwrt
 
 [ASU](https://github.com/openwrt/asu) is a build server that builds OpenWrt images with a given list of packages on request. The firmware-selector can be used as an interface to send these requests and to download the images when finished.
 
+### Optional extra packages per device (ASU)
+
+At startup the selector requests `device_packages.json` next to the app (under `www/`). If the file is missing or invalid, it is ignored. The JSON object maps **device profile IDs** (the same strings as in OpenWrt’s `profiles.json`, usually `vendor,model`) to a list of extra package names. Those packages are appended when the ASU package field is prefilled, after the image’s default packages, profile `device_packages`, and `asu_extra_packages` from `config.js`.
+
+Copy [`www/device_packages.json.example`](www/device_packages.json.example) to `www/device_packages.json` and adjust it for your deployment. Keys may use either comma or underscore as the first separator; the code tries both so `tplink,archer-c7-v5` and `tplink_archer-c7-v5` can match the same entry depending on how the ID is spelled.
+
 ### UCI-Defaults
 
 The Firmware Selector allows to define a script to be placed in the `/etc/uci-defaults/` folder of the OpenWrt image. These scripts are executed once on the first reboot and then deleted. See the [OpenWrt documentation](https://openwrt.org/docs/guide-developer/uci-defaults) on this topic.

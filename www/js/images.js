@@ -122,8 +122,49 @@ export function isAnyDeviceSelected(currentDevice) {
   return Object.keys(currentDevice).length > 0;
 }
 
+export function normalizePackageList(list) {
+  return Array.isArray(list)
+    ? list.filter((pkg) => typeof pkg === "string")
+    : [];
+}
+
+function getMappedPackagesForDevice(deviceMap, deviceId) {
+  if (!deviceId) {
+    return [];
+  }
+
+  const idsToTry = [deviceId];
+  if (deviceId.includes("_")) {
+    idsToTry.push(deviceId.replace("_", ","));
+  }
+  if (deviceId.includes(",")) {
+    idsToTry.push(deviceId.replace(",", "_"));
+  }
+
+  for (const candidate of idsToTry) {
+    if (candidate in deviceMap) {
+      const v = deviceMap[candidate];
+      return Array.isArray(v) ? v : [];
+    }
+  }
+
+  return [];
+}
+
+export function buildAsuPackages(mobj, config, customDevicePackages) {
+  const jsonMap = customDevicePackages || {};
+  return normalizePackageList(
+    [].concat(
+      mobj.default_packages || [],
+      mobj.device_packages || [],
+      config.asu_extra_packages || [],
+      getMappedPackagesForDevice(jsonMap, mobj.id)
+    )
+  );
+}
+
 export function updateImages(version, mobj, context) {
-  const { config, currentDevice } = context;
+  const { config, currentDevice, customDevicePackages } = context;
 
   $$("#download-table1 *").forEach((e) => e.remove());
   $$("#download-links2 *").forEach((e) => e.remove());
@@ -214,10 +255,11 @@ export function updateImages(version, mobj, context) {
       $("#asu").open = false;
       hide("#asu-log");
       hide("#asu-buildstatus");
-      $("#asu-packages").value = mobj.default_packages
-        .concat(mobj.device_packages)
-        .concat(config.asu_extra_packages || [])
-        .join(" ");
+      $("#asu-packages").value = buildAsuPackages(
+        mobj,
+        config,
+        customDevicePackages
+      ).join(" ");
     }
 
     translate();

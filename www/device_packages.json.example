@@ -1,0 +1,4 @@
+{
+  "glinet,gl-mt3000": ["luci-app-wireguard", "wireguard-tools"],
+  "tplink,archer-c7-v5": ["luci-app-sqm", "sqm-scripts"]
+}
