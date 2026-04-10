@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Watch devDependencies so js-yaml and mustache (consumed in the browser
+  # via www/js/vendor/) get security PRs automatically. After merging a
+  # Dependabot PR, run `yarn run vendor` locally and commit the updated
+  # www/js/vendor/*.js files on top of the Dependabot branch.
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
