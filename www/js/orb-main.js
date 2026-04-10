@@ -115,7 +115,7 @@ async function onSubmit(e) {
 
   const buildRequest = {
     distro: "openwrt",
-    version: recipe.min_version,
+    version: recipe.version,
     target: recipe.target,
     profile: recipe.profile,
     packages: recipe.packages || [],
