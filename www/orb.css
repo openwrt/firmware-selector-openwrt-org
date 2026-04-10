@@ -1,0 +1,128 @@
+/* orb-forge form styles — layered on top of the upstream index.css. */
+
+#orb-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1.5em 0;
+  max-width: 600px;
+}
+
+#orb-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.25em;
+}
+
+#orb-form select,
+#orb-form input[type="text"],
+#orb-form input[type="password"],
+#orb-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#orb-form textarea {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+
+#orb-form button {
+  padding: 0.75em 1.5em;
+  font-size: 1em;
+  background: #0060a0;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#orb-form button:hover:not(:disabled) {
+  background: #004d80;
+}
+
+#orb-form button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+#orb-device-description {
+  color: #666;
+  font-size: 0.9em;
+  margin: 0.25em 0 0 0;
+  min-height: 1.2em;
+}
+
+#orb-advanced {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  background: #f8f8f8;
+}
+
+#orb-advanced summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.25em 0;
+}
+
+#orb-advanced p {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+#orb-status {
+  padding: 1em;
+  margin: 1em 0;
+  background: #eef3f8;
+  border-left: 4px solid #0060a0;
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  max-width: 600px;
+}
+
+.orb-status-error {
+  background: #fbecec !important;
+  border-left-color: #c00 !important;
+}
+
+.orb-status-success {
+  background: #ecfbec !important;
+  border-left-color: #060 !important;
+}
+
+#orb-downloads {
+  padding: 1em;
+  margin: 1em 0;
+  background: #ecfbec;
+  border-left: 4px solid #060;
+  max-width: 600px;
+}
+
+#orb-downloads h3 {
+  margin-top: 0;
+}
+
+#orb-downloads ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#orb-downloads li {
+  padding: 0.4em 0;
+  word-break: break-all;
+}
+
+#orb-downloads code {
+  color: #666;
+  font-size: 0.85em;
+}
