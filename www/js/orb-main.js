@@ -92,9 +92,26 @@ async function onSubmit(e) {
   const recipe = state.currentRecipe;
   if (!recipe) return;
 
+  // Resolve repository keys BEFORE assembling the defaults script so
+  // the first key (by convention: the Orb apk signing key) can be
+  // Mustache-substituted into _common.yaml's feed-persistence block.
+  let keyContents;
+  try {
+    keyContents = await resolveKeys(recipe.repository_keys || []);
+  } catch (err) {
+    showAlert(`Failed to load repository keys: ${err.message}`);
+    return;
+  }
+
   const formValues = {
     orb_token: $("#orb-token").value.trim(),
     root_password: $("#orb-root-password").value,
+    // First resolved key is assumed to be the Orb apk signing key.
+    // _common.yaml writes it to /etc/apk/keys/orb-packages.pem so
+    // the running device can verify new Orb versions fetched by
+    // orb-update. Recipes must list the Orb key first in
+    // repository_keys — enforced by convention, not schema, today.
+    orb_apk_key: keyContents[0] || "",
   };
   const extraDefaults = $("#orb-extra-defaults").value;
 
@@ -104,14 +121,6 @@ async function onSubmit(e) {
     formValues,
     extraDefaults
   );
-
-  let keyContents;
-  try {
-    keyContents = await resolveKeys(recipe.repository_keys || []);
-  } catch (err) {
-    showAlert(`Failed to load repository keys: ${err.message}`);
-    return;
-  }
 
   const buildRequest = {
     distro: "openwrt",
