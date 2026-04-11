@@ -68,6 +68,14 @@ function wireForm() {
     state.currentRecipe = getRecipeById(state.recipes, select.value);
     $("#orb-device-description").innerText =
       state.currentRecipe?.description || "";
+    // Show the "Install to eMMC" group only for recipes that declare
+    // an install block — recipes without one don't support the flow.
+    const installGroup = $("#orb-install-group");
+    if (state.currentRecipe?.install) {
+      show(installGroup);
+    } else {
+      hide(installGroup);
+    }
     validateForm();
   });
 
@@ -104,6 +112,13 @@ async function onSubmit(e) {
     return;
   }
 
+  // The install-to-eMMC checkbox is only meaningful when the selected
+  // recipe declares an install block — otherwise we force it false so
+  // _common.yaml's {{#install_to_emmc}} section doesn't render.
+  const installBlock = recipe.install || null;
+  const installToEmmc =
+    !!installBlock && $("#orb-install-to-emmc").checked;
+
   const formValues = {
     orb_token: $("#orb-token").value.trim(),
     root_password: $("#orb-root-password").value,
@@ -113,6 +128,16 @@ async function onSubmit(e) {
     // orb-update. Recipes must list the Orb key first in
     // repository_keys — enforced by convention, not schema, today.
     orb_apk_key: keyContents[0] || "",
+    // Installer config — mirrored from the recipe's install block
+    // into flat Mustache variables that _common.yaml's installer
+    // heredoc interpolates. Empty strings when the recipe has no
+    // install block (in which case install_to_emmc is also false
+    // and the whole block gets elided by the Mustache section).
+    install_to_emmc: installToEmmc,
+    install_sd_device: installBlock?.sd_device || "",
+    install_emmc_device: installBlock?.emmc_device || "",
+    install_size_from_partition: installBlock?.size_from_partition || "",
+    install_status_led: installBlock?.status_led || "",
   };
   const extraDefaults = $("#orb-extra-defaults").value;
 

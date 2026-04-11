@@ -66,6 +66,20 @@
             />
           </div>
 
+          <div id="orb-install-group" class="hide">
+            <label class="orb-checkbox-label">
+              <input type="checkbox" id="orb-install-to-emmc" checked />
+              <span>Install to onboard eMMC on first boot</span>
+            </label>
+            <p class="orb-hint">
+              During first boot, copy the SD card state to the device's
+              onboard eMMC. When the SYS LED goes solid, power off and
+              remove the SD card — the device will boot from eMMC going
+              forward. Uncheck for SD-only operation (useful for
+              validation runs or temporary deployments).
+            </p>
+          </div>
+
           <details id="orb-advanced">
             <summary>Advanced: additional uci-defaults</summary>
             <p>
