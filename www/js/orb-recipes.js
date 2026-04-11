@@ -46,6 +46,17 @@ export function getRecipeById(recipes, id) {
   return recipes.find((r) => r.id === id);
 }
 
+// Returns the deduplicated union of _common.yaml's `packages` and the
+// selected recipe's `packages`. _common.yaml lists orb-forge-wide
+// dependencies needed by the shared defaults script (e.g. micrond for
+// orb-update's scheduled checks); the recipe lists device-specific
+// extras. Both sets are merged into the ASU build request.
+export function mergedPackages(common, recipe) {
+  const commonPkgs = (common && common.packages) || [];
+  const recipePkgs = (recipe && recipe.packages) || [];
+  return Array.from(new Set([...commonPkgs, ...recipePkgs]));
+}
+
 // Fetches each referenced public key file and returns the contents as
 // an array of strings suitable for ASU's `repository_keys` field.
 export async function resolveKeys(keyFilenames) {

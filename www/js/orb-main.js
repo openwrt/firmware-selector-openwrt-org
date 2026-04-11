@@ -6,6 +6,7 @@ import { $, show, hide, showAlert, hideAlert } from "./utils.js";
 import {
   loadAllRecipes,
   getRecipeById,
+  mergedPackages,
   resolveKeys,
   assembleDefaults,
 } from "./orb-recipes.js";
@@ -127,15 +128,18 @@ async function onSubmit(e) {
     version: recipe.version,
     target: recipe.target,
     profile: recipe.profile,
-    // Recipe `packages` is a list of ADDITIONS on top of the profile's
-    // default packages — NOT a complete replacement list. diff_packages
-    // MUST be false for this semantics: when true, ASU interprets the
-    // list as a full override and silently removes every profile default
-    // the recipe didn't explicitly re-list, stripping base-files and
-    // a bunch of busybox applets in the process. That's the upstream
-    // selector's mode (it pre-fills a textarea with the full default
-    // list), but it's the wrong shape for a recipe system.
-    packages: recipe.packages || [],
+    // Packages sent to ASU is the union of _common.yaml's packages
+    // (orb-forge-wide dependencies like micrond for orb-update's
+    // cron) and the selected recipe's packages (device-specific
+    // extras like orb). This is a list of ADDITIONS on top of the
+    // profile's default packages — NOT a complete replacement list.
+    // diff_packages MUST be false for this semantics: when true, ASU
+    // interprets the list as a full override and silently removes
+    // every profile default not in it, stripping base-files and a
+    // bunch of busybox applets. That's the upstream selector's mode
+    // (it pre-fills a textarea with the full default list), but it's
+    // the wrong shape for a recipe system.
+    packages: mergedPackages(state.common, recipe),
     diff_packages: false,
     repositories: recipe.repositories || {},
     repositories_mode: "append",
