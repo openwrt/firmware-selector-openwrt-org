@@ -1,4 +1,4 @@
-import "./setup.js";
+import { mockElement } from "./setup.js";
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 import { createAsuRequestBuilder } from "../../www/js/asu.js";
@@ -128,6 +128,75 @@ describe("createAsuRequestBuilder", () => {
     await new Promise((r) => setTimeout(r, 50));
 
     assert.equal(capturedBody.client, "ofs/2.5.0");
+  });
+
+  it("includes resolved custom repositories and keys in request body", async () => {
+    let capturedBody;
+    const previousQuerySelector = document._qsImpl;
+    const select = mockElement({ value: "23.05.4" });
+    const qsMap = {
+      "#versions": select,
+    };
+    document._qsImpl = (selector) => qsMap[selector] || mockElement();
+
+    globalThis.fetch = fetchWithLangStub((_url, opts) => {
+      capturedBody = JSON.parse(opts.body);
+      return Promise.resolve({
+        status: 200,
+        json: () =>
+          Promise.resolve({ version_number: "23.05.4", bin_dir: "d" }),
+      });
+    });
+
+    const build = createAsuRequestBuilder(
+      makeContext({
+        config: {
+          asu_url: "http://asu.example.com",
+          asu_repositories: {
+            custom:
+              "https://repo.example/{openwrt_branch}/{openwrt_version}/{target}/{subtarget}",
+          },
+          asu_repository_keys: ["pubkey-1"],
+          asu_repositories_mode: "append",
+        },
+        getCurrentDevice: () => ({ id: "dev", target: "ramips/mt7621" }),
+      })
+    );
+    build();
+    await new Promise((r) => setTimeout(r, 50));
+    document._qsImpl = previousQuerySelector;
+
+    assert.deepEqual(capturedBody.repositories, {
+      custom: "https://repo.example/23.05/23.05.4/ramips/mt7621",
+    });
+    assert.deepEqual(capturedBody.repository_keys, ["pubkey-1"]);
+    assert.equal(capturedBody.repositories_mode, "append");
+  });
+
+  it("sends empty repositories_mode for unsupported mode values", async () => {
+    let capturedBody;
+    globalThis.fetch = fetchWithLangStub((_url, opts) => {
+      capturedBody = JSON.parse(opts.body);
+      return Promise.resolve({
+        status: 200,
+        json: () =>
+          Promise.resolve({ version_number: "23.05.4", bin_dir: "d" }),
+      });
+    });
+
+    const build = createAsuRequestBuilder(
+      makeContext({
+        config: {
+          asu_url: "http://asu.example.com",
+          asu_repositories_mode: "unsupported",
+        },
+        getCurrentDevice: () => ({ id: "dev", target: "ramips/mt7621" }),
+      })
+    );
+    build();
+    await new Promise((r) => setTimeout(r, 50));
+
+    assert.equal(capturedBody.repositories_mode, "");
   });
 
   it("sends GET with hash appended when requestHash is provided", async () => {

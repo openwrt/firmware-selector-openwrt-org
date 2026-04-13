@@ -56,6 +56,21 @@ If the option is not available (OpenWrt 18.06 or 19.07.3), apply commit [openwrt
 
 [ASU](https://github.com/openwrt/asu) is a build server that builds OpenWrt images with a given list of packages on request. The firmware-selector can be used as an interface to send these requests and to download the images when finished.
 
+### Optional extra package repositories (ASU)
+
+Additional package feeds can be configured via `config.js` and are sent with each ASU build request:
+
+* `asu_repositories`: Object map of repository names to URLs.
+* `asu_repositories_mode`: Optional mode (`append` or `replace`).
+* `asu_repository_keys`: Optional list of repository signing keys.
+
+Repository URLs can use placeholders which are resolved per selected device/version:
+
+* `{openwrt_branch}` (for example `24.10`)
+* `{openwrt_version}` (for example `24.10.3`)
+* `{target}` (for example `ramips`)
+* `{subtarget}` (for example `mt7621`)
+
 ### Optional extra packages per device (ASU)
 
 At startup the selector requests `device_packages.json` next to the app (under `www/`). If the file is missing or invalid, it is ignored. The JSON object maps **device profile IDs** (the same strings as in OpenWrt’s `profiles.json`, usually `vendor,model`) to a list of extra package names. Those packages are appended when the ASU package field is prefilled, after the image’s default packages, profile `device_packages`, and `asu_extra_packages` from `config.js`.

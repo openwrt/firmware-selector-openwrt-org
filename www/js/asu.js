@@ -5,6 +5,34 @@ export function createAsuRequestBuilder(context) {
   const { config, progress, ofsVersion, getCurrentDevice, updateImages } =
     context;
 
+  function getOpenwrtBranch(openwrtVersion) {
+    const match = String(openwrtVersion || "").match(/^(\d+\.\d+)/);
+    return match ? match[1] : String(openwrtVersion || "");
+  }
+
+  function resolveAsuRepositories(
+    rawRepositories,
+    currentDevice,
+    openwrtVersion
+  ) {
+    const repositories = rawRepositories || {};
+    const [target = "", subtarget = ""] = String(
+      currentDevice?.target || ""
+    ).split("/");
+    const openwrtBranch = getOpenwrtBranch(openwrtVersion);
+
+    return Object.fromEntries(
+      Object.entries(repositories).map(([name, url]) => [
+        name,
+        String(url)
+          .replaceAll("{openwrt_branch}", openwrtBranch)
+          .replaceAll("{openwrt_version}", String(openwrtVersion || ""))
+          .replaceAll("{target}", target)
+          .replaceAll("{subtarget}", subtarget),
+      ])
+    );
+  }
+
   function showStatus(message, loading, type) {
     const bs = $("#asu-buildstatus");
     switch (type) {
@@ -47,32 +75,37 @@ export function createAsuRequestBuilder(context) {
       return;
     }
 
-    let requestUrl = `${config.asu_url}/api/v1/build`;
-    let body = JSON.stringify({
+    const selectedVersion = $("#versions").value;
+    const reposMode = config.asu_repositories_mode;
+    const repositoriesMode =
+      reposMode === "replace" || reposMode === "append" ? reposMode : "";
+    const buildBody = {
       profile: currentDevice.id,
       target: currentDevice.target,
       packages: split($("#asu-packages").value),
       defaults: $("#uci-defaults-content").value,
       version_code: $("#image-code").innerText,
-      version: $("#versions").value,
+      version: selectedVersion,
       diff_packages: true,
       client: "ofs/" + ofsVersion,
-    });
-    let method = "POST";
-
-    if (requestHash) {
-      requestUrl += `/${requestHash}`;
-      body = null;
-      method = "GET";
-    }
+      repositories: resolveAsuRepositories(
+        config.asu_repositories,
+        currentDevice,
+        selectedVersion
+      ),
+      repository_keys: config.asu_repository_keys || [],
+      repositories_mode: repositoriesMode,
+    };
+    const requestUrl =
+      `${config.asu_url}/api/v1/build` + (requestHash ? `/${requestHash}` : "");
 
     fetch(requestUrl, {
       cache: "no-cache",
-      method: method,
+      method: requestHash ? "GET" : "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: body,
+      body: requestHash ? null : JSON.stringify(buildBody),
     })
       .then((response) => {
         switch (response.status) {
