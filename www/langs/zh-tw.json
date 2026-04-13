@@ -1,5 +1,5 @@
 {
-    "tr-message": "輸入裝置的名稱或型號，然後選擇推薦的穩定版本或夜間\"快照\"版本。",
+    "tr-message": "輸入裝置的名稱或型號，然後選擇推薦的穩定版本或夜間「快照」版本。",
     "tr-not-found": "未找到型號！",
     "tr-load": "下載適用於您裝置的 OpenWrt 韌體",
     "tr-title": "OpenWrt 韌體選擇器",
@@ -12,7 +12,7 @@
     "tr-version": "版本",
     "tr-date": "日期",
     "tr-custom-downloads": "自訂下載",
-    "tr-dtb-help": "裝置樹 blob。此檔案為硬體配置 Linux 核心。",
+    "tr-dtb-help": "裝置樹 blob。此檔案為硬體設定 Linux 核心。",
     "tr-uboot-help": "引導程式映像檔。在啟動初期載入作業系統的低階軟體。",
     "tr-eva-help": "含有 OpenWrt 和引導程式的映像檔。",
     "tr-sysupgrade-help": "使用 Sysupgrade 映像檔來更新已經執行 OpenWrt 的路由器。該映像檔可以與 LuCI web 介面或終端一起使用。",
