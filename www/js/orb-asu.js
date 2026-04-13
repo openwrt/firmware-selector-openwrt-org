@@ -131,9 +131,10 @@ function renderDownloads(data, listEl, recipe) {
   // a dd snapshot unreliable. Power users who want ext4 on eMMC can
   // still get the image via the ASU API directly and install manually.
   const binDir = data.bin_dir;
-  const hasInstall = !!(recipe && recipe.install);
+  const emmcInstallActive =
+    !!(recipe && recipe.install) && $("#orb-install-to-emmc").checked;
   const images = (data.images || []).filter(
-    (img) => !hasInstall || !img.name.includes("ext4")
+    (img) => !emmcInstallActive || !img.name.includes("ext4")
   );
   listEl.innerHTML = "";
   for (const img of images) {
