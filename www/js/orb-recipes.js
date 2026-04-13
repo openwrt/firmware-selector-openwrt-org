@@ -89,15 +89,26 @@ export function renderDeviceLinks(container, recipe) {
   }
 }
 
-// Returns the deduplicated union of _common.yaml's `packages` and the
-// selected recipe's `packages`. _common.yaml lists orb-forge-wide
-// dependencies needed by the shared defaults script (e.g. micrond for
-// orb-update's scheduled checks); the recipe lists device-specific
-// extras. Both sets are merged into the ASU build request.
-export function mergedPackages(common, recipe) {
+// Returns the deduplicated union of _common.yaml's `packages`, the
+// selected recipe's `packages`, and any packages contributed by the
+// user's selected recipe options (e.g. Wi-Fi module choice).
+// `selectedOptions` is an object like { wifi_module: "intel_be200" }
+// mapping option names to chosen keys; each choice can declare a
+// `packages` list in the recipe YAML.
+export function mergedPackages(common, recipe, selectedOptions) {
   const commonPkgs = (common && common.packages) || [];
   const recipePkgs = (recipe && recipe.packages) || [];
-  return Array.from(new Set([...commonPkgs, ...recipePkgs]));
+  const optionPkgs = [];
+  if (recipe && recipe.options && selectedOptions) {
+    for (const [optName, choiceKey] of Object.entries(selectedOptions)) {
+      const opt = recipe.options[optName];
+      if (opt && opt.choices && opt.choices[choiceKey]) {
+        const pkgs = opt.choices[choiceKey].packages || [];
+        optionPkgs.push(...pkgs);
+      }
+    }
+  }
+  return Array.from(new Set([...commonPkgs, ...recipePkgs, ...optionPkgs]));
 }
 
 // Fetches each referenced public key file and returns the contents as

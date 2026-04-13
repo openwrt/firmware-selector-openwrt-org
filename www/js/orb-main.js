@@ -73,6 +73,11 @@ function wireForm() {
     // Device links (OpenWrt wiki, vendor docs, orb.net docs).
     renderDeviceLinks($("#orb-device-links"), state.currentRecipe);
 
+    // Recipe options (e.g. Wi-Fi module selection). Each option becomes
+    // a labeled dropdown. Selections are collected at build time and
+    // their packages merged into the request.
+    renderOptions(state.currentRecipe);
+
     // Show the "Install to eMMC" group only for recipes that declare
     // an install block — recipes without one don't support the flow.
     // The hint text below the checkbox comes from the recipe's
@@ -174,7 +179,7 @@ async function onSubmit(e) {
     // bunch of busybox applets. That's the upstream selector's mode
     // (it pre-fills a textarea with the full default list), but it's
     // the wrong shape for a recipe system.
-    packages: mergedPackages(state.common, recipe),
+    packages: mergedPackages(state.common, recipe, collectSelectedOptions(recipe)),
     diff_packages: false,
     repositories: recipe.repositories || {},
     repositories_mode: "append",
@@ -183,6 +188,49 @@ async function onSubmit(e) {
   };
 
   submitBuild(buildRequest, recipe);
+}
+
+// Renders recipe options (e.g. Wi-Fi module selection) as labeled
+// dropdowns in the #orb-options container. Each option defined in
+// recipe.options becomes a <select> with id="orb-opt-{name}".
+function renderOptions(recipe) {
+  const container = $("#orb-options");
+  container.innerHTML = "";
+  if (!recipe || !recipe.options) return;
+
+  for (const [name, opt] of Object.entries(recipe.options)) {
+    const div = document.createElement("div");
+
+    const label = document.createElement("label");
+    label.setAttribute("for", `orb-opt-${name}`);
+    label.textContent = opt.label || name;
+    div.appendChild(label);
+
+    const select = document.createElement("select");
+    select.id = `orb-opt-${name}`;
+    for (const [key, choice] of Object.entries(opt.choices || {})) {
+      const option = document.createElement("option");
+      option.value = key;
+      option.textContent = choice.label || key;
+      if (key === (opt.default || "")) option.selected = true;
+      select.appendChild(option);
+    }
+    div.appendChild(select);
+
+    container.appendChild(div);
+  }
+}
+
+// Reads the current selection from each recipe-option dropdown and
+// returns an object like { wifi_module: "intel_be200" }.
+function collectSelectedOptions(recipe) {
+  const result = {};
+  if (!recipe || !recipe.options) return result;
+  for (const name of Object.keys(recipe.options)) {
+    const el = document.getElementById(`orb-opt-${name}`);
+    if (el) result[name] = el.value;
+  }
+  return result;
 }
 
 document.addEventListener("DOMContentLoaded", init);
