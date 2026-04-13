@@ -124,9 +124,17 @@ function renderDownloads(data, listEl, recipe) {
     notesEl.innerHTML = "<p>Flash to your device and power on.</p>";
   }
 
-  // Image download links.
+  // Image download links. When the recipe has an install block (eMMC
+  // auto-install), hide ext4 images — our dd-based installer only
+  // works cleanly with squashfs (read-only rootfs). ext4 images have a
+  // fully rw rootfs that's live-mounted when the installer runs, making
+  // a dd snapshot unreliable. Power users who want ext4 on eMMC can
+  // still get the image via the ASU API directly and install manually.
   const binDir = data.bin_dir;
-  const images = data.images || [];
+  const hasInstall = !!(recipe && recipe.install);
+  const images = (data.images || []).filter(
+    (img) => !hasInstall || !img.name.includes("ext4")
+  );
   listEl.innerHTML = "";
   for (const img of images) {
     const li = document.createElement("li");
