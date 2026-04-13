@@ -42,5 +42,7 @@
     "tr-build-successful": "Būvējums sekmīgs",
     "tr-build-failed": "Būvējums neizdevās",
     "tr-request-image": "Pieprasīt attēlu",
-    "tr-init": "Saņemts būvējuma pieprasījums"
+    "tr-init": "Saņemts būvējuma pieprasījums",
+    "tr-queued": "Pieprasījums ir būvējuma izveides rindā",
+    "tr-started": "Uzsākta būvējuma izveide"
 }
