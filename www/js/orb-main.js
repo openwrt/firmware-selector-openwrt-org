@@ -75,9 +75,14 @@ function wireForm() {
 
     // Show the "Install to eMMC" group only for recipes that declare
     // an install block — recipes without one don't support the flow.
+    // The hint text below the checkbox comes from the recipe's
+    // install.hint field so recipe authors can note device-specific
+    // caveats (e.g. "not all E20C models have eMMC").
     const installGroup = $("#orb-install-group");
     if (state.currentRecipe?.install) {
       show(installGroup);
+      $("#orb-install-hint").innerText =
+        state.currentRecipe.install.hint || "";
     } else {
       hide(installGroup);
     }
