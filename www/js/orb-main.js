@@ -6,6 +6,7 @@ import { $, show, hide, showAlert, hideAlert } from "./utils.js";
 import {
   loadAllRecipes,
   getRecipeById,
+  renderDeviceLinks,
   mergedPackages,
   resolveKeys,
   assembleDefaults,
@@ -68,6 +69,10 @@ function wireForm() {
     state.currentRecipe = getRecipeById(state.recipes, select.value);
     $("#orb-device-description").innerText =
       state.currentRecipe?.description || "";
+
+    // Device links (OpenWrt wiki, vendor docs, orb.net docs).
+    renderDeviceLinks($("#orb-device-links"), state.currentRecipe);
+
     // Show the "Install to eMMC" group only for recipes that declare
     // an install block — recipes without one don't support the flow.
     const installGroup = $("#orb-install-group");
@@ -172,7 +177,7 @@ async function onSubmit(e) {
     defaults: defaultsScript,
   };
 
-  submitBuild(buildRequest);
+  submitBuild(buildRequest, recipe);
 }
 
 document.addEventListener("DOMContentLoaded", init);

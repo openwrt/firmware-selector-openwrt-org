@@ -5,11 +5,13 @@
 // does not need to emit CORS headers. See selector/nginx.conf.
 
 import { $, show, hide } from "./utils.js";
+import snarkdown from "./vendor/snarkdown.es.js";
+import { renderDeviceLinks } from "./orb-recipes.js";
 
 const API_BASE = "/api/v1";
 const POLL_INTERVAL_MS = 5000;
 
-export async function submitBuild(buildRequest) {
+export async function submitBuild(buildRequest, recipe) {
   const statusEl = $("#orb-status");
   const downloadsEl = $("#orb-downloads");
   const downloadListEl = $("#orb-download-list");
@@ -55,7 +57,7 @@ export async function submitBuild(buildRequest) {
     setStatus(statusEl, formatStatus(data));
 
     if (data.imagebuilder_status === "done" || (data.images && data.images.length)) {
-      renderDownloads(data, downloadListEl);
+      renderDownloads(data, downloadListEl, recipe);
       show(downloadsEl);
       setStatus(statusEl, "Build complete.", "success");
       buildButton.disabled = false;
@@ -112,7 +114,17 @@ function setStatus(el, text, variant) {
   if (variant === "success") el.classList.add("orb-status-success");
 }
 
-function renderDownloads(data, listEl) {
+function renderDownloads(data, listEl, recipe) {
+  // Install notes — render markdown from the recipe, or fall back to a
+  // generic message if the recipe has none.
+  const notesEl = $("#orb-install-notes");
+  if (recipe && recipe.install_notes) {
+    notesEl.innerHTML = snarkdown(recipe.install_notes);
+  } else {
+    notesEl.innerHTML = "<p>Flash to your device and power on.</p>";
+  }
+
+  // Image download links.
   const binDir = data.bin_dir;
   const images = data.images || [];
   listEl.innerHTML = "";
@@ -130,6 +142,10 @@ function renderDownloads(data, listEl) {
     }
     listEl.appendChild(li);
   }
+
+  // Repeat device links below the download list for convenience.
+  const downloadLinksEl = $("#orb-download-links");
+  renderDeviceLinks(downloadLinksEl, recipe);
 }
 
 function sleep(ms) {

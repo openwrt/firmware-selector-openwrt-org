@@ -78,6 +78,21 @@
   margin: 0.25em 0 0 1.75em;
 }
 
+#orb-device-links {
+  font-size: 0.9em;
+  margin: 0.5em 0 0 0;
+}
+
+#orb-device-links a {
+  margin-right: 1em;
+  color: #0060a0;
+  text-decoration: none;
+}
+
+#orb-device-links a:hover {
+  text-decoration: underline;
+}
+
 #orb-advanced {
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -128,6 +143,49 @@
 
 #orb-downloads h3 {
   margin-top: 0;
+}
+
+#orb-install-notes {
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+}
+
+#orb-install-notes ol,
+#orb-install-notes ul {
+  padding-left: 1.5em;
+  margin: 0.5em 0;
+}
+
+#orb-install-notes li {
+  margin-bottom: 0.3em;
+}
+
+#orb-install-notes strong {
+  color: #333;
+}
+
+#orb-install-notes code {
+  background: #e8e8e8;
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+  font-size: 0.9em;
+}
+
+#orb-download-links {
+  margin-top: 1em;
+  padding-top: 0.75em;
+  border-top: 1px solid #ccc;
+  font-size: 0.9em;
+}
+
+#orb-download-links a {
+  margin-right: 1em;
+  color: #0060a0;
+  text-decoration: none;
+}
+
+#orb-download-links a:hover {
+  text-decoration: underline;
 }
 
 #orb-downloads ul {

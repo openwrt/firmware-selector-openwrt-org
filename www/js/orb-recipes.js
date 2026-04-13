@@ -9,6 +9,8 @@
 // Parsing and templating live in the browser — no preprocessing, no build
 // step. Recipes are the source of truth at runtime.
 
+import { show, hide } from "./utils.js";
+
 const RECIPES_BASE = "/recipes";
 
 export async function loadAllRecipes() {
@@ -44,6 +46,47 @@ export async function loadAllRecipes() {
 
 export function getRecipeById(recipes, id) {
   return recipes.find((r) => r.id === id);
+}
+
+// Returns an array of {label, href} link objects for the given recipe.
+// Used in both the device-info area (on selection) and the download area
+// (after build) so the user has reference links at every stage.
+export function buildDeviceLinks(recipe) {
+  const links = [];
+  if (recipe && recipe.title) {
+    const q = encodeURIComponent(recipe.title + " @toh");
+    links.push({
+      label: "OpenWrt wiki",
+      href: `https://openwrt.org/start?do=search&id=toh&q=${q}`,
+    });
+  }
+  if (recipe && recipe.vendor_url) {
+    links.push({ label: "Vendor docs", href: recipe.vendor_url });
+  }
+  if (recipe && recipe.docs_url) {
+    links.push({ label: "orb.net docs", href: recipe.docs_url });
+  }
+  return links;
+}
+
+// Renders device links into a container DOM element. Used in both the
+// device-info area (on selection) and the download area (after build).
+export function renderDeviceLinks(container, recipe) {
+  container.innerHTML = "";
+  const links = buildDeviceLinks(recipe);
+  for (const link of links) {
+    const a = document.createElement("a");
+    a.href = link.href;
+    a.textContent = link.label;
+    a.target = "_blank";
+    a.rel = "noopener";
+    container.appendChild(a);
+  }
+  if (links.length) {
+    show(container);
+  } else {
+    hide(container);
+  }
 }
 
 // Returns the deduplicated union of _common.yaml's `packages` and the
