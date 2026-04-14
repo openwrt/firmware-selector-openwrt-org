@@ -1,4 +1,27 @@
-/* orb-forge form styles — layered on top of the upstream index.css. */
+/* orb-forge brand + form styles — layered on top of the upstream index.css. */
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('fonts/Lexend.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+h2, h3, h4, label, summary, button {
+  font-family: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+a {
+  color: #7a2fd0;
+}
+
+a:hover {
+  color: #9c62e9;
+}
 
 #orb-form {
   display: flex;
@@ -35,7 +58,7 @@
 #orb-form button {
   padding: 0.75em 1.5em;
   font-size: 1em;
-  background: #0060a0;
+  background: #7a2fd0;
   color: white;
   border: none;
   border-radius: 3px;
@@ -44,7 +67,7 @@
 }
 
 #orb-form button:hover:not(:disabled) {
-  background: #004d80;
+  background: #5e1fad;
 }
 
 #orb-form button:disabled {
@@ -85,7 +108,7 @@
 
 #orb-device-links a {
   margin-right: 1em;
-  color: #0060a0;
+  color: #7a2fd0;
   text-decoration: none;
 }
 
@@ -94,10 +117,10 @@
 }
 
 #orb-advanced {
-  border: 1px solid #ddd;
+  border: 1px solid #e4daf0;
   border-radius: 3px;
   padding: 0.5em 1em;
-  background: #f8f8f8;
+  background: #faf8fc;
 }
 
 #orb-advanced summary {
@@ -115,8 +138,8 @@
 #orb-status {
   padding: 1em;
   margin: 1em 0;
-  background: #eef3f8;
-  border-left: 4px solid #0060a0;
+  background: #f3eefa;
+  border-left: 4px solid #7a2fd0;
   white-space: pre-wrap;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.9em;
@@ -124,20 +147,20 @@
 }
 
 .orb-status-error {
-  background: #fbecec !important;
-  border-left-color: #c00 !important;
+  background: #fef0f2 !important;
+  border-left-color: #ef476f !important;
 }
 
 .orb-status-success {
-  background: #ecfbec !important;
-  border-left-color: #060 !important;
+  background: #f0faf5 !important;
+  border-left-color: #19caa4 !important;
 }
 
 #orb-downloads {
   padding: 1em;
   margin: 1em 0;
-  background: #ecfbec;
-  border-left: 4px solid #060;
+  background: #f0faf5;
+  border-left: 4px solid #19caa4;
   max-width: 600px;
 }
 
@@ -180,7 +203,7 @@
 
 #orb-download-links a {
   margin-right: 1em;
-  color: #0060a0;
+  color: #7a2fd0;
   text-decoration: none;
 }
 
