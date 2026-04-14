@@ -156,6 +156,7 @@ async function onSubmit(e) {
     // guard so the whole Wi-Fi block is omitted when SSID is empty.
     wifi_ssid: $("#orb-wifi-ssid").value.trim(),
     wifi_password: $("#orb-wifi-password").value,
+    wifi_encryption: $("#orb-wifi-encryption").value,
     // Installer config — mirrored from the recipe's install block
     // into flat Mustache variables that _common.yaml's installer
     // heredoc interpolates. Empty strings when the recipe has no

@@ -85,9 +85,17 @@
               <input
                 id="orb-wifi-password"
                 type="password"
-                placeholder="WPA2 password for the network above"
+                placeholder="Password for the network above"
                 autocomplete="off"
               />
+            </div>
+            <div>
+              <label for="orb-wifi-encryption">Security</label>
+              <select id="orb-wifi-encryption">
+                <option value="psk2">WPA2 (PSK)</option>
+                <option value="sae">WPA3 (SAE)</option>
+                <option value="sae-mixed">WPA2/WPA3 Mixed</option>
+              </select>
             </div>
           </div>
 
