@@ -78,6 +78,14 @@ function wireForm() {
     // their packages merged into the request.
     renderOptions(state.currentRecipe);
 
+    // Show Wi-Fi fields only for recipes with capabilities.wifi.
+    const wifiGroup = $("#orb-wifi-group");
+    if (state.currentRecipe?.capabilities?.wifi) {
+      show(wifiGroup);
+    } else {
+      hide(wifiGroup);
+    }
+
     // Show the "Install to eMMC" group only for recipes that declare
     // an install block — recipes without one don't support the flow.
     // The hint text below the checkbox comes from the recipe's
@@ -143,6 +151,11 @@ async function onSubmit(e) {
     // orb-update. Recipes must list the Orb key first in
     // repository_keys — enforced by convention, not schema, today.
     orb_apk_key: keyContents[0] || "",
+    // Wi-Fi config — only meaningful for recipes with capabilities.wifi.
+    // The recipe's defaults template uses {{#wifi_ssid}} as a section
+    // guard so the whole Wi-Fi block is omitted when SSID is empty.
+    wifi_ssid: $("#orb-wifi-ssid").value.trim(),
+    wifi_password: $("#orb-wifi-password").value,
     // Installer config — mirrored from the recipe's install block
     // into flat Mustache variables that _common.yaml's installer
     // heredoc interpolates. Empty strings when the recipe has no
