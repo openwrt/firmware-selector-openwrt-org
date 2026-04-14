@@ -9,6 +9,53 @@
 
 body {
   font-family: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f8f6fb !important;
+}
+
+header {
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 3px rgba(122, 47, 208, 0.1) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1225 !important;
+    color: #e8e0f0 !important;
+  }
+
+  header {
+    background-color: #231536 !important;
+  }
+
+  #orb-form select,
+  #orb-form input[type="text"],
+  #orb-form input[type="password"],
+  #orb-form textarea {
+    background-color: #2a1c3d;
+    color: #e8e0f0;
+    border-color: #3d2a57;
+  }
+
+  #orb-advanced {
+    background: #231536;
+    border-color: #3d2a57;
+  }
+
+  #orb-status {
+    background: #231536;
+  }
+
+  #orb-downloads {
+    background: #1a2520;
+  }
+
+  #orb-install-notes strong {
+    color: #e8e0f0;
+  }
+
+  #orb-install-notes code {
+    background: #2a1c3d;
+  }
 }
 
 h2, h3, h4, label, summary, button {
