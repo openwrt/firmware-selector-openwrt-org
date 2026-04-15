@@ -37,8 +37,8 @@ header {
   }
 
   #orb-advanced {
-    background: #231536;
-    border-color: #3d2a57;
+    background: #231536 !important;
+    border-color: #3d2a57 !important;
     color: #e8e0f0;
   }
 
