@@ -47,14 +47,51 @@ header {
 
   #orb-downloads {
     background: #1a2520;
+    color: #d0e8dc;
+  }
+
+  #orb-downloads a {
+    color: #6ee0b0;
+  }
+
+  #orb-downloads code {
+    color: #a0c0b0;
+    background: #253530;
+  }
+
+  #orb-install-notes {
+    color: #d0e8dc;
   }
 
   #orb-install-notes strong {
-    color: #e8e0f0;
+    color: #ffffff;
   }
 
   #orb-install-notes code {
-    background: #2a1c3d;
+    background: #253530;
+    color: #a0c0b0;
+  }
+
+  #orb-install-notes a {
+    color: #6ee0b0;
+  }
+
+  #orb-download-links a {
+    color: #b590ff;
+  }
+
+  .orb-status-success {
+    background: #1a2520 !important;
+    color: #d0e8dc !important;
+  }
+
+  .orb-status-error {
+    background: #2a1520 !important;
+    color: #f0c0c8 !important;
+  }
+
+  #orb-status {
+    color: #e8e0f0;
   }
 }
 
