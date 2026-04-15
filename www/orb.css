@@ -297,6 +297,7 @@ a:hover {
   margin: 1em 0;
   background: #f0faf5;
   border-left: 4px solid #19caa4;
+  color: #1a3a2a;
   max-width: 600px;
 }
 
@@ -307,6 +308,7 @@ a:hover {
 #orb-install-notes {
   margin: 0 0 1em 0;
   line-height: 1.6;
+  color: #1a3a2a;
 }
 
 #orb-install-notes ol,
@@ -320,7 +322,7 @@ a:hover {
 }
 
 #orb-install-notes strong {
-  color: #333;
+  color: #0a2018;
 }
 
 #orb-install-notes code {
