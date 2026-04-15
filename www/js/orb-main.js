@@ -112,7 +112,7 @@ function wireForm() {
       if (input) {
         const showing = input.type === "text";
         input.type = showing ? "password" : "text";
-        btn.style.opacity = showing ? "0.5" : "1";
+        btn.textContent = showing ? "show" : "hide";
       }
     });
   });
