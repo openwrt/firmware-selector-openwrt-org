@@ -61,13 +61,16 @@
 
           <div>
             <label for="orb-root-password">Root Password</label>
-            <input
-              id="orb-root-password"
-              type="password"
-              required
-              placeholder="Used for emergency SSH access — orb-forge devices are designed to be reflashed, not reconfigured"
-              autocomplete="new-password"
-            />
+            <div class="orb-password-field">
+              <input
+                id="orb-root-password"
+                type="password"
+                required
+                placeholder="Used for emergency SSH access — orb-forge devices are designed to be reflashed, not reconfigured"
+                autocomplete="new-password"
+              />
+              <button type="button" class="orb-toggle-pw" data-target="orb-root-password" title="Show/hide password">&#x1F441;</button>
+            </div>
           </div>
 
           <div id="orb-wifi-group" class="hide">
@@ -83,12 +86,27 @@
             </div>
             <div>
               <label for="orb-wifi-password">Wi-Fi Password</label>
+              <div class="orb-password-field">
+                <input
+                  id="orb-wifi-password"
+                  type="password"
+                  placeholder="Password for the network above"
+                  autocomplete="off"
+                />
+                <button type="button" class="orb-toggle-pw" data-target="orb-wifi-password" title="Show/hide password">&#x1F441;</button>
+              </div>
+            </div>
+            <div>
+              <label for="orb-wifi-country">Regulatory Domain</label>
               <input
-                id="orb-wifi-password"
-                type="password"
-                placeholder="Password for the network above"
-                autocomplete="off"
+                id="orb-wifi-country"
+                type="text"
+                value="US"
+                maxlength="2"
+                placeholder="US"
+                style="width: 5em; text-transform: uppercase;"
               />
+              <span class="orb-hint" style="display: inline; margin-left: 0.5em;">2-letter country code (US, GB, DE, JP, AU, etc.)</span>
             </div>
             <div>
               <label for="orb-wifi-encryption">Security</label>

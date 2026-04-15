@@ -105,6 +105,18 @@ function wireForm() {
   form.addEventListener("input", validateForm);
   form.addEventListener("submit", onSubmit);
 
+  // Password show/hide toggles
+  document.querySelectorAll(".orb-toggle-pw").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const input = document.getElementById(btn.dataset.target);
+      if (input) {
+        const showing = input.type === "text";
+        input.type = showing ? "password" : "text";
+        btn.style.opacity = showing ? "0.5" : "1";
+      }
+    });
+  });
+
   validateForm();
 }
 
@@ -157,6 +169,7 @@ async function onSubmit(e) {
     wifi_ssid: $("#orb-wifi-ssid").value.trim(),
     wifi_password: $("#orb-wifi-password").value,
     wifi_encryption: $("#orb-wifi-encryption").value,
+    wifi_country: ($("#orb-wifi-country").value || "US").toUpperCase().trim(),
     // Installer config — mirrored from the recipe's install block
     // into flat Mustache variables that _common.yaml's installer
     // heredoc interpolates. Empty strings when the recipe has no

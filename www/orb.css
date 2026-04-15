@@ -122,6 +122,33 @@ a:hover {
   cursor: not-allowed;
 }
 
+.orb-password-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.orb-password-field input {
+  flex: 1;
+  padding-right: 2.5em !important;
+}
+
+.orb-toggle-pw {
+  position: absolute;
+  right: 0.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 0.25em;
+  opacity: 0.5;
+  color: inherit;
+}
+
+.orb-toggle-pw:hover {
+  opacity: 1;
+}
+
 #orb-device-description {
   color: #666;
   font-size: 0.9em;
