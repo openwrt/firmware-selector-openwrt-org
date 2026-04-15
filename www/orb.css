@@ -39,6 +39,25 @@ header {
   #orb-advanced {
     background: #231536;
     border-color: #3d2a57;
+    color: #e8e0f0;
+  }
+
+  #orb-advanced summary {
+    color: #e8e0f0;
+  }
+
+  #orb-advanced p {
+    color: #b0a0c8;
+  }
+
+  #orb-advanced textarea {
+    background: #2a1c3d;
+    color: #e8e0f0;
+    border-color: #3d2a57;
+  }
+
+  #orb-advanced textarea::placeholder {
+    color: #7a6a95;
   }
 
   #orb-status {
