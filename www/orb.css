@@ -110,7 +110,9 @@ header {
   }
 
   #orb-status {
-    color: #e8e0f0;
+    background: #231536 !important;
+    border-left-color: #7a2fd0 !important;
+    color: #e8e0f0 !important;
   }
 }
 
