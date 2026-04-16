@@ -170,6 +170,15 @@ async function onSubmit(e) {
     wifi_password: $("#orb-wifi-password").value,
     wifi_encryption: $("#orb-wifi-encryption").value,
     wifi_country: ($("#orb-wifi-country").value || "US").toUpperCase().trim(),
+    // Band lock: "auto" roams across all bands via scan_list;
+    // locked bands set the radio directly with no scan_list.
+    wifi_band_auto: $("#orb-wifi-band").value === "auto",
+    wifi_radio_band: {
+      auto: "5g", "2g": "2g", "5g": "5g", "6g": "6g",
+    }[$("#orb-wifi-band").value] || "5g",
+    wifi_radio_htmode: {
+      auto: "HE80", "2g": "HE20", "5g": "HE80", "6g": "EHT80",
+    }[$("#orb-wifi-band").value] || "HE80",
     // Installer config — mirrored from the recipe's install block
     // into flat Mustache variables that _common.yaml's installer
     // heredoc interpolates. Empty strings when the recipe has no
