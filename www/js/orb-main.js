@@ -136,6 +136,52 @@ async function onSubmit(e) {
   const recipe = state.currentRecipe;
   if (!recipe) return;
 
+  // If the recipe uses a custom branch (custom-built ImageBuilder),
+  // check the builder API to ensure it's ready before submitting to
+  // ASU. If not ready, trigger a build and poll until complete.
+  if (recipe.custom_branch) {
+    const statusEl = $("#orb-status");
+    show(statusEl);
+    statusEl.innerText = "Checking custom ImageBuilder status...";
+    statusEl.classList.remove("orb-status-error", "orb-status-success");
+
+    try {
+      let res = await fetch(`/builder/status/${recipe.custom_branch}`);
+      let status = await res.json();
+
+      if (!status.ready) {
+        if (!status.building) {
+          // Trigger the build
+          await fetch(`/builder/build/${recipe.custom_branch}`, { method: "POST" });
+          statusEl.innerText = "Building custom ImageBuilder — this takes ~45 minutes...";
+        }
+
+        // Poll until ready
+        while (!status.ready) {
+          if (status.building) {
+            const elapsed = Math.floor((status.elapsed_seconds || 0) / 60);
+            const eta = status.eta_minutes || "?";
+            statusEl.innerText = `Building custom ImageBuilder... ${elapsed}m elapsed, ~${eta}m remaining`;
+          } else if (status.error) {
+            statusEl.innerText = `ImageBuilder build failed: ${status.error}`;
+            statusEl.classList.add("orb-status-error");
+            $("#orb-build").disabled = false;
+            return;
+          }
+          await new Promise((r) => setTimeout(r, 10000));
+          res = await fetch(`/builder/status/${recipe.custom_branch}`);
+          status = await res.json();
+        }
+        statusEl.innerText = "Custom ImageBuilder ready. Submitting build...";
+      }
+    } catch (err) {
+      statusEl.innerText = `Builder check failed: ${err.message}`;
+      statusEl.classList.add("orb-status-error");
+      $("#orb-build").disabled = false;
+      return;
+    }
+  }
+
   // Resolve repository keys BEFORE assembling the defaults script so
   // the first key (by convention: the Orb apk signing key) can be
   // Mustache-substituted into _common.yaml's feed-persistence block.
