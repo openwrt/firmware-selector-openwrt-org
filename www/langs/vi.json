@@ -40,5 +40,9 @@
     "tr-sdcard-help": "Image được dùng để flash vào Thẻ SD.",
     "tr-tftp-help": "Image TFTP được sử dụng để flash thiết bị thông qua phương thức TFTP của bộ khởi động.",
     "tr-defaults": "Đoạn mã để chạy cho lần khởi động đầu tiên (mặc định của uci)",
-    "tr-latest-releases": "Mới nhất"
+    "tr-latest-releases": "Mới nhất",
+    "tr-started": "Đã bắt đầu build",
+    "tr-container-setup": "Cài đặt container",
+    "tr-queued": "Yêu cầu đang trong hàng đợi biên dịch",
+    "tr-validate-manifest": "Xác thực manifest"
 }
