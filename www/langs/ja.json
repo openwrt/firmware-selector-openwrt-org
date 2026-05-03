@@ -42,5 +42,7 @@
     "tr-defaults": "初回起動時に実行されるスクリプト (uci-defaults)",
     "tr-latest-releases": "最新版",
     "tr-validate-manifest": "マニフェストを検証",
-    "tr-container-setup": "コンテナのセットアップ"
+    "tr-container-setup": "コンテナのセットアップ",
+    "tr-started": "ビルド開始",
+    "tr-queued": "キュー待機中です"
 }
