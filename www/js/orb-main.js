@@ -78,12 +78,25 @@ function wireForm() {
     // their packages merged into the request.
     renderOptions(state.currentRecipe);
 
-    // Show Wi-Fi fields only for recipes with capabilities.wifi.
+    // Show Wi-Fi fields when the recipe has capabilities.wifi AND the
+    // selected Wi-Fi module is not "none". If the recipe uses a
+    // wifi_module option, the dropdown drives visibility; otherwise
+    // capabilities.wifi alone controls it.
     const wifiGroup = $("#orb-wifi-group");
-    if (state.currentRecipe?.capabilities?.wifi) {
-      show(wifiGroup);
-    } else {
-      hide(wifiGroup);
+    const updateWifiVisibility = () => {
+      const moduleSelect = document.getElementById("orb-opt-wifi_module");
+      const hasWifi = state.currentRecipe?.capabilities?.wifi;
+      const moduleSelected = !moduleSelect || moduleSelect.value !== "none";
+      if (hasWifi && moduleSelected) {
+        show(wifiGroup);
+      } else {
+        hide(wifiGroup);
+      }
+    };
+    updateWifiVisibility();
+    const moduleSelect = document.getElementById("orb-opt-wifi_module");
+    if (moduleSelect) {
+      moduleSelect.addEventListener("change", updateWifiVisibility);
     }
 
     // Show the "Install to eMMC" group only for recipes that declare
@@ -104,6 +117,18 @@ function wireForm() {
 
   form.addEventListener("input", validateForm);
   form.addEventListener("submit", onSubmit);
+
+  // System telemetry: show/hide the URL/credentials sub-fields based
+  // on the enable checkbox. Independent of recipe/device selection.
+  const telemetryCheckbox = $("#orb-telemetry-enabled");
+  const telemetryFields = $("#orb-telemetry-fields");
+  telemetryCheckbox.addEventListener("change", () => {
+    if (telemetryCheckbox.checked) {
+      show(telemetryFields);
+    } else {
+      hide(telemetryFields);
+    }
+  });
 
   // Password show/hide toggles
   document.querySelectorAll(".orb-toggle-pw").forEach((btn) => {
@@ -200,6 +225,19 @@ async function onSubmit(e) {
   const installToEmmc =
     !!installBlock && $("#orb-install-to-emmc").checked;
 
+  // Selected recipe options (e.g. {wifi_module: "intel_be200"}).
+  // Used both for package merging and to look up the chosen Wi-Fi
+  // module's optional wifi_temp_probe override snippet.
+  const selectedOptions = collectSelectedOptions(recipe);
+  const wifiModuleKey = selectedOptions.wifi_module;
+  const wifiTempProbeOverride =
+    recipe.options?.wifi_module?.choices?.[wifiModuleKey]?.wifi_temp_probe || "";
+
+  // Telemetry: only meaningful when the enable checkbox is checked.
+  // Empty fields are tolerated (trust the user); a misconfigured
+  // telegraf will just retry-and-fail at runtime, no build-time block.
+  const telemetryEnabled = $("#orb-telemetry-enabled").checked;
+
   const formValues = {
     orb_token: $("#orb-token").value.trim(),
     root_password: $("#orb-root-password").value,
@@ -235,6 +273,18 @@ async function onSubmit(e) {
     install_emmc_device: installBlock?.emmc_device || "",
     install_size_from_partition: installBlock?.size_from_partition || "",
     install_status_led: installBlock?.status_led || "",
+    // System telemetry — _common.yaml's {{#telemetry_enabled}} section
+    // wraps the entire telegraf install/config block.
+    telemetry_enabled: telemetryEnabled,
+    telemetry_url: $("#orb-telemetry-url").value.trim(),
+    telemetry_username: $("#orb-telemetry-username").value.trim(),
+    telemetry_password: $("#orb-telemetry-password").value,
+    telemetry_include_wireless: $("#orb-telemetry-include-wireless").checked,
+    // Verbatim shell snippet from the selected Wi-Fi module's
+    // wifi_temp_probe field (if any). Substituted into the wifi-temp.sh
+    // helper ahead of the generic hwmon scan; if it `exit 0`s on
+    // success, the generic scan is skipped.
+    wifi_temp_probe_override: wifiTempProbeOverride,
   };
   const extraDefaults = $("#orb-extra-defaults").value;
 
@@ -261,7 +311,13 @@ async function onSubmit(e) {
     // bunch of busybox applets. That's the upstream selector's mode
     // (it pre-fills a textarea with the full default list), but it's
     // the wrong shape for a recipe system.
-    packages: mergedPackages(state.common, recipe, collectSelectedOptions(recipe)),
+    packages: [
+      ...mergedPackages(state.common, recipe, selectedOptions),
+      // telegraf-full ships all input/output plugins. The lite "telegraf"
+      // package omits temp, wireless, and others we use, causing telegraf
+      // to bail at startup with "undefined but requested input".
+      ...(telemetryEnabled ? ["telegraf-full"] : []),
+    ],
     diff_packages: false,
     repositories: recipe.repositories || {},
     repositories_mode: "append",

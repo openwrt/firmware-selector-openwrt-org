@@ -135,6 +135,61 @@
             <p id="orb-install-hint" class="orb-hint"></p>
           </div>
 
+          <details id="orb-telemetry">
+            <summary>System telemetry (optional)</summary>
+            <p class="orb-hint">
+              Push CPU, memory, disk, and temperature metrics from this probe
+              to a self-hosted
+              <a href="https://github.com/orbforge/orb-local-analytics" target="_blank" rel="noopener">orb-local-analytics</a>
+              stack. Credentials are baked into the image and cannot be
+              changed without reflashing.
+            </p>
+            <label class="orb-checkbox-label">
+              <input type="checkbox" id="orb-telemetry-enabled" />
+              <span>Enable system telemetry</span>
+            </label>
+            <div id="orb-telemetry-fields" class="hide">
+              <div>
+                <label for="orb-telemetry-url">Endpoint URL</label>
+                <input
+                  id="orb-telemetry-url"
+                  type="text"
+                  placeholder="http://analytics.local:7082/write"
+                  autocomplete="off"
+                  spellcheck="false"
+                />
+              </div>
+              <div>
+                <label for="orb-telemetry-username">Username</label>
+                <input
+                  id="orb-telemetry-username"
+                  type="text"
+                  value="orb-system"
+                  autocomplete="off"
+                  spellcheck="false"
+                />
+              </div>
+              <div>
+                <label for="orb-telemetry-password">Password</label>
+                <div class="orb-password-field">
+                  <input
+                    id="orb-telemetry-password"
+                    type="password"
+                    autocomplete="off"
+                  />
+                  <button type="button" class="orb-toggle-pw" data-target="orb-telemetry-password" title="Show/hide password">show</button>
+                </div>
+              </div>
+              <label class="orb-checkbox-label">
+                <input type="checkbox" id="orb-telemetry-include-wireless" />
+                <span>Include Wi-Fi link stats (signal/bitrate/etc.)</span>
+              </label>
+              <p class="orb-hint">
+                Wi-Fi link stats are redundant with Orb's own wifi_link dataset; leave off unless running without Orb.
+              </p>
+            </div>
+          </details>
+
           <details id="orb-advanced">
             <summary>Advanced: additional uci-defaults</summary>
             <p>
