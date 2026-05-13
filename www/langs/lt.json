@@ -44,5 +44,6 @@
     "tr-validate-manifest": "Patikrinti manifestą",
     "tr-container-setup": "Sąrankos konteineris",
     "tr-started": "Laikmena pradėta",
-    "tr-queued": "Užklauso yra laikmenos eilėje"
+    "tr-queued": "Užklauso yra laikmenos eilėje",
+    "tr-validate-revision": "Patvirtinti poversijį"
 }
