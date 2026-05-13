@@ -44,5 +44,6 @@
     "tr-validate-manifest": "验证清单",
     "tr-container-setup": "设置容器",
     "tr-started": "开始构建",
-    "tr-queued": "请求位于构建队列中"
+    "tr-queued": "请求位于构建队列中",
+    "tr-validate-revision": "验证版本"
 }

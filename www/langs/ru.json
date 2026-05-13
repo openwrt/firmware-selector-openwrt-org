@@ -44,5 +44,6 @@
     "tr-validate-manifest": "Проверить манифест",
     "tr-container-setup": "Настройка контейнера",
     "tr-started": "Сборка начата",
-    "tr-queued": "Запрос в очереди на сборку"
+    "tr-queued": "Запрос в очереди на сборку",
+    "tr-validate-revision": "Проверка ревизии"
 }

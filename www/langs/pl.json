@@ -44,5 +44,6 @@
     "tr-container-setup": "Konfigurowanie kontenera",
     "tr-validate-manifest": "Sprawdzanie poprawności manifestu",
     "tr-started": "Rozpoczęto kompilowanie",
-    "tr-queued": "Żądanie znajduje się w kolejce kompilacji"
+    "tr-queued": "Żądanie znajduje się w kolejce kompilacji",
+    "tr-validate-revision": "Sprawdzanie poprawności wersji"
 }
