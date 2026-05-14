@@ -44,5 +44,6 @@
     "tr-validate-manifest": "Convalida il manifest",
     "tr-container-setup": "Configura il container",
     "tr-started": "Build iniziata",
-    "tr-queued": "La richiesta è nella coda delle build"
+    "tr-queued": "La richiesta è nella coda delle build",
+    "tr-validate-revision": "Convalida la revisione"
 }

@@ -44,5 +44,6 @@
     "tr-container-setup": "Nastavování kontejneru",
     "tr-validate-manifest": "Ověřování deklarace",
     "tr-started": "Sestavování zahájeno",
-    "tr-queued": "Požadavek je ve frontě sestavování"
+    "tr-queued": "Požadavek je ve frontě sestavování",
+    "tr-validate-revision": "Ověřit revizi"
 }
