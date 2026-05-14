@@ -44,5 +44,6 @@
     "tr-validate-manifest": "驗證清單",
     "tr-container-setup": "設定容器",
     "tr-started": "建置已開始",
-    "tr-queued": "請求已在建置佇列中"
+    "tr-queued": "請求已在建置佇列中",
+    "tr-validate-revision": "驗證修訂"
 }
