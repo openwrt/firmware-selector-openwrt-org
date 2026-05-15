@@ -10,7 +10,7 @@ export function hide(query) {
 }
 
 export function split(str) {
-  return str.match(/[^\s,]+/g) || [];
+  return str.replace(/\r?\n/g, "").match(/[^\s,]+/g) || [];
 }
 
 export function htmlToElement(html) {
