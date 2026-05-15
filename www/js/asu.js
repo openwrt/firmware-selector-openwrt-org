@@ -80,7 +80,7 @@ export function createAsuRequestBuilder(context) {
     const buildBody = {
       profile: currentDevice.id,
       target: currentDevice.target,
-      packages: split($("#asu-packages").value),
+      packages: split($("#asu-packages").value.replace(/\r?\n/g, "").trim().replace(/ {2,}/g, " ")),
       defaults: $("#uci-defaults-content").value,
       version_code: $("#image-code").innerText,
       version: selectedVersion,
