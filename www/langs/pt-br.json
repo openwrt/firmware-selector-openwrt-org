@@ -44,5 +44,6 @@
     "tr-validate-manifest": "Validando manifesto",
     "tr-container-setup": "Configurando contêiner",
     "tr-started": "Compilação iniciada",
-    "tr-queued": "A solicitação está na fila de compilação"
+    "tr-queued": "A solicitação está na fila de compilação",
+    "tr-validate-revision": "Validando revisão"
 }

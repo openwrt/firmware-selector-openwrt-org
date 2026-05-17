@@ -44,5 +44,6 @@
     "tr-validate-manifest": "Підтвердити маніфест",
     "tr-container-setup": "Налаштування контейнера",
     "tr-started": "Збірка розпочалася",
-    "tr-queued": "Запит у черзі на збірку"
+    "tr-queued": "Запит у черзі на збірку",
+    "tr-validate-revision": "Перевірка версії"
 }
