@@ -44,5 +44,6 @@
     "tr-validate-manifest": "Manifestoyu doğrula",
     "tr-container-setup": "Kurulum konteyneri",
     "tr-started": "İnşa başladı",
-    "tr-queued": "İstek inşa sırasındadır"
+    "tr-queued": "İstek inşa sırasındadır",
+    "tr-validate-revision": "Revizyonu doğrula"
 }
