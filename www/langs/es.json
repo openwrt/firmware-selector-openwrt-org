@@ -44,5 +44,6 @@
     "tr-validate-manifest": "Validar manifiesto",
     "tr-container-setup": "Configurar contenedor",
     "tr-started": "Construcción iniciada",
-    "tr-queued": "Solicitud está en la cola de construcción"
+    "tr-queued": "Solicitud está en la cola de construcción",
+    "tr-validate-revision": "Validar revisión"
 }
