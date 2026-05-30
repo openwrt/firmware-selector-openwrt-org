@@ -42,5 +42,8 @@
     "tr-download-imagebuilder": "S'està descarregant l'arxiu ImageBuilder",
     "tr-latest-releases": "Última",
     "tr-container-setup": "S'està preparant el contenidor",
-    "tr-validate-manifest": "S'està validant el manifest"
+    "tr-validate-manifest": "S'està validant el manifest",
+    "tr-started": "La compilació ha començat",
+    "tr-queued": "La petició és a la cua de compilació",
+    "tr-validate-revision": "S'està validant la revisió"
 }
