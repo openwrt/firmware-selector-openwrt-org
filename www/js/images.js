@@ -222,6 +222,7 @@ export function updateImages(version, mobj, context) {
     const links2 = $("#download-links2");
     const extras2 = $("#download-extras2");
 
+    // populate desktop view
     for (const image of sortImages(mobj.images)) {
       const link = createLink(mobj, image, mobj.image_folder);
       const extra = createExtra(image, config);
@@ -231,6 +232,7 @@ export function updateImages(version, mobj, context) {
       row.appendChild(extra);
     }
 
+    // populate mobile view
     for (const image of sortImages(mobj.images)) {
       const link = createLink(mobj, image, mobj.image_folder);
       const extra = createExtra(image, config);
