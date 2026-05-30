@@ -249,7 +249,7 @@ export function updateImages(version, mobj, context) {
         link.firstChild.classList.add("download-link-hover");
 
         extras2.childNodes.forEach((e) => hide(e));
-        hide(extra);
+        show(extra);
       };
     }
 
