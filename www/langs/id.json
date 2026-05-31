@@ -40,5 +40,10 @@
     "tr-unpack-imagebuilder": "Menyiapkan ImageBuilder",
     "tr-packages": "Paket Terinstall",
     "tr-defaults": "Skript berjalan waktu boot pertama (uci-defaults)",
-    "tr-latest-releases": "Terbaru"
+    "tr-latest-releases": "Terbaru",
+    "tr-started": "Build dimulai",
+    "tr-queued": "Permintaan dalam antrian build",
+    "tr-validate-revision": "Validasi revisi",
+    "tr-validate-manifest": "Validasi manifes",
+    "tr-container-setup": "Menyiapkan container"
 }
