@@ -2,6 +2,18 @@
 
 Short summaries of recent changes for people who don't use `git shortlog`
 
+## v5.1.0 - 2026-05-31
+
+* split source code into multiple files
+* update multiple translations
+* add Laotian translation
+* add feature to configure device-specific packages
+* add luci-app-attendedsysupgrade to package defaults in config.js
+* show sha256 hash and help text for mobile view again
+* ASU: allow to add additional repositories to asu build request
+* ASU: more detailed progress messages
+* ASU: add CIDR to lan address to default script
+
 ## v5.0.4 - 2025-10-06
 
 * ASU: handle all non-200 requests as errors
