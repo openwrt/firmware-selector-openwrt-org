@@ -42,5 +42,8 @@
     "tr-defaults": "Skript som skall köras vid första uppstarten (uci-defaults)",
     "tr-latest-releases": "Senaste",
     "tr-validate-manifest": "Validera manifestet",
-    "tr-container-setup": "Skapa kontiner"
+    "tr-container-setup": "Skapa kontiner",
+    "tr-started": "Bygge startat",
+    "tr-queued": "Förfrågan finns i byggkön",
+    "tr-validate-revision": "Validera revision"
 }
