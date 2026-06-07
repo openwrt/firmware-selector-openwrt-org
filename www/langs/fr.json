@@ -44,5 +44,6 @@
     "tr-started": "Debut de la construction",
     "tr-queued": "La demande est en attente de traitement",
     "tr-validate-manifest": "Valider le manifeste",
-    "tr-container-setup": "Configurer le conteneur"
+    "tr-container-setup": "Configurer le conteneur",
+    "tr-validate-revision": "Valider la révision"
 }
