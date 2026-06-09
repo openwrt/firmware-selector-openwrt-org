@@ -44,5 +44,6 @@
     "tr-started": "Đã bắt đầu build",
     "tr-container-setup": "Cài đặt container",
     "tr-queued": "Yêu cầu đang trong hàng đợi biên dịch",
-    "tr-validate-manifest": "Xác thực manifest"
+    "tr-validate-manifest": "Xác thực manifest",
+    "tr-validate-revision": "Xác thực bản sửa đổi"
 }
