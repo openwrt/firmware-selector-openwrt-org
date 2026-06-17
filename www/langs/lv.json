@@ -7,7 +7,7 @@
     "tr-links": "Saites",
     "tr-title": "OpenWrt aparātprogrammatūras atlasītājs",
     "tr-server-link": "Visas lejupielādes",
-    "tr-not-found": "Netika atrasts neviens modelis.",
+    "tr-not-found": "Netika atrasts neviens modelis!",
     "tr-load": "Lejupielādēt OpenWrt aparātprogrammatūru savai ierīcei",
     "tr-message": "Jāieraksta savas ierīces nosaukums vai modelis, pēc tam jāatlasa noturīgais vai iknakts \"mirkļuzņēmuma\" būvējums.",
     "tr-version-build": "Par šo būvējumu",
