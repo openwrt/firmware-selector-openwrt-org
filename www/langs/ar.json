@@ -42,5 +42,8 @@
     "tr-defaults": "البرنامج النصي المراد تشغيله عند التمهيد الأول (uci - defaults)",
     "tr-latest-releases": "الأحدث",
     "tr-validate-manifest": "التحقق من صحة البيان",
-    "tr-container-setup": "إعداد الحاوية"
+    "tr-container-setup": "تهيئة الحاوية",
+    "tr-started": "تم الشروع في البناء",
+    "tr-queued": "البناء في قائمة الطلب",
+    "tr-validate-revision": "تحقق من المراجعة"
 }
