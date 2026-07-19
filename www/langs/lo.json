@@ -44,5 +44,6 @@
     "tr-validate-manifest": "ກຳລັງກວດສອບ manifest",
     "tr-container-setup": "ກຳລັງຕັ້ງຄ່າຄອນເທນເນີ",
     "tr-packages": "ແພັກເກັດທີ່ຕິດຕັ້ງ",
-    "tr-defaults": "ສະຄຣິບທີ່ຈະເຮັດວຽກໃນການບູດຄັ້ງທຳອິດ (uci-defaults)"
+    "tr-defaults": "ສະຄຣິບທີ່ຈະເຮັດວຽກໃນການບູດຄັ້ງທຳອິດ (uci-defaults)",
+    "tr-validate-revision": "ກວດສອບຄວາມຖືກຕ້ອງຂອງສະບັບປັບປຸງ"
 }
