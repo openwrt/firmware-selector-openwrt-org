@@ -52,14 +52,26 @@ export function createAsuRequestBuilder(context) {
     }
 
     const tr = message.startsWith("tr-") ? message.replaceAll("_", "-") : "";
-    let status = "";
+    const spanContainer = $("#asu-buildstatus span");
+    spanContainer.textContent = "";
+
     if (loading) {
-      status += `<progress style='margin-right: 10px;' max='100' value=${
-        progress[tr] || ""
-      }></progress>`;
+      const progressElem = document.createElement("progress");
+      progressElem.style.marginRight = "10px";
+      progressElem.max = 100;
+      if (progress[tr]) {
+        progressElem.value = progress[tr];
+      }
+      spanContainer.appendChild(progressElem);
     }
-    status += `<span class="${tr}">${message}</span>`;
-    $("#asu-buildstatus span").innerHTML = status;
+
+    const msgSpan = document.createElement("span");
+    if (tr) {
+      msgSpan.className = tr;
+    }
+    msgSpan.textContent = message;
+    spanContainer.appendChild(msgSpan);
+
     translate();
   }
 
