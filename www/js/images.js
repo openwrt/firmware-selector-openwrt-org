@@ -199,7 +199,7 @@ export function updateImages(version, mobj, context) {
     setValue(
       "#image-info",
       (config.info_url || "")
-        .replace("{title}", encodeURI($("#models").value))
+        .replace("{title}", encodeURIComponent($("#models").value))
         .replace("{target}", mobj.target)
         .replace("{id}", mobj.id)
         .replace("{version}", mobj.version_number)
