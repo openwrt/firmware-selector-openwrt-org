@@ -124,6 +124,7 @@ export function setupAutocompleteList(input, items, onbegin, onend) {
     if (currentFocus < 0) currentFocus = xs.length - 1;
     xs[currentFocus].classList.add("autocomplete-active");
     xs[currentFocus].setAttribute("tabindex", "0");
+    xs[currentFocus].scrollIntoView({ block: "nearest" });
     return true;
   }
 
