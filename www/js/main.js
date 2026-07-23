@@ -120,8 +120,6 @@ async function init() {
     }
   }
 
-  console.log("versions: " + config.versions);
-
   setupSelectList(
     $("#versions"),
     config.versions,

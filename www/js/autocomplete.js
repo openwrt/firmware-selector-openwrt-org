@@ -95,13 +95,13 @@ export function setupAutocompleteList(input, items, onbegin, onend) {
   input.onkeydown = function (e) {
     let x = document.getElementById(this.id + "-autocomplete-list");
     if (x) x = x.getElementsByTagName("div");
-    if (e.keyCode === 40) {
+    if (e.key === "ArrowDown" || e.keyCode === 40) {
       currentFocus += 1;
       setActive(x);
-    } else if (e.keyCode === 38) {
+    } else if (e.key === "ArrowUp" || e.keyCode === 38) {
       currentFocus -= 1;
       setActive(x);
-    } else if (e.keyCode === 13) {
+    } else if (e.key === "Enter" || e.keyCode === 13) {
       e.preventDefault();
       if (currentFocus > -1) {
         if (x) x[currentFocus].click();
