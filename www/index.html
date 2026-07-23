@@ -19,7 +19,7 @@
         </a>
         <div style="flex-grow: 1"></div>
         <div>
-          <select id="languages-select">
+          <select id="languages-select" aria-label="Language selection">
             <option value="ar">العربية (Arabic)</option>
             <option value="ast">Asturianu (Asturian)</option>
             <option value="bg">български (Bulgarian)</option>
@@ -97,7 +97,7 @@
             autocapitalize="off"
             autofocus
           />
-          <select id="versions" size="1"></select>
+          <select id="versions" size="1" aria-label="Version"></select>
         </div>
 
         <div id="notfound" class="hide">
@@ -129,9 +129,13 @@
             <div class="row">
               <div class="col1 tr-links">Links</div>
               <div class="col2">
-                <a id="image-folder" href="#"></a>
-                <a id="image-info" href="#"></a>
-                <a id="image-link" href="#"></a>
+                <a id="image-folder" href="#" aria-label="Target folder"></a>
+                <a id="image-info" href="#" aria-label="Device information"></a>
+                <a
+                  id="image-link"
+                  href="#"
+                  aria-label="Direct link to selection"
+                ></a>
               </div>
             </div>
             <div class="row">
@@ -159,22 +163,26 @@
                   </div>
                 </div>
                 <div>
-                  <h4 class="tr-packages">Installed Packages</h4>
+                  <h4 class="tr-packages" id="asu-packages-label">
+                    Installed Packages
+                  </h4>
                   <textarea
                     rows="10"
                     id="asu-packages"
+                    aria-labelledby="asu-packages-label"
                     autocomplete="off"
                     spellcheck="false"
                     autocapitalize="off"
                   ></textarea>
                 </div>
-                <h4 class="tr-defaults">
+                <h4 class="tr-defaults" id="uci-defaults-label">
                   Script to run on first boot (uci-defaults)
                 </h4>
                 <div id="uci-defaults-group">
                   <textarea
                     rows="10"
                     id="uci-defaults-content"
+                    aria-labelledby="uci-defaults-label"
                     autocomplete="off"
                     spellcheck="false"
                     autocapitalize="off"
