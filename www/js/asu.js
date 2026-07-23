@@ -110,7 +110,6 @@ export function createAsuRequestBuilder(context) {
       .then((response) => {
         switch (response.status) {
           case 200:
-            showStatus("tr-build-successful", false, "info");
             response.json().then((mobj) => {
               if ("stderr" in mobj) {
                 $("#asu-stderr").innerText = mobj.stderr;
@@ -133,9 +132,9 @@ export function createAsuRequestBuilder(context) {
                 "info"
               );
               if (mobj.queue_position) {
-                $(
-                  "#asu-buildstatus span"
-                ).innerText += ` (${mobj.queue_position})`;
+                $("#asu-buildstatus span").appendChild(
+                  document.createTextNode(` (${mobj.queue_position})`)
+                );
               }
               setTimeout(buildAsuRequest.bind(null, mobj.request_hash), 5000);
             });

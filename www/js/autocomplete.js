@@ -9,7 +9,7 @@ export function match(value, patterns) {
     matches.push({ begin: i, length: p.length });
   }
 
-  matches.sort((a, b) => a.begin > b.begin);
+  matches.sort((a, b) => a.begin - b.begin);
 
   let prev = null;
   const ranges = [];
