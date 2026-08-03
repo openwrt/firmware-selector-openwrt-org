@@ -44,5 +44,6 @@
     "tr-validate-manifest": "マニフェストを検証",
     "tr-container-setup": "コンテナのセットアップ",
     "tr-started": "ビルド開始",
-    "tr-queued": "キュー待機中です"
+    "tr-queued": "キュー待機中です",
+    "tr-validate-revision": "リビジョンを検証"
 }
