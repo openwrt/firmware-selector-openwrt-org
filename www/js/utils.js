@@ -13,12 +13,6 @@ export function split(str) {
   return str.match(/[^\s,]+/g) || [];
 }
 
-export function htmlToElement(html) {
-  const e = document.createElement("template");
-  e.innerHTML = html.trim();
-  return e.content.firstChild;
-}
-
 export function showAlert(message) {
   $("#alert").innerText = message;
   show("#alert");
