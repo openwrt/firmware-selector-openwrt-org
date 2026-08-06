@@ -1,13 +1,4 @@
-import {
-  $,
-  $$,
-  append,
-  formatDate,
-  hide,
-  htmlToElement,
-  setValue,
-  show,
-} from "./utils.js";
+import { $, $$, append, formatDate, hide, setValue, show } from "./utils.js";
 import { translate } from "./translation.js";
 
 export function getModelTitles(titles) {
@@ -91,22 +82,30 @@ function createLink(mobj, image, imageUrl) {
     label += ` (${extra})`;
   }
 
-  return htmlToElement(
-    `<td><a href="${href}" class="download-link"><span></span>${label.toUpperCase()}</a></td>`
-  );
+  const td = document.createElement("td");
+  const link = document.createElement("a");
+  link.href = href;
+  link.className = "download-link";
+  link.appendChild(document.createElement("span"));
+  link.appendChild(document.createTextNode(label.toUpperCase()));
+  td.appendChild(link);
+  return td;
 }
 
 function createExtra(image, config) {
-  return htmlToElement(
-    "<td>" +
-      (config.show_help
-        ? `<div class="help-content ${getHelpTextClass(image)}"></div>`
-        : "") +
-      (image.sha256
-        ? `<div class="hash-content">sha256sum: ${image.sha256}</div>`
-        : "") +
-      "</td>"
-  );
+  const td = document.createElement("td");
+  if (config.show_help) {
+    const help = document.createElement("div");
+    help.className = `help-content ${getHelpTextClass(image)}`;
+    td.appendChild(help);
+  }
+  if (image.sha256) {
+    const hash = document.createElement("div");
+    hash.className = "hash-content";
+    hash.textContent = `sha256sum: ${image.sha256}`;
+    td.appendChild(hash);
+  }
+  return td;
 }
 
 export function sortImages(images) {
@@ -199,7 +198,7 @@ export function updateImages(version, mobj, context) {
     setValue(
       "#image-info",
       (config.info_url || "")
-        .replace("{title}", encodeURI($("#models").value))
+        .replace("{title}", encodeURIComponent($("#models").value))
         .replace("{target}", mobj.target)
         .replace("{id}", mobj.id)
         .replace("{version}", mobj.version_number)

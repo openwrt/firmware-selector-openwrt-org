@@ -72,15 +72,24 @@ export function setupAutocompleteList(input, items, onbegin, onend) {
 
       const div = document.createElement("DIV");
       let prev = 0;
-      let html = "";
       for (const m of matches) {
-        html += item.substr(prev, m.begin - prev);
-        html += `<strong>${item.substr(m.begin, m.length)}</strong>`;
+        if (m.begin > prev) {
+          div.appendChild(
+            document.createTextNode(item.substr(prev, m.begin - prev))
+          );
+        }
+        const strong = document.createElement("strong");
+        strong.textContent = item.substr(m.begin, m.length);
+        div.appendChild(strong);
         prev = m.begin + m.length;
       }
-      html += item.substr(prev);
-      html += `<input type="hidden" value="${item}">`;
-      div.innerHTML = html;
+      if (prev < item.length) {
+        div.appendChild(document.createTextNode(item.substr(prev)));
+      }
+      const hiddenInput = document.createElement("input");
+      hiddenInput.type = "hidden";
+      hiddenInput.value = item;
+      div.appendChild(hiddenInput);
 
       div.addEventListener("click", function () {
         input.value = this.getElementsByTagName("input")[0].value;

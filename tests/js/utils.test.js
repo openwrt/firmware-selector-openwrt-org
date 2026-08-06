@@ -9,7 +9,6 @@ import {
   setValue,
   showAlert,
   hideAlert,
-  htmlToElement,
   append,
 } from "../../www/js/utils.js";
 
@@ -127,7 +126,13 @@ describe("setValue", () => {
     el.closest = () => row;
     const orig = document._qsImpl;
     document._qsImpl = () => el;
-    return { el, row, restore: () => { document._qsImpl = orig; } };
+    return {
+      el,
+      row,
+      restore: () => {
+        document._qsImpl = orig;
+      },
+    };
   }
 
   it("sets innerText and shows element for non-anchor with non-empty value", () => {
@@ -190,19 +195,6 @@ describe("hideAlert", () => {
   });
 });
 
-describe("htmlToElement", () => {
-  it("creates a template element and returns content.firstChild", () => {
-    const sentinel = { id: "child-node" };
-    const tmpl = { innerHTML: "", content: { firstChild: sentinel } };
-    const orig = document._createImpl;
-    document._createImpl = () => tmpl;
-    const result = htmlToElement("  <div>test</div>  ");
-    assert.equal(result, sentinel);
-    assert.equal(tmpl.innerHTML, "<div>test</div>");
-    document._createImpl = orig;
-  });
-});
-
 describe("append", () => {
   it("creates element with given tag and appends to parent", () => {
     const child = mockElement({ tagName: "TR" });
@@ -212,7 +204,11 @@ describe("append", () => {
       return child;
     };
     let appended = null;
-    const parent = { appendChild(el) { appended = el; } };
+    const parent = {
+      appendChild(el) {
+        appended = el;
+      },
+    };
     const result = append(parent, "TR");
     assert.equal(result, child);
     assert.equal(result.tagName, "TR");
