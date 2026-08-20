@@ -40,5 +40,6 @@
     "tr-download-imagebuilder": "Sťahovanie archívu ImageBuilder",
     "tr-packages": "Nainštalované balíky",
     "tr-defaults": "Skript spustený pri prvom spustení systému (uci-defaults)",
-    "tr-latest-releases": "Najnovšie"
+    "tr-latest-releases": "Najnovšie",
+    "tr-started": "Build začal"
 }
