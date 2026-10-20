@@ -42,5 +42,8 @@
     "tr-defaults": "Script de executat la prima pornire (uci-defaults)",
     "tr-latest-releases": "Cea mai recentă",
     "tr-validate-manifest": "Validați manifestul",
-    "tr-container-setup": "Configurați containerul"
+    "tr-container-setup": "Configurați containerul",
+    "tr-queued": "Solicitarea este în coada de compilare",
+    "tr-validate-revision": "Validare revizuire",
+    "tr-started": "Construcția a început"
 }
