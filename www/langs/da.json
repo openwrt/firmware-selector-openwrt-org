@@ -42,5 +42,8 @@
     "tr-defaults": "Script, der skal køres ved første opstart (uci-defaults)",
     "tr-latest-releases": "Seneste",
     "tr-container-setup": "Opsæt container",
-    "tr-validate-manifest": "Kontroller manifest"
+    "tr-validate-manifest": "Kontroller manifest",
+    "tr-started": "Build startet",
+    "tr-queued": "Anmod er i build kø",
+    "tr-validate-revision": "Validering af revision"
 }
