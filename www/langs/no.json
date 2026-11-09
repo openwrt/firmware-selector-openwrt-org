@@ -42,5 +42,7 @@
     "tr-defaults": "Skript som kjøres ved første oppstart (uci-defaults)",
     "tr-latest-releases": "Siste",
     "tr-validate-manifest": "Valider manifest",
-    "tr-container-setup": "Sett opp container"
+    "tr-container-setup": "Sett opp container",
+    "tr-queued": "Forespørselen er i byggekøen",
+    "tr-validate-revision": "Valider revisjon"
 }
