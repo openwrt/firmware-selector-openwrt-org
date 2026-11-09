@@ -1,3 +1,8 @@
 {
-    "tr-latest-releases": "Апошні"
+    "tr-latest-releases": "Апошні",
+    "tr-server-link": "Усе спампоўкі",
+    "tr-not-found": "Мадэль не знойдзена!",
+    "tr-load": "Спампуйце ўбудаваную праграму OpenWrt для сваёй прылады",
+    "tr-links": "Спасылкі",
+    "tr-title": "Выбар убудаванай праграмы OpenWrt"
 }
